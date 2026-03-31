@@ -4,7 +4,7 @@ function renderRatings() {
   const row = document.getElementById('ratings-row');
   row.innerHTML = RATINGS.map(r => {
     const stars = '★'.repeat(r.score) + '☆'.repeat(5 - r.score);
-    return `<div class="rating-card ${r.score === 5 ? 'top' : ''}">
+    return `<div class="rating-card ${r.score === 5 ? 'top' : ''}" onclick="filterByRatingCard('filter-platform','${r.name}','#page-coding .table-section')" style="cursor:pointer" title="点击筛选 ${r.name}">
       <div class="rc-header">
         <span class="rc-name">${r.name}</span>
         <span class="rc-stars">${stars}</span>
