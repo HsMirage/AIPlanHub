@@ -15,6 +15,16 @@ function renderRatings() {
 }
 
 document.addEventListener('DOMContentLoaded', () => {
+  // Theme toggle
+  const saved = localStorage.getItem('theme');
+  if (saved) document.documentElement.setAttribute('data-theme', saved);
+  document.getElementById('theme-toggle').addEventListener('click', () => {
+    const next = document.documentElement.getAttribute('data-theme') === 'light' ? 'dark' : 'light';
+    document.documentElement.setAttribute('data-theme', next === 'dark' ? '' : next);
+    if (next === 'dark') localStorage.removeItem('theme');
+    else localStorage.setItem('theme', next);
+  });
+
   renderRatings();
   populateFilters();
   renderTable(PLANS);
