@@ -1,5 +1,11 @@
 # AI Coding Plan Hub
 
+---
+
+<p align="center"><strong>⭐ <a href="https://github.com/HsMirage/AIPlanHub">AIPlanHub</a> — 一站式对比国内主流 AI 编程订阅方案，覆盖 9 大平台、25+ 套餐，帮你找到性价比最高的选择 ⭐</strong></p>
+
+---
+
 一站式对比国内主流 AI 编程订阅方案，覆盖 9 大平台、25+ 套餐，帮你找到性价比最高的选择。
 
 > 数据更新于 2026.03.31 · 仅供参考，以各平台官方公告为准
