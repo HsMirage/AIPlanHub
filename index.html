@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AI Coding Plan 对比 2026</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles/main.css" />
+</head>
+<body>
+
+<header class="site-header">
+  <div class="header-inner">
+    <div class="header-brand">
+      <span class="brand-icon">⌨</span>
+      <div>
+        <h1>AI Coding Plan 对比 2026</h1>
+        <p class="header-sub">覆盖 9 大平台 · GLM-5.1 · MiniMax-M2.7 Token Plan · Doubao-Seed-2.0 · Qwen3.5-Plus · Kimi-K2.5</p>
+      </div>
+    </div>
+    <div class="header-right">
+      <span class="update-chip">Updated 2026.03.31</span>
+      <a href="https://github.com/HsMirage/AIPlanHub" target="_blank" class="gh-btn">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.477 2 2 6.477 2 12c0 4.418 2.865 8.166 6.839 9.489.5.092.682-.217.682-.482 0-.237-.008-.866-.013-1.7-2.782.603-3.369-1.342-3.369-1.342-.454-1.155-1.11-1.463-1.11-1.463-.908-.62.069-.607.069-.607 1.003.07 1.531 1.03 1.531 1.03.892 1.529 2.341 1.087 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.11-4.555-4.943 0-1.091.39-1.984 1.029-2.683-.103-.253-.446-1.27.098-2.647 0 0 .84-.269 2.75 1.025A9.578 9.578 0 0 1 12 6.836c.85.004 1.705.114 2.504.336 1.909-1.294 2.747-1.025 2.747-1.025.546 1.377.202 2.394.1 2.647.64.699 1.028 1.592 1.028 2.683 0 3.842-2.339 4.687-4.566 4.935.359.309.678.919.678 1.852 0 1.336-.012 2.415-.012 2.741 0 .267.18.578.688.48C19.138 20.163 22 16.418 22 12c0-5.523-4.477-10-10-10z"/></svg>
+        GitHub
+      </a>
+    </div>
+  </div>
+</header>
+
+<main>
+
+  <!-- 平台评分 -->
+  <section class="section ratings-section">
+    <h2 class="section-title">平台推荐</h2>
+    <div class="ratings-row" id="ratings-row"></div>
+  </section>
+
+  <!-- 筛选栏 -->
+  <section class="filter-bar">
+    <div class="filter-row">
+      <div class="filter-item">
+        <label>平台</label>
+        <select id="filter-platform"><option value="">全部</option></select>
+      </div>
+      <div class="filter-item">
+        <label>模型</label>
+        <select id="filter-model"><option value="">全部</option></select>
+      </div>
+      <div class="filter-item">
+        <label>月付上限</label>
+        <select id="filter-price">
+          <option value="">不限</option>
+          <option value="50">≤ ¥50</option>
+          <option value="100">≤ ¥100</option>
+          <option value="200">≤ ¥200</option>
+          <option value="500">≤ ¥500</option>
+        </select>
+      </div>
+      <div class="filter-item">
+        <label>季付上限</label>
+        <select id="filter-quarterly">
+          <option value="">不限</option>
+          <option value="150">≤ ¥150</option>
+          <option value="300">≤ ¥300</option>
+          <option value="600">≤ ¥600</option>
+        </select>
+      </div>
+      <div class="filter-item">
+        <label>年付上限</label>
+        <select id="filter-yearly">
+          <option value="">不限</option>
+          <option value="500">≤ ¥500</option>
+          <option value="1000">≤ ¥1000</option>
+          <option value="2000">≤ ¥2000</option>
+          <option value="5000">≤ ¥5000</option>
+        </select>
+      </div>
+      <button id="reset-btn" class="reset-btn">重置</button>
+      <span id="filter-count" class="filter-count"></span>
+    </div>
+  </section>
+
+  <!-- 数据表 -->
+  <section class="section table-section">
+    <div class="table-wrap">
+      <table id="plans-table">
+        <thead>
+          <tr>
+            <th class="sticky-col" data-sort="platform">平台 <span class="sort-icon">↕</span></th>
+            <th data-sort="name">方案</th>
+            <th>开通</th>
+            <th data-sort="monthly" class="num-col">月付 <span class="sort-icon">↕</span></th>
+            <th data-sort="quarterlyAvg" class="num-col">季付均价 <span class="sort-icon">↕</span></th>
+            <th data-sort="yearlyAvg" class="num-col">年付均价 <span class="sort-icon">↕</span></th>
+            <th data-sort="firstMonth" class="num-col">首月价 <span class="sort-icon">↕</span></th>
+            <th data-sort="req5h" class="num-col">5h请求数 <span class="sort-icon">↕</span></th>
+            <th data-sort="reqMonth" class="num-col">月总请求 <span class="sort-icon">↕</span></th>
+            <th>支持模型</th>
+            <th>额外权益</th>
+            <th>备注</th>
+          </tr>
+        </thead>
+        <tbody id="plans-tbody"></tbody>
+      </table>
+    </div>
+  </section>
+
+  <!-- 说明 -->
+  <section class="section notes-section">
+    <ul class="notes-list">
+      <li>季付均价 = 季付总价 ÷ 3；年付均价 = 年付总价 ÷ 12</li>
+      <li>5h请求数基于「1 prompt ≈ 15次调用」估算</li>
+      <li>部分平台通过邀请链接开通可享额外折扣</li>
+      <li>数据仅供参考，以各平台官方公告为准</li>
+    </ul>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <p>数据更新于 2026.03.31 · <a href="https://github.com/HsMirage/AIPlanHub" target="_blank">GitHub</a> · 仅供参考</p>
+</footer>
+
+<script src="scripts/data.js"></script>
+<script src="scripts/app.js"></script>
+</body>
+</html>
