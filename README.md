@@ -2,7 +2,7 @@
 
 ---
 
-<p align="center"><strong>⭐ <a href="https://github.com/HsMirage/AIPlanHub">AIPlanHub</a> — 一站式对比国内主流 AI 订阅方案，覆盖编程 · 视频 · 音频多场景，帮你找到性价比最高的选择 ⭐</strong></p>
+<p align="center"><strong>⭐ <a href="https://ai.hsnb.fun/aiplanhub">AIPlanHub</a> — 一站式对比国内主流 AI 订阅方案，覆盖编程 · 视频 · 音频多场景，帮你找到性价比最高的选择 ⭐</strong></p>
 
 ---
 
