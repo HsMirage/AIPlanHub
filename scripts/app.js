@@ -122,9 +122,10 @@ function renderTable(plans) {
     return;
   }
   tbody.innerHTML = plans.map(p => {
+    const cur = p.platform === 'z.ai' ? '$' : '¥';
     const qAvg = p.quarterly ? Math.round(p.quarterly / 3) : null;
     const yAvg = p.yearly    ? Math.round(p.yearly    / 12) : null;
-    const firstBadge = p.firstMonth ? `<span class="badge-first">首月¥${p.firstMonth}</span>` : '';
+    const firstBadge = p.firstMonth ? `<span class="badge-first">首月${cur}${p.firstMonth}</span>` : '';
     const models   = p.models.map(m => `<span class="model-tag">${m}</span>`).join('');
     const benefits = p.benefits.length
       ? p.benefits.map(b => `<span class="benefit-tag">${b}</span>`).join('')
@@ -133,10 +134,10 @@ function renderTable(plans) {
       <td class="sticky-col platform-cell">${p.platform}</td>
       <td>${p.name}${firstBadge}</td>
       <td><a href="${p.link}" target="_blank" class="open-btn">开通 →</a></td>
-      <td class="num"><span class="price-main">¥${p.monthly}</span></td>
-      <td class="num">${qAvg ? `<span class="price-yearly">¥${qAvg}</span>` : na()}</td>
-      <td class="num">${yAvg ? `<span class="price-yearly">¥${yAvg}</span>` : na()}</td>
-      <td class="num">${p.firstMonth ? `¥${p.firstMonth}` : na()}</td>
+      <td class="num"><span class="price-main">${cur}${p.monthly}</span></td>
+      <td class="num">${qAvg ? `<span class="price-yearly">${cur}${qAvg}</span>` : na()}</td>
+      <td class="num">${yAvg ? `<span class="price-yearly">${cur}${yAvg}</span>` : na()}</td>
+      <td class="num">${p.firstMonth ? `${cur}${p.firstMonth}` : na()}</td>
       <td class="num">${fmt(p.req5h)}</td>
       <td class="num">${fmt(p.reqMonth)}</td>
       <td>${models}</td>

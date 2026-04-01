@@ -2,11 +2,19 @@
 const PLANS = [
   // 智谱AI — 官网实测：月付/季付(9折)/年付(8折)，2月12日已涨价30%起，取消首购优惠
   { platform:'智谱AI', name:'Lite', monthly:49, quarterly:132.3, yearly:470.4, firstMonth:null,
-    models:['GLM-5.1','GLM-5'], req5h:1200, reqMonth:24000, benefits:['免费MCP','20+编程工具'], note:'季付¥44.1/月·年付¥39.2/月·GLM-5.1已开放', link:'https://www.bigmodel.cn/glm-coding?ic=DGRQECTZFB' },
+    models:['GLM-5.1','GLM-5','GLM-5-Turbo'], req5h:1200, reqMonth:24000, benefits:['免费MCP','20+编程工具'], note:'季付¥44.1/月·年付¥39.2/月·GLM-5.1已开放', link:'https://www.bigmodel.cn/glm-coding?ic=DGRQECTZFB' },
   { platform:'智谱AI', name:'Pro', monthly:149, quarterly:402.3, yearly:1430.4, firstMonth:null,
-    models:['GLM-5.1','GLM-5'], req5h:6000, reqMonth:120000, benefits:['免费MCP','优先体验新模型'], note:'季付¥134.1/月·年付¥119.2/月', link:'https://www.bigmodel.cn/glm-coding?ic=DGRQECTZFB' },
+    models:['GLM-5.1','GLM-5','GLM-5-Turbo'], req5h:6000, reqMonth:120000, benefits:['免费MCP','优先体验新模型'], note:'季付¥134.1/月·年付¥119.2/月', link:'https://www.bigmodel.cn/glm-coding?ic=DGRQECTZFB' },
   { platform:'智谱AI', name:'Max', monthly:469, quarterly:1266.3, yearly:4502.4, firstMonth:null,
-    models:['GLM-5.1','GLM-5'], req5h:24000, reqMonth:600000, benefits:['免费MCP','高峰期专属资源'], note:'季付¥422.1/月·年付¥375.2/月', link:'https://www.bigmodel.cn/glm-coding?ic=DGRQECTZFB' },
+    models:['GLM-5.1','GLM-5','GLM-5-Turbo'], req5h:24000, reqMonth:600000, benefits:['免费MCP','高峰期专属资源'], note:'季付¥422.1/月·年付¥375.2/月', link:'https://www.bigmodel.cn/glm-coding?ic=DGRQECTZFB' },
+
+  // z.ai（智谱国际版）— 支持 GLM-5.1/GLM-5，季付-10%/年付-30%，邀请链接含首月/首季/首年优惠
+  { platform:'z.ai', name:'Lite', monthly:10, quarterly:24, yearly:75, firstMonth:9,
+    models:['GLM-5.1','GLM-5-Turbo','GLM-4.7'], req5h:80, reqMonth:null, benefits:['3× Claude Pro 用量','兼容 Claude Code/Cursor/Cline 等 20+ 工具'], note:'国际站不限购不降智·季付$8/月·年付$6.25/月·Friend Gift 首$9', link:'https://z.ai/subscribe?ic=V6PINPKB9I' },
+  { platform:'z.ai', name:'Pro', monthly:30, quarterly:72, yearly:226, firstMonth:27,
+    models:['GLM-5.1','GLM-5','GLM-5-Turbo','GLM-4.7'], req5h:400, reqMonth:null, benefits:['5× Lite 用量','优先体验新模型','40%–60% 更快响应'], note:'国际站不限购不降智·季付$24/月·年付$18.8/月·含 MCP', link:'https://z.ai/subscribe?ic=V6PINPKB9I' },
+  { platform:'z.ai', name:'Max', monthly:80, quarterly:194, yearly:604, firstMonth:72,
+    models:['GLM-5.1','GLM-5','GLM-5-Turbo','GLM-4.7'], req5h:1600, reqMonth:null, benefits:['4× Pro 用量','高峰期保证性能','抢先体验新模型'], note:'国际站不限购不降智·季付$64.7/月·年付$50.3/月', link:'https://z.ai/subscribe?ic=V6PINPKB9I' },
 
   // Kimi — 官网实测：连续包月原价/连续包年折扣价
   { platform:'Kimi', name:'Andante', monthly:49, quarterly:null, yearly:468, firstMonth:null,
@@ -77,6 +85,10 @@ const RATINGS = [
   {
     name: '智谱AI', score: 5,
     reasons: ['独家 GLM-5.1（3月27日上线）', '免费 MCP 调用额度', '20+ 编程工具支持']
+  },
+  {
+    name: 'z.ai', score: 5,
+    reasons: ['智谱国际版·美元计费', 'GLM-5.1/GLM-5 全模型支持', '季付-10%/年付-30%·MCP 免费调用']
   },
   {
     name: 'Kimi', score: 3,
