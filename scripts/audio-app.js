@@ -72,8 +72,12 @@ function applyAudioFilters() {
 
   if (audioSortCol) {
     data = [...data].sort((a, b) => {
-      let av = a[audioSortCol];
-      let bv = b[audioSortCol];
+      let av = audioSortCol === 'yearlyAvg'
+        ? (a.yearly !== null ? Math.round(a.yearly / 12) : null)
+        : a[audioSortCol];
+      let bv = audioSortCol === 'yearlyAvg'
+        ? (b.yearly !== null ? Math.round(b.yearly / 12) : null)
+        : b[audioSortCol];
       if (av === null) av = Infinity;
       if (bv === null) bv = Infinity;
       if (typeof av === 'string') return av.localeCompare(bv) * audioSortDir;

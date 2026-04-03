@@ -72,8 +72,12 @@ function applyImageFilters() {
 
   if (imageSortCol) {
     data = [...data].sort((a, b) => {
-      let av = a[imageSortCol];
-      let bv = b[imageSortCol];
+      let av = imageSortCol === 'yearlyAvg'
+        ? (a.yearly !== null ? Math.round(a.yearly / 12) : null)
+        : a[imageSortCol];
+      let bv = imageSortCol === 'yearlyAvg'
+        ? (b.yearly !== null ? Math.round(b.yearly / 12) : null)
+        : b[imageSortCol];
       if (av === null) av = Infinity;
       if (bv === null) bv = Infinity;
       if (typeof av === 'string') return av.localeCompare(bv) * imageSortDir;

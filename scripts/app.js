@@ -14,38 +14,6 @@ function renderRatings() {
   }).join('');
 }
 
-document.addEventListener('DOMContentLoaded', () => {
-  // Theme toggle
-  const saved = localStorage.getItem('theme');
-  if (saved) document.documentElement.setAttribute('data-theme', saved);
-  document.getElementById('theme-toggle').addEventListener('click', () => {
-    const next = document.documentElement.getAttribute('data-theme') === 'light' ? 'dark' : 'light';
-    document.documentElement.setAttribute('data-theme', next === 'dark' ? '' : next);
-    if (next === 'dark') localStorage.removeItem('theme');
-    else localStorage.setItem('theme', next);
-  });
-
-  renderRatings();
-  populateFilters();
-  renderTable(PLANS);
-  document.getElementById('filter-count').textContent = `显示 ${PLANS.length} / ${PLANS.length} 个方案`;
-
-  ['filter-platform','filter-model','filter-price','filter-quarterly','filter-yearly']
-    .forEach(id => document.getElementById(id).addEventListener('change', applyFilters));
-  document.getElementById('reset-btn').addEventListener('click', resetFilters);
-
-  document.querySelectorAll('thead th[data-sort]').forEach(th => {
-    th.addEventListener('click', () => {
-      const col = th.dataset.sort;
-      sortDir = sortCol === col ? sortDir * -1 : 1;
-      sortCol = col;
-      document.querySelectorAll('thead th').forEach(t => t.classList.remove('sorted-asc','sorted-desc'));
-      th.classList.add(sortDir === 1 ? 'sorted-asc' : 'sorted-desc');
-      applyFilters();
-    });
-  });
-});
-
 function populateFilters() {
   const platforms = [...new Set(PLANS.map(p => p.platform))];
   const pSel = document.getElementById('filter-platform');
@@ -71,26 +39,26 @@ function getFilterVal(id) {
 function applyFilters() {
   const fp = document.getElementById('filter-platform').value;
   const fm = document.getElementById('filter-model').value;
-  const price    = getFilterVal('filter-price');
+  const price = getFilterVal('filter-price');
   const quarterly = getFilterVal('filter-quarterly');
-  const yearly   = getFilterVal('filter-yearly');
+  const yearly = getFilterVal('filter-yearly');
 
   let data = PLANS.filter(p => {
     if (fp && p.platform !== fp) return false;
     if (fm && !p.models.includes(fm)) return false;
-    if (price    && p.monthly > price) return false;
+    if (price && p.monthly > price) return false;
     if (quarterly && (p.quarterly === null || p.quarterly / 3 > quarterly)) return false;
-    if (yearly   && (p.yearly   === null || p.yearly   / 12 > yearly))    return false;
+    if (yearly && (p.yearly === null || p.yearly / 12 > yearly)) return false;
     return true;
   });
 
   if (sortCol) {
     data = [...data].sort((a, b) => {
-      let av = sortCol === 'quarterlyAvg' ? (a.quarterly ? a.quarterly/3 : null)
-             : sortCol === 'yearlyAvg'    ? (a.yearly   ? a.yearly/12   : null)
+      let av = sortCol === 'quarterlyAvg' ? (a.quarterly ? a.quarterly / 3 : null)
+             : sortCol === 'yearlyAvg' ? (a.yearly ? a.yearly / 12 : null)
              : a[sortCol];
-      let bv = sortCol === 'quarterlyAvg' ? (b.quarterly ? b.quarterly/3 : null)
-             : sortCol === 'yearlyAvg'    ? (b.yearly   ? b.yearly/12   : null)
+      let bv = sortCol === 'quarterlyAvg' ? (b.quarterly ? b.quarterly / 3 : null)
+             : sortCol === 'yearlyAvg' ? (b.yearly ? b.yearly / 12 : null)
              : b[sortCol];
       if (av === null) av = Infinity;
       if (bv === null) bv = Infinity;
@@ -104,10 +72,11 @@ function applyFilters() {
 }
 
 function resetFilters() {
-  ['filter-platform','filter-model','filter-price','filter-quarterly','filter-yearly']
+  ['filter-platform', 'filter-model', 'filter-price', 'filter-quarterly', 'filter-yearly']
     .forEach(id => { document.getElementById(id).value = ''; });
-  sortCol = null; sortDir = 1;
-  document.querySelectorAll('thead th').forEach(t => t.classList.remove('sorted-asc','sorted-desc'));
+  sortCol = null;
+  sortDir = 1;
+  document.querySelectorAll('#page-coding thead th').forEach(t => t.classList.remove('sorted-asc', 'sorted-desc'));
   renderTable(PLANS);
   document.getElementById('filter-count').textContent = `显示 ${PLANS.length} / ${PLANS.length} 个方案`;
 }
@@ -124,9 +93,9 @@ function renderTable(plans) {
   tbody.innerHTML = plans.map(p => {
     const cur = p.platform === 'z.ai' ? '$' : '¥';
     const qAvg = p.quarterly ? Math.round(p.quarterly / 3) : null;
-    const yAvg = p.yearly    ? Math.round(p.yearly    / 12) : null;
+    const yAvg = p.yearly ? Math.round(p.yearly / 12) : null;
     const firstBadge = p.firstMonth ? `<span class="badge-first">首月${cur}${p.firstMonth}</span>` : '';
-    const models   = p.models.map(m => `<span class="model-tag">${m}</span>`).join('');
+    const models = p.models.map(m => `<span class="model-tag">${m}</span>`).join('');
     const benefits = p.benefits.length
       ? p.benefits.map(b => `<span class="benefit-tag">${b}</span>`).join('')
       : na();

@@ -41,10 +41,11 @@ const PLANS = [
     models:['MiniMax-M2.7'], req5h:30000, reqMonth:450000, benefits:['TPS ~100','赠多模态额度'], note:'Token Plan', link:'https://platform.minimaxi.com/subscribe/token-plan?code=7EEmX0yfbU&source=link' },
 
   // 字节·方舟 — 首月Lite约¥8.9，支持Doubao-Seed-2.0系列/DeepSeek-V3.2/Kimi-K2.5/GLM-4.7
+  // ⚠️ 双层计费：名义按调用次数，实际Token消耗大会被按2-3次甚至更多次扣费（蓝点网/V2EX/微博多源证实）
   { platform:'字节·方舟', name:'Lite', monthly:40, quarterly:null, yearly:null, firstMonth:8.9,
-    models:['Doubao-Seed-2.0','Doubao-Seed-Code','DeepSeek-V3.2','Kimi-K2.5','GLM-4.7','MiniMax-M2.5'], req5h:1200, reqMonth:18000, benefits:['ArkClaw 7天试用','Auto智能选模型'], note:'首月¥8.9·次月续费5折', link:'https://volcengine.com/L/jmiEa1dptck/' },
+    models:['Doubao-Seed-2.0','Doubao-Seed-Code','DeepSeek-V3.2','Kimi-K2.5','GLM-4.7','MiniMax-M2.5'], req5h:1200, reqMonth:18000, benefits:['ArkClaw 7天试用','Auto智能选模型'], note:'首月¥8.9·⚠双层计费·额度消耗远快于同行', link:'https://volcengine.com/L/jmiEa1dptck/' },
   { platform:'字节·方舟', name:'Pro', monthly:200, quarterly:null, yearly:null, firstMonth:49.9,
-    models:['Doubao-Seed-2.0','Doubao-Seed-Code','DeepSeek-V3.2','Kimi-K2.5','GLM-4.7','MiniMax-M2.5'], req5h:6000, reqMonth:90000, benefits:['免费ArkClaw','Auto智能选模型'], note:'首月¥49.9', link:'https://volcengine.com/L/jmiEa1dptck/' },
+    models:['Doubao-Seed-2.0','Doubao-Seed-Code','DeepSeek-V3.2','Kimi-K2.5','GLM-4.7','MiniMax-M2.5'], req5h:6000, reqMonth:90000, benefits:['免费ArkClaw','Auto智能选模型'], note:'首月¥49.9·⚠双层计费·Pro三四天可用完月额度', link:'https://volcengine.com/L/jmiEa1dptck/' },
 
   // 阿里·百炼 — Lite套餐已售罄（截至3月），目前仅Pro可购；模型含Qwen3.5-Plus/Qwen3-Coder
   { platform:'阿里·百炼', name:'Pro', monthly:200, quarterly:null, yearly:null, firstMonth:39.9,
@@ -74,6 +75,21 @@ const PLANS = [
     models:['Qwen3.5-35B','DeepSeek-V3.2','GLM-4.7-Flash','GLM-5','MiniMax-M2.5','Kimi-K2.5'], req5h:null, reqMonth:null,
     benefits:['每日5000万Tokens','QPS 20'], note:'首购¥39.9·叠加购买¥199/月', link:'https://maas.xfyun.cn/packageSubscription?inviteCode=MAAS-7573AB85' },
 
+  // 小米·MiMo — 4月3日上线 Token Plan，统一 Credit 体系，首购88折（仅限一次）
+  // Credit 倍率：MiMo-V2-Omni 256k→1x, MiMo-V2-Pro 256k→2x, MiMo-V2-Pro 256k~1M→4x, MiMo-V2-TTS→0x（限时免费）
+  { platform:'小米·MiMo', name:'Lite', monthly:39, quarterly:null, yearly:null, firstMonth:34.32,
+    models:['MiMo-V2-Pro','MiMo-V2-Omni','MiMo-V2-TTS'], req5h:null, reqMonth:null,
+    benefits:['6000万 Credits·Pro 实际仅30M Token','兼容 Claude Code/OpenCode/OpenClaw'], note:'首购88折·Credit≠Token(Pro=2x/Omni=1x)·性价比低于同行', link:'https://aistudio.xiaomimimo.com/' },
+  { platform:'小米·MiMo', name:'Standard', monthly:99, quarterly:null, yearly:null, firstMonth:87.12,
+    models:['MiMo-V2-Pro','MiMo-V2-Omni','MiMo-V2-TTS'], req5h:null, reqMonth:null,
+    benefits:['2亿 Credits·Pro 实际仅100M Token','兼容 Claude Code/OpenCode/OpenClaw'], note:'首购88折·3.3× Lite用量·性价比低于同行', link:'https://aistudio.xiaomimimo.com/' },
+  { platform:'小米·MiMo', name:'Pro', monthly:329, quarterly:null, yearly:null, firstMonth:289.52,
+    models:['MiMo-V2-Pro','MiMo-V2-Omni','MiMo-V2-TTS'], req5h:null, reqMonth:null,
+    benefits:['7亿 Credits·Pro 实际仅350M Token','兼容 Claude Code/OpenCode/OpenClaw'], note:'首购88折·11.7× Lite用量·性价比低于同行', link:'https://aistudio.xiaomimimo.com/' },
+  { platform:'小米·MiMo', name:'Max', monthly:659, quarterly:null, yearly:null, firstMonth:579.92,
+    models:['MiMo-V2-Pro','MiMo-V2-Omni','MiMo-V2-TTS'], req5h:null, reqMonth:null,
+    benefits:['16亿 Credits·Pro 实际仅800M Token','兼容 Claude Code/OpenCode/OpenClaw'], note:'首购88折·26.7× Lite用量·性价比低于同行', link:'https://aistudio.xiaomimimo.com/' },
+
   // 无问芯穹 — 2档套餐，多模型聚合，首月5折优惠
   { platform:'无问芯穹', name:'Lite', monthly:40, quarterly:null, yearly:null, firstMonth:19.9,
     models:['DeepSeek-V3.2','MiniMax-M2.5','Kimi-K2.5','GLM-5'], req5h:1000, reqMonth:null, benefits:['多模型聚合','月费最低'], note:'首月¥19.9·次月¥40', link:'https://cloud.infini-ai.com/login?redirect=/genstudio/invitation&invite_code=qYRvZBVl' },
@@ -99,8 +115,8 @@ const RATINGS = [
     reasons: ['定价最低无需抢购', '独家 MiniMax-M2.7', '已升级 Token Plan·赠多模态额度']
   },
   {
-    name: '字节·方舟', score: 4,
-    reasons: ['独家 Doubao-Seed-2.0', '首月低至¥8.9', '支持 DeepSeek-V3.2 / Kimi / GLM 多模型']
+    name: '字节·方舟', score: 2,
+    reasons: ['⚠双层计费：Token消耗大按2-3次扣费·额度远不够用', '计费不透明·无用量明细·蓝点网/微博多源实锤', '速度慢·超卖严重·付费仍用数据训练']
   },
   {
     name: '阿里·百炼', score: 3,
@@ -117,6 +133,10 @@ const RATINGS = [
   {
     name: '讯飞星辰', score: 3,
     reasons: ['3档套餐·首购低至¥3.9', '按日Tokens流控·每日最高5000万', '支持GLM-5/Kimi/MiniMax/DeepSeek']
+  },
+  {
+    name: '小米·MiMo', score: 2,
+    reasons: ['Credit≠Token·Pro 2x/Omni 1x 实际缩水', '¥39 仅 30M token(Pro)·性价比远低于同行', '兼容 Claude Code 但定价无竞争力']
   },
   {
     name: '无问芯穹', score: 4,

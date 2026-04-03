@@ -1,30 +1,44 @@
-# AI Coding Plan Hub
+# AIPlanHub
 
 ---
 
-<p align="center"><strong>⭐ <a href="https://ai.hsnb.fun/aiplanhub">AIPlanHub</a> — 一站式对比国内主流 AI 订阅方案，覆盖编程 · 视频 · 音频多场景，帮你找到性价比最高的选择 ⭐</strong></p>
+<p align="center"><strong>⭐ <a href="https://github.com/HsMirage/AIPlanHub">AIPlanHub</a> — 一站式对比主流 AI 订阅方案，覆盖编程 · 视频 · 图片 · 音频多场景 ⭐</strong></p>
 
 ---
 
-一站式对比国内主流 AI 订阅方案，覆盖编程 · 视频 · 音频多场景，帮你找到性价比最高的选择。
+> Coding 数据更新于 2026.04.03 · Video / Image / Audio 更新于 2026.03.31 · 仅供参考，以各平台官方公告为准
 
-> 数据更新于 2026.03.31 · 仅供参考，以各平台官方公告为准
+---
 
-## 覆盖平台
+## 功能
 
-| 平台 | 独家模型 | 方案数 | 月付起 |
-|------|----------|--------|--------|
-| 智谱AI | GLM-5.1 | 3 | ¥49 |
-| Kimi | Kimi-K2.5 | 3 | — |
-| MiniMax | MiniMax-M2.1 | 6 | ¥29 |
-| 字节·方舟 | Doubao-Seed-2.0 | 2 | ¥40 |
-| 阿里·百炼 | Qwen3.5-Plus | 1 | ¥200 |
-| 腾讯·混元 | HY-2.0 | 2 | ¥40 |
-| 百度·千帆 | — | 2 | ¥40 |
-| 讯飞星辰 | — | 3 | ¥19 |
-| 无问芯穹 | — | 2 | ¥40 |
+- 多分类对比：Coding · Video · Image · Audio 四大场景独立页面
+- 多维度筛选 + 排序，快速锁定最优方案
+- 直达官方开通链接，部分含邀请折扣
+- 深色 / 亮色主题切换
+- 响应式布局，支持移动端浏览
 
-## 方案速览
+## 在线访问
+
+直接打开 `index.html` 即可使用，也可嵌入 iframe（`?embed=1&theme=light|dark`）。
+
+---
+
+## Coding 平台（11 家）
+
+| 平台 | 独家模型 | 方案数 | 月付起 | 评分 |
+|------|----------|--------|--------|------|
+| 智谱AI | GLM-5.1 | 3 | ¥49 | ★★★★★ |
+| z.ai | GLM-5.1（国际版） | 3 | $10 | ★★★★★ |
+| MiniMax | MiniMax-M2.7 | 6 | ¥29 | ★★★★★ |
+| Kimi | Kimi-K2.5 | 4 | ¥49 | ★★★ |
+| 阿里·百炼 | Qwen3.5-Plus | 1 | ¥200 | ★★★ |
+| 腾讯·混元 | HY-2.0 | 2 | ¥40 | ★★★ |
+| 百度·千帆 | — | 2 | ¥40 | ★★★ |
+| 讯飞星辰 | — | 3 | ¥19 | ★★★ |
+| 无问芯穹 | — | 2 | ¥40 | ★★★★ |
+| 字节·方舟 | Doubao-Seed-2.0 | 2 | ¥40 | ★★ |
+| 小米·MiMo | MiMo-V2-Pro | 4 | ¥39 | ★★ |
 
 ### 入门级（月付 ≤ ¥50）
 
@@ -34,12 +48,13 @@
 | 讯飞星辰 | 入门版 | ¥19 | ¥3.9 | — | [开通](https://maas.xfyun.cn/packageSubscription?inviteCode=MAAS-7573AB85) |
 | 讯飞星辰 | 专业版 | ¥39 | ¥7.9 | — | [开通](https://maas.xfyun.cn/packageSubscription?inviteCode=MAAS-7573AB85) |
 | 智谱AI | Lite | ¥49 | — | 1,200 | [开通](https://www.bigmodel.cn/glm-coding?ic=DGRQECTZFB) |
-| Kimi | Andante | — | — | — | [开通](https://www.kimi.com/code/zh) |
+| Kimi | Andante | ¥49 | — | — | [开通](https://www.kimi.com/code/zh) |
 | MiniMax | Plus | ¥49 | — | 1,500 | [开通](https://platform.minimaxi.com/subscribe/token-plan?code=7EEmX0yfbU&source=link) |
 | 无问芯穹 | Lite | ¥40 | ¥19.9 | 1,000 | [开通](https://cloud.infini-ai.com/login?redirect=/genstudio/invitation&invite_code=qYRvZBVl) |
 | 字节·方舟 | Lite | ¥40 | ¥8.9 | 1,200 | [开通](https://volcengine.com/L/jmiEa1dptck/) |
 | 腾讯·混元 | Lite | ¥40 | ¥7.9 | 1,200 | [开通](https://curl.qcloud.com/1Uogyigq) |
 | 百度·千帆 | Lite | ¥40 | ¥9.9 | 1,200 | [开通](https://cloud.baidu.com/campaign/ambassador-product/index.html?ambassadorId=b00e3bb5d042440fbfaccf545e8e52f0#knowledge-model) |
+| 小米·MiMo | Lite | ¥39 | ¥34.32 | — | [开通](https://aistudio.xiaomimimo.com/) |
 
 ### 专业级（月付 ≤ ¥200）
 
@@ -48,7 +63,8 @@
 | MiniMax | Max | ¥119 | — | 4,500 | [开通](https://platform.minimaxi.com/subscribe/token-plan?code=7EEmX0yfbU&source=link) |
 | MiniMax | Plus 极速版 | ¥98 | — | 1,500 | [开通](https://platform.minimaxi.com/subscribe/token-plan?code=7EEmX0yfbU&source=link) |
 | 智谱AI | Pro | ¥149 | — | 6,000 | [开通](https://www.bigmodel.cn/glm-coding?ic=DGRQECTZFB) |
-| Kimi | Moderato | — | — | — | [开通](https://www.kimi.com/code/zh) |
+| Kimi | Moderato | ¥99 | — | — | [开通](https://www.kimi.com/code/zh) |
+| 小米·MiMo | Standard | ¥99 | ¥87.12 | — | [开通](https://aistudio.xiaomimimo.com/) |
 
 ### 旗舰级（月付 > ¥200）
 
@@ -59,21 +75,25 @@
 | 腾讯·混元 | Pro | ¥200 | ¥39.9 | 6,000 | [开通](https://curl.qcloud.com/1Uogyigq) |
 | 讯飞星辰 | 高效版 | ¥199 | ¥39.9 | — | [开通](https://maas.xfyun.cn/packageSubscription?inviteCode=MAAS-7573AB85) |
 | 无问芯穹 | Pro | ¥200 | ¥99.9 | 5,000 | [开通](https://cloud.infini-ai.com/login?redirect=/genstudio/invitation&invite_code=qYRvZBVl) |
-| Kimi | Allegretto | — | — | — | [开通](https://www.kimi.com/code/zh) |
+| Kimi | Allegretto | ¥199 | — | — | [开通](https://www.kimi.com/code/zh) |
 | MiniMax | Max 极速版 | ¥199 | — | 4,500 | [开通](https://platform.minimaxi.com/subscribe/token-plan?code=7EEmX0yfbU&source=link) |
+| 小米·MiMo | Pro | ¥329 | ¥289.52 | — | [开通](https://aistudio.xiaomimimo.com/) |
 | 智谱AI | Max | ¥469 | — | 24,000 | [开通](https://www.bigmodel.cn/glm-coding?ic=DGRQECTZFB) |
+| Kimi | Allegro | ¥699 | — | — | [开通](https://www.kimi.com/code/zh) |
+| 小米·MiMo | Max | ¥659 | ¥579.92 | — | [开通](https://aistudio.xiaomimimo.com/) |
 | MiniMax | Ultra 极速版 | ¥899 | — | 30,000 | [开通](https://platform.minimaxi.com/subscribe/token-plan?code=7EEmX0yfbU&source=link) |
 
-## 支持模型一览
+### 支持模型一览
 
 | 模型 | 可用平台 |
 |------|----------|
-| GLM-5.1 | 智谱AI |
-| GLM-5 | 智谱AI、腾讯·混元、阿里·百炼 |
+| GLM-5.1 | 智谱AI、z.ai |
+| GLM-5 | 智谱AI、z.ai、阿里·百炼、腾讯·混元 |
+| GLM-5-Turbo | 智谱AI、z.ai |
 | GLM-4.7 | 字节·方舟、讯飞星辰 |
 | GLM-4.7-Flash | 讯飞星辰 |
 | Kimi-K2.5 | Kimi、字节·方舟、阿里·百炼、腾讯·混元、百度·千帆、讯飞星辰、无问芯穹 |
-| MiniMax-M2.1 | MiniMax |
+| MiniMax-M2.7 | MiniMax |
 | MiniMax-M2.5 | 字节·方舟、阿里·百炼、腾讯·混元、百度·千帆、讯飞星辰、无问芯穹 |
 | Doubao-Seed-2.0 | 字节·方舟 |
 | Doubao-Seed-Code | 字节·方舟 |
@@ -82,30 +102,70 @@
 | Qwen3.5-35B | 讯飞星辰 |
 | DeepSeek-V3.2 | 字节·方舟、百度·千帆、讯飞星辰、无问芯穹 |
 | HY-2.0 | 腾讯·混元 |
+| MiMo-V2-Pro | 小米·MiMo |
+| MiMo-V2-Omni | 小米·MiMo |
 
-## 平台推荐
+---
 
-**MiniMax** — 定价最低无需抢购，¥29/月起，已升级 Token Plan，Plus 及以上赠多模态额度（视频/语音/音乐/图像）。
+## Video 平台（6 家）
 
-**智谱AI** — 独家 GLM-5.1 模型，免费 MCP 调用额度，20+ 编程工具支持，季付/年付有折扣。
+| 平台 | 方案数 | 月付起 | 核心模型 | 评分 |
+|------|--------|--------|----------|------|
+| 快手可灵 | 5 | ¥0 | Kling 3.0 | ★★★★★ |
+| Vidu | 4 | ¥0 | Vidu | ★★★★ |
+| 海螺AI | 5 | ¥68(连续包月) | Hailuo 2.3 | ★★★★ |
+| pai.video | 4 | ¥0 | PixVerse | ★★★★ |
+| 即梦 | 4 | ¥0 | Seedance 2.0 | ★★★★ |
+| 腾讯混元 | 4 | — | 混元视频(API) | ★★★ |
 
-**字节·方舟** — 独家 Doubao-Seed-2.0，首月低至 ¥8.9，支持多模型自由切换。
+---
 
-**无问芯穹** — 多模型聚合平台（DeepSeek/Kimi/GLM/MiniMax），Lite 首月 ¥19.9。
+## Image 平台（5 家）
 
-## 在线访问
+| 平台 | 方案数 | 月付起 | 核心模型 | 评分 |
+|------|--------|--------|----------|------|
+| 即梦 | 3 | ¥79 | Seedance 2.0 | ★★★★★ |
+| Midjourney | 4 | ¥70($10) | MJ V7 | ★★★★★ |
+| Liblib AI | 5 | ¥399/年 | WebUI/ComfyUI/Kling | ★★★★★ |
+| 通义万相 | 1 | 按量 | 万相 2.6 | ★★★★ |
+| 堆友 | 1 | ¥799/年 | 国风/设计 | ★★★ |
 
-直接打开 `index.html` 即可使用，支持：
+---
 
-- 按平台/模型/价格区间筛选
-- 按月付、季付均价、年付均价、请求数排序
-- 响应式布局，支持移动端浏览
+## Audio 平台（5 家）
+
+| 平台 | 方案数 | 月付起 | 核心模型 | 评分 |
+|------|--------|--------|----------|------|
+| Suno | 3 | ¥0 | v5.5 | ★★★★★ |
+| 天工AI | 1 | ¥0 | SkyMusic | ★★★★ |
+| Udio | 3 | ¥0 | Udio | ★★★★ |
+| Ace Studio | 2 | —/年付 | AI歌声合成 | ★★★ |
+| 海螺AI | 2 | 按量 | Music-2.5+ | ★★★ |
+
+---
+
+## 平台推荐与提醒
+
+**推荐**
+
+- **智谱AI** — 独家 GLM-5.1 模型，免费 MCP 调用额度，20+ 编程工具支持，季付/年付有折扣
+- **z.ai** — 智谱国际版，GLM-5.1/GLM-5 全模型支持，美元计费，季付 -10% / 年付 -30%，MCP 免费调用
+- **MiniMax** — 定价最低无需抢购，独家 MiniMax-M2.7，已升级 Token Plan，Plus 及以上赠多模态额度
+- **无问芯穹** — 多模型聚合平台（DeepSeek/Kimi/GLM/MiniMax），Lite 首月 ¥19.9
+
+**注意**
+
+- **字节·方舟** — ⚠ 双层计费：名义按调用次数，实际 Token 消耗大会被按 2-3 次甚至更多次扣费，计费不透明，无用量明细（蓝点网/V2EX/微博多源证实）
+- **小米·MiMo** — Credit ≠ Token（Pro 2x / Omni 1x），¥39 仅 30M token（Pro），性价比远低于同行，兼容 Claude Code 但定价无竞争力
+
+---
 
 ## 说明
 
 - 季付均价 = 季付总价 ÷ 3；年付均价 = 年付总价 ÷ 12
 - 5h 请求数基于「1 prompt ≈ 15 次调用」估算
-- Kimi 当前公开页可稳定证实年付价，月付价未在公开页稳定返回，因此以 `—` 标记
+- Midjourney / Suno / Udio / Ace Studio / z.ai 价格按 $1 ≈ ¥7.0 估算，实际以美元结算
+- 小米·MiMo Credit 倍率：MiMo-V2-Omni 256k→1x, MiMo-V2-Pro 256k→2x, MiMo-V2-Pro 256k~1M→4x, MiMo-V2-TTS→0x（限时免费）
 - 部分平台通过邀请链接开通可享额外折扣
 - 数据仅供参考，以各平台官方公告为准
 

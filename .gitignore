@@ -2,3 +2,6 @@
 .claude/
 .playwright-mcp/
 node_modules/
+*_deploy
+公钥.md
+NEWAPI_PAGE_CUSTOMIZATION.md

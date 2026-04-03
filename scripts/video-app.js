@@ -72,8 +72,12 @@ function applyVideoFilters() {
 
   if (videoSortCol) {
     data = [...data].sort((a, b) => {
-      let av = a[videoSortCol];
-      let bv = b[videoSortCol];
+      let av = videoSortCol === 'yearlyAvg'
+        ? (a.yearly !== null ? Math.round(a.yearly / 12) : null)
+        : a[videoSortCol];
+      let bv = videoSortCol === 'yearlyAvg'
+        ? (b.yearly !== null ? Math.round(b.yearly / 12) : null)
+        : b[videoSortCol];
       if (av === null) av = Infinity;
       if (bv === null) bv = Infinity;
       if (typeof av === 'string') return av.localeCompare(bv) * videoSortDir;

@@ -27,7 +27,7 @@
         <a href="#image" class="nav-link">Image</a>
         <a href="#audio" class="nav-link">Audio</a>
       </nav>
-      <span class="update-chip">Updated 2026.03.31</span>
+      <span class="update-chip">Last Updated 2026.04.03</span>
       <button id="theme-toggle" class="theme-toggle" title="切换主题">
         <svg class="icon-sun" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
         <svg class="icon-moon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
@@ -174,6 +174,7 @@
       </div>
     </section>
     <section class="section notes-section">
+      <p class="section-update-date">Coding 数据更新于 2026.04.03</p>
       <ul class="notes-list">
         <li>季付均价 = 季付总价 ÷ 3；年付均价 = 年付总价 ÷ 12</li>
         <li>5h请求数基于「1 prompt ≈ 15次调用」估算</li>
@@ -202,7 +203,7 @@
         <table id="video-plans-table">
           <thead><tr>
             <th class="sticky-col" data-sort="platform">平台 <span class="sort-icon">↕</span></th><th data-sort="name">方案</th><th>开通</th>
-            <th data-sort="monthly" class="num-col">月付 <span class="sort-icon">↕</span></th><th class="num-col">年付均价</th><th data-sort="yearly" class="num-col">年付 <span class="sort-icon">↕</span></th>
+            <th data-sort="monthly" class="num-col">月付 <span class="sort-icon">↕</span></th><th data-sort="yearlyAvg" class="num-col">年付均价 <span class="sort-icon">↕</span></th><th data-sort="yearly" class="num-col">年付 <span class="sort-icon">↕</span></th>
             <th>积分/额度</th><th>视频时长</th><th>分辨率</th><th>核心功能</th><th>备注</th>
           </tr></thead>
           <tbody id="video-plans-tbody"></tbody>
@@ -210,6 +211,7 @@
       </div>
     </section>
     <section class="section notes-section">
+      <p class="section-update-date">Video 数据更新于 2026.03.31</p>
       <ul class="notes-list">
         <li>各平台积分消耗规则不同，实际可生成视频数量以官方为准</li>
         <li>价格为参考信息，实际价格以各平台官方公告为准</li>
@@ -236,7 +238,7 @@
         <table id="image-plans-table">
           <thead><tr>
             <th class="sticky-col" data-sort="platform">平台 <span class="sort-icon">↕</span></th><th data-sort="name">方案</th><th>开通</th>
-            <th data-sort="monthly" class="num-col">月付 <span class="sort-icon">↕</span></th><th class="num-col">年付均价</th><th data-sort="yearly" class="num-col">年付 <span class="sort-icon">↕</span></th>
+            <th data-sort="monthly" class="num-col">月付 <span class="sort-icon">↕</span></th><th data-sort="yearlyAvg" class="num-col">年付均价 <span class="sort-icon">↕</span></th><th data-sort="yearly" class="num-col">年付 <span class="sort-icon">↕</span></th>
             <th>积分/额度</th><th>分辨率</th><th>核心功能</th><th>备注</th>
           </tr></thead>
           <tbody id="image-plans-tbody"></tbody>
@@ -244,6 +246,7 @@
       </div>
     </section>
     <section class="section notes-section">
+      <p class="section-update-date">Image 数据更新于 2026.03.31</p>
       <ul class="notes-list">
         <li>Midjourney 价格按 $1≈¥7.0 估算，实际以美元结算</li>
         <li>各平台积分消耗规则不同，实际可生成图片数量以官方为准</li>
@@ -271,7 +274,7 @@
         <table id="audio-plans-table">
           <thead><tr>
             <th class="sticky-col" data-sort="platform">平台 <span class="sort-icon">↕</span></th><th data-sort="name">方案</th><th>开通</th>
-            <th data-sort="monthly" class="num-col">月付 <span class="sort-icon">↕</span></th><th class="num-col">年付均价</th><th data-sort="yearly" class="num-col">年付 <span class="sort-icon">↕</span></th>
+            <th data-sort="monthly" class="num-col">月付 <span class="sort-icon">↕</span></th><th data-sort="yearlyAvg" class="num-col">年付均价 <span class="sort-icon">↕</span></th><th data-sort="yearly" class="num-col">年付 <span class="sort-icon">↕</span></th>
             <th>积分/额度</th><th>音频时长</th><th>核心功能</th><th>备注</th>
           </tr></thead>
           <tbody id="audio-plans-tbody"></tbody>
@@ -279,6 +282,7 @@
       </div>
     </section>
     <section class="section notes-section">
+      <p class="section-update-date">Audio 数据更新于 2026.03.31</p>
       <ul class="notes-list">
         <li>Suno/Udio/Ace Studio 价格按 $1≈¥7.0 估算，实际以美元结算</li>
         <li>各平台积分消耗规则不同，实际可生成音频数量以官方为准</li>
@@ -290,7 +294,7 @@
 </main>
 
 <footer class="site-footer">
-  <p>数据更新于 2026.03.31 · <a href="https://github.com/HsMirage/AIPlanHub" target="_blank">GitHub</a> · 仅供参考</p>
+  <p>各分类更新日期见页面底部 · <a href="https://github.com/HsMirage/AIPlanHub" target="_blank">GitHub</a> · 仅供参考</p>
 </footer>
 
 <!-- Back to Top -->
@@ -316,15 +320,32 @@
 <script src="scripts/router.js"></script>
 <script>
 document.addEventListener('DOMContentLoaded', () => {
-  // Theme toggle
-  const saved = localStorage.getItem('theme');
-  if (saved) document.documentElement.setAttribute('data-theme', saved);
-  document.getElementById('theme-toggle').addEventListener('click', () => {
-    const next = document.documentElement.getAttribute('data-theme') === 'light' ? 'dark' : 'light';
-    document.documentElement.setAttribute('data-theme', next === 'dark' ? '' : next);
-    if (next === 'dark') localStorage.removeItem('theme');
-    else localStorage.setItem('theme', next);
-  });
+  const params = new URLSearchParams(window.location.search);
+  const forcedTheme = params.get('theme');
+  const embedMode = params.get('embed') === '1';
+
+  if (embedMode) {
+    document.documentElement.classList.add('embed-mode');
+  }
+
+  if (forcedTheme === 'light') {
+    document.documentElement.setAttribute('data-theme', 'light');
+  } else if (forcedTheme === 'dark') {
+    document.documentElement.removeAttribute('data-theme');
+  } else {
+    const saved = localStorage.getItem('theme');
+    if (saved) document.documentElement.setAttribute('data-theme', saved);
+  }
+
+  const themeToggle = document.getElementById('theme-toggle');
+  if (themeToggle) {
+    themeToggle.addEventListener('click', () => {
+      const next = document.documentElement.getAttribute('data-theme') === 'light' ? 'dark' : 'light';
+      document.documentElement.setAttribute('data-theme', next === 'dark' ? '' : next);
+      if (next === 'dark') localStorage.removeItem('theme');
+      else localStorage.setItem('theme', next);
+    });
+  }
 
   // Init coding page
   renderRatings();
