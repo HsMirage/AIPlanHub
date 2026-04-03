@@ -10,6 +10,16 @@
 
 ---
 
+<p align="center">
+  <a href="https://ai.hsnb.fun/aiplanhub/#home"><img src="https://img.shields.io/badge/%E9%A6%96%E9%A1%B5-Home-00E5FF?style=for-the-badge" alt="首页" /></a>
+  <a href="https://ai.hsnb.fun/aiplanhub/#coding"><img src="https://img.shields.io/badge/Coding-%E7%BC%96%E7%A8%8B-00E5FF?style=for-the-badge" alt="Coding" /></a>
+  <a href="https://ai.hsnb.fun/aiplanhub/#video"><img src="https://img.shields.io/badge/Video-%E8%A7%86%E9%A2%91-FF3D71?style=for-the-badge" alt="Video" /></a>
+  <a href="https://ai.hsnb.fun/aiplanhub/#image"><img src="https://img.shields.io/badge/Image-%E5%9B%BE%E7%89%87-A855F7?style=for-the-badge" alt="Image" /></a>
+  <a href="https://ai.hsnb.fun/aiplanhub/#audio"><img src="https://img.shields.io/badge/Audio-%E9%9F%B3%E9%A2%91-22C55E?style=for-the-badge" alt="Audio" /></a>
+</p>
+
+---
+
 ## 功能
 
 - 多分类对比：Coding · Video · Image · Audio 四大场景独立页面
@@ -32,7 +42,7 @@
 | z.ai | GLM-5.1（国际版） | 3 | $10 | ★★★★★ |
 | MiniMax | MiniMax-M2.7 | 6 | ¥29 | ★★★★★ |
 | Kimi | Kimi-K2.5 | 4 | ¥49 | ★★★ |
-| 阿里·百炼 | Qwen3.5-Plus | 1 | ¥200 | ★★★ |
+| 阿里·百炼 | Qwen3.6-Plus | 1 | ¥200 | ★★★ |
 | 腾讯·混元 | HY-2.0 | 2 | ¥40 | ★★★ |
 | 百度·千帆 | — | 2 | ¥40 | ★★★ |
 | 讯飞星辰 | — | 3 | ¥19 | ★★★ |
@@ -97,7 +107,7 @@
 | MiniMax-M2.5 | 字节·方舟、阿里·百炼、腾讯·混元、百度·千帆、讯飞星辰、无问芯穹 |
 | Doubao-Seed-2.0 | 字节·方舟 |
 | Doubao-Seed-Code | 字节·方舟 |
-| Qwen3.5-Plus | 阿里·百炼 |
+| Qwen3.6-Plus | 阿里·百炼 |
 | Qwen3-Coder | 阿里·百炼 |
 | Qwen3.5-35B | 讯飞星辰 |
 | DeepSeek-V3.2 | 字节·方舟、百度·千帆、讯飞星辰、无问芯穹 |

@@ -47,9 +47,9 @@ const PLANS = [
   { platform:'字节·方舟', name:'Pro', monthly:200, quarterly:null, yearly:null, firstMonth:49.9,
     models:['Doubao-Seed-2.0','Doubao-Seed-Code','DeepSeek-V3.2','Kimi-K2.5','GLM-4.7','MiniMax-M2.5'], req5h:6000, reqMonth:90000, benefits:['免费ArkClaw','Auto智能选模型'], note:'首月¥49.9·⚠双层计费·Pro三四天可用完月额度', link:'https://volcengine.com/L/jmiEa1dptck/' },
 
-  // 阿里·百炼 — Lite套餐已售罄（截至3月），目前仅Pro可购；模型含Qwen3.5-Plus/Qwen3-Coder
+  // 阿里·百炼 — Lite套餐已售罄（截至3月），目前仅Pro可购；千问Plus已升级至Qwen3.6
   { platform:'阿里·百炼', name:'Pro', monthly:200, quarterly:null, yearly:null, firstMonth:39.9,
-    models:['Qwen3.5-Plus','Qwen3-Coder','GLM-5','Kimi-K2.5','MiniMax-M2.5'], req5h:6000, reqMonth:90000, benefits:['多模型自由切换'], note:'Lite已售罄·仅Pro可购·首月¥39.9', link:'https://www.aliyun.com/minisite/goods?userCode=hun0t0sf' },
+    models:['Qwen3.6-Plus','Qwen3-Coder','GLM-5','Kimi-K2.5','MiniMax-M2.5'], req5h:6000, reqMonth:90000, benefits:['多模型自由切换'], note:'Lite已售罄·仅Pro可购·首月¥39.9', link:'https://www.aliyun.com/minisite/goods?userCode=hun0t0sf' },
 
   // 腾讯·混元 — Lite限量抢购（每天10点），首月¥7.9；Pro首月¥39.9
   { platform:'腾讯·混元', name:'Lite', monthly:40, quarterly:null, yearly:null, firstMonth:7.9,
@@ -120,7 +120,7 @@ const RATINGS = [
   },
   {
     name: '阿里·百炼', score: 3,
-    reasons: ['独家 Qwen3.5-Plus / Qwen3-Coder', 'Lite 已售罄·仅 Pro 可购', '首月¥39.9']
+    reasons: ['独家 Qwen3.6-Plus / Qwen3-Coder', 'Lite 已售罄·仅 Pro 可购', '首月¥39.9']
   },
   {
     name: '腾讯·混元', score: 3,
