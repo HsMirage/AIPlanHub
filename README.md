@@ -64,7 +64,7 @@
 | 字节·方舟 | Lite | ¥40 | ¥8.9 | 1,200 | [开通](https://volcengine.com/L/jmiEa1dptck/) |
 | 腾讯·混元 | Lite | ¥40 | ¥7.9 | 1,200 | [开通](https://curl.qcloud.com/1Uogyigq) |
 | 百度·千帆 | Lite | ¥40 | ¥9.9 | 1,200 | [开通](https://cloud.baidu.com/campaign/ambassador-product/index.html?ambassadorId=b00e3bb5d042440fbfaccf545e8e52f0#knowledge-model) |
-| 小米·MiMo | Lite | ¥39 | ¥34.32 | — | [开通](https://aistudio.xiaomimimo.com/) |
+| 小米·MiMo | Lite | ¥39 | ¥34.32 | — | [开通](https://platform.xiaomimimo.com/#/token-plan) |
 
 ### 专业级（月付 ≤ ¥200）
 
@@ -74,7 +74,7 @@
 | MiniMax | Plus 极速版 | ¥98 | — | 1,500 | [开通](https://platform.minimaxi.com/subscribe/token-plan?code=7EEmX0yfbU&source=link) |
 | 智谱AI | Pro | ¥149 | — | 6,000 | [开通](https://www.bigmodel.cn/glm-coding?ic=DGRQECTZFB) |
 | Kimi | Moderato | ¥99 | — | — | [开通](https://www.kimi.com/code/zh) |
-| 小米·MiMo | Standard | ¥99 | ¥87.12 | — | [开通](https://aistudio.xiaomimimo.com/) |
+| 小米·MiMo | Standard | ¥99 | ¥87.12 | — | [开通](https://platform.xiaomimimo.com/#/token-plan) |
 
 ### 旗舰级（月付 > ¥200）
 
@@ -87,10 +87,10 @@
 | 无问芯穹 | Pro | ¥200 | ¥99.9 | 5,000 | [开通](https://cloud.infini-ai.com/login?redirect=/genstudio/invitation&invite_code=qYRvZBVl) |
 | Kimi | Allegretto | ¥199 | — | — | [开通](https://www.kimi.com/code/zh) |
 | MiniMax | Max 极速版 | ¥199 | — | 4,500 | [开通](https://platform.minimaxi.com/subscribe/token-plan?code=7EEmX0yfbU&source=link) |
-| 小米·MiMo | Pro | ¥329 | ¥289.52 | — | [开通](https://aistudio.xiaomimimo.com/) |
+| 小米·MiMo | Pro | ¥329 | ¥289.52 | — | [开通](https://platform.xiaomimimo.com/#/token-plan) |
 | 智谱AI | Max | ¥469 | — | 24,000 | [开通](https://www.bigmodel.cn/glm-coding?ic=DGRQECTZFB) |
 | Kimi | Allegro | ¥699 | — | — | [开通](https://www.kimi.com/code/zh) |
-| 小米·MiMo | Max | ¥659 | ¥579.92 | — | [开通](https://aistudio.xiaomimimo.com/) |
+| 小米·MiMo | Max | ¥659 | ¥579.92 | — | [开通](https://platform.xiaomimimo.com/#/token-plan) |
 | MiniMax | Ultra 极速版 | ¥899 | — | 30,000 | [开通](https://platform.minimaxi.com/subscribe/token-plan?code=7EEmX0yfbU&source=link) |
 
 ### 支持模型一览
