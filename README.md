@@ -34,7 +34,7 @@
 
 ---
 
-## Coding 平台（11 家）
+## Coding 平台（12 家）
 
 | 平台 | 独家模型 | 方案数 | 月付起 | 评分 |
 |------|----------|--------|--------|------|
@@ -43,7 +43,8 @@
 | MiniMax | MiniMax-M2.7 | 6 | ¥29 | ★★★★★ |
 | Kimi | Kimi-K2.5 | 4 | ¥49 | ★★★ |
 | 阿里·百炼 | Qwen3.6-Plus | 1 | ¥200 | ★★★ |
-| 腾讯·混元 | HY-2.0 | 2 | ¥40 | ★★★ |
+| 腾讯·Coding | HY-2.0 | 2 | ¥40 | ★★★ |
+| 腾讯·Token | HY-2.0 Think/T1/TurboS | 4 | ¥39 | ★★★★ |
 | 百度·千帆 | — | 2 | ¥40 | ★★★ |
 | 讯飞星辰 | — | 3 | ¥19 | ★★★ |
 | 无问芯穹 | — | 2 | ¥40 | ★★★★ |
@@ -62,7 +63,8 @@
 | MiniMax | Plus | ¥49 | — | 1,500 | [开通](https://platform.minimaxi.com/subscribe/token-plan?code=7EEmX0yfbU&source=link) |
 | 无问芯穹 | Lite | ¥40 | ¥19.9 | 1,000 | [开通](https://cloud.infini-ai.com/login?redirect=/genstudio/invitation&invite_code=qYRvZBVl) |
 | 字节·方舟 | Lite | ¥40 | ¥8.9 | 1,200 | [开通](https://volcengine.com/L/jmiEa1dptck/) |
-| 腾讯·混元 | Lite | ¥40 | ¥7.9 | 1,200 | [开通](https://curl.qcloud.com/1Uogyigq) |
+| 腾讯·Coding | Lite | ¥40 | ¥7.9 | 1,200 | [开通](https://curl.qcloud.com/1Uogyigq) |
+| 腾讯·Token | Lite | ¥39 | — | — | [开通](https://curl.qcloud.com/1Uogyigq) |
 | 百度·千帆 | Lite | ¥40 | ¥9.9 | 1,200 | [开通](https://cloud.baidu.com/campaign/ambassador-product/index.html?ambassadorId=b00e3bb5d042440fbfaccf545e8e52f0#knowledge-model) |
 | 小米·MiMo | Lite | ¥39 | ¥34.32 | — | [开通](https://platform.xiaomimimo.com/#/token-plan) |
 
@@ -74,6 +76,7 @@
 | MiniMax | Plus 极速版 | ¥98 | — | 1,500 | [开通](https://platform.minimaxi.com/subscribe/token-plan?code=7EEmX0yfbU&source=link) |
 | 智谱AI | Pro | ¥149 | — | 6,000 | [开通](https://www.bigmodel.cn/glm-coding?ic=DGRQECTZFB) |
 | Kimi | Moderato | ¥99 | — | — | [开通](https://www.kimi.com/code/zh) |
+| 腾讯·Token | Standard | ¥99 | — | — | [开通](https://curl.qcloud.com/1Uogyigq) |
 | 小米·MiMo | Standard | ¥99 | ¥87.12 | — | [开通](https://platform.xiaomimimo.com/#/token-plan) |
 
 ### 旗舰级（月付 > ¥200）
@@ -82,15 +85,17 @@
 |------|------|------|--------|----------|------|
 | 字节·方舟 | Pro | ¥200 | ¥49.9 | 6,000 | [开通](https://volcengine.com/L/jmiEa1dptck/) |
 | 阿里·百炼 | Pro | ¥200 | ¥39.9 | 6,000 | [开通](https://www.aliyun.com/minisite/goods?userCode=hun0t0sf) |
-| 腾讯·混元 | Pro | ¥200 | ¥39.9 | 6,000 | [开通](https://curl.qcloud.com/1Uogyigq) |
+| 腾讯·Coding | Pro | ¥200 | ¥39.9 | 6,000 | [开通](https://curl.qcloud.com/1Uogyigq) |
 | 讯飞星辰 | 高效版 | ¥199 | ¥39.9 | — | [开通](https://maas.xfyun.cn/packageSubscription?inviteCode=MAAS-7573AB85) |
 | 无问芯穹 | Pro | ¥200 | ¥99.9 | 5,000 | [开通](https://cloud.infini-ai.com/login?redirect=/genstudio/invitation&invite_code=qYRvZBVl) |
 | Kimi | Allegretto | ¥199 | — | — | [开通](https://www.kimi.com/code/zh) |
+| 腾讯·Token | Pro | ¥299 | — | — | [开通](https://curl.qcloud.com/1Uogyigq) |
 | MiniMax | Max 极速版 | ¥199 | — | 4,500 | [开通](https://platform.minimaxi.com/subscribe/token-plan?code=7EEmX0yfbU&source=link) |
 | 小米·MiMo | Pro | ¥329 | ¥289.52 | — | [开通](https://platform.xiaomimimo.com/#/token-plan) |
 | 智谱AI | Max | ¥469 | — | 24,000 | [开通](https://www.bigmodel.cn/glm-coding?ic=DGRQECTZFB) |
 | Kimi | Allegro | ¥699 | — | — | [开通](https://www.kimi.com/code/zh) |
 | 小米·MiMo | Max | ¥659 | ¥579.92 | — | [开通](https://platform.xiaomimimo.com/#/token-plan) |
+| 腾讯·Token | Max | ¥599 | — | — | [开通](https://curl.qcloud.com/1Uogyigq) |
 | MiniMax | Ultra 极速版 | ¥899 | — | 30,000 | [开通](https://platform.minimaxi.com/subscribe/token-plan?code=7EEmX0yfbU&source=link) |
 
 ### 支持模型一览
@@ -98,20 +103,23 @@
 | 模型 | 可用平台 |
 |------|----------|
 | GLM-5.1 | 智谱AI、z.ai |
-| GLM-5 | 智谱AI、z.ai、阿里·百炼、腾讯·混元 |
+| GLM-5 | 智谱AI、z.ai、阿里·百炼、腾讯·Coding、腾讯·Token |
 | GLM-5-Turbo | 智谱AI、z.ai |
 | GLM-4.7 | 字节·方舟、讯飞星辰 |
 | GLM-4.7-Flash | 讯飞星辰 |
-| Kimi-K2.5 | Kimi、字节·方舟、阿里·百炼、腾讯·混元、百度·千帆、讯飞星辰、无问芯穹 |
+| Kimi-K2.5 | Kimi、字节·方舟、阿里·百炼、腾讯·Coding、腾讯·Token、百度·千帆、讯飞星辰、无问芯穹 |
 | MiniMax-M2.7 | MiniMax |
-| MiniMax-M2.5 | 字节·方舟、阿里·百炼、腾讯·混元、百度·千帆、讯飞星辰、无问芯穹 |
+| MiniMax-M2.5 | 字节·方舟、阿里·百炼、腾讯·Coding、腾讯·Token、百度·千帆、讯飞星辰、无问芯穹 |
 | Doubao-Seed-2.0 | 字节·方舟 |
 | Doubao-Seed-Code | 字节·方舟 |
 | Qwen3.6-Plus | 阿里·百炼 |
 | Qwen3-Coder | 阿里·百炼 |
 | Qwen3.5-35B | 讯飞星辰 |
 | DeepSeek-V3.2 | 字节·方舟、百度·千帆、讯飞星辰、无问芯穹 |
-| HY-2.0 | 腾讯·混元 |
+| HY-2.0 | 腾讯·Coding、腾讯·Token |
+| HY-2.0-Think | 腾讯·Token |
+| Hunyuan-T1 | 腾讯·Token |
+| Hunyuan-TurboS | 腾讯·Token |
 | MiMo-V2-Pro | 小米·MiMo |
 | MiMo-V2-Omni | 小米·MiMo |
 
@@ -167,6 +175,7 @@
 
 - **字节·方舟** — ⚠ 双层计费：名义按调用次数，实际 Token 消耗大会被按 2-3 次甚至更多次扣费，计费不透明，无用量明细（蓝点网/V2EX/微博多源证实）
 - **小米·MiMo** — Credit ≠ Token（Pro 2x / Omni 1x），¥39 仅 30M token（Pro），性价比远低于同行，兼容 Claude Code 但定价无竞争力
+- **腾讯·Token** — 仅限 AI 工具使用，禁止 API 调用（违者封禁）；暂不支持多模态
 
 ---
 
@@ -176,6 +185,7 @@
 - 5h 请求数基于「1 prompt ≈ 15 次调用」估算
 - Midjourney / Suno / Udio / Ace Studio / z.ai 价格按 $1 ≈ ¥7.0 估算，实际以美元结算
 - 小米·MiMo Credit 倍率：MiMo-V2-Omni 256k→1x, MiMo-V2-Pro 256k→2x, MiMo-V2-Pro 256k~1M→4x, MiMo-V2-TTS→0x（限时免费）
+- 腾讯·Token Plan 仅限 AI 工具（Claude Code/Cursor/OpenClaw 等）使用，禁止 API 调用
 - 部分平台通过邀请链接开通可享额外折扣
 - 数据仅供参考，以各平台官方公告为准
 

@@ -51,11 +51,27 @@ const PLANS = [
   { platform:'阿里·百炼', name:'Pro', monthly:200, quarterly:null, yearly:null, firstMonth:39.9,
     models:['Qwen3.6-Plus','Qwen3-Coder','GLM-5','Kimi-K2.5','MiniMax-M2.5'], req5h:6000, reqMonth:90000, benefits:['多模型自由切换'], note:'Lite已售罄·仅Pro可购·首月¥39.9', link:'https://www.aliyun.com/minisite/goods?userCode=hun0t0sf' },
 
-  // 腾讯·混元 — Lite限量抢购（每天10点），首月¥7.9；Pro首月¥39.9
-  { platform:'腾讯·混元', name:'Lite', monthly:40, quarterly:null, yearly:null, firstMonth:7.9,
-    models:['HY-2.0','GLM-5','Kimi-K2.5','MiniMax-M2.5'], req5h:1200, reqMonth:18000, benefits:['企业生态强'], note:'首月¥7.9·Lite限量抢购', link:'https://curl.qcloud.com/1Uogyigq' },
-  { platform:'腾讯·混元', name:'Pro', monthly:200, quarterly:null, yearly:null, firstMonth:39.9,
-    models:['HY-2.0','GLM-5','Kimi-K2.5','MiniMax-M2.5'], req5h:6000, reqMonth:90000, benefits:['企业生态强'], note:'首月¥39.9', link:'https://curl.qcloud.com/1Uogyigq' },
+  // 腾讯·Coding — Coding Plan（按请求次数），Lite限量抢购（每天10点），首月¥7.9；Pro首月¥39.9
+  { platform:'腾讯·Coding', name:'Lite', monthly:40, quarterly:null, yearly:null, firstMonth:7.9,
+    models:['HY-2.0','GLM-5','Kimi-K2.5','MiniMax-M2.5'], req5h:1200, reqMonth:18000, benefits:['企业生态强'], note:'Coding Plan·首月¥7.9·Lite限量抢购', link:'https://curl.qcloud.com/1Uogyigq' },
+  { platform:'腾讯·Coding', name:'Pro', monthly:200, quarterly:null, yearly:null, firstMonth:39.9,
+    models:['HY-2.0','GLM-5','Kimi-K2.5','MiniMax-M2.5'], req5h:6000, reqMonth:90000, benefits:['企业生态强'], note:'Coding Plan·首月¥39.9', link:'https://curl.qcloud.com/1Uogyigq' },
+
+  // 腾讯·Token — Token Plan（按 Token 额度计费），4月3日上线，兼容 Claude Code/Cursor/OpenClaw 等
+  // 文档：https://cloud.tencent.com/document/product/1772/129449
+  // 注意：仅限 AI 工具使用，禁止 API 调用（违者封禁）；暂不支持多模态
+  { platform:'腾讯·Token', name:'Lite', monthly:39, quarterly:null, yearly:null, firstMonth:null,
+    models:['HY-2.0','HY-2.0-Think','GLM-5','Kimi-K2.5','MiniMax-M2.5','Hunyuan-T1','Hunyuan-TurboS'], req5h:null, reqMonth:null,
+    benefits:['3500万 Tokens/月','兼容 Claude Code/Cursor/OpenClaw'], note:'Token Plan·约70轮问答·禁API调用', link:'https://curl.qcloud.com/1Uogyigq' },
+  { platform:'腾讯·Token', name:'Standard', monthly:99, quarterly:null, yearly:null, firstMonth:null,
+    models:['HY-2.0','HY-2.0-Think','GLM-5','Kimi-K2.5','MiniMax-M2.5','Hunyuan-T1','Hunyuan-TurboS'], req5h:null, reqMonth:null,
+    benefits:['1亿 Tokens/月','兼容 Claude Code/Cursor/OpenClaw'], note:'Token Plan·约200轮问答·禁API调用', link:'https://curl.qcloud.com/1Uogyigq' },
+  { platform:'腾讯·Token', name:'Pro', monthly:299, quarterly:null, yearly:null, firstMonth:null,
+    models:['HY-2.0','HY-2.0-Think','GLM-5','Kimi-K2.5','MiniMax-M2.5','Hunyuan-T1','Hunyuan-TurboS'], req5h:null, reqMonth:null,
+    benefits:['3.2亿 Tokens/月','兼容 Claude Code/Cursor/OpenClaw'], note:'Token Plan·高频AI开发·禁API调用', link:'https://curl.qcloud.com/1Uogyigq' },
+  { platform:'腾讯·Token', name:'Max', monthly:599, quarterly:null, yearly:null, firstMonth:null,
+    models:['HY-2.0','HY-2.0-Think','GLM-5','Kimi-K2.5','MiniMax-M2.5','Hunyuan-T1','Hunyuan-TurboS'], req5h:null, reqMonth:null,
+    benefits:['6.5亿 Tokens/月','兼容 Claude Code/Cursor/OpenClaw'], note:'Token Plan·重度开发首选·禁API调用', link:'https://curl.qcloud.com/1Uogyigq' },
 
   // 百度·千帆 — 2月11日上线；每日10:30和17:00限量补货，Lite首月¥9.9
   { platform:'百度·千帆', name:'Lite', monthly:40, quarterly:null, yearly:null, firstMonth:9.9,
@@ -123,8 +139,12 @@ const RATINGS = [
     reasons: ['独家 Qwen3.6-Plus / Qwen3-Coder', 'Lite 已售罄·仅 Pro 可购', '首月¥39.9']
   },
   {
-    name: '腾讯·混元', score: 3,
-    reasons: ['支持 GLM-5 / Kimi-K2.5 / MiniMax-M2.5', '首月¥7.9·Lite 限量抢购', '企业生态强']
+    name: '腾讯·Coding', score: 3,
+    reasons: ['Coding Plan·按请求次数计费', '首月¥7.9·Lite 限量抢购', '支持 GLM-5 / Kimi-K2.5 / MiniMax-M2.5']
+  },
+  {
+    name: '腾讯·Token', score: 4,
+    reasons: ['Token Plan·按 Token 计费更透明', '7 模型覆盖（HY 2.0 Think/T1/TurboS 独家）', '¥39 起·兼容 Claude Code/Cursor/OpenClaw']
   },
   {
     name: '百度·千帆', score: 3,
