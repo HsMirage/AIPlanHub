@@ -44,12 +44,12 @@
 | Kimi | Kimi-K2.5 | 4 | ¥49 | ★★★ |
 | 阿里·百炼 | Qwen3.6-Plus | 1 | ¥200 | ★★★ |
 | 腾讯·Coding | HY-2.0 | 2 | ¥40 | ★★★ |
-| 腾讯·Token | HY-2.0 Think/T1/TurboS | 4 | ¥39 | ★★★★ |
+| 腾讯·Token | HY-2.0 Think/T1/TurboS | 4 | ¥39 | ★★ |
 | 百度·千帆 | — | 2 | ¥40 | ★★★ |
 | 讯飞星辰 | — | 3 | ¥19 | ★★★ |
 | 无问芯穹 | — | 2 | ¥40 | ★★★★ |
 | 字节·方舟 | Doubao-Seed-2.0 | 2 | ¥40 | ★★ |
-| 小米·MiMo | MiMo-V2-Pro | 4 | ¥39 | ★★ |
+| 小米·MiMo | MiMo-V2-Pro | 4 | ¥39 | ★ |
 
 ### 入门级（月付 ≤ ¥50）
 
@@ -183,7 +183,7 @@
 
 - 季付均价 = 季付总价 ÷ 3；年付均价 = 年付总价 ÷ 12
 - 5h 请求数基于「1 prompt ≈ 15 次调用」估算
-- Token量列：月额度方案 5h ≈ 月额度÷30，日额度方案 5h ≈ 日额度；单位 M = 百万 Tokens
+- Token量列：展示月额度或日额度；单位 M = 百万 Tokens
 - Midjourney / Suno / Udio / Ace Studio / z.ai 价格按 $1 ≈ ¥7.0 估算，实际以美元结算
 - 小米·MiMo Credit 倍率：MiMo-V2-Omni 256k→1x, MiMo-V2-Pro 256k→2x, MiMo-V2-Pro 256k~1M→4x, MiMo-V2-TTS→0x（限时免费）
 - 腾讯·Token Plan 仅限 AI 工具（Claude Code/Cursor/OpenClaw 等）使用，禁止 API 调用

@@ -143,7 +143,7 @@ const RATINGS = [
     reasons: ['Coding Plan·按请求次数计费', '首月¥7.9·Lite 限量抢购', '支持 GLM-5 / Kimi-K2.5 / MiniMax-M2.5']
   },
   {
-    name: '腾讯·Token', score: 4,
+    name: '腾讯·Token', score: 2,
     reasons: ['Token Plan·按 Token 计费更透明', '7 模型覆盖（HY 2.0 Think/T1/TurboS 独家）', '¥39 起·兼容 Claude Code/Cursor/OpenClaw']
   },
   {
@@ -155,7 +155,7 @@ const RATINGS = [
     reasons: ['3档套餐·首购低至¥3.9', '按日Tokens流控·每日最高5000万', '支持GLM-5/Kimi/MiniMax/DeepSeek']
   },
   {
-    name: '小米·MiMo', score: 2,
+    name: '小米·MiMo', score: 1,
     reasons: ['Credit≠Token·Pro 2x/Omni 1x 实际缩水', '¥39 仅 30M token(Pro)·性价比远低于同行', '兼容 Claude Code 但定价无竞争力']
   },
   {

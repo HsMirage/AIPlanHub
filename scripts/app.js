@@ -91,11 +91,10 @@ function fmtM(n) {
 function renderTokenCol(p) {
   var unit = p.tokenUnit || '';
   if (p.tokenMonth) {
-    var t5h = Math.round(p.tokenMonth / 30 * 100) / 100;
-    return '<span class="token-quota">' + fmtM(t5h) + 'M' + unit + '</span>';
+    return '<span class="token-quota">月 ' + fmtM(p.tokenMonth) + 'M' + unit + '</span>';
   }
   if (p.tokenDaily) {
-    return '<span class="token-quota">' + fmtM(p.tokenDaily) + 'M' + unit + '</span>';
+    return '<span class="token-quota">日 ' + fmtM(p.tokenDaily) + 'M' + unit + '</span>';
   }
   return na();
 }
