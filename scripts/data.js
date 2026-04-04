@@ -95,16 +95,16 @@ const PLANS = [
   // Credit 倍率：MiMo-V2-Omni 256k→1x, MiMo-V2-Pro 256k→2x, MiMo-V2-Pro 256k~1M→4x, MiMo-V2-TTS→0x（限时免费）
   { platform:'小米·MiMo', name:'Lite', monthly:39, quarterly:null, yearly:null, firstMonth:34.32,
     models:['MiMo-V2-Pro','MiMo-V2-Omni','MiMo-V2-TTS'], req5h:null, reqMonth:null,
-    benefits:['6000万 Credits·Pro 实际仅30M Token','兼容 Claude Code/OpenCode/OpenClaw'], note:'首购88折·Credit≠Token(Pro=2x/Omni=1x)·性价比低于同行', tokenMonth:6000, tokenUnit:' Credits', link:'https://platform.xiaomimimo.com/#/token-plan' },
+    benefits:['兼容 Claude Code/OpenCode/OpenClaw'], note:'首购88折·Credit≠Token(Pro=2x/Omni=1x)·性价比低于同行', tokenMonth:6000, tokenUnit:' Credits', link:'https://platform.xiaomimimo.com/#/token-plan' },
   { platform:'小米·MiMo', name:'Standard', monthly:99, quarterly:null, yearly:null, firstMonth:87.12,
     models:['MiMo-V2-Pro','MiMo-V2-Omni','MiMo-V2-TTS'], req5h:null, reqMonth:null,
-    benefits:['2亿 Credits·Pro 实际仅100M Token','兼容 Claude Code/OpenCode/OpenClaw'], note:'首购88折·3.3× Lite用量·性价比低于同行', tokenMonth:20000, tokenUnit:' Credits', link:'https://platform.xiaomimimo.com/#/token-plan' },
+    benefits:['兼容 Claude Code/OpenCode/OpenClaw'], note:'首购88折·3.3× Lite用量·性价比低于同行', tokenMonth:20000, tokenUnit:' Credits', link:'https://platform.xiaomimimo.com/#/token-plan' },
   { platform:'小米·MiMo', name:'Pro', monthly:329, quarterly:null, yearly:null, firstMonth:289.52,
     models:['MiMo-V2-Pro','MiMo-V2-Omni','MiMo-V2-TTS'], req5h:null, reqMonth:null,
-    benefits:['7亿 Credits·Pro 实际仅350M Token','兼容 Claude Code/OpenCode/OpenClaw'], note:'首购88折·11.7× Lite用量·性价比低于同行', tokenMonth:70000, tokenUnit:' Credits', link:'https://platform.xiaomimimo.com/#/token-plan' },
+    benefits:['兼容 Claude Code/OpenCode/OpenClaw'], note:'首购88折·11.7× Lite用量·性价比低于同行', tokenMonth:70000, tokenUnit:' Credits', link:'https://platform.xiaomimimo.com/#/token-plan' },
   { platform:'小米·MiMo', name:'Max', monthly:659, quarterly:null, yearly:null, firstMonth:579.92,
     models:['MiMo-V2-Pro','MiMo-V2-Omni','MiMo-V2-TTS'], req5h:null, reqMonth:null,
-    benefits:['16亿 Credits·Pro 实际仅800M Token','兼容 Claude Code/OpenCode/OpenClaw'], note:'首购88折·26.7× Lite用量·性价比低于同行', tokenMonth:160000, tokenUnit:' Credits', link:'https://platform.xiaomimimo.com/#/token-plan' },
+    benefits:['兼容 Claude Code/OpenCode/OpenClaw'], note:'首购88折·26.7× Lite用量·性价比低于同行', tokenMonth:160000, tokenUnit:' Credits', link:'https://platform.xiaomimimo.com/#/token-plan' },
 
   // 无问芯穹 — 2档套餐，多模型聚合，首月5折优惠
   { platform:'无问芯穹', name:'Lite', monthly:40, quarterly:null, yearly:null, firstMonth:19.9,
