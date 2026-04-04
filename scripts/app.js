@@ -83,22 +83,19 @@ function resetFilters() {
 
 function na() { return '<span class="price-na">—</span>'; }
 function fmt(n) { return n === null ? na() : n.toLocaleString(); }
-function fmtWan(n) {
-  if (n >= 10000) {
-    const yi = n / 10000;
-    return (yi === Math.floor(yi) ? yi.toFixed(0) : yi.toFixed(1)) + '亿';
-  }
-  return n.toLocaleString() + '万';
+function fmtM(n) {
+  var m = n / 100;
+  if (m >= 1000) return m.toLocaleString('en-US', { maximumFractionDigits: 0 });
+  return m % 1 === 0 ? m.toFixed(0) : m.toFixed(1);
 }
 function renderTokenCol(p) {
-  const unit = p.tokenUnit || '';
+  var unit = p.tokenUnit || '';
   if (p.tokenMonth) {
-    const t5h = Math.round(p.tokenMonth / 22);
-    return `<span class="token-quota">月 ${fmtWan(p.tokenMonth)}${unit}</span><br><span class="token-5h">5h ~${fmtWan(t5h)}${unit}</span>`;
+    var t5h = Math.round(p.tokenMonth / 30 * 100) / 100;
+    return '<span class="token-quota">月 ' + fmtM(p.tokenMonth) + 'M' + unit + '</span><br><span class="token-5h">5h ~' + fmtM(t5h) + 'M' + unit + '</span>';
   }
   if (p.tokenDaily) {
-    const t5h = Math.round(p.tokenDaily * 5 / 8);
-    return `<span class="token-quota">日 ${fmtWan(p.tokenDaily)}${unit}</span><br><span class="token-5h">5h ~${fmtWan(t5h)}${unit}</span>`;
+    return '<span class="token-quota">日 ' + fmtM(p.tokenDaily) + 'M' + unit + '</span><br><span class="token-5h">5h ~' + fmtM(p.tokenDaily) + 'M' + unit + '</span>';
   }
   return na();
 }
