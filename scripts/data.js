@@ -62,16 +62,16 @@ const PLANS = [
   // 注意：仅限 AI 工具使用，禁止 API 调用（违者封禁）；暂不支持多模态
   { platform:'腾讯·Token', name:'Lite', monthly:39, quarterly:null, yearly:null, firstMonth:null,
     models:['HY-2.0','HY-2.0-Think','GLM-5','Kimi-K2.5','MiniMax-M2.5','Hunyuan-T1','Hunyuan-TurboS'], req5h:null, reqMonth:null,
-    benefits:['3500万 Tokens/月','兼容 Claude Code/Cursor/OpenClaw'], note:'Token Plan·约70轮问答·禁API调用', link:'https://curl.qcloud.com/1Uogyigq' },
+    benefits:['3500万 Tokens/月','兼容 Claude Code/Cursor/OpenClaw'], note:'Token Plan·约70轮问答·禁API调用', tokenMonth:3500, link:'https://curl.qcloud.com/1Uogyigq' },
   { platform:'腾讯·Token', name:'Standard', monthly:99, quarterly:null, yearly:null, firstMonth:null,
     models:['HY-2.0','HY-2.0-Think','GLM-5','Kimi-K2.5','MiniMax-M2.5','Hunyuan-T1','Hunyuan-TurboS'], req5h:null, reqMonth:null,
-    benefits:['1亿 Tokens/月','兼容 Claude Code/Cursor/OpenClaw'], note:'Token Plan·约200轮问答·禁API调用', link:'https://curl.qcloud.com/1Uogyigq' },
+    benefits:['1亿 Tokens/月','兼容 Claude Code/Cursor/OpenClaw'], note:'Token Plan·约200轮问答·禁API调用', tokenMonth:10000, link:'https://curl.qcloud.com/1Uogyigq' },
   { platform:'腾讯·Token', name:'Pro', monthly:299, quarterly:null, yearly:null, firstMonth:null,
     models:['HY-2.0','HY-2.0-Think','GLM-5','Kimi-K2.5','MiniMax-M2.5','Hunyuan-T1','Hunyuan-TurboS'], req5h:null, reqMonth:null,
-    benefits:['3.2亿 Tokens/月','兼容 Claude Code/Cursor/OpenClaw'], note:'Token Plan·高频AI开发·禁API调用', link:'https://curl.qcloud.com/1Uogyigq' },
+    benefits:['3.2亿 Tokens/月','兼容 Claude Code/Cursor/OpenClaw'], note:'Token Plan·高频AI开发·禁API调用', tokenMonth:32000, link:'https://curl.qcloud.com/1Uogyigq' },
   { platform:'腾讯·Token', name:'Max', monthly:599, quarterly:null, yearly:null, firstMonth:null,
     models:['HY-2.0','HY-2.0-Think','GLM-5','Kimi-K2.5','MiniMax-M2.5','Hunyuan-T1','Hunyuan-TurboS'], req5h:null, reqMonth:null,
-    benefits:['6.5亿 Tokens/月','兼容 Claude Code/Cursor/OpenClaw'], note:'Token Plan·重度开发首选·禁API调用', link:'https://curl.qcloud.com/1Uogyigq' },
+    benefits:['6.5亿 Tokens/月','兼容 Claude Code/Cursor/OpenClaw'], note:'Token Plan·重度开发首选·禁API调用', tokenMonth:65000, link:'https://curl.qcloud.com/1Uogyigq' },
 
   // 百度·千帆 — 2月11日上线；每日10:30和17:00限量补货，Lite首月¥9.9
   { platform:'百度·千帆', name:'Lite', monthly:40, quarterly:null, yearly:null, firstMonth:9.9,
@@ -83,28 +83,28 @@ const PLANS = [
   // 官方文档：https://www.xfyun.cn/doc/spark/CodingPlan.html
   { platform:'讯飞星辰', name:'入门版', monthly:19, quarterly:null, yearly:null, firstMonth:3.9,
     models:['Qwen3.5-35B','DeepSeek-V3.2','GLM-4.7-Flash'], req5h:null, reqMonth:null,
-    benefits:['每日2000万Tokens','QPS 20'], note:'首购¥3.9·叠加购买¥19/月', link:'https://maas.xfyun.cn/packageSubscription?inviteCode=MAAS-7573AB85' },
+    benefits:['每日2000万Tokens','QPS 20'], note:'首购¥3.9·叠加购买¥19/月', tokenDaily:2000, link:'https://maas.xfyun.cn/packageSubscription?inviteCode=MAAS-7573AB85' },
   { platform:'讯飞星辰', name:'专业版', monthly:39, quarterly:null, yearly:null, firstMonth:7.9,
     models:['Qwen3.5-35B','DeepSeek-V3.2','GLM-4.7-Flash','GLM-5','MiniMax-M2.5','Kimi-K2.5'], req5h:null, reqMonth:null,
-    benefits:['每日1000万Tokens','QPS 5'], note:'首购¥7.9·叠加购买¥39/月', link:'https://maas.xfyun.cn/packageSubscription?inviteCode=MAAS-7573AB85' },
+    benefits:['每日1000万Tokens','QPS 5'], note:'首购¥7.9·叠加购买¥39/月', tokenDaily:1000, link:'https://maas.xfyun.cn/packageSubscription?inviteCode=MAAS-7573AB85' },
   { platform:'讯飞星辰', name:'高效版', monthly:199, quarterly:null, yearly:null, firstMonth:39.9,
     models:['Qwen3.5-35B','DeepSeek-V3.2','GLM-4.7-Flash','GLM-5','MiniMax-M2.5','Kimi-K2.5'], req5h:null, reqMonth:null,
-    benefits:['每日5000万Tokens','QPS 20'], note:'首购¥39.9·叠加购买¥199/月', link:'https://maas.xfyun.cn/packageSubscription?inviteCode=MAAS-7573AB85' },
+    benefits:['每日5000万Tokens','QPS 20'], note:'首购¥39.9·叠加购买¥199/月', tokenDaily:5000, link:'https://maas.xfyun.cn/packageSubscription?inviteCode=MAAS-7573AB85' },
 
   // 小米·MiMo — 4月3日上线 Token Plan，统一 Credit 体系，首购88折（仅限一次）
   // Credit 倍率：MiMo-V2-Omni 256k→1x, MiMo-V2-Pro 256k→2x, MiMo-V2-Pro 256k~1M→4x, MiMo-V2-TTS→0x（限时免费）
   { platform:'小米·MiMo', name:'Lite', monthly:39, quarterly:null, yearly:null, firstMonth:34.32,
     models:['MiMo-V2-Pro','MiMo-V2-Omni','MiMo-V2-TTS'], req5h:null, reqMonth:null,
-    benefits:['6000万 Credits·Pro 实际仅30M Token','兼容 Claude Code/OpenCode/OpenClaw'], note:'首购88折·Credit≠Token(Pro=2x/Omni=1x)·性价比低于同行', link:'https://platform.xiaomimimo.com/#/token-plan' },
+    benefits:['6000万 Credits·Pro 实际仅30M Token','兼容 Claude Code/OpenCode/OpenClaw'], note:'首购88折·Credit≠Token(Pro=2x/Omni=1x)·性价比低于同行', tokenMonth:6000, tokenUnit:' Credits', link:'https://platform.xiaomimimo.com/#/token-plan' },
   { platform:'小米·MiMo', name:'Standard', monthly:99, quarterly:null, yearly:null, firstMonth:87.12,
     models:['MiMo-V2-Pro','MiMo-V2-Omni','MiMo-V2-TTS'], req5h:null, reqMonth:null,
-    benefits:['2亿 Credits·Pro 实际仅100M Token','兼容 Claude Code/OpenCode/OpenClaw'], note:'首购88折·3.3× Lite用量·性价比低于同行', link:'https://platform.xiaomimimo.com/#/token-plan' },
+    benefits:['2亿 Credits·Pro 实际仅100M Token','兼容 Claude Code/OpenCode/OpenClaw'], note:'首购88折·3.3× Lite用量·性价比低于同行', tokenMonth:20000, tokenUnit:' Credits', link:'https://platform.xiaomimimo.com/#/token-plan' },
   { platform:'小米·MiMo', name:'Pro', monthly:329, quarterly:null, yearly:null, firstMonth:289.52,
     models:['MiMo-V2-Pro','MiMo-V2-Omni','MiMo-V2-TTS'], req5h:null, reqMonth:null,
-    benefits:['7亿 Credits·Pro 实际仅350M Token','兼容 Claude Code/OpenCode/OpenClaw'], note:'首购88折·11.7× Lite用量·性价比低于同行', link:'https://platform.xiaomimimo.com/#/token-plan' },
+    benefits:['7亿 Credits·Pro 实际仅350M Token','兼容 Claude Code/OpenCode/OpenClaw'], note:'首购88折·11.7× Lite用量·性价比低于同行', tokenMonth:70000, tokenUnit:' Credits', link:'https://platform.xiaomimimo.com/#/token-plan' },
   { platform:'小米·MiMo', name:'Max', monthly:659, quarterly:null, yearly:null, firstMonth:579.92,
     models:['MiMo-V2-Pro','MiMo-V2-Omni','MiMo-V2-TTS'], req5h:null, reqMonth:null,
-    benefits:['16亿 Credits·Pro 实际仅800M Token','兼容 Claude Code/OpenCode/OpenClaw'], note:'首购88折·26.7× Lite用量·性价比低于同行', link:'https://platform.xiaomimimo.com/#/token-plan' },
+    benefits:['16亿 Credits·Pro 实际仅800M Token','兼容 Claude Code/OpenCode/OpenClaw'], note:'首购88折·26.7× Lite用量·性价比低于同行', tokenMonth:160000, tokenUnit:' Credits', link:'https://platform.xiaomimimo.com/#/token-plan' },
 
   // 无问芯穹 — 2档套餐，多模型聚合，首月5折优惠
   { platform:'无问芯穹', name:'Lite', monthly:40, quarterly:null, yearly:null, firstMonth:19.9,

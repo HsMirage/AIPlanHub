@@ -83,6 +83,25 @@ function resetFilters() {
 
 function na() { return '<span class="price-na">—</span>'; }
 function fmt(n) { return n === null ? na() : n.toLocaleString(); }
+function fmtWan(n) {
+  if (n >= 10000) {
+    const yi = n / 10000;
+    return (yi === Math.floor(yi) ? yi.toFixed(0) : yi.toFixed(1)) + '亿';
+  }
+  return n.toLocaleString() + '万';
+}
+function renderTokenCol(p) {
+  const unit = p.tokenUnit || '';
+  if (p.tokenMonth) {
+    const t5h = Math.round(p.tokenMonth / 22);
+    return `<span class="token-quota">月 ${fmtWan(p.tokenMonth)}${unit}</span><br><span class="token-5h">5h ~${fmtWan(t5h)}${unit}</span>`;
+  }
+  if (p.tokenDaily) {
+    const t5h = Math.round(p.tokenDaily * 5 / 8);
+    return `<span class="token-quota">日 ${fmtWan(p.tokenDaily)}${unit}</span><br><span class="token-5h">5h ~${fmtWan(t5h)}${unit}</span>`;
+  }
+  return na();
+}
 
 function renderTable(plans) {
   const tbody = document.getElementById('plans-tbody');
@@ -109,6 +128,7 @@ function renderTable(plans) {
       <td class="num">${p.firstMonth ? `${cur}${p.firstMonth}` : na()}</td>
       <td class="num">${fmt(p.req5h)}</td>
       <td class="num">${fmt(p.reqMonth)}</td>
+      <td class="num">${renderTokenCol(p)}</td>
       <td>${models}</td>
       <td>${benefits}</td>
       <td><span class="note-text">${p.note || '—'}</span></td>

@@ -465,6 +465,8 @@ td.num {
   margin: 2px 3px;
 }
 .note-text { color: var(--text-muted); font-size: 12px; }
+.token-quota { color: var(--primary); font-weight: 500; font-size: 12px; }
+.token-5h { color: var(--text-muted); font-size: 11px; }
 
 .open-btn {
   display: inline-block;
