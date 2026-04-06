@@ -131,8 +131,8 @@ const RATINGS = [
     reasons: ['定价最低无需抢购', '独家 MiniMax-M2.7', '已升级 Token Plan·赠多模态额度']
   },
   {
-    name: '字节·方舟', score: 2,
-    reasons: ['⚠双层计费：Token消耗大按2-3次扣费·额度远不够用', '计费不透明·无用量明细·蓝点网/微博多源实锤', '速度慢·超卖严重·付费仍用数据训练']
+    name: '字节·方舟', score: 3,
+    reasons: ['计费不透明·无用量明细·蓝点网/微博多源实锤', '速度慢·超卖严重·付费仍用数据训练', '首月¥8.9·支持Doubao/Kimi/GLM/MiniMax多模型']
   },
   {
     name: '阿里·百炼', score: 4,
@@ -151,15 +151,15 @@ const RATINGS = [
     reasons: ['支持文心4.5Turbo / DeepSeek-V3.2', '每日10:30/17:00限量补货', '首月¥9.9']
   },
   {
-    name: '讯飞星辰', score: 3,
-    reasons: ['3档套餐·首购低至¥3.9', '按日Tokens流控·每日最高5000万', '支持GLM-5/Kimi/MiniMax/DeepSeek']
+    name: '讯飞星辰', score: 2,
+    reasons: ['套餐量少', '按日Tokens流控·每日最高5000万', '支持GLM-5/Kimi/MiniMax/DeepSeek']
   },
   {
     name: '小米·MiMo', score: 1,
     reasons: ['Credit≠Token·Pro 2x/Omni 1x 实际缩水', '¥39 仅 30M token(Pro)·性价比远低于同行', '兼容 Claude Code 但定价无竞争力']
   },
   {
-    name: '无问芯穹', score: 4,
+    name: '无问芯穹', score: 3,
     reasons: ['Lite首月¥19.9·次月¥40', 'Pro首月¥99.9·次月¥200', '多模型聚合（DeepSeek/Kimi/GLM/MiniMax）']
   }
 ];
