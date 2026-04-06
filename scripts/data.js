@@ -135,7 +135,7 @@ const RATINGS = [
     reasons: ['⚠双层计费：Token消耗大按2-3次扣费·额度远不够用', '计费不透明·无用量明细·蓝点网/微博多源实锤', '速度慢·超卖严重·付费仍用数据训练']
   },
   {
-    name: '阿里·百炼', score: 3,
+    name: '阿里·百炼', score: 4,
     reasons: ['独家 Qwen3.6-Plus / Qwen3-Coder', 'Lite 已售罄·仅 Pro 可购', '首月¥39.9']
   },
   {
