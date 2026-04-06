@@ -28,17 +28,17 @@ const PLANS = [
 
   // MiniMax — 3月23日已升级为 Token Plan（全模态统一订阅），Plus及以上额外赠多模态额度
   { platform:'MiniMax', name:'Starter', monthly:29, quarterly:null, yearly:290, firstMonth:null,
-    models:['MiniMax-M2.7'], req5h:600, reqMonth:9000, benefits:['TPS ~50','Token Plan'], note:'年付¥24.2/月', link:'https://platform.minimaxi.com/subscribe/token-plan?code=7EEmX0yfbU&source=link' },
+    models:['MiniMax-M2.7'], req5h:600, reqMonth:9000, benefits:['TPS ~50','Token Plan'], note:'年付¥24.2/月', link:'https://platform.minimaxi.com/subscribe/token-plan?code=G2vbq30tXz&source=link' },
   { platform:'MiniMax', name:'Plus', monthly:49, quarterly:null, yearly:490, firstMonth:null,
-    models:['MiniMax-M2.7'], req5h:1500, reqMonth:22500, benefits:['TPS ~50','赠多模态额度（视频/语音/音乐/图像）'], note:'年付¥40.8/月·Token Plan', link:'https://platform.minimaxi.com/subscribe/token-plan?code=7EEmX0yfbU&source=link' },
+    models:['MiniMax-M2.7'], req5h:1500, reqMonth:22500, benefits:['TPS ~50','赠多模态额度（视频/语音/音乐/图像）'], note:'年付¥40.8/月·Token Plan', link:'https://platform.minimaxi.com/subscribe/token-plan?code=G2vbq30tXz&source=link' },
   { platform:'MiniMax', name:'Max', monthly:119, quarterly:null, yearly:1190, firstMonth:null,
-    models:['MiniMax-M2.7'], req5h:4500, reqMonth:67500, benefits:['TPS ~50','赠多模态额度（视频/语音/音乐/图像）'], note:'年付¥99.2/月·Token Plan', link:'https://platform.minimaxi.com/subscribe/token-plan?code=7EEmX0yfbU&source=link' },
+    models:['MiniMax-M2.7'], req5h:4500, reqMonth:67500, benefits:['TPS ~50','赠多模态额度（视频/语音/音乐/图像）'], note:'年付¥99.2/月·Token Plan', link:'https://platform.minimaxi.com/subscribe/token-plan?code=G2vbq30tXz&source=link' },
   { platform:'MiniMax', name:'Plus 极速版', monthly:98, quarterly:null, yearly:980, firstMonth:null,
-    models:['MiniMax-M2.7'], req5h:1500, reqMonth:22500, benefits:['TPS ~100','赠多模态额度'], note:'Token Plan', link:'https://platform.minimaxi.com/subscribe/token-plan?code=7EEmX0yfbU&source=link' },
+    models:['MiniMax-M2.7'], req5h:1500, reqMonth:22500, benefits:['TPS ~100','赠多模态额度'], note:'Token Plan', link:'https://platform.minimaxi.com/subscribe/token-plan?code=G2vbq30tXz&source=link' },
   { platform:'MiniMax', name:'Max 极速版', monthly:199, quarterly:null, yearly:1990, firstMonth:null,
-    models:['MiniMax-M2.7'], req5h:4500, reqMonth:67500, benefits:['TPS ~100','赠多模态额度'], note:'Token Plan', link:'https://platform.minimaxi.com/subscribe/token-plan?code=7EEmX0yfbU&source=link' },
+    models:['MiniMax-M2.7'], req5h:4500, reqMonth:67500, benefits:['TPS ~100','赠多模态额度'], note:'Token Plan', link:'https://platform.minimaxi.com/subscribe/token-plan?code=G2vbq30tXz&source=link' },
   { platform:'MiniMax', name:'Ultra 极速版', monthly:899, quarterly:null, yearly:8990, firstMonth:null,
-    models:['MiniMax-M2.7'], req5h:30000, reqMonth:450000, benefits:['TPS ~100','赠多模态额度'], note:'Token Plan', link:'https://platform.minimaxi.com/subscribe/token-plan?code=7EEmX0yfbU&source=link' },
+    models:['MiniMax-M2.7'], req5h:30000, reqMonth:450000, benefits:['TPS ~100','赠多模态额度'], note:'Token Plan', link:'https://platform.minimaxi.com/subscribe/token-plan?code=G2vbq30tXz&source=link' },
 
   // 字节·方舟 — 首月Lite约¥8.9，支持Doubao-Seed-2.0系列/DeepSeek-V3.2/Kimi-K2.5/GLM-4.7
   // ⚠️ 双层计费：名义按调用次数，实际Token消耗大会被按2-3次甚至更多次扣费（蓝点网/V2EX/微博多源证实）

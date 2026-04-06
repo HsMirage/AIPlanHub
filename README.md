@@ -55,12 +55,12 @@
 
 | 平台 | 方案 | 月付 | 首月价 | 5h请求数 | Token量 | 开通 |
 |------|------|------|--------|----------|---------|------|
-| MiniMax | Starter | ¥29 | — | 600 | — | [开通](https://platform.minimaxi.com/subscribe/token-plan?code=7EEmX0yfbU&source=link) |
+| MiniMax | Starter | ¥29 | — | 600 | — | [开通](https://platform.minimaxi.com/subscribe/token-plan?code=G2vbq30tXz&source=link) |
 | 讯飞星辰 | 入门版 | ¥19 | ¥3.9 | — | 日 20M | [开通](https://maas.xfyun.cn/packageSubscription?inviteCode=MAAS-7573AB85) |
 | 讯飞星辰 | 专业版 | ¥39 | ¥7.9 | — | 日 10M | [开通](https://maas.xfyun.cn/packageSubscription?inviteCode=MAAS-7573AB85) |
 | 智谱AI | Lite | ¥49 | — | 1,200 | — | [开通](https://www.bigmodel.cn/glm-coding?ic=DGRQECTZFB) |
 | Kimi | Andante | ¥49 | — | — | — | [开通](https://www.kimi.com/code/zh) |
-| MiniMax | Plus | ¥49 | — | 1,500 | — | [开通](https://platform.minimaxi.com/subscribe/token-plan?code=7EEmX0yfbU&source=link) |
+| MiniMax | Plus | ¥49 | — | 1,500 | — | [开通](https://platform.minimaxi.com/subscribe/token-plan?code=G2vbq30tXz&source=link) |
 | 无问芯穹 | Lite | ¥40 | ¥19.9 | 1,000 | — | [开通](https://cloud.infini-ai.com/login?redirect=/genstudio/invitation&invite_code=qYRvZBVl) |
 | 字节·方舟 | Lite | ¥40 | ¥8.9 | 1,200 | — | [开通](https://volcengine.com/L/jmiEa1dptck/) |
 | 腾讯·Coding | Lite | ¥40 | ¥7.9 | 1,200 | — | [开通](https://curl.qcloud.com/1Uogyigq) |
@@ -72,8 +72,8 @@
 
 | 平台 | 方案 | 月付 | 首月价 | 5h请求数 | Token量 | 开通 |
 |------|------|------|--------|----------|---------|------|
-| MiniMax | Max | ¥119 | — | 4,500 | — | [开通](https://platform.minimaxi.com/subscribe/token-plan?code=7EEmX0yfbU&source=link) |
-| MiniMax | Plus 极速版 | ¥98 | — | 1,500 | — | [开通](https://platform.minimaxi.com/subscribe/token-plan?code=7EEmX0yfbU&source=link) |
+| MiniMax | Max | ¥119 | — | 4,500 | — | [开通](https://platform.minimaxi.com/subscribe/token-plan?code=G2vbq30tXz&source=link) |
+| MiniMax | Plus 极速版 | ¥98 | — | 1,500 | — | [开通](https://platform.minimaxi.com/subscribe/token-plan?code=G2vbq30tXz&source=link) |
 | 智谱AI | Pro | ¥149 | — | 6,000 | — | [开通](https://www.bigmodel.cn/glm-coding?ic=DGRQECTZFB) |
 | Kimi | Moderato | ¥99 | — | — | — | [开通](https://www.kimi.com/code/zh) |
 | 腾讯·Token | Standard | ¥99 | — | — | 月 100M | [开通](https://curl.qcloud.com/1Uogyigq) |
@@ -90,13 +90,13 @@
 | 无问芯穹 | Pro | ¥200 | ¥99.9 | 5,000 | — | [开通](https://cloud.infini-ai.com/login?redirect=/genstudio/invitation&invite_code=qYRvZBVl) |
 | Kimi | Allegretto | ¥199 | — | — | — | [开通](https://www.kimi.com/code/zh) |
 | 腾讯·Token | Pro | ¥299 | — | — | 月 320M | [开通](https://curl.qcloud.com/1Uogyigq) |
-| MiniMax | Max 极速版 | ¥199 | — | 4,500 | — | [开通](https://platform.minimaxi.com/subscribe/token-plan?code=7EEmX0yfbU&source=link) |
+| MiniMax | Max 极速版 | ¥199 | — | 4,500 | — | [开通](https://platform.minimaxi.com/subscribe/token-plan?code=G2vbq30tXz&source=link) |
 | 小米·MiMo | Pro | ¥329 | ¥289.52 | — | 月 700M Credits | [开通](https://platform.xiaomimimo.com/#/token-plan) |
 | 智谱AI | Max | ¥469 | — | 24,000 | — | [开通](https://www.bigmodel.cn/glm-coding?ic=DGRQECTZFB) |
 | 腾讯·Token | Max | ¥599 | — | — | 月 650M | [开通](https://curl.qcloud.com/1Uogyigq) |
 | Kimi | Allegro | ¥699 | — | — | — | [开通](https://www.kimi.com/code/zh) |
 | 小米·MiMo | Max | ¥659 | ¥579.92 | — | 月 1,600M Credits | [开通](https://platform.xiaomimimo.com/#/token-plan) |
-| MiniMax | Ultra 极速版 | ¥899 | — | 30,000 | — | [开通](https://platform.minimaxi.com/subscribe/token-plan?code=7EEmX0yfbU&source=link) |
+| MiniMax | Ultra 极速版 | ¥899 | — | 30,000 | — | [开通](https://platform.minimaxi.com/subscribe/token-plan?code=G2vbq30tXz&source=link) |
 
 ### 支持模型一览
 
