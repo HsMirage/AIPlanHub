@@ -6,7 +6,7 @@
 
 ---
 
-> Coding 数据更新于 2026.04.04 · Video / Image / Audio 更新于 2026.03.31 · 仅供参考，以各平台官方公告为准
+> Coding 数据更新于 2026.04.07 · Video / Image / Audio 更新于 2026.03.31 · 仅供参考，以各平台官方公告为准
 
 ---
 
@@ -46,7 +46,7 @@ https://ai.hsnb.fun/aiplanhub
 | 腾讯·Coding | HY-2.0 | 2 | ¥40 | ★★★ |
 | 腾讯·Token | HY-2.0 Think/T1/TurboS | 4 | ¥39 | ★★ |
 | 百度·千帆 | — | 2 | ¥40 | ★★★ |
-| 讯飞星辰 | — | 3 | ¥19 | ★★ |
+| 讯飞星辰 | Spark X2 | 3 | ¥19 | ★★ |
 | 无问芯穹 | — | 2 | ¥40 | ★★★ |
 | 字节·方舟 | Doubao-Seed-2.0 | 2 | ¥40 | ★★★ |
 | 小米·MiMo | MiMo-V2-Pro | 4 | ¥39 | ★ |
@@ -84,7 +84,7 @@ https://ai.hsnb.fun/aiplanhub
 | 平台 | 方案 | 月付 | 首月价 | 5h请求数 | Token量 | 开通 |
 |------|------|------|--------|----------|---------|------|
 | 字节·方舟 | Pro | ¥200 | ¥49.9 | 6,000 | — | [开通](https://volcengine.com/L/jmiEa1dptck/) |
-| 阿里·百炼 | Pro | ¥200 | ¥39.9 | 6,000 | — | [开通](https://www.aliyun.com/minisite/goods?userCode=hun0t0sf) |
+| 阿里·百炼 | Pro | ¥200 | — | 6,000 | — | [开通](https://www.aliyun.com/minisite/goods?userCode=hun0t0sf) |
 | 腾讯·Coding | Pro | ¥200 | ¥39.9 | 6,000 | — | [开通](https://curl.qcloud.com/1Uogyigq) |
 | 讯飞星辰 | 高效版 | ¥199 | ¥39.9 | — | 日 50M | [开通](https://maas.xfyun.cn/packageSubscription?inviteCode=MAAS-7573AB85) |
 | 无问芯穹 | Pro | ¥200 | ¥99.9 | 5,000 | — | [开通](https://cloud.infini-ai.com/login?redirect=/genstudio/invitation&invite_code=qYRvZBVl) |
@@ -114,7 +114,7 @@ https://ai.hsnb.fun/aiplanhub
 | Doubao-Seed-Code | 字节·方舟 |
 | Qwen3.6-Plus | 阿里·百炼 |
 | Qwen3-Coder | 阿里·百炼 |
-| Qwen3.5-35B | 讯飞星辰 |
+| Qwen3.5-35B-A3B | 讯飞星辰 |
 | DeepSeek-V3.2 | 字节·方舟、百度·千帆、讯飞星辰、无问芯穹 |
 | HY-2.0 | 腾讯·Coding、腾讯·Token |
 | HY-2.0-Think | 腾讯·Token |

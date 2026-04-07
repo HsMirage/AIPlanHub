@@ -48,8 +48,8 @@ const PLANS = [
     models:['Doubao-Seed-2.0','Doubao-Seed-Code','DeepSeek-V3.2','Kimi-K2.5','GLM-4.7','MiniMax-M2.5'], req5h:6000, reqMonth:90000, benefits:['免费ArkClaw','Auto智能选模型'], note:'首月¥49.9·⚠双层计费·Pro三四天可用完月额度', link:'https://volcengine.com/L/jmiEa1dptck/' },
 
   // 阿里·百炼 — Lite套餐已售罄（截至3月），目前仅Pro可购；千问Plus已升级至Qwen3.6
-  { platform:'阿里·百炼', name:'Pro', monthly:200, quarterly:null, yearly:null, firstMonth:39.9,
-    models:['Qwen3.6-Plus','Qwen3-Coder','GLM-5','Kimi-K2.5','MiniMax-M2.5'], req5h:6000, reqMonth:90000, benefits:['多模型自由切换'], note:'Lite已售罄·仅Pro可购·首月¥39.9', link:'https://www.aliyun.com/minisite/goods?userCode=hun0t0sf' },
+  { platform:'阿里·百炼', name:'Pro', monthly:200, quarterly:null, yearly:null, firstMonth:null,
+    models:['Qwen3.6-Plus','Qwen3-Coder','GLM-5','Kimi-K2.5','MiniMax-M2.5'], req5h:6000, reqMonth:90000, benefits:['多模型自由切换'], note:'Lite已售罄·仅Pro可购·首月优惠已结束', link:'https://www.aliyun.com/minisite/goods?userCode=hun0t0sf' },
 
   // 腾讯·Coding — Coding Plan（按请求次数），Lite限量抢购（每天10点），首月¥7.9；Pro首月¥39.9
   { platform:'腾讯·Coding', name:'Lite', monthly:40, quarterly:null, yearly:null, firstMonth:7.9,
@@ -79,17 +79,17 @@ const PLANS = [
   { platform:'百度·千帆', name:'Pro', monthly:200, quarterly:null, yearly:null, firstMonth:null,
     models:['Kimi-K2.5','DeepSeek-V3.2','GLM-5','MiniMax-M2.5'], req5h:6000, reqMonth:90000, benefits:[], note:'每日10:30/17:00限量补货', link:'https://cloud.baidu.com/campaign/ambassador-product/index.html?ambassadorId=b00e3bb5d042440fbfaccf545e8e52f0#knowledge-model' },
 
-  // 讯飞星辰 — MaaS平台 Astron Coding Plan，3档套餐，按日Tokens流控，次月版将改为请求次数
+  // 讯飞星辰 — MaaS平台 Astron Coding Plan，3档套餐，按日Tokens流控
   // 官方文档：https://www.xfyun.cn/doc/spark/CodingPlan.html
   { platform:'讯飞星辰', name:'入门版', monthly:19, quarterly:null, yearly:null, firstMonth:3.9,
-    models:['Qwen3.5-35B','DeepSeek-V3.2','GLM-4.7-Flash'], req5h:null, reqMonth:null,
-    benefits:['每日2000万Tokens','QPS 20'], note:'首购¥3.9·叠加购买¥19/月', tokenDaily:2000, link:'https://maas.xfyun.cn/packageSubscription?inviteCode=MAAS-7573AB85' },
+    models:['Qwen3.5-35B-A3B','DeepSeek-V3.2','GLM-4.7-Flash'], req5h:null, reqMonth:null,
+    benefits:['每日2000万Tokens','QPS 20'], note:'首月¥3.9·次月¥19', tokenDaily:2000, link:'https://maas.xfyun.cn/packageSubscription?inviteCode=MAAS-7573AB85' },
   { platform:'讯飞星辰', name:'专业版', monthly:39, quarterly:null, yearly:null, firstMonth:7.9,
-    models:['Qwen3.5-35B','DeepSeek-V3.2','GLM-4.7-Flash','GLM-5','MiniMax-M2.5','Kimi-K2.5'], req5h:null, reqMonth:null,
-    benefits:['每日1000万Tokens','QPS 5'], note:'首购¥7.9·叠加购买¥39/月', tokenDaily:1000, link:'https://maas.xfyun.cn/packageSubscription?inviteCode=MAAS-7573AB85' },
+    models:['Spark X2','Qwen3.5-35B-A3B','DeepSeek-V3.2','GLM-4.7-Flash','GLM-5','MiniMax-M2.5','Kimi-K2.5'], req5h:null, reqMonth:null,
+    benefits:['每日1000万Tokens','QPS 5'], note:'首月¥7.9·次月¥39·Spark X2独家', tokenDaily:1000, link:'https://maas.xfyun.cn/packageSubscription?inviteCode=MAAS-7573AB85' },
   { platform:'讯飞星辰', name:'高效版', monthly:199, quarterly:null, yearly:null, firstMonth:39.9,
-    models:['Qwen3.5-35B','DeepSeek-V3.2','GLM-4.7-Flash','GLM-5','MiniMax-M2.5','Kimi-K2.5'], req5h:null, reqMonth:null,
-    benefits:['每日5000万Tokens','QPS 20'], note:'首购¥39.9·叠加购买¥199/月', tokenDaily:5000, link:'https://maas.xfyun.cn/packageSubscription?inviteCode=MAAS-7573AB85' },
+    models:['Spark X2','Qwen3.5-35B-A3B','DeepSeek-V3.2','GLM-4.7-Flash','GLM-5','MiniMax-M2.5','Kimi-K2.5'], req5h:null, reqMonth:null,
+    benefits:['每日5000万Tokens','QPS 20'], note:'首月¥39.9·次月¥199·Spark X2独家', tokenDaily:5000, link:'https://maas.xfyun.cn/packageSubscription?inviteCode=MAAS-7573AB85' },
 
   // 小米·MiMo — 4月3日上线 Token Plan，统一 Credit 体系，首购88折（仅限一次）
   // Credit 倍率：MiMo-V2-Omni 256k→1x, MiMo-V2-Pro 256k→2x, MiMo-V2-Pro 256k~1M→4x, MiMo-V2-TTS→0x（限时免费）
