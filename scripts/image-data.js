@@ -24,15 +24,15 @@ const IMAGE_PLANS = [
 
   // Liblib AI (哩布哩布) — 模型社区+创作平台
   { platform:'Liblib AI', name:'基础版', monthly:null, yearly:399, credits:'800 积分/月', resolution:'不限',
-    features:['10万+模型','WebUI/ComfyUI','训练 LoRA','视频生成','Kling/MJ V7'], note:'年付¥399·原价¥588·约3200张图片或80个视频/月', link:'https://www.liblib.art' },
+    features:['10万+模型','WebUI/ComfyUI','训练 LoRA','视频生成','Kling/MJ V7'], note:'年付¥399·原价¥588·约3200张图片或80个视频/月', link:'https://www.liblib.art/viphome?referralCode=mk7xHT4K' },
   { platform:'Liblib AI', name:'专业版', monthly:null, yearly:639, credits:'1800 积分/月', resolution:'不限',
-    features:['10万+模型','视频生成','训练 LoRA','Kling/MJ V7','智能分镜'], note:'年付¥639·原价¥948·约7200张图片或180个视频/月', link:'https://www.liblib.art' },
+    features:['10万+模型','视频生成','训练 LoRA','Kling/MJ V7','智能分镜'], note:'年付¥639·原价¥948·约7200张图片或180个视频/月', link:'https://www.liblib.art/viphome?referralCode=mk7xHT4K' },
   { platform:'Liblib AI', name:'大师版', monthly:null, yearly:1299, credits:'5800 积分/月', resolution:'不限',
-    features:['顶级算力','训练 LoRA','Kling 免费赠送','MJ V7','商用授权'], note:'年付¥1299·原价¥2748·约23200张图片或580个视频/月', link:'https://www.liblib.art' },
+    features:['顶级算力','训练 LoRA','Kling 免费赠送','MJ V7','商用授权'], note:'年付¥1299·原价¥2748·约23200张图片或580个视频/月', link:'https://www.liblib.art/viphome?referralCode=mk7xHT4K' },
   { platform:'Liblib AI', name:'旗舰版', monthly:null, yearly:2999, credits:'15800 积分/月', resolution:'不限',
-    features:['顶级算力','Kling 免费送5条','MJ V7','商用授权','20 并发任务'], note:'年付¥2999·原价¥11322·约63200张图片或1580个视频/月', link:'https://www.liblib.art' },
+    features:['顶级算力','Kling 免费送5条','MJ V7','商用授权','20 并发任务'], note:'年付¥2999·原价¥11322·约63200张图片或1580个视频/月', link:'https://www.liblib.art/viphome?referralCode=mk7xHT4K' },
   { platform:'Liblib AI', name:'尊享版', monthly:null, yearly:6599, credits:'34000 积分/月', resolution:'不限',
-    features:['无限并发','Kling 免费送10条','MJ V7','商用授权','500GB 存储'], note:'年付¥6599·原价¥25182·约136000张图片或3400个视频/月', link:'https://www.liblib.art' },
+    features:['无限并发','Kling 免费送10条','MJ V7','商用授权','500GB 存储'], note:'年付¥6599·原价¥25182·约136000张图片或3400个视频/月', link:'https://www.liblib.art/viphome?referralCode=mk7xHT4K' },
 
   // 堆友 (d.design) — 阿里巴巴设计平台
   { platform:'堆友', name:'年卡会员', monthly:null, yearly:799, credits:'按年计费', resolution:'2048×2048',

@@ -22,9 +22,9 @@ const AUDIO_PLANS = [
 
   // MiniMax 海螺AI — 音乐模型 API
   { platform:'海螺AI', name:'Music-2.0', monthly:null, yearly:null, credits:'¥0.25/首', audioLen:'不限',
-    features:['API 接入','文生音乐','多变音色','丰富乐器'], note:'MiniMax开放平台按量计费：Music-2.0 ¥0.25/首；歌词生成 ¥0.05/首', link:'https://platform.minimaxi.com/docs/guides/pricing-paygo' },
+    features:['API 接入','文生音乐','多变音色','丰富乐器'], note:'MiniMax开放平台按量计费：Music-2.0 ¥0.25/首；歌词生成 ¥0.05/首', link:'https://www.minimaxi.com/audio' },
   { platform:'海螺AI', name:'Music-2.5+', monthly:null, yearly:null, credits:'¥1.0/首', audioLen:'不限',
-    features:['API 接入','最新模型','纯音乐解锁','突破风格边界'], note:'MiniMax开放平台按量计费：Music-2.5+ ¥1.0/首（最新）；Music-2.5 ¥1.0/首', link:'https://platform.minimaxi.com/docs/guides/pricing-paygo' },
+    features:['API 接入','最新模型','纯音乐解锁','突破风格边界'], note:'MiniMax开放平台按量计费：Music-2.5+ ¥1.0/首（最新）；Music-2.5 ¥1.0/首', link:'https://www.minimaxi.com/audio' },
 
   // Ace Studio — AI 歌声合成
   { platform:'Ace Studio', name:'Artist', monthly:null, yearly:1741, credits:'Generative Kits ~330分钟/月', audioLen:'不限',

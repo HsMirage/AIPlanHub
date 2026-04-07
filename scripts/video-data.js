@@ -34,15 +34,15 @@ const VIDEO_PLANS = [
 
   // 海螺AI (HailuoAI) — MiniMax 旗下
   { platform:'海螺AI', name:'基础会员', monthly:105, yearly:504, credits:'1000贝壳/月', videoLen:'6-10秒', resolution:'768P/1080P',
-    features:['Hailuo 2.3','文生视频','图生视频','无水印下载','Hailuo 1.0 6秒'], note:'原价¥105/月·连续包月¥68/月·年付¥504(4折·约¥42/月)', link:'https://hailuoai.com' },
+    features:['Hailuo 2.3','文生视频','图生视频','无水印下载','Hailuo 1.0 6秒'], note:'原价¥105/月·连续包月¥68/月·年付¥504(4折·约¥42/月)', link:'https://hailuoai.com/subscribe' },
   { platform:'海螺AI', name:'标准会员', monthly:385, yearly:1848, credits:'4500贝壳/月', videoLen:'6-10秒', resolution:'768P/1080P',
-    features:['Hailuo 2.3 10秒','文生视频','图生视频','双任务并发','Seedream 5.0无限','Midjourney V7无限'], note:'原价¥385/月·连续包月¥245/月·年付¥1848(4折·约¥154/月)', link:'https://hailuoai.com' },
+    features:['Hailuo 2.3 10秒','文生视频','图生视频','双任务并发','Seedream 5.0无限','Midjourney V7无限'], note:'原价¥385/月·连续包月¥245/月·年付¥1848(4折·约¥154/月)', link:'https://hailuoai.com/subscribe' },
   { platform:'海螺AI', name:'大师会员', monthly:799, yearly:3864, credits:'10500贝壳/月', videoLen:'6-10秒', resolution:'768P/1080P',
-    features:['Hailuo 2.0/2.3 限时无限','文生视频','图生视频','双任务并发','Seedream 5.0 2K无限','Midjourney V7无限'], note:'原价¥799/月·连续包月¥578/月·年付¥3864(4折·约¥322/月)·2.0/2.3无限至2026-05-01', link:'https://hailuoai.com' },
+    features:['Hailuo 2.0/2.3 限时无限','文生视频','图生视频','双任务并发','Seedream 5.0 2K无限','Midjourney V7无限'], note:'原价¥799/月·连续包月¥578/月·年付¥3864(4折·约¥322/月)·2.0/2.3无限至2026-05-01', link:'https://hailuoai.com/subscribe' },
   { platform:'海螺AI', name:'至臻会员', monthly:899, yearly:7560, credits:'12000贝壳/月', videoLen:'6-10秒', resolution:'768P/1080P',
-    features:['Hailuo 2.0/2.3 限时无限','Hailuo 1.0 无限','双任务并发','Seedream 5.0 3K无限','全能图片Pro 4K'], note:'原价¥899/月·年付¥7560(约¥630/月)·2.0/2.3无限至2026-06-01', link:'https://hailuoai.com' },
+    features:['Hailuo 2.0/2.3 限时无限','Hailuo 1.0 无限','双任务并发','Seedream 5.0 3K无限','全能图片Pro 4K'], note:'原价¥899/月·年付¥7560(约¥630/月)·2.0/2.3无限至2026-06-01', link:'https://hailuoai.com/subscribe' },
   { platform:'海螺AI', name:'尊享会员', monthly:1399, yearly:13440, credits:'20000贝壳/月', videoLen:'6-10秒', resolution:'768P/1080P',
-    features:['Hailuo 全系列无限','Agent 全部权益','双任务并发','Seedream 5.0 3K无限','全能图片Pro 4K','光影工作室无限'], note:'原价¥1399/月·年付¥13440(约¥1120/月)·全系列无限生成', link:'https://hailuoai.com' },
+    features:['Hailuo 全系列无限','Agent 全部权益','双任务并发','Seedream 5.0 3K无限','全能图片Pro 4K','光影工作室无限'], note:'原价¥1399/月·年付¥13440(约¥1120/月)·全系列无限生成', link:'https://hailuoai.com/subscribe' },
 
   // Vidu — 生数科技
   { platform:'Vidu', name:'免费版', monthly:0, yearly:null, credits:'登录赠送积分', videoLen:'6-8秒', resolution:'720P',

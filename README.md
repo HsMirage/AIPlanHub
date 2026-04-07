@@ -30,7 +30,7 @@
 
 ## 在线访问
 
-直接打开 `index.html` 即可使用，也可嵌入 iframe（`?embed=1&theme=light|dark`）。
+https://ai.hsnb.fun/aiplanhub
 
 ---
 
