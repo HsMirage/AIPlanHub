@@ -1,30 +1,33 @@
 // ===== Plans Data =====
 const PLANS = [
   // 智谱AI — 官网实测：月付/季付(9折)/年付(8折)，2月12日已涨价30%起，取消首购优惠
+  // 2026.04.07更新：Lite移除GLM-5，新增GLM-4.x系列；Pro/Max保留GLM-5
   { platform:'智谱AI', name:'Lite', monthly:49, quarterly:132.3, yearly:470.4, firstMonth:null,
-    models:['GLM-5.1','GLM-5','GLM-5-Turbo'], req5h:1200, reqMonth:24000, benefits:['免费MCP','20+编程工具'], note:'季付¥44.1/月·年付¥39.2/月·GLM-5.1已开放', link:'https://www.bigmodel.cn/glm-coding?ic=DGRQECTZFB' },
+    models:['GLM-5.1','GLM-5-Turbo','GLM-4.7','GLM-4.6','GLM-4.5','GLM-4.5-Air'], req5h:1200, reqMonth:24000, benefits:['免费MCP','20+编程工具'], note:'季付¥44.1/月·年付¥39.2/月·GLM-5.1已开放·Lite不含GLM-5', link:'https://www.bigmodel.cn/glm-coding?ic=DGRQECTZFB' },
   { platform:'智谱AI', name:'Pro', monthly:149, quarterly:402.3, yearly:1430.4, firstMonth:null,
-    models:['GLM-5.1','GLM-5','GLM-5-Turbo'], req5h:6000, reqMonth:120000, benefits:['免费MCP','优先体验新模型'], note:'季付¥134.1/月·年付¥119.2/月', link:'https://www.bigmodel.cn/glm-coding?ic=DGRQECTZFB' },
+    models:['GLM-5.1','GLM-5','GLM-5-Turbo','GLM-4.7','GLM-4.6','GLM-4.5','GLM-4.5-Air'], req5h:6000, reqMonth:120000, benefits:['免费MCP','优先体验新模型'], note:'季付¥134.1/月·年付¥119.2/月·Pro含GLM-5', link:'https://www.bigmodel.cn/glm-coding?ic=DGRQECTZFB' },
   { platform:'智谱AI', name:'Max', monthly:469, quarterly:1266.3, yearly:4502.4, firstMonth:null,
-    models:['GLM-5.1','GLM-5','GLM-5-Turbo'], req5h:24000, reqMonth:600000, benefits:['免费MCP','高峰期专属资源'], note:'季付¥422.1/月·年付¥375.2/月', link:'https://www.bigmodel.cn/glm-coding?ic=DGRQECTZFB' },
+    models:['GLM-5.1','GLM-5','GLM-5-Turbo','GLM-4.7','GLM-4.6','GLM-4.5','GLM-4.5-Air'], req5h:24000, reqMonth:600000, benefits:['免费MCP','高峰期专属资源'], note:'季付¥422.1/月·年付¥375.2/月·Max含GLM-5', link:'https://www.bigmodel.cn/glm-coding?ic=DGRQECTZFB' },
 
   // z.ai（智谱国际版）— 支持 GLM-5.1/GLM-5，季付-10%/年付-30%，邀请链接含首月/首季/首年优惠
+  // 2026.04.07更新：Lite新增GLM-4.6/GLM-4.5-Air
   { platform:'z.ai', name:'Lite', monthly:10, quarterly:24, yearly:75, firstMonth:9,
-    models:['GLM-5.1','GLM-5-Turbo','GLM-4.7'], req5h:80, reqMonth:null, benefits:['3× Claude Pro 用量','兼容 Claude Code/Cursor/Cline 等 20+ 工具'], note:'国际站不限购不降智·季付$8/月·年付$6.25/月·Friend Gift 首$9', link:'https://z.ai/subscribe?ic=V6PINPKB9I' },
+    models:['GLM-5.1','GLM-5-Turbo','GLM-4.7','GLM-4.6','GLM-4.5-Air'], req5h:80, reqMonth:null, benefits:['3× Claude Pro 用量','兼容 Claude Code/Cursor/Cline 等 20+ 工具'], note:'国际站不限购不降智·季付$8/月·年付$6.25/月·Friend Gift 首$9', link:'https://z.ai/subscribe?ic=V6PINPKB9I' },
   { platform:'z.ai', name:'Pro', monthly:30, quarterly:72, yearly:226, firstMonth:27,
-    models:['GLM-5.1','GLM-5','GLM-5-Turbo','GLM-4.7'], req5h:400, reqMonth:null, benefits:['5× Lite 用量','优先体验新模型','40%–60% 更快响应'], note:'国际站不限购不降智·季付$24/月·年付$18.8/月·含 MCP', link:'https://z.ai/subscribe?ic=V6PINPKB9I' },
+    models:['GLM-5.1','GLM-5','GLM-5-Turbo','GLM-4.7','GLM-4.6','GLM-4.5-Air'], req5h:400, reqMonth:null, benefits:['5× Lite 用量','优先体验新模型','40%–60% 更快响应'], note:'国际站不限购不降智·季付$24/月·年付$18.8/月·含 MCP', link:'https://z.ai/subscribe?ic=V6PINPKB9I' },
   { platform:'z.ai', name:'Max', monthly:80, quarterly:194, yearly:604, firstMonth:72,
-    models:['GLM-5.1','GLM-5','GLM-5-Turbo','GLM-4.7'], req5h:1600, reqMonth:null, benefits:['4× Pro 用量','高峰期保证性能','抢先体验新模型'], note:'国际站不限购不降智·季付$64.7/月·年付$50.3/月', link:'https://z.ai/subscribe?ic=V6PINPKB9I' },
+    models:['GLM-5.1','GLM-5','GLM-5-Turbo','GLM-4.7','GLM-4.6','GLM-4.5-Air'], req5h:1600, reqMonth:null, benefits:['4× Pro 用量','高峰期保证性能','抢先体验新模型'], note:'国际站不限购不降智·季付$64.7/月·年付$50.3/月', link:'https://z.ai/subscribe?ic=V6PINPKB9I' },
 
   // Kimi — 官网实测：连续包月原价/连续包年折扣价
-  { platform:'Kimi', name:'Andante', monthly:49, quarterly:null, yearly:468, firstMonth:null,
-    models:['Kimi-K2.5'], req5h:null, reqMonth:null, benefits:['专属编程额度','旗舰模型抢先体验'], note:'年付¥39/月·请求数未公开', link:'https://www.kimi.com/code/zh' },
-  { platform:'Kimi', name:'Moderato', monthly:99, quarterly:null, yearly:948, firstMonth:null,
-    models:['Kimi-K2.5'], req5h:null, reqMonth:null, benefits:['每周更新额度','多设备共享'], note:'年付¥79/月·请求数未公开', link:'https://www.kimi.com/code/zh' },
-  { platform:'Kimi', name:'Allegretto', monthly:199, quarterly:null, yearly:1908, firstMonth:null,
-    models:['Kimi-K2.5'], req5h:null, reqMonth:null, benefits:['充足每周额度','高并发上限'], note:'年付¥159/月·请求数未公开', link:'https://www.kimi.com/code/zh' },
-  { platform:'Kimi', name:'Allegro', monthly:699, quarterly:null, yearly:6708, firstMonth:null,
-    models:['Kimi-K2.5'], req5h:null, reqMonth:null, benefits:['澎湃额度','高强度开发'], note:'年付¥559/月·请求数未公开', link:'https://www.kimi.com/code/zh' },
+  // 2026.04.07更新：新增连续包年首月优惠价
+  { platform:'Kimi', name:'Andante', monthly:49, quarterly:null, yearly:468, firstMonth:39,
+    models:['Kimi-K2.5'], req5h:null, reqMonth:null, benefits:['专属编程额度','旗舰模型抢先体验'], note:'年付¥39/月·连续包年首月¥39·请求数未公开', link:'https://www.kimi.com/code/zh' },
+  { platform:'Kimi', name:'Moderato', monthly:99, quarterly:null, yearly:948, firstMonth:79,
+    models:['Kimi-K2.5'], req5h:null, reqMonth:null, benefits:['每周更新额度','多设备共享'], note:'年付¥79/月·连续包年首月¥79·请求数未公开', link:'https://www.kimi.com/code/zh' },
+  { platform:'Kimi', name:'Allegretto', monthly:199, quarterly:null, yearly:1908, firstMonth:159,
+    models:['Kimi-K2.5'], req5h:null, reqMonth:null, benefits:['充足每周额度','高并发上限'], note:'年付¥159/月·连续包年首月¥159·请求数未公开', link:'https://www.kimi.com/code/zh' },
+  { platform:'Kimi', name:'Allegro', monthly:699, quarterly:null, yearly:6708, firstMonth:559,
+    models:['Kimi-K2.5'], req5h:null, reqMonth:null, benefits:['澎湃额度','高强度开发'], note:'年付¥559/月·连续包年首月¥559·请求数未公开', link:'https://www.kimi.com/code/zh' },
 
   // MiniMax — 3月23日已升级为 Token Plan（全模态统一订阅），Plus及以上额外赠多模态额度
   { platform:'MiniMax', name:'Starter', monthly:29, quarterly:null, yearly:290, firstMonth:null,
@@ -47,9 +50,10 @@ const PLANS = [
   { platform:'字节·方舟', name:'Pro', monthly:200, quarterly:null, yearly:null, firstMonth:49.9,
     models:['Doubao-Seed-2.0','Doubao-Seed-Code','DeepSeek-V3.2','Kimi-K2.5','GLM-4.7','MiniMax-M2.5'], req5h:6000, reqMonth:90000, benefits:['免费ArkClaw','Auto智能选模型'], note:'首月¥49.9·⚠双层计费·Pro三四天可用完月额度', link:'https://volcengine.com/L/jmiEa1dptck/' },
 
-  // 阿里·百炼 — Lite套餐已售罄（截至3月），目前仅Pro可购；千问Plus已升级至Qwen3.6
+  // 阿里·百炼 — Lite套餐已停止新购（2026.03.20起），目前仅Pro可购
+  // 2026.04.07更新：Lite正式停止新购（非售罄），模型列表新增多个模型
   { platform:'阿里·百炼', name:'Pro', monthly:200, quarterly:null, yearly:null, firstMonth:null,
-    models:['Qwen3.6-Plus','Qwen3-Coder','GLM-5','Kimi-K2.5','MiniMax-M2.5'], req5h:6000, reqMonth:90000, benefits:['多模型自由切换'], note:'Lite已售罄·仅Pro可购·首月优惠已结束', link:'https://www.aliyun.com/minisite/goods?userCode=hun0t0sf' },
+    models:['Qwen3.6-Plus','Qwen3-Coder','Qwen3-Max','GLM-5','GLM-4.7','Kimi-K2.5','MiniMax-M2.5'], req5h:6000, reqMonth:90000, benefits:['多模型自由切换'], note:'Lite已停止新购(3.20起)·仅Pro可购·首月优惠已结束', link:'https://www.aliyun.com/minisite/goods?userCode=hun0t0sf' },
 
   // 腾讯·Coding — Coding Plan（按请求次数），Lite限量抢购（每天10点），首月¥7.9；Pro首月¥39.9
   { platform:'腾讯·Coding', name:'Lite', monthly:40, quarterly:null, yearly:null, firstMonth:7.9,
@@ -107,10 +111,11 @@ const PLANS = [
     benefits:['兼容 Claude Code/OpenCode/OpenClaw'], note:'首购88折·26.7× Lite用量·性价比低于同行', tokenMonth:160000, tokenUnit:' Credits', link:'https://platform.xiaomimimo.com/#/token-plan' },
 
   // 无问芯穹 — 2档套餐，多模型聚合，首月5折优惠
+  // 2026.04.07更新：首月优惠已从公开页面隐藏，两档均显示"暂时售罄"
   { platform:'无问芯穹', name:'Lite', monthly:40, quarterly:null, yearly:null, firstMonth:19.9,
-    models:['DeepSeek-V3.2','MiniMax-M2.5','Kimi-K2.5','GLM-5'], req5h:1000, reqMonth:null, benefits:['多模型聚合','月费最低'], note:'首月¥19.9·次月¥40', link:'https://cloud.infini-ai.com/login?redirect=/genstudio/invitation&invite_code=qYRvZBVl' },
+    models:['DeepSeek-V3.2','MiniMax-M2.5','Kimi-K2.5','GLM-5'], req5h:1000, reqMonth:null, benefits:['多模型聚合','月费最低'], note:'首月¥19.9(页面已隐藏)·暂时售罄·次月¥40', link:'https://cloud.infini-ai.com/login?redirect=/genstudio/invitation&invite_code=qYRvZBVl' },
   { platform:'无问芯穹', name:'Pro', monthly:200, quarterly:null, yearly:null, firstMonth:99.9,
-    models:['DeepSeek-V3.2','MiniMax-M2.5','Kimi-K2.5','GLM-5'], req5h:5000, reqMonth:null, benefits:['5倍Lite用量','专业高级场景'], note:'首月¥99.9·次月¥200', link:'https://cloud.infini-ai.com/login?redirect=/genstudio/invitation&invite_code=qYRvZBVl' },
+    models:['DeepSeek-V3.2','MiniMax-M2.5','Kimi-K2.5','GLM-5'], req5h:5000, reqMonth:null, benefits:['5倍Lite用量','专业高级场景'], note:'首月¥99.9(页面已隐藏)·暂时售罄·次月¥200', link:'https://cloud.infini-ai.com/login?redirect=/genstudio/invitation&invite_code=qYRvZBVl' },
 ];
 // ===== Platform Ratings =====
 const RATINGS = [
