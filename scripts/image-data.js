@@ -19,12 +19,12 @@ const IMAGE_PLANS = [
     features:['全功能解锁','文生视频','数字人','大师模式','专属客服','商用权益'], note:'连续包月¥499/月·首年连续包年¥3099/年（6折）·次年¥5199/年·单月购买¥649', link:'https://jimeng.jianying.com' },
 
   // 通义万相 — 阿里巴巴（万相2.6）
-  { platform:'通义万相', name:'免费', monthly:0, yearly:0, credits:'每日免费额度', resolution:'多尺寸',
-    features:['文生图','6个风格模板','无限生成（慢速）'], note:'万相 2.6 已支持图片+视频+音频生成·API 按阿里云百炼控制台计费', link:'https://tongyi.aliyun.com/wanxiang' },
+  { platform:'通义万相', name:'免费', monthly:0, yearly:null, credits:'每日免费额度', resolution:'多尺寸',
+    features:['文生图','6个风格模板','无限生成（慢速）'], note:'万相 2.6 已支持图片+视频+音频生成·API 按阿里云百炼控制台计费', link:'https://tongyi.aliyun.com/wan/pricing' },
   { platform:'通义万相', name:'标准会员', monthly:72, yearly:432, credits:'300 灵感值/月', resolution:'多尺寸',
-    features:['文生图','图生图','3个图片+3个视频并发','去品牌水印','高清放大','无限生成（慢速）'], note:'年付等价¥36/月（5折）·月付¥72·连续包月¥47/月（6.5折）', link:'https://tongyi.aliyun.com/wan/pricing?whereToMemberShip=membership_plans' },
+    features:['文生图','图生图','3个图片+3个视频并发','去品牌水印','高清放大','无限生成（慢速）'], note:'官方页显示：¥72/月·连续包年等价¥36/月（5折）·连续包月 6.5折', link:'https://tongyi.aliyun.com/wan/pricing' },
   { platform:'通义万相', name:'高级会员', monthly:288, yearly:1740, credits:'1200 灵感值/月', resolution:'多尺寸',
-    features:['全功能解锁','5个图片+5个视频并发','高清放大','更长视频（15s）','商用授权'], note:'年付等价¥145/月（5折）·月付¥288·连续包月¥187/月（6.5折）', link:'https://tongyi.aliyun.com/wan/pricing?whereToMemberShip=membership_plans' },
+    features:['全功能解锁','8个视频+5个图片并发','高清放大','更长视频（10s/15s）','商用授权'], note:'官方页显示：¥288/月·连续包年等价¥145/月（5折）·连续包月 6.5折', link:'https://tongyi.aliyun.com/wan/pricing' },
 
   // Liblib AI (哩布哩布) — 模型社区+创作平台
   { platform:'Liblib AI', name:'基础版', monthly:null, yearly:399, credits:'800 积分/月', resolution:'不限',

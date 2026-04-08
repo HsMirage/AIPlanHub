@@ -20,6 +20,14 @@ const VIDEO_PLANS = [
   { platform:'即梦', name:'高级会员', monthly:649, yearly:5199, credits:'15000积分/月', videoLen:'5-15秒', resolution:'1080P',
     features:['Seedance 2.0','文生视频','图生视频','音生视频','闲置9折','补帧60FPS','5并发'], note:'单月¥649·连续包月¥499·年付¥5199(约¥433/月)·Seedance 2.0最佳折扣', link:'https://jimeng.jianying.com' },
 
+  // 通义万相 — 阿里巴巴（万相2.6）
+  { platform:'通义万相', name:'免费', monthly:0, yearly:null, credits:'每日免费额度', videoLen:'未注明', resolution:'未注明',
+    features:['文生视频','图生视频','1个视频并发','1个图片并发','无限生成（慢速）'], note:'官方页显示：免费版·1个视频并发·1个图片并发·6个文生图风格模板·无限生成（慢速）', link:'https://tongyi.aliyun.com/wan/pricing' },
+  { platform:'通义万相', name:'标准会员', monthly:72, yearly:432, credits:'300 灵感值/月', videoLen:'10秒/15秒', resolution:'1080P',
+    features:['文生视频','图生视频','3个视频并发','去品牌水印','高清放大','1080P'], note:'官方页显示：¥72/月·连续包年等价¥36/月（5折）·连续包月 6.5折·最多加速60个视频或1200张图片/月', link:'https://tongyi.aliyun.com/wan/pricing' },
+  { platform:'通义万相', name:'高级会员', monthly:288, yearly:1740, credits:'1200 灵感值/月', videoLen:'10秒/15秒', resolution:'1080P',
+    features:['文生视频','图生视频','8个视频并发','去品牌水印','高清放大','1080P'], note:'官方页显示：¥288/月·连续包年等价¥145/月（5折）·连续包月 6.5折·最多加速240个视频或4800张图片/月', link:'https://tongyi.aliyun.com/wan/pricing' },
+
   // 快手可灵 (Kling) — 5档会员 + 年卡
   { platform:'快手可灵', name:'免费版', monthly:0, yearly:null, credits:'每月登录赠送灵感值', videoLen:'5秒', resolution:'720P',
     features:['每日免费','文生视频','图生视频','有水印'], note:'灵感值当月有效不累积·不可商用·排队时间较长·主体创建30个', link:'https://kling.kuaishou.com' },
@@ -74,6 +82,10 @@ const VIDEO_RATINGS = [
   {
     name: 'Vidu', score: 4,
     reasons: ['4档会员(免费/标准¥48/专业¥179/旗舰¥559)', '年付最低7折·连续包月8.5折', '1080P+4K超清·Agent功能·可商用']
+  },
+  {
+    name: '通义万相', score: 4,
+    reasons: ['官方会员公开透明(免费/标准¥72/高级¥288)', '300/1200灵感值·3/8视频并发', '1080P高清·10秒/15秒视频']
   },
   {
     name: '海螺AI', score: 4,
