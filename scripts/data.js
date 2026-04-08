@@ -50,10 +50,10 @@ const PLANS = [
   { platform:'字节·方舟', name:'Pro', monthly:200, quarterly:null, yearly:null, firstMonth:49.9,
     models:['Doubao-Seed-2.0','Doubao-Seed-Code','DeepSeek-V3.2','Kimi-K2.5','GLM-4.7','MiniMax-M2.5'], req5h:6000, reqMonth:90000, benefits:['免费ArkClaw','Auto智能选模型'], note:'首月¥49.9·⚠双层计费·Pro三四天可用完月额度', link:'https://volcengine.com/L/jmiEa1dptck/' },
 
-  // 阿里·百炼 — Lite套餐已停止新购（2026.03.20起），目前仅Pro可购
-  // 2026.04.07更新：Lite正式停止新购（非售罄），模型列表新增多个模型
+  // 阿里·百炼 — Lite套餐已停止新购（2026.03.20起），当前仅显示Pro套餐
+  // 2026.04.08核对：帮助文档(last-modified 2026-04-03)显示Qwen3.5-Plus等模型；控制台显示Pro暂时售罄
   { platform:'阿里·百炼', name:'Pro', monthly:200, quarterly:null, yearly:null, firstMonth:null,
-    models:['Qwen3.6-Plus','Qwen3-Coder','Qwen3-Max','GLM-5','GLM-4.7','Kimi-K2.5','MiniMax-M2.5'], req5h:6000, reqMonth:90000, benefits:['多模型自由切换'], note:'Lite已停止新购(3.20起)·仅Pro可购·首月优惠已结束', link:'https://www.aliyun.com/minisite/goods?userCode=hun0t0sf' },
+    models:['Qwen3.5-Plus','Qwen3-Coder-Next','Qwen3-Coder-Plus','Qwen3-Max-2026-01-23','GLM-5','GLM-4.7','Kimi-K2.5','MiniMax-M2.5'], req5h:6000, reqMonth:90000, benefits:['多模型自由切换'], note:'Lite已停止新购(3.20起)·Pro当前暂时售罄·活动已结束', link:'https://www.aliyun.com/minisite/goods?userCode=hun0t0sf' },
 
   // 腾讯·Coding — Coding Plan（按请求次数），Lite限量抢购（每天10点），首月¥7.9；Pro首月¥39.9
   { platform:'腾讯·Coding', name:'Lite', monthly:40, quarterly:null, yearly:null, firstMonth:7.9,
@@ -141,7 +141,7 @@ const RATINGS = [
   },
   {
     name: '阿里·百炼', score: 4,
-    reasons: ['独家 Qwen3.6-Plus / Qwen3-Coder', 'Lite 已售罄·仅 Pro 可购', '首月¥39.9']
+    reasons: ['支持 Qwen3.5-Plus / Qwen3-Coder 系列', 'Lite 停止新购·Pro 当前暂时售罄', '固定¥200/月·每月90,000次请求']
   },
   {
     name: '腾讯·Coding', score: 3,

@@ -6,7 +6,7 @@
 
 ---
 
-> Coding 数据更新于 2026.04.07 · Video / Image 更新于 2026.04.08 · Audio 更新于 2026.04.07 · 仅供参考，以各平台官方公告为准
+> Coding 数据更新于 2026.04.08 · Video / Image 更新于 2026.04.08 · Audio 更新于 2026.04.07 · 仅供参考，以各平台官方公告为准
 
 ---
 
@@ -42,7 +42,7 @@ https://ai.hsnb.fun/aiplanhub
 | z.ai | GLM-5.1（国际版） | 3 | $10 | ★★★★★ |
 | MiniMax | MiniMax-M2.7 | 6 | ¥29 | ★★★★★ |
 | Kimi | Kimi-K2.5 | 4 | ¥49 | ★★★ |
-| 阿里·百炼 | Qwen3.6-Plus | 1 | ¥200 | ★★★★ |
+| 阿里·百炼 | Qwen3.5-Plus | 1 | ¥200 | ★★★★ |
 | 腾讯·Coding | HY-2.0 | 2 | ¥40 | ★★★ |
 | 腾讯·Token | HY-2.0 Think/T1/TurboS | 4 | ¥39 | ★★ |
 | 百度·千帆 | — | 2 | ¥40 | ★★★ |
@@ -112,8 +112,10 @@ https://ai.hsnb.fun/aiplanhub
 | MiniMax-M2.5 | 字节·方舟、阿里·百炼、腾讯·Coding、腾讯·Token、百度·千帆、讯飞星辰、无问芯穹 |
 | Doubao-Seed-2.0 | 字节·方舟 |
 | Doubao-Seed-Code | 字节·方舟 |
-| Qwen3.6-Plus | 阿里·百炼 |
-| Qwen3-Coder | 阿里·百炼 |
+| Qwen3.5-Plus | 阿里·百炼 |
+| Qwen3-Coder-Next | 阿里·百炼 |
+| Qwen3-Coder-Plus | 阿里·百炼 |
+| Qwen3-Max-2026-01-23 | 阿里·百炼 |
 | Qwen3.5-35B-A3B | 讯飞星辰 |
 | DeepSeek-V3.2 | 字节·方舟、百度·千帆、讯飞星辰、无问芯穹 |
 | HY-2.0 | 腾讯·Coding、腾讯·Token |
