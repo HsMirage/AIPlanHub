@@ -55,6 +55,45 @@ const PLANS = [
   { platform:'阿里·百炼', name:'Pro', monthly:200, quarterly:null, yearly:null, firstMonth:null,
     models:['Qwen3.5-Plus','Qwen3-Coder-Next','Qwen3-Coder-Plus','Qwen3-Max-2026-01-23','GLM-5','GLM-4.7','Kimi-K2.5','MiniMax-M2.5'], req5h:6000, reqMonth:90000, benefits:['多模型自由切换'], note:'Lite已停止新购(3.20起)·Pro当前暂时售罄·活动已结束', link:'https://www.aliyun.com/minisite/goods?userCode=hun0t0sf' },
 
+  // 京东云 — JoyBuilder Coding Plan，帮助文档更新于 2026.04.03；活动规则页显示首购优惠持续到 2026.06.30，每天10:30限量开放
+  // 官方宣称高峰期无明显降速；社区有截断/卡顿与未到 5h 上限触发 rate_limit 的反馈
+  { platform:'京东云', name:'Lite', monthly:40, quarterly:null, yearly:null, firstMonth:19.9,
+    models:['DeepSeek-V3.2','GLM-5','GLM-4.7','MiniMax-M2.5','Kimi-K2.5','Kimi-K2-Turbo','Qwen3-Coder'], req5h:1200, reqMonth:18000, benefits:['多工具额度共享','支持主流 AI 编程工具'], note:'首月¥19.9·每天10:30限量·禁API调用', link:'https://3.cn/2-K9GY29' },
+  { platform:'京东云', name:'Pro', monthly:200, quarterly:null, yearly:null, firstMonth:99.9,
+    models:['DeepSeek-V3.2','GLM-5','GLM-4.7','MiniMax-M2.5','Kimi-K2.5','Kimi-K2-Turbo','Qwen3-Coder'], req5h:6000, reqMonth:90000, benefits:['5× Lite 用量','支持主流 AI 编程工具'], note:'首月¥99.9·每天10:30限量·禁API调用', link:'https://3.cn/2-K9GY29' },
+
+  // 移动云 — 帮助文档更新于 2026.04.09；活动页显示 Lite/Pro 首购券后价分别为 ¥7.9 / ¥39.9
+  // 当前仅支持 MiniMax-M2.5，订购区仅华北-呼和浩特与湖北-武汉；Coding Plan 严禁 API 调用
+  { platform:'移动云', name:'Lite', monthly:40, quarterly:null, yearly:null, firstMonth:7.9,
+    models:['MiniMax-M2.5'], req5h:1200, reqMonth:18000, benefits:['适配 Claude Code/OpenCode/OpenClaw'], note:'首月¥7.9·仅 MiniMax-M2.5·禁API调用', link:'https://ecloud.10086.cn/portal/act/codingplan' },
+  { platform:'移动云', name:'Pro', monthly:200, quarterly:null, yearly:null, firstMonth:39.9,
+    models:['MiniMax-M2.5'], req5h:6000, reqMonth:90000, benefits:['适配 Claude Code/OpenCode/OpenClaw'], note:'首月¥39.9·仅 MiniMax-M2.5·呼和浩特/武汉可购·禁API调用', link:'https://ecloud.10086.cn/portal/act/codingplan' },
+
+  // 天翼云 — 文档与控制台页面于 2026.04.10 核对；3 档套餐当前页面均显示“暂时售罄 / 每日10:00补货”
+  // 文档给的是 prompt 档位；此处按站内口径折算为请求数（1 prompt≈15次调用）
+  { platform:'天翼云', name:'GLM Lite', monthly:49, quarterly:null, yearly:null, firstMonth:null,
+    models:['GLM-5.1','GLM-5-Turbo','GLM-4.7','GLM-4.6','GLM-4.5','GLM-4.5-Air'], req5h:1200, reqMonth:24000, benefits:['GLM 全家桶','支持 Claude Code/OpenCode/OpenClaw/Cline'], note:'暂时售罄·每日10:00补货·高阶模型高峰3x/非高峰2x抵扣', link:'https://www.ctyun.cn/t/mM7tOAFwpi8u2sjfeEJYgZ1CmN0kwnS7' },
+  { platform:'天翼云', name:'GLM Pro', monthly:149, quarterly:null, yearly:null, firstMonth:null,
+    models:['GLM-5.1','GLM-5','GLM-5-Turbo','GLM-4.7','GLM-4.6','GLM-4.5','GLM-4.5-Air'], req5h:6000, reqMonth:120000, benefits:['GLM 全家桶','低峰期动态提升并发'], note:'暂时售罄·每日10:00补货·GLM-5/5.1/5-Turbo 用量消耗更快', link:'https://www.ctyun.cn/t/mM7tOAFwpi8u2sjfeEJYgZ1CmN0kwnS7' },
+  { platform:'天翼云', name:'GLM Max', monthly:469, quarterly:null, yearly:null, firstMonth:null,
+    models:['GLM-5.1','GLM-5','GLM-5-Turbo','GLM-4.7','GLM-4.6','GLM-4.5','GLM-4.5-Air'], req5h:24000, reqMonth:480000, benefits:['GLM 全家桶','推荐 2+ 项目并发开发'], note:'暂时售罄·每日10:00补货·高阶模型倍率抵扣影响实际可用量', link:'https://www.ctyun.cn/t/mM7tOAFwpi8u2sjfeEJYgZ1CmN0kwnS7' },
+
+  // 联通云 — Coding Plan 概述文档显示当前资源紧张；限流时会自动切换到负载更轻模型，套餐页为 Lite / Pro 两档
+  // 仅允许 AI 编程工具使用，严禁 API 调用；当前公开文档主入口为帮助中心
+  { platform:'联通云', name:'Lite', monthly:40, quarterly:null, yearly:null, firstMonth:null,
+    models:['MiniMax-M2.5','GLM-5','Kimi-K2.5','Qwen3.5-397B-A17B','Qwen3-235B-A22B','DeepSeek-V3.1'], req5h:1200, reqMonth:18000, benefits:['多模型动态路由','兼容 Claude Code/OpenCode/OpenClaw/CoPaw'], note:'资源紧张·贵阳/济南可用·禁API调用', link:'https://support.cucloud.cn/document/127/591/2357.html?id=2357&arcid=7015' },
+  { platform:'联通云', name:'Pro', monthly:200, quarterly:null, yearly:null, firstMonth:null,
+    models:['MiniMax-M2.5','GLM-5','Kimi-K2.5','Qwen3.5-397B-A17B','Qwen3-235B-A22B','DeepSeek-V3.1'], req5h:6000, reqMonth:90000, benefits:['多模型动态路由','兼容 Claude Code/OpenCode/OpenClaw/CoPaw'], note:'资源紧张·限流时自动切模型·禁API调用', link:'https://support.cucloud.cn/document/127/591/2357.html?id=2357&arcid=7015' },
+
+  // 优云 — 页面于 2026.04.10 核对；同时提供一次性按量包与包月畅享包，这里记录 3 档包月套餐
+  // 官方 FAQ 明确支持 API / Chatbot / Codex CLI；积分与 Token 的换算由模型倍率决定
+  { platform:'优云', name:'Lite', monthly:49.9, quarterly:null, yearly:null, firstMonth:null,
+    models:['MiniMax-M2.1','MiniMax-M2.5','GLM-5','Kimi-K2.5','DeepSeek-V3.2'], req5h:null, reqMonth:null, benefits:['允许 API 调用','支持 Codex CLI/CherryStudio'], note:'另有¥6.9/19.9/199一次性按量包·积分倍率需看规则页', tokenDaily:700, tokenUnit:' 积分', link:'https://passport.compshare.cn/register?referral_code=Kkl0Vgy0pCsFOzeMtfGBdI' },
+  { platform:'优云', name:'Plus', monthly:199, quarterly:null, yearly:null, firstMonth:null,
+    models:['MiniMax-M2.1','MiniMax-M2.5','GLM-5','Kimi-K2.5','DeepSeek-V3.2'], req5h:null, reqMonth:null, benefits:['允许 API 调用','支持 Codex CLI/CherryStudio'], note:'另有¥6.9/19.9/199一次性按量包·限时赠 OpenClaw 云端服务', tokenDaily:2800, tokenUnit:' 积分', link:'https://passport.compshare.cn/register?referral_code=Kkl0Vgy0pCsFOzeMtfGBdI' },
+  { platform:'优云', name:'Pro', monthly:499, quarterly:null, yearly:null, firstMonth:null,
+    models:['MiniMax-M2.1','MiniMax-M2.5','GLM-5','Kimi-K2.5','DeepSeek-V3.2'], req5h:null, reqMonth:null, benefits:['允许 API 调用','支持 Codex CLI/CherryStudio'], note:'积分制·限时赠 OpenClaw 云端服务·允许客户端/API 场景', tokenDaily:7000, tokenUnit:' 积分', link:'https://passport.compshare.cn/register?referral_code=Kkl0Vgy0pCsFOzeMtfGBdI' },
+
   // 腾讯·Coding — Coding Plan（按请求次数），Lite限量抢购（每天10点），首月¥7.9；Pro首月¥39.9
   { platform:'腾讯·Coding', name:'Lite', monthly:40, quarterly:null, yearly:null, firstMonth:7.9,
     models:['HY-2.0','GLM-5','Kimi-K2.5','MiniMax-M2.5'], req5h:1200, reqMonth:18000, benefits:['企业生态强'], note:'Coding Plan·首月¥7.9·Lite限量抢购', link:'https://curl.qcloud.com/1Uogyigq' },
@@ -144,8 +183,28 @@ const RATINGS = [
     reasons: ['支持 Qwen3.5-Plus / Qwen3-Coder 系列', 'Lite 停止新购·Pro 当前暂时售罄', '固定¥200/月·每月90,000次请求']
   },
   {
+    name: '天翼云', score: 5,
+    reasons: ['除智谱官方外唯一支持 GLM-5.1', 'GLM 全家桶覆盖最完整', '第三方测速上游·GLM-5-Turbo 速度表现好']
+  },
+  {
+    name: '优云', score: 3,
+    reasons: ['允许 API 调用·支持 Codex CLI/CherryStudio', '按量包+包月并存·套餐形态灵活', '积分制换算复杂·个别模型存在异常波动']
+  },
+  {
+    name: '京东云', score: 4,
+    reasons: ['支持 DeepSeek-V3.2 / GLM-5 / Qwen3-Coder', '7 模型覆盖·兼容 Claude Code/Cursor/OpenClaw', '价格标准·第三方测速中上游']
+  },
+  {
+    name: '联通云', score: 3,
+    reasons: ['6 模型覆盖·兼容 Claude Code/OpenCode/OpenClaw', '标准 Lite/Pro 定价·支持动态模型路由', '当前资源紧张·Kimi 通道稳定性明显偏弱']
+  },
+  {
     name: '腾讯·Coding', score: 3,
     reasons: ['Coding Plan·按请求次数计费', '首月¥7.9·Lite 限量抢购', '支持 GLM-5 / Kimi-K2.5 / MiniMax-M2.5']
+  },
+  {
+    name: '移动云', score: 2,
+    reasons: ['首月¥7.9 / ¥39.9·价格友好', '仅 MiniMax-M2.5·可选模型明显偏少', '第三方测速 TTFT 偏慢·且仅特定资源池可购']
   },
   {
     name: '腾讯·Token', score: 2,
