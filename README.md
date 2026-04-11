@@ -115,42 +115,6 @@ https://ai.hsnb.fun/aiplanhub
 | 小米·MiMo | Max | ¥659 | ¥579.92 | — | 月 1,600M Credits | [开通](https://platform.xiaomimimo.com/#/token-plan) |
 | MiniMax | Ultra 极速版 | ¥899 | — | 30,000 | — | [开通](https://platform.minimaxi.com/subscribe/token-plan?code=G2vbq30tXz&source=link) |
 
-### 支持模型一览
-
-| 模型 | 可用平台 |
-|------|----------|
-| GLM-5.1 | 智谱AI、z.ai、天翼云、联通云、无问芯穹 |
-| GLM-5 | 智谱AI、z.ai、阿里·百炼、京东云、天翼云、联通云、优云、腾讯·Coding、腾讯·Token、无问芯穹 |
-| GLM-5-Turbo | 智谱AI、z.ai、天翼云 |
-| Kimi-K2.5 | Kimi、字节·方舟、阿里·百炼、京东云、联通云、优云、腾讯·Coding、腾讯·Token、百度·千帆、讯飞星辰、无问芯穹 |
-| Qwen3.5-Plus | 阿里·百炼 |
-| Qwen3-Coder-Next | 阿里·百炼 |
-| Qwen3-Coder-Plus | 阿里·百炼 |
-| Qwen3-Max-2026-01-23 | 阿里·百炼 |
-| MiniMax-M2.7 | MiniMax |
-| MiniMax-M2.5 | 字节·方舟、阿里·百炼、京东云、移动云、联通云、优云、腾讯·Coding、腾讯·Token、百度·千帆、讯飞星辰、无问芯穹 |
-| MiniMax-M2.1 | 优云 |
-| DeepSeek-V3.2 | 字节·方舟、京东云、优云、百度·千帆、讯飞星辰、无问芯穹 |
-| DeepSeek-V3.1 | 联通云 |
-| Doubao-Seed-2.0 | 字节·方舟 |
-| Doubao-Seed-Code | 字节·方舟 |
-| GLM-4.7 | 字节·方舟、京东云、天翼云、讯飞星辰 |
-| GLM-4.6 | 智谱AI、z.ai、天翼云 |
-| GLM-4.5 | 智谱AI、天翼云 |
-| GLM-4.5-Air | 智谱AI、z.ai、天翼云 |
-| GLM-4.7-Flash | 讯飞星辰 |
-| Kimi-K2-Turbo | 京东云 |
-| Qwen3.5-397B-A17B | 联通云 |
-| Qwen3-235B-A22B | 联通云 |
-| Qwen3-Coder | 京东云 |
-| Qwen3.5-35B-A3B | 讯飞星辰 |
-| HY-2.0 | 腾讯·Coding、腾讯·Token |
-| HY-2.0-Think | 腾讯·Token |
-| Hunyuan-T1 | 腾讯·Token |
-| Hunyuan-TurboS | 腾讯·Token |
-| MiMo-V2-Pro | 小米·MiMo |
-| MiMo-V2-Omni | 小米·MiMo |
-
 ---
 
 ## Video 平台（7 家）
