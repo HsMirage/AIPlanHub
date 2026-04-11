@@ -13,12 +13,12 @@ const VIDEO_PLANS = [
   // 即梦 (Jimeng) — 字节跳动旗下
   { platform:'即梦', name:'免费版', monthly:0, yearly:null, credits:'60~100积分/日', videoLen:'5秒', resolution:'标清',
     features:['Seedance 全系列','文生视频','图生视频'], note:'每日免费领取积分·当月有效不累积·带水印·分辨率受限', link:'https://jimeng.jianying.com' },
-  { platform:'即梦', name:'基础会员', monthly:79, yearly:659, credits:'1080积分/月', videoLen:'5-15秒', resolution:'1080P',
-    features:['Seedance 2.0','文生视频','图生视频','音生视频','闲置5折','去水印'], note:'单月¥79·连续包月¥69·年付¥659(约¥55/月)', link:'https://jimeng.jianying.com' },
-  { platform:'即梦', name:'标准会员', monthly:239, yearly:1899, credits:'4000积分/月', videoLen:'5-15秒', resolution:'1080P',
-    features:['Seedance 2.0','文生视频','图生视频','音生视频','闲置7折','补帧60FPS'], note:'单月¥239·连续包月¥199·年付¥1899(约¥158/月)', link:'https://jimeng.jianying.com' },
-  { platform:'即梦', name:'高级会员', monthly:649, yearly:5199, credits:'15000积分/月', videoLen:'5-15秒', resolution:'1080P',
-    features:['Seedance 2.0','文生视频','图生视频','音生视频','闲置9折','补帧60FPS','5并发'], note:'单月¥649·连续包月¥499·年付¥5199(约¥433/月)·Seedance 2.0最佳折扣', link:'https://jimeng.jianying.com' },
+  { platform:'即梦', name:'基础会员', monthly:79, yearly:393, credits:'725积分/月', videoLen:'5-15秒', resolution:'1080P',
+    features:['Seedance 2.0','文生视频','图生视频','音生视频','闲置5折','去水印'], note:'单月¥79·连续包月¥69·年付首年¥393(6折)次年¥659·725积分/月', link:'https://jimeng.jianying.com' },
+  { platform:'即梦', name:'标准会员', monthly:239, yearly:1099, credits:'2210积分/月', videoLen:'5-15秒', resolution:'1080P',
+    features:['Seedance 2.0','文生视频','图生视频','音生视频','闲置7折','补帧60FPS'], note:'单月¥239·连续包月¥199·年付首年¥1099(6折)次年¥1899·2210积分/月', link:'https://jimeng.jianying.com' },
+  { platform:'即梦', name:'高级会员', monthly:649, yearly:3099, credits:'6160积分/月', videoLen:'5-15秒', resolution:'1080P',
+    features:['Seedance 2.0','文生视频','图生视频','音生视频','闲置9折','补帧60FPS','5并发'], note:'单月¥649·连续包月¥499·年付首年¥3099(6折)次年¥5199·6160积分/月·Seedance 2.0最佳折扣', link:'https://jimeng.jianying.com' },
 
   // 通义万相 — 阿里巴巴（万相2.6）
   { platform:'通义万相', name:'免费', monthly:0, yearly:null, credits:'每日免费额度', videoLen:'未注明', resolution:'未注明',
