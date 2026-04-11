@@ -5,3 +5,11 @@ node_modules/
 *_deploy
 公钥.md
 NEWAPI_PAGE_CUSTOMIZATION.md
+
+# Internal audit/debug artifacts
+memory.md
+homepage.png
+*_full.txt
+reports/
+screenshots/
+Updater/
