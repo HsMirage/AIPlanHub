@@ -36,84 +36,93 @@ https://ai.hsnb.fun/aiplanhub
 
 ## Coding 平台（17 家）
 
-| 平台 | 独家模型 | 方案数 | 月付起 | 评分 |
+| 平台 | 代表模型 | 方案数 | 月付起 | 评分 |
 |------|----------|--------|--------|------|
 | 智谱AI | GLM-5.1 | 3 | ¥49 | ★★★★★ |
-| z.ai | GLM-5.1（国际版） | 3 | $10 | ★★★★★ |
+| z.ai | GLM-5.1（国际版） | 3 | $18 | ★★ |
 | MiniMax | MiniMax-M2.7 | 6 | ¥29 | ★★★★★ |
 | Kimi | Kimi-K2.5 | 4 | ¥49 | ★★★ |
 | 阿里·百炼 | Qwen3.6-Plus | 1 | ¥200 | ★★★★ |
-| 天翼云 | GLM-5.1（第三方） | 3 | ¥49 | ★★★★★ |
+| 天翼云 | GLM-5.1 | 3 | ¥49 | ★★★★★ |
 | 优云 | MiniMax-M2.1 | 3 | ¥49.9 | ★★★ |
 | 京东云 | Qwen3-Coder | 2 | ¥40 | ★★★★ |
-| 联通云 | Qwen3.5-397B-A17B | 2 | ¥40 | ★★★ |
+| 联通云 | GLM-5.1 | 2 | ¥40 | ★★★ |
 | 腾讯·Coding | HY-2.0 | 2 | ¥40 | ★★★ |
-| 移动云 | — | 2 | ¥40 | ★★ |
+| 移动云 | MiniMax-M2.5 | 2 | ¥40 | ★★ |
 | 腾讯·Token | HY-2.0 Think/T1/TurboS | 4 | ¥39 | ★★ |
-| 百度·千帆 | — | 2 | ¥40 | ★★★ |
+| 百度·千帆 | GLM-5 | 2 | ¥40 | ★★★ |
 | 讯飞星辰 | Spark X2 | 3 | ¥19 | ★★ |
-| 无问芯穹 | — | 2 | ¥40 | ★★★ |
-| 字节·方舟 | Doubao-Seed-2.0 | 2 | ¥40 | ★★★ |
+| 无问芯穹 | GLM-5.1 | 2 | ¥40 | ★★★ |
+| 字节·方舟 | Doubao-Seed-2.0-pro | 2 | ¥40 | ★★★ |
 | 小米·MiMo | MiMo-V2-Pro | 4 | ¥39 | ★ |
 
-### 入门级（月付 ≤ ¥50）
+### 入门级（人民币月付 ≤ ¥50）
 
 | 平台 | 方案 | 月付 | 首月价 | 5h请求数 | Token量 | 开通 |
 |------|------|------|--------|----------|---------|------|
+| 讯飞星辰 | 无忧版 | ¥19 | ¥3.9 | — | 日 20M | [开通](https://maas.xfyun.cn/packageSubscription?inviteCode=MAAS-7573AB85) |
 | MiniMax | Starter | ¥29 | — | 600 | — | [开通](https://platform.minimaxi.com/subscribe/token-plan?code=G2vbq30tXz&source=link) |
-| 讯飞星辰 | 入门版 | ¥19 | ¥3.9 | — | 日 20M | [开通](https://maas.xfyun.cn/packageSubscription?inviteCode=MAAS-7573AB85) |
-| 讯飞星辰 | 专业版 | ¥39 | ¥7.9 | — | 日 10M | [开通](https://maas.xfyun.cn/packageSubscription?inviteCode=MAAS-7573AB85) |
-| 智谱AI | Lite | ¥49 | — | 1,200 | — | [开通](https://www.bigmodel.cn/glm-coding?ic=DGRQECTZFB) |
-| Kimi | Andante | ¥49 | — | — | — | [开通](https://www.kimi.com/code/zh) |
-| MiniMax | Plus | ¥49 | — | 1,500 | — | [开通](https://platform.minimaxi.com/subscribe/token-plan?code=G2vbq30tXz&source=link) |
-| 天翼云 | GLM Lite | ¥49 | — | 1,200 | — | [开通](https://www.ctyun.cn/t/mM7tOAFwpi8u2sjfeEJYgZ1CmN0kwnS7) |
-| 优云 | Lite | ¥49.9 | — | — | 日 7M 积分 | [开通](https://passport.compshare.cn/register?referral_code=Kkl0Vgy0pCsFOzeMtfGBdI) |
-| 无问芯穹 | Lite | ¥40 | ¥19.9 | 1,000 | — | [开通](https://cloud.infini-ai.com/login?redirect=/genstudio/invitation&invite_code=qYRvZBVl) |
-| 字节·方舟 | Lite | ¥40 | ¥8.9 | 1,200 | — | [开通](https://volcengine.com/L/jmiEa1dptck/) |
+| 腾讯·Token | Lite | ¥39 | — | — | 月 35M | [开通](https://curl.qcloud.com/1Uogyigq) |
+| 小米·MiMo | Lite | ¥39 | ¥34.32 | — | 月 60M Credits | [开通](https://platform.xiaomimimo.com/#/token-plan) |
+| 讯飞星辰 | 专业版 | ¥39 | ¥7.9 | 1,200 | — | [开通](https://maas.xfyun.cn/packageSubscription?inviteCode=MAAS-7573AB85) |
+| 百度·千帆 | Lite | ¥40 | ¥9.9 | 1,200 | — | [开通](https://cloud.baidu.com/campaign/ambassador-product/index.html?ambassadorId=b00e3bb5d042440fbfaccf545e8e52f0#knowledge-model) |
 | 京东云 | Lite | ¥40 | ¥19.9 | 1,200 | — | [开通](https://3.cn/2-K9GY29) |
 | 联通云 | Lite | ¥40 | — | 1,200 | — | [开通](https://support.cucloud.cn/document/127/591/2357.html?id=2357&arcid=7015) |
 | 腾讯·Coding | Lite | ¥40 | ¥7.9 | 1,200 | — | [开通](https://curl.qcloud.com/1Uogyigq) |
+| 无问芯穹 | Lite | ¥40 | ¥19.9 | 1,000 | — | [开通](https://cloud.infini-ai.com/login?redirect=/genstudio/invitation&invite_code=qYRvZBVl) |
 | 移动云 | Lite | ¥40 | ¥7.9 | 1,200 | — | [开通](https://ecloud.10086.cn/portal/act/codingplan) |
-| 腾讯·Token | Lite | ¥39 | — | — | 月 35M | [开通](https://curl.qcloud.com/1Uogyigq) |
-| 百度·千帆 | Lite | ¥40 | ¥9.9 | 1,200 | — | [开通](https://cloud.baidu.com/campaign/ambassador-product/index.html?ambassadorId=b00e3bb5d042440fbfaccf545e8e52f0#knowledge-model) |
-| 小米·MiMo | Lite | ¥39 | ¥34.32 | — | 月 60M Credits | [开通](https://platform.xiaomimimo.com/#/token-plan) |
+| 字节·方舟 | Lite | ¥40 | — | 1,200 | — | [开通](https://volcengine.com/L/jmiEa1dptck/) |
+| 天翼云 | GLM Lite | ¥49 | — | 1,200 | — | [开通](https://ctxirang.ctyun.cn/maas/codingPlan) |
+| 智谱AI | Lite | ¥49 | — | 1,200 | — | [开通](https://www.bigmodel.cn/glm-coding?ic=DGRQECTZFB) |
+| Kimi | Andante | ¥49 | ¥39 | — | — | [开通](https://www.kimi.com/code/zh) |
+| MiniMax | Plus | ¥49 | — | 1,500 | — | [开通](https://platform.minimaxi.com/subscribe/token-plan?code=G2vbq30tXz&source=link) |
+| 优云 | Lite | ¥49.9 | — | — | 日 7M 积分 | [开通](https://passport.compshare.cn/register?referral_code=Kkl0Vgy0pCsFOzeMtfGBdI) |
 
-### 专业级（月付 ≤ ¥200）
+### 进阶级（人民币月付 ¥51-¥199）
 
 | 平台 | 方案 | 月付 | 首月价 | 5h请求数 | Token量 | 开通 |
 |------|------|------|--------|----------|---------|------|
-| MiniMax | Max | ¥119 | — | 4,500 | — | [开通](https://platform.minimaxi.com/subscribe/token-plan?code=G2vbq30tXz&source=link) |
 | MiniMax | Plus 极速版 | ¥98 | — | 1,500 | — | [开通](https://platform.minimaxi.com/subscribe/token-plan?code=G2vbq30tXz&source=link) |
-| 智谱AI | Pro | ¥149 | — | 6,000 | — | [开通](https://www.bigmodel.cn/glm-coding?ic=DGRQECTZFB) |
-| 天翼云 | GLM Pro | ¥149 | — | 6,000 | — | [开通](https://www.ctyun.cn/t/mM7tOAFwpi8u2sjfeEJYgZ1CmN0kwnS7) |
-| Kimi | Moderato | ¥99 | — | — | — | [开通](https://www.kimi.com/code/zh) |
-| 优云 | Plus | ¥199 | — | — | 日 28M 积分 | [开通](https://passport.compshare.cn/register?referral_code=Kkl0Vgy0pCsFOzeMtfGBdI) |
 | 腾讯·Token | Standard | ¥99 | — | — | 月 100M | [开通](https://curl.qcloud.com/1Uogyigq) |
 | 小米·MiMo | Standard | ¥99 | ¥87.12 | — | 月 200M Credits | [开通](https://platform.xiaomimimo.com/#/token-plan) |
+| Kimi | Moderato | ¥99 | ¥79 | — | — | [开通](https://www.kimi.com/code/zh) |
+| MiniMax | Max | ¥119 | — | 4,500 | — | [开通](https://platform.minimaxi.com/subscribe/token-plan?code=G2vbq30tXz&source=link) |
+| 天翼云 | GLM Pro | ¥149 | — | 6,000 | — | [开通](https://ctxirang.ctyun.cn/maas/codingPlan) |
+| 智谱AI | Pro | ¥149 | — | 6,000 | — | [开通](https://www.bigmodel.cn/glm-coding?ic=DGRQECTZFB) |
+| 讯飞星辰 | 高效版 | ¥199 | ¥39.9 | 6,000 | — | [开通](https://maas.xfyun.cn/packageSubscription?inviteCode=MAAS-7573AB85) |
+| 优云 | Plus | ¥199 | — | — | 日 28M 积分 | [开通](https://passport.compshare.cn/register?referral_code=Kkl0Vgy0pCsFOzeMtfGBdI) |
+| Kimi | Allegretto | ¥199 | ¥159 | — | — | [开通](https://www.kimi.com/code/zh) |
+| MiniMax | Max 极速版 | ¥199 | — | 4,500 | — | [开通](https://platform.minimaxi.com/subscribe/token-plan?code=G2vbq30tXz&source=link) |
 
-### 旗舰级（月付 > ¥200）
+### 高阶级（人民币月付 ≥ ¥200）
 
 | 平台 | 方案 | 月付 | 首月价 | 5h请求数 | Token量 | 开通 |
 |------|------|------|--------|----------|---------|------|
-| 字节·方舟 | Pro | ¥200 | ¥49.9 | 6,000 | — | [开通](https://volcengine.com/L/jmiEa1dptck/) |
 | 阿里·百炼 | Pro | ¥200 | — | 6,000 | — | [开通](https://www.aliyun.com/minisite/goods?userCode=hun0t0sf) |
+| 百度·千帆 | Pro | ¥200 | — | 6,000 | — | [开通](https://cloud.baidu.com/campaign/ambassador-product/index.html?ambassadorId=b00e3bb5d042440fbfaccf545e8e52f0#knowledge-model) |
 | 京东云 | Pro | ¥200 | ¥99.9 | 6,000 | — | [开通](https://3.cn/2-K9GY29) |
 | 联通云 | Pro | ¥200 | — | 6,000 | — | [开通](https://support.cucloud.cn/document/127/591/2357.html?id=2357&arcid=7015) |
 | 腾讯·Coding | Pro | ¥200 | ¥39.9 | 6,000 | — | [开通](https://curl.qcloud.com/1Uogyigq) |
-| 移动云 | Pro | ¥200 | ¥39.9 | 6,000 | — | [开通](https://ecloud.10086.cn/portal/act/codingplan) |
-| 讯飞星辰 | 高效版 | ¥199 | ¥39.9 | — | 日 50M | [开通](https://maas.xfyun.cn/packageSubscription?inviteCode=MAAS-7573AB85) |
 | 无问芯穹 | Pro | ¥200 | ¥99.9 | 5,000 | — | [开通](https://cloud.infini-ai.com/login?redirect=/genstudio/invitation&invite_code=qYRvZBVl) |
-| Kimi | Allegretto | ¥199 | — | — | — | [开通](https://www.kimi.com/code/zh) |
+| 移动云 | Pro | ¥200 | ¥39.9 | 6,000 | — | [开通](https://ecloud.10086.cn/portal/act/codingplan) |
+| 字节·方舟 | Pro | ¥200 | — | 6,000 | — | [开通](https://volcengine.com/L/jmiEa1dptck/) |
 | 腾讯·Token | Pro | ¥299 | — | — | 月 320M | [开通](https://curl.qcloud.com/1Uogyigq) |
-| MiniMax | Max 极速版 | ¥199 | — | 4,500 | — | [开通](https://platform.minimaxi.com/subscribe/token-plan?code=G2vbq30tXz&source=link) |
 | 小米·MiMo | Pro | ¥329 | ¥289.52 | — | 月 700M Credits | [开通](https://platform.xiaomimimo.com/#/token-plan) |
-| 天翼云 | GLM Max | ¥469 | — | 24,000 | — | [开通](https://www.ctyun.cn/t/mM7tOAFwpi8u2sjfeEJYgZ1CmN0kwnS7) |
+| 天翼云 | GLM Max | ¥469 | — | 24,000 | — | [开通](https://ctxirang.ctyun.cn/maas/codingPlan) |
 | 智谱AI | Max | ¥469 | — | 24,000 | — | [开通](https://www.bigmodel.cn/glm-coding?ic=DGRQECTZFB) |
 | 优云 | Pro | ¥499 | — | — | 日 70M 积分 | [开通](https://passport.compshare.cn/register?referral_code=Kkl0Vgy0pCsFOzeMtfGBdI) |
 | 腾讯·Token | Max | ¥599 | — | — | 月 650M | [开通](https://curl.qcloud.com/1Uogyigq) |
-| Kimi | Allegro | ¥699 | — | — | — | [开通](https://www.kimi.com/code/zh) |
 | 小米·MiMo | Max | ¥659 | ¥579.92 | — | 月 1,600M Credits | [开通](https://platform.xiaomimimo.com/#/token-plan) |
+| Kimi | Allegro | ¥699 | ¥559 | — | — | [开通](https://www.kimi.com/code/zh) |
 | MiniMax | Ultra 极速版 | ¥899 | — | 30,000 | — | [开通](https://platform.minimaxi.com/subscribe/token-plan?code=G2vbq30tXz&source=link) |
+
+### 海外 / 美元计费（z.ai）
+
+| 平台 | 方案 | 月付 | 首月价 | 5h请求数 | Token量 | 开通 |
+|------|------|------|--------|----------|---------|------|
+| z.ai | Lite | $18 | — | 1,200 | — | [开通](https://z.ai/subscribe?ic=V6PINPKB9I) |
+| z.ai | Pro | $72 | — | 6,000 | — | [开通](https://z.ai/subscribe?ic=V6PINPKB9I) |
+| z.ai | Max | $160 | — | 24,000 | — | [开通](https://z.ai/subscribe?ic=V6PINPKB9I) |
 
 ---
 
@@ -160,14 +169,16 @@ https://ai.hsnb.fun/aiplanhub
 **推荐**
 
 - **智谱AI** — 独家 GLM-5.1 模型，免费 MCP 调用额度，20+ 编程工具支持，季付/年付有折扣
-- **z.ai** — 智谱国际版，GLM-5.1/GLM-5 全模型支持，美元计费，季付 -10% / 年付 -10%，MCP 免费调用（⚠️ 2026.04.11价格暴涨，已降为2星）
-- **MiniMax** — 定价最低无需抢购，独家 MiniMax-M2.7，已升级 Token Plan，Plus 及以上赠多模态额度
+- **MiniMax** — 定价最低无需抢购，独家 MiniMax-M2.7，已升级 Token Plan，现已支持语音/视频/音乐/图像多模态
+- **阿里·百炼** — 独家 Qwen3.6-Plus，Pro 固定 ¥200/月，每周 45,000 次请求
 - **天翼云** — 支持GLM-5.1，GLM 全家桶覆盖最完整，GLM-5-Turbo 实时测速表现靠前
+- **京东云** — DeepSeek-V3.2 / GLM-5 / Qwen3-Coder 7 模型覆盖，标准 Lite/Pro 定价，第三方测速中上游
 - **优云** — 允许 API 调用，支持 Claude Code / OpenClaw / Codex CLI / CherryStudio，另有 ¥6.9 起一次性按量包，第三方测速整体靠前
 - **无问芯穹** — 多模型聚合平台（DeepSeek/Kimi/GLM/MiniMax），Lite 首月 ¥19.9，支持GLM-5.1
 
 **注意**
 
+- **z.ai** — 支持GLM-5.1，但 2026.04.11 价格暴涨：月付涨至 $18 / $72 / $160，美元计费后性价比明显下降
 - **字节·方舟** — ⚠ 双层计费：名义按调用次数，实际 Token 消耗大会被按 2-3 次甚至更多次扣费，计费不透明，无用量明细（蓝点网/V2EX/微博多源证实）
 - **天翼云** — 高阶 GLM 模型在高峰期按 3 倍、非高峰期按 2 倍抵扣额度，实际可用量会明显低于表面档位；当前页面长期显示售罄/补货
 - **京东云** — 仅限 AI 编程工具交互式使用，禁止 API 调用；社区有“容易截断、有点卡”和“未到 5h 上限仍触发 rate_limit”的反馈

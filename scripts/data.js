@@ -35,20 +35,21 @@ const PLANS = [
   { platform:'Kimi', name:'Allegro', monthly:699, quarterly:null, yearly:6708, firstMonth:559,
     models:['Kimi-K2.5'], req5h:null, reqMonth:null, reqWeek:null, benefits:['澎湃额度','高强度开发'], note:'年付¥559/月·连续包年首月¥559·请求数未公开', link:'https://www.kimi.com/code/zh' },
 
-  // MiniMax - 3月23日已升级为 Token Plan（全模态统一订阅），Plus及以上额外赠多模态额度
+  // MiniMax - 3月23日已升级为 Token Plan（全模态统一订阅），不同套餐开放不同的语音/视频/音乐/图像额度
+  // 2026.04.11核对：官方FAQ与Token Plan概述页已明确新增 TTS HD / Hailuo-2.3(-Fast) / Music-2.6 / image-01
   // 2026.04.11实测：Token Plan 规则为"每周可使用额度为『每5小时额度』的 10 倍" → reqWeek = req5h × 10
   { platform:'MiniMax', name:'Starter', monthly:29, quarterly:null, yearly:290, firstMonth:null,
-    models:['MiniMax-M2.7'], req5h:600, reqMonth:9000, reqWeek:6000, benefits:['TPS ~50','Token Plan'], note:'年付¥24.2/月·reqWeek=req5h×10·每周6000次·每5h额度滑动刷新', link:'https://platform.minimaxi.com/subscribe/token-plan?code=G2vbq30tXz&source=link' },
+    models:['MiniMax-M2.7','Music-2.6'], req5h:600, reqMonth:9000, reqWeek:6000, benefits:['TPS ~50','Token Plan'], note:'年付¥24.2/月·Music-2.6当前100首/天限免·reqWeek=req5h×10·每周6000次·每5h额度滑动刷新', link:'https://platform.minimaxi.com/subscribe/token-plan?code=G2vbq30tXz&source=link' },
   { platform:'MiniMax', name:'Plus', monthly:49, quarterly:null, yearly:490, firstMonth:null,
-    models:['MiniMax-M2.7'], req5h:1500, reqMonth:22500, reqWeek:15000, benefits:['TPS ~50','赠多模态额度（视频/语音/音乐/图像）'], note:'年付¥40.8/月·Token Plan·reqWeek=req5h×10=15000', link:'https://platform.minimaxi.com/subscribe/token-plan?code=G2vbq30tXz&source=link' },
+    models:['MiniMax-M2.7','speech-2.8-hd','speech-2.6-hd','speech-02-hd','Music-2.6','image-01'], req5h:1500, reqMonth:22500, reqWeek:15000, benefits:['TPS ~50','赠多模态额度（语音/音乐/图像）'], note:'年付¥40.8/月·TTS HD / Music-2.6 / image-01已开放·reqWeek=req5h×10=15000', link:'https://platform.minimaxi.com/subscribe/token-plan?code=G2vbq30tXz&source=link' },
   { platform:'MiniMax', name:'Max', monthly:119, quarterly:null, yearly:1190, firstMonth:null,
-    models:['MiniMax-M2.7'], req5h:4500, reqMonth:67500, reqWeek:45000, benefits:['TPS ~50','赠多模态额度（视频/语音/音乐/图像）'], note:'年付¥99.2/月·Token Plan·reqWeek=req5h×10=45000', link:'https://platform.minimaxi.com/subscribe/token-plan?code=G2vbq30tXz&source=link' },
+    models:['MiniMax-M2.7','speech-2.8-hd','speech-2.6-hd','speech-02-hd','Hailuo-2.3-Fast','Hailuo-2.3','Music-2.6','image-01'], req5h:4500, reqMonth:67500, reqWeek:45000, benefits:['TPS ~50','赠多模态额度（视频/语音/音乐/图像）'], note:'年付¥99.2/月·Hailuo-2.3 / TTS HD / Music-2.6 / image-01已开放·reqWeek=req5h×10=45000', link:'https://platform.minimaxi.com/subscribe/token-plan?code=G2vbq30tXz&source=link' },
   { platform:'MiniMax', name:'Plus 极速版', monthly:98, quarterly:null, yearly:980, firstMonth:null,
-    models:['MiniMax-M2.7'], req5h:1500, reqMonth:22500, reqWeek:15000, benefits:['TPS ~100','赠多模态额度'], note:'Token Plan·reqWeek=req5h×10=15000', link:'https://platform.minimaxi.com/subscribe/token-plan?code=G2vbq30tXz&source=link' },
+    models:['MiniMax-M2.7','speech-2.8-hd','speech-2.6-hd','speech-02-hd','Music-2.6','image-01'], req5h:1500, reqMonth:22500, reqWeek:15000, benefits:['TPS ~100','赠多模态额度'], note:'Token Plan·极速版·TTS HD / Music-2.6 / image-01已开放·reqWeek=req5h×10=15000', link:'https://platform.minimaxi.com/subscribe/token-plan?code=G2vbq30tXz&source=link' },
   { platform:'MiniMax', name:'Max 极速版', monthly:199, quarterly:null, yearly:1990, firstMonth:null,
-    models:['MiniMax-M2.7'], req5h:4500, reqMonth:67500, reqWeek:45000, benefits:['TPS ~100','赠多模态额度'], note:'Token Plan·reqWeek=req5h×10=45000', link:'https://platform.minimaxi.com/subscribe/token-plan?code=G2vbq30tXz&source=link' },
+    models:['MiniMax-M2.7','speech-2.8-hd','speech-2.6-hd','speech-02-hd','Hailuo-2.3-Fast','Hailuo-2.3','Music-2.6','image-01'], req5h:4500, reqMonth:67500, reqWeek:45000, benefits:['TPS ~100','赠多模态额度'], note:'Token Plan·极速版·Hailuo-2.3 / TTS HD / Music-2.6 / image-01已开放·reqWeek=req5h×10=45000', link:'https://platform.minimaxi.com/subscribe/token-plan?code=G2vbq30tXz&source=link' },
   { platform:'MiniMax', name:'Ultra 极速版', monthly:899, quarterly:null, yearly:8990, firstMonth:null,
-    models:['MiniMax-M2.7'], req5h:30000, reqMonth:450000, reqWeek:300000, benefits:['TPS ~100','赠多模态额度'], note:'Token Plan·reqWeek=req5h×10=300000', link:'https://platform.minimaxi.com/subscribe/token-plan?code=G2vbq30tXz&source=link' },
+    models:['MiniMax-M2.7','speech-2.8-hd','speech-2.6-hd','speech-02-hd','Hailuo-2.3-Fast','Hailuo-2.3','Music-2.6','image-01'], req5h:30000, reqMonth:450000, reqWeek:300000, benefits:['TPS ~100','赠多模态额度'], note:'Token Plan·极速版·Hailuo-2.3 / TTS HD / Music-2.6 / image-01已开放·reqWeek=req5h×10=300000', link:'https://platform.minimaxi.com/subscribe/token-plan?code=G2vbq30tXz&source=link' },
 
   // 字节·方舟 - 首月Lite约¥8.9，支持Doubao-Seed-2.0-pro/lite/Code系列/DeepSeek-V3.2/Kimi-K2.5/GLM-4.7
   // ⚠️ 双层计费：名义按调用次数，实际Token消耗大会被按2-3次甚至更多次扣费（蓝点网/V2EX/微博多源证实）
@@ -197,7 +198,7 @@ const RATINGS = [
   },
   {
     name: 'MiniMax', score: 5,
-    reasons: ['定价最低无需抢购', '独家 MiniMax-M2.7', '已升级 Token Plan·赠多模态额度']
+    reasons: ['定价最低无需抢购', '独家 MiniMax-M2.7', '已升级 Token Plan·支持语音/视频/音乐/图像']
   },
   {
     name: '字节·方舟', score: 3,
