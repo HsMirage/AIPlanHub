@@ -167,10 +167,14 @@ Skill(skill: "opencli", args: "使用已登录的 Edge 访问 [URL] 并提取音
 - 价格变动要更新对应注释中的日期说明
 
 ### 第5步：更新 README.md
-如果数据有变更，同步更新 README.md 中的 Audio 相关表格数据。
+两处都要更新：
+1. **README 顶部汇总行**：更新 README.md 第9行的汇总日期"Audio 数据更新于 YYYY.MM.DD"为当前日期（注意该行还包含 Coding/Video/Image 的日期，不要改动其他分类）
+2. **Audio 相关表格**：如果数据有变更，同步更新表格中的对应数据
 
 ### 第6步：更新 index.html 中的日期
-更新 index.html 中 class 为 "update-chip" 的 span 元素：将 `Last Updated YYYY.MM.DD` 改为当前日期。
+两处都要更新：
+1. **页面顶部**：更新 `index.html` 中 `<span class="update-chip">` 中的总日期：`Last Updated YYYY.MM.DD` → 当前日期
+2. **页面底部 Audio 区域**：更新 `index.html` 中 `<p class="section-update-date">Audio 数据更新于 YYYY.MM.DD</p>` 中的日期
 
 ### 第7步：Git 提交和推送（需用户确认）
 
