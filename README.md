@@ -196,7 +196,7 @@ https://ai.hsnb.fun/aiplanhub
 **推荐**
 
 - **智谱AI** — 独家 GLM-5.1 模型，免费 MCP 调用额度，20+ 编程工具支持，季付/年付有折扣
-- **z.ai** — 智谱国际版，GLM-5.1/GLM-5 全模型支持，美元计费，季付 -10% / 年付 -30%，MCP 免费调用
+- **z.ai** — 智谱国际版，GLM-5.1/GLM-5 全模型支持，美元计费，季付 -10% / 年付 -10%，MCP 免费调用（⚠️ 2026.04.11价格暴涨，已降为2星）
 - **MiniMax** — 定价最低无需抢购，独家 MiniMax-M2.7，已升级 Token Plan，Plus 及以上赠多模态额度
 - **天翼云** — 除智谱官方外唯一支持 GLM-5.1，GLM 全家桶覆盖最完整，GLM-5-Turbo 实时测速表现靠前
 - **优云** — 允许 API 调用，支持 Claude Code / OpenClaw / Codex CLI / CherryStudio，另有 ¥6.9 起一次性按量包，第三方测速整体靠前
