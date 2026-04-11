@@ -11,15 +11,18 @@ const PLANS = [
   { platform:'智谱AI', name:'Max', monthly:469, quarterly:1266.3, yearly:4502.4, firstMonth:null,
     models:['GLM-5.1','GLM-5','GLM-5-Turbo','GLM-4.7','GLM-4.6','GLM-4.5','GLM-4.5-Air'], req5h:24000, reqMonth:600000, reqWeek:120000, benefits:['免费MCP','高峰期专属资源'], note:'季付¥422.1/月·年付¥375.2/月·Max含GLM-5·每周8000prompts×15≈120000请求', link:'https://www.bigmodel.cn/glm-coding?ic=DGRQECTZFB' },
 
-  // z.ai（智谱国际版）- 支持 GLM-5.1/GLM-5，季付-10%/年付-30%，邀请链接含首月/首季/首年优惠
-  // 2026.04.07更新：Lite新增GLM-4.6/GLM-4.5-Air
-  // 2026.04.11实测：docs.z.ai FAQ确认有weekly usage quota limit（7天周期），但未公开具体数字，reqWeek=null
-  { platform:'z.ai', name:'Lite', monthly:10, quarterly:24, yearly:75, firstMonth:9,
-    models:['GLM-5.1','GLM-5-Turbo','GLM-4.7','GLM-4.6','GLM-4.5-Air'], req5h:80, reqMonth:null, reqWeek:null, benefits:['3× Claude Pro 用量','兼容 Claude Code/Cursor/Cline 等 20+ 工具'], note:'国际站不限购不降智·季付$8/月·年付$6.25/月·Friend Gift 首$9', link:'https://z.ai/subscribe?ic=V6PINPKB9I' },
-  { platform:'z.ai', name:'Pro', monthly:30, quarterly:72, yearly:226, firstMonth:27,
-    models:['GLM-5.1','GLM-5','GLM-5-Turbo','GLM-4.7','GLM-4.6','GLM-4.5-Air'], req5h:400, reqMonth:null, reqWeek:null, benefits:['5× Lite 用量','优先体验新模型','40%-60% 更快响应'], note:'国际站不限购不降智·季付$24/月·年付$18.8/月·含 MCP', link:'https://z.ai/subscribe?ic=V6PINPKB9I' },
-  { platform:'z.ai', name:'Max', monthly:80, quarterly:194, yearly:604, firstMonth:72,
-    models:['GLM-5.1','GLM-5','GLM-5-Turbo','GLM-4.7','GLM-4.6','GLM-4.5-Air'], req5h:1600, reqMonth:null, reqWeek:null, benefits:['4× Pro 用量','高峰期保证性能','抢先体验新模型'], note:'国际站不限购不降智·季付$64.7/月·年付$50.3/月', link:'https://z.ai/subscribe?ic=V6PINPKB9I' },
+  // z.ai（智谱国际版）- ⚠️ 2026.04.11价格大幅上调！
+  // 月付: $18/$72/$160（Lite/Pro/Max）；季付: $54/$216/$480（首季$43.74/$174.96/$388.8）
+  // 年付: $172.80/$691.20/$1536（首年$155.52/$622.08/$1382.4享-10%）；Friend Gift享10%优惠
+  // 原价月付$10/$30/$80→现价$18/$72/$160涨幅约80%；年付从$75/$226/$604涨至$172.80/$691.20/$1536涨幅约130%
+  // 页面显示prompts数，按1prompt≈15次调用折算为请求数；reqWeek=null（页面未公开周限额）
+  // 支持模型不变；支持月付/季付/年付三种方式
+  { platform:'z.ai', name:'Lite', monthly:18, quarterly:54, yearly:172.80, firstMonth:null,
+    models:['GLM-5.1','GLM-5-Turbo','GLM-4.7','GLM-4.6','GLM-4.5-Air'], req5h:1200, reqMonth:null, reqWeek:null, benefits:['3× Claude Pro 用量','兼容 Claude Code/Cursor/Cline 等 20+ 工具'], note:'⚠️月付涨至$18(原$10)·季付$54(首季$43.74)·年付$172.8(首年$155.52享-10%)·Friend Gift享10%·支持月付/季付/年付·req5h=80prompts×15≈1200请求', link:'https://z.ai/subscribe?ic=V6PINPKB9I' },
+  { platform:'z.ai', name:'Pro', monthly:72, quarterly:216, yearly:691.20, firstMonth:null,
+    models:['GLM-5.1','GLM-5','GLM-5-Turbo','GLM-4.7','GLM-4.6','GLM-4.5-Air'], req5h:6000, reqMonth:null, reqWeek:null, benefits:['5× Lite 用量','优先体验新模型','40%-60% 更快响应'], note:'⚠️月付涨至$72(原$30)·季付$216(首季$174.96)·年付$691.2(首年$622.08享-10%)·Friend Gift享10%·含MCP·支持月付/季付/年付·req5h=400prompts×15≈6000请求', link:'https://z.ai/subscribe?ic=V6PINPKB9I' },
+  { platform:'z.ai', name:'Max', monthly:160, quarterly:480, yearly:1536, firstMonth:null,
+    models:['GLM-5.1','GLM-5','GLM-5-Turbo','GLM-4.7','GLM-4.6','GLM-4.5-Air'], req5h:24000, reqMonth:null, reqWeek:null, benefits:['4× Pro 用量','高峰期保证性能','抢先体验新模型'], note:'⚠️月付涨至$160(原$80)·季付$480(首季$388.8)·年付$1536(首年$1382.4享-10%)·Friend Gift享10%·支持月付/季付/年付·req5h=1600prompts×15≈24000请求', link:'https://z.ai/subscribe?ic=V6PINPKB9I' },
 
   // Kimi - 官网实测：连续包月原价/连续包年折扣价
   // 2026.04.07更新：新增连续包年首月优惠价；官网不公开具体请求数额度
@@ -50,10 +53,10 @@ const PLANS = [
   // 字节·方舟 - 首月Lite约¥8.9，支持Doubao-Seed-2.0-pro/lite/Code系列/DeepSeek-V3.2/Kimi-K2.5/GLM-4.7
   // ⚠️ 双层计费：名义按调用次数，实际Token消耗大会被按2-3次甚至更多次扣费（蓝点网/V2EX/微博多源证实）
   // 2026.04.11通过已登录Edge实测：volcengine.com/docs/82379/2165245页面中间位置显示每周限额，reqWeek=9000/45000
-  { platform:'字节·方舟', name:'Lite', monthly:40, quarterly:null, yearly:null, firstMonth:8.9,
-    models:['Doubao-Seed-2.0-pro','Doubao-Seed-2.0-lite','Doubao-Seed-Code','DeepSeek-V3.2','Kimi-K2.5','GLM-4.7','MiniMax-M2.5'], req5h:1200, reqMonth:18000, reqWeek:9000, benefits:['ArkClaw 7天试用','Auto智能选模型'], note:'首月¥8.9·⚠双层计费·额度消耗远快于同行·每周一00:00刷新', link:'https://volcengine.com/L/jmiEa1dptck/' },
-  { platform:'字节·方舟', name:'Pro', monthly:200, quarterly:null, yearly:null, firstMonth:49.9,
-    models:['Doubao-Seed-2.0-pro','Doubao-Seed-2.0-lite','Doubao-Seed-Code','DeepSeek-V3.2','Kimi-K2.5','GLM-4.7','MiniMax-M2.5'], req5h:6000, reqMonth:90000, reqWeek:45000, benefits:['免费ArkClaw','Auto智能选模型'], note:'首月¥49.9·⚠双层计费·Pro三四天可用完月额度·每周一00:00刷新', link:'https://volcengine.com/L/jmiEa1dptck/' },
+  { platform:'字节·方舟', name:'Lite', monthly:40, quarterly:null, yearly:null, firstMonth:null,
+    models:['Doubao-Seed-2.0-pro','Doubao-Seed-2.0-lite','Doubao-Seed-Code','DeepSeek-V3.2','Kimi-K2.5','GLM-4.7','MiniMax-M2.5'], req5h:1200, reqMonth:18000, reqWeek:9000, benefits:['ArkClaw 7天试用','Auto智能选模型'], note:'首月优惠已结束(原¥8.9)·⚠双层计费·额度消耗远快于同行·每周一00:00刷新', link:'https://volcengine.com/L/jmiEa1dptck/' },
+  { platform:'字节·方舟', name:'Pro', monthly:200, quarterly:null, yearly:null, firstMonth:null,
+    models:['Doubao-Seed-2.0-pro','Doubao-Seed-2.0-lite','Doubao-Seed-Code','DeepSeek-V3.2','Kimi-K2.5','GLM-4.7','MiniMax-M2.5'], req5h:6000, reqMonth:90000, reqWeek:45000, benefits:['免费ArkClaw','Auto智能选模型'], note:'首月优惠已结束(原¥49.9)·⚠双层计费·Pro三四天可用完月额度·每周一00:00刷新', link:'https://volcengine.com/L/jmiEa1dptck/' },
 
   // 阿里·百炼 - Lite套餐已停止新购（2026.03.20起），当前仅显示Pro套餐
   // 2026.04.08核对：帮助文档(last-modified 2026-04-03)显示Qwen3.5-Plus等模型；控制台显示Pro暂时售罄
@@ -77,15 +80,17 @@ const PLANS = [
   { platform:'移动云', name:'Pro', monthly:200, quarterly:null, yearly:null, firstMonth:39.9,
     models:['MiniMax-M2.5'], req5h:6000, reqMonth:90000, reqWeek:45000, benefits:['适配 Claude Code/OpenCode/OpenClaw'], note:'首月¥39.9·仅 MiniMax-M2.5·呼和浩特/武汉可购·禁API调用', link:'https://ecloud.10086.cn/portal/act/codingplan' },
 
-  // 天翼云 - 文档与控制台页面于 2026.04.10 核对；3 档套餐当前页面均显示"暂时售罄 / 每日10:00补货"
-  // 文档给的是 prompt 档位；此处按站内口径折算为请求数（1 prompt≈15次调用）
-  // 2026.04.10核对：文档明确写每周prompts数，reqWeek按折算值填入
+  // 天翼云 - 订阅页(https://ctxirang.ctyun.cn/maas/codingPlan)与文档页(https://www.ctyun.cn/document/11061839/11092415)实测
+  // 3档套餐均暂时售罄，每日10:00补货；文档给的是prompt档位，按1prompt≈15次调用折算为请求数
+  // 2026.04.11实测：订阅页确认Lite¥49/Pro¥149/Max¥469；reqWeek=6000/30000/120000（估算值，页面不直接显示）
+  // 付费倍率：高阶模型（GLM-5/5.1/5-Turbo）高峰3x/非高峰2x抵扣，即实际可用量约为标称值的1/2~1/3
+  // ⚠️ 注意：页面显示的prompts数是扣倍率前的理论值，高阶模型实际可用量更少
   { platform:'天翼云', name:'GLM Lite', monthly:49, quarterly:null, yearly:null, firstMonth:null,
-    models:['GLM-5.1','GLM-5-Turbo','GLM-4.7','GLM-4.6','GLM-4.5','GLM-4.5-Air'], req5h:1200, reqMonth:24000, reqWeek:6000, benefits:['GLM 全家桶','支持 Claude Code/OpenCode/OpenClaw/Cline'], note:'暂时售罄·每日10:00补货·高阶模型高峰3x/非高峰2x抵扣·每周约400prompts', link:'https://www.ctyun.cn/t/mM7tOAFwpi8u2sjfeEJYgZ1CmN0kwnS7' },
+    models:['GLM-5.1','GLM-5-Turbo','GLM-4.7','GLM-4.6','GLM-4.5','GLM-4.5-Air'], req5h:1200, reqMonth:24000, reqWeek:6000, benefits:['GLM 全家桶','支持 Claude Code/OpenCode/OpenClaw/Cline'], note:'暂时售罄·每日10:00补货·高阶模型高峰3x/非高峰2x抵扣·实际可用量约为标称1/2~1/3', link:'https://ctxirang.ctyun.cn/maas/codingPlan' },
   { platform:'天翼云', name:'GLM Pro', monthly:149, quarterly:null, yearly:null, firstMonth:null,
-    models:['GLM-5.1','GLM-5','GLM-5-Turbo','GLM-4.7','GLM-4.6','GLM-4.5','GLM-4.5-Air'], req5h:6000, reqMonth:120000, reqWeek:30000, benefits:['GLM 全家桶','低峰期动态提升并发'], note:'暂时售罄·每日10:00补货·GLM-5/5.1/5-Turbo 用量消耗更快·每周约2000prompts', link:'https://www.ctyun.cn/t/mM7tOAFwpi8u2sjfeEJYgZ1CmN0kwnS7' },
+    models:['GLM-5.1','GLM-5','GLM-5-Turbo','GLM-4.7','GLM-4.6','GLM-4.5','GLM-4.5-Air'], req5h:6000, reqMonth:120000, reqWeek:30000, benefits:['GLM 全家桶','低峰期动态提升并发'], note:'暂时售罄·每日10:00补货·GLM-5/5.1/5-Turbo 用量消耗更快·实际可用量约为标称1/2~1/3', link:'https://ctxirang.ctyun.cn/maas/codingPlan' },
   { platform:'天翼云', name:'GLM Max', monthly:469, quarterly:null, yearly:null, firstMonth:null,
-    models:['GLM-5.1','GLM-5','GLM-5-Turbo','GLM-4.7','GLM-4.6','GLM-4.5','GLM-4.5-Air'], req5h:24000, reqMonth:480000, reqWeek:120000, benefits:['GLM 全家桶','推荐 2+ 项目并发开发'], note:'暂时售罄·每日10:00补货·高阶模型倍率抵扣影响实际可用量·每周约8000prompts', link:'https://www.ctyun.cn/t/mM7tOAFwpi8u2sjfeEJYgZ1CmN0kwnS7' },
+    models:['GLM-5.1','GLM-5','GLM-5-Turbo','GLM-4.7','GLM-4.6','GLM-4.5','GLM-4.5-Air'], req5h:24000, reqMonth:480000, reqWeek:120000, benefits:['GLM 全家桶','推荐 2+ 项目并发开发'], note:'暂时售罄·每日10:00补货·高阶模型倍率抵扣影响实际可用量·实际可用量约为标称1/2~1/3', link:'https://ctxirang.ctyun.cn/maas/codingPlan' },
 
   // 联通云 - Coding Plan 概述文档显示当前资源紧张；限流时会自动切换到负载更轻模型，套餐页为 Lite / Pro 两档
   // 仅允许 AI 编程工具使用，严禁 API 调用；当前公开文档主入口为帮助中心
@@ -105,12 +110,13 @@ const PLANS = [
   { platform:'优云', name:'Pro', monthly:499, quarterly:null, yearly:null, firstMonth:null,
     models:['MiniMax-M2.1','MiniMax-M2.5','GLM-5','Kimi-K2.5','DeepSeek-V3.2'], req5h:null, reqMonth:null, reqWeek:null, benefits:['允许 API 调用','支持 Codex CLI/CherryStudio'], note:'积分制·限时赠 OpenClaw 云端服务·允许客户端/API 场景', tokenDaily:7000, tokenUnit:' 积分', link:'https://passport.compshare.cn/register?referral_code=Kkl0Vgy0pCsFOzeMtfGBdI' },
 
-  // 腾讯·Coding - Coding Plan（按请求次数），Lite限量抢购（每天10点），首月¥7.9；Pro首月¥39.9
+  // 腾讯·Coding - Coding Plan（按请求次数），仅月付，无季付/年付；Lite限量抢购（每天10点），首月¥7.9；Pro首月¥39.9
+  // 2026.04.11实测：页面仅显示"1月 日常价：40元/200元"，无季付/年付选项
   // 2026.04.10核对：活动页明确写每周请求数，reqWeek=9000/45000
   { platform:'腾讯·Coding', name:'Lite', monthly:40, quarterly:null, yearly:null, firstMonth:7.9,
-    models:['HY-2.0','GLM-5','Kimi-K2.5','MiniMax-M2.5'], req5h:1200, reqMonth:18000, reqWeek:9000, benefits:['企业生态强'], note:'Coding Plan·首月¥7.9·Lite限量抢购', link:'https://curl.qcloud.com/1Uogyigq' },
+    models:['HY-2.0','GLM-5','Kimi-K2.5','MiniMax-M2.5'], req5h:1200, reqMonth:18000, reqWeek:9000, benefits:['企业生态强'], note:'仅月付·Coding Plan·首月¥7.9·Lite限量抢购', link:'https://curl.qcloud.com/1Uogyigq' },
   { platform:'腾讯·Coding', name:'Pro', monthly:200, quarterly:null, yearly:null, firstMonth:39.9,
-    models:['HY-2.0','GLM-5','Kimi-K2.5','MiniMax-M2.5'], req5h:6000, reqMonth:90000, reqWeek:45000, benefits:['企业生态强'], note:'Coding Plan·首月¥39.9', link:'https://curl.qcloud.com/1Uogyigq' },
+    models:['HY-2.0','GLM-5','Kimi-K2.5','MiniMax-M2.5'], req5h:6000, reqMonth:90000, reqWeek:45000, benefits:['企业生态强'], note:'仅月付·Coding Plan·首月¥39.9', link:'https://curl.qcloud.com/1Uogyigq' },
 
   // 腾讯·Token - Token Plan（按 Token 额度计费），4月3日上线，兼容 Claude Code/Cursor/OpenClaw 等
   // 文档：https://cloud.tencent.com/document/product/1772/129449
@@ -182,8 +188,8 @@ const RATINGS = [
     reasons: ['独家 GLM-5.1（3月27日上线）', '免费 MCP 调用额度', '20+ 编程工具支持']
   },
   {
-    name: 'z.ai', score: 5,
-    reasons: ['智谱国际版·美元计费', 'GLM-5.1/GLM-5 全模型支持', '季付-10%/年付-30%·MCP 免费调用']
+    name: 'z.ai', score: 2,
+    reasons: ['⚠️ 2026.04.11价格暴涨：月付涨至$18/$72/$160(涨幅80%)，年付涨至$172/$691/$1536(涨幅130%)', '相比国内同行无性价比·美元计费月付已是国内月付的3~5倍', 'GLM-5.1/GLM-5 全模型支持·季付-10%/年付-20%优惠·MCP 免费调用']
   },
   {
     name: 'Kimi', score: 3,
