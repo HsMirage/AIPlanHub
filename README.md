@@ -42,7 +42,7 @@ https://ai.hsnb.fun/aiplanhub
 | z.ai | GLM-5.1（国际版） | 3 | $10 | ★★★★★ |
 | MiniMax | MiniMax-M2.7 | 6 | ¥29 | ★★★★★ |
 | Kimi | Kimi-K2.5 | 4 | ¥49 | ★★★ |
-| 阿里·百炼 | Qwen3.5-Plus | 1 | ¥200 | ★★★★ |
+| 阿里·百炼 | Qwen3.6-Plus | 1 | ¥200 | ★★★★ |
 | 天翼云 | GLM-5.1（第三方） | 3 | ¥49 | ★★★★★ |
 | 优云 | MiniMax-M2.1 | 3 | ¥49.9 | ★★★ |
 | 京东云 | Qwen3-Coder | 2 | ¥40 | ★★★★ |

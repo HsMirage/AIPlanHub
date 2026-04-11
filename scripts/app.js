@@ -1,5 +1,53 @@
 let sortCol = null, sortDir = 1;
 
+const PLATFORM_LATEST_MODELS = {
+  '智谱AI': ['GLM-5.1'],
+  'z.ai': ['GLM-5.1'],
+  'Kimi': ['Kimi-K2.5'],
+  'MiniMax': ['MiniMax-M2.7'],
+  '字节·方舟': ['Doubao-Seed-2.0-pro'],
+  '阿里·百炼': ['Qwen3.6-Plus', 'Qwen3.6plus', 'Qwen3.5-Plus'],
+  '天翼云': ['GLM-5.1'],
+  '腾讯·Coding': ['HY-2.0'],
+  '腾讯·Token': ['HY-2.0', 'HY-2.0-Think'],
+  '讯飞星辰': ['Spark X2'],
+  '小米·MiMo': ['MiMo-V2-Pro']
+};
+
+function getCommonModelPriority(model) {
+  if (model === 'GLM-5.1') return [1, 0];
+  if (model === 'GLM-5') return [2, 0];
+  if (model === 'GLM-5-Turbo') return [3, 0];
+  if (model === 'Kimi-K2.5') return [4, 0];
+  if (['Qwen3.6-Plus', 'Qwen3.6plus', 'Qwen3.5-Plus'].includes(model)) return [5, 0];
+  if (model === 'MiniMax-M2.7') return [6, 0];
+  if (model.startsWith('Kimi-')) return [4, 1];
+  if (model.startsWith('Qwen')) return [5, 1];
+  if (model.startsWith('MiniMax-')) return [6, 1];
+  return [99, 0];
+}
+
+// 支持模型按“平台独家最新模型优先 + 通用重点模型优先级”展示。
+function sortModelsForDisplay(platform, models) {
+  const latestModels = PLATFORM_LATEST_MODELS[platform] || [];
+  return models
+    .map((model, index) => {
+      const latestIndex = latestModels.indexOf(model);
+      const [commonPriority, commonSubPriority] = getCommonModelPriority(model);
+      return { model, index, latestIndex, commonPriority, commonSubPriority };
+    })
+    .sort((a, b) => {
+      const aIsLatest = a.latestIndex !== -1;
+      const bIsLatest = b.latestIndex !== -1;
+      if (aIsLatest !== bIsLatest) return aIsLatest ? -1 : 1;
+      if (aIsLatest && bIsLatest) return a.latestIndex - b.latestIndex;
+      if (a.commonPriority !== b.commonPriority) return a.commonPriority - b.commonPriority;
+      if (a.commonSubPriority !== b.commonSubPriority) return a.commonSubPriority - b.commonSubPriority;
+      return a.index - b.index;
+    })
+    .map(item => item.model);
+}
+
 function renderRatings() {
   const row = document.getElementById('ratings-row');
   row.innerHTML = RATINGS.map(r => {
@@ -110,7 +158,8 @@ function renderTable(plans) {
     const qAvg = p.quarterly ? Math.round(p.quarterly / 3) : null;
     const yAvg = p.yearly ? Math.round(p.yearly / 12) : null;
     const firstBadge = p.firstMonth ? `<span class="badge-first">首月${cur}${p.firstMonth}</span>` : '';
-    const models = p.models.map(m => `<span class="model-tag">${m}</span>`).join('');
+    const models = sortModelsForDisplay(p.platform, p.models)
+      .map(m => `<span class="model-tag">${m}</span>`).join('');
     const benefits = p.benefits.length
       ? p.benefits.map(b => `<span class="benefit-tag">${b}</span>`).join('')
       : na();

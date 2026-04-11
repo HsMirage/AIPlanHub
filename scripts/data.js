@@ -59,10 +59,10 @@ const PLANS = [
     models:['Doubao-Seed-2.0-pro','Doubao-Seed-2.0-lite','Doubao-Seed-Code','DeepSeek-V3.2','Kimi-K2.5','GLM-4.7','MiniMax-M2.5'], req5h:6000, reqMonth:90000, reqWeek:45000, benefits:['免费ArkClaw','Auto智能选模型'], note:'首月优惠已结束(原¥49.9)·⚠双层计费·Pro三四天可用完月额度·每周一00:00刷新', link:'https://volcengine.com/L/jmiEa1dptck/' },
 
   // 阿里·百炼 - Lite套餐已停止新购（2026.03.20起），当前仅显示Pro套餐
-  // 2026.04.08核对：帮助文档(last-modified 2026-04-03)显示Qwen3.5-Plus等模型；控制台显示Pro暂时售罄
+  // 2026.04.11核对：官方Coding Plan概述页显示qwen3.6-plus为Pro专属权益；控制台显示Pro暂时售罄
   // 2026.04.10核对：帮助文档明确写"每周45,000次请求"，reqWeek=45000
   { platform:'阿里·百炼', name:'Pro', monthly:200, quarterly:null, yearly:null, firstMonth:null,
-    models:['Qwen3.5-Plus','Qwen3-Coder-Next','Qwen3-Coder-Plus','Qwen3-Max-2026-01-23','GLM-5','GLM-4.7','Kimi-K2.5','MiniMax-M2.5'], req5h:6000, reqMonth:90000, reqWeek:45000, benefits:['多模型自由切换'], note:'Lite已停止新购(3.20起)·Pro当前暂时售罄·活动已结束·每周45000次', link:'https://www.aliyun.com/minisite/goods?userCode=hun0t0sf' },
+    models:['Qwen3.6-Plus','Qwen3.5-Plus','Qwen3-Coder-Next','Qwen3-Coder-Plus','Qwen3-Max-2026-01-23','GLM-5','GLM-4.7','Kimi-K2.5','MiniMax-M2.5'], req5h:6000, reqMonth:90000, reqWeek:45000, benefits:['多模型自由切换'], note:'Lite已停止新购(3.20起)·Pro专属Qwen3.6-Plus·Pro当前暂时售罄·活动已结束·每周45000次', link:'https://www.aliyun.com/minisite/goods?userCode=hun0t0sf' },
 
   // 京东云 - JoyBuilder Coding Plan，帮助文档更新于 2026.04.03；活动规则页显示首购优惠持续到 2026.06.30，每天10:30限量开放
   // 官方宣称高峰期无明显降速；社区有截断/卡顿与未到 5h 上限触发 rate_limit 的反馈
@@ -189,7 +189,7 @@ const RATINGS = [
   },
   {
     name: 'z.ai', score: 2,
-    reasons: ['⚠️ 2026.04.11价格暴涨：月付涨至$18/$72/$160(涨幅80%)，年付涨至$172/$691/$1536(涨幅130%)', '相比国内同行无性价比·美元计费月付已是国内月付的3~5倍', 'GLM-5.1/GLM-5 全模型支持·季付-10%/年付-20%优惠·MCP 免费调用']
+    reasons: ['支持GLM-5.1', '⚠️ 2026.04.11价格暴涨：月付涨至$18/$72/$160(涨幅80%)，年付涨至$172/$691/$1536(涨幅130%)', '相比国内同行无性价比·美元计费月付已是国内月付的3~5倍']
   },
   {
     name: 'Kimi', score: 3,
@@ -205,11 +205,11 @@ const RATINGS = [
   },
   {
     name: '阿里·百炼', score: 4,
-    reasons: ['支持 Qwen3.5-Plus / Qwen3-Coder 系列', 'Lite 停止新购·Pro 当前暂时售罄', '固定¥200/月·每月90,000次请求']
+    reasons: ['独家 Qwen3.6-Plus', 'Lite 停止新购·Pro 当前暂时售罄', '固定¥200/月·每月90,000次请求']
   },
   {
     name: '天翼云', score: 5,
-    reasons: ['除智谱官方外唯一支持 GLM-5.1', 'GLM 全家桶覆盖最完整', '第三方测速上游·GLM-5-Turbo 速度表现好']
+    reasons: ['支持GLM-5.1', 'GLM 全家桶覆盖最完整', '第三方测速上游·GLM-5-Turbo 速度表现好']
   },
   {
     name: '优云', score: 3,
@@ -221,7 +221,7 @@ const RATINGS = [
   },
   {
     name: '联通云', score: 3,
-    reasons: ['6 模型覆盖·兼容 Claude Code/OpenCode/OpenClaw', '标准 Lite/Pro 定价·支持动态模型路由', '当前资源紧张·Kimi 通道稳定性明显偏弱']
+    reasons: ['支持GLM-5.1', '6 模型覆盖·支持动态模型路由', '当前资源紧张·Kimi 通道稳定性明显偏弱']
   },
   {
     name: '腾讯·Coding', score: 3,
@@ -249,6 +249,6 @@ const RATINGS = [
   },
   {
     name: '无问芯穹', score: 3,
-    reasons: ['Lite首月¥19.9·次月¥40', 'Pro首月¥99.9·次月¥200', '多模型聚合（DeepSeek/Kimi/GLM/MiniMax）']
+    reasons: ['支持GLM-5.1', 'Lite首月¥19.9·Pro首月¥99.9', '多模型聚合（DeepSeek/Kimi/GLM/MiniMax）']
   }
 ];
