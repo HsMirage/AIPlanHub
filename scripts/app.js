@@ -60,8 +60,8 @@ function applyFilters() {
       let bv = sortCol === 'quarterlyAvg' ? (b.quarterly ? b.quarterly / 3 : null)
              : sortCol === 'yearlyAvg' ? (b.yearly ? b.yearly / 12 : null)
              : b[sortCol];
-      if (av === null) av = Infinity;
-      if (bv === null) bv = Infinity;
+      if (av == null) av = Infinity;
+      if (bv == null) bv = Infinity;
       if (typeof av === 'string') return av.localeCompare(bv) * sortDir;
       return (av - bv) * sortDir;
     });
@@ -82,7 +82,7 @@ function resetFilters() {
 }
 
 function na() { return '<span class="price-na">—</span>'; }
-function fmt(n) { return n === null ? na() : n.toLocaleString(); }
+function fmt(n) { return n == null ? na() : n.toLocaleString(); }
 function fmtM(n) {
   var m = n / 100;
   if (m >= 1000) return m.toLocaleString('en-US', { maximumFractionDigits: 0 });
@@ -102,7 +102,7 @@ function renderTokenCol(p) {
 function renderTable(plans) {
   const tbody = document.getElementById('plans-tbody');
   if (!plans.length) {
-    tbody.innerHTML = `<tr><td colspan="12" style="text-align:center;padding:40px;color:#94A3B8">没有符合条件的方案，请调整筛选条件</td></tr>`;
+    tbody.innerHTML = `<tr><td colspan="14" style="text-align:center;padding:40px;color:#94A3B8">没有符合条件的方案，请调整筛选条件</td></tr>`;
     return;
   }
   tbody.innerHTML = plans.map(p => {
@@ -123,6 +123,7 @@ function renderTable(plans) {
       <td class="num">${yAvg ? `<span class="price-yearly">${cur}${yAvg}</span>` : na()}</td>
       <td class="num">${p.firstMonth ? `${cur}${p.firstMonth}` : na()}</td>
       <td class="num">${fmt(p.req5h)}</td>
+      <td class="num">${fmt(p.reqWeek)}</td>
       <td class="num">${fmt(p.reqMonth)}</td>
       <td class="num">${renderTokenCol(p)}</td>
       <td>${models}</td>

@@ -11,22 +11,58 @@
 4. Ace Studio — https://acestudio.ai/zh/pricing（定价页面）
 5. 海螺AI — https://www.minimaxi.com/audio/subscribe（会员方案）
 
-## 工具选择策略
+## 工具选择策略（优先级递减）
 
-**默认使用 web-access（连接外部 Edge 浏览器，天然携带已登录账号的 cookie）**。
+### 第一优先：web-access skill（推荐）
 
-调用方式：使用 Skill 工具，skill 参数为 "web-access"，args 参数为需要访问的URL或描述。
+**默认优先使用 web-access skill**，通过 CDP 连接用户已登录的 Edge 浏览器，复用现有登录态和 Cookie。
 
-例如：Skill(skill: "web-access", args: "访问 https://suno.com 并提取音频会员方案定价信息")
+调用方式：
+```
+Skill(skill: "web-access", args: "访问 [URL] 并提取音频会员方案定价信息，需要上下滑动页面查看完整内容")
+```
 
-web-access 通过 CDP 连接用户日常 Edge 浏览器，无需额外登录，直接复用已有登录态。
+**关键操作要求**：
+- **必须上下滑动页面**查看完整信息，很多数据（如积分明细、功能列表）位于页面下方
+- **不要直接跳转其他页面**，在当前页面内滚动查找所有需要的数据
+- 如需滚动，使用 `actions.scroll()` 多次滑动直至页面底部
 
-遇到以下情况时切换到 ai-browser 作为备用：
-- web-access 连接失败（CDP Proxy 未启动或 Edge 未开启远程调试）
-- 页面在 web-access 中无法正常渲染
-- web-access 反复出错（连续 3 个平台失败后统一切换到 ai-browser）
+### 第二优先：browser-cdp skill（web-access 失败时）
 
-**切换策略**：一旦切换到 ai-browser，本次运行剩余平台继续使用 ai-browser，不必每个平台都先尝试 web-access。
+如果 web-access 连接失败，**使用 browser-cdp skill 直接连接 Edge**：
+
+**步骤：**
+1. 检查 Edge 是否已开启远程调试：`lsof -i :9334`
+2. 如果未开启，**重启 Edge**（保持用户登录态）：
+   ```bash
+   pkill "Microsoft Edge" && sleep 2
+   "/Applications/Microsoft Edge.app/Contents/MacOS/Microsoft Edge" --remote-debugging-port=9334 --remote-allow-origins='*' &
+   ```
+3. 使用 browser-cdp 连接并提取数据（需上下滑动页面）
+
+**browser-cdp skill 路径**：~/Library/Application Support/QClaw/openclaw/config/skills/browser-cdp/scripts/
+
+### 第三优先：opencli skill（CDP 均失败时）
+
+如果 web-access 和 browser-cdp 都失败，**降级使用 opencli skill**：
+```
+Skill(skill: "opencli", args: "使用已登录的 Edge 访问 [URL] 并提取音频会员数据")
+```
+
+### 最后备用：ai-browser（Halo 内置浏览器）
+
+仅当以上所有方案都失败时使用 ai-browser。
+
+**切换策略**：
+- 单个平台失败 → 尝试下一优先级的工具
+- 连续 3 个平台失败后 → 统一降级到下一优先级工具
+- 一旦降级，剩余平台继续使用当前级别工具
+
+### 禁止使用的工具
+
+**尽量不要使用以下静态查询工具**：
+- web_fetch（无法执行 JavaScript，无法获取动态加载内容）
+- 其他非浏览器类 HTTP 请求工具
 
 ## 数据验证规则（严格执行）
 
@@ -158,6 +194,41 @@ scp -i /Users/mirage/AI/AiWork/cursor2api/cursor2api_deploy -P 2025 -o StrictHos
 12. **宁可漏报不可错报**：不确定的数据标记为「待人工确认」，不要猜测写入
 13. **只检查 Audio 相关的 5 家平台**，不要触碰 data.js、video-data.js、image-data.js
 14. **发布前必须用户确认**：git push 和 scp 部署均需用户明确同意后才能执行，不得自动发布
+
+## 查询链接管理（重要·每次执行必须遵守）
+
+**目标**：对已确认能查到数据的平台页面 URL，保存到 scripts/platform-links.json，下次执行时直接使用，不必重新搜索/定位。
+
+**操作规范**：
+
+1. **发现有效 URL 后立即保存**  
+   当你成功从某个 URL 提取到平台数据后，检查 scripts/platform-links.json（编码格式：UTF-8，JSON）：
+   - 若该平台已有记录但 URL 不同，用新 URL 覆盖（覆盖原则：新URL内容更完整或更稳定时覆盖）
+   - 若该平台无记录，添加新 entry，包含字段：
+     ```json
+     "平台名": {
+       "link": "完整URL（尽量用稳定的数据页，不要用临时搜索结果）",
+       "method": "snapshot | direct | 其他",
+       "note": "该URL能查到什么数据"
+     }
+     ```
+
+2. **下次执行优先使用已保存的 URL**  
+   读取 scripts/platform-links.json，按 JSON 中记录的 URL 逐个访问。
+   - 链接仍有效 → 直接提取数据
+   - 链接已失效（404/跳转/内容不符）→ 尝试找新的有效 URL，找到后覆盖旧记录
+
+3. **method 字段说明**  
+   - `snapshot`：需抓取页面快照提取数字
+   - `direct`：链接直接展示完整数据，无需二次提取
+
+4. **只保存有实际数据的 URL**  
+   如果某个 URL 需要登录才能访问，或页面内容为空，不保存。
+
+5. **定期维护**  
+   每年至少一次遍历 platform-links.json 中的所有链接，剔除失效链接。
+
+---
 
 ## 输出报告
 

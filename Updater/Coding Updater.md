@@ -5,40 +5,129 @@
 - Coding 数据：scripts/data.js（PLANS 数组和 RATINGS 数组）
 
 ## 需要监控的平台（17家）
-1. 智谱AI — https://www.bigmodel.cn/glm-coding（查看订阅方案页面）
-2. z.ai — https://z.ai/subscribe（查看定价页面）
-3. Kimi — https://www.kimi.com/code/zh（查看Kimi Code方案）
-4. MiniMax — https://platform.minimaxi.com/subscribe/token-plan（查看Token Plan）
-5. 字节·方舟 — https://www.volcengine.com/activity/codingplan（方舟订阅方案）
-6. 阿里·百炼 — https://help.aliyun.com/zh/model-studio/coding-plan（百炼方案）或者：https://bailian.console.aliyun.com/cn-beijing/&tab=coding-plan#/efm/coding-plan-index
-7. 京东云 — https://3.cn/2-K9GY29（活动页）、https://developer.jdcloud.com/topics/4467（活动规则）、https://docs.jdcloud.com/cn/jdaip/PackageOverview（套餐概览）
-8. 移动云 — https://ecloud.10086.cn/portal/act/codingplan（活动页）、https://ecloud.10086.cn/op-help-center/doc/article/98320?marketLeoId=codingplan（帮助文档）
-9. 天翼云 — https://www.ctyun.cn/document/11061839/11092415（套餐文档）、https://www.ctyun.cn/t/mM7tOAFwpi8u2sjfeEJYgZ1CmN0kwnS7（套餐页）
-10. 联通云 — https://support.cucloud.cn/document/127/591/2357.html?id=2357&arcid=7015（Coding Plan 概述）
-11. 优云 — https://www.compshare.cn/coding-plan
-12. 腾讯·Coding — https://cloud.tencent.com/act/pro/codingplan（coding plan方案）
-13. 腾讯·Token — https://cloud.tencent.com/act/pro/tokenplan 以及腾讯云文档：https://cloud.tencent.com/document/product/1772/129449（token plan方案）
-14. 百度·千帆 — https://cloud.baidu.com/product/codingplan.html（千帆coding plan方案）
-15. 讯飞星辰 — https://maas.xfyun.cn/packageSubscription（点击订阅新套餐按钮后出现套餐价格弹窗）
-16. 小米·MiMo — https://platform.xiaomimimo.com/#/token-plan
-17. 无问芯穹 — https://cloud.infini-ai.com/platform/ai（查看订阅方案）
 
-## 工具选择策略
+> 以下 URL 分为两类：
+> - **订阅页**：用于检查当前价格、首月优惠等公开可见信息
+> - **用量说明文档**：用于精确提取 req5h / reqWeek / reqMonth 等额度数据（首次运行务必两类都查）
 
-**默认使用 web-access（连接外部 Edge 浏览器，天然携带已登录账号的 cookie）**。
+1. **智谱AI**
+   - 订阅页：https://www.bigmodel.cn/glm-coding
+   - 用量说明文档：**https://docs.bigmodel.cn/cn/coding-plan/overview**（套餐概览页含每5h/每周限额表格）
+2. **z.ai**
+   - 订阅页：https://z.ai/subscribe
+   - 用量说明文档：**https://docs.z.ai/devpack/faq**（FAQ 含每5h prompts数，weekly quota limit已确认存在但未公开具体数字）
+3. **Kimi** — https://www.kimi.com/code/zh（查看Kimi Code方案）
+4. **MiniMax** — https://platform.minimaxi.com/subscribe/token-plan（查看Token Plan）
+5. **字节·方舟**
+   - 订阅页：https://www.volcengine.com/activity/codingplan
+   - 接入文档：https://www.volcengine.com/docs/82379/2165245（含接入代码示例，**目前未发现周限额**）
+6. **阿里·百炼** — https://help.aliyun.com/zh/model-studio/coding-plan（百炼 Coding Plan 方案，含每周45000次）
+7. **京东云**
+   - 订阅页：https://3.cn/2-K9GY29（活动页）
+   - 用量说明文档：**https://docs.jdcloud.com/cn/jdaip/PackageOverview**（套餐概览，含每5h/每周/每月限额）
+8. **移动云** — https://ecloud.10086.cn/portal/act/codingplan（订阅页，**含每周限额**，帮助页 https://ecloud.10086.cn/op-help-center/doc/article/98320）
+9. **天翼云**
+   - 用量说明文档：**https://www.ctyun.cn/t/mM7tOAFwpi8u2sjfeEJYgZ1CmN0kwnS7**（含每5h prompts数及每周prompts数，×15换算为请求数）
+   - 订阅页：https://www.ctyun.cn/document/11061839/11092415
+10. **联通云**
+    - 用量说明文档：**https://support.cucloud.cn/document/127/591/2357.html?id=2357&arcid=7015**（Coding Plan 概述，含每5h/每周/每月限额）
+11. **优云** — https://www.compshare.cn/coding-plan（积分制，无请求数概念）
+12. **腾讯·Coding** — https://cloud.tencent.com/act/pro/codingplan（coding plan方案，含每周限额）
+13. **腾讯·Token** — https://cloud.tencent.com/document/product/1772/129449（token plan方案，无请求数概念）
+14. **百度·千帆** — https://cloud.baidu.com/product/codingplan.html（千帆coding plan方案，含每周限额）
+15. **讯飞星辰**
+    - 焕新版（含每周限额）：https://www.xfyun.cn/doc/spark/CodingPlan.html
+    - 旧版（按日Tokens流控）：https://maas.xfyun.cn/packageSubscription
+16. **小米·MiMo** — https://platform.xiaomimimo.com/#/token-plan（Credit制，无请求数概念）
+17. **无问芯穹（Infini AI）**
+    - 订阅页：https://cloud.infini-ai.com/platform/ai
+    - 用量说明文档：**https://docs.infini-ai.com/gen-studio-coding-plan/**（编码套餐官方文档，含每5h/每周/每月完整限额表）
 
-调用方式：使用 Skill 工具，skill 参数为 "web-access"，args 参数为需要访问的URL或描述。
+## 工具选择策略（优先级递减）
 
-例如：Skill(skill: "web-access", args: "访问 https://www.bigmodel.cn/glm-coding 并提取订阅方案定价信息")
+### 第一优先：web-access skill（推荐）
 
-web-access 通过 CDP 连接用户日常 Edge 浏览器，无需额外登录，直接复用已有登录态。
+**默认优先使用 web-access skill**，通过 CDP 连接用户已登录的 Edge 浏览器，复用现有登录态和 Cookie。
 
-遇到以下情况时切换到 ai-browser 作为备用：
-- web-access 连接失败（CDP Proxy 未启动或 Edge 未开启远程调试）
-- 页面在 web-access 中无法正常渲染
-- web-access 反复出错（连续 3 个平台失败后统一切换到 ai-browser）
+调用方式：
+```
+Skill(skill: "web-access", args: "访问 [URL] 并提取订阅方案定价信息，需要上下滑动页面查看完整内容")
+```
 
-**切换策略**：一旦切换到 ai-browser，本次运行剩余平台继续使用 ai-browser，不必每个平台都先尝试 web-access。
+**关键操作要求**：
+- **必须上下滑动页面**查看完整信息，很多数据（如周限额）位于页面下方
+- **不要直接跳转其他页面**，在当前页面内滚动查找所有需要的数据
+- 如需滚动，使用 `actions.scroll()` 多次滑动直至页面底部
+
+### 第二优先：browser-cdp skill（web-access 失败时）
+
+如果 web-access 连接失败，**使用 browser-cdp skill 直接连接 Edge**：
+
+**步骤：**
+1. 检查 Edge 是否已开启远程调试：
+   ```bash
+   lsof -i :9334
+   ```
+2. 如果未开启，**重启 Edge**（保持用户登录态）：
+   ```bash
+   pkill "Microsoft Edge"
+   sleep 2
+   "/Applications/Microsoft Edge.app/Contents/MacOS/Microsoft Edge" --remote-debugging-port=9334 --remote-allow-origins='*' &
+   ```
+3. 使用 browser-cdp 连接：
+   ```python
+   from browser_launcher import BrowserLauncher
+   from cdp_client import CDPClient
+   from page_snapshot import PageSnapshot
+   from browser_actions import BrowserActions
+   
+   launcher = BrowserLauncher()
+   cdp_url = launcher.launch(browser='edge', reuse_profile=True)
+   client = CDPClient(cdp_url)
+   client.connect()
+   actions = BrowserActions(client, None)
+   snapshot = PageSnapshot(client)
+   
+   # 打开页面
+   tab = client.create_tab('https://...')
+   client.attach(tab['id'])
+   time.sleep(3)
+   
+   # 上下滑动查看完整内容
+   for i in range(5):
+       actions.scroll(-5, 960, 600)
+       time.sleep(0.5)
+   
+   # 提取内容
+   tree = snapshot.accessibility_tree(max_chars=50000)
+   ```
+
+**browser-cdp skill 路径**：~/Library/Application Support/QClaw/openclaw/config/skills/browser-cdp/scripts/
+
+### 第三优先：opencli skill（CDP 均失败时）
+
+如果 web-access 和 browser-cdp 都失败，**降级使用 opencli skill**：
+
+```
+Skill(skill: "opencli", args: "使用已登录的 Edge 访问 [URL] 并提取数据")
+```
+
+opencli 通过用户的 Chrome/Edge 登录态访问网站，适用于部分支持的平台。
+
+### 最后备用：ai-browser（Halo 内置浏览器）
+
+仅当以上所有方案都失败时使用 ai-browser。
+
+**切换策略**：
+- 单个平台失败 → 尝试下一优先级的工具
+- 连续 3 个平台失败后 → 统一降级到下一优先级工具
+- 一旦降级，剩余平台继续使用当前级别工具
+
+### 禁止使用的工具
+
+**尽量不要使用以下静态查询工具**（除非明确无法通过浏览器获取）：
+- web_fetch（无法执行 JavaScript，无法获取动态加载内容）
+- 其他非浏览器类 HTTP 请求工具
 
 ## 数据验证规则（严格执行）
 
@@ -184,6 +273,42 @@ scp -i /Users/mirage/AI/AiWork/cursor2api/cursor2api_deploy -P 2025 -o StrictHos
 13. **只检查 Coding 相关的 17 家平台**，不要触碰 video-data.js、image-data.js、audio-data.js
 14. **发布前必须用户确认**：git push 和 scp 部署均需用户明确同意后才能执行，不得自动发布
 
+## 查询链接管理（重要·每次执行必须遵守）
+
+**目标**：对已确认能查到数据的平台页面 URL，保存到 scripts/platform-links.json，下次执行时直接使用，不必重新搜索/定位。
+
+**操作规范**：
+
+1. **发现有效 URL 后立即保存**  
+   当你成功从某个 URL 提取到平台数据后，检查 scripts/platform-links.json（编码格式：UTF-8，JSON）：
+   - 若该平台已有记录但 URL 不同，用新 URL 覆盖（覆盖原则：新URL内容更完整或更稳定时覆盖）
+   - 若该平台无记录，添加新 entry，包含字段：
+     ```json
+     "平台名": {
+       "link": "完整URL（尽量用稳定的数据页，不要用临时搜索结果）",
+       "method": "snapshot | formula | 其他",
+       "note": "该URL能查到什么数据"
+     }
+     ```
+
+2. **下次执行优先使用已保存的 URL**  
+   读取 scripts/platform-links.json，按 JSON 中记录的 URL 逐个访问。
+   - 链接仍有效 → 直接提取数据
+   - 链接已失效（404/跳转/内容不符）→ 尝试找新的有效 URL，找到后覆盖旧记录
+
+3. **method 字段说明**  
+   - `snapshot`：需抓取页面快照提取数字
+   - `formula`：数字可由公式推导（如 reqWeek = req5h × 10），URL 只用来验证公式
+   - `direct`：链接直接展示完整数据，无需二次提取
+
+4. **只保存有实际数据的 URL**  
+   如果某个 URL 需要登录才能访问，或页面内容为空，不保存。
+
+5. **定期维护**  
+   每年至少一次遍历 platform-links.json 中的所有链接，剔除失效链接。
+
+---
+
 ## 输出报告
 
 每次执行结束后，无论是否有变更，都输出一份简要报告：
@@ -198,7 +323,7 @@ scp -i /Users/mirage/AI/AiWork/cursor2api/cursor2api_deploy -P 2025 -o StrictHos
 - 平台名：原因
 
 ### 统计
-- 检查平台数 / 总平台数（12）
+- 检查平台数 / 总平台数（17）
 - 使用 web-access 成功数 / ai-browser 成功数
 - 是否已提交到 GitHub
 - 是否已部署到线上

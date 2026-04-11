@@ -1,0 +1,29 @@
+{
+  "timestamp": "2026-04-11T13:39:44.390087",
+  "dryRun": true,
+  "checks": [
+    {
+      "platform": "MiniMax",
+      "link": "https://platform.minimaxi.com/user-center/payment/token-plan",
+      "realUsage": {
+        "5/6": {
+          "used": 5,
+          "total": 6,
+          "context": "InlineTextBox \"截止日期：05/06/2026\"       image       parag"
+        }
+      },
+      "formulaCalc": [
+        {
+          "req5h": 600,
+          "reqWeek": 6000
+        },
+        {
+          "req5h": 600,
+          "reqWeek": 6000
+        }
+      ]
+    }
+  ],
+  "changes": [],
+  "errors": []
+}
