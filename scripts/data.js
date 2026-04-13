@@ -145,19 +145,20 @@ const PLANS = [
 
   // 讯飞星辰 - MaaS平台 Astron Coding Plan，焕新版(4.9上线)3档套餐，按请求次数流控
   // 官方文档：https://www.xfyun.cn/doc/spark/CodingPlan.html
-  // 2026.04.13核实：文档v2.1，焕新版名称为无忧版/专业版/高效版（旧版称入门版/专业版/高效版）
-  // 文档对焕新版支持模型不再给固定清单，改为“套餐订阅页面展示为准”
-  // 无忧版：请求次数不限；专业版：req5h=1200/reqWeek=9000/reqMonth=18000；高效版：req5h=6000/reqWeek=45000/reqMonth=90000
+  // 2026.04.13核实：文档v2.1 + 已登录Edge订阅页“订阅新套餐”弹窗
+  // 无忧版支持 Qwen3.5-35B-A3B / Qwen3-Coder-Next-FP8 / GLM-4.7-Flash
+  // 专业版支持 Spark X2 / GLM-5 / MiniMax-M2.5 / Kimi-K2.5 / DeepSeek-V3.2 / GLM-4.7-Flash / Qwen3.5-35B-A3B / Qwen3-Coder-Next-FP8 / Qwen3.5-397B-A17B
+  // 高效版比专业版额外开放 GLM-5.1；无忧版请求次数不限；专业版 req5h=1200/reqWeek=9000/reqMonth=18000；高效版 req5h=6000/reqWeek=45000/reqMonth=90000
   // 焕新版5h/周/月流控均按支付时间滑动统计；5h每整点刷新，周流控次日08:00:00(UTC+8)重置
   { platform:'讯飞星辰', name:'无忧版', monthly:19, quarterly:null, yearly:null, firstMonth:3.9,
-    models:['订阅页展示为准'], req5h:null, reqMonth:null, reqWeek:null,
-    benefits:['请求次数不限'], note:'焕新版(4.9)无忧版·首购¥3.9·重复购买¥19·支持模型以订阅页展示为准', link:'https://maas.xfyun.cn/packageSubscription?inviteCode=MAAS-7573AB85' },
+    models:['Qwen3.5-35B-A3B','Qwen3-Coder-Next-FP8','GLM-4.7-Flash'], req5h:null, reqMonth:null, reqWeek:null,
+    benefits:[], note:'焕新版(4.9)无忧版·首购¥3.9·重复购买¥19·请求次数不限', link:'https://maas.xfyun.cn/packageSubscription?inviteCode=MAAS-7573AB85' },
   { platform:'讯飞星辰', name:'专业版', monthly:39, quarterly:null, yearly:null, firstMonth:null,
-    models:['订阅页展示为准'], req5h:1200, reqMonth:18000, reqWeek:9000,
-    benefits:['每5h最多1200次请求','每周最多9000次请求','每月最多18000次请求'], note:'焕新版(4.9)专业版·¥39/月·支持模型以订阅页展示为准·按支付时间滑动统计·次日08:00刷新', link:'https://maas.xfyun.cn/packageSubscription?inviteCode=MAAS-7573AB85' },
+    models:['Spark X2','GLM-5','MiniMax-M2.5','Kimi-K2.5','DeepSeek-V3.2','GLM-4.7-Flash','Qwen3.5-35B-A3B','Qwen3-Coder-Next-FP8','Qwen3.5-397B-A17B'], req5h:1200, reqMonth:18000, reqWeek:9000,
+    benefits:[], note:'焕新版(4.9)专业版·¥39/月·9模型可切换·按支付时间滑动统计·次日08:00刷新', link:'https://maas.xfyun.cn/packageSubscription?inviteCode=MAAS-7573AB85' },
   { platform:'讯飞星辰', name:'高效版', monthly:199, quarterly:null, yearly:null, firstMonth:null,
-    models:['订阅页展示为准'], req5h:6000, reqMonth:90000, reqWeek:45000,
-    benefits:['每5h最多6000次请求','每周最多45000次请求','每月最多90000次请求'], note:'焕新版(4.9)高效版·¥199/月·支持模型以订阅页展示为准·按支付时间滑动统计·次日08:00刷新', link:'https://maas.xfyun.cn/packageSubscription?inviteCode=MAAS-7573AB85' },
+    models:['Spark X2','GLM-5','GLM-5.1','MiniMax-M2.5','Kimi-K2.5','DeepSeek-V3.2','GLM-4.7-Flash','Qwen3.5-35B-A3B','Qwen3-Coder-Next-FP8','Qwen3.5-397B-A17B'], req5h:6000, reqMonth:90000, reqWeek:45000,
+    benefits:[], note:'焕新版(4.9)高效版·¥199/月·10模型可切换·按支付时间滑动统计·次日08:00刷新', link:'https://maas.xfyun.cn/packageSubscription?inviteCode=MAAS-7573AB85' },
 
   // 小米·MiMo - 4月3日上线 Token Plan，统一 Credit 体系，首购88折（仅限一次）
   // Credit 倍率：MiMo-V2-Omni 256k→1x, MiMo-V2-Pro 256k→2x, MiMo-V2-Pro 256k~1M→4x, MiMo-V2-TTS→0x（限时免费）
