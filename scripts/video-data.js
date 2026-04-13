@@ -10,15 +10,15 @@ const VIDEO_PLANS = [
   { platform:'pai.video', name:'尊享版', monthly:459, yearly:4398, credits:'15000积分/月', videoLen:'4-8秒', resolution:'1080P',
     features:['文生视频','图生视频','音生视频','无水印','无限模板','批量生成(4张)','错峰省50%积分'], note:'月付¥367(年付¥4398)·8并发·积分包额外赠送50%', link:'https://share.pai.video/referral/U0NMCK13' },
 
-  // 即梦 (Jimeng) — 字节跳动旗下
+  // 即梦 (Jimeng) — 字节跳动旗下 — 更新于 2026.04.12
   { platform:'即梦', name:'免费版', monthly:0, yearly:null, credits:'60~100积分/日', videoLen:'5秒', resolution:'标清',
     features:['Seedance 全系列','文生视频','图生视频'], note:'每日免费领取积分·当月有效不累积·带水印·分辨率受限', link:'https://jimeng.jianying.com' },
-  { platform:'即梦', name:'基础会员', monthly:79, yearly:393, credits:'725积分/月', videoLen:'5-15秒', resolution:'1080P',
-    features:['Seedance 2.0','文生视频','图生视频','音生视频','闲置5折','去水印'], note:'单月¥79·连续包月¥69·年付首年¥393(6折)次年¥659·725积分/月', link:'https://jimeng.jianying.com' },
-  { platform:'即梦', name:'标准会员', monthly:239, yearly:1099, credits:'2210积分/月', videoLen:'5-15秒', resolution:'1080P',
-    features:['Seedance 2.0','文生视频','图生视频','音生视频','闲置7折','补帧60FPS'], note:'单月¥239·连续包月¥199·年付首年¥1099(6折)次年¥1899·2210积分/月', link:'https://jimeng.jianying.com' },
-  { platform:'即梦', name:'高级会员', monthly:649, yearly:3099, credits:'6160积分/月', videoLen:'5-15秒', resolution:'1080P',
-    features:['Seedance 2.0','文生视频','图生视频','音生视频','闲置9折','补帧60FPS','5并发'], note:'单月¥649·连续包月¥499·年付首年¥3099(6折)次年¥5199·6160积分/月·Seedance 2.0最佳折扣', link:'https://jimeng.jianying.com' },
+  { platform:'即梦', name:'基础会员', monthly:69, yearly:393, credits:'725积分/月', videoLen:'5-15秒', resolution:'1080P',
+    features:['Seedance 2.0','文生视频','图生视频','音生视频','闲置5折','去水印'], note:'连续包月¥69·年付首年¥393(6折)次年¥659·725积分/月', link:'https://jimeng.jianying.com' },
+  { platform:'即梦', name:'标准会员', monthly:199, yearly:1099, credits:'2210积分/月', videoLen:'5-15秒', resolution:'1080P',
+    features:['Seedance 2.0','文生视频','图生视频','音生视频','闲置7折','补帧60FPS'], note:'连续包月¥199·年付首年¥1099(6折)次年¥1899·2210积分/月', link:'https://jimeng.jianying.com' },
+  { platform:'即梦', name:'高级会员', monthly:499, yearly:3099, credits:'6160积分/月', videoLen:'5-15秒', resolution:'1080P',
+    features:['Seedance 2.0','文生视频','图生视频','音生视频','闲置9折','补帧60FPS','5并发'], note:'连续包月¥499·年付首年¥3099(6折)次年¥5199·6160积分/月·Seedance 2.0最佳折扣', link:'https://jimeng.jianying.com' },
 
   // 通义万相 — 阿里巴巴（万相2.6）
   { platform:'通义万相', name:'免费', monthly:0, yearly:null, credits:'每日免费额度', videoLen:'未注明', resolution:'未注明',
@@ -40,17 +40,17 @@ const VIDEO_PLANS = [
   { platform:'快手可灵', name:'黑金会员', monthly:1314, yearly:11079, credits:'26000灵感值/月', videoLen:'3-15秒', resolution:'1080P',
     features:['高清画质','15秒长视频','去水印','可商用','最高优先级','限量内测功能','图片3.0一年免费'], note:'原价¥1314/月·连续包月¥1149/月·首月¥916·年付¥11079·主体创建500个', link:'https://kling.kuaishou.com' },
 
-  // 海螺AI (HailuoAI) — MiniMax 旗下
+  // 海螺AI (HailuoAI) — MiniMax 旗下 — 更新于 2026.04.12
   { platform:'海螺AI', name:'基础会员', monthly:105, yearly:660, credits:'1000贝壳/月', videoLen:'6-10秒', resolution:'768P/1080P',
-    features:['Hailuo 2.3','文生视频','图生视频','无水印下载','Hailuo 1.0 6秒'], note:'原价¥105/月·连续包月¥55/月·年付¥660(约¥55/月)', link:'https://hailuoai.com/subscribe' },
+    features:['Hailuo 2.3','文生视频','图生视频','无水印下载','Hailuo 1.0 6秒'], note:'原价¥105/月·连续包月¥55/月(52折)·年付¥660(约¥55/月)', link:'https://hailuoai.com/subscribe' },
   { platform:'海螺AI', name:'标准会员', monthly:385, yearly:2352, credits:'4500贝壳/月', videoLen:'6-10秒', resolution:'768P/1080P',
-    features:['Hailuo 2.3 10秒','文生视频','图生视频','双任务并发','Seedream 5.0无限','Midjourney V7无限'], note:'原价¥385/月·连续包月¥196/月·年付¥2352(约¥196/月)', link:'https://hailuoai.com/subscribe' },
+    features:['Hailuo 2.3 10秒','文生视频','图生视频','双任务并发','Seedream 5.0无限','Midjourney V7无限'], note:'原价¥385/月·连续包月¥196/月(57折)·年付¥2352(约¥196/月)', link:'https://hailuoai.com/subscribe' },
   { platform:'海螺AI', name:'大师会员', monthly:799, yearly:5556, credits:'10500贝壳/月', videoLen:'6-10秒', resolution:'768P/1080P',
-    features:['Hailuo 2.0/2.3 限时无限','文生视频','图生视频','双任务并发','Seedream 5.0 2K无限','Midjourney V7无限'], note:'原价¥799/月·连续包月¥463/月·年付¥5556(约¥463/月)', link:'https://hailuoai.com/subscribe' },
+    features:['Hailuo 2.0/2.3 限时无限','文生视频','图生视频','双任务并发','Seedream 5.0 2K无限','Midjourney V7无限'], note:'原价¥799/月·连续包月¥463/月(58折)·年付¥5556(约¥463/月)', link:'https://hailuoai.com/subscribe' },
   { platform:'海螺AI', name:'至臻会员', monthly:899, yearly:10788, credits:'12000贝壳/月', videoLen:'6-10秒', resolution:'768P/1080P',
     features:['Hailuo 2.0/2.3 限时无限','Hailuo 1.0 无限','双任务并发','Seedream 5.0 3K无限','全能图片Pro 4K'], note:'原价¥899/月·年付¥10788(约¥899/月)', link:'https://hailuoai.com/subscribe' },
   { platform:'海螺AI', name:'尊享会员', monthly:1399, yearly:16788, credits:'20000贝壳/月', videoLen:'6-10秒', resolution:'768P/1080P',
-    features:['Hailuo 全系列无限','Agent 全部权益','双任务并发','Seedream 5.0 3K无限','全能图片Pro 4K','光影工作室无限'], note:'原价¥1399/月·年付¥16788(约¥1399/月)·全系列无限生成', link:'https://hailuoai.com/subscribe' },
+    features:['Hailuo 2.0/2.3 系列模型无限','Hailuo 1.0 系列模型无限','双任务并发','Seedream 5.0 3K无限','全能图片Pro 4K','光影工作室无限'], note:'原价¥1399/月·年付¥16788(约¥1399/月)·全系列无限生成', link:'https://hailuoai.com/subscribe' },
 
   // Vidu — 生数科技
   { platform:'Vidu', name:'免费版', monthly:0, yearly:null, credits:'登录赠送积分', videoLen:'6-8秒', resolution:'720P',
