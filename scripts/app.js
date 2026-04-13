@@ -1,4 +1,5 @@
 let sortCol = null, sortDir = 1;
+const MAX_MODEL_TAGS = 6;
 
 const PLATFORM_LATEST_MODELS = {
   '智谱AI': ['GLM-5.1'],
@@ -19,11 +20,15 @@ function getCommonModelPriority(model) {
   if (model === 'GLM-5') return [2, 0];
   if (model === 'GLM-5-Turbo') return [3, 0];
   if (model === 'Kimi-K2.5') return [4, 0];
-  if (['Qwen3.6-Plus', 'Qwen3.6plus', 'Qwen3.5-Plus'].includes(model)) return [5, 0];
-  if (model === 'MiniMax-M2.7') return [6, 0];
+  if (model === 'DeepSeek-V3.2') return [5, 0];
+  if (model === 'Qwen3-Coder-Next-FP8') return [6, 0];
+  if (['Qwen3.6-Plus', 'Qwen3.6plus', 'Qwen3.5-Plus'].includes(model)) return [7, 0];
+  if (model === 'MiniMax-M2.7') return [8, 0];
+  if (model === 'MiniMax-M2.5') return [9, 0];
   if (model.startsWith('Kimi-')) return [4, 1];
-  if (model.startsWith('Qwen')) return [5, 1];
-  if (model.startsWith('MiniMax-')) return [6, 1];
+  if (model.startsWith('DeepSeek')) return [5, 1];
+  if (model.startsWith('Qwen')) return [7, 1];
+  if (model.startsWith('MiniMax-')) return [9, 1];
   return [99, 0];
 }
 
@@ -46,6 +51,15 @@ function sortModelsForDisplay(platform, models) {
       return a.index - b.index;
     })
     .map(item => item.model);
+}
+
+function getCondensedModels(platform, models) {
+  const sorted = sortModelsForDisplay(platform, models);
+  return {
+    visible: sorted.slice(0, MAX_MODEL_TAGS),
+    hiddenCount: Math.max(0, sorted.length - MAX_MODEL_TAGS),
+    fullList: sorted
+  };
 }
 
 function renderRatings() {
@@ -158,8 +172,10 @@ function renderTable(plans) {
     const qAvg = p.quarterly ? Math.round(p.quarterly / 3) : null;
     const yAvg = p.yearly ? Math.round(p.yearly / 12) : null;
     const firstBadge = p.firstMonth ? `<span class="badge-first">首月${cur}${p.firstMonth}</span>` : '';
-    const models = sortModelsForDisplay(p.platform, p.models)
-      .map(m => `<span class="model-tag">${m}</span>`).join('');
+    const modelInfo = getCondensedModels(p.platform, p.models);
+    const models = modelInfo.visible
+      .map(m => `<span class="model-tag">${m}</span>`).join('')
+      + (modelInfo.hiddenCount ? `<span class="model-tag model-tag-more" title="${modelInfo.fullList.join(' / ')}">+${modelInfo.hiddenCount}</span>` : '');
     const benefits = p.benefits.length
       ? p.benefits.map(b => `<span class="benefit-tag">${b}</span>`).join('')
       : na();

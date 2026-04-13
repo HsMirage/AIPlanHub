@@ -154,10 +154,10 @@ const PLANS = [
     models:['Qwen3.5-35B-A3B','Qwen3-Coder-Next-FP8','GLM-4.7-Flash'], req5h:null, reqMonth:null, reqWeek:null,
     benefits:[], note:'焕新版(4.9)无忧版·首购¥3.9·重复购买¥19·请求次数不限·完整列表以订阅页为准', link:'https://maas.xfyun.cn/packageSubscription?inviteCode=MAAS-7573AB85' },
   { platform:'讯飞星辰', name:'专业版', monthly:39, quarterly:null, yearly:null, firstMonth:null,
-    models:['Spark X2','GLM-5','DeepSeek-V3.2','Kimi-K2.5','MiniMax-M2.5','Qwen3-Coder-Next-FP8'], req5h:1200, reqMonth:18000, reqWeek:9000,
+    models:['Spark X2','GLM-5','MiniMax-M2.5','Kimi-K2.5','DeepSeek-V3.2','GLM-4.7-Flash','Qwen3.5-35B-A3B','Qwen3-Coder-Next-FP8','Qwen3.5-397B-A17B'], req5h:1200, reqMonth:18000, reqWeek:9000,
     benefits:[], note:'焕新版(4.9)专业版·¥39/月·主力模型精简展示·完整列表以订阅页为准·次日08:00刷新', link:'https://maas.xfyun.cn/packageSubscription?inviteCode=MAAS-7573AB85' },
   { platform:'讯飞星辰', name:'高效版', monthly:199, quarterly:null, yearly:null, firstMonth:null,
-    models:['Spark X2','GLM-5.1','GLM-5','DeepSeek-V3.2','Kimi-K2.5','MiniMax-M2.5','Qwen3-Coder-Next-FP8'], req5h:6000, reqMonth:90000, reqWeek:45000,
+    models:['Spark X2','GLM-5','GLM-5.1','MiniMax-M2.5','Kimi-K2.5','DeepSeek-V3.2','GLM-4.7-Flash','Qwen3.5-35B-A3B','Qwen3-Coder-Next-FP8','Qwen3.5-397B-A17B'], req5h:6000, reqMonth:90000, reqWeek:45000,
     benefits:[], note:'焕新版(4.9)高效版·¥199/月·主力模型精简展示·完整列表以订阅页为准·次日08:00刷新', link:'https://maas.xfyun.cn/packageSubscription?inviteCode=MAAS-7573AB85' },
 
   // 小米·MiMo - 4月3日上线 Token Plan，统一 Credit 体系，首购88折（仅限一次）

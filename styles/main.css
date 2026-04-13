@@ -456,6 +456,10 @@ td.num {
   background: rgba(0, 229, 255, 0.1);
   border-color: rgba(0, 229, 255, 0.25);
 }
+.model-tag-more {
+  color: var(--text-muted);
+  border-style: dashed;
+}
 .benefit-tag {
   display: inline-block; font-size: 10px;
   font-family: 'Space Grotesk', sans-serif;
