@@ -1,7 +1,7 @@
 {
   "_meta": {
     "description": "各平台周限查询链接 Map。key=platform_name，link=每周限额度查询页，note=查询规则备注",
-    "updated": "2026-04-11"
+    "updated": "2026-04-13"
   },
   "z.ai": {
     "link": "https://docs.z.ai/devpack/faq",
@@ -21,7 +21,7 @@
   "讯飞星辰": {
     "link": "https://www.xfyun.cn/doc/spark/CodingPlan.html",
     "method": "snapshot",
-    "note": "焕新版(4.9)专业版/高效版周限，专业版9000/高效版45000；无忧版不限"
+    "note": "焕新版(4.9)专业版/高效版周限9000/45000；按支付时间滑动统计，次日08:00刷新；无忧版不限"
   },
   "字节·方舟": {
     "link": "https://www.volcengine.com/docs/82379/2165245",
