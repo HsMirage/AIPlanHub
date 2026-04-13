@@ -1,5 +1,5 @@
 let sortCol = null, sortDir = 1;
-const MAX_MODEL_TAGS = 6;
+const MAX_MODEL_TAGS = 5;
 
 const PLATFORM_LATEST_MODELS = {
   '智谱AI': ['GLM-5.1'],
