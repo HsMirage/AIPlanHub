@@ -31,15 +31,15 @@ const PLANS = [
     benefits:['首月$5','OpenCode 原生接入'], note:'Beta·5h预算$12·每周$30·每月$60·实际请求数随模型而变·可切换为超额使用 Zen 余额', link:'https://opencode.ai/auth' },
 
   // Kimi - 官网实测：连续包月原价/连续包年折扣价
-  // 2026.04.07更新：新增连续包年首月优惠价；官网不公开具体请求数额度
+  // 2026.04.14更新：Kimi Code 页面显示 K2.6-code-preview 已上线；全部 Kimi Code Plan 可使用
   { platform:'Kimi', name:'Andante', monthly:49, quarterly:null, yearly:468, firstMonth:39,
-    models:['Kimi-K2.5'], req5h:null, reqMonth:null, reqWeek:null, benefits:['专属编程额度','旗舰模型抢先体验'], note:'年付¥39/月·连续包年首月¥39·请求数未公开', link:'https://www.kimi.com/code/zh' },
+    models:['kimi-k2.6-code-preview','Kimi-K2.5'], req5h:null, reqMonth:null, reqWeek:null, benefits:['专属编程额度','旗舰模型抢先体验'], note:'年付¥39/月·连续包年首月¥39·K2.6-code-preview已上线·请求数未公开', link:'https://www.kimi.com/code/zh' },
   { platform:'Kimi', name:'Moderato', monthly:99, quarterly:null, yearly:948, firstMonth:79,
-    models:['Kimi-K2.5'], req5h:null, reqMonth:null, reqWeek:null, benefits:['每周更新额度','多设备共享'], note:'年付¥79/月·连续包年首月¥79·请求数未公开', link:'https://www.kimi.com/code/zh' },
+    models:['kimi-k2.6-code-preview','Kimi-K2.5'], req5h:null, reqMonth:null, reqWeek:null, benefits:['每周更新额度','多设备共享'], note:'年付¥79/月·连续包年首月¥79·K2.6-code-preview已上线·请求数未公开', link:'https://www.kimi.com/code/zh' },
   { platform:'Kimi', name:'Allegretto', monthly:199, quarterly:null, yearly:1908, firstMonth:159,
-    models:['Kimi-K2.5'], req5h:null, reqMonth:null, reqWeek:null, benefits:['充足每周额度','高并发上限'], note:'年付¥159/月·连续包年首月¥159·请求数未公开', link:'https://www.kimi.com/code/zh' },
+    models:['kimi-k2.6-code-preview','Kimi-K2.5'], req5h:null, reqMonth:null, reqWeek:null, benefits:['充足每周额度','高并发上限'], note:'年付¥159/月·连续包年首月¥159·K2.6-code-preview已上线·请求数未公开', link:'https://www.kimi.com/code/zh' },
   { platform:'Kimi', name:'Allegro', monthly:699, quarterly:null, yearly:6708, firstMonth:559,
-    models:['Kimi-K2.5'], req5h:null, reqMonth:null, reqWeek:null, benefits:['澎湃额度','高强度开发'], note:'年付¥559/月·连续包年首月¥559·请求数未公开', link:'https://www.kimi.com/code/zh' },
+    models:['kimi-k2.6-code-preview','Kimi-K2.5'], req5h:null, reqMonth:null, reqWeek:null, benefits:['澎湃额度','高强度开发'], note:'年付¥559/月·连续包年首月¥559·K2.6-code-preview已上线·请求数未公开', link:'https://www.kimi.com/code/zh' },
 
   // MiniMax - 3月23日已升级为 Token Plan（全模态统一订阅），不同套餐开放不同的语音/视频/音乐/图像额度
   // 2026.04.11核对：官方FAQ与Token Plan概述页已明确新增 TTS HD / Hailuo-2.3(-Fast) / Music-2.6 / image-01
@@ -238,7 +238,7 @@ const RATINGS = [
   },
   {
     name: 'Kimi', score: 3,
-    reasons: ['独家 Kimi-K2.5 / Kimi-K2', '请求数未公开', '年付折扣可观']
+    reasons: ['K2.6-code-preview 已上线', '独家 Kimi-K2.5 / Kimi-K2', '请求数未公开', '年付折扣可观']
   },
   {
     name: 'MiniMax', score: 5,
