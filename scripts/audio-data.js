@@ -20,11 +20,18 @@ const AUDIO_PLANS = [
   { platform:'天工AI', name:'免费版', monthly:0, yearly:null, credits:'每日免费额度', audioLen:'3分钟',
     features:['SkyMusic 模型','文生音乐','中文优化','歌词生成'], note:'天工SkyMusic 目前完全免费开放使用，暂无付费套餐·官网：music.tiangong.cn', link:'https://music.tiangong.cn' },
 
-  // MiniMax 海螺AI — 音乐模型 API
-  { platform:'海螺AI', name:'Music-2.0', monthly:null, yearly:null, credits:'¥0.25/首', audioLen:'不限',
-    features:['API 接入','文生音乐','多变音色','丰富乐器'], note:'MiniMax开放平台按量计费：Music-2.0 ¥0.25/首；歌词生成 ¥0.05/首', link:'https://www.minimaxi.com/audio' },
-  { platform:'海螺AI', name:'Music-2.5+', monthly:null, yearly:null, credits:'¥1.0/首', audioLen:'不限',
-    features:['API 接入','最新模型','纯音乐解锁','突破风格边界'], note:'MiniMax开放平台按量计费：Music-2.5+ ¥1.0/首（最新）；Music-2.5 ¥1.0/首', link:'https://www.minimaxi.com/audio' },
+  // 海螺AI（MiniMax Audio）— 2026.04.14 核对订阅页；支持月度/年度切换和横向套餐卡片
+  // 当前订阅页展示 5 档：免费 / 标准版 / 创作版 / 专业版 / 大师版；年度价格分别折合 ¥32 / 98 / 188 / 588 每月
+  { platform:'海螺AI', name:'免费', monthly:0, yearly:null, credits:'0声贝', audioLen:'0分钟（限时免费活动）',
+    features:['Music 2.6','Speech 2.8','300+高质音色','3个专属音色卡槽'], note:'订阅页免费档·当前显示“Music 2.6 开启14天免费生成”·限时免费期间新创歌曲可商用', link:'https://www.minimaxi.com/audio/subscribe' },
+  { platform:'海螺AI', name:'标准版', monthly:36, yearly:384, credits:'10万声贝（≈330首歌曲）', audioLen:'≈120分钟高清音频',
+    features:['Music 2.6','Speech 2.8','10个专属音色卡槽','新创歌曲可商用'], note:'月度 ¥36/月；年度 ¥384/年（折合¥32/月，优惠11%）', link:'https://www.minimaxi.com/audio/subscribe' },
+  { platform:'海螺AI', name:'创作版', monthly:108, yearly:1176, credits:'33万声贝（≈1100首歌曲）', audioLen:'≈400分钟高清音频',
+    features:['Music 2.6','Speech 2.8','30个专属音色卡槽','新创歌曲可商用'], note:'月度 ¥108/月（标价¥128，优惠16%）；年度 ¥1176/年（折合¥98/月，优惠23%）', link:'https://www.minimaxi.com/audio/subscribe' },
+  { platform:'海螺AI', name:'专业版', monthly:208, yearly:2256, credits:'75万声贝（≈2500首歌曲）', audioLen:'≈900分钟高清音频',
+    features:['Music 2.6','Speech 2.8','50个专属音色卡槽','新创歌曲可商用'], note:'月度 ¥208/月（标价¥268，优惠22%）；年度 ¥2256/年（折合¥188/月，优惠30%）', link:'https://www.minimaxi.com/audio/subscribe' },
+  { platform:'海螺AI', name:'大师版', monthly:688, yearly:7056, credits:'300万声贝（≈1万首歌曲）', audioLen:'≈3600分钟高清音频',
+    features:['Music 2.6','Speech 2.8','200个专属音色卡槽','新创歌曲可商用'], note:'月度 ¥688/月（标价¥1088，优惠37%）；年度 ¥7056/年（折合¥588/月，优惠46%）', link:'https://www.minimaxi.com/audio/subscribe' },
 
   // Ace Studio — AI 歌声合成
   { platform:'Ace Studio', name:'Artist', monthly:null, yearly:1741, credits:'Generative Kits ~330分钟/月', audioLen:'不限',
@@ -53,6 +60,6 @@ const AUDIO_RATINGS = [
   },
   {
     name: '海螺AI', score: 3,
-    reasons: ['API 灵活接入', 'MiniMax 技术加持', '开发者友好']
+    reasons: ['已上线免费+4档订阅会员', 'Music 2.6 / Speech 2.8 纳入会员权益', '年度折扣明显，大师版最高省46%']
   },
 ];
