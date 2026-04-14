@@ -24,6 +24,12 @@ const PLANS = [
   { platform:'z.ai', name:'Max', monthly:160, quarterly:480, yearly:1536, firstMonth:null,
     models:['GLM-5.1','GLM-5','GLM-5-Turbo','GLM-4.7','GLM-4.6','GLM-4.5-Air'], req5h:24000, reqMonth:null, reqWeek:null, benefits:['4× Pro 用量','高峰期保证性能','抢先体验新模型'], note:'⚠️月付涨至$160(原$80)·季付$480(首季$388.8)·年付$1536(首年$1382.4享-10%)·Friend Gift享10%·支持月付/季付/年付·req5h=1600prompts×15≈24000请求', link:'https://z.ai/subscribe?ic=V6PINPKB9I' },
 
+  // OpenCode Go - 2026.04.14 核对中文文档页；当前为单档订阅，限额按美元预算而非固定请求数
+  // 官方说明：首月 $5，次月起 $10；5h / 周 / 月预算分别为 $12 / $30 / $60，实际请求数随模型成本变化
+  { platform:'OpenCode Go', name:'Go', currency:'$', monthly:10, quarterly:null, yearly:null, firstMonth:5,
+    models:['GLM-5.1','GLM-5','Kimi-K2.5','MiMo-V2-Pro','MiMo-V2-Omni','MiniMax-M2.7','MiniMax-M2.5'], req5h:null, reqMonth:null, reqWeek:null,
+    benefits:['首月$5','OpenCode 原生接入'], note:'Beta·5h预算$12·每周$30·每月$60·实际请求数随模型而变·可切换为超额使用 Zen 余额', link:'https://opencode.ai/auth' },
+
   // Kimi - 官网实测：连续包月原价/连续包年折扣价
   // 2026.04.07更新：新增连续包年首月优惠价；官网不公开具体请求数额度
   { platform:'Kimi', name:'Andante', monthly:49, quarterly:null, yearly:468, firstMonth:39,
@@ -160,6 +166,38 @@ const PLANS = [
     models:['Spark X2','GLM-5','GLM-5.1','MiniMax-M2.5','Kimi-K2.5','DeepSeek-V3.2','GLM-4.7-Flash','Qwen3.5-35B-A3B','Qwen3-Coder-Next-FP8','Qwen3.5-397B-A17B'], req5h:6000, reqMonth:90000, reqWeek:45000,
     benefits:[], note:'焕新版(4.9)高效版·¥199/月·主力模型精简展示·完整列表以订阅页为准·次日08:00刷新', link:'https://maas.xfyun.cn/packageSubscription?inviteCode=MAAS-7573AB85' },
 
+  // 阶跃星辰 - Step Plan 概览页于 2026.04.14 核对；当前 4 档套餐均为月付，使用 Prompt 作为计量单位
+  // 文档明确 1 Prompt≈15~20 次模型调用；这里按 1 Prompt≈15 次模型调用折算 req5h / reqWeek，月总额度未公开
+  // 当前支持 Step 3.5 Flash / Flash 2603；MCP 暂未上线；官方专用 Base URL 为 https://api.stepfun.com/step_plan/v1
+  { platform:'阶跃星辰', name:'Flash Mini', monthly:49, quarterly:null, yearly:null, firstMonth:null,
+    models:['Step 3.5 Flash 2603','Step 3.5 Flash'], req5h:1500, reqMonth:null, reqWeek:6000,
+    benefits:['Step 3.5 Flash 系列','支持主流 Agent 工具'], note:'入门版·100 Prompt / 5h≈1500次模型调用·周限400 Prompt≈6000次·支持微信/Stripe', link:'https://platform.stepfun.com/docs/zh/step-plan/overview' },
+  { platform:'阶跃星辰', name:'Flash Plus', monthly:99, quarterly:null, yearly:null, firstMonth:null,
+    models:['Step 3.5 Flash 2603','Step 3.5 Flash'], req5h:6000, reqMonth:null, reqWeek:24000,
+    benefits:['Step 3.5 Flash 系列','支持主流 Agent 工具'], note:'进阶版·400 Prompt / 5h≈6000次模型调用·周限1600 Prompt≈24000次·MCP 暂未支持', link:'https://platform.stepfun.com/docs/zh/step-plan/overview' },
+  { platform:'阶跃星辰', name:'Flash Pro', monthly:199, quarterly:null, yearly:null, firstMonth:null,
+    models:['Step 3.5 Flash 2603','Step 3.5 Flash'], req5h:22500, reqMonth:null, reqWeek:90000,
+    benefits:['Step 3.5 Flash 系列','支持主流 Agent 工具'], note:'专业版·1500 Prompt / 5h≈22500次模型调用·周限6000 Prompt≈90000次·适合复杂任务', link:'https://platform.stepfun.com/docs/zh/step-plan/overview' },
+  { platform:'阶跃星辰', name:'Flash Max', monthly:699, quarterly:null, yearly:null, firstMonth:null,
+    models:['Step 3.5 Flash 2603','Step 3.5 Flash'], req5h:75000, reqMonth:null, reqWeek:300000,
+    benefits:['Step 3.5 Flash 系列','支持主流 Agent 工具'], note:'旗舰版·5000 Prompt / 5h≈75000次模型调用·周限2万 Prompt≈30万次·适合团队协作', link:'https://platform.stepfun.com/docs/zh/step-plan/overview' },
+
+  // 快手 StreamLake - 2026.04.14 通过官网页 + 配置接口 + 商品接口核对；4 档月度计划已上线
+  // 官方 FAQ 说明 1 Prompt≈15~20 次模型调用；这里按 1 Prompt≈15 次模型调用折算 req5h，周/月总额度暂未公开
+  // 当前订阅与按量用户规格均为 60 RPM / 200万 TPM；订阅仅限 OpenClaw / Claude Code / OpenCode 等合规编程工具
+  { platform:'快手 StreamLake', name:'Mini', monthly:29, quarterly:null, yearly:null, firstMonth:null,
+    models:['KAT-Coder-Pro V2','KAT-Coder-Pro V1'], req5h:600, reqMonth:null, reqWeek:null,
+    benefits:['KAT-Coder-Pro V2','支持 OpenClaw/Claude/OpenCode'], note:'40 Prompt / 5h≈600次模型调用·固定窗口计费·当前 60 RPM / 200万 TPM·禁止 API 二次集成', link:'https://www.streamlake.com/marketing/coding-plan' },
+  { platform:'快手 StreamLake', name:'Starter', monthly:70, quarterly:null, yearly:null, firstMonth:null,
+    models:['KAT-Coder-Pro V2','KAT-Coder-Pro V1'], req5h:1500, reqMonth:null, reqWeek:null,
+    benefits:['KAT-Coder-Pro V2','支持 OpenClaw/Claude/OpenCode'], note:'100 Prompt / 5h≈1500次模型调用·适配日常核心开发场景·禁止 API 二次集成', link:'https://www.streamlake.com/marketing/coding-plan' },
+  { platform:'快手 StreamLake', name:'Pro', monthly:140, quarterly:null, yearly:null, firstMonth:null,
+    models:['KAT-Coder-Pro V2','KAT-Coder-Pro V1'], req5h:4500, reqMonth:null, reqWeek:null,
+    benefits:['KAT-Coder-Pro V2','支持 OpenClaw/Claude/OpenCode'], note:'300 Prompt / 5h≈4500次模型调用·Starter 3倍用量·禁止 API 二次集成', link:'https://www.streamlake.com/marketing/coding-plan' },
+  { platform:'快手 StreamLake', name:'Max', monthly:350, quarterly:null, yearly:null, firstMonth:null,
+    models:['KAT-Coder-Pro V2','KAT-Coder-Pro V1'], req5h:15000, reqMonth:null, reqWeek:null,
+    benefits:['KAT-Coder-Pro V2','支持 OpenClaw/Claude/OpenCode'], note:'1000 Prompt / 5h≈15000次模型调用·适合高强度开发·禁止 API 二次集成', link:'https://www.streamlake.com/marketing/coding-plan' },
+
   // 小米·MiMo - 4月3日上线 Token Plan，统一 Credit 体系，首购88折（仅限一次）
   // Credit 倍率：MiMo-V2-Omni 256k→1x, MiMo-V2-Pro 256k→2x, MiMo-V2-Pro 256k~1M→4x, MiMo-V2-TTS→0x（限时免费）
   // 2026.04.10核对：Token Plan无请求数概念，reqWeek=null
@@ -193,6 +231,10 @@ const RATINGS = [
   {
     name: 'z.ai', score: 2,
     reasons: ['支持GLM-5.1', '⚠️ 2026.04.11价格暴涨：月付涨至$18/$72/$160(涨幅80%)，年付涨至$172/$691/$1536(涨幅130%)', '相比国内同行无性价比·美元计费月付已是国内月付的3~5倍']
+  },
+  {
+    name: 'OpenCode Go', score: 3,
+    reasons: ['首月$5·次月$10', 'GLM/Kimi/MiMo/MiniMax 多模型接入', '额度按美元预算计费·当前仍为 Beta']
   },
   {
     name: 'Kimi', score: 3,
@@ -244,7 +286,15 @@ const RATINGS = [
   },
   {
     name: '讯飞星辰', score: 3,
-    reasons: ['焕新版(4.9)专业版/高效版有周限·无忧版不限请求', '整合星火X2与 GLM/Kimi/MiniMax/DeepSeek/Qwen 等模型', '焕新版后为请求次数流控（非日Tokens）']
+    reasons: ['焕新版(4.9)专业版/高效版有周限·无忧版不限请求', '高效版支持GLM-5.1', '整合星火X2与 GLM/Kimi/MiniMax/DeepSeek/Qwen 等模型', '焕新版后为请求次数流控（非日Tokens）']
+  },
+  {
+    name: '阶跃星辰', score: 4,
+    reasons: ['Step 3.5 Flash / 2603·极速性能默认开放', '¥49 起·Prompt 配额清晰·支持主流 Agent 工具', 'MCP 暂未支持·当前主要开放 Flash 系列']
+  },
+  {
+    name: '快手 StreamLake', score: 3,
+    reasons: ['独家 KAT-Coder-Pro V2 / V1', 'Mini ¥29 起·支持 OpenClaw/Claude Code/OpenCode', '当前仅自家模型体系·且禁止 API 二次集成']
   },
   {
     name: '小米·MiMo', score: 1,

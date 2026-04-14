@@ -4,6 +4,7 @@ const MAX_MODEL_TAGS = 5;
 const PLATFORM_LATEST_MODELS = {
   '智谱AI': ['GLM-5.1'],
   'z.ai': ['GLM-5.1'],
+  'OpenCode Go': ['GLM-5.1', 'MiniMax-M2.7'],
   'Kimi': ['Kimi-K2.5'],
   'MiniMax': ['MiniMax-M2.7'],
   '字节·方舟': ['Doubao-Seed-2.0-pro'],
@@ -12,6 +13,8 @@ const PLATFORM_LATEST_MODELS = {
   '腾讯·Coding': ['HY-2.0'],
   '腾讯·Token': ['HY-2.0', 'HY-2.0-Think'],
   '讯飞星辰': ['Spark X2'],
+  '阶跃星辰': ['Step 3.5 Flash 2603', 'Step 3.5 Flash'],
+  '快手 StreamLake': ['KAT-Coder-Pro V2'],
   '小米·MiMo': ['MiMo-V2-Pro']
 };
 
@@ -168,7 +171,7 @@ function renderTable(plans) {
     return;
   }
   tbody.innerHTML = plans.map(p => {
-    const cur = p.platform === 'z.ai' ? '$' : '¥';
+    const cur = p.currency || (p.platform === 'z.ai' ? '$' : '¥');
     const qAvg = p.quarterly ? Math.round(p.quarterly / 3) : null;
     const yAvg = p.yearly ? Math.round(p.yearly / 12) : null;
     const firstBadge = p.firstMonth ? `<span class="badge-first">首月${cur}${p.firstMonth}</span>` : '';

@@ -6,7 +6,7 @@
 
 ---
 
-> Coding 数据更新于 2026.04.13 · Video 数据更新于 2026.04.12 · Image 数据更新于 2026.04.13 · Audio 数据更新于 2026.04.07 · 仅供参考，以各平台官方公告为准
+> Coding 数据更新于 2026.04.14 · Video 数据更新于 2026.04.12 · Image 数据更新于 2026.04.13 · Audio 数据更新于 2026.04.07 · 仅供参考，以各平台官方公告为准
 
 ---
 
@@ -34,12 +34,13 @@ https://ai.hsnb.fun/aiplanhub
 
 ---
 
-## Coding 平台（17 家）
+## Coding 平台（20 家）
 
 | 平台 | 代表模型 | 方案数 | 月付起 | 评分 |
 |------|----------|--------|--------|------|
 | 智谱AI | GLM-5.1 | 3 | ¥49 | ★★★★★ |
 | z.ai | GLM-5.1（国际版） | 3 | $18 | ★★ |
+| OpenCode Go | GLM-5.1 / MiniMax-M2.7 | 1 | $10 | ★★★ |
 | MiniMax | MiniMax-M2.7 | 6 | ¥29 | ★★★★★ |
 | Kimi | Kimi-K2.5 | 4 | ¥49 | ★★★ |
 | 阿里·百炼 | Qwen3.6-Plus | 1 | ¥200 | ★★★★ |
@@ -52,6 +53,8 @@ https://ai.hsnb.fun/aiplanhub
 | 腾讯·Token | HY-2.0 Think/T1/TurboS | 4 | ¥39 | ★★ |
 | 百度·千帆 | GLM-5 | 2 | ¥40 | ★★★ |
 | 讯飞星辰 | Spark X2 | 3 | ¥19 | ★★★ |
+| 阶跃星辰 | Step 3.5 Flash 2603 | 4 | ¥49 | ★★★★ |
+| 快手 StreamLake | KAT-Coder-Pro V2 | 4 | ¥29 | ★★★ |
 | 无问芯穹 | GLM-5.1 | 2 | ¥40 | ★★★ |
 | 字节·方舟 | Doubao-Seed-2.0-pro | 2 | ¥40 | ★★★ |
 | 小米·MiMo | MiMo-V2-Pro | 4 | ¥39 | ★ |
@@ -62,6 +65,7 @@ https://ai.hsnb.fun/aiplanhub
 |------|------|------|--------|----------|---------|------|
 | 讯飞星辰 | 无忧版 | ¥19 | ¥3.9 | — | — | [开通](https://maas.xfyun.cn/packageSubscription?inviteCode=MAAS-7573AB85) |
 | MiniMax | Starter | ¥29 | — | 600 | — | [开通](https://platform.minimaxi.com/subscribe/token-plan?code=G2vbq30tXz&source=link) |
+| 快手 StreamLake | Mini | ¥29 | — | 600 | — | [开通](https://www.streamlake.com/marketing/coding-plan) |
 | 腾讯·Token | Lite | ¥39 | — | — | 月 35M | [开通](https://curl.qcloud.com/1Uogyigq) |
 | 小米·MiMo | Lite | ¥39 | ¥34.32 | — | 月 60M Credits | [开通](https://platform.xiaomimimo.com/#/token-plan) |
 | 讯飞星辰 | 专业版 | ¥39 | — | 1,200 | — | [开通](https://maas.xfyun.cn/packageSubscription?inviteCode=MAAS-7573AB85) |
@@ -75,6 +79,7 @@ https://ai.hsnb.fun/aiplanhub
 | 天翼云 | GLM Lite | ¥49 | — | 1,200 | — | [开通](https://ctxirang.ctyun.cn/maas/codingPlan) |
 | 智谱AI | Lite | ¥49 | — | 1,200 | — | [开通](https://www.bigmodel.cn/glm-coding?ic=DGRQECTZFB) |
 | Kimi | Andante | ¥49 | ¥39 | — | — | [开通](https://www.kimi.com/code/zh) |
+| 阶跃星辰 | Flash Mini | ¥49 | — | 1,500 | — | [开通](https://platform.stepfun.com/docs/zh/step-plan/overview) |
 | MiniMax | Plus | ¥49 | — | 1,500 | — | [开通](https://platform.minimaxi.com/subscribe/token-plan?code=G2vbq30tXz&source=link) |
 | 优云 | Lite | ¥49.9 | — | — | 日 7M 积分 | [开通](https://passport.compshare.cn/register?referral_code=Kkl0Vgy0pCsFOzeMtfGBdI) |
 
@@ -82,14 +87,18 @@ https://ai.hsnb.fun/aiplanhub
 
 | 平台 | 方案 | 月付 | 首月价 | 5h请求数 | Token量 | 开通 |
 |------|------|------|--------|----------|---------|------|
+| 快手 StreamLake | Starter | ¥70 | — | 1,500 | — | [开通](https://www.streamlake.com/marketing/coding-plan) |
 | MiniMax | Plus 极速版 | ¥98 | — | 1,500 | — | [开通](https://platform.minimaxi.com/subscribe/token-plan?code=G2vbq30tXz&source=link) |
 | 腾讯·Token | Standard | ¥99 | — | — | 月 100M | [开通](https://curl.qcloud.com/1Uogyigq) |
 | 小米·MiMo | Standard | ¥99 | ¥87.12 | — | 月 200M Credits | [开通](https://platform.xiaomimimo.com/#/token-plan) |
 | Kimi | Moderato | ¥99 | ¥79 | — | — | [开通](https://www.kimi.com/code/zh) |
+| 阶跃星辰 | Flash Plus | ¥99 | — | 6,000 | — | [开通](https://platform.stepfun.com/docs/zh/step-plan/overview) |
 | MiniMax | Max | ¥119 | — | 4,500 | — | [开通](https://platform.minimaxi.com/subscribe/token-plan?code=G2vbq30tXz&source=link) |
+| 快手 StreamLake | Pro | ¥140 | — | 4,500 | — | [开通](https://www.streamlake.com/marketing/coding-plan) |
 | 天翼云 | GLM Pro | ¥149 | — | 6,000 | — | [开通](https://ctxirang.ctyun.cn/maas/codingPlan) |
 | 智谱AI | Pro | ¥149 | — | 6,000 | — | [开通](https://www.bigmodel.cn/glm-coding?ic=DGRQECTZFB) |
 | 讯飞星辰 | 高效版 | ¥199 | — | 6,000 | — | [开通](https://maas.xfyun.cn/packageSubscription?inviteCode=MAAS-7573AB85) |
+| 阶跃星辰 | Flash Pro | ¥199 | — | 22,500 | — | [开通](https://platform.stepfun.com/docs/zh/step-plan/overview) |
 | 优云 | Plus | ¥199 | — | — | 日 28M 积分 | [开通](https://passport.compshare.cn/register?referral_code=Kkl0Vgy0pCsFOzeMtfGBdI) |
 | Kimi | Allegretto | ¥199 | ¥159 | — | — | [开通](https://www.kimi.com/code/zh) |
 | MiniMax | Max 极速版 | ¥199 | — | 4,500 | — | [开通](https://platform.minimaxi.com/subscribe/token-plan?code=G2vbq30tXz&source=link) |
@@ -108,18 +117,21 @@ https://ai.hsnb.fun/aiplanhub
 | 字节·方舟 | Pro | ¥200 | — | 6,000 | — | [开通](https://volcengine.com/L/jmiEa1dptck/) |
 | 腾讯·Token | Pro | ¥299 | — | — | 月 320M | [开通](https://curl.qcloud.com/1Uogyigq) |
 | 小米·MiMo | Pro | ¥329 | ¥289.52 | — | 月 700M Credits | [开通](https://platform.xiaomimimo.com/#/token-plan) |
+| 快手 StreamLake | Max | ¥350 | — | 15,000 | — | [开通](https://www.streamlake.com/marketing/coding-plan) |
 | 天翼云 | GLM Max | ¥469 | — | 24,000 | — | [开通](https://ctxirang.ctyun.cn/maas/codingPlan) |
 | 智谱AI | Max | ¥469 | — | 24,000 | — | [开通](https://www.bigmodel.cn/glm-coding?ic=DGRQECTZFB) |
 | 优云 | Pro | ¥499 | — | — | 日 70M 积分 | [开通](https://passport.compshare.cn/register?referral_code=Kkl0Vgy0pCsFOzeMtfGBdI) |
 | 腾讯·Token | Max | ¥599 | — | — | 月 650M | [开通](https://curl.qcloud.com/1Uogyigq) |
 | 小米·MiMo | Max | ¥659 | ¥579.92 | — | 月 1,600M Credits | [开通](https://platform.xiaomimimo.com/#/token-plan) |
+| 阶跃星辰 | Flash Max | ¥699 | — | 75,000 | — | [开通](https://platform.stepfun.com/docs/zh/step-plan/overview) |
 | Kimi | Allegro | ¥699 | ¥559 | — | — | [开通](https://www.kimi.com/code/zh) |
 | MiniMax | Ultra 极速版 | ¥899 | — | 30,000 | — | [开通](https://platform.minimaxi.com/subscribe/token-plan?code=G2vbq30tXz&source=link) |
 
-### 海外 / 美元计费（z.ai）
+### 海外 / 美元计费
 
 | 平台 | 方案 | 月付 | 首月价 | 5h请求数 | Token量 | 开通 |
 |------|------|------|--------|----------|---------|------|
+| OpenCode Go | Go | $10 | $5 | — | — | [开通](https://opencode.ai/auth) |
 | z.ai | Lite | $18 | — | 1,200 | — | [开通](https://z.ai/subscribe?ic=V6PINPKB9I) |
 | z.ai | Pro | $72 | — | 6,000 | — | [开通](https://z.ai/subscribe?ic=V6PINPKB9I) |
 | z.ai | Max | $160 | — | 24,000 | — | [开通](https://z.ai/subscribe?ic=V6PINPKB9I) |
