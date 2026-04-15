@@ -10,15 +10,14 @@ const VIDEO_PLANS = [
   { platform:'pai.video', name:'尊享版', monthly:459, yearly:4398, credits:'15000积分/月', videoLen:'4-8秒', resolution:'1080P',
     features:['文生视频','图生视频','音生视频','无水印','无限模板','批量生成(4张)','错峰省50%积分'], note:'月付¥367(年付¥4398)·8并发·积分包额外赠送50%', link:'https://share.pai.video/referral/U0NMCK13' },
 
-  // 即梦 (Jimeng) — 字节跳动旗下 — 更新于 2026.04.12
+  // 即梦 (Jimeng) — 字节跳动旗下 — 更新于 2026.04.15
   { platform:'即梦', name:'免费版', monthly:0, yearly:null, credits:'60~100积分/日', videoLen:'5秒', resolution:'标清',
     features:['Seedance 全系列','文生视频','图生视频'], note:'每日免费领取积分·当月有效不累积·带水印·分辨率受限', link:'https://jimeng.jianying.com' },
   { platform:'即梦', name:'基础会员', monthly:69, yearly:393, credits:'725积分/月', videoLen:'5-15秒', resolution:'1080P',
-    features:['Seedance 2.0','文生视频','图生视频','音生视频','闲置5折','去水印'], note:'连续包月¥69·年付首年¥393(6折)次年¥659·725积分/月', link:'https://jimeng.jianying.com' },
-  { platform:'即梦', name:'标准会员', monthly:199, yearly:1099, credits:'2210积分/月', videoLen:'5-15秒', resolution:'1080P',
-    features:['Seedance 2.0','文生视频','图生视频','音生视频','闲置7折','补帧60FPS'], note:'连续包月¥199·年付首年¥1099(6折)次年¥1899·2210积分/月', link:'https://jimeng.jianying.com' },
+    features:['Seedance 2.0','文生视频','图生视频','音生视频','闲置5折','去水印'], note:'单月¥79·连续包月¥69·年付首年¥393(6折)次年¥659·725积分/月', link:'https://jimeng.jianying.com' },
+  // 标准会员已下架
   { platform:'即梦', name:'高级会员', monthly:499, yearly:3099, credits:'6160积分/月', videoLen:'5-15秒', resolution:'1080P',
-    features:['Seedance 2.0','文生视频','图生视频','音生视频','闲置9折','补帧60FPS','5并发'], note:'连续包月¥499·年付首年¥3099(6折)次年¥5199·6160积分/月·Seedance 2.0最佳折扣', link:'https://jimeng.jianying.com' },
+    features:['Seedance 2.0','文生视频','图生视频','音生视频','闲置9折','补帧60FPS','5并发'], note:'单月¥649·连续包月¥499·年付首年¥3099(6折)次年¥5199·6160积分/月', link:'https://jimeng.jianying.com' },
 
   // 通义万相 — 阿里巴巴（万相2.6）
   { platform:'通义万相', name:'免费', monthly:0, yearly:null, credits:'每日免费额度', videoLen:'未注明', resolution:'未注明',
