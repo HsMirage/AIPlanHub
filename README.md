@@ -45,7 +45,7 @@ https://ai.hsnb.fun/aiplanhub
 | Kimi | kimi-k2.6-code-preview | 4 | ¥49 | ★★★ |
 | 阿里·百炼 | Qwen3.6-Plus | 1 | ¥200 | ★★★★ |
 | 天翼云 | GLM-5.1 | 3 | ¥49 | ★★★★★ |
-| 蓝耘云 | GLM-5.1 | 3 | ¥49 | ★★★★ |
+| 蓝耘元生代云 | GLM-5.1 | 3 | ¥49 | ★★★★ |
 | 优云 | MiniMax-M2.1 | 3 | ¥49.9 | ★★★ |
 | 京东云 | Qwen3-Coder | 2 | ¥40 | ★★★ |
 | 联通云 | GLM-5.1 | 2 | ¥40 | ★★★ |
@@ -78,7 +78,7 @@ https://ai.hsnb.fun/aiplanhub
 | 移动云 | Lite | ¥40 | ¥7.9 | 1,200 | — | [开通](https://ecloud.10086.cn/portal/act/codingplan) |
 | 字节·方舟 | Lite | ¥40 | — | 1,200 | — | [开通](https://volcengine.com/L/jmiEa1dptck/) |
 | 天翼云 | GLM Lite | ¥49 | — | 1,200 | — | [开通](https://ctxirang.ctyun.cn/maas/codingPlan) |
-| 蓝耘云 | 入门版 | ¥49 | — | 1,200 | — | [开通](https://console.lanyun.net/#/register?promoterCode=3ef0f72996) |
+| 蓝耘元生代云 | 入门版 | ¥49 | — | 1,200 | — | [开通](https://console.lanyun.net/#/register?promoterCode=3ef0f72996) |
 | 智谱AI | Lite | ¥49 | — | 1,200 | — | [开通](https://www.bigmodel.cn/glm-coding?ic=DGRQECTZFB) |
 | Kimi | Andante | ¥49 | ¥39 | — | — | [开通](https://www.kimi.com/code/zh) |
 | 阶跃星辰 | Flash Mini | ¥49 | — | 1,500 | — | [开通](https://platform.stepfun.com/docs/zh/step-plan/overview) |
@@ -98,7 +98,7 @@ https://ai.hsnb.fun/aiplanhub
 | MiniMax | Max | ¥119 | — | 4,500 | — | [开通](https://platform.minimaxi.com/subscribe/token-plan?code=G2vbq30tXz&source=link) |
 | 快手 StreamLake | Pro | ¥140 | — | 4,500 | — | [开通](https://www.streamlake.com/marketing/coding-plan) |
 | 天翼云 | GLM Pro | ¥149 | — | 6,000 | — | [开通](https://ctxirang.ctyun.cn/maas/codingPlan) |
-| 蓝耘云 | 专业版 | ¥149 | — | 6,000 | — | [开通](https://console.lanyun.net/#/register?promoterCode=3ef0f72996) |
+| 蓝耘元生代云 | 专业版 | ¥149 | — | 6,000 | — | [开通](https://console.lanyun.net/#/register?promoterCode=3ef0f72996) |
 | 智谱AI | Pro | ¥149 | — | 6,000 | — | [开通](https://www.bigmodel.cn/glm-coding?ic=DGRQECTZFB) |
 | 讯飞星辰 | 高效版 | ¥199 | — | 6,000 | — | [开通](https://maas.xfyun.cn/packageSubscription?inviteCode=MAAS-7573AB85) |
 | 阶跃星辰 | Flash Pro | ¥199 | — | 22,500 | — | [开通](https://platform.stepfun.com/docs/zh/step-plan/overview) |
@@ -122,7 +122,7 @@ https://ai.hsnb.fun/aiplanhub
 | 小米·MiMo | Pro | ¥329 | ¥289.52 | — | 月 700M Credits | [开通](https://platform.xiaomimimo.com/#/token-plan) |
 | 快手 StreamLake | Max | ¥350 | — | 15,000 | — | [开通](https://www.streamlake.com/marketing/coding-plan) |
 | 天翼云 | GLM Max | ¥469 | — | 24,000 | — | [开通](https://ctxirang.ctyun.cn/maas/codingPlan) |
-| 蓝耘云 | 高级版 | ¥469 | — | 24,000 | — | [开通](https://console.lanyun.net/#/register?promoterCode=3ef0f72996) |
+| 蓝耘元生代云 | 高级版 | ¥469 | — | 24,000 | — | [开通](https://console.lanyun.net/#/register?promoterCode=3ef0f72996) |
 | 智谱AI | Max | ¥469 | — | 24,000 | — | [开通](https://www.bigmodel.cn/glm-coding?ic=DGRQECTZFB) |
 | 优云 | Pro | ¥499 | — | — | 日 70M 积分 | [开通](https://passport.compshare.cn/register?referral_code=Kkl0Vgy0pCsFOzeMtfGBdI) |
 | 腾讯·Token | Max | ¥599 | — | — | 月 650M | [开通](https://curl.qcloud.com/1Uogyigq) |

@@ -107,14 +107,14 @@ const PLANS = [
   { platform:'联通云', name:'Pro', monthly:200, quarterly:null, yearly:null, firstMonth:null,
     models:['MiniMax-M2.5','GLM-5.1','GLM-5','Kimi-K2.5','Qwen3.5-397B-A17B','Qwen3-235B-A22B','DeepSeek-V3.1'], req5h:6000, reqMonth:90000, reqWeek:45000, benefits:['多模型动态路由','兼容 Claude Code/OpenCode/OpenClaw/CoPaw'], note:'资源紧张·限流时自动切模型·禁API调用·已支持GLM-5.1', link:'https://support.cucloud.cn/document/127/591/2357.html?id=2357&arcid=7015' },
 
-  // 蓝耘云 - 2026.04.15 核对官方 Coding Plan 活动页；三模型混合套餐，季付9折、年付8折
+  // 蓝耘元生代云 - 2026.04.15 核对官方 Coding Plan 活动页；三模型混合套餐，季付9折、年付8折
   // 页面明确显示 MiniMax-M2.5 / Step-3.5-Flash / GLM-5.1 三模型通用；采用每5小时+每周双维度限制
   // 官方入口购买页使用 maas 控制台，站外活动页说明购买不可叠加代金券/优惠券
-  { platform:'蓝耘云', name:'入门版', monthly:49, quarterly:132.3, yearly:470.4, firstMonth:null,
+  { platform:'蓝耘元生代云', name:'入门版', monthly:49, quarterly:132.3, yearly:470.4, firstMonth:null,
     models:['MiniMax-M2.5','Step-3.5-Flash','GLM-5.1'], req5h:1200, reqMonth:null, reqWeek:6000, benefits:['三模型通用','兼容 Claude Code/OpenCode/Cline'], note:'季付9折·年付8折·每5小时1200次·每周6000次·独立API Key·不可叠加券', link:'https://console.lanyun.net/#/register?promoterCode=3ef0f72996' },
-  { platform:'蓝耘云', name:'专业版', monthly:149, quarterly:402.3, yearly:1430.4, firstMonth:null,
+  { platform:'蓝耘元生代云', name:'专业版', monthly:149, quarterly:402.3, yearly:1430.4, firstMonth:null,
     models:['MiniMax-M2.5','Step-3.5-Flash','GLM-5.1'], req5h:6000, reqMonth:null, reqWeek:30000, benefits:['三模型通用','复杂开发任务支持'], note:'季付9折·年付8折·每5小时6000次·每周30000次·优先技术支持·不可叠加券', link:'https://console.lanyun.net/#/register?promoterCode=3ef0f72996' },
-  { platform:'蓝耘云', name:'高级版', monthly:469, quarterly:1266.3, yearly:4502.4, firstMonth:null,
+  { platform:'蓝耘元生代云', name:'高级版', monthly:469, quarterly:1266.3, yearly:4502.4, firstMonth:null,
     models:['MiniMax-M2.5','Step-3.5-Flash','GLM-5.1'], req5h:24000, reqMonth:null, reqWeek:120000, benefits:['三模型通用','企业级 SLA 优化'], note:'季付9折·年付8折·每5小时24000次·每周120000次·团队协作优化·不可叠加券', link:'https://console.lanyun.net/#/register?promoterCode=3ef0f72996' },
 
   // 优云 - 页面于 2026.04.10 核对；同时提供一次性按量包与包月畅享包，这里记录 3 档包月套餐
@@ -279,7 +279,7 @@ const RATINGS = [
     reasons: ['支持GLM-5.1', '6 模型覆盖·支持动态模型路由', '当前资源紧张GLM-5.1很慢+429限流', '没有异常扣费情况，挺耐用']
   },
   {
-    name: '蓝耘云', score: 4,
+    name: '蓝耘元生代云', score: 4,
     reasons: ['支持GLM-5.1', '价格与智谱同档·季付9折年付8折', '没有月总请求数限制，但是周总请求数更低']
   },
   {

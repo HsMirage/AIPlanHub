@@ -10,7 +10,7 @@ const PLATFORM_LATEST_MODELS = {
   '字节·方舟': ['Doubao-Seed-2.0-pro'],
   '阿里·百炼': ['Qwen3.6-Plus', 'Qwen3.6plus', 'Qwen3.5-Plus'],
   '天翼云': ['GLM-5.1'],
-  '蓝耘云': ['GLM-5.1', 'Step-3.5-Flash', 'MiniMax-M2.5'],
+  '蓝耘元生代云': ['GLM-5.1', 'Step-3.5-Flash', 'MiniMax-M2.5'],
   '腾讯·Coding': ['HY-2.0'],
   '腾讯·Token': ['HY-2.0', 'HY-2.0-Think'],
   '讯飞星辰': ['Spark X2'],
