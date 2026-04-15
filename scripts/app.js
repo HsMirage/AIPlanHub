@@ -10,6 +10,7 @@ const PLATFORM_LATEST_MODELS = {
   '字节·方舟': ['Doubao-Seed-2.0-pro'],
   '阿里·百炼': ['Qwen3.6-Plus', 'Qwen3.6plus', 'Qwen3.5-Plus'],
   '天翼云': ['GLM-5.1'],
+  '蓝耘云': ['GLM-5.1', 'Step-3.5-Flash', 'MiniMax-M2.5'],
   '腾讯·Coding': ['HY-2.0'],
   '腾讯·Token': ['HY-2.0', 'HY-2.0-Think'],
   '讯飞星辰': ['Spark X2'],
@@ -66,9 +67,18 @@ function getCondensedModels(platform, models) {
   };
 }
 
+function getPlatformScore(platform) {
+  return RATINGS.find(r => r.name === platform)?.score ?? 0;
+}
+
+function sortPlansByRating(plans) {
+  return [...plans].sort((a, b) => getPlatformScore(b.platform) - getPlatformScore(a.platform));
+}
+
 function renderRatings() {
   const row = document.getElementById('ratings-row');
-  row.innerHTML = RATINGS.map(r => {
+  const ratings = [...RATINGS].sort((a, b) => b.score - a.score);
+  row.innerHTML = ratings.map(r => {
     const stars = '★'.repeat(r.score) + '☆'.repeat(5 - r.score);
     return `<div class="rating-card ${r.score === 5 ? 'top' : ''}" onclick="filterByRatingCard('filter-platform','${r.name}','#page-coding .table-section')" style="cursor:pointer" title="点击筛选 ${r.name}">
       <div class="rc-header">
@@ -131,6 +141,8 @@ function applyFilters() {
       if (typeof av === 'string') return av.localeCompare(bv) * sortDir;
       return (av - bv) * sortDir;
     });
+  } else {
+    data = sortPlansByRating(data);
   }
 
   renderTable(data);
@@ -143,7 +155,7 @@ function resetFilters() {
   sortCol = null;
   sortDir = 1;
   document.querySelectorAll('#page-coding thead th').forEach(t => t.classList.remove('sorted-asc', 'sorted-desc'));
-  renderTable(PLANS);
+  renderTable(sortPlansByRating(PLANS));
   document.getElementById('filter-count').textContent = `显示 ${PLANS.length} / ${PLANS.length} 个方案`;
 }
 

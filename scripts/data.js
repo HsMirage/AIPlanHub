@@ -18,11 +18,11 @@ const PLANS = [
   // 页面显示prompts数，按1prompt≈15次调用折算为请求数；reqWeek=null（页面未公开周限额）
   // 支持模型不变；支持月付/季付/年付三种方式
   { platform:'z.ai', name:'Lite', monthly:18, quarterly:54, yearly:172.80, firstMonth:null,
-    models:['GLM-5.1','GLM-5-Turbo','GLM-4.7','GLM-4.6','GLM-4.5-Air'], req5h:1200, reqMonth:null, reqWeek:null, benefits:['3× Claude Pro 用量','兼容 Claude Code/Cursor/Cline 等 20+ 工具'], note:'⚠️月付涨至$18(原$10)·季付$54(首季$43.74)·年付$172.8(首年$155.52享-10%)·Friend Gift享10%·支持月付/季付/年付·req5h=80prompts×15≈1200请求', link:'https://z.ai/subscribe?ic=V6PINPKB9I' },
+    models:['GLM-5.1','GLM-5-Turbo','GLM-4.7','GLM-4.6','GLM-4.5-Air'], req5h:1200, reqMonth:24000, reqWeek:6000, benefits:['3× Claude Pro 用量','兼容 Claude Code/Cursor/Cline 等 20+ 工具'], note:'⚠️月付涨至$18(原$10)·季付$54(首季$43.74)·年付$172.8(首年$155.52享-10%)·Friend Gift享10%·支持月付/季付/年付·沿用智谱同档位周/月请求数口径', link:'https://z.ai/subscribe?ic=V6PINPKB9I' },
   { platform:'z.ai', name:'Pro', monthly:72, quarterly:216, yearly:691.20, firstMonth:null,
-    models:['GLM-5.1','GLM-5','GLM-5-Turbo','GLM-4.7','GLM-4.6','GLM-4.5-Air'], req5h:6000, reqMonth:null, reqWeek:null, benefits:['5× Lite 用量','优先体验新模型','40%-60% 更快响应'], note:'⚠️月付涨至$72(原$30)·季付$216(首季$174.96)·年付$691.2(首年$622.08享-10%)·Friend Gift享10%·含MCP·支持月付/季付/年付·req5h=400prompts×15≈6000请求', link:'https://z.ai/subscribe?ic=V6PINPKB9I' },
+    models:['GLM-5.1','GLM-5','GLM-5-Turbo','GLM-4.7','GLM-4.6','GLM-4.5-Air'], req5h:6000, reqMonth:120000, reqWeek:30000, benefits:['5× Lite 用量','优先体验新模型','40%-60% 更快响应'], note:'⚠️月付涨至$72(原$30)·季付$216(首季$174.96)·年付$691.2(首年$622.08享-10%)·Friend Gift享10%·含MCP·支持月付/季付/年付·沿用智谱同档位周/月请求数口径', link:'https://z.ai/subscribe?ic=V6PINPKB9I' },
   { platform:'z.ai', name:'Max', monthly:160, quarterly:480, yearly:1536, firstMonth:null,
-    models:['GLM-5.1','GLM-5','GLM-5-Turbo','GLM-4.7','GLM-4.6','GLM-4.5-Air'], req5h:24000, reqMonth:null, reqWeek:null, benefits:['4× Pro 用量','高峰期保证性能','抢先体验新模型'], note:'⚠️月付涨至$160(原$80)·季付$480(首季$388.8)·年付$1536(首年$1382.4享-10%)·Friend Gift享10%·支持月付/季付/年付·req5h=1600prompts×15≈24000请求', link:'https://z.ai/subscribe?ic=V6PINPKB9I' },
+    models:['GLM-5.1','GLM-5','GLM-5-Turbo','GLM-4.7','GLM-4.6','GLM-4.5-Air'], req5h:24000, reqMonth:600000, reqWeek:120000, benefits:['4× Pro 用量','高峰期保证性能','抢先体验新模型'], note:'⚠️月付涨至$160(原$80)·季付$480(首季$388.8)·年付$1536(首年$1382.4享-10%)·Friend Gift享10%·支持月付/季付/年付·沿用智谱同档位周/月请求数口径', link:'https://z.ai/subscribe?ic=V6PINPKB9I' },
 
   // OpenCode Go - 2026.04.14 核对中文文档页；当前为单档订阅，限额按美元预算而非固定请求数
   // 官方说明：首月 $5，次月起 $10；5h / 周 / 月预算分别为 $12 / $30 / $60，实际请求数随模型成本变化
@@ -106,6 +106,16 @@ const PLANS = [
     models:['MiniMax-M2.5','GLM-5.1','GLM-5','Kimi-K2.5','Qwen3.5-397B-A17B','Qwen3-235B-A22B','DeepSeek-V3.1'], req5h:1200, reqMonth:18000, reqWeek:9000, benefits:['多模型动态路由','兼容 Claude Code/OpenCode/OpenClaw/CoPaw'], note:'资源紧张·贵阳/济南可用·禁API调用·已支持GLM-5.1', link:'https://support.cucloud.cn/document/127/591/2357.html?id=2357&arcid=7015' },
   { platform:'联通云', name:'Pro', monthly:200, quarterly:null, yearly:null, firstMonth:null,
     models:['MiniMax-M2.5','GLM-5.1','GLM-5','Kimi-K2.5','Qwen3.5-397B-A17B','Qwen3-235B-A22B','DeepSeek-V3.1'], req5h:6000, reqMonth:90000, reqWeek:45000, benefits:['多模型动态路由','兼容 Claude Code/OpenCode/OpenClaw/CoPaw'], note:'资源紧张·限流时自动切模型·禁API调用·已支持GLM-5.1', link:'https://support.cucloud.cn/document/127/591/2357.html?id=2357&arcid=7015' },
+
+  // 蓝耘云 - 2026.04.15 核对官方 Coding Plan 活动页；三模型混合套餐，季付9折、年付8折
+  // 页面明确显示 MiniMax-M2.5 / Step-3.5-Flash / GLM-5.1 三模型通用；采用每5小时+每周双维度限制
+  // 官方入口购买页使用 maas 控制台，站外活动页说明购买不可叠加代金券/优惠券
+  { platform:'蓝耘云', name:'入门版', monthly:49, quarterly:132.3, yearly:470.4, firstMonth:null,
+    models:['MiniMax-M2.5','Step-3.5-Flash','GLM-5.1'], req5h:1200, reqMonth:null, reqWeek:6000, benefits:['三模型通用','兼容 Claude Code/OpenCode/Cline'], note:'季付9折·年付8折·每5小时1200次·每周6000次·独立API Key·不可叠加券', link:'https://console.lanyun.net/#/register?promoterCode=3ef0f72996' },
+  { platform:'蓝耘云', name:'专业版', monthly:149, quarterly:402.3, yearly:1430.4, firstMonth:null,
+    models:['MiniMax-M2.5','Step-3.5-Flash','GLM-5.1'], req5h:6000, reqMonth:null, reqWeek:30000, benefits:['三模型通用','复杂开发任务支持'], note:'季付9折·年付8折·每5小时6000次·每周30000次·优先技术支持·不可叠加券', link:'https://console.lanyun.net/#/register?promoterCode=3ef0f72996' },
+  { platform:'蓝耘云', name:'高级版', monthly:469, quarterly:1266.3, yearly:4502.4, firstMonth:null,
+    models:['MiniMax-M2.5','Step-3.5-Flash','GLM-5.1'], req5h:24000, reqMonth:null, reqWeek:120000, benefits:['三模型通用','企业级 SLA 优化'], note:'季付9折·年付8折·每5小时24000次·每周120000次·团队协作优化·不可叠加券', link:'https://console.lanyun.net/#/register?promoterCode=3ef0f72996' },
 
   // 优云 - 页面于 2026.04.10 核对；同时提供一次性按量包与包月畅享包，这里记录 3 档包月套餐
   // 官方 FAQ 明确支持 API / Chatbot / Codex CLI；积分与 Token 的换算由模型倍率决定
@@ -225,7 +235,7 @@ const PLANS = [
 // ===== Platform Ratings =====
 const RATINGS = [
   {
-    name: '智谱AI', score: 5,
+    name: '智谱AI', score: 4,
     reasons: ['独家 GLM-5.1（3月27日上线）', '免费 MCP 调用额度', '20+ 编程工具支持']
   },
   {
@@ -238,14 +248,14 @@ const RATINGS = [
   },
   {
     name: 'Kimi', score: 3,
-    reasons: ['K2.6-code-preview 已上线', '独家 Kimi-K2.5 / Kimi-K2', '请求数未公开', '年付折扣可观']
+    reasons: ['K2.6-code-preview 已上线', '请求数未公开', '年付折扣可观']
   },
   {
     name: 'MiniMax', score: 5,
     reasons: ['定价最低无需抢购', '独家 MiniMax-M2.7', '已升级 Token Plan·支持语音/视频/音乐/图像']
   },
   {
-    name: '字节·方舟', score: 3,
+    name: '字节·方舟', score: 2,
     reasons: ['计费不透明·无用量明细·蓝点网/微博多源实锤', '速度慢·超卖严重·付费仍用数据训练', '首月¥8.9·支持Doubao/Kimi/GLM/MiniMax多模型']
   },
   {
@@ -269,6 +279,10 @@ const RATINGS = [
     reasons: ['支持GLM-5.1', '6 模型覆盖·支持动态模型路由', '当前资源紧张GLM-5.1很慢+429限流', '没有异常扣费情况，挺耐用']
   },
   {
+    name: '蓝耘云', score: 4,
+    reasons: ['支持GLM-5.1', '价格与智谱同档·季付9折年付8折', '没有月总请求数限制，但是周总请求数更低']
+  },
+  {
     name: '腾讯·Coding', score: 3,
     reasons: ['Coding Plan·按请求次数计费', '首月¥7.9·Lite 限量抢购', '支持 GLM-5 / Kimi-K2.5 / MiniMax-M2.5']
   },
@@ -281,8 +295,8 @@ const RATINGS = [
     reasons: ['Token Plan·按 Token 计费更透明', '7 模型覆盖（HY 2.0 Think/T1/TurboS 独家）', '¥39 起·兼容 Claude Code/Cursor/OpenClaw']
   },
   {
-    name: '百度·千帆', score: 3,
-    reasons: ['支持文心4.5Turbo / DeepSeek-V3.2', '每日10:30/17:00限量补货', '首月¥9.9']
+    name: '百度·千帆', score: 4,
+    reasons: ['支持 GLM-5、MiniMax-M2.5、Kimi-K2.5、DeepSeek-V3.2 等模型', '每日10:30/17:00限量补货', '首月¥9.9']
   },
   {
     name: '讯飞星辰', score: 3,
