@@ -10,14 +10,14 @@ const VIDEO_PLANS = [
   { platform:'pai.video', name:'尊享版', monthly:459, yearly:4398, credits:'15000积分/月', videoLen:'4-8秒', resolution:'1080P',
     features:['文生视频','图生视频','音生视频','无水印','无限模板','批量生成(4张)','错峰省50%积分'], note:'月付¥367(年付¥4398)·8并发·积分包额外赠送50%', link:'https://share.pai.video/referral/U0NMCK13' },
 
-  // 即梦 (Jimeng) — 字节跳动旗下 — 更新于 2026.04.15
+  // 即梦 (Jimeng) — 字节跳动旗下统一会员体系（图片/视频/数字人共用）— 更新于 2026.04.15
   { platform:'即梦', name:'免费版', monthly:0, yearly:null, credits:'60~100积分/日', videoLen:'5秒', resolution:'标清',
-    features:['Seedance 全系列','文生视频','图生视频'], note:'每日免费领取积分·当月有效不累积·带水印·分辨率受限', link:'https://jimeng.jianying.com' },
+    features:['Seedance 全系列','文生视频','图生视频'], note:'统一会员体系·每日免费领取积分·当月有效不累积·带水印·分辨率受限', link:'https://jimeng.jianying.com' },
   { platform:'即梦', name:'基础会员', monthly:69, yearly:393, credits:'725积分/月', videoLen:'5-15秒', resolution:'1080P',
-    features:['Seedance 2.0','文生视频','图生视频','音生视频','闲置5折','去水印'], note:'单月¥79·连续包月¥69·年付首年¥393(6折)次年¥659·725积分/月', link:'https://jimeng.jianying.com' },
+    features:['Seedance 2.0','文生视频','图生视频','音生视频','闲置5折','去水印'], note:'统一会员体系·单月¥79·连续包月¥69·首年连续包年¥393(6折)·次年¥659·725积分/月', link:'https://jimeng.jianying.com' },
   // 标准会员已下架
   { platform:'即梦', name:'高级会员', monthly:499, yearly:3099, credits:'6160积分/月', videoLen:'5-15秒', resolution:'1080P',
-    features:['Seedance 2.0','文生视频','图生视频','音生视频','闲置9折','补帧60FPS','5并发'], note:'单月¥649·连续包月¥499·年付首年¥3099(6折)次年¥5199·6160积分/月', link:'https://jimeng.jianying.com' },
+    features:['Seedance 2.0','文生视频','图生视频','音生视频','闲置9折','补帧60FPS','5并发'], note:'统一会员体系·单月¥649·连续包月¥499·首年连续包年¥3099(6折)·次年¥5199·6160积分/月', link:'https://jimeng.jianying.com' },
 
   // 通义万相 — 阿里巴巴（万相2.6）
   { platform:'通义万相', name:'免费', monthly:0, yearly:null, credits:'每日免费额度', videoLen:'未注明', resolution:'未注明',
@@ -96,7 +96,7 @@ const VIDEO_RATINGS = [
   },
   {
     name: '即梦', score: 4,
-    reasons: ['字节跳动 Seedance 2.0 全系列模型', '3档会员(基础¥69/标准¥199/高级¥499连续包月)', '15秒长视频·1080P高清·闲置折扣低至5折']
+    reasons: ['字节跳动 Seedance 2.0 全系列模型', '统一会员体系(免费/基础¥69/高级¥499)', '视频侧重点：15秒长视频·1080P高清·闲置折扣低至5折']
   },
   {
     name: '腾讯混元', score: 3,

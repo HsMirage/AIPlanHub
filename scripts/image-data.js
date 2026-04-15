@@ -10,14 +10,13 @@ const IMAGE_PLANS = [
   { platform:'Midjourney', name:'Mega', monthly:840, yearly:8064, credits:'60h Fast GPU/月+无限Relax', resolution:'多比例输出',
     features:['最高并发','Stealth 模式','商用授权','12 并发任务','无限图片+SD & HD 视频'], note:'官方 $120/月·年付 $1,152（按 $1≈¥7.0 估算）', link:'https://midjourney.com' },
 
-  // 即梦 — 字节跳动旗下，图片+视频+数字人
-  // 更新日期: 2026-04-12 | 来源: CDP 浏览器抓取
+  // 即梦 — 字节跳动旗下统一会员体系（图片/视频/数字人共用）
+  // 更新日期: 2026-04-15 | 来源: 以 Video 任务核对的统一会员信息同步到 Image
+  // 2026-04-15: 标准会员(¥199)已下架，仅保留基础和高级两档；图片侧描述保留图片能力重点
   { platform:'即梦', name:'基础会员', monthly:69, yearly:393, credits:'725 积分/月', resolution:'多尺寸',
-    features:['文生图','图生图','文生视频','Seedance 2.0','智能画布'], note:'连续包月¥69/月·首年连续包年¥393/年（6折）·次年¥659/年·单月购买¥79', link:'https://jimeng.jianying.com' },
-  { platform:'即梦', name:'标准会员', monthly:199, yearly:1099, credits:'2210 积分/月', resolution:'多尺寸',
-    features:['文生图','图生图','文生视频','Seedance 2.0','数字人','配音生成'], note:'连续包月¥199/月·首年连续包年¥1099/年（6折）·次年¥1899/年·单月购买¥239', link:'https://jimeng.jianying.com' },
+    features:['文生图','图生图','智能画布','图片4.0 2K模型','局部重绘','去水印'], note:'统一会员体系·连续包月¥69/月·首年连续包年¥393/年（6折）·次年¥659/年·单月购买¥79', link:'https://jimeng.jianying.com' },
   { platform:'即梦', name:'高级会员', monthly:499, yearly:3099, credits:'6160 积分/月', resolution:'多尺寸',
-    features:['全功能解锁','文生视频','数字人','大师模式','专属客服','商用权益'], note:'连续包月¥499/月·首年连续包年¥3099/年（6折）·次年¥5199/年·单月购买¥649', link:'https://jimeng.jianying.com' },
+    features:['全功能解锁','文生图','图生图','图片4.0 4K模型','大师模式','商用权益'], note:'统一会员体系·连续包月¥499/月·首年连续包年¥3099/年（6折）·次年¥5199/年·单月购买¥649', link:'https://jimeng.jianying.com' },
 
   // 通义万相 — 阿里巴巴（万相2.6）
   // 更新日期: 2026-04-12 | 来源: CDP 浏览器抓取 | 价格核实: 连续包年5折·连续包月6.5折
@@ -62,7 +61,7 @@ const IMAGE_PLANS = [
 const IMAGE_RATINGS = [
   {
     name: '即梦', score: 5,
-    reasons: ['字节 Seedance 2.0 模型', '图片+视频+数字人+配音四合一', '三档定价（¥69/¥199/¥499）清晰']
+    reasons: ['字节 Seedance 2.0 统一会员体系', '图片侧重点：文生图/图生图/智能画布/4K模型', '两档定价（¥69/¥499）精简清晰']
   },
   {
     name: 'Midjourney', score: 5,
