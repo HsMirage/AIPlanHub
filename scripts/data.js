@@ -60,9 +60,10 @@ const PLANS = [
   // 字节·方舟 - 首月Lite约¥8.9，支持Doubao-Seed-2.0-pro/lite/Code系列/DeepSeek-V3.2/Kimi-K2.5/GLM-4.7
   // ⚠️ 双层计费：名义按调用次数，实际Token消耗大会被按2-3次甚至更多次扣费（蓝点网/V2EX/微博多源证实）
   // 2026.04.11通过已登录Edge实测：volcengine.com/docs/82379/2165245页面中间位置显示每周限额，reqWeek=9000/45000
-  { platform:'字节·方舟', name:'Lite', monthly:40, quarterly:null, yearly:null, firstMonth:null,
+  // 2026.04.16：页面新增「包季」按钮，季付=月付×3（Lite ¥120，Pro ¥600）
+  { platform:'字节·方舟', name:'Lite', monthly:40, quarterly:120, yearly:null, firstMonth:null,
     models:['Doubao-Seed-2.0-pro','Doubao-Seed-2.0-lite','Doubao-Seed-Code','DeepSeek-V3.2','Kimi-K2.5','GLM-4.7','MiniMax-M2.5'], req5h:1200, reqMonth:18000, reqWeek:9000, benefits:['ArkClaw 7天试用','Auto智能选模型'], note:'首月优惠已结束(原¥8.9)·⚠双层计费·额度消耗远快于同行·每周一00:00刷新', link:'https://volcengine.com/L/jmiEa1dptck/' },
-  { platform:'字节·方舟', name:'Pro', monthly:200, quarterly:null, yearly:null, firstMonth:null,
+  { platform:'字节·方舟', name:'Pro', monthly:200, quarterly:600, yearly:null, firstMonth:null,
     models:['Doubao-Seed-2.0-pro','Doubao-Seed-2.0-lite','Doubao-Seed-Code','DeepSeek-V3.2','Kimi-K2.5','GLM-4.7','MiniMax-M2.5'], req5h:6000, reqMonth:90000, reqWeek:45000, benefits:['免费ArkClaw','Auto智能选模型'], note:'首月优惠已结束(原¥49.9)·⚠双层计费·Pro三四天可用完月额度·每周一00:00刷新', link:'https://volcengine.com/L/jmiEa1dptck/' },
 
   // 阿里·百炼 - Lite套餐已停止新购（2026.03.20起），当前仅显示Pro套餐
