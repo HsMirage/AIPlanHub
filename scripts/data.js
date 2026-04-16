@@ -237,7 +237,7 @@ const PLANS = [
 const RATINGS = [
   {
     name: '智谱AI', score: 4,
-    reasons: ['独家 GLM-5.1（3月27日上线）', '免费 MCP 调用额度', '20+ 编程工具支持']
+    reasons: ['独家 GLM-5.1（3月27日上线）', '免费 MCP 调用额度', '20+ 编程工具支持', '中国的A/，小心你的号！']
   },
   {
     name: 'z.ai', score: 2,
@@ -245,7 +245,7 @@ const RATINGS = [
   },
   {
     name: 'OpenCode Go', score: 3,
-    reasons: ['首月$5·次月$10', 'GLM/Kimi/MiMo/MiniMax 多模型接入', '额度按美元预算计费·当前仍为 Beta']
+    reasons: ['首月$5·次月$10', 'GLM/Kimi/MiMo/MiniMax 多模型接入', '速度快，但是用量偏少', '额度按美元预算计费·当前仍为 Beta']
   },
   {
     name: 'Kimi', score: 3,
