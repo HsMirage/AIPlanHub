@@ -5,11 +5,11 @@ const PLANS = [
   // 2026.04.11通过已登录Edge实测：docs.bigmodel.cn官方文档明确显示每周限额
   // 每周限额为prompts数，换算请求数×15（每次prompt约15-20次模型调用）；月限额为API定价折算估算值
   { platform:'智谱AI', name:'Lite', monthly:49, quarterly:132.3, yearly:470.4, firstMonth:null,
-    models:['GLM-5.1','GLM-5-Turbo','GLM-4.7','GLM-4.6','GLM-4.5','GLM-4.5-Air'], req5h:1200, reqMonth:24000, reqWeek:6000, benefits:['免费MCP','20+编程工具'], note:'季付¥44.1/月·年付¥39.2/月·Lite不含GLM-5·高阶模型高峰3x/非高峰2x抵扣·实际可用量约为标称1/2~1/3', link:'https://www.bigmodel.cn/glm-coding?ic=DGRQECTZFB' },
+    models:['GLM-5.1','GLM-5-Turbo','GLM-4.7','GLM-4.6','GLM-4.5','GLM-4.5-Air'], req5h:1200, reqMonth:24000, reqWeek:6000, benefits:['免费MCP','20+编程工具'], note:'季付¥44.1/月·年付¥39.2/月·Lite不含GLM-5·中国的A/，小心你的号！·高阶模型高峰3x/非高峰2x抵扣·实际可用量约为标称1/2~1/3', link:'https://www.bigmodel.cn/glm-coding?ic=DGRQECTZFB' },
   { platform:'智谱AI', name:'Pro', monthly:149, quarterly:402.3, yearly:1430.4, firstMonth:null,
-    models:['GLM-5.1','GLM-5','GLM-5-Turbo','GLM-4.7','GLM-4.6','GLM-4.5','GLM-4.5-Air'], req5h:6000, reqMonth:120000, reqWeek:30000, benefits:['免费MCP','优先体验新模型'], note:'季付¥134.1/月·年付¥119.2/月·Pro含GLM-5·高阶模型高峰3x/非高峰2x抵扣·实际可用量约为标称1/2~1/3', link:'https://www.bigmodel.cn/glm-coding?ic=DGRQECTZFB' },
+    models:['GLM-5.1','GLM-5','GLM-5-Turbo','GLM-4.7','GLM-4.6','GLM-4.5','GLM-4.5-Air'], req5h:6000, reqMonth:120000, reqWeek:30000, benefits:['免费MCP','优先体验新模型'], note:'季付¥134.1/月·年付¥119.2/月·Pro含GLM-5·中国的A/，小心你的号！·高阶模型高峰3x/非高峰2x抵扣·实际可用量约为标称1/2~1/3', link:'https://www.bigmodel.cn/glm-coding?ic=DGRQECTZFB' },
   { platform:'智谱AI', name:'Max', monthly:469, quarterly:1266.3, yearly:4502.4, firstMonth:null,
-    models:['GLM-5.1','GLM-5','GLM-5-Turbo','GLM-4.7','GLM-4.6','GLM-4.5','GLM-4.5-Air'], req5h:24000, reqMonth:600000, reqWeek:120000, benefits:['免费MCP','高峰期专属资源'], note:'季付¥422.1/月·年付¥375.2/月·Max含GLM-5·高阶模型高峰3x/非高峰2x抵扣·实际可用量约为标称1/2~1/3', link:'https://www.bigmodel.cn/glm-coding?ic=DGRQECTZFB' },
+    models:['GLM-5.1','GLM-5','GLM-5-Turbo','GLM-4.7','GLM-4.6','GLM-4.5','GLM-4.5-Air'], req5h:24000, reqMonth:600000, reqWeek:120000, benefits:['免费MCP','高峰期专属资源'], note:'季付¥422.1/月·年付¥375.2/月·Max含GLM-5·中国的A/，小心你的号！·高阶模型高峰3x/非高峰2x抵扣·实际可用量约为标称1/2~1/3', link:'https://www.bigmodel.cn/glm-coding?ic=DGRQECTZFB' },
 
   // z.ai（智谱国际版）- ⚠️ 2026.04.11价格大幅上调！
   // 月付: $18/$72/$160（Lite/Pro/Max）；季付: $54/$216/$480（首季$43.74/$174.96/$388.8）
@@ -28,7 +28,7 @@ const PLANS = [
   // 官方说明：首月 $5，次月起 $10；5h / 周 / 月预算分别为 $12 / $30 / $60，实际请求数随模型成本变化
   { platform:'OpenCode Go', name:'Go', currency:'$', monthly:10, quarterly:null, yearly:null, firstMonth:5,
     models:['GLM-5.1','GLM-5','Kimi-K2.5','MiMo-V2-Pro','MiMo-V2-Omni','MiniMax-M2.7','MiniMax-M2.5'], req5h:null, reqMonth:null, reqWeek:null,
-    benefits:['首月$5','OpenCode 原生接入'], note:'Beta·5h预算$12·每周$30·每月$60·实际请求数随模型而变·可切换为超额使用 Zen 余额', link:'https://opencode.ai/auth' },
+    benefits:['首月$5','OpenCode 原生接入'], note:'Beta·5h预算$12·每周$30·每月$60·速度快，但是用量偏少·实际请求数随模型而变·可切换为超额使用 Zen 余额', link:'https://opencode.ai/auth' },
 
   // Kimi - 官网实测：连续包月原价/连续包年折扣价
   // 2026.04.14更新：Kimi Code 页面显示 K2.6-code-preview 已上线；全部 Kimi Code Plan 可使用
@@ -104,9 +104,9 @@ const PLANS = [
   // 仅允许 AI 编程工具使用，严禁 API 调用；当前公开文档主入口为帮助中心
   // 2026.04.11通过已登录Edge实测：support.cucloud.cn文档明确显示每周限额，reqWeek=9000/45000，已支持GLM-5.1
   { platform:'联通云', name:'Lite', monthly:40, quarterly:null, yearly:null, firstMonth:null,
-    models:['MiniMax-M2.5','GLM-5.1','GLM-5','Kimi-K2.5','Qwen3.5-397B-A17B','Qwen3-235B-A22B','DeepSeek-V3.1'], req5h:1200, reqMonth:18000, reqWeek:9000, benefits:['多模型动态路由','兼容 Claude Code/OpenCode/OpenClaw/CoPaw'], note:'资源紧张·贵阳/济南可用·禁API调用·已支持GLM-5.1', link:'https://support.cucloud.cn/document/127/591/2357.html?id=2357&arcid=7015' },
+    models:['MiniMax-M2.5','GLM-5.1','GLM-5','Kimi-K2.5','Qwen3.5-397B-A17B','Qwen3-235B-A22B','DeepSeek-V3.1'], req5h:1200, reqMonth:18000, reqWeek:9000, benefits:['多模型动态路由','兼容 Claude Code/OpenCode/OpenClaw/CoPaw'], note:'资源紧张·贵阳/济南可用·禁API调用·已支持GLM-5.1·测试发现GLM-5.1调用工具有问题，等待修复', link:'https://support.cucloud.cn/document/127/591/2357.html?id=2357&arcid=7015' },
   { platform:'联通云', name:'Pro', monthly:200, quarterly:null, yearly:null, firstMonth:null,
-    models:['MiniMax-M2.5','GLM-5.1','GLM-5','Kimi-K2.5','Qwen3.5-397B-A17B','Qwen3-235B-A22B','DeepSeek-V3.1'], req5h:6000, reqMonth:90000, reqWeek:45000, benefits:['多模型动态路由','兼容 Claude Code/OpenCode/OpenClaw/CoPaw'], note:'资源紧张·限流时自动切模型·禁API调用·已支持GLM-5.1', link:'https://support.cucloud.cn/document/127/591/2357.html?id=2357&arcid=7015' },
+    models:['MiniMax-M2.5','GLM-5.1','GLM-5','Kimi-K2.5','Qwen3.5-397B-A17B','Qwen3-235B-A22B','DeepSeek-V3.1'], req5h:6000, reqMonth:90000, reqWeek:45000, benefits:['多模型动态路由','兼容 Claude Code/OpenCode/OpenClaw/CoPaw'], note:'资源紧张·限流时自动切模型·禁API调用·已支持GLM-5.1·测试发现GLM-5.1调用工具有问题，等待修复', link:'https://support.cucloud.cn/document/127/591/2357.html?id=2357&arcid=7015' },
 
   // 蓝耘元生代云 - 2026.04.15 核对官方 Coding Plan 活动页；三模型混合套餐，季付9折、年付8折
   // 页面明确显示 MiniMax-M2.5 / Step-3.5-Flash / GLM-5.1 三模型通用；采用每5小时+每周双维度限制
@@ -277,7 +277,7 @@ const RATINGS = [
   },
   {
     name: '联通云', score: 3,
-    reasons: ['支持GLM-5.1', '6 模型覆盖·支持动态模型路由', '当前资源紧张GLM-5.1很慢+429限流', '没有异常扣费情况，挺耐用']
+    reasons: ['支持GLM-5.1', '6 模型覆盖·支持动态模型路由', '当前资源紧张GLM-5.1很慢+429限流', '测试发现GLM-5.1调用工具有问题，等待修复', '没有异常扣费情况，挺耐用']
   },
   {
     name: '蓝耘元生代云', score: 4,
