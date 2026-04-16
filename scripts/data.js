@@ -5,11 +5,11 @@ const PLANS = [
   // 2026.04.11通过已登录Edge实测：docs.bigmodel.cn官方文档明确显示每周限额
   // 每周限额为prompts数，换算请求数×15（每次prompt约15-20次模型调用）；月限额为API定价折算估算值
   { platform:'智谱AI', name:'Lite', monthly:49, quarterly:132.3, yearly:470.4, firstMonth:null,
-    models:['GLM-5.1','GLM-5-Turbo','GLM-4.7','GLM-4.6','GLM-4.5','GLM-4.5-Air'], req5h:1200, reqMonth:24000, reqWeek:6000, benefits:['免费MCP','20+编程工具'], note:'季付¥44.1/月·年付¥39.2/月·GLM-5.1已开放·Lite不含GLM-5·每周400prompts×15≈6000请求', link:'https://www.bigmodel.cn/glm-coding?ic=DGRQECTZFB' },
+    models:['GLM-5.1','GLM-5-Turbo','GLM-4.7','GLM-4.6','GLM-4.5','GLM-4.5-Air'], req5h:1200, reqMonth:24000, reqWeek:6000, benefits:['免费MCP','20+编程工具'], note:'季付¥44.1/月·年付¥39.2/月·Lite不含GLM-5·高阶模型高峰3x/非高峰2x抵扣·实际可用量约为标称1/2~1/3', link:'https://www.bigmodel.cn/glm-coding?ic=DGRQECTZFB' },
   { platform:'智谱AI', name:'Pro', monthly:149, quarterly:402.3, yearly:1430.4, firstMonth:null,
-    models:['GLM-5.1','GLM-5','GLM-5-Turbo','GLM-4.7','GLM-4.6','GLM-4.5','GLM-4.5-Air'], req5h:6000, reqMonth:120000, reqWeek:30000, benefits:['免费MCP','优先体验新模型'], note:'季付¥134.1/月·年付¥119.2/月·Pro含GLM-5·每周2000prompts×15≈30000请求', link:'https://www.bigmodel.cn/glm-coding?ic=DGRQECTZFB' },
+    models:['GLM-5.1','GLM-5','GLM-5-Turbo','GLM-4.7','GLM-4.6','GLM-4.5','GLM-4.5-Air'], req5h:6000, reqMonth:120000, reqWeek:30000, benefits:['免费MCP','优先体验新模型'], note:'季付¥134.1/月·年付¥119.2/月·Pro含GLM-5·高阶模型高峰3x/非高峰2x抵扣·实际可用量约为标称1/2~1/3', link:'https://www.bigmodel.cn/glm-coding?ic=DGRQECTZFB' },
   { platform:'智谱AI', name:'Max', monthly:469, quarterly:1266.3, yearly:4502.4, firstMonth:null,
-    models:['GLM-5.1','GLM-5','GLM-5-Turbo','GLM-4.7','GLM-4.6','GLM-4.5','GLM-4.5-Air'], req5h:24000, reqMonth:600000, reqWeek:120000, benefits:['免费MCP','高峰期专属资源'], note:'季付¥422.1/月·年付¥375.2/月·Max含GLM-5·每周8000prompts×15≈120000请求', link:'https://www.bigmodel.cn/glm-coding?ic=DGRQECTZFB' },
+    models:['GLM-5.1','GLM-5','GLM-5-Turbo','GLM-4.7','GLM-4.6','GLM-4.5','GLM-4.5-Air'], req5h:24000, reqMonth:600000, reqWeek:120000, benefits:['免费MCP','高峰期专属资源'], note:'季付¥422.1/月·年付¥375.2/月·Max含GLM-5·高阶模型高峰3x/非高峰2x抵扣·实际可用量约为标称1/2~1/3', link:'https://www.bigmodel.cn/glm-coding?ic=DGRQECTZFB' },
 
   // z.ai（智谱国际版）- ⚠️ 2026.04.11价格大幅上调！
   // 月付: $18/$72/$160（Lite/Pro/Max）；季付: $54/$216/$480（首季$43.74/$174.96/$388.8）
@@ -18,11 +18,11 @@ const PLANS = [
   // 页面显示prompts数，按1prompt≈15次调用折算为请求数；reqWeek=null（页面未公开周限额）
   // 支持模型不变；支持月付/季付/年付三种方式
   { platform:'z.ai', name:'Lite', monthly:18, quarterly:54, yearly:172.80, firstMonth:null,
-    models:['GLM-5.1','GLM-5-Turbo','GLM-4.7','GLM-4.6','GLM-4.5-Air'], req5h:1200, reqMonth:24000, reqWeek:6000, benefits:['3× Claude Pro 用量','兼容 Claude Code/Cursor/Cline 等 20+ 工具'], note:'⚠️月付涨至$18(原$10)·季付$54(首季$43.74)·年付$172.8(首年$155.52享-10%)·Friend Gift享10%·支持月付/季付/年付·沿用智谱同档位周/月请求数口径', link:'https://z.ai/subscribe?ic=V6PINPKB9I' },
+    models:['GLM-5.1','GLM-5-Turbo','GLM-4.7','GLM-4.6','GLM-4.5-Air'], req5h:1200, reqMonth:24000, reqWeek:6000, benefits:['3× Claude Pro 用量','兼容 Claude Code/Cursor/Cline 等 20+ 工具'], note:'⚠️月付$18·季付$54·年付$172.8·沿用智谱同档位周/月请求数口径·高阶模型高峰3x/非高峰2x抵扣·实际可用量约为标称1/2~1/3', link:'https://z.ai/subscribe?ic=V6PINPKB9I' },
   { platform:'z.ai', name:'Pro', monthly:72, quarterly:216, yearly:691.20, firstMonth:null,
-    models:['GLM-5.1','GLM-5','GLM-5-Turbo','GLM-4.7','GLM-4.6','GLM-4.5-Air'], req5h:6000, reqMonth:120000, reqWeek:30000, benefits:['5× Lite 用量','优先体验新模型','40%-60% 更快响应'], note:'⚠️月付涨至$72(原$30)·季付$216(首季$174.96)·年付$691.2(首年$622.08享-10%)·Friend Gift享10%·含MCP·支持月付/季付/年付·沿用智谱同档位周/月请求数口径', link:'https://z.ai/subscribe?ic=V6PINPKB9I' },
+    models:['GLM-5.1','GLM-5','GLM-5-Turbo','GLM-4.7','GLM-4.6','GLM-4.5-Air'], req5h:6000, reqMonth:120000, reqWeek:30000, benefits:['5× Lite 用量','优先体验新模型','40%-60% 更快响应'], note:'⚠️月付$72·季付$216·年付$691.2·沿用智谱同档位周/月请求数口径·高阶模型高峰3x/非高峰2x抵扣·实际可用量约为标称1/2~1/3', link:'https://z.ai/subscribe?ic=V6PINPKB9I' },
   { platform:'z.ai', name:'Max', monthly:160, quarterly:480, yearly:1536, firstMonth:null,
-    models:['GLM-5.1','GLM-5','GLM-5-Turbo','GLM-4.7','GLM-4.6','GLM-4.5-Air'], req5h:24000, reqMonth:600000, reqWeek:120000, benefits:['4× Pro 用量','高峰期保证性能','抢先体验新模型'], note:'⚠️月付涨至$160(原$80)·季付$480(首季$388.8)·年付$1536(首年$1382.4享-10%)·Friend Gift享10%·支持月付/季付/年付·沿用智谱同档位周/月请求数口径', link:'https://z.ai/subscribe?ic=V6PINPKB9I' },
+    models:['GLM-5.1','GLM-5','GLM-5-Turbo','GLM-4.7','GLM-4.6','GLM-4.5-Air'], req5h:24000, reqMonth:600000, reqWeek:120000, benefits:['4× Pro 用量','高峰期保证性能','抢先体验新模型'], note:'⚠️月付$160·季付$480·年付$1536·沿用智谱同档位周/月请求数口径·高阶模型高峰3x/非高峰2x抵扣·实际可用量约为标称1/2~1/3', link:'https://z.ai/subscribe?ic=V6PINPKB9I' },
 
   // OpenCode Go - 2026.04.14 核对中文文档页；当前为单档订阅，限额按美元预算而非固定请求数
   // 官方说明：首月 $5，次月起 $10；5h / 周 / 月预算分别为 $12 / $30 / $60，实际请求数随模型成本变化
