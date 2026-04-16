@@ -94,11 +94,6 @@
     "method": "snapshot",
     "note": "月付/年付切换，3档（Free/Pro/Premier），含Compare Plans表格，需点击Monthly/Annual切换查看"
   },
-  "Audio-天工AI": {
-    "link": "https://www.tiangong.cn/?mode=sku",
-    "method": "snapshot",
-    "note": "月度/连续包月/季度/年度4种付费方式，免费版+会员2档，含权益对比表格"
-  },
   "Audio-Udio": {
     "link": "https://www.udio.com/pricing",
     "method": "snapshot",

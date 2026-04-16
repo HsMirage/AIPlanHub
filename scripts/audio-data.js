@@ -16,12 +16,6 @@ const AUDIO_PLANS = [
   { platform:'Udio', name:'Pro', monthly:207, yearly:1984, credits:'6000积分/月', audioLen:'2分10秒',
     features:['最长音乐','商用授权','10首并发生成','全部功能'], note:'官方 $30/月；年付 $288/年（$24/月）·6000 credits/月·10首并发生成', link:'https://www.udio.com' },
 
-  // 天工AI — 昆仑万维，SkyMusic 模型 · 2026.04.16 核对订阅页
-  { platform:'天工AI', name:'免费版', monthly:0, yearly:null, credits:'首月每日1500积分·次月起每周1500积分', audioLen:'3分钟',
-    features:['SkyMusic 模型','文生音乐','中文优化','歌词生成'], note:'免费积分1日/7日内有效·普通任务生成通道·100次/月积分预估·定时任务1个', link:'https://www.tiangong.cn' },
-  { platform:'天工AI', name:'会员', monthly:45, yearly:547, credits:'10000积分/月', audioLen:'3分钟',
-    features:['SkyMusic 模型','文生音乐','中文优化','专属任务通道','10个定时任务'], note:'连续包月¥45/月（93折）·月度¥48/月·季度¥141/季（98折）·年度¥547/年（95折）·10000积分/月·积分预估100次/月', link:'https://www.tiangong.cn' },
-
   // 海螺AI（MiniMax Audio）— 2026.04.14 核对订阅页；支持月度/年度切换和横向套餐卡片
   // 当前订阅页展示 5 档：免费 / 标准版 / 创作版 / 专业版 / 大师版；年度价格分别折合 ¥32 / 98 / 188 / 588 每月
   { platform:'海螺AI', name:'免费', monthly:0, yearly:null, credits:'0声贝', audioLen:'0分钟（限时免费活动）',
@@ -47,10 +41,6 @@ const AUDIO_RATINGS = [
   {
     name: 'Suno', score: 5,
     reasons: ['官方帮助中心写明免费 50 credits/日', 'Pro / Premier 支持商用', '年付有 20% 折扣']
-  },
-  {
-    name: '天工AI', score: 4,
-    reasons: ['SkyMusic 模型中文优化', '会员10000积分/月（¥45起）', '年付95折·专属任务通道', '昆仑万维技术加持']
   },
   {
     name: 'Udio', score: 4,
