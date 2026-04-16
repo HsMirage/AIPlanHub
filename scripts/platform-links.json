@@ -1,7 +1,8 @@
 {
   "_meta": {
     "description": "各平台周限查询链接 Map。key=platform_name，link=每周限额度查询页，note=查询规则备注",
-    "updated": "2026-04-13"
+    "updated": "2026-04-16",
+    "image_checked": "2026-04-16"
   },
   "z.ai": {
     "link": "https://docs.z.ai/devpack/faq",
@@ -87,5 +88,50 @@
     "link": "https://platform.xiaomimimo.com/#/token-plan",
     "method": "direct",
     "note": "Credit制，无请求数概念"
+  },
+  "Audio-Suno": {
+    "link": "https://suno.com/pricing",
+    "method": "snapshot",
+    "note": "月付/年付切换，3档（Free/Pro/Premier），含Compare Plans表格，需点击Monthly/Annual切换查看"
+  },
+  "Audio-天工AI": {
+    "link": "https://www.tiangong.cn/?mode=sku",
+    "method": "snapshot",
+    "note": "月度/连续包月/季度/年度4种付费方式，免费版+会员2档，含权益对比表格"
+  },
+  "Audio-Udio": {
+    "link": "https://www.udio.com/pricing",
+    "method": "snapshot",
+    "note": "月付/年付切换，3档（Free/Standard/Pro），含Compare Plans表格"
+  },
+  "Audio-AceStudio": {
+    "link": "https://acestudio.ai/zh/pricing/",
+    "method": "snapshot",
+    "note": "仅年付（Rent-to-Own），2档（Artist/Artist Pro），含春季折扣信息"
+  },
+  "Audio-海螺AI": {
+    "link": "https://www.minimaxi.com/audio/subscribe",
+    "method": "snapshot",
+    "note": "月度/年度切换，5档（免费/标准版/创作版/专业版/大师版），含对比表格和模型权益"
+  },
+  "Image-Midjourney": {
+    "link": "https://docs.midjourney.com/docs/plans",
+    "method": "snapshot",
+    "note": "官方帮助文档，含完整定价对比表格，4档（Basic/Standard/Pro/Mega），需查看Monthly/Annual切换"
+  },
+  "Image-LiblibAI": {
+    "link": "https://www.liblib.art/viphome",
+    "method": "snapshot",
+    "note": "会员超市页，5档（基础版/专业版/大师版/旗舰版/尊享版），年付为主，含积分/并发/功能对比"
+  },
+  "Image-通义万相": {
+    "link": "https://tongyi.aliyun.com/wan/pricing",
+    "method": "snapshot",
+    "note": "会员订阅页，3档（免费/标准会员/高级会员），含灵感值/并发/功能对比，连续包年5折·连续包月6.5折"
+  },
+  "Image-堆友": {
+    "link": "https://d.design",
+    "method": "snapshot",
+    "note": "首页点击'领猫超卡'触发弹窗，3档（标准版/专业版/团队版），含堆豆/并发/功能对比，月卡/季卡/年卡多档"
   }
 }

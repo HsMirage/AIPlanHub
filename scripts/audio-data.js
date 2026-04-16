@@ -2,11 +2,11 @@
 const AUDIO_PLANS = [
   // Suno AI — 全球最流行的 AI 音乐生成平台
   { platform:'Suno', name:'Free', monthly:0, yearly:null, credits:'50积分/日（约10首歌）', audioLen:'4分钟',
-    features:['文生音乐','歌词生成','v4.5-all模型'], note:'官方定价页：每天 50 credits·仅限非商用·访问 v4.5-all 模型', link:'https://suno.com' },
+    features:['文生音乐','歌词生成','v4.5-all模型'], note:'官方定价页：每天 50 credits·仅限非商用·访问 v4.5-all 模型·共享队列最多4首并发', link:'https://suno.com' },
   { platform:'Suno', name:'Pro', monthly:69, yearly:661, credits:'2500积分/月（约500首歌）', audioLen:'4分钟',
-    features:['文生音乐','商用授权','优先队列','10个任务并发','v5.5模型'], note:'官方 $10/月；年付 $96/年（$8/月，省20%）·支持 v5.5 最新模型', link:'https://suno.com' },
+    features:['文生音乐','商用授权','优先队列','10个任务并发','v5.5模型'], note:'官方 $10/月；年付 $96/年（$8/月，省20%）·当前春季特惠首年再省20%（$6.40/月）·Pro描述含v5.5但对比表仅列v4~v5', link:'https://suno.com' },
   { platform:'Suno', name:'Premier', monthly:207, yearly:1984, credits:'10000积分/月（约2000首歌）', audioLen:'4分钟',
-    features:['文生音乐','商用授权','最高优先级','Suno Studio','v5.5模型'], note:'官方 $30/月；年付 $288/年（$24/月，省20%）·解锁全部功能含 Suno Studio', link:'https://suno.com' },
+    features:['文生音乐','商用授权','最高优先级','Suno Studio','v5.5模型'], note:'官方 $30/月；年付 $288/年（$24/月，省20%）·当前春季特惠首年再省20%（$19.20/月）·解锁全部功能含 Suno Studio', link:'https://suno.com' },
 
   // Udio — AI 音乐生成新秀
   { platform:'Udio', name:'Free', monthly:0, yearly:null, credits:'10积分/日+100积分/月', audioLen:'2分10秒',
@@ -16,9 +16,11 @@ const AUDIO_PLANS = [
   { platform:'Udio', name:'Pro', monthly:207, yearly:1984, credits:'6000积分/月', audioLen:'2分10秒',
     features:['最长音乐','商用授权','10首并发生成','全部功能'], note:'官方 $30/月；年付 $288/年（$24/月）·6000 credits/月·10首并发生成', link:'https://www.udio.com' },
 
-  // 天工AI — 昆仑万维，SkyMusic 模型
-  { platform:'天工AI', name:'免费版', monthly:0, yearly:null, credits:'每日免费额度', audioLen:'3分钟',
-    features:['SkyMusic 模型','文生音乐','中文优化','歌词生成'], note:'天工SkyMusic 目前完全免费开放使用，暂无付费套餐·官网：music.tiangong.cn', link:'https://music.tiangong.cn' },
+  // 天工AI — 昆仑万维，SkyMusic 模型 · 2026.04.16 核对订阅页
+  { platform:'天工AI', name:'免费版', monthly:0, yearly:null, credits:'首月每日1500积分·次月起每周1500积分', audioLen:'3分钟',
+    features:['SkyMusic 模型','文生音乐','中文优化','歌词生成'], note:'免费积分1日/7日内有效·普通任务生成通道·100次/月积分预估·定时任务1个', link:'https://www.tiangong.cn' },
+  { platform:'天工AI', name:'会员', monthly:45, yearly:547, credits:'10000积分/月', audioLen:'3分钟',
+    features:['SkyMusic 模型','文生音乐','中文优化','专属任务通道','10个定时任务'], note:'连续包月¥45/月（93折）·月度¥48/月·季度¥141/季（98折）·年度¥547/年（95折）·10000积分/月·积分预估100次/月', link:'https://www.tiangong.cn' },
 
   // 海螺AI（MiniMax Audio）— 2026.04.14 核对订阅页；支持月度/年度切换和横向套餐卡片
   // 当前订阅页展示 5 档：免费 / 标准版 / 创作版 / 专业版 / 大师版；年度价格分别折合 ¥32 / 98 / 188 / 588 每月
@@ -48,7 +50,7 @@ const AUDIO_RATINGS = [
   },
   {
     name: '天工AI', score: 4,
-    reasons: ['SkyMusic 模型中文优化', '国内用户免费无限量使用', '昆仑万维技术加持']
+    reasons: ['SkyMusic 模型中文优化', '会员10000积分/月（¥45起）', '年付95折·专属任务通道', '昆仑万维技术加持']
   },
   {
     name: 'Udio', score: 4,

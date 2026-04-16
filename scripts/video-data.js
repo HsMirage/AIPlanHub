@@ -39,9 +39,9 @@ const VIDEO_PLANS = [
   { platform:'快手可灵', name:'黑金会员', monthly:1314, yearly:11079, credits:'26000灵感值/月', videoLen:'3-15秒', resolution:'1080P',
     features:['高清画质','15秒长视频','去水印','可商用','最高优先级','限量内测功能','图片3.0一年免费'], note:'原价¥1314/月·连续包月¥1149/月·首月¥916·年付¥11079·主体创建500个', link:'https://kling.kuaishou.com' },
 
-  // 海螺AI (HailuoAI) — MiniMax 旗下 — 更新于 2026.04.12
+  // 海螺AI (HailuoAI) — MiniMax 旗下 — 更新于 2026.04.16
   { platform:'海螺AI', name:'基础会员', monthly:105, yearly:660, credits:'1000贝壳/月', videoLen:'6-10秒', resolution:'768P/1080P',
-    features:['Hailuo 2.3','文生视频','图生视频','无水印下载','Hailuo 1.0 6秒'], note:'原价¥105/月·连续包月¥55/月(52折)·年付¥660(约¥55/月)', link:'https://hailuoai.com/subscribe' },
+    features:['Hailuo 2.3','文生视频','图生视频','无水印下载','Hailuo 1.0 6秒'], note:'原价¥105/月·连续包月¥68/月(65折)·年付¥660(约¥55/月)', link:'https://hailuoai.com/subscribe' },
   { platform:'海螺AI', name:'标准会员', monthly:385, yearly:2352, credits:'4500贝壳/月', videoLen:'6-10秒', resolution:'768P/1080P',
     features:['Hailuo 2.3 10秒','文生视频','图生视频','双任务并发','Seedream 5.0无限','Midjourney V7无限'], note:'原价¥385/月·连续包月¥196/月(57折)·年付¥2352(约¥196/月)', link:'https://hailuoai.com/subscribe' },
   { platform:'海螺AI', name:'大师会员', monthly:799, yearly:5556, credits:'10500贝壳/月', videoLen:'6-10秒', resolution:'768P/1080P',
