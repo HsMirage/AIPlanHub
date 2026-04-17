@@ -1,0 +1,132 @@
+{
+  "_meta": {
+    "description": "各平台周限查询链接 Map。key=platform_name，link=每周限额度查询页，note=查询规则备注",
+    "updated": "2026-04-16",
+    "image_checked": "2026-04-16"
+  },
+  "z.ai": {
+    "link": "https://docs.z.ai/devpack/faq",
+    "method": "snapshot",
+    "note": "FAQ中'每周使用配额上限'条款，数字在订阅页查看"
+  },
+  "Kimi": {
+    "link": "https://www.kimi.com/code/zh",
+    "method": "snapshot",
+    "note": "Moderato/Allegretto/Allegro页面标注'每周额度'，具体数字不公开"
+  },
+  "MiniMax": {
+    "link": "https://platform.minimaxi.com/user-center/payment/token-plan",
+    "method": "formula",
+    "note": "规则=req5h×10，可在用户中心实时查询实际用量"
+  },
+  "讯飞星辰": {
+    "link": "https://www.xfyun.cn/doc/spark/CodingPlan.html",
+    "method": "snapshot",
+    "note": "焕新版(4.9)专业版/高效版周限9000/45000；按支付时间滑动统计，次日08:00刷新；无忧版不限"
+  },
+  "字节·方舟": {
+    "link": "https://www.volcengine.com/activity/codingplan",
+    "method": "snapshot",
+    "note": "Coding Plan活动页，含套餐价格/模型列表；额度详查 https://www.volcengine.com/docs/82379/2165245"
+  },
+  "阿里·百炼": {
+    "link": "https://www.aliyun.com/benefit/scene/codingplan",
+    "method": "snapshot",
+    "note": "Coding Plan活动页，含套餐价格/模型列表；额度详查 https://help.aliyun.com/zh/model-studio/coding-plan"
+  },
+  "京东云": {
+    "link": "https://docs.jdcloud.com/cn/jdaip/PackageOverview",
+    "method": "snapshot",
+    "note": "Lite周限9000/Pro周限45000，每周一00:00重置"
+  },
+  "移动云": {
+    "link": "https://ecloud.10086.cn/portal/act/codingplan",
+    "method": "snapshot",
+    "note": "Lite周限9000/Pro周限45000"
+  },
+  "天翼云": {
+    "link": "https://www.ctyun.cn/document/11061839/11092415",
+    "method": "snapshot",
+    "note": "GLM Lite周限400prompts/Pro周限2000prompts/Max周限8000prompts，需×15换算请求数"
+  },
+  "蓝耘元生代云": {
+    "link": "https://lanyun.net/maas/Codingplan.html",
+    "method": "snapshot",
+    "note": "入门版/专业版/高级版三档；季付9折年付8折；每5小时/每周双维度限制"
+  },
+  "联通云": {
+    "link": "https://support.cucloud.cn/document/127/591/2357.html",
+    "method": "snapshot",
+    "note": "Lite周限9000/Pro周限45000"
+  },
+  "腾讯·Coding": {
+    "link": "https://cloud.tencent.com/act/pro/codingplan",
+    "method": "snapshot",
+    "note": "Lite周限9000/Pro周限45000"
+  },
+  "腾讯·Token": {
+    "link": "https://cloud.tencent.com/document/product/1772/129449",
+    "method": "direct",
+    "note": "Token Plan按Token计费，无请求数概念"
+  },
+  "百度·千帆": {
+    "link": "https://cloud.baidu.com/product/codingplan.html",
+    "method": "snapshot",
+    "note": "Lite周限9000/Pro周限45000"
+  },
+  "无问芯穹": {
+    "link": "https://docs.infini-ai.com/gen-studio-coding-plan/",
+    "method": "snapshot",
+    "note": "Lite周限6000/Pro周限30000，月限额12000/60000"
+  },
+  "优云": {
+    "link": "https://www.compshare.cn/coding-plan",
+    "method": "direct",
+    "note": "积分制，无请求数概念，每日额度制"
+  },
+  "小米·MiMo": {
+    "link": "https://platform.xiaomimimo.com/#/token-plan",
+    "method": "direct",
+    "note": "Credit制，无请求数概念"
+  },
+  "Audio-Suno": {
+    "link": "https://suno.com/pricing",
+    "method": "snapshot",
+    "note": "月付/年付切换，3档（Free/Pro/Premier），含Compare Plans表格，需点击Monthly/Annual切换查看"
+  },
+  "Audio-Udio": {
+    "link": "https://www.udio.com/pricing",
+    "method": "snapshot",
+    "note": "月付/年付切换，3档（Free/Standard/Pro），含Compare Plans表格"
+  },
+  "Audio-AceStudio": {
+    "link": "https://acestudio.ai/zh/pricing/",
+    "method": "snapshot",
+    "note": "仅年付（Rent-to-Own），2档（Artist/Artist Pro），含春季折扣信息"
+  },
+  "Audio-海螺AI": {
+    "link": "https://www.minimaxi.com/audio/subscribe",
+    "method": "snapshot",
+    "note": "月度/年度切换，5档（免费/标准版/创作版/专业版/大师版），含对比表格和模型权益"
+  },
+  "Image-Midjourney": {
+    "link": "https://docs.midjourney.com/docs/plans",
+    "method": "snapshot",
+    "note": "官方帮助文档，含完整定价对比表格，4档（Basic/Standard/Pro/Mega），需查看Monthly/Annual切换"
+  },
+  "Image-LiblibAI": {
+    "link": "https://www.liblib.art/viphome",
+    "method": "snapshot",
+    "note": "会员超市页，5档（基础版/专业版/大师版/旗舰版/尊享版），年付为主，含积分/并发/功能对比"
+  },
+  "Image-通义万相": {
+    "link": "https://tongyi.aliyun.com/wan/pricing",
+    "method": "snapshot",
+    "note": "会员订阅页，3档（免费/标准会员/高级会员），含灵感值/并发/功能对比，连续包年5折·连续包月6.5折"
+  },
+  "Image-堆友": {
+    "link": "https://d.design",
+    "method": "snapshot",
+    "note": "首页点击'领猫超卡'触发弹窗，3档（标准版/专业版/团队版），含堆豆/并发/功能对比，月卡/季卡/年卡多档"
+  }
+}

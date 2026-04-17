@@ -4,3 +4,16 @@
 # But not these files
 !.gitignore
 !README.md
+!index.html
+!package.json
+!scripts/app.js
+!scripts/audio-app.js
+!scripts/audio-data.js
+!scripts/data.js
+!scripts/image-app.js
+!scripts/image-data.js
+!scripts/platform-links.json
+!scripts/router.js
+!scripts/video-app.js
+!scripts/video-data.js
+!styles/main.css
