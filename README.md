@@ -38,15 +38,15 @@ https://ai.hsnb.fun/aiplanhub
 
 | 平台 | 代表模型 | 方案数 | 月付起 | 评分 |
 |------|----------|--------|--------|------|
-| 智谱AI | GLM-5.1 | 3 | ¥49 | ★★★★ |
+| 智谱AI | GLM-5.1 / GLM-5-Turbo / GLM-4.7 / GLM-4.5-Air | 3 | ¥49 | ★★★★ |
 | z.ai | GLM-5.1（国际版） | 3 | $18 | ★★ |
-| OpenCode Go | GLM-5.1 / MiniMax-M2.7 | 1 | $10 | ★★★ |
+| OpenCode Go | Qwen3.6-Plus / GLM-5.1 / MiniMax-M2.7 | 1 | $10 | ★★★ |
 | MiniMax | MiniMax-M2.7 | 6 | ¥29 | ★★★★★ |
 | Kimi | kimi-k2.6-code-preview | 4 | ¥49 | ★★★ |
 | 阿里·百炼 | Qwen3.6-Plus | 1 | ¥200 | ★★★★ |
 | 天翼云 | GLM-5.1 | 3 | ¥49 | ★★★★★ |
-| 蓝耘元生代云 | GLM-5.1 | 3 | ¥49 | ★★★★ |
-| 优云 | MiniMax-M2.1 | 3 | ¥49.9 | ★★★ |
+| 蓝耘元生代云 | GLM-5.1 | 3 | ¥49 | ★★★ |
+| 优云 | GLM-5.1 / Qwen3.6-Plus | 3 | ¥49.9 | ★★★ |
 | 京东云 | Qwen3-Coder | 2 | ¥40 | ★★★ |
 | 联通云 | GLM-5.1 | 2 | ¥40 | ★★★ |
 | 腾讯·Coding | HY-2.0 | 2 | ¥40 | ★★★ |
@@ -56,7 +56,7 @@ https://ai.hsnb.fun/aiplanhub
 | 讯飞星辰 | Spark X2 | 3 | ¥19 | ★★★ |
 | 阶跃星辰 | Step 3.5 Flash 2603 | 4 | ¥49 | ★★★★ |
 | 快手 StreamLake | KAT-Coder-Pro V2 | 4 | ¥29 | ★★★ |
-| 无问芯穹 | GLM-5.1 | 2 | ¥40 | ★★★ |
+| 无问芯穹 | GLM-5.1 / DeepSeek-V3.2-Thinking / MiniMax-M2.7 | 2 | ¥40 | ★★★ |
 | 字节·方舟 | Doubao-Seed-2.0-pro | 2 | ¥40 | ★★ |
 | 小米·MiMo | MiMo-V2-Pro | 4 | ¥39 | ★ |
 
@@ -70,7 +70,7 @@ https://ai.hsnb.fun/aiplanhub
 | 腾讯·Token | Lite | ¥39 | — | — | 月 35M | [开通](https://curl.qcloud.com/1Uogyigq) |
 | 小米·MiMo | Lite | ¥39 | ¥34.32 | — | 月 60M Credits | [开通](https://platform.xiaomimimo.com/#/token-plan) |
 | 讯飞星辰 | 专业版 | ¥39 | — | 1,200 | — | [开通](https://maas.xfyun.cn/packageSubscription?inviteCode=MAAS-7573AB85) |
-| 百度·千帆 | Lite | ¥40 | ¥9.9 | 1,200 | — | [开通](https://cloud.baidu.com/campaign/ambassador-product/index.html?ambassadorId=b00e3bb5d042440fbfaccf545e8e52f0#knowledge-model) |
+| 百度·千帆 | Lite | ¥40 | — | 1,200 | — | [开通](https://cloud.baidu.com/campaign/ambassador-product/index.html?ambassadorId=b00e3bb5d042440fbfaccf545e8e52f0#knowledge-model) |
 | 京东云 | Lite | ¥40 | ¥19.9 | 1,200 | — | [开通](https://3.cn/2-K9GY29) |
 | 联通云 | Lite | ¥40 | — | 1,200 | — | [开通](https://support.cucloud.cn/document/127/591/2357.html?id=2357&arcid=7015) |
 | 腾讯·Coding | Lite | ¥40 | ¥7.9 | 1,200 | — | [开通](https://curl.qcloud.com/1Uogyigq) |
@@ -188,12 +188,14 @@ https://ai.hsnb.fun/aiplanhub
 - **阿里·百炼** — 独家 Qwen3.6-Plus，Pro 固定 ¥200/月，每周 45,000 次请求
 - **天翼云** — 支持GLM-5.1，GLM 全家桶覆盖最完整，GLM-5-Turbo 实时测速表现靠前
 - **京东云** — DeepSeek-V3.2 / GLM-5 / Qwen3-Coder 7 模型覆盖，标准 Lite/Pro 定价，第三方测速中上游
-- **优云** — 允许 API 调用，支持 Claude Code / OpenClaw / Codex CLI / CherryStudio，另有 ¥6.9 起一次性按量包，第三方测速整体靠前
+- **优云** — 支持GLM-5.1 / Qwen3.6-Plus，允许 API 调用，支持 Claude Code / OpenClaw / Codex CLI / CherryStudio，另有 ¥6.9 起一次性按量包
 - **无问芯穹** — 多模型聚合平台（DeepSeek/Kimi/GLM/MiniMax），Lite 首月 ¥19.9，支持GLM-5.1
 
 **注意**
 
 - **z.ai** — 支持GLM-5.1，但 2026.04.11 价格暴涨：月付涨至 $18 / $72 / $160，美元计费后性价比明显下降
+- **蓝耘元生代云** — 高峰与非高峰差异化扣额，没有429限流但调用速度较慢
+- **Kimi** — 网友反馈额度消耗较快
 - **字节·方舟** — ⚠ 双层计费：名义按调用次数，实际 Token 消耗大会被按 2-3 次甚至更多次扣费，计费不透明，无用量明细（蓝点网/V2EX/微博多源证实）
 - **天翼云** — 高阶 GLM 模型在高峰期按 3 倍、非高峰期按 2 倍抵扣额度，实际可用量会明显低于表面档位；当前页面长期显示售罄/补货
 - **京东云** — 仅限 AI 编程工具交互式使用，禁止 API 调用；社区有“容易截断、有点卡”和“未到 5h 上限仍触发 rate_limit”的反馈
