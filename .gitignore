@@ -1,15 +1,6 @@
-.DS_Store
-.claude/
-.playwright-mcp/
-node_modules/
-*_deploy
-公钥.md
-NEWAPI_PAGE_CUSTOMIZATION.md
+# Ignore everything
+*
 
-# Internal audit/debug artifacts
-memory.md
-homepage.png
-*_full.txt
-reports/
-screenshots/
-Updater/
+# But not these files
+!.gitignore
+!README.md
