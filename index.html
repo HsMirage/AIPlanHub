@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AIPlanHub — AI 订阅方案对比</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles/main.css" />
+</head>
+<body>
+
+<header class="site-header">
+  <div class="header-inner">
+    <a href="#home" class="header-brand">
+      <span class="brand-icon">⚡</span>
+      <div>
+        <h1>AIPlanHub</h1>
+        <p class="header-sub">AI 订阅方案 · 一站对比</p>
+      </div>
+    </a>
+    <div class="header-right">
+      <nav class="header-nav">
+        <a href="#home" class="nav-link active">首页</a>
+        <a href="#coding" class="nav-link">Coding</a>
+        <a href="#video" class="nav-link">Video</a>
+        <a href="#image" class="nav-link">Image</a>
+        <a href="#audio" class="nav-link">Audio</a>
+      </nav>
+      <span class="update-chip">Last Updated 2026.04.17</span>
+      <button id="theme-toggle" class="theme-toggle" title="切换主题">
+        <svg class="icon-sun" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
+        <svg class="icon-moon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+      </button>
+      <a href="https://github.com/HsMirage/AIPlanHub" target="_blank" class="gh-btn">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.477 2 2 6.477 2 12c0 4.418 2.865 8.166 6.839 9.489.5.092.682-.217.682-.482 0-.237-.008-.866-.013-1.7-2.782.603-3.369-1.342-3.369-1.342-.454-1.155-1.11-1.463-1.11-1.463-.908-.62.069-.607.069-.607 1.003.07 1.531 1.03 1.531 1.03.892 1.529 2.341 1.087 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.11-4.555-4.943 0-1.091.39-1.984 1.029-2.683-.103-.253-.446-1.27.098-2.647 0 0 .84-.269 2.75 1.025A9.578 9.578 0 0 1 12 6.836c.85.004 1.705.114 2.504.336 1.909-1.294 2.747-1.025 2.747-1.025.546 1.377.202 2.394.1 2.647.64.699 1.028 1.592 1.028 2.683 0 3.842-2.339 4.687-4.566 4.935.359.309.678.919.678 1.852 0 1.336-.012 2.415-.012 2.741 0 .267.18.578.688.48C19.138 20.163 22 16.418 22 12c0-5.523-4.477-10-10-10z"/></svg>
+        GitHub
+      </a>
+    </div>
+  </div>
+</header>
+
+<main>
+
+  <!-- ===== HOME PAGE ===== -->
+  <section id="page-home" class="page-content">
+    <div class="hero">
+      <div class="hero-badge">AI 订阅方案导航</div>
+      <h2 class="hero-title">一站式对比<br/>AI 工具订阅方案</h2>
+      <p class="hero-desc">
+        覆盖编程·视频·图片·音频多场景，帮你快速找到最适合的 AI 订阅方案。<br/>
+        实时更新价格，支持多维度筛选，让每一分钱都花在刀刃上。
+      </p>
+      <div class="hero-stats">
+        <div class="stat-item">
+          <span class="stat-num">22</span>
+          <span class="stat-label">Coding 平台</span>
+        </div>
+        <div class="stat-item">
+          <span class="stat-num">7+</span>
+          <span class="stat-label">Video 平台</span>
+        </div>
+        <div class="stat-item">
+          <span class="stat-num">6+</span>
+          <span class="stat-label">Image 平台</span>
+        </div>
+        <div class="stat-item">
+          <span class="stat-num">4+</span>
+          <span class="stat-label">Audio 平台</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="category-grid">
+      <a href="#coding" class="category-card cat-coding">
+        <div class="cat-icon">⌨</div>
+        <div class="cat-body">
+          <h3>AI Coding Plan</h3>
+          <p>覆盖智谱AI、Kimi、MiniMax、蓝耘元生代云、阶跃星辰、快手 StreamLake、OpenCode Go 等 21 大编程平台的订阅方案对比。</p>
+          <div class="cat-tags">
+            <span>GLM-5.1</span><span>kimi-k2.6-code-preview</span><span>MiniMax-M2.7</span><span>DeepSeek-V3.2</span>
+          </div>
+        </div>
+        <span class="cat-arrow">→</span>
+      </a>
+      <a href="#video" class="category-card cat-video">
+        <div class="cat-icon">🎬</div>
+        <div class="cat-body">
+          <h3>AI Video Plan</h3>
+          <p>覆盖快手可灵、即梦、通义万相、海螺AI、pai.video、Vidu 等 AI 视频生成平台对比。</p>
+          <div class="cat-tags">
+            <span>快手可灵</span><span>即梦</span><span>通义万相</span><span>海螺AI</span>
+          </div>
+        </div>
+        <span class="cat-arrow">→</span>
+      </a>
+      <a href="#image" class="category-card cat-image">
+        <div class="cat-icon">🎨</div>
+        <div class="cat-body">
+          <h3>AI Image Plan</h3>
+          <p>覆盖 Midjourney、即梦、通义万相、Liblib AI、堆友等 AI 图片生成平台对比。</p>
+          <div class="cat-tags">
+            <span>Midjourney</span><span>即梦</span><span>通义万相</span><span>Liblib AI</span>
+          </div>
+        </div>
+        <span class="cat-arrow">→</span>
+      </a>
+      <a href="#audio" class="category-card cat-audio">
+        <div class="cat-icon">🎵</div>
+        <div class="cat-body">
+          <h3>AI Audio Plan</h3>
+          <p>覆盖 Suno、Udio、海螺AI、Ace Studio 等 AI 音乐/音频生成平台对比。</p>
+          <div class="cat-tags">
+            <span>Suno</span><span>Udio</span><span>海螺AI</span><span>Ace Studio</span>
+          </div>
+        </div>
+        <span class="cat-arrow">→</span>
+      </a>
+    </div>
+
+    <div class="home-features">
+      <div class="feature-item">
+        <span class="feature-icon">📊</span>
+        <div>
+          <strong>实时价格对比</strong>
+          <p>多维度筛选 + 排序，快速锁定最优方案</p>
+        </div>
+      </div>
+      <div class="feature-item">
+        <span class="feature-icon">🔗</span>
+        <div>
+          <strong>直达开通链接</strong>
+          <p>一键跳转官方注册，部分链接享额外折扣</p>
+        </div>
+      </div>
+      <div class="feature-item">
+        <span class="feature-icon">🌙</span>
+        <div>
+          <strong>深色 / 亮色主题</strong>
+          <p>护眼设计，随时随地舒适查阅</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CODING PAGE ===== -->
+  <section id="page-coding" class="page-content">
+    <section class="section ratings-section">
+      <h2 class="section-title">平台推荐</h2>
+      <div class="ratings-row" id="ratings-row"></div>
+    </section>
+    <section class="filter-bar">
+      <div class="filter-row">
+        <div class="filter-item"><label>平台</label><select id="filter-platform"><option value="">全部</option></select></div>
+        <div class="filter-item"><label>模型</label><select id="filter-model"><option value="">全部</option></select></div>
+        <div class="filter-item"><label>月付上限</label><select id="filter-price"><option value="">不限</option><option value="50">≤ ¥50</option><option value="100">≤ ¥100</option><option value="200">≤ ¥200</option><option value="500">≤ ¥500</option></select></div>
+        <div class="filter-item"><label>季付上限</label><select id="filter-quarterly"><option value="">不限</option><option value="150">≤ ¥150</option><option value="300">≤ ¥300</option><option value="600">≤ ¥600</option></select></div>
+        <div class="filter-item"><label>年付上限</label><select id="filter-yearly"><option value="">不限</option><option value="500">≤ ¥500</option><option value="1000">≤ ¥1000</option><option value="2000">≤ ¥2000</option><option value="5000">≤ ¥5000</option></select></div>
+        <button id="reset-btn" class="reset-btn">重置</button>
+        <span id="filter-count" class="filter-count"></span>
+      </div>
+    </section>
+    <section class="section table-section">
+      <div class="table-wrap">
+        <table id="plans-table">
+          <thead><tr>
+            <th class="sticky-col" data-sort="platform">平台 <span class="sort-icon">↕</span></th><th data-sort="name">方案</th><th>开通</th>
+            <th data-sort="monthly" class="num-col">月付 <span class="sort-icon">↕</span></th><th data-sort="quarterlyAvg" class="num-col">季付均价 <span class="sort-icon">↕</span></th><th data-sort="yearlyAvg" class="num-col">年付均价 <span class="sort-icon">↕</span></th>
+            <th data-sort="firstMonth" class="num-col">首月价 <span class="sort-icon">↕</span></th><th data-sort="req5h" class="num-col">5h请求数 <span class="sort-icon">↕</span></th><th data-sort="reqWeek" class="num-col">周请求数 <span class="sort-icon">↕</span></th><th data-sort="reqMonth" class="num-col">月总请求 <span class="sort-icon">↕</span></th><th data-sort="tokenMonth" class="num-col">Token量 <span class="sort-icon">↕</span></th>
+            <th>支持模型</th><th>额外权益</th><th>备注</th>
+          </tr></thead>
+          <tbody id="plans-tbody"></tbody>
+        </table>
+      </div>
+    </section>
+    <section class="section notes-section">
+      <p class="section-update-date">Coding 数据更新于 2026.04.17</p>
+      <ul class="notes-list">
+        <li>季付均价 = 季付总价 ÷ 3；年付均价 = 年付总价 ÷ 12</li>
+        <li>5h请求数基于「1 prompt ≈ 15次调用」估算</li>
+        <li>部分平台通过邀请链接开通可享额外折扣</li>
+        <li>数据仅供参考，以各平台官方公告为准</li>
+      </ul>
+    </section>
+  </section>
+
+  <!-- ===== VIDEO PAGE ===== -->
+  <section id="page-video" class="page-content">
+    <section class="section ratings-section">
+      <h2 class="section-title">Video 平台推荐</h2>
+      <div class="ratings-row" id="video-ratings-row"></div>
+    </section>
+    <section class="filter-bar">
+      <div class="filter-row">
+        <div class="filter-item"><label>平台</label><select id="vfilter-platform"><option value="">全部</option></select></div>
+        <div class="filter-item"><label>月付上限</label><select id="vfilter-price"><option value="">不限</option><option value="0">免费</option><option value="70">≤ ¥70</option><option value="200">≤ ¥200</option><option value="500">≤ ¥500</option></select></div>
+        <button id="video-reset-btn" class="reset-btn">重置</button>
+        <span id="video-filter-count" class="filter-count"></span>
+      </div>
+    </section>
+    <section class="section table-section">
+      <div class="table-wrap">
+        <table id="video-plans-table">
+          <thead><tr>
+            <th class="sticky-col" data-sort="platform">平台 <span class="sort-icon">↕</span></th><th data-sort="name">方案</th><th>开通</th>
+            <th data-sort="monthly" class="num-col">月付 <span class="sort-icon">↕</span></th><th data-sort="yearlyAvg" class="num-col">年付均价 <span class="sort-icon">↕</span></th><th data-sort="yearly" class="num-col">年付 <span class="sort-icon">↕</span></th>
+            <th>积分/额度</th><th>视频时长</th><th>分辨率</th><th>核心功能</th><th>备注</th>
+          </tr></thead>
+          <tbody id="video-plans-tbody"></tbody>
+        </table>
+      </div>
+    </section>
+    <section class="section notes-section">
+      <p class="section-update-date">Video 数据更新于 2026.04.16</p>
+      <ul class="notes-list">
+        <li>各平台积分消耗规则不同，实际可生成视频数量以官方为准</li>
+        <li>价格为参考信息，实际价格以各平台官方公告为准</li>
+      </ul>
+    </section>
+  </section>
+
+  <!-- ===== IMAGE PAGE ===== -->
+  <section id="page-image" class="page-content">
+    <section class="section ratings-section">
+      <h2 class="section-title">Image 平台推荐</h2>
+      <div class="ratings-row" id="image-ratings-row"></div>
+    </section>
+    <section class="filter-bar">
+      <div class="filter-row">
+        <div class="filter-item"><label>平台</label><select id="ifilter-platform"><option value="">全部</option></select></div>
+        <div class="filter-item"><label>月付上限</label><select id="ifilter-price"><option value="">不限</option><option value="0">免费</option><option value="80">≤ ¥80</option><option value="200">≤ ¥200</option><option value="500">≤ ¥500</option></select></div>
+        <button id="image-reset-btn" class="reset-btn">重置</button>
+        <span id="image-filter-count" class="filter-count"></span>
+      </div>
+    </section>
+    <section class="section table-section">
+      <div class="table-wrap">
+        <table id="image-plans-table">
+          <thead><tr>
+            <th class="sticky-col" data-sort="platform">平台 <span class="sort-icon">↕</span></th><th data-sort="name">方案</th><th>开通</th>
+            <th data-sort="monthly" class="num-col">月付 <span class="sort-icon">↕</span></th><th data-sort="yearlyAvg" class="num-col">年付均价 <span class="sort-icon">↕</span></th><th data-sort="yearly" class="num-col">年付 <span class="sort-icon">↕</span></th>
+            <th>积分/额度</th><th>分辨率</th><th>核心功能</th><th>备注</th>
+          </tr></thead>
+          <tbody id="image-plans-tbody"></tbody>
+        </table>
+      </div>
+    </section>
+    <section class="section notes-section">
+      <p class="section-update-date">Image 数据更新于 2026.04.15</p>
+      <ul class="notes-list">
+        <li>Midjourney 价格按 $1≈¥7.0 估算，实际以美元结算</li>
+        <li>各平台积分消耗规则不同，实际可生成图片数量以官方为准</li>
+        <li>数据仅供参考，以各平台官方公告为准</li>
+      </ul>
+    </section>
+  </section>
+
+  <!-- ===== AUDIO PAGE ===== -->
+  <section id="page-audio" class="page-content">
+    <section class="section ratings-section">
+      <h2 class="section-title">Audio 平台推荐</h2>
+      <div class="ratings-row" id="audio-ratings-row"></div>
+    </section>
+    <section class="filter-bar">
+      <div class="filter-row">
+        <div class="filter-item"><label>平台</label><select id="afilter-platform"><option value="">全部</option></select></div>
+        <div class="filter-item"><label>月付上限</label><select id="afilter-price"><option value="">不限</option><option value="0">免费</option><option value="60">≤ ¥60</option><option value="120">≤ ¥120</option><option value="300">≤ ¥300</option></select></div>
+        <button id="audio-reset-btn" class="reset-btn">重置</button>
+        <span id="audio-filter-count" class="filter-count"></span>
+      </div>
+    </section>
+    <section class="section table-section">
+      <div class="table-wrap">
+        <table id="audio-plans-table">
+          <thead><tr>
+            <th class="sticky-col" data-sort="platform">平台 <span class="sort-icon">↕</span></th><th data-sort="name">方案</th><th>开通</th>
+            <th data-sort="monthly" class="num-col">月付 <span class="sort-icon">↕</span></th><th data-sort="yearlyAvg" class="num-col">年付均价 <span class="sort-icon">↕</span></th><th data-sort="yearly" class="num-col">年付 <span class="sort-icon">↕</span></th>
+            <th>积分/额度</th><th>音频时长</th><th>核心功能</th><th>备注</th>
+          </tr></thead>
+          <tbody id="audio-plans-tbody"></tbody>
+        </table>
+      </div>
+    </section>
+    <section class="section notes-section">
+      <p class="section-update-date">Audio 数据更新于 2026.04.16</p>
+      <ul class="notes-list">
+        <li>Suno/Udio/Ace Studio 价格按 $1≈¥7.0 估算，实际以美元结算</li>
+        <li>各平台积分消耗规则不同，实际可生成音频数量以官方为准</li>
+        <li>数据仅供参考，以各平台官方公告为准</li>
+      </ul>
+    </section>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <p>各分类更新日期见页面底部 · <a href="https://github.com/HsMirage/AIPlanHub" target="_blank">GitHub</a> · 仅供参考</p>
+</footer>
+
+<!-- Back to Top -->
+<button id="back-to-top" class="back-to-top" title="回到顶部">↑</button>
+
+<!-- Mobile Bottom Nav -->
+<nav class="mobile-nav">
+  <a href="#home" class="nav-link active"><span>⚡</span>首页</a>
+  <a href="#coding" class="nav-link"><span>⌨</span>Coding</a>
+  <a href="#video" class="nav-link"><span>🎬</span>Video</a>
+  <a href="#image" class="nav-link"><span>🎨</span>Image</a>
+  <a href="#audio" class="nav-link"><span>🎵</span>Audio</a>
+</nav>
+
+<script src="scripts/data.js"></script>
+<script src="scripts/video-data.js"></script>
+<script src="scripts/image-data.js"></script>
+<script src="scripts/audio-data.js"></script>
+<script src="scripts/app.js"></script>
+<script src="scripts/video-app.js"></script>
+<script src="scripts/image-app.js"></script>
+<script src="scripts/audio-app.js"></script>
+<script src="scripts/router.js"></script>
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+  const params = new URLSearchParams(window.location.search);
+  const forcedTheme = params.get('theme');
+  const embedMode = params.get('embed') === '1';
+
+  if (embedMode) {
+    document.documentElement.classList.add('embed-mode');
+  }
+
+  if (forcedTheme === 'light') {
+    document.documentElement.setAttribute('data-theme', 'light');
+  } else if (forcedTheme === 'dark') {
+    document.documentElement.removeAttribute('data-theme');
+  } else {
+    const saved = localStorage.getItem('theme');
+    if (saved) document.documentElement.setAttribute('data-theme', saved);
+  }
+
+  const themeToggle = document.getElementById('theme-toggle');
+  if (themeToggle) {
+    themeToggle.addEventListener('click', () => {
+      const next = document.documentElement.getAttribute('data-theme') === 'light' ? 'dark' : 'light';
+      document.documentElement.setAttribute('data-theme', next === 'dark' ? '' : next);
+      if (next === 'dark') localStorage.removeItem('theme');
+      else localStorage.setItem('theme', next);
+    });
+  }
+
+  // Init coding page
+  renderRatings();
+  populateFilters();
+  renderTable(PLANS);
+  document.getElementById('filter-count').textContent = `显示 ${PLANS.length} / ${PLANS.length} 个方案`;
+  ['filter-platform','filter-model','filter-price','filter-quarterly','filter-yearly']
+    .forEach(id => document.getElementById(id).addEventListener('change', applyFilters));
+  document.getElementById('reset-btn').addEventListener('click', resetFilters);
+  document.querySelectorAll('#page-coding thead th[data-sort]').forEach(th => {
+    th.addEventListener('click', () => {
+      const col = th.dataset.sort;
+      sortDir = sortCol === col ? sortDir * -1 : 1;
+      sortCol = col;
+      document.querySelectorAll('#page-coding thead th').forEach(t => t.classList.remove('sorted-asc','sorted-desc'));
+      th.classList.add(sortDir === 1 ? 'sorted-asc' : 'sorted-desc');
+      applyFilters();
+    });
+  });
+
+  // Init video page
+  initVideoPage();
+
+  // Init image page
+  initImagePage();
+
+  // Init audio page
+  initAudioPage();
+
+  // Back to top
+  const btt = document.getElementById('back-to-top');
+  window.addEventListener('scroll', () => {
+    btt.classList.toggle('visible', window.scrollY > 300);
+  });
+  btt.addEventListener('click', () => {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  });
+
+  // Init router (must be last)
+  Router.init();
+});
+</script>
+</body>
+</html>
