@@ -296,7 +296,7 @@ const RATINGS = [
     reasons: ['支持GLM-5.1·Qwen3.6-Plus', '允许 API 调用·支持 Codex CLI/CherryStudio', '按量包+包月并存·套餐形态灵活']
   },
   {
-    name: '京东云', score: 3,
+    name: '京东云', score: 4,
     reasons: ['支持 DeepSeek-V3.2 / GLM-5 / Qwen3-Coder', '7 模型覆盖·兼容 Claude Code/Cursor/OpenClaw', '价格标准·第三方测速中上游']
   },
   {
