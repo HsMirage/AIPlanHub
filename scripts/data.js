@@ -81,9 +81,9 @@ const PLANS = [
   // 官方宣称高峰期无明显降速；社区有截断/卡顿与未到 5h 上限触发 rate_limit 的反馈
   // 2026.04.11通过已登录Edge实测：docs.jdcloud.com套餐页明确显示每周限额，reqWeek=9000/45000
   { platform:'京东云', name:'Lite', monthly:40, quarterly:null, yearly:null, firstMonth:19.9,
-    models:['DeepSeek-V3.2','GLM-5','GLM-4.7','MiniMax-M2.5','Kimi-K2.5','Kimi-K2-Turbo','Qwen3-Coder'], req5h:1200, reqMonth:18000, reqWeek:9000, benefits:['多工具额度共享','支持主流 AI 编程工具'], note:'首月¥19.9·每天10:30限量·禁API调用', link:'https://3.cn/2-K9GY29' },
+    models:['DeepSeek-V3.2','GLM-5','GLM-4.7','MiniMax-M2.5','Kimi-K2.5','Kimi-K2-Turbo','Qwen3-Coder'], req5h:1200, reqMonth:18000, reqWeek:9000, benefits:['多工具额度共享','支持主流 AI 编程工具'], note:'首月¥19.9·每天10:30限量·禁API调用', link:'https://3.cn/2L4-HX0h' },
   { platform:'京东云', name:'Pro', monthly:200, quarterly:null, yearly:null, firstMonth:99.9,
-    models:['DeepSeek-V3.2','GLM-5','GLM-4.7','MiniMax-M2.5','Kimi-K2.5','Kimi-K2-Turbo','Qwen3-Coder'], req5h:6000, reqMonth:90000, reqWeek:45000, benefits:['5× Lite 用量','支持主流 AI 编程工具'], note:'首月¥99.9·每天10:30限量·禁API调用', link:'https://3.cn/2-K9GY29' },
+    models:['DeepSeek-V3.2','GLM-5','GLM-4.7','MiniMax-M2.5','Kimi-K2.5','Kimi-K2-Turbo','Qwen3-Coder'], req5h:6000, reqMonth:90000, reqWeek:45000, benefits:['5× Lite 用量','支持主流 AI 编程工具'], note:'首月¥99.9·每天10:30限量·禁API调用', link:'https://3.cn/2L4-HX0h' },
 
   // 移动云 - 帮助文档更新于 2026.04.09；活动页显示 Lite/Pro 首购券后价分别为 ¥7.9 / ¥39.9
   // 当前仅支持 MiniMax-M2.5，订购区仅华北-呼和浩特与湖北-武汉；Coding Plan 严禁 API 调用
@@ -242,6 +242,20 @@ const PLANS = [
     models:['DeepSeek-V3.2-Thinking','DeepSeek-V3.2','MiniMax-M2.7','MiniMax-M2.1','MiniMax-M2.5','GLM-4.7','Kimi-K2.5','GLM-5.1','GLM-5'], req5h:1000, reqMonth:12000, reqWeek:6000,    benefits:['多模型聚合','月费最低'], note:'首月5折优惠已结束(2026.03.31)·暂时售罄·次月¥40·月限额12000',link:'https://cloud.infini-ai.com/login?redirect=/genstudio/invitation&invite_code=qYRvZBVl' },
   { platform:'无问芯穹', name:'Pro', monthly:200, quarterly:null, yearly:null, firstMonth:99.9,
     models:['DeepSeek-V3.2-Thinking','DeepSeek-V3.2','MiniMax-M2.7','MiniMax-M2.1','MiniMax-M2.5','GLM-4.7','Kimi-K2.5','GLM-5.1','GLM-5'], req5h:5000, reqMonth:60000, reqWeek:30000,    benefits:['5倍Lite用量','专业高级场景'], note:'首月5折优惠已结束(2026.03.31)·暂时售罄·次月¥200·月限额60000',link:'https://cloud.infini-ai.com/login?redirect=/genstudio/invitation&invite_code=qYRvZBVl' },
+
+  // Alaya Code - 2026.04.18 新增
+  // 文档：https://codingplan.alayanew.com/docs/billing
+  // 3档套餐：Lite ¥39/月、Plus ¥199/月、Max ¥699/月
+  // ⚠️ 官网未公开具体请求数，页面仅显示"5h窗口配额"概念但无具体数值
+  { platform:'Alaya Code', name:'Lite', monthly:39, quarterly:null, yearly:null, firstMonth:null,
+    models:['MiniMax-M2.5','MiniMax-M2.1'], req5h:null, reqMonth:null, reqWeek:null, benefits:['兼容 Claude Code/OpenCode/OpenClaw'],
+    note:'⚠️如果官网仍未公开请求数·请谨慎购买', link:'https://codingplan.alayanew.com/docs/billing' },
+  { platform:'Alaya Code', name:'Plus', monthly:199, quarterly:null, yearly:null, firstMonth:null,
+    models:['MiniMax-M2.5','MiniMax-M2.1','GLM-5'], req5h:null, reqMonth:null, reqWeek:null, benefits:['兼容 Claude Code/OpenCode/OpenClaw'],
+    note:'⚠️如果官网仍未公开请求数·请谨慎购买', link:'https://codingplan.alayanew.com/docs/billing' },
+  { platform:'Alaya Code', name:'Max', monthly:699, quarterly:null, yearly:null, firstMonth:null,
+    models:['MiniMax-M2.5','MiniMax-M2.1','GLM-5','GLM-5.1'], req5h:null, reqMonth:null, reqWeek:null, benefits:['兼容 Claude Code/OpenCode/OpenClaw'],
+    note:'⚠️如果官网仍未公开请求数·请谨慎购买', link:'https://codingplan.alayanew.com/docs/billing' },
 ];
 // ===== Platform Ratings =====
 const RATINGS = [
@@ -328,5 +342,9 @@ const RATINGS = [
   {
     name: '无问芯穹', score: 3,
     reasons: ['支持GLM-5.1', 'Lite首月¥19.9·Pro首月¥99.9', '多模型聚合（DeepSeek/Kimi/GLM/MiniMax）']
+  },
+  {
+    name: 'Alaya Code', score: 2,
+    reasons: ['不同套餐可用模型不同', '具体请求数不清晰', '支持模型较少']
   }
 ];

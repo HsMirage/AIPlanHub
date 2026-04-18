@@ -6,7 +6,7 @@
 
 ---
 
-> Coding 数据更新于 2026.04.17 · Video 数据更新于 2026.04.16 · Image 数据更新于 2026.04.15 · Audio 数据更新于 2026.04.16 · 仅供参考，以各平台官方公告为准
+> Coding 数据更新于 2026.04.18 · Video 数据更新于 2026.04.16 · Image 数据更新于 2026.04.15 · Audio 数据更新于 2026.04.16 · 仅供参考，以各平台官方公告为准
 
 ---
 
@@ -34,7 +34,7 @@ https://ai.hsnb.fun/aiplanhub
 
 ---
 
-## Coding 平台（21 家）
+## Coding 平台（22 家）
 
 | 平台 | 代表模型 | 方案数 | 月付起 | 评分 |
 |------|----------|--------|--------|------|
@@ -59,6 +59,7 @@ https://ai.hsnb.fun/aiplanhub
 | 无问芯穹 | GLM-5.1 / DeepSeek-V3.2-Thinking / MiniMax-M2.7 | 2 | ¥40 | ★★★ |
 | 字节·方舟 | Doubao-Seed-2.0-pro | 2 | ¥40 | ★★ |
 | 小米·MiMo | MiMo-V2-Pro | 4 | ¥39 | ★ |
+| Alaya Code | MiniMax-M2.5 / GLM-5.1 | 3 | ¥39 | ★★ |
 
 ### 入门级（人民币月付 ≤ ¥50）
 
@@ -71,7 +72,7 @@ https://ai.hsnb.fun/aiplanhub
 | 小米·MiMo | Lite | ¥39 | ¥34.32 | — | 月 60M Credits | [开通](https://platform.xiaomimimo.com/#/token-plan) |
 | 讯飞星辰 | 专业版 | ¥39 | — | 1,200 | — | [开通](https://maas.xfyun.cn/packageSubscription?inviteCode=MAAS-7573AB85) |
 | 百度·千帆 | Lite | ¥40 | — | 1,200 | — | [开通](https://cloud.baidu.com/campaign/ambassador-product/index.html?ambassadorId=b00e3bb5d042440fbfaccf545e8e52f0#knowledge-model) |
-| 京东云 | Lite | ¥40 | ¥19.9 | 1,200 | — | [开通](https://3.cn/2-K9GY29) |
+| 京东云 | Lite | ¥40 | ¥19.9 | 1,200 | — | [开通](https://3.cn/2L4-HX0h) |
 | 联通云 | Lite | ¥40 | — | 1,200 | — | [开通](https://support.cucloud.cn/document/127/591/2357.html?id=2357&arcid=7015) |
 | 腾讯·Coding | Lite | ¥40 | ¥7.9 | 1,200 | — | [开通](https://curl.qcloud.com/1Uogyigq) |
 | 无问芯穹 | Lite | ¥40 | ¥19.9 | 1,000 | — | [开通](https://cloud.infini-ai.com/login?redirect=/genstudio/invitation&invite_code=qYRvZBVl) |
@@ -84,6 +85,7 @@ https://ai.hsnb.fun/aiplanhub
 | 阶跃星辰 | Flash Mini | ¥49 | — | 1,500 | — | [开通](https://platform.stepfun.com/docs/zh/step-plan/overview) |
 | MiniMax | Plus | ¥49 | — | 1,500 | — | [开通](https://platform.minimaxi.com/subscribe/token-plan?code=G2vbq30tXz&source=link) |
 | 优云 | Lite | ¥49.9 | — | — | 日 7M 积分 | [开通](https://passport.compshare.cn/register?referral_code=Kkl0Vgy0pCsFOzeMtfGBdI) |
+| Alaya Code | Lite | ¥39 | — | — | — | [开通](https://codingplan.alayanew.com/docs/billing) |
 
 ### 进阶级（人民币月付 ¥51-¥199）
 
@@ -112,7 +114,7 @@ https://ai.hsnb.fun/aiplanhub
 |------|------|------|--------|----------|---------|------|
 | 阿里·百炼 | Pro | ¥200 | — | 6,000 | — | [开通](https://www.aliyun.com/minisite/goods?userCode=hun0t0sf) |
 | 百度·千帆 | Pro | ¥200 | — | 6,000 | — | [开通](https://cloud.baidu.com/campaign/ambassador-product/index.html?ambassadorId=b00e3bb5d042440fbfaccf545e8e52f0#knowledge-model) |
-| 京东云 | Pro | ¥200 | ¥99.9 | 6,000 | — | [开通](https://3.cn/2-K9GY29) |
+| 京东云 | Pro | ¥200 | ¥99.9 | 6,000 | — | [开通](https://3.cn/2L4-HX0h) |
 | 联通云 | Pro | ¥200 | — | 6,000 | — | [开通](https://support.cucloud.cn/document/127/591/2357.html?id=2357&arcid=7015) |
 | 腾讯·Coding | Pro | ¥200 | ¥39.9 | 6,000 | — | [开通](https://curl.qcloud.com/1Uogyigq) |
 | 无问芯穹 | Pro | ¥200 | ¥99.9 | 5,000 | — | [开通](https://cloud.infini-ai.com/login?redirect=/genstudio/invitation&invite_code=qYRvZBVl) |
