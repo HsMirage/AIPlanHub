@@ -34,7 +34,7 @@ https://ai.hsnb.fun/aiplanhub
 
 ---
 
-## Coding 平台（22 家）
+## Coding 平台（23 家）
 
 | 平台 | 代表模型 | 方案数 | 月付起 | 评分 |
 |------|----------|--------|--------|------|
@@ -60,12 +60,14 @@ https://ai.hsnb.fun/aiplanhub
 | 字节·方舟 | Doubao-Seed-2.0-pro | 2 | ¥40 | ★★ |
 | 小米·MiMo | MiMo-V2-Pro | 4 | ¥39 | ★ |
 | Alaya Code | MiniMax-M2.5 / GLM-5.1 | 3 | ¥39 | ★★ |
+| Ollama | GLM-5.1 / qwen3.5 / MiniMax-M2.7 | 3 | $0 | ★★★ |
 
 ### 入门级（人民币月付 ≤ ¥50）
 
 | 平台 | 方案 | 月付 | 首月价 | 5h请求数 | Token量 | 开通 |
 |------|------|------|--------|----------|---------|------|
 | 讯飞星辰 | 无忧版 | ¥19 | ¥3.9 | — | — | [开通](https://maas.xfyun.cn/packageSubscription?inviteCode=MAAS-7573AB85) |
+| Ollama | Free | $0 | — | — | — | [开通](https://ollama.com/pricing) |
 | MiniMax | Starter | ¥29 | — | 600 | — | [开通](https://platform.minimaxi.com/subscribe/token-plan?code=G2vbq30tXz&source=link) |
 | 快手 StreamLake | Mini | ¥29 | — | 600 | — | [开通](https://www.streamlake.com/marketing/coding-plan) |
 | 腾讯·Token | Lite | ¥39 | — | — | 月 35M | [开通](https://curl.qcloud.com/1Uogyigq) |

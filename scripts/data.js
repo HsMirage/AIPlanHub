@@ -256,6 +256,20 @@ const PLANS = [
   { platform:'Alaya Code', name:'Max', monthly:699, quarterly:null, yearly:null, firstMonth:null,
     models:['MiniMax-M2.5','MiniMax-M2.1','GLM-5','GLM-5.1'], req5h:null, reqMonth:null, reqWeek:null, benefits:['兼容 Claude Code/OpenCode/OpenClaw'],
     note:'⚠️如果官网仍未公开请求数·请谨慎购买', link:'https://codingplan.alayanew.com/docs/billing' },
+
+  // Ollama - 2026.04.18 新增，官方定价页：https://ollama.com/pricing
+  // 3档套餐：Free $0、Pro $20/月($200/年)、Max $100/月
+  // 使用 GPU 时间计费，非固定请求数/Token数；有5h会话限制和每周限制，但具体数值未公开
+  // 支持模型列表：https://ollama.com/search?c=cloud
+  { platform:'Ollama', name:'Free', currency:'$', monthly:0, quarterly:null, yearly:null, firstMonth:null,
+    models:['GLM-5.1','gemma4','qwen3.5','qwen3-coder-next','MiniMax-M2.7','kimi-k2.5','deepseek-v3','llama4'], req5h:null, reqMonth:null, reqWeek:null, benefits:['免费使用','40,000+社区模型'],
+    note:'⚠️免费版额度有限·具体请求数不公开', link:'https://ollama.com/pricing' },
+  { platform:'Ollama', name:'Pro', currency:'$', monthly:20, quarterly:null, yearly:200, firstMonth:null,
+    models:['GLM-5.1','gemma4','qwen3.5','qwen3-coder-next','MiniMax-M2.7','kimi-k2.5','deepseek-v3','llama4','qwen3-next','nemotron-3-super'], req5h:null, reqMonth:null, reqWeek:null, benefits:['50x Free额度','3并发模型','上传共享私有模型'],
+    note:'⚠️具体请求数不公开·年付$200更划算', link:'https://ollama.com/pricing' },
+  { platform:'Ollama', name:'Max', currency:'$', monthly:100, quarterly:null, yearly:null, firstMonth:null,
+    models:['GLM-5.1','gemma4','qwen3.5','qwen3-coder-next','MiniMax-M2.7','kimi-k2.5','deepseek-v3','llama4','qwen3-next','nemotron-3-super','devstral-small-2'], req5h:null, reqMonth:null, reqWeek:null, benefits:['5x Pro额度','10并发模型','适合高强度开发'],
+    note:'⚠️具体请求数不公开', link:'https://ollama.com/pricing' },
 ];
 // ===== Platform Ratings =====
 const RATINGS = [
@@ -316,7 +330,7 @@ const RATINGS = [
     reasons: ['首月¥7.9 / ¥39.9·价格友好', '仅 MiniMax-M2.5·可选模型明显偏少', '第三方测速 TTFT 偏慢·且仅特定资源池可购']
   },
   {
-    name: '腾讯·Token', score: 2,
+    name: '腾讯·Token', score: 1,
     reasons: ['Token Plan·按 Token 计费更透明', '7 模型覆盖（HY 2.0 Think/T1/TurboS 独家）', '¥39 起·兼容 Claude Code/Cursor/OpenClaw']
   },
   {
@@ -346,5 +360,9 @@ const RATINGS = [
   {
     name: 'Alaya Code', score: 2,
     reasons: ['不同套餐可用模型不同', '具体请求数不清晰', '支持模型较少']
+  },
+  {
+    name: 'Ollama', score: 3,
+    reasons: ['支持GLM-5.1/qwen3.5/MiniMax-M2.7等主流模型', 'Free版可用·Pro版$20/月', '具体GPU时间不公开']
   }
 ];
