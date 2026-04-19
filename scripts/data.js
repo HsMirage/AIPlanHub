@@ -363,6 +363,6 @@ const RATINGS = [
   },
   {
     name: 'Ollama', score: 3,
-    reasons: ['支持GLM-5.1/qwen3.5/MiniMax-M2.7等主流模型', 'Free版可用·Pro版$20/月', '具体GPU时间不公开']
+    reasons: ['支持GLM5.1', '可用模型40,000+', '请求速度中等偏上', '具体请求数未公开！']
   }
 ];
