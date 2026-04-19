@@ -81,9 +81,9 @@ const PLANS = [
   // 官方宣称高峰期无明显降速；社区有截断/卡顿与未到 5h 上限触发 rate_limit 的反馈
   // 2026.04.11通过已登录Edge实测：docs.jdcloud.com套餐页明确显示每周限额，reqWeek=9000/45000
   { platform:'京东云', name:'Lite', monthly:40, quarterly:null, yearly:null, firstMonth:19.9,
-    models:['DeepSeek-V3.2','GLM-5','GLM-4.7','MiniMax-M2.5','Kimi-K2.5','Kimi-K2-Turbo','Qwen3-Coder'], req5h:1200, reqMonth:18000, reqWeek:9000, benefits:['多工具额度共享','支持主流 AI 编程工具'], note:'首月¥19.9·每天10:30限量·禁API调用', link:'https://3.cn/2L4-HX0h' },
+    models:['DeepSeek-V3.2','GLM-5','GLM-4.7','MiniMax-M2.5','Kimi-K2.5','Kimi-K2-Turbo','Qwen3-Coder'], req5h:1200, reqMonth:18000, reqWeek:9000, benefits:['多工具额度共享','支持主流 AI 编程工具'], note:'首月¥19.9·每天10:30限量·禁API调用', link:'https://3.cn/2-L8H4QY' },
   { platform:'京东云', name:'Pro', monthly:200, quarterly:null, yearly:null, firstMonth:99.9,
-    models:['DeepSeek-V3.2','GLM-5','GLM-4.7','MiniMax-M2.5','Kimi-K2.5','Kimi-K2-Turbo','Qwen3-Coder'], req5h:6000, reqMonth:90000, reqWeek:45000, benefits:['5× Lite 用量','支持主流 AI 编程工具'], note:'首月¥99.9·每天10:30限量·禁API调用', link:'https://3.cn/2L4-HX0h' },
+    models:['DeepSeek-V3.2','GLM-5','GLM-4.7','MiniMax-M2.5','Kimi-K2.5','Kimi-K2-Turbo','Qwen3-Coder'], req5h:6000, reqMonth:90000, reqWeek:45000, benefits:['5× Lite 用量','支持主流 AI 编程工具'], note:'首月¥99.9·每天10:30限量·禁API调用', link:'https://3.cn/2-L8H4QY' },
 
   // 移动云 - 帮助文档更新于 2026.04.09；活动页显示 Lite/Pro 首购券后价分别为 ¥7.9 / ¥39.9
   // 当前仅支持 MiniMax-M2.5，订购区仅华北-呼和浩特与湖北-武汉；Coding Plan 严禁 API 调用

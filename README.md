@@ -72,7 +72,7 @@ https://ai.hsnb.fun/aiplanhub
 | 小米·MiMo | Lite | ¥39 | ¥34.32 | — | 月 60M Credits | [开通](https://platform.xiaomimimo.com/#/token-plan) |
 | 讯飞星辰 | 专业版 | ¥39 | — | 1,200 | — | [开通](https://maas.xfyun.cn/packageSubscription?inviteCode=MAAS-7573AB85) |
 | 百度·千帆 | Lite | ¥40 | — | 1,200 | — | [开通](https://cloud.baidu.com/campaign/ambassador-product/index.html?ambassadorId=b00e3bb5d042440fbfaccf545e8e52f0#knowledge-model) |
-| 京东云 | Lite | ¥40 | ¥19.9 | 1,200 | — | [开通](https://3.cn/2L4-HX0h) |
+| 京东云 | Lite | ¥40 | ¥19.9 | 1,200 | — | [开通](https://3.cn/2-L8H4QY) |
 | 联通云 | Lite | ¥40 | — | 1,200 | — | [开通](https://support.cucloud.cn/document/127/591/2357.html?id=2357&arcid=7015) |
 | 腾讯·Coding | Lite | ¥40 | ¥7.9 | 1,200 | — | [开通](https://curl.qcloud.com/1Uogyigq) |
 | 无问芯穹 | Lite | ¥40 | ¥19.9 | 1,000 | — | [开通](https://cloud.infini-ai.com/login?redirect=/genstudio/invitation&invite_code=qYRvZBVl) |
@@ -114,7 +114,7 @@ https://ai.hsnb.fun/aiplanhub
 |------|------|------|--------|----------|---------|------|
 | 阿里·百炼 | Pro | ¥200 | — | 6,000 | — | [开通](https://www.aliyun.com/minisite/goods?userCode=hun0t0sf) |
 | 百度·千帆 | Pro | ¥200 | — | 6,000 | — | [开通](https://cloud.baidu.com/campaign/ambassador-product/index.html?ambassadorId=b00e3bb5d042440fbfaccf545e8e52f0#knowledge-model) |
-| 京东云 | Pro | ¥200 | ¥99.9 | 6,000 | — | [开通](https://3.cn/2L4-HX0h) |
+| 京东云 | Pro | ¥200 | ¥99.9 | 6,000 | — | [开通](https://3.cn/2-L8H4QY) |
 | 联通云 | Pro | ¥200 | — | 6,000 | — | [开通](https://support.cucloud.cn/document/127/591/2357.html?id=2357&arcid=7015) |
 | 腾讯·Coding | Pro | ¥200 | ¥39.9 | 6,000 | — | [开通](https://curl.qcloud.com/1Uogyigq) |
 | 无问芯穹 | Pro | ¥200 | ¥99.9 | 5,000 | — | [开通](https://cloud.infini-ai.com/login?redirect=/genstudio/invitation&invite_code=qYRvZBVl) |
