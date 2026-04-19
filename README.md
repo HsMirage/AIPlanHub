@@ -51,7 +51,7 @@ https://ai.hsnb.fun/aiplanhub
 | 联通云 | GLM-5.1 | 2 | ¥40 | ★★★ |
 | 腾讯·Coding | HY-2.0 | 2 | ¥40 | ★★★ |
 | 移动云 | MiniMax-M2.5 | 2 | ¥40 | ★★ |
-| 腾讯·Token | HY-2.0 Think/T1/TurboS | 4 | ¥39 | ★★ |
+| 腾讯·Token | HY-2.0 Think/T1/TurboS | 4 | ¥39 | ★ |
 | 百度·千帆 | GLM-5 | 2 | ¥40 | ★★★★ |
 | 讯飞星辰 | Spark X2 | 3 | ¥19 | ★★★ |
 | 阶跃星辰 | Step 3.5 Flash 2603 | 4 | ¥49 | ★★★★ |
