@@ -5,12 +5,13 @@ const PLANS = [
   // 2026.04.11通过已登录Edge实测：docs.bigmodel.cn官方文档明确显示每周限额
   // 每周限额为prompts数，换算请求数×15（每次prompt约15-20次模型调用）；月限额为API定价折算估算值
   // 2026.04.17核对：文档页模型列表更新为「所有套餐均支持 GLM-5.1、GLM-5-Turbo、GLM-4.7、GLM-4.5-Air」；GLM-4.6/GLM-4.5已下线
+  // 2026.04.20核对：文档页显示Max每月约32000 prompts (480000次调用)，更新为与文档一致
   { platform:'智谱AI', name:'Lite', monthly:49, quarterly:132.3, yearly:470.4, firstMonth:null,
     models:['GLM-5.1','GLM-5-Turbo','GLM-4.7','GLM-4.5-Air'], req5h:1200, reqMonth:24000, reqWeek:6000, benefits:['免费MCP','20+编程工具'], note:'季付¥44.1/月·年付¥39.2/月·Lite不含GLM-5·高阶模型高峰3x/非高峰2x抵扣·实际可用量约为标称1/2~1/3', link:'https://www.bigmodel.cn/glm-coding?ic=DGRQECTZFB' },
   { platform:'智谱AI', name:'Pro', monthly:149, quarterly:402.3, yearly:1430.4, firstMonth:null,
     models:['GLM-5.1','GLM-5','GLM-5-Turbo','GLM-4.7','GLM-4.5-Air'], req5h:6000, reqMonth:120000, reqWeek:30000, benefits:['免费MCP','优先体验新模型'], note:'季付¥134.1/月·年付¥119.2/月·Pro含GLM-5·高阶模型高峰3x/非高峰2x抵扣·实际可用量约为标称1/2~1/3', link:'https://www.bigmodel.cn/glm-coding?ic=DGRQECTZFB' },
   { platform:'智谱AI', name:'Max', monthly:469, quarterly:1266.3, yearly:4502.4, firstMonth:null,
-    models:['GLM-5.1','GLM-5','GLM-5-Turbo','GLM-4.7','GLM-4.5-Air'], req5h:24000, reqMonth:600000, reqWeek:120000, benefits:['免费MCP','高峰期专属资源'], note:'季付¥422.1/月·年付¥375.2/月·Max含GLM-5·高阶模型高峰3x/非高峰2x抵扣·实际可用量约为标称1/2~1/3', link:'https://www.bigmodel.cn/glm-coding?ic=DGRQECTZFB' },
+    models:['GLM-5.1','GLM-5','GLM-5-Turbo','GLM-4.7','GLM-4.5-Air'], req5h:24000, reqMonth:480000, reqWeek:120000, benefits:['免费MCP','高峰期专属资源'], note:'季付¥422.1/月·年付¥375.2/月·Max含GLM-5·高阶模型高峰3x/非高峰2x抵扣·实际可用量约为标称1/2~1/3', link:'https://www.bigmodel.cn/glm-coding?ic=DGRQECTZFB' },
 
   // z.ai（智谱国际版）- ⚠️ 2026.04.11价格大幅上调！
   // 月付: $18/$72/$160（Lite/Pro/Max）；季付: $54/$216/$480（首季$43.74/$174.96/$388.8享Friend Gift 10%）
@@ -74,6 +75,7 @@ const PLANS = [
   // 2026.04.11核对：官方Coding Plan概述页显示qwen3.6-plus为Pro专属权益；控制台显示Pro暂时售罄
   // 2026.04.10核对：帮助文档明确写"每周45,000次请求"，reqWeek=45000
   // 2026.04.17核对：文档(2026-04-14更新)确认Lite 4/13起停止续费升级；首续5折活动4/1结束；Pro限量抢购·每日09:30补货
+  // 2026.04.20核对：页面显示Pro仍为售罄状态，每周45000次请求限额信息未变
   { platform:'阿里·百炼', name:'Pro', monthly:200, quarterly:null, yearly:null, firstMonth:null,
     models:['Qwen3.6-Plus','Qwen3.5-Plus','Qwen3-Coder-Next','Qwen3-Coder-Plus','Qwen3-Max-2026-01-23','GLM-5','GLM-4.7','Kimi-K2.5','MiniMax-M2.5'], req5h:6000, reqMonth:90000, reqWeek:45000, benefits:['多模型自由切换'], note:'Lite已停止新购(3.20)及续费(4.13)·Pro专属Qwen3.6-Plus·Pro限量抢购·每日09:30补货·首续5折4/1结束·每周45000次', link:'https://www.aliyun.com/minisite/goods?userCode=hun0t0sf' },
 
