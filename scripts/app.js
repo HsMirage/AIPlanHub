@@ -200,7 +200,6 @@ function renderTable(plans) {
       <td class="num"><span class="price-main">${cur}${p.monthly}</span></td>
       <td class="num">${qAvg ? `<span class="price-yearly">${cur}${qAvg}</span>` : na()}</td>
       <td class="num">${yAvg ? `<span class="price-yearly">${cur}${yAvg}</span>` : na()}</td>
-      <td class="num">${p.firstMonth ? `${cur}${p.firstMonth}` : na()}</td>
       <td class="num">${fmt(p.req5h)}</td>
       <td class="num">${fmt(p.reqWeek)}</td>
       <td class="num">${fmt(p.reqMonth)}</td>

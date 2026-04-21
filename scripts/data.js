@@ -130,9 +130,9 @@ const PLANS = [
   // 2026.04.11实测：页面仅显示"1月 日常价：40元/200元"，无季付/年付选项
   // 2026.04.10核对：活动页明确写每周请求数，reqWeek=9000/45000
   { platform:'腾讯·Coding', name:'Lite', monthly:40, quarterly:null, yearly:null, firstMonth:7.9,
-    models:['HY-2.0','GLM-5','Kimi-K2.5','MiniMax-M2.5'], req5h:1200, reqMonth:18000, reqWeek:9000, benefits:['企业生态强'], note:'仅月付·Coding Plan·首月¥7.9·Lite限量抢购',    link:'https://console.cloud.tencent.cn/tokenhub/codingplan?regionId=1' },
+    models:['HY-2.0','GLM-5','Kimi-K2.5','MiniMax-M2.5'], req5h:1200, reqMonth:18000, reqWeek:9000, benefits:['企业生态强'], note:'仅月付·Coding Plan·Lite限量抢购·首月优惠已结束',    link:'https://cloud.tencent.com/document/product/1823/130092' },
   { platform:'腾讯·Coding', name:'Pro', monthly:200, quarterly:null, yearly:null, firstMonth:39.9,
-    models:['HY-2.0','GLM-5','Kimi-K2.5','MiniMax-M2.5'], req5h:6000, reqMonth:90000, reqWeek:45000, benefits:['企业生态强'], note:'仅月付·Coding Plan·首月¥39.9', link:'https://console.cloud.tencent.cn/tokenhub/codingplan?regionId=1' },
+    models:['HY-2.0','GLM-5','Kimi-K2.5','MiniMax-M2.5'], req5h:6000, reqMonth:90000, reqWeek:45000, benefits:['企业生态强'], note:'仅月付·Coding Plan·首月¥39.9', link:'https://cloud.tencent.com/document/product/1823/130092' },
 
   // 百度·千帆 - 2月11日上线；每日10:30和17:00限量补货
   // 2026.04.10核对：帮助文档明确写每周限额，reqWeek=9000/45000

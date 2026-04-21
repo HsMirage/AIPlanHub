@@ -236,7 +236,6 @@ function tpRenderTable(plans) {
       <td class="num"><span class="price-main">${cur}${p.monthly}</span></td>
       <td class="num">${qAvg ? `<span class="price-yearly">${cur}${qAvg}</span>` : tpNa()}</td>
       <td class="num">${yAvg ? `<span class="price-yearly">${cur}${yAvg}</span>` : tpNa()}</td>
-      <td class="num">${p.firstMonth ? `${cur}${p.firstMonth}` : tpNa()}</td>
       <td class="num credits-cell">${tpRenderCreditsCol(p)}</td>
       <td>${models}</td>
       <td>${benefits}</td>
