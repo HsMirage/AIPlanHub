@@ -41,8 +41,8 @@ https://ai.hsnb.fun/aiplanhub
 |------|----------|--------|--------|------|
 | 智谱AI | GLM-5.1 / GLM-5-Turbo / GLM-4.7 / GLM-4.5-Air | 3 | ¥49 | ★★★★ |
 | z.ai | GLM-5.1（国际版） | 3 | $18 | ★★ |
-| OpenCode Go | Qwen3.6-Plus / GLM-5.1 / MiniMax-M2.7 | 1 | $10 | ★★★ |
-| Kimi | kimi-k2.6-code-preview | 4 | ¥49 | ★★★ |
+| OpenCode Go | Qwen3.6-Plus / GLM-5.1 / kimi-k2.6 / MiniMax-M2.7 | 1 | $10 | ★★★ |
+| Kimi | kimi-k2.6 | 4 | ¥49 | ★★★ |
 | 阿里·百炼 | Qwen3.6-Plus | 1 | ¥200 | ★★★★ |
 | 天翼云 | GLM-5.1 | 3 | ¥49 | ★★★★★ |
 | 蓝耘元生代云 | GLM-5.1 | 3 | ¥49 | ★★★★ |
@@ -119,7 +119,7 @@ https://ai.hsnb.fun/aiplanhub
 
 | 平台 | 方案 | 月付 | 首月价 | 5h请求数 | 开通 |
 |------|------|------|--------|----------|------|
-| OpenCode Go | Go | $10 | $5 | — | [开通](https://opencode.ai/auth) |
+| OpenCode Go | Go | $10 | $5 | — | [开通](https://opencode.ai/zh/go) |
 | z.ai | Lite | $18 | — | 1,200 | [开通](https://z.ai/subscribe?ic=V6PINPKB9I) |
 | z.ai | Pro | $72 | — | 6,000 | [开通](https://z.ai/subscribe?ic=V6PINPKB9I) |
 | z.ai | Max | $160 | — | 24,000 | [开通](https://z.ai/subscribe?ic=V6PINPKB9I) |

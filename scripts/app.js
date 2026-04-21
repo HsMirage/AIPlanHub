@@ -4,8 +4,8 @@ const MAX_MODEL_TAGS = 5;
 const PLATFORM_LATEST_MODELS = {
   '智谱AI': ['GLM-5.1'],
   'z.ai': ['GLM-5.1'],
-  'OpenCode Go': ['GLM-5.1', 'MiniMax-M2.7'],
-  'Kimi': ['kimi-k2.6-code-preview', 'Kimi-K2.5'],
+  'OpenCode Go': ['GLM-5.1', 'MiniMax-M2.7', 'kimi-k2.6'],
+  'Kimi': ['kimi-k2.6', 'Kimi-K2.5'],
   'MiniMax': ['MiniMax-M2.7'],
   '字节·方舟': ['Doubao-Seed-2.0-pro'],
   '阿里·百炼': ['Qwen3.6-Plus', 'Qwen3.6plus', 'Qwen3.5-Plus'],
@@ -21,7 +21,7 @@ function getCommonModelPriority(model) {
   if (model === 'GLM-5.1') return [1, 0];
   if (model === 'GLM-5') return [2, 0];
   if (model === 'GLM-5-Turbo') return [3, 0];
-  if (model === 'kimi-k2.6-code-preview') return [4, 0];
+  if (model === 'kimi-k2.6') return [4, 0];
   if (model === 'Kimi-K2.5') return [4, 1];
   if (model === 'DeepSeek-V3.2') return [5, 0];
   if (model === 'Qwen3-Coder-Next-FP8') return [6, 0];

@@ -31,19 +31,19 @@ const PLANS = [
   // 官方说明：首月 $5，次月起 $10；5h / 周 / 月预算分别为 $12 / $30 / $60，实际请求数随模型成本变化
   // 2026.04.17核对：文档(2026-04-16更新)新增 Qwen3.5 Plus / Qwen3.6 Plus / MiniMax M2.7
   { platform:'OpenCode Go', name:'Go', currency:'$', monthly:10, quarterly:null, yearly:null, firstMonth:5,
-    models:['Qwen3.6-Plus','Qwen3.5-Plus','GLM-5.1','GLM-5','Kimi-K2.5','MiniMax-M2.7','MiMo-V2-Pro','MiMo-V2-Omni','MiniMax-M2.5'], req5h:null, reqMonth:null, reqWeek:null,
-    benefits:['首月$5','OpenCode 原生接入'], note:'Beta·5h预算$12·每周$30·每月$60·实际请求数随模型而变·可切换为超额使用 Zen 余额', link:'https://opencode.ai/auth' },
+    models:['Qwen3.6-Plus','GLM-5.1','MiniMax-M2.7','kimi-k2.6','Kimi-K2.5','qwen3.5','qwen3-next','MiniMax-M2.5','MiMo-V2-Pro','MiMo-V2-Omni'], req5h:null, reqMonth:null, reqWeek:null,
+    benefits:['首月$5','OpenCode 原生接入'], note:'Beta·5h预算$12·每周$30·每月$60·实际请求数随模型而变·可切换为超额使用 Zen 余额', link:'https://opencode.ai/zh/go' },
 
   // Kimi - 官网实测：连续包月原价/连续包年折扣价
   // 2026.04.14更新：Kimi Code 页面显示 K2.6-code-preview 已上线；全部 Kimi Code Plan 可使用
   { platform:'Kimi', name:'Andante', monthly:49, quarterly:null, yearly:468, firstMonth:39,
-    models:['kimi-k2.6-code-preview','Kimi-K2.5'], req5h:null, reqMonth:null, reqWeek:null, benefits:['专属编程额度','旗舰模型抢先体验'], note:'年付¥39/月·连续包年首月¥39·K2.6-code-preview已上线·请求数未公开', link:'https://www.kimi.com/code/zh' },
+    models:['kimi-k2.6','Kimi-K2.5'], req5h:null, reqMonth:null, reqWeek:null, benefits:['专属编程额度','旗舰模型抢先体验'], note:'年付¥39/月·连续包年首月¥39·K2.6已上线·请求数未公开', link:'https://www.kimi.com/code/zh' },
   { platform:'Kimi', name:'Moderato', monthly:99, quarterly:null, yearly:948, firstMonth:79,
-    models:['kimi-k2.6-code-preview','Kimi-K2.5'], req5h:null, reqMonth:null, reqWeek:null, benefits:['每周更新额度','多设备共享'], note:'年付¥79/月·连续包年首月¥79·K2.6-code-preview已上线·请求数未公开', link:'https://www.kimi.com/code/zh' },
+    models:['kimi-k2.6','Kimi-K2.5'], req5h:null, reqMonth:null, reqWeek:null, benefits:['每周更新额度','多设备共享'], note:'年付¥79/月·连续包年首月¥79·K2.6已上线·请求数未公开', link:'https://www.kimi.com/code/zh' },
   { platform:'Kimi', name:'Allegretto', monthly:199, quarterly:null, yearly:1908, firstMonth:159,
-    models:['kimi-k2.6-code-preview','Kimi-K2.5'], req5h:null, reqMonth:null, reqWeek:null, benefits:['充足每周额度','高并发上限'], note:'年付¥159/月·连续包年首月¥159·K2.6-code-preview已上线·请求数未公开', link:'https://www.kimi.com/code/zh' },
+    models:['kimi-k2.6','Kimi-K2.5'], req5h:null, reqMonth:null, reqWeek:null, benefits:['充足每周额度','高并发上限'], note:'年付¥159/月·连续包年首月¥159·K2.6已上线·请求数未公开', link:'https://www.kimi.com/code/zh' },
   { platform:'Kimi', name:'Allegro', monthly:699, quarterly:null, yearly:6708, firstMonth:559,
-    models:['kimi-k2.6-code-preview','Kimi-K2.5'], req5h:null, reqMonth:null, reqWeek:null, benefits:['澎湃额度','高强度开发'], note:'年付¥559/月·连续包年首月¥559·K2.6-code-preview已上线·请求数未公开', link:'https://www.kimi.com/code/zh' },
+    models:['kimi-k2.6','Kimi-K2.5'], req5h:null, reqMonth:null, reqWeek:null, benefits:['澎湃额度','高强度开发'], note:'年付¥559/月·连续包年首月¥559·K2.6已上线·请求数未公开', link:'https://www.kimi.com/code/zh' },
 
   // MiniMax - Token Plan（3月23日升级），不同套餐开放不同的语音/视频/音乐/图像额度
   // 2026.04.11实测：Token Plan 规则为"每周可使用额度为『每5小时额度』的 10 倍" → reqWeek = req5h × 10
@@ -219,13 +219,13 @@ const PLANS = [
   // 使用 GPU 时间计费，非固定请求数/Token数；有5h会话限制和每周限制，但具体数值未公开
   // 支持模型列表：https://ollama.com/search?c=cloud
   { platform:'Ollama', name:'Free', currency:'$', monthly:0, quarterly:null, yearly:null, firstMonth:null,
-    models:['GLM-5.1','gemma4','qwen3.5','qwen3-coder-next','MiniMax-M2.7','kimi-k2.5','deepseek-v3','llama4'], req5h:null, reqMonth:null, reqWeek:null, benefits:['免费使用','40,000+社区模型'],
+    models:['GLM-5.1','qwen3.5','qwen3-coder-next','MiniMax-M2.7','kimi-k2.6','kimi-k2.5','deepseek-v3','llama4','gemma4'], req5h:null, reqMonth:null, reqWeek:null, benefits:['免费使用','40,000+社区模型'],
     note:'⚠️免费版额度有限·具体请求数不公开', link:'https://ollama.com/pricing' },
   { platform:'Ollama', name:'Pro', currency:'$', monthly:20, quarterly:null, yearly:200, firstMonth:null,
-    models:['GLM-5.1','gemma4','qwen3.5','qwen3-coder-next','MiniMax-M2.7','kimi-k2.5','deepseek-v3','llama4','qwen3-next','nemotron-3-super'], req5h:null, reqMonth:null, reqWeek:null, benefits:['50x Free额度','3并发模型','上传共享私有模型'],
+    models:['GLM-5.1','qwen3.5','qwen3-coder-next','MiniMax-M2.7','kimi-k2.6','kimi-k2.5','deepseek-v3','llama4','qwen3-next','nemotron-3-super','gemma4'], req5h:null, reqMonth:null, reqWeek:null, benefits:['50x Free额度','3并发模型','上传共享私有模型'],
     note:'⚠️具体请求数不公开·年付$200更划算', link:'https://ollama.com/pricing' },
   { platform:'Ollama', name:'Max', currency:'$', monthly:100, quarterly:null, yearly:null, firstMonth:null,
-    models:['GLM-5.1','gemma4','qwen3.5','qwen3-coder-next','MiniMax-M2.7','kimi-k2.5','deepseek-v3','llama4','qwen3-next','nemotron-3-super','devstral-small-2'], req5h:null, reqMonth:null, reqWeek:null, benefits:['5x Pro额度','10并发模型','适合高强度开发'],
+    models:['GLM-5.1','qwen3.5','qwen3-coder-next','MiniMax-M2.7','kimi-k2.6','kimi-k2.5','deepseek-v3','llama4','qwen3-next','nemotron-3-super','devstral-small-2','gemma4'], req5h:null, reqMonth:null, reqWeek:null, benefits:['5x Pro额度','10并发模型','适合高强度开发'],
     note:'⚠️具体请求数不公开', link:'https://ollama.com/pricing' },
 ];
 // ===== Platform Ratings =====
