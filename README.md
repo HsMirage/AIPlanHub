@@ -44,7 +44,7 @@ https://ai.hsnb.fun/aiplanhub
 | MiniMax | MiniMax-M2.7 | 6 | ¥29 | ★★★★★ |
 | Kimi | kimi-k2.6-code-preview | 4 | ¥49 | ★★★ |
 | 阿里·百炼 | Qwen3.6-Plus | 1 | ¥200 | ★★★★ |
-| 阿里·Token Plan | qwen3.6-plus | 4 | ¥198 | ★★★★ |
+| 阿里·Token Plan | qwen3.6-plus | 4 | ¥198 | ★ |
 | 天翼云 | GLM-5.1 | 3 | ¥49 | ★★★★★ |
 | 蓝耘元生代云 | GLM-5.1 | 3 | ¥49 | ★★★★ |
 | 优云 | GLM-5.1 / Qwen3.6-Plus | 3 | ¥49.9 | ★★★ |

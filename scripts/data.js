@@ -320,7 +320,7 @@ const RATINGS = [
     reasons: ['独家 Qwen3.6-Plus', 'Lite 停止新购·Pro 限量抢购每日09:30补货', '固定¥200/月·每月90,000次请求']
   },
   {
-    name: '阿里·Token Plan', score: 4,
+    name: '阿里·Token Plan', score: 1,
     reasons: ['Credits统一计量·文本+图像双模态', '¥198起按坐席订阅·可扩展', '支持qwen3.6-plus/glm-5/MiniMax-M2.5/deepseek-v3.2']
   },
   {
