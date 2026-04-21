@@ -99,7 +99,7 @@ const TOKEN_RATINGS=[
     reasons: ['Credit≠Token·Pro 2x/Omni 1x 实际缩水', '¥39 仅 6000 Credits，性价比远低于同行', '兼容 Claude Code 但定价无竞争力']
   },
   {
-    name: 'OpenCode Go', score: 2,
+    name: 'OpenCode Go', score: 3,
     reasons: ['Token Plan·按美元滚动预算$12/5h·$30/周·$60/月', 'Beta·模型丰富（Qwen3.6-Plus/GLM-5.1/MiniMax-M2.7等）', '实际请求数随模型成本变化·用户无法自测', '可切换超额使用 Zen 余额']
   },
   {
