@@ -126,7 +126,7 @@ https://ai.hsnb.fun/aiplanhub
 
 ---
 
-## Token 平台（4 家）
+## Token 平台（5 家）
 
 > 每家的 Credits / Token 计算方式不同，具体可用额度请进入官网查询
 
@@ -136,6 +136,7 @@ https://ai.hsnb.fun/aiplanhub
 | 腾讯·Token | HY-2.0 / HY-2.0-Think | 4 | ¥39 | ★★★ |
 | 阿里·Token Plan | qwen3.6-plus | 4 | ¥198 | ★★ |
 | 小米·MiMo | MiMo-V2-Pro | 4 | ¥39 | ★ |
+| OpenCode Go | Qwen3.6-Plus | 1 | $10 | ★★ |
 
 ### Token 入门（人民币月付 ≤ ¥100）
 
@@ -144,6 +145,7 @@ https://ai.hsnb.fun/aiplanhub
 | 腾讯·Token | Lite | ¥39 | — | 3,500万 Tokens/月 | [开通](https://curl.qcloud.com/1Uogyigq) |
 | 小米·MiMo | Lite | ¥39 | ¥34.32 | 6,000 Credits/月 | [开通](https://platform.xiaomimimo.com/#/token-plan) |
 | 优云 | Lite | ¥49.9 | — | 700 积分/日 | [开通](https://passport.compshare.cn/register?referral_code=Kkl0Vgy0pCsFOzeMtfGBdI) |
+| OpenCode Go | Go | $10 | $5 | $12/5h $30/周 $60/月 | [开通](https://opencode.ai/zh/go) |
 | 腾讯·Token | Standard | ¥99 | — | 1亿 Tokens/月 | [开通](https://curl.qcloud.com/1Uogyigq) |
 | 小米·MiMo | Standard | ¥99 | ¥87.12 | 20,000 Credits/月 | [开通](https://platform.xiaomimimo.com/#/token-plan) |
 

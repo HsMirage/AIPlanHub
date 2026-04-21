@@ -4,7 +4,6 @@ const MAX_MODEL_TAGS = 5;
 const PLATFORM_LATEST_MODELS = {
   '智谱AI': ['GLM-5.1'],
   'z.ai': ['GLM-5.1'],
-  'OpenCode Go': ['GLM-5.1', 'MiniMax-M2.7', 'kimi-k2.6'],
   'Kimi': ['kimi-k2.6', 'Kimi-K2.5'],
   'MiniMax': ['MiniMax-M2.7'],
   '字节·方舟': ['Doubao-Seed-2.0-pro'],

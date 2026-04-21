@@ -27,13 +27,6 @@ const PLANS = [
   { platform:'z.ai', name:'Max', monthly:160, quarterly:480, yearly:1536, firstMonth:null,
     models:['GLM-5.1','GLM-5','GLM-5-Turbo','GLM-4.7','GLM-4.6','GLM-4.5-Air'], req5h:24000, reqMonth:600000, reqWeek:120000, benefits:['4× Pro 用量','高峰期保证性能','抢先体验新模型'], note:'⚠️月付$160·季付$480·年付$1536·Friend Gift首月10%优惠($144)·沿用智谱同档位周/月请求数口径·高阶模型高峰3x/非高峰2x抵扣·实际可用量约为标称1/2~1/3', link:'https://z.ai/subscribe?ic=V6PINPKB9I' },
 
-  // OpenCode Go - 2026.04.14 核对中文文档页；当前为单档订阅，限额按美元预算而非固定请求数
-  // 官方说明：首月 $5，次月起 $10；5h / 周 / 月预算分别为 $12 / $30 / $60，实际请求数随模型成本变化
-  // 2026.04.17核对：文档(2026-04-16更新)新增 Qwen3.5 Plus / Qwen3.6 Plus / MiniMax M2.7
-  { platform:'OpenCode Go', name:'Go', currency:'$', monthly:10, quarterly:null, yearly:null, firstMonth:5,
-    models:['Qwen3.6-Plus','GLM-5.1','MiniMax-M2.7','kimi-k2.6','Kimi-K2.5','qwen3.5','qwen3-next','MiniMax-M2.5','MiMo-V2-Pro','MiMo-V2-Omni'], req5h:null, reqMonth:null, reqWeek:null,
-    benefits:['首月$5','OpenCode 原生接入'], note:'Beta·5h预算$12·每周$30·每月$60·实际请求数随模型而变·可切换为超额使用 Zen 余额', link:'https://opencode.ai/zh/go' },
-
   // Kimi - 官网实测：连续包月原价/连续包年折扣价
   // 2026.04.14更新：Kimi Code 页面显示 K2.6 已上线；全部 Kimi Code Plan 可使用
   { platform:'Kimi', name:'Andante', monthly:49, quarterly:null, yearly:468, firstMonth:39,

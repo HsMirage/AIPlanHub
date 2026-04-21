@@ -2,6 +2,7 @@ let tpSortCol = null, tpSortDir = 1;
 const TP_MAX_MODEL_TAGS = 5;
 
 const TP_PLATFORM_LATEST_MODELS = {
+  'OpenCode Go': ['Qwen3.6-Plus'],
   'MiniMax': ['MiniMax-M2.7'],
   '腾讯·Token': ['HY-2.0', 'HY-2.0-Think'],
   '小米·MiMo': ['MiMo-V2-Pro'],
@@ -188,6 +189,10 @@ function tpRenderCreditsCol(p) {
   if (p.platform === 'MiniMax') {
     const unit = p.tokenUnit || '';
     return `<span class="credits-tag">${tpFmt(p.reqWeek)}/周</span><br/><span class="credits-sub">${tpFmt(p.reqMonth)}/月</span>`;
+  }
+  // OpenCode Go 有滚动预算
+  if (p.creditsBudget) {
+    return `<span class="credits-tag">${p.creditsBudget}</span>`;
   }
   // 优云有日积分
   if (p.creditsDaily) {

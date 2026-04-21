@@ -63,6 +63,15 @@ const TOKEN_PLANS = [
     creditsMonth:160000, creditsUnit:' Credits', benefits:['兼容 Claude Code/OpenCode/OpenClaw'],
     note:'首购88折·26.7× Lite用量·性价比低于同行', link:'https://platform.xiaomimimo.com/#/token-plan' },
 
+  // OpenCode Go - 2026.04.21 从 Coding Plan 移入；类似 Token Plan，按美元滚动预算而非固定请求数
+  // 官方FAQ：5h预算$12·每周$30·每月$60，实际请求数随模型成本变化
+  // 首月$5，次月起$10；可切换为超额使用 Zen 余额
+  // 文档：https://opencode.ai/zh/go
+  { platform:'OpenCode Go', name:'Go', currency:'$', monthly:10, quarterly:null, yearly:null, firstMonth:5,
+    models:['Qwen3.6-Plus','GLM-5.1','MiniMax-M2.7','kimi-k2.6','Kimi-K2.5','qwen3.5','qwen3-next','MiniMax-M2.5','MiMo-V2-Pro','MiMo-V2-Omni'],
+    creditsBudget:'$12/5h $30/周 $60/月', benefits:['首月$5','OpenCode 原生接入'],
+    note:'Beta·Token Plan·实际请求数随模型成本变化·可切换为超额使用 Zen 余额', link:'https://opencode.ai/zh/go' },
+
   // 优云 - 积分制，非请求数，无req5h/reqMonth/reqWeek概念
   // 另有一次性按量包；积分与 Token 的换算由模型倍率决定
   { platform:'优云', name:'Lite', monthly:49.9, quarterly:null, yearly:null, firstMonth:null,
@@ -80,7 +89,7 @@ const TOKEN_PLANS = [
 ];
 
 // ===== Token Plan Ratings =====
-const TOKEN_RATINGS = [
+const TOKEN_RATINGS=[
   {
     name: '腾讯·Token', score: 1,
     reasons: ['Token Plan·但无公开用量计算器·用户无法自测透明度', 'Lite 3500万 Tokens/月 偏少·约70轮问答即耗尽', '禁API调用·仅限 AI 工具', '高峰期可能限速']
@@ -88,6 +97,10 @@ const TOKEN_RATINGS = [
   {
     name: '小米·MiMo', score: 1,
     reasons: ['Credit≠Token·Pro 2x/Omni 1x 实际缩水', '¥39 仅 6000 Credits，性价比远低于同行', '兼容 Claude Code 但定价无竞争力']
+  },
+  {
+    name: 'OpenCode Go', score: 2,
+    reasons: ['Token Plan·按美元滚动预算$12/5h·$30/周·$60/月', 'Beta·模型丰富（Qwen3.6-Plus/GLM-5.1/MiniMax-M2.7等）', '实际请求数随模型成本变化·用户无法自测', '可切换超额使用 Zen 余额']
   },
   {
     name: '阿里·Token Plan', score: 2,
