@@ -82,8 +82,8 @@ const TOKEN_PLANS = [
 // ===== Token Plan Ratings =====
 const TOKEN_RATINGS = [
   {
-    name: '腾讯·Token', score: 3,
-    reasons: ['Token Plan·按 Token 计费更透明', '7 模型覆盖（HY 2.0 Think/T1/TurboS 独家）', '¥39 起·兼容 Claude Code/Cursor/OpenClaw', '禁API调用']
+    name: '腾讯·Token', score: 1,
+    reasons: ['Token Plan·但无公开用量计算器·用户无法自测透明度', 'Lite 3500万 Tokens/月 偏少·约70轮问答即耗尽', '禁API调用·仅限 AI 工具', '高峰期可能限速']
   },
   {
     name: '小米·MiMo', score: 1,
