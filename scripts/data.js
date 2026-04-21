@@ -59,9 +59,9 @@ const PLANS = [
   // 2026.04.16：页面新增「包季」按钮，季付=月付×3（Lite ¥120，Pro ¥600）
   // 2026.04.17核对：文档(2026-04-13更新)新增Doubao-Seed-2.0-Code模型；Auto智能路由模式；Kimi-K2-thinking已于3月31日下线
   { platform:'字节·方舟', name:'Lite', monthly:40, quarterly:120, yearly:null, firstMonth:null,
-    models:['Doubao-Seed-2.0-pro','Doubao-Seed-2.0-lite','Doubao-Seed-2.0-Code','Doubao-Seed-Code','DeepSeek-V3.2','Kimi-K2.5','GLM-4.7','MiniMax-M2.5'], req5h:1200, reqMonth:18000, reqWeek:9000, benefits:['ArkClaw 7天试用','Auto智能选模型','联网搜索免费额度'], note:'首月优惠已结束(原¥8.9)·⚠双层计费·额度消耗远快于同行·每周一00:00刷新·新增Doubao-Seed-2.0-Code', link:'https://volcengine.com/L/jmiEa1dptck/' },
+    models:['Doubao-Seed-2.0-pro','Doubao-Seed-2.0-lite','Doubao-Seed-2.0-Code','Doubao-Seed-Code','DeepSeek-V3.2','Kimi-K2.6','Kimi-K2.5','GLM-5.1'], req5h:1200, reqMonth:18000, reqWeek:9000, benefits:['ArkClaw 7天试用','Auto智能选模型','联网搜索免费额度'], note:'⚠双层计费·额度消耗远快于同行·每周一00:00刷新·新增GLM-5.1/Kimi-K2.6', link:'https://volcengine.com/L/jmiEa1dptck/' },
   { platform:'字节·方舟', name:'Pro', monthly:200, quarterly:600, yearly:null, firstMonth:null,
-    models:['Doubao-Seed-2.0-pro','Doubao-Seed-2.0-lite','Doubao-Seed-2.0-Code','Doubao-Seed-Code','DeepSeek-V3.2','Kimi-K2.5','GLM-4.7','MiniMax-M2.5'], req5h:6000, reqMonth:90000, reqWeek:45000, benefits:['免费ArkClaw','Auto智能选模型','联网搜索免费额度'], note:'首月优惠已结束(原¥49.9)·⚠双层计费·Pro三四天可用完月额度·每周一00:00刷新·新增Doubao-Seed-2.0-Code', link:'https://volcengine.com/L/jmiEa1dptck/' },
+    models:['Doubao-Seed-2.0-pro','Doubao-Seed-2.0-lite','Doubao-Seed-2.0-Code','Doubao-Seed-Code','DeepSeek-V3.2','Kimi-K2.6','Kimi-K2.5','GLM-5.1'], req5h:6000, reqMonth:90000, reqWeek:45000, benefits:['免费ArkClaw','Auto智能选模型','联网搜索免费额度'], note:'⚠双层计费·Pro三四天可用完月额度·每周一00:00刷新·新增GLM-5.1/Kimi-K2.6', link:'https://volcengine.com/L/jmiEa1dptck/' },
 
   // 阿里·百炼 - Lite套餐已停止新购（2026.03.20起），4月13日起停止续费与升级；当前仅显示Pro套餐
   // 2026.04.11核对：官方Coding Plan概述页显示qwen3.6-plus为Pro专属权益；控制台显示Pro暂时售罄
