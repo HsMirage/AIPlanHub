@@ -6,14 +6,14 @@
 
 ---
 
-> Coding 数据更新于 2026.04.21 · Token Plan 数据更新于 2026.04.21 · Video 数据更新于 2026.04.16 · Image 数据更新于 2026.04.15 · Audio 数据更新于 2026.04.16 · 仅供参考，以各平台官方公告为准
+> Coding 数据更新于 2026.04.21 · Token 数据更新于 2026.04.21 · Video 数据更新于 2026.04.16 · Image 数据更新于 2026.04.15 · Audio 数据更新于 2026.04.16 · 仅供参考，以各平台官方公告为准
 
 ---
 
 <p align="center">
   <a href="https://ai.hsnb.fun/aiplanhub/#home"><img src="https://img.shields.io/badge/%E9%A6%96%E9%A1%B5-Home-00E5FF?style=for-the-badge" alt="首页" /></a>
   <a href="https://ai.hsnb.fun/aiplanhub/#coding"><img src="https://img.shields.io/badge/Coding-%E7%BC%96%E7%A8%8B-00E5FF?style=for-the-badge" alt="Coding" /></a>
-  <a href="https://ai.hsnb.fun/aiplanhub/#tokenplan"><img src="https://img.shields.io/badge/Token-Plan-F59E0B?style=for-the-badge" alt="Token Plan" /></a>
+  <a href="https://ai.hsnb.fun/aiplanhub/#token"><img src="https://img.shields.io/badge/Token-Plan-F59E0B?style=for-the-badge" alt="Token" /></a>
   <a href="https://ai.hsnb.fun/aiplanhub/#video"><img src="https://img.shields.io/badge/Video-%E8%A7%86%E9%A2%91-FF3D71?style=for-the-badge" alt="Video" /></a>
   <a href="https://ai.hsnb.fun/aiplanhub/#image"><img src="https://img.shields.io/badge/Image-%E5%9B%BE%E7%89%87-A855F7?style=for-the-badge" alt="Image" /></a>
   <a href="https://ai.hsnb.fun/aiplanhub/#audio"><img src="https://img.shields.io/badge/Audio-%E9%9F%B3%E9%A2%91-22C55E?style=for-the-badge" alt="Audio" /></a>
@@ -23,7 +23,7 @@
 
 ## 功能
 
-- 多分类对比：Coding · Token Plan · Video · Image · Audio 五大场景独立页面
+- 多分类对比：Coding · Token · Video · Image · Audio 五大场景独立页面
 - 多维度筛选 + 排序，快速锁定最优方案
 - 直达官方开通链接，部分含邀请折扣
 - 深色 / 亮色主题切换
@@ -35,7 +35,7 @@ https://ai.hsnb.fun/aiplanhub
 
 ---
 
-## Coding 平台（18 家）
+## Coding 平台（19 家）
 
 | 平台 | 代表模型 | 方案数 | 月付起 | 评分 |
 |------|----------|--------|--------|------|
@@ -70,7 +70,7 @@ https://ai.hsnb.fun/aiplanhub
 | 百度·千帆 | Lite | ¥40 | — | 1,200 | [开通](https://cloud.baidu.com/campaign/ambassador-product/index.html?ambassadorId=b00e3bb5d042440fbfaccf545e8e52f0#knowledge-model) |
 | 京东云 | Lite | ¥40 | ¥19.9 | 1,200 | [开通](https://3.cn/2-L8H4QY) |
 | 联通云 | Lite | ¥40 | — | 1,200 | [开通](https://support.cucloud.cn/document/127/591/2357.html?id=2357&arcid=7015) |
-| 腾讯·Coding | Lite | ¥40 | ¥7.9 | 1,200 | [开通](https://curl.qcloud.com/1Uogyigq) |
+| 腾讯·Coding | Lite | ¥40 | ¥7.9 | 1,200 | [开通](https://console.cloud.tencent.cn/tokenhub/codingplan?regionId=1) |
 | 无问芯穹 | Lite | ¥40 | ¥19.9 | 1,000 | [开通](https://cloud.infini-ai.com/login?redirect=/genstudio/invitation&invite_code=qYRvZBVl) |
 | 移动云 | Lite | ¥40 | ¥7.9 | 1,200 | [开通](https://ecloud.10086.cn/portal/act/codingplan) |
 | 字节·方舟 | Lite | ¥40 | — | 1,200 | [开通](https://volcengine.com/L/jmiEa1dptck/) |
@@ -104,7 +104,7 @@ https://ai.hsnb.fun/aiplanhub
 | 百度·千帆 | Pro | ¥200 | — | 6,000 | [开通](https://cloud.baidu.com/campaign/ambassador-product/index.html?ambassadorId=b00e3bb5d042440fbfaccf545e8e52f0#knowledge-model) |
 | 京东云 | Pro | ¥200 | ¥99.9 | 6,000 | [开通](https://3.cn/2-L8H4QY) |
 | 联通云 | Pro | ¥200 | — | 6,000 | [开通](https://support.cucloud.cn/document/127/591/2357.html?id=2357&arcid=7015) |
-| 腾讯·Coding | Pro | ¥200 | ¥39.9 | 6,000 | [开通](https://curl.qcloud.com/1Uogyigq) |
+| 腾讯·Coding | Pro | ¥200 | ¥39.9 | 6,000 | [开通](https://console.cloud.tencent.cn/tokenhub/codingplan?regionId=1) |
 | 无问芯穹 | Pro | ¥200 | ¥99.9 | 5,000 | [开通](https://cloud.infini-ai.com/login?redirect=/genstudio/invitation&invite_code=qYRvZBVl) |
 | 移动云 | Pro | ¥200 | ¥39.9 | 6,000 | [开通](https://ecloud.10086.cn/portal/act/codingplan) |
 | 字节·方舟 | Pro | ¥200 | — | 6,000 | [开通](https://volcengine.com/L/jmiEa1dptck/) |
@@ -126,30 +126,28 @@ https://ai.hsnb.fun/aiplanhub
 
 ---
 
-## Token Plan 平台（5 家）
+## Token 平台（4 家）
 
 > 每家的 Credits / Token 计算方式不同，具体可用额度请进入官网查询
 
 | 平台 | 代表模型 | 方案数 | 月付起 | 评分 |
 |------|----------|--------|--------|------|
-| MiniMax | MiniMax-M2.7 | 1 | ¥29 | ★★★★★ |
 | 优云 | GLM-5.1 / Qwen3.6-Plus | 3 | ¥49.9 | ★★★ |
 | 腾讯·Token | HY-2.0 / HY-2.0-Think | 4 | ¥39 | ★★★ |
 | 阿里·Token Plan | qwen3.6-plus | 4 | ¥198 | ★★ |
 | 小米·MiMo | MiMo-V2-Pro | 4 | ¥39 | ★ |
 
-### Token Plan 入门（人民币月付 ≤ ¥100）
+### Token 入门（人民币月付 ≤ ¥100）
 
 | 平台 | 方案 | 月付 | 首月价 | Credits/Token 额度 | 开通 |
 |------|------|------|--------|---------------------|------|
-| MiniMax | Starter | ¥29 | — | 600/周 · 9,000/月 | [开通](https://platform.minimaxi.com/subscribe/token-plan?code=G2vbq30tXz&source=link) |
 | 腾讯·Token | Lite | ¥39 | — | 3,500万 Tokens/月 | [开通](https://curl.qcloud.com/1Uogyigq) |
 | 小米·MiMo | Lite | ¥39 | ¥34.32 | 6,000 Credits/月 | [开通](https://platform.xiaomimimo.com/#/token-plan) |
 | 优云 | Lite | ¥49.9 | — | 700 积分/日 | [开通](https://passport.compshare.cn/register?referral_code=Kkl0Vgy0pCsFOzeMtfGBdI) |
 | 腾讯·Token | Standard | ¥99 | — | 1亿 Tokens/月 | [开通](https://curl.qcloud.com/1Uogyigq) |
 | 小米·MiMo | Standard | ¥99 | ¥87.12 | 20,000 Credits/月 | [开通](https://platform.xiaomimimo.com/#/token-plan) |
 
-### Token Plan 进阶级（人民币月付 ¥101-¥500）
+### Token 进阶级（人民币月付 ¥101-¥500）
 
 | 平台 | 方案 | 月付 | 首月价 | Credits/Token 额度 | 开通 |
 |------|------|------|--------|---------------------|------|
@@ -157,7 +155,7 @@ https://ai.hsnb.fun/aiplanhub
 | 小米·MiMo | Pro | ¥329 | ¥289.52 | 70,000 Credits/月 | [开通](https://platform.xiaomimimo.com/#/token-plan) |
 | 优云 | Pro | ¥499 | — | 7,000 积分/日 | [开通](https://passport.compshare.cn/register?referral_code=Kkl0Vgy0pCsFOzeMtfGBdI) |
 
-### Token Plan 高阶级（人民币月付 ≥ ¥500）
+### Token 高阶级（人民币月付 ≥ ¥500）
 
 | 平台 | 方案 | 月付 | 首月价 | Credits/Token 额度 | 开通 |
 |------|------|------|--------|---------------------|------|
@@ -216,9 +214,8 @@ https://ai.hsnb.fun/aiplanhub
 - **阿里·百炼** — 独家 Qwen3.6-Plus，Pro 固定 ¥200/月，每周 45,000 次请求
 - **京东云** — DeepSeek-V3.2 / GLM-5 / Qwen3-Coder 7 模型覆盖，标准 Lite/Pro 定价，第三方测速中上游
 - **无问芯穹** — 多模型聚合平台（DeepSeek/Kimi/GLM/MiniMax），Lite 首月 ¥19.9，支持GLM-5.1
-- **MiniMax (Token Plan)** — 定价最低，独家 MiniMax-M2.7，Token Plan 支持语音/视频/音乐/图像多模态
-- **优云 (Token Plan)** — 支持GLM-5.1 / Qwen3.6-Plus，允许 API 调用，支持 Claude Code / OpenClaw / Codex CLI / CherryStudio
-- **腾讯·Token (Token Plan)** — Token Plan·按 Token 计费透明，7 模型覆盖（HY 2.0 Think/T1/TurboS 独家）
+- **优云 (Token)** — 支持GLM-5.1 / Qwen3.6-Plus，允许 API 调用，支持 Claude Code / OpenClaw / Codex CLI / CherryStudio
+- **腾讯·Token (Token)** — Token Plan·按 Token 计费透明，7 模型覆盖（HY 2.0 Think/T1/TurboS 独家）
 
 **注意**
 
@@ -230,9 +227,9 @@ https://ai.hsnb.fun/aiplanhub
 - **京东云** — 仅限 AI 编程工具交互式使用，禁止 API 调用；社区有"容易截断、有点卡"和"未到 5h 上限仍触发 rate_limit"的反馈
 - **联通云** — 当前资源紧张GLM-5.1很慢+429限流；没有异常扣费情况，挺耐用；支持GLM-5.1，且禁止 API 调用
 - **移动云** — 仅支持 MiniMax-M2.5，且目前只开放华北-呼和浩特与湖北-武汉资源池订购；Coding Plan 同样禁止 API 调用
-- **小米·MiMo (Token Plan)** — Credit ≠ Token（Pro 2x / Omni 1x），性价比远低于同行
-- **腾讯·Token (Token Plan)** — 仅限 AI 工具使用，禁止 API 调用（违者封禁）；暂不支持多模态
-- **阿里·Token Plan (Token Plan)** — 按坐席订阅，不支持退款
+- **小米·MiMo (Token)** — Credit ≠ Token（Pro 2x / Omni 1x），性价比远低于同行
+- **腾讯·Token (Token)** — 仅限 AI 工具使用，禁止 API 调用（违者封禁）；暂不支持多模态
+- **阿里·Token Plan (Token)** — 按坐席订阅，不支持退款
 
 ---
 
@@ -241,7 +238,7 @@ https://ai.hsnb.fun/aiplanhub
 - 季付均价 = 季付总价 ÷ 3；年付均价 = 年付总价 ÷ 12
 - 5h 请求数基于「1 prompt ≈ 15 次调用」估算
 - Token量列：展示月额度或日额度；单位 M = 百万 Tokens
-- Token Plan / Credits 计费平台：每家的 Credits 计算方式不同，具体可用 Token 额度请进入官网查询
+- Token 平台：每家的 Credits 计算方式不同，具体可用 Token 额度请进入官网查询
 - 优云为积分制，实际可用 Token 受模型倍率影响；页面另提供一次性按量包
 - Midjourney / Suno / Udio / Ace Studio / z.ai 价格按 $1 ≈ ¥7.0 估算，实际以美元结算
 - 小米·MiMo Credit 倍率：MiMo-V2-Omni 256k→1x, MiMo-V2-Pro 256k→2x, MiMo-V2-Pro 256k~1M→4x, MiMo-V2-TTS→0x（限时免费）

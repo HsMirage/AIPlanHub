@@ -1,15 +1,9 @@
 // ===== Token Plan Data =====
-// 2026.04.21 新增 Token Plan 页面 — 从 Coding Plan 中分离 Token/Credits 计费平台
-// Credits/Token 计费模式：每家计算方式不同，具体可用 Token 额度请进入官网查询
+// 2026.04.21 新增 Token Plan 页面 — 从 Coding Plan 中分离纯 Credits/Token 计费平台
+// 每家的 Credits 计算方式不同，具体可用 Token 额度请进入官网查询
+// 注：MiniMax 虽然名称为 Token Plan，但本质还是请求数计费，已移回 Coding Plan
 
 const TOKEN_PLANS = [
-  // MiniMax - Token Plan（3月23日升级），不同套餐开放不同的语音/视频/音乐/图像额度
-  // 2026.04.11实测：Token Plan 规则为"每周可使用额度为『每5小时额度』的 10 倍" → reqWeek = req5h × 10
-  // Credits计量：按Token实际消耗计算，非固定请求数
-  { platform:'MiniMax', name:'Starter', monthly:29, quarterly:null, yearly:290, firstMonth:null,
-    models:['MiniMax-M2.7','Music-2.6'], req5h:600, reqMonth:9000, reqWeek:6000,
-    benefits:['TPS ~50','Token Plan'], note:'年付¥24.2/月·Music-2.6当前100首/天限免·reqWeek=req5h×10·每周6000次·每5h额度滑动刷新', link:'https://platform.minimaxi.com/subscribe/token-plan?code=G2vbq30tXz&source=link' },
-
   // 阿里·Token Plan（团队版）- Credits 统一计量，按坐席数订阅；支持文本+图像生成；华北2地域；不支持退款
   // 帮助文档更新时间：2026-04-20；文本模型：qwen3.6-plus/glm-5/MiniMax-M2.5/deepseek-v3.2
   { platform:'阿里·Token Plan', name:'标准坐席', monthly:198, quarterly:null, yearly:null, firstMonth:null,
@@ -87,10 +81,6 @@ const TOKEN_PLANS = [
 
 // ===== Token Plan Ratings =====
 const TOKEN_RATINGS = [
-  {
-    name: 'MiniMax', score: 5,
-    reasons: ['定价最低无需抢购', '独家 MiniMax-M2.7', '已升级 Token Plan·支持语音/视频/音乐/图像', 'Token Plan 计费透明']
-  },
   {
     name: '腾讯·Token', score: 3,
     reasons: ['Token Plan·按 Token 计费更透明', '7 模型覆盖（HY 2.0 Think/T1/TurboS 独家）', '¥39 起·兼容 Claude Code/Cursor/OpenClaw', '禁API调用']
