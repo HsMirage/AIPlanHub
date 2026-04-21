@@ -79,6 +79,22 @@ const PLANS = [
   { platform:'阿里·百炼', name:'Pro', monthly:200, quarterly:null, yearly:null, firstMonth:null,
     models:['Qwen3.6-Plus','Qwen3.5-Plus','Qwen3-Coder-Next','Qwen3-Coder-Plus','Qwen3-Max-2026-01-23','GLM-5','GLM-4.7','Kimi-K2.5','MiniMax-M2.5'], req5h:6000, reqMonth:90000, reqWeek:45000, benefits:['多模型自由切换'], note:'Lite已停止新购(3.20)及续费(4.13)·Pro专属Qwen3.6-Plus·Pro限量抢购·每日09:30补货·首续5折4/1结束·每周45000次', link:'https://www.aliyun.com/minisite/goods?userCode=hun0t0sf' },
 
+  // 阿里·Token Plan（团队版）- 2026.04.21 通过帮助文档与购买页核对
+  // Credits 统一计量，按坐席数订阅；支持文本+图像生成；华北2地域；不支持退款
+  // 帮助文档更新时间：2026-04-20；文本模型：qwen3.6-plus/glm-5/MiniMax-M2.5/deepseek-v3.2
+  { platform:'阿里·Token Plan', name:'标准坐席', monthly:198, quarterly:null, yearly:null, firstMonth:null,
+    models:['qwen3.6-plus','glm-5','MiniMax-M2.5','deepseek-v3.2','qwen-image-2.0','qwen-image-2.0-pro','wan2.7-image','wan2.7-image-pro'], req5h:null, reqMonth:25000, reqWeek:null,
+    benefits:['Credits统一计量','文本+图像生成','多模型切换'], note:'¥198/坐席/月·25000 Credits/月·标准档·适合轻度AI辅助·华北2地域·不支持退款', link:'https://common-buy.aliyun.com/token-plan' },
+  { platform:'阿里·Token Plan', name:'高级坐席', monthly:698, quarterly:null, yearly:null, firstMonth:null,
+    models:['qwen3.6-plus','glm-5','MiniMax-M2.5','deepseek-v3.2','qwen-image-2.0','qwen-image-2.0-pro','wan2.7-image','wan2.7-image-pro'], req5h:null, reqMonth:100000, reqWeek:null,
+    benefits:['4倍标准坐席用量','Credits统一计量'], note:'¥698/坐席/月·100000 Credits/月·高级档·适合高频AI编码', link:'https://common-buy.aliyun.com/token-plan' },
+  { platform:'阿里·Token Plan', name:'尊享坐席', monthly:1398, quarterly:null, yearly:null, firstMonth:null,
+    models:['qwen3.6-plus','glm-5','MiniMax-M2.5','deepseek-v3.2','qwen-image-2.0','qwen-image-2.0-pro','wan2.7-image','wan2.7-image-pro'], req5h:null, reqMonth:250000, reqWeek:null,
+    benefits:['10倍标准坐席用量','Credits统一计量'], note:'¥1398/坐席/月·250000 Credits/月·尊享档·适合重度AI编码', link:'https://common-buy.aliyun.com/token-plan' },
+  { platform:'阿里·Token Plan', name:'共享用量包', monthly:5000, quarterly:null, yearly:null, firstMonth:null,
+    models:['qwen3.6-plus','glm-5','MiniMax-M2.5','deepseek-v3.2','qwen-image-2.0','qwen-image-2.0-pro','wan2.7-image','wan2.7-image-pro'], req5h:null, reqMonth:625000, reqWeek:null,
+    benefits:['跨坐席共享','弹性用量'], note:'¥5000/个·625000 Credits/个·有效期1个月·额度到期清零·可叠加购买', link:'https://common-buy.aliyun.com/token-plan' },
+
   // 京东云 - JoyBuilder Coding Plan，帮助文档更新于 2026.04.03；活动规则页显示首购优惠持续到 2026.06.30，每天10:30限量开放
   // 官方宣称高峰期无明显降速；社区有截断/卡顿与未到 5h 上限触发 rate_limit 的反馈
   // 2026.04.11通过已登录Edge实测：docs.jdcloud.com套餐页明确显示每周限额，reqWeek=9000/45000
@@ -302,6 +318,10 @@ const RATINGS = [
   {
     name: '阿里·百炼', score: 4,
     reasons: ['独家 Qwen3.6-Plus', 'Lite 停止新购·Pro 限量抢购每日09:30补货', '固定¥200/月·每月90,000次请求']
+  },
+  {
+    name: '阿里·Token Plan', score: 4,
+    reasons: ['Credits统一计量·文本+图像双模态', '¥198起按坐席订阅·可扩展', '支持qwen3.6-plus/glm-5/MiniMax-M2.5/deepseek-v3.2']
   },
   {
     name: '天翼云', score: 5,

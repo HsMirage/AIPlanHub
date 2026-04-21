@@ -44,6 +44,7 @@ https://ai.hsnb.fun/aiplanhub
 | MiniMax | MiniMax-M2.7 | 6 | ¥29 | ★★★★★ |
 | Kimi | kimi-k2.6-code-preview | 4 | ¥49 | ★★★ |
 | 阿里·百炼 | Qwen3.6-Plus | 1 | ¥200 | ★★★★ |
+| 阿里·Token Plan | qwen3.6-plus | 4 | ¥198 | ★★★★ |
 | 天翼云 | GLM-5.1 | 3 | ¥49 | ★★★★★ |
 | 蓝耘元生代云 | GLM-5.1 | 3 | ¥49 | ★★★★ |
 | 优云 | GLM-5.1 / Qwen3.6-Plus | 3 | ¥49.9 | ★★★ |
@@ -115,6 +116,7 @@ https://ai.hsnb.fun/aiplanhub
 | 平台 | 方案 | 月付 | 首月价 | 5h请求数 | Token量 | 开通 |
 |------|------|------|--------|----------|---------|------|
 | 阿里·百炼 | Pro | ¥200 | — | 6,000 | — | [开通](https://www.aliyun.com/minisite/goods?userCode=hun0t0sf) |
+| 阿里·Token Plan | 标准坐席 | ¥198 | — | — | 月25,000 Credits | [开通](https://common-buy.aliyun.com/token-plan) |
 | 百度·千帆 | Pro | ¥200 | — | 6,000 | — | [开通](https://cloud.baidu.com/campaign/ambassador-product/index.html?ambassadorId=b00e3bb5d042440fbfaccf545e8e52f0#knowledge-model) |
 | 京东云 | Pro | ¥200 | ¥99.9 | 6,000 | — | [开通](https://3.cn/2-L8H4QY) |
 | 联通云 | Pro | ¥200 | — | 6,000 | — | [开通](https://support.cucloud.cn/document/127/591/2357.html?id=2357&arcid=7015) |
@@ -190,6 +192,7 @@ https://ai.hsnb.fun/aiplanhub
 - **智谱AI** — 独家 GLM-5.1 模型，免费 MCP 调用额度，20+ 编程工具支持，季付/年付有折扣
 - **MiniMax** — 定价最低无需抢购，独家 MiniMax-M2.7，已升级 Token Plan，现已支持语音/视频/音乐/图像多模态
 - **阿里·百炼** — 独家 Qwen3.6-Plus，Pro 固定 ¥200/月，每周 45,000 次请求
+- **阿里·Token Plan** — Credits 统一计量·文本+图像双模态，¥198/坐席/月起，适合团队
 - **天翼云** — 支持GLM-5.1，GLM 全家桶覆盖最完整，GLM-5-Turbo 实时测速表现靠前
 - **京东云** — DeepSeek-V3.2 / GLM-5 / Qwen3-Coder 7 模型覆盖，标准 Lite/Pro 定价，第三方测速中上游
 - **优云** — 支持GLM-5.1 / Qwen3.6-Plus，允许 API 调用，支持 Claude Code / OpenClaw / Codex CLI / CherryStudio，另有 ¥6.9 起一次性按量包
