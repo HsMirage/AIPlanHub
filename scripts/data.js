@@ -35,7 +35,7 @@ const PLANS = [
     benefits:['首月$5','OpenCode 原生接入'], note:'Beta·5h预算$12·每周$30·每月$60·实际请求数随模型而变·可切换为超额使用 Zen 余额', link:'https://opencode.ai/zh/go' },
 
   // Kimi - 官网实测：连续包月原价/连续包年折扣价
-  // 2026.04.14更新：Kimi Code 页面显示 K2.6-code-preview 已上线；全部 Kimi Code Plan 可使用
+  // 2026.04.14更新：Kimi Code 页面显示 K2.6 已上线；全部 Kimi Code Plan 可使用
   { platform:'Kimi', name:'Andante', monthly:49, quarterly:null, yearly:468, firstMonth:39,
     models:['kimi-k2.6','Kimi-K2.5'], req5h:null, reqMonth:null, reqWeek:null, benefits:['专属编程额度','旗舰模型抢先体验'], note:'年付¥39/月·连续包年首月¥39·K2.6已上线·请求数未公开', link:'https://www.kimi.com/code/zh' },
   { platform:'Kimi', name:'Moderato', monthly:99, quarterly:null, yearly:948, firstMonth:79,
@@ -244,7 +244,7 @@ const RATINGS = [
   },
   {
     name: 'Kimi', score: 3,
-    reasons: ['K2.6-code-preview 已上线', '请求数未公开', '年付折扣可观', '网友反馈：额度消耗较快']
+    reasons: ['K2.6 已上线', '请求数未公开', '年付折扣可观', '网友反馈：额度消耗较快'],
   },
   {
     name: 'MiniMax', score: 5,
