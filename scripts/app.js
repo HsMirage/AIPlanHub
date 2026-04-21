@@ -203,7 +203,6 @@ function renderTable(plans) {
       <td class="num">${fmt(p.req5h)}</td>
       <td class="num">${fmt(p.reqWeek)}</td>
       <td class="num">${fmt(p.reqMonth)}</td>
-      <td class="num">${renderTokenCol(p)}</td>
       <td>${models}</td>
       <td>${benefits}</td>
       <td><span class="note-text">${p.note || '—'}</span></td>
