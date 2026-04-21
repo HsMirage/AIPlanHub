@@ -23,6 +23,7 @@
       <nav class="header-nav">
         <a href="#home" class="nav-link active">首页</a>
         <a href="#coding" class="nav-link">Coding</a>
+        <a href="#tokenplan" class="nav-link">Token Plan</a>
         <a href="#video" class="nav-link">Video</a>
         <a href="#image" class="nav-link">Image</a>
         <a href="#audio" class="nav-link">Audio</a>
@@ -184,6 +185,46 @@
     </section>
   </section>
 
+  <!-- ===== TOKEN PLAN PAGE ===== -->
+  <section id="page-tokenplan" class="page-content">
+    <section class="section ratings-section">
+      <h2 class="section-title">平台推荐</h2>
+      <div class="ratings-row" id="tp-ratings-row"></div>
+    </section>
+    <section class="filter-bar">
+      <div class="filter-row">
+        <div class="filter-item"><label>平台</label><select id="tp-filter-platform"><option value="">全部</option></select></div>
+        <div class="filter-item"><label>模型</label><select id="tp-filter-model"><option value="">全部</option></select></div>
+        <div class="filter-item"><label>月付上限</label><select id="tp-filter-price"><option value="">不限</option><option value="50">≤ ¥50</option><option value="100">≤ ¥100</option><option value="200">≤ ¥200</option><option value="500">≤ ¥500</option></select></div>
+        <button id="tp-reset-btn" class="reset-btn">重置</button>
+        <span id="tp-filter-count" class="filter-count"></span>
+      </div>
+    </section>
+    <section class="section table-section">
+      <div class="table-wrap">
+        <table id="tp-plans-table">
+          <thead><tr>
+            <th class="sticky-col" data-sort="platform">平台 <span class="sort-icon">↕</span></th><th data-sort="name">方案</th><th>开通</th>
+            <th data-sort="monthly" class="num-col">月付 <span class="sort-icon">↕</span></th><th data-sort="quarterlyAvg" class="num-col">季付均价 <span class="sort-icon">↕</span></th><th data-sort="yearlyAvg" class="num-col">年付均价 <span class="sort-icon">↕</span></th>
+            <th data-sort="firstMonth" class="num-col">首月价 <span class="sort-icon">↕</span></th>
+            <th data-sort="creditsMonth" class="num-col">Credits额度 <span class="sort-icon">↕</span></th>
+            <th>支持模型</th><th>额外权益</th><th>备注</th>
+          </tr></thead>
+          <tbody id="tp-plans-tbody"></tbody>
+        </table>
+      </div>
+    </section>
+    <section class="section notes-section">
+      <p class="section-update-date">Token Plan 数据更新于 2026.04.21</p>
+      <ul class="notes-list">
+        <li>每家的 Credits 计算方式不同，具体可用 Token 额度请进入官网查询</li>
+        <li>季付均价 = 季付总价 ÷ 3；年付均价 = 年付总价 ÷ 12</li>
+        <li>部分平台通过邀请链接开通可享额外折扣</li>
+        <li>数据仅供参考，以各平台官方公告为准</li>
+      </ul>
+    </section>
+  </section>
+
   <!-- ===== VIDEO PAGE ===== -->
   <section id="page-video" class="page-content">
     <section class="section ratings-section">
@@ -303,7 +344,8 @@
 <!-- Mobile Bottom Nav -->
 <nav class="mobile-nav">
   <a href="#home" class="nav-link active"><span>⚡</span>首页</a>
-  <a href="#coding" class="nav-link"><span>⌨</span>Coding</a>
+        <a href="#coding" class="nav-link"><span>⌨</span>Coding</a>
+  <a href="#tokenplan" class="nav-link"><span>🔄</span>Token</a>
   <a href="#video" class="nav-link"><span>🎬</span>Video</a>
   <a href="#image" class="nav-link"><span>🎨</span>Image</a>
   <a href="#audio" class="nav-link"><span>🎵</span>Audio</a>
@@ -318,6 +360,8 @@
 <script src="scripts/image-app.js"></script>
 <script src="scripts/audio-app.js"></script>
 <script src="scripts/router.js"></script>
+<script src="scripts/token-plan-data.js"></script>
+<script src="scripts/token-plan-app.js"></script>
 <script>
 document.addEventListener('DOMContentLoaded', () => {
   const params = new URLSearchParams(window.location.search);
@@ -374,6 +418,9 @@ document.addEventListener('DOMContentLoaded', () => {
 
   // Init audio page
   initAudioPage();
+
+  // Init token plan page
+  initTokenPlanPage();
 
   // Back to top
   const btt = document.getElementById('back-to-top');

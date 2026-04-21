@@ -45,22 +45,6 @@ const PLANS = [
   { platform:'Kimi', name:'Allegro', monthly:699, quarterly:null, yearly:6708, firstMonth:559,
     models:['kimi-k2.6-code-preview','Kimi-K2.5'], req5h:null, reqMonth:null, reqWeek:null, benefits:['澎湃额度','高强度开发'], note:'年付¥559/月·连续包年首月¥559·K2.6-code-preview已上线·请求数未公开', link:'https://www.kimi.com/code/zh' },
 
-  // MiniMax - 3月23日已升级为 Token Plan（全模态统一订阅），不同套餐开放不同的语音/视频/音乐/图像额度
-  // 2026.04.11核对：官方FAQ与Token Plan概述页已明确新增 TTS HD / Hailuo-2.3(-Fast) / Music-2.6 / image-01
-  // 2026.04.11实测：Token Plan 规则为"每周可使用额度为『每5小时额度』的 10 倍" → reqWeek = req5h × 10
-  { platform:'MiniMax', name:'Starter', monthly:29, quarterly:null, yearly:290, firstMonth:null,
-    models:['MiniMax-M2.7','Music-2.6'], req5h:600, reqMonth:9000, reqWeek:6000, benefits:['TPS ~50','Token Plan'], note:'年付¥24.2/月·Music-2.6当前100首/天限免·reqWeek=req5h×10·每周6000次·每5h额度滑动刷新', link:'https://platform.minimaxi.com/subscribe/token-plan?code=G2vbq30tXz&source=link' },
-  { platform:'MiniMax', name:'Plus', monthly:49, quarterly:null, yearly:490, firstMonth:null,
-    models:['MiniMax-M2.7','speech-2.8-hd','speech-2.6-hd','speech-02-hd','Music-2.6','image-01'], req5h:1500, reqMonth:22500, reqWeek:15000, benefits:['TPS ~50','赠多模态额度（语音/音乐/图像）'], note:'年付¥40.8/月·TTS HD / Music-2.6 / image-01已开放·reqWeek=req5h×10=15000', link:'https://platform.minimaxi.com/subscribe/token-plan?code=G2vbq30tXz&source=link' },
-  { platform:'MiniMax', name:'Max', monthly:119, quarterly:null, yearly:1190, firstMonth:null,
-    models:['MiniMax-M2.7','speech-2.8-hd','speech-2.6-hd','speech-02-hd','Hailuo-2.3-Fast','Hailuo-2.3','Music-2.6','image-01'], req5h:4500, reqMonth:67500, reqWeek:45000, benefits:['TPS ~50','赠多模态额度（视频/语音/音乐/图像）'], note:'年付¥99.2/月·Hailuo-2.3 / TTS HD / Music-2.6 / image-01已开放·reqWeek=req5h×10=45000', link:'https://platform.minimaxi.com/subscribe/token-plan?code=G2vbq30tXz&source=link' },
-  { platform:'MiniMax', name:'Plus 极速版', monthly:98, quarterly:null, yearly:980, firstMonth:null,
-    models:['MiniMax-M2.7','speech-2.8-hd','speech-2.6-hd','speech-02-hd','Music-2.6','image-01'], req5h:1500, reqMonth:22500, reqWeek:15000, benefits:['TPS ~100','赠多模态额度'], note:'Token Plan·极速版·TTS HD / Music-2.6 / image-01已开放·reqWeek=req5h×10=15000', link:'https://platform.minimaxi.com/subscribe/token-plan?code=G2vbq30tXz&source=link' },
-  { platform:'MiniMax', name:'Max 极速版', monthly:199, quarterly:null, yearly:1990, firstMonth:null,
-    models:['MiniMax-M2.7','speech-2.8-hd','speech-2.6-hd','speech-02-hd','Hailuo-2.3-Fast','Hailuo-2.3','Music-2.6','image-01'], req5h:4500, reqMonth:67500, reqWeek:45000, benefits:['TPS ~100','赠多模态额度'], note:'Token Plan·极速版·Hailuo-2.3 / TTS HD / Music-2.6 / image-01已开放·reqWeek=req5h×10=45000', link:'https://platform.minimaxi.com/subscribe/token-plan?code=G2vbq30tXz&source=link' },
-  { platform:'MiniMax', name:'Ultra 极速版', monthly:899, quarterly:null, yearly:8990, firstMonth:null,
-    models:['MiniMax-M2.7','speech-2.8-hd','speech-2.6-hd','speech-02-hd','Hailuo-2.3-Fast','Hailuo-2.3','Music-2.6','image-01'], req5h:30000, reqMonth:450000, reqWeek:300000, benefits:['TPS ~100','赠多模态额度'], note:'Token Plan·极速版·Hailuo-2.3 / TTS HD / Music-2.6 / image-01已开放·reqWeek=req5h×10=300000', link:'https://platform.minimaxi.com/subscribe/token-plan?code=G2vbq30tXz&source=link' },
-
   // 字节·方舟 - 首月Lite约¥8.9，支持Doubao-Seed-2.0-pro/lite/Code系列/DeepSeek-V3.2/Kimi-K2.5/GLM-4.7
   // ⚠️ 双层计费：名义按调用次数，实际Token消耗大会被按2-3次甚至更多次扣费（蓝点网/V2EX/微博多源证实）
   // 2026.04.11通过已登录Edge实测：volcengine.com/docs/82379/2165245页面中间位置显示每周限额，reqWeek=9000/45000
@@ -78,22 +62,6 @@ const PLANS = [
   // 2026.04.20核对：页面显示Pro仍为售罄状态，每周45000次请求限额信息未变
   { platform:'阿里·百炼', name:'Pro', monthly:200, quarterly:null, yearly:null, firstMonth:null,
     models:['Qwen3.6-Plus','Qwen3.5-Plus','Qwen3-Coder-Next','Qwen3-Coder-Plus','Qwen3-Max-2026-01-23','GLM-5','GLM-4.7','Kimi-K2.5','MiniMax-M2.5'], req5h:6000, reqMonth:90000, reqWeek:45000, benefits:['多模型自由切换'], note:'Lite已停止新购(3.20)及续费(4.13)·Pro专属Qwen3.6-Plus·Pro限量抢购·每日09:30补货·首续5折4/1结束·每周45000次', link:'https://www.aliyun.com/minisite/goods?userCode=hun0t0sf' },
-
-  // 阿里·Token Plan（团队版）- 2026.04.21 通过帮助文档与购买页核对
-  // Credits 统一计量，按坐席数订阅；支持文本+图像生成；华北2地域；不支持退款
-  // 帮助文档更新时间：2026-04-20；文本模型：qwen3.6-plus/glm-5/MiniMax-M2.5/deepseek-v3.2
-  { platform:'阿里·Token Plan', name:'标准坐席', monthly:198, quarterly:null, yearly:null, firstMonth:null,
-    models:['qwen3.6-plus','glm-5','MiniMax-M2.5','deepseek-v3.2','qwen-image-2.0','qwen-image-2.0-pro','wan2.7-image','wan2.7-image-pro'], req5h:null, reqMonth:25000, reqWeek:null,
-    benefits:['Credits统一计量','文本+图像生成','多模型切换'], note:'¥198/坐席/月·25000 Credits/月·标准档·适合轻度AI辅助·华北2地域·不支持退款', link:'https://common-buy.aliyun.com/token-plan' },
-  { platform:'阿里·Token Plan', name:'高级坐席', monthly:698, quarterly:null, yearly:null, firstMonth:null,
-    models:['qwen3.6-plus','glm-5','MiniMax-M2.5','deepseek-v3.2','qwen-image-2.0','qwen-image-2.0-pro','wan2.7-image','wan2.7-image-pro'], req5h:null, reqMonth:100000, reqWeek:null,
-    benefits:['4倍标准坐席用量','Credits统一计量'], note:'¥698/坐席/月·100000 Credits/月·高级档·适合高频AI编码', link:'https://common-buy.aliyun.com/token-plan' },
-  { platform:'阿里·Token Plan', name:'尊享坐席', monthly:1398, quarterly:null, yearly:null, firstMonth:null,
-    models:['qwen3.6-plus','glm-5','MiniMax-M2.5','deepseek-v3.2','qwen-image-2.0','qwen-image-2.0-pro','wan2.7-image','wan2.7-image-pro'], req5h:null, reqMonth:250000, reqWeek:null,
-    benefits:['10倍标准坐席用量','Credits统一计量'], note:'¥1398/坐席/月·250000 Credits/月·尊享档·适合重度AI编码', link:'https://common-buy.aliyun.com/token-plan' },
-  { platform:'阿里·Token Plan', name:'共享用量包', monthly:5000, quarterly:null, yearly:null, firstMonth:null,
-    models:['qwen3.6-plus','glm-5','MiniMax-M2.5','deepseek-v3.2','qwen-image-2.0','qwen-image-2.0-pro','wan2.7-image','wan2.7-image-pro'], req5h:null, reqMonth:625000, reqWeek:null,
-    benefits:['跨坐席共享','弹性用量'], note:'¥5000/个·625000 Credits/个·有效期1个月·额度到期清零·可叠加购买', link:'https://common-buy.aliyun.com/token-plan' },
 
   // 京东云 - JoyBuilder Coding Plan，帮助文档更新于 2026.04.03；活动规则页显示首购优惠持续到 2026.06.30，每天10:30限量开放
   // 官方宣称高峰期无明显降速；社区有截断/卡顿与未到 5h 上限触发 rate_limit 的反馈
@@ -143,17 +111,6 @@ const PLANS = [
   { platform:'蓝耘元生代云', name:'高级版', monthly:469, quarterly:1266.3, yearly:4502.4, firstMonth:null,
     models:['MiniMax-M2.5','Step-3.5-Flash','GLM-5.1'], req5h:24000, reqMonth:null, reqWeek:120000, benefits:['三模型通用','企业级 SLA 优化'], note:'季付9折·年付8折·每5小时24000次·每周120000次·团队协作优化·不可叠加券', link:'https://console.lanyun.net/#/register?promoterCode=3ef0f72996' },
 
-  // 优云 - 页面于 2026.04.10 核对；同时提供一次性按量包与包月畅享包，这里记录 3 档包月套餐
-  // 官方 FAQ 明确支持 API / Chatbot / Codex CLI；积分与 Token 的换算由模型倍率决定
-  // 2026.04.10核对：积分制非请求数，无req5h/reqMonth/reqWeek概念
-  // 2026.04.17核对：页面公告确认GLM-5.1和Qwen3.6-Plus模型API均已支持
-  { platform:'优云', name:'Lite', monthly:49.9, quarterly:null, yearly:null, firstMonth:null,
-    models:['GLM-5.1','Qwen3.6-Plus','MiniMax-M2.1','MiniMax-M2.5','GLM-5','Kimi-K2.5','DeepSeek-V3.2'], req5h:null, reqMonth:null, reqWeek:null, benefits:['允许 API 调用','支持 Codex CLI/CherryStudio'], note:'另有¥6.9/19.9/199一次性按量包·积分倍率需看规则页', tokenDaily:700, tokenUnit:' 积分', link:'https://passport.compshare.cn/register?referral_code=Kkl0Vgy0pCsFOzeMtfGBdI' },
-  { platform:'优云', name:'Plus', monthly:199, quarterly:null, yearly:null, firstMonth:null,
-    models:['GLM-5.1','Qwen3.6-Plus','MiniMax-M2.1','MiniMax-M2.5','GLM-5','Kimi-K2.5','DeepSeek-V3.2'], req5h:null, reqMonth:null, reqWeek:null, benefits:['允许 API 调用','支持 Codex CLI/CherryStudio'], note:'另有¥6.9/19.9/199一次性按量包·限时赠 OpenClaw 云端服务', tokenDaily:2800, tokenUnit:' 积分', link:'https://passport.compshare.cn/register?referral_code=Kkl0Vgy0pCsFOzeMtfGBdI' },
-  { platform:'优云', name:'Pro', monthly:499, quarterly:null, yearly:null, firstMonth:null,
-    models:['GLM-5.1','Qwen3.6-Plus','MiniMax-M2.1','MiniMax-M2.5','GLM-5','Kimi-K2.5','DeepSeek-V3.2'], req5h:null, reqMonth:null, reqWeek:null, benefits:['允许 API 调用','支持 Codex CLI/CherryStudio'], note:'积分制·限时赠 OpenClaw 云端服务·允许客户端/API 场景', tokenDaily:7000, tokenUnit:' 积分', link:'https://passport.compshare.cn/register?referral_code=Kkl0Vgy0pCsFOzeMtfGBdI' },
-
   // 腾讯·Coding - Coding Plan（按请求次数），仅月付，无季付/年付；Lite限量抢购（每天10点），首月¥7.9；Pro首月¥39.9
   // 2026.04.11实测：页面仅显示"1月 日常价：40元/200元"，无季付/年付选项
   // 2026.04.10核对：活动页明确写每周请求数，reqWeek=9000/45000
@@ -161,23 +118,6 @@ const PLANS = [
     models:['HY-2.0','GLM-5','Kimi-K2.5','MiniMax-M2.5'], req5h:1200, reqMonth:18000, reqWeek:9000, benefits:['企业生态强'], note:'仅月付·Coding Plan·首月¥7.9·Lite限量抢购', link:'https://curl.qcloud.com/1Uogyigq' },
   { platform:'腾讯·Coding', name:'Pro', monthly:200, quarterly:null, yearly:null, firstMonth:39.9,
     models:['HY-2.0','GLM-5','Kimi-K2.5','MiniMax-M2.5'], req5h:6000, reqMonth:90000, reqWeek:45000, benefits:['企业生态强'], note:'仅月付·Coding Plan·首月¥39.9', link:'https://curl.qcloud.com/1Uogyigq' },
-
-  // 腾讯·Token - Token Plan（按 Token 额度计费），4月3日上线，兼容 Claude Code/Cursor/OpenClaw 等
-  // 文档：https://cloud.tencent.com/document/product/1772/129449
-  // 注意：仅限 AI 工具使用，禁止 API 调用（违者封禁）；暂不支持多模态
-  // 2026.04.10核对：Token Plan无请求数概念，reqWeek=null
-  { platform:'腾讯·Token', name:'Lite', monthly:39, quarterly:null, yearly:null, firstMonth:null,
-    models:['HY-2.0','HY-2.0-Think','GLM-5','Kimi-K2.5','MiniMax-M2.5','Hunyuan-T1','Hunyuan-TurboS'], req5h:null, reqMonth:null, reqWeek:null,
-    benefits:['3500万 Tokens/月','兼容 Claude Code/Cursor/OpenClaw'], note:'Token Plan·约70轮问答·禁API调用', tokenMonth:3500, link:'https://curl.qcloud.com/1Uogyigq' },
-  { platform:'腾讯·Token', name:'Standard', monthly:99, quarterly:null, yearly:null, firstMonth:null,
-    models:['HY-2.0','HY-2.0-Think','GLM-5','Kimi-K2.5','MiniMax-M2.5','Hunyuan-T1','Hunyuan-TurboS'], req5h:null, reqMonth:null, reqWeek:null,
-    benefits:['1亿 Tokens/月','兼容 Claude Code/Cursor/OpenClaw'], note:'Token Plan·约200轮问答·禁API调用', tokenMonth:10000, link:'https://curl.qcloud.com/1Uogyigq' },
-  { platform:'腾讯·Token', name:'Pro', monthly:299, quarterly:null, yearly:null, firstMonth:null,
-    models:['HY-2.0','HY-2.0-Think','GLM-5','Kimi-K2.5','MiniMax-M2.5','Hunyuan-T1','Hunyuan-TurboS'], req5h:null, reqMonth:null, reqWeek:null,
-    benefits:['3.2亿 Tokens/月','兼容 Claude Code/Cursor/OpenClaw'], note:'Token Plan·高频AI开发·禁API调用', tokenMonth:32000, link:'https://curl.qcloud.com/1Uogyigq' },
-  { platform:'腾讯·Token', name:'Max', monthly:599, quarterly:null, yearly:null, firstMonth:null,
-    models:['HY-2.0','HY-2.0-Think','GLM-5','Kimi-K2.5','MiniMax-M2.5','Hunyuan-T1','Hunyuan-TurboS'], req5h:null, reqMonth:null, reqWeek:null,
-    benefits:['6.5亿 Tokens/月','兼容 Claude Code/Cursor/OpenClaw'], note:'Token Plan·重度开发首选·禁API调用', tokenMonth:65000, link:'https://curl.qcloud.com/1Uogyigq' },
 
   // 百度·千帆 - 2月11日上线；每日10:30和17:00限量补货
   // 2026.04.10核对：帮助文档明确写每周限额，reqWeek=9000/45000
@@ -236,22 +176,6 @@ const PLANS = [
     models:['KAT-Coder-Pro V2','KAT-Coder-Pro V1'], req5h:15000, reqMonth:null, reqWeek:null,
     benefits:['KAT-Coder-Pro V2','支持 OpenClaw/Claude/OpenCode'], note:'1000 Prompt / 5h≈15000次模型调用·适合高强度开发·禁止 API 二次集成', link:'https://www.streamlake.com/marketing/coding-plan' },
 
-  // 小米·MiMo - 4月3日上线 Token Plan，统一 Credit 体系，首购88折（仅限一次）
-  // Credit 倍率：MiMo-V2-Omni 256k→1x, MiMo-V2-Pro 256k→2x, MiMo-V2-Pro 256k~1M→4x, MiMo-V2-TTS→0x（限时免费）
-  // 2026.04.10核对：Token Plan无请求数概念，reqWeek=null
-  { platform:'小米·MiMo', name:'Lite', monthly:39, quarterly:null, yearly:null, firstMonth:34.32,
-    models:['MiMo-V2-Pro','MiMo-V2-Omni','MiMo-V2-TTS'], req5h:null, reqMonth:null, reqWeek:null,
-    benefits:['兼容 Claude Code/OpenCode/OpenClaw'], note:'首购88折·Credit≠Token(Pro=2x/Omni=1x)·性价比低于同行', tokenMonth:6000, tokenUnit:' Credits', link:'https://platform.xiaomimimo.com/#/token-plan' },
-  { platform:'小米·MiMo', name:'Standard', monthly:99, quarterly:null, yearly:null, firstMonth:87.12,
-    models:['MiMo-V2-Pro','MiMo-V2-Omni','MiMo-V2-TTS'], req5h:null, reqMonth:null, reqWeek:null,
-    benefits:['兼容 Claude Code/OpenCode/OpenClaw'], note:'首购88折·3.3× Lite用量·性价比低于同行', tokenMonth:20000, tokenUnit:' Credits', link:'https://platform.xiaomimimo.com/#/token-plan' },
-  { platform:'小米·MiMo', name:'Pro', monthly:329, quarterly:null, yearly:null, firstMonth:289.52,
-    models:['MiMo-V2-Pro','MiMo-V2-Omni','MiMo-V2-TTS'], req5h:null, reqMonth:null, reqWeek:null,
-    benefits:['兼容 Claude Code/OpenCode/OpenClaw'], note:'首购88折·11.7× Lite用量·性价比低于同行', tokenMonth:70000, tokenUnit:' Credits', link:'https://platform.xiaomimimo.com/#/token-plan' },
-  { platform:'小米·MiMo', name:'Max', monthly:659, quarterly:null, yearly:null, firstMonth:579.92,
-    models:['MiMo-V2-Pro','MiMo-V2-Omni','MiMo-V2-TTS'], req5h:null, reqMonth:null, reqWeek:null,
-    benefits:['兼容 Claude Code/OpenCode/OpenClaw'], note:'首购88折·26.7× Lite用量·性价比低于同行', tokenMonth:160000, tokenUnit:' Credits', link:'https://platform.xiaomimimo.com/#/token-plan' },
-
   // 无问芯穹 — 2档套餐，多模型聚合，首月5折优惠已于2026.03.31结束
   // 2026.04.07更新：首月优惠已从公开页面隐藏，3月31日正式结束
   // 2026.04.11通过已登录Edge实测：docs.infini-ai.com官方文档明确显示每周/每月限额，已支持GLM-5.1
@@ -308,10 +232,6 @@ const RATINGS = [
     reasons: ['K2.6-code-preview 已上线', '请求数未公开', '年付折扣可观', '网友反馈：额度消耗较快']
   },
   {
-    name: 'MiniMax', score: 5,
-    reasons: ['定价最低无需抢购', '独家 MiniMax-M2.7', '已升级 Token Plan·支持语音/视频/音乐/图像']
-  },
-  {
     name: '字节·方舟', score: 2,
     reasons: ['计费不透明·无用量明细·蓝点网/微博多源实锤', '速度慢·超卖严重·付费仍用数据训练', '首月¥8.9·支持Doubao/Kimi/GLM/MiniMax多模型']
   },
@@ -320,16 +240,8 @@ const RATINGS = [
     reasons: ['独家 Qwen3.6-Plus', 'Lite 停止新购·Pro 限量抢购每日09:30补货', '固定¥200/月·每月90,000次请求']
   },
   {
-    name: '阿里·Token Plan', score: 1,
-    reasons: ['Credits统一计量·文本+图像双模态', '¥198起按坐席订阅·可扩展', '支持qwen3.6-plus/glm-5/MiniMax-M2.5/deepseek-v3.2']
-  },
-  {
     name: '天翼云', score: 5,
     reasons: ['支持GLM-5.1', 'GLM 全家桶覆盖最完整', '第三方测速上游·GLM-5-Turbo 速度表现好']
-  },
-  {
-    name: '优云', score: 3,
-    reasons: ['支持GLM-5.1·Qwen3.6-Plus', '允许 API 调用·支持 Codex CLI/CherryStudio', '按量包+包月并存·套餐形态灵活']
   },
   {
     name: '京东云', score: 4,
@@ -352,10 +264,6 @@ const RATINGS = [
     reasons: ['首月¥7.9 / ¥39.9·价格友好', '仅 MiniMax-M2.5·可选模型明显偏少', '第三方测速 TTFT 偏慢·且仅特定资源池可购']
   },
   {
-    name: '腾讯·Token', score: 1,
-    reasons: ['Token Plan·按 Token 计费更透明', '7 模型覆盖（HY 2.0 Think/T1/TurboS 独家）', '¥39 起·兼容 Claude Code/Cursor/OpenClaw']
-  },
-  {
     name: '百度·千帆', score: 4,
     reasons: ['支持 GLM-5、MiniMax-M2.5、Kimi-K2.5、DeepSeek-V3.2 等模型', '每日10:30/17:00限量补货', '首月¥9.9']
   },
@@ -370,10 +278,6 @@ const RATINGS = [
   {
     name: '快手 StreamLake', score: 3,
     reasons: ['独家 KAT-Coder-Pro V2 / V1', 'Mini ¥29 起·支持 OpenClaw/Claude Code/OpenCode', '当前仅自家模型体系·且禁止 API 二次集成']
-  },
-  {
-    name: '小米·MiMo', score: 1,
-    reasons: ['Credit≠Token·Pro 2x/Omni 1x 实际缩水', '¥39 仅 30M token(Pro)·性价比远低于同行', '兼容 Claude Code 但定价无竞争力']
   },
   {
     name: '无问芯穹', score: 3,
