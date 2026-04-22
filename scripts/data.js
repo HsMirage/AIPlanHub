@@ -280,12 +280,12 @@ const RATINGS = [
     reasons: ['支持 GLM-5、MiniMax-M2.5、Kimi-K2.5、DeepSeek-V3.2 等模型', '每日10:30/17:00限量补货', '首月¥9.9']
   },
   {
-    name: '讯飞星辰', score: 3,
+    name: '讯飞星辰', score: 4,
     reasons: ['焕新版(4.9)专业版/高效版有周限·无忧版不限请求', '高效版支持GLM-5.1', '整合星火X2与 GLM/Kimi/MiniMax/DeepSeek/Qwen 等模型', '焕新版后为请求次数流控（非日Tokens）']
   },
   {
     name: '阶跃星辰', score: 4,
-    reasons: ['Step-3.5-Flash / 2603·极速性能默认开放', '新增 StepAudio-2.5-TTS 语音模型', '¥49 起·Prompt 配额清晰·支持主流 Agent 工具', 'MCP 暂未支持·当前主要开放 Flash 系列'],
+    reasons: ['Step-3.5-Flash / 2603·极速性能默认开放', '新增 StepAudio-2.5-TTS 语音模型', '¥49 起·Prompt 配额清晰·支持主流 Agent 工具', '只有Step模型，但上速度很快，用量还行'],
   },
   {
     name: '快手 StreamLake', score: 3,
