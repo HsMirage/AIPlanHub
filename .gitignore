@@ -1,2 +1,5 @@
 # Ignore everything
 *
+
+# Allow only README.md
+!README.md
