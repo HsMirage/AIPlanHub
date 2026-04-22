@@ -12,7 +12,7 @@ const PLATFORM_LATEST_MODELS = {
   '蓝耘元生代云': ['GLM-5.1', 'Step-3.5-Flash', 'MiniMax-M2.5'],
   '腾讯·Coding': ['HY-2.0'],
   '讯飞星辰': ['Spark X2'],
-  '阶跃星辰': ['Step 3.5 Flash 2603', 'Step 3.5 Flash'],
+  '阶跃星辰': ['Step-3.5-Flash-2603', 'Step-3.5-Flash'],
   '快手 StreamLake': ['KAT-Coder-Pro V2'],
 };
 

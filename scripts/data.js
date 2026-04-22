@@ -114,9 +114,9 @@ const PLANS = [
   // 官方入口购买页使用 maas 控制台，站外活动页说明购买不可叠加代金券/优惠券
   { platform:'蓝耘元生代云', name:'入门版', monthly:49, quarterly:132.3, yearly:470.4, firstMonth:null,
     models:['MiniMax-M2.5','Step-3.5-Flash','GLM-5.1'], req5h:1200, reqMonth:null, reqWeek:6000, benefits:['三模型通用','兼容 Claude Code/OpenCode/Cline'], note:'季付9折·年付8折·每5小时1200次·每周6000次·独立API Key·不可叠加券', link:'https://console.lanyun.net/#/register?promoterCode=3ef0f72996' },
-  { platform:'蓝耘元生代云', name:'专业版', monthly:149, quarterly:402.3, yearly:1430.4, firstMonth:null,
+    { platform:'蓝耘元生代云', name:'专业版', currency:'¥', monthly:149, quarterly:402.3, yearly:1430.4, firstMonth:null,
     models:['MiniMax-M2.5','Step-3.5-Flash','GLM-5.1'], req5h:6000, reqMonth:null, reqWeek:30000, benefits:['三模型通用','复杂开发任务支持'], note:'季付9折·年付8折·每5小时6000次·每周30000次·优先技术支持·不可叠加券', link:'https://console.lanyun.net/#/register?promoterCode=3ef0f72996' },
-  { platform:'蓝耘元生代云', name:'高级版', monthly:469, quarterly:1266.3, yearly:4502.4, firstMonth:null,
+    { platform:'蓝耘元生代云', name:'高级版', currency:'¥', monthly:469, quarterly:1266.3, yearly:4502.4, firstMonth:null,
     models:['MiniMax-M2.5','Step-3.5-Flash','GLM-5.1'], req5h:24000, reqMonth:null, reqWeek:120000, benefits:['三模型通用','企业级 SLA 优化'], note:'季付9折·年付8折·每5小时24000次·每周120000次·团队协作优化·不可叠加券', link:'https://console.lanyun.net/#/register?promoterCode=3ef0f72996' },
 
   // 腾讯·Coding - Coding Plan（按请求次数），仅月付，无季付/年付；Lite限量抢购（每天10点），首月¥7.9；Pro首月¥39.9
@@ -156,17 +156,17 @@ const PLANS = [
   // 文档明确 1 Prompt≈15~20 次模型调用；这里按 1 Prompt≈15 次模型调用折算 req5h / reqWeek，月总额度未公开
   // 2026.04.17核对：新增 stepaudio-2.5-tts 语音模型；MCP 暂未上线；官方专用 Base URL 为 https://api.stepfun.com/step_plan/v1
   { platform:'阶跃星辰', name:'Flash Mini', monthly:49, quarterly:null, yearly:null, firstMonth:null,
-    models:['Step 3.5 Flash 2603','Step 3.5 Flash','StepAudio-2.5-TTS'], req5h:1500, reqMonth:null, reqWeek:6000,
-    benefits:['Step 3.5 Flash 系列','支持主流 Agent 工具'], note:'入门版·100 Prompt / 5h≈1500次模型调用·周限400 Prompt≈6000次·支持微信/Stripe·新增TTS语音模型', link:'https://platform.stepfun.com/docs/zh/step-plan/overview' },
-  { platform:'阶跃星辰', name:'Flash Plus', monthly:99, quarterly:null, yearly:null, firstMonth:null,
-    models:['Step 3.5 Flash 2603','Step 3.5 Flash','StepAudio-2.5-TTS'], req5h:6000, reqMonth:null, reqWeek:24000,
-    benefits:['Step 3.5 Flash 系列','支持主流 Agent 工具'], note:'进阶版·400 Prompt / 5h≈6000次模型调用·周限1600 Prompt≈24000次·MCP 暂未支持·新增TTS语音模型', link:'https://platform.stepfun.com/docs/zh/step-plan/overview' },
-  { platform:'阶跃星辰', name:'Flash Pro', monthly:199, quarterly:null, yearly:null, firstMonth:null,
-    models:['Step 3.5 Flash 2603','Step 3.5 Flash','StepAudio-2.5-TTS'], req5h:22500, reqMonth:null, reqWeek:90000,
-    benefits:['Step 3.5 Flash 系列','支持主流 Agent 工具'], note:'专业版·1500 Prompt / 5h≈22500次模型调用·周限6000 Prompt≈90000次·适合复杂任务·新增TTS语音模型', link:'https://platform.stepfun.com/docs/zh/step-plan/overview' },
-  { platform:'阶跃星辰', name:'Flash Max', monthly:699, quarterly:null, yearly:null, firstMonth:null,
-    models:['Step 3.5 Flash 2603','Step 3.5 Flash','StepAudio-2.5-TTS'], req5h:75000, reqMonth:null, reqWeek:300000,
-    benefits:['Step 3.5 Flash 系列','支持主流 Agent 工具'], note:'旗舰版·5000 Prompt / 5h≈75000次模型调用·周限2万 Prompt≈30万次·适合团队协作·新增TTS语音模型', link:'https://platform.stepfun.com/docs/zh/step-plan/overview' },
+    models:['Step-3.5-Flash-2603','Step-3.5-Flash','StepAudio-2.5-TTS'], req5h:1500, reqMonth:null, reqWeek:6000,
+    benefits:['Step-3.5-Flash 系列','支持主流 Agent 工具'], note:'入门版·100 Prompt / 5h≈1500次模型调用·周限400 Prompt≈6000次·支持微信/Stripe·新增TTS语音模型', link:'https://platform.stepfun.com/docs/zh/step-plan/overview' },
+    { platform:'阶跃星辰', name:'进阶版', currency:'¥', monthly:99, quarterly:null, yearly:null, firstMonth:null,
+    models:['Step-3.5-Flash-2603','Step-3.5-Flash','StepAudio-2.5-TTS'], req5h:6000, reqMonth:null, reqWeek:24000,
+    benefits:['Step-3.5-Flash 系列','支持主流 Agent 工具'], note:'进阶版·400 Prompt / 5h≈6000次模型调用·周限1600 Prompt≈24000次·MCP 暂未支持·新增TTS语音模型', link:'https://platform.stepfun.com/docs/zh/step-plan/overview' },
+  { platform:'阶跃星辰', name:'Flash Pro', currency:'¥', monthly:199, quarterly:null, yearly:null, firstMonth:null,
+    models:['Step-3.5-Flash-2603','Step-3.5-Flash','StepAudio-2.5-TTS'], req5h:22500, reqMonth:null, reqWeek:90000,
+    benefits:['Step-3.5-Flash 系列','支持主流 Agent 工具'], note:'专业版·1500 Prompt / 5h≈22500次模型调用·周限6000 Prompt≈90000次·适合复杂任务·新增TTS语音模型', link:'https://platform.stepfun.com/docs/zh/step-plan/overview' },
+  { platform:'阶跃星辰', name:'Flash Max', currency:'¥', monthly:699, quarterly:null, yearly:null, firstMonth:null,
+    models:['Step-3.5-Flash-2603','Step-3.5-Flash','StepAudio-2.5-TTS'], req5h:75000, reqMonth:null, reqWeek:300000,
+    benefits:['Step-3.5-Flash 系列','支持主流 Agent 工具'], note:'旗舰版·5000 Prompt / 5h≈75000次模型调用·周限2万 Prompt≈30万次·适合团队协作·新增TTS语音模型', link:'https://platform.stepfun.com/docs/zh/step-plan/overview' },
 
   // 快手 StreamLake - 2026.04.14 通过官网页 + 配置接口 + 商品接口核对；4 档月度计划已上线
   // 官方 FAQ 说明 1 Prompt≈15~20 次模型调用；这里按 1 Prompt≈15 次模型调用折算 req5h，周/月总额度暂未公开
@@ -212,13 +212,13 @@ const PLANS = [
   // 使用 GPU 时间计费，非固定请求数/Token数；有5h会话限制和每周限制，但具体数值未公开
   // 支持模型列表：https://ollama.com/search?c=cloud
   { platform:'Ollama', name:'Free', currency:'$', monthly:0, quarterly:null, yearly:null, firstMonth:null,
-    models:['GLM-5.1','qwen3.5','qwen3-coder-next','MiniMax-M2.7','kimi-k2.6','kimi-k2.5','deepseek-v3','llama4','gemma4'], req5h:null, reqMonth:null, reqWeek:null, benefits:['免费使用','40,000+社区模型'],
+    models:['GLM-5.1','Qwen3.5','Qwen3-Coder-Next','MiniMax-M2.7','kimi-k2.6','kimi-k2.5','DeepSeek-V3','Llama4','Gemma4'], req5h:null, reqMonth:null, reqWeek:null, benefits:['免费使用','40,000+社区模型'],
     note:'⚠️免费版额度有限·具体请求数不公开·以下模型名为Ollama自有格式', link:'https://ollama.com/pricing' },
   { platform:'Ollama', name:'Pro', currency:'$', monthly:20, quarterly:null, yearly:200, firstMonth:null,
-    models:['GLM-5.1','qwen3.5','qwen3-coder-next','MiniMax-M2.7','kimi-k2.6','kimi-k2.5','deepseek-v3','llama4','qwen3-next','nemotron-3-super','gemma4'], req5h:null, reqMonth:null, reqWeek:null, benefits:['50x Free额度','3并发模型','上传共享私有模型'],
+    models:['GLM-5.1','Qwen3.5','Qwen3-Coder-Next','MiniMax-M2.7','kimi-k2.6','kimi-k2.5','DeepSeek-V3','Llama4','Qwen3-Next','Nemotron-3-Super','Gemma4'], req5h:null, reqMonth:null, reqWeek:null, benefits:['50x Free额度','3并发模型','上传共享私有模型'],
     note:'⚠️具体请求数不公开·年付$200更划算·以下模型名为Ollama自有格式', link:'https://ollama.com/pricing' },
   { platform:'Ollama', name:'Max', currency:'$', monthly:100, quarterly:null, yearly:null, firstMonth:null,
-    models:['GLM-5.1','qwen3.5','qwen3-coder-next','MiniMax-M2.7','kimi-k2.6','kimi-k2.5','deepseek-v3','llama4','qwen3-next','nemotron-3-super','devstral-small-2','gemma4'], req5h:null, reqMonth:null, reqWeek:null, benefits:['5x Pro额度','10并发模型','适合高强度开发'],
+    models:['GLM-5.1','Qwen3.5','Qwen3-Coder-Next','MiniMax-M2.7','kimi-k2.6','kimi-k2.5','DeepSeek-V3','Llama4','Qwen3-Next','Nemotron-3-Super','Devstral-Small-2','Gemma4'], req5h:null, reqMonth:null, reqWeek:null, benefits:['5x Pro额度','10并发模型','适合高强度开发'],
     note:'⚠️具体请求数不公开·以下模型名为Ollama自有格式', link:'https://ollama.com/pricing' },
 ];
 // ===== Platform Ratings =====
@@ -285,7 +285,7 @@ const RATINGS = [
   },
   {
     name: '阶跃星辰', score: 4,
-    reasons: ['Step 3.5 Flash / 2603·极速性能默认开放', '新增 StepAudio-2.5-TTS 语音模型', '¥49 起·Prompt 配额清晰·支持主流 Agent 工具', 'MCP 暂未支持·当前主要开放 Flash 系列']
+    reasons: ['Step-3.5-Flash / 2603·极速性能默认开放', '新增 StepAudio-2.5-TTS 语音模型', '¥49 起·Prompt 配额清晰·支持主流 Agent 工具', 'MCP 暂未支持·当前主要开放 Flash 系列'],
   },
   {
     name: '快手 StreamLake', score: 3,
