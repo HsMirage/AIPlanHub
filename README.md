@@ -6,7 +6,7 @@
 
 ---
 
-> Coding 数据更新于 2026.04.21 · Token 数据更新于 2026.04.21 · Video 数据更新于 2026.04.21 · Image 数据更新于 2026.04.21 · Audio 数据更新于 2026.04.21 · 仅供参考，以各平台官方公告为准
+| Coding 数据更新于 2026.04.22 · Token 数据更新于 2026.04.22 · Video 数据更新于 2026.04.21 · Image 数据更新于 2026.04.21 · Audio 数据更新于 2026.04.21
 
 ---
 
@@ -39,10 +39,9 @@ https://ai.hsnb.fun/aiplanhub
 
 | 平台 | 代表模型 | 方案数 | 月付起 | 评分 |
 |------|----------|--------|--------|------|
-| 智谱AI | GLM-5.1 / GLM-5-Turbo / GLM-4.7 / GLM-4.5-Air | 3 | ¥49 | ★★★★ |
+| 智谱AI | GLM-5.1 / GLM-5-Turbo / GLM-4.7 | 3 | ¥49 | ★★★★ |
 | z.ai | GLM-5.1（国际版） | 3 | $18 | ★★ |
-| OpenCode Go | Qwen3.6-Plus / GLM-5.1 / kimi-k2.6 / MiniMax-M2.7 | 1 | $10 | ★★★ |
-| Kimi | kimi-k2.6 | 4 | ¥49 | ★★★ |
+| Kimi | Kimi-K2.6 | 4 | ¥49 | ★★★ |
 | 阿里·百炼 | Qwen3.6-Plus | 1 | ¥200 | ★★★★ |
 | 天翼云 | GLM-5.1 | 3 | ¥49 | ★★★★★ |
 | 蓝耘元生代云 | GLM-5.1 | 3 | ¥49 | ★★★★ |
@@ -51,13 +50,13 @@ https://ai.hsnb.fun/aiplanhub
 | 腾讯·Coding | HY-2.0 | 2 | ¥40 | ★★★ |
 | 移动云 | MiniMax-M2.5 | 2 | ¥40 | ★★ |
 | 百度·千帆 | GLM-5 | 2 | ¥40 | ★★★★ |
-| 讯飞星辰 | Spark X2 | 3 | ¥19 | ★★★ |
-| 阶跃星辰 | Step 3.5 Flash 2603 | 4 | ¥49 | ★★★★ |
+| 讯飞星辰 | Spark X2 | 3 | ¥19 | ★★★★ |
+| 阶跃星辰 | Step-3.5-Flash-2603 | 4 | ¥49 | ★★★★ |
 | 快手 StreamLake | KAT-Coder-Pro V2 | 4 | ¥29 | ★★★ |
 | 无问芯穹 | GLM-5.1 / DeepSeek-V3.2-Thinking / MiniMax-M2.7 | 2 | ¥40 | ★★★ |
 | 字节·方舟 | Doubao-Seed-2.0-pro | 2 | ¥40 | ★★ |
 | Alaya Code | MiniMax-M2.5 / GLM-5.1 | 3 | ¥39 | ★★ |
-| Ollama | GLM-5.1 / qwen3.5 / MiniMax-M2.7 | 3 | $0 | ★★★ |
+| Ollama | GLM-5.1 / Qwen3.5 / MiniMax-M2.7 | 3 | $0 | ★★★ |
 
 ### 入门级（人民币月付 ≤ ¥50）
 
@@ -132,9 +131,9 @@ https://ai.hsnb.fun/aiplanhub
 
 | 平台 | 代表模型 | 方案数 | 月付起 | 评分 |
 |------|----------|--------|--------|------|
-| 优云 | GLM-5.1 / Qwen3.6-Plus | 3 | ¥49.9 | ★★★ |
-| 腾讯·Token | HY-2.0 / HY-2.0-Think | 4 | ¥39 | ★★★ |
-| 阿里·Token Plan | qwen3.6-plus | 4 | ¥198 | ★★ |
+| 优云 | MiniMax-M2.1 / M2.5 / DeepSeek-V3.2 / Kimi-K2.5 | 3 | ¥49.9 | ★ |
+| 腾讯·Token | HY-2.0 / HY-2.0-Think | 4 | ¥39 | ★ |
+| 阿里·Token Plan | Qwen3.6-Plus | 4 | ¥198 | ★★ |
 | 小米·MiMo | MiMo-V2-Pro | 4 | ¥39 | ★ |
 | OpenCode Go | Qwen3.6-Plus | 1 | $10 | ★★ |
 
@@ -144,7 +143,7 @@ https://ai.hsnb.fun/aiplanhub
 |------|------|------|--------|---------------------|------|
 | 腾讯·Token | Lite | ¥39 | — | 3,500万 Tokens/月 | [开通](https://curl.qcloud.com/1Uogyigq) |
 | 小米·MiMo | Lite | ¥39 | ¥34.32 | 6,000 Credits/月 | [开通](https://platform.xiaomimimo.com/#/token-plan) |
-| 优云 | Lite | ¥49.9 | — | 700 积分/日 | [开通](https://passport.compshare.cn/register?referral_code=Kkl0Vgy0pCsFOzeMtfGBdI) |
+| 优云 | Lite | ¥49.9 | — | ⚠️已售罄·700 积分/日 | [开通](https://passport.compshare.cn/register?referral_code=Kkl0Vgy0pCsFOzeMtfGBdI) |
 | OpenCode Go | Go | $10 | $5 | $12/5h $30/周 $60/月 | [开通](https://opencode.ai/zh/go) |
 | 腾讯·Token | Standard | ¥99 | — | 1亿 Tokens/月 | [开通](https://curl.qcloud.com/1Uogyigq) |
 | 小米·MiMo | Standard | ¥99 | ¥87.12 | 20,000 Credits/月 | [开通](https://platform.xiaomimimo.com/#/token-plan) |
@@ -153,9 +152,9 @@ https://ai.hsnb.fun/aiplanhub
 
 | 平台 | 方案 | 月付 | 首月价 | Credits/Token 额度 | 开通 |
 |------|------|------|--------|---------------------|------|
-| 优云 | Plus | ¥199 | — | 2,800 积分/日 | [开通](https://passport.compshare.cn/register?referral_code=Kkl0Vgy0pCsFOzeMtfGBdI) |
+| 优云 | Plus | ¥199 | — | ⚠️已售罄·2,800 积分/日 | [开通](https://passport.compshare.cn/register?referral_code=Kkl0Vgy0pCsFOzeMtfGBdI) |
 | 小米·MiMo | Pro | ¥329 | ¥289.52 | 70,000 Credits/月 | [开通](https://platform.xiaomimimo.com/#/token-plan) |
-| 优云 | Pro | ¥499 | — | 7,000 积分/日 | [开通](https://passport.compshare.cn/register?referral_code=Kkl0Vgy0pCsFOzeMtfGBdI) |
+| 优云 | Pro | ¥499 | — | ⚠️已售罄·7,000 积分/日 | [开通](https://passport.compshare.cn/register?referral_code=Kkl0Vgy0pCsFOzeMtfGBdI) |
 
 ### Token 高阶级（人民币月付 ≥ ¥500）
 
@@ -216,8 +215,8 @@ https://ai.hsnb.fun/aiplanhub
 - **阿里·百炼** — 独家 Qwen3.6-Plus，Pro 固定 ¥200/月，每周 45,000 次请求
 - **京东云** — DeepSeek-V3.2 / GLM-5 / Qwen3-Coder 7 模型覆盖，标准 Lite/Pro 定价，第三方测速中上游
 - **无问芯穹** — 多模型聚合平台（DeepSeek/Kimi/GLM/MiniMax），Lite 首月 ¥19.9，支持GLM-5.1
-- **优云 (Token)** — 支持GLM-5.1 / Qwen3.6-Plus，允许 API 调用，支持 Claude Code / OpenClaw / Codex CLI / CherryStudio
-- **腾讯·Token (Token)** — Token Plan·按 Token 计费透明，7 模型覆盖（HY 2.0 Think/T1/TurboS 独家）
+- **优云 (Token)** — ⚠️已售罄，新套餐即将上线；支持 MiniMax-M2.1/M2.5、DeepSeek-V3.2、Kimi-K2.5，积分制，允许 API 调用
+- **腾讯·Token (Token)** — ⚠️按Token计费但无公开用量计算器，用户无法自测透明度，仅限AI工具使用
 
 **注意**
 
