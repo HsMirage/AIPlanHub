@@ -15,7 +15,7 @@ function tpGetCommonModelPriority(model) {
   if (model === 'GLM-5') return [2, 0];
   if (model === 'qwen3.6-plus') return [3, 0];
   if (model === 'Qwen3.6-Plus') return [3, 1];
-  if (model === 'Kimi-K2.5') return [4, 0];
+  if (model === 'kimi-k2.5') return [4, 0];
   if (model === 'DeepSeek-V3.2') return [5, 0];
   if (model === 'MiniMax-M2.7') return [6, 0];
   if (model === 'MiniMax-M2.5') return [7, 0];
