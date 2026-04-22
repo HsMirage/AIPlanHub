@@ -5,21 +5,21 @@
 
 const TOKEN_PLANS = [
   // 阿里·Token Plan（团队版）- Credits 统一计量，按坐席数订阅；支持文本+图像生成；华北2地域；不支持退款
-  // 帮助文档更新时间：2026-04-20；文本模型：qwen3.6-plus/glm-5/MiniMax-M2.5/deepseek-v3.2
+  // 帮助文档更新时间：2026-04-20；文本模型：Qwen3.6-Plus/GLM-5/MiniMax-M2.5/DeepSeek-V3.2
   { platform:'阿里·Token Plan', name:'标准坐席', monthly:198, quarterly:null, yearly:null, firstMonth:null,
-    models:['qwen3.6-plus','glm-5','MiniMax-M2.5','deepseek-v3.2','qwen-image-2.0','qwen-image-2.0-pro','wan2.7-image','wan2.7-image-pro'],
+    models:['Qwen3.6-Plus','GLM-5','MiniMax-M2.5','DeepSeek-V3.2','qwen-image-2.0','qwen-image-2.0-pro','wan2.7-image','wan2.7-image-pro'],
     creditsMonth:25000, creditsNote:'¥198/坐席/月', benefits:['Credits统一计量','文本+图像生成','多模型切换'],
     note:'25000 Credits/月·标准档·适合轻度AI辅助·华北2地域·不支持退款', link:'https://common-buy.aliyun.com/token-plan' },
   { platform:'阿里·Token Plan', name:'高级坐席', monthly:698, quarterly:null, yearly:null, firstMonth:null,
-    models:['qwen3.6-plus','glm-5','MiniMax-M2.5','deepseek-v3.2','qwen-image-2.0','qwen-image-2.0-pro','wan2.7-image','wan2.7-image-pro'],
+    models:['Qwen3.6-Plus','GLM-5','MiniMax-M2.5','DeepSeek-V3.2','qwen-image-2.0','qwen-image-2.0-pro','wan2.7-image','wan2.7-image-pro'],
     creditsMonth:100000, creditsNote:'¥698/坐席/月', benefits:['4倍标准坐席用量','Credits统一计量'],
     note:'100000 Credits/月·高级档·适合高频AI编码', link:'https://common-buy.aliyun.com/token-plan' },
   { platform:'阿里·Token Plan', name:'尊享坐席', monthly:1398, quarterly:null, yearly:null, firstMonth:null,
-    models:['qwen3.6-plus','glm-5','MiniMax-M2.5','deepseek-v3.2','qwen-image-2.0','qwen-image-2.0-pro','wan2.7-image','wan2.7-image-pro'],
+    models:['Qwen3.6-Plus','GLM-5','MiniMax-M2.5','DeepSeek-V3.2','qwen-image-2.0','qwen-image-2.0-pro','wan2.7-image','wan2.7-image-pro'],
     creditsMonth:250000, creditsNote:'¥1398/坐席/月', benefits:['10倍标准坐席用量','Credits统一计量'],
     note:'250000 Credits/月·尊享档·适合重度AI编码', link:'https://common-buy.aliyun.com/token-plan' },
   { platform:'阿里·Token Plan', name:'共享用量包', monthly:5000, quarterly:null, yearly:null, firstMonth:null,
-    models:['qwen3.6-plus','glm-5','MiniMax-M2.5','deepseek-v3.2','qwen-image-2.0','qwen-image-2.0-pro','wan2.7-image','wan2.7-image-pro'],
+    models:['Qwen3.6-Plus','GLM-5','MiniMax-M2.5','DeepSeek-V3.2','qwen-image-2.0','qwen-image-2.0-pro','wan2.7-image','wan2.7-image-pro'],
     creditsMonth:625000, creditsNote:'¥5000/个', benefits:['跨坐席共享','弹性用量'],
     note:'625000 Credits/个·有效期1个月·额度到期清零·可叠加购买', link:'https://common-buy.aliyun.com/token-plan' },
 
@@ -68,24 +68,24 @@ const TOKEN_PLANS = [
   // 首月$5，次月起$10；可切换为超额使用 Zen 余额
   // 文档：https://opencode.ai/zh/go
   { platform:'OpenCode Go', name:'Go', currency:'$', monthly:10, quarterly:null, yearly:null, firstMonth:5,
-    models:['Qwen3.6-Plus','GLM-5.1','MiniMax-M2.7','kimi-k2.6','kimi-k2.5','qwen3.5','qwen3-next','MiniMax-M2.5','MiMo-V2-Pro','MiMo-V2-Omni'],
+    models:['Qwen3.6-Plus','GLM-5.1','MiniMax-M2.7','kimi-k2.6','kimi-k2.5','Qwen3.5','Qwen3-Next','MiniMax-M2.5','MiMo-V2-Pro','MiMo-V2-Omni'],
     creditsBudget:'$12/5h $30/周 $60/月', benefits:['首月$5','OpenCode 原生接入'],
     note:'Beta·Token Plan·实际请求数随模型成本变化·可切换为超额使用 Zen 余额', link:'https://opencode.ai/zh/go' },
 
-  // 优云 - 积分制，非请求数，无req5h/reqMonth/reqWeek概念
-  // 另有一次性按量包；积分与 Token 的换算由模型倍率决定
+  // 优云 - 积分制，非请求数，无req5h/reqMonth/reqWeek概念；已售罄，新套餐即将上线
+  // 支持：MiniMax-M2.1/M2.5、DeepSeek-V3.2、Kimi-K2.5；另有一次性按量包
   { platform:'优云', name:'Lite', monthly:49.9, quarterly:null, yearly:null, firstMonth:null,
-    models:['GLM-5.1','Qwen3.6-Plus','MiniMax-M2.1','MiniMax-M2.5','GLM-5','kimi-k2.5','DeepSeek-V3.2'],
+    models:['MiniMax-M2.1','MiniMax-M2.5','DeepSeek-V3.2','Kimi-K2.5'],
     creditsMonth:null, creditsDaily:700, creditsUnit:' 积分', benefits:['允许 API 调用','支持 Codex CLI/CherryStudio'],
-    note:'另有¥6.9/19.9/199一次性按量包·积分倍率需看规则页', link:'https://passport.compshare.cn/register?referral_code=Kkl0Vgy0pCsFOzeMtfGBdI' },
+    note:'已售罄·新套餐即将上线·另有¥6.9/19.9/199一次性按量包', link:'https://passport.compshare.cn/register?referral_code=Kkl0Vgy0pCsFOzeMtfGBdI' },
   { platform:'优云', name:'Plus', monthly:199, quarterly:null, yearly:null, firstMonth:null,
-    models:['GLM-5.1','Qwen3.6-Plus','MiniMax-M2.1','MiniMax-M2.5','GLM-5','kimi-k2.5','DeepSeek-V3.2'],
+    models:['MiniMax-M2.1','MiniMax-M2.5','DeepSeek-V3.2','Kimi-K2.5'],
     creditsMonth:null, creditsDaily:2800, creditsUnit:' 积分', benefits:['允许 API 调用','支持 Codex CLI/CherryStudio'],
-    note:'另有¥6.9/19.9/199一次性按量包·限时赠 OpenClaw 云端服务', link:'https://passport.compshare.cn/register?referral_code=Kkl0Vgy0pCsFOzeMtfGBdI' },
+    note:'已售罄·新套餐即将上线·限时赠 OpenClaw 云端服务', link:'https://passport.compshare.cn/register?referral_code=Kkl0Vgy0pCsFOzeMtfGBdI' },
   { platform:'优云', name:'Pro', monthly:499, quarterly:null, yearly:null, firstMonth:null,
-    models:['GLM-5.1','Qwen3.6-Plus','MiniMax-M2.1','MiniMax-M2.5','GLM-5','kimi-k2.5','DeepSeek-V3.2'],
+    models:['MiniMax-M2.1','MiniMax-M2.5','DeepSeek-V3.2','Kimi-K2.5'],
     creditsMonth:null, creditsDaily:7000, creditsUnit:' 积分', benefits:['允许 API 调用','支持 Codex CLI/CherryStudio'],
-    note:'积分制·限时赠 OpenClaw 云端服务·允许客户端/API 场景', link:'https://passport.compshare.cn/register?referral_code=Kkl0Vgy0pCsFOzeMtfGBdI' },
+    note:'已售罄·新套餐即将上线·允许客户端/API 场景', link:'https://passport.compshare.cn/register?referral_code=Kkl0Vgy0pCsFOzeMtfGBdI' },
 ];
 
 // ===== Token Plan Ratings =====
@@ -104,10 +104,10 @@ const TOKEN_RATINGS=[
   },
   {
     name: '阿里·Token Plan', score: 2,
-    reasons: ['Credits统一计量·文本+图像双模态', '¥198起按坐席订阅·可扩展', '支持qwen3.6-plus/glm-5/MiniMax-M2.5/deepseek-v3.2', '不支持退款']
+    reasons: ['Credits统一计量·文本+图像双模态', '¥198起按坐席订阅·可扩展', '支持Qwen3.6-Plus/GLM-5/MiniMax-M2.5/DeepSeek-V3.2', '不支持退款']
   },
   {
-    name: '优云', score: 3,
-    reasons: ['支持GLM-5.1·Qwen3.6-Plus', '允许 API 调用·支持 Codex CLI/CherryStudio', '按量包+包月并存·套餐形态灵活', '积分倍率需看规则页']
+    name: '优云', score: 1,
+    reasons: ['已售罄·新套餐即将上线', '支持 MiniMax-M2.1/M2.5、DeepSeek-V3.2、Kimi-K2.5', '积分制·无用量透明计算器', '允许 API 调用']
   },
 ];
