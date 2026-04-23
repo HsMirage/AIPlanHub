@@ -24,25 +24,44 @@ const TOKEN_PLANS = [
     note:'625000 Credits/个·有效期1个月·额度到期清零·可叠加购买', link:'https://common-buy.aliyun.com/token-plan' },
 
   // 腾讯·Token - Token Plan（按 Token 额度计费），4月3日上线，兼容 Claude Code/Cursor/OpenClaw 等
+  // 2026.04.24 新增 Hy Token Plan 系列（基于 Hy3 Preview 模型），价格比通用版更优惠
   // 文档：https://cloud.tencent.com/document/product/1772/129449
   // 注意：仅限 AI 工具使用，禁止 API 调用（违者封禁）；暂不支持多模态
   // tokenMonth 单位为"万 Tokens"，显示为 3500万/1亿/3.2亿/6.5亿
+  // 通用 Token Plan 系列
   { platform:'腾讯·Token', name:'Lite', monthly:39, quarterly:null, yearly:null, firstMonth:null,
-    models:['HY-2.0','HY-2.0-Think','GLM-5','Kimi-K2.5','MiniMax-M2.5','Hunyuan-T1','Hunyuan-TurboS'],
+    models:['MiniMax-M2.5','MiniMax-M2.7','GLM-5','GLM-5.1','Kimi-K2.5','Auto'],
     tokenMonth:3500, tokenUnit:'万 Tokens', benefits:['3500万 Tokens/月','兼容 Claude Code/Cursor/OpenClaw'],
-    note:'Token Plan·约70轮问答·禁API调用', link:'https://curl.qcloud.com/1Uogyigq' },
+    note:'通用Token Plan·约70轮问答·禁API调用', link:'https://curl.qcloud.com/1Uogyigq' },
   { platform:'腾讯·Token', name:'Standard', monthly:99, quarterly:null, yearly:null, firstMonth:null,
-    models:['HY-2.0','HY-2.0-Think','GLM-5','Kimi-K2.5','MiniMax-M2.5','Hunyuan-T1','Hunyuan-TurboS'],
+    models:['MiniMax-M2.5','MiniMax-M2.7','GLM-5','GLM-5.1','Kimi-K2.5','Auto'],
     tokenMonth:10000, tokenUnit:'万 Tokens', benefits:['1亿 Tokens/月','兼容 Claude Code/Cursor/OpenClaw'],
-    note:'Token Plan·约200轮问答·禁API调用', link:'https://curl.qcloud.com/1Uogyigq' },
+    note:'通用Token Plan·约200轮问答·禁API调用', link:'https://curl.qcloud.com/1Uogyigq' },
   { platform:'腾讯·Token', name:'Pro', monthly:299, quarterly:null, yearly:null, firstMonth:null,
-    models:['HY-2.0','HY-2.0-Think','GLM-5','Kimi-K2.5','MiniMax-M2.5','Hunyuan-T1','Hunyuan-TurboS'],
+    models:['MiniMax-M2.5','MiniMax-M2.7','GLM-5','GLM-5.1','Kimi-K2.5','Auto'],
     tokenMonth:32000, tokenUnit:'万 Tokens', benefits:['3.2亿 Tokens/月','兼容 Claude Code/Cursor/OpenClaw'],
-    note:'Token Plan·高频AI开发·禁API调用', link:'https://curl.qcloud.com/1Uogyigq' },
+    note:'通用Token Plan·高频AI开发·禁API调用', link:'https://curl.qcloud.com/1Uogyigq' },
   { platform:'腾讯·Token', name:'Max', monthly:599, quarterly:null, yearly:null, firstMonth:null,
-    models:['HY-2.0','HY-2.0-Think','GLM-5','Kimi-K2.5','MiniMax-M2.5','Hunyuan-T1','Hunyuan-TurboS'],
+    models:['MiniMax-M2.5','MiniMax-M2.7','GLM-5','GLM-5.1','Kimi-K2.5','Auto'],
     tokenMonth:65000, tokenUnit:'万 Tokens', benefits:['6.5亿 Tokens/月','兼容 Claude Code/Cursor/OpenClaw'],
-    note:'Token Plan·重度开发首选·禁API调用', link:'https://curl.qcloud.com/1Uogyigq' },
+    note:'通用Token Plan·重度开发首选·禁API调用', link:'https://curl.qcloud.com/1Uogyigq' },
+  // Hy Token Plan 系列 (2026.04.24 新增，基于腾讯自研 Hy3 Preview 模型)
+  { platform:'腾讯·Token', name:'Hy Lite', monthly:28, quarterly:null, yearly:null, firstMonth:null,
+    models:['Hy3 preview'],
+    tokenMonth:3500, tokenUnit:'万 Tokens', benefits:['3500万 Tokens/月','Hy3 Preview模型','价格比通用版低28%'],
+    note:'Hy Token Plan·新用户首选·约70轮问答·禁API调用', link:'https://curl.qcloud.com/1Uogyigq' },
+  { platform:'腾讯·Token', name:'Hy Standard', monthly:78, quarterly:null, yearly:null, firstMonth:null,
+    models:['Hy3 preview'],
+    tokenMonth:10000, tokenUnit:'万 Tokens', benefits:['1亿 Tokens/月','Hy3 Preview模型','价格比通用版低21%'],
+    note:'Hy Token Plan·日常使用·约200轮问答·禁API调用', link:'https://curl.qcloud.com/1Uogyigq' },
+  { platform:'腾讯·Token', name:'Hy Pro', monthly:238, quarterly:null, yearly:null, firstMonth:null,
+    models:['Hy3 preview'],
+    tokenMonth:32000, tokenUnit:'万 Tokens', benefits:['3.2亿 Tokens/月','Hy3 Preview模型','价格比通用版低20%'],
+    note:'Hy Token Plan·高频AI开发·禁API调用', link:'https://curl.qcloud.com/1Uogyigq' },
+  { platform:'腾讯·Token', name:'Hy Max', monthly:468, quarterly:null, yearly:null, firstMonth:null,
+    models:['Hy3 preview'],
+    tokenMonth:65000, tokenUnit:'万 Tokens', benefits:['6.5亿 Tokens/月','Hy3 Preview模型','价格比通用版低22%'],
+    note:'Hy Token Plan·重度开发首选·禁API调用', link:'https://curl.qcloud.com/1Uogyigq' },
 
   // 小米·MiMo - Token Plan，2026.04.23 重大更新：改成年付制，额度大幅提升，新增 MiMo-V2.5 系列
   // Credit 倍率：MiMo-V2.5-Pro 256k→1x, MiMo-V2.5 256k→1x, MiMo-V2-Omni 256k→1x, MiMo-V2-Pro 256k→2x, MiMo-V2-TTS→0x（限时免费）
