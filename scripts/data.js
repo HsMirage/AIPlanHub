@@ -225,6 +225,14 @@ const PLANS = [
   { platform:'Ollama', name:'Max', currency:'$', monthly:100, quarterly:null, yearly:null, firstMonth:null,
     models:['GLM-5.1','Qwen3.5','Qwen3-Coder-Next','MiniMax-M2.7','Kimi-K2.6','Kimi-K2.5','DeepSeek-V3','Llama4','Qwen3-Next','Nemotron-3-Super','Devstral-Small-2','Gemma4'], req5h:null, reqMonth:null, reqWeek:null, benefits:['5x Pro额度','10并发模型','适合高强度开发'],
     note:'⚠️具体请求数不公开·以下模型名为Ollama自有格式', link:'https://ollama.com/pricing' },
+
+  // ChatGPT - 第三方渠道售卖，非官方平台
+  { platform:'ChatGPT', name:'Team', monthly:28.8, quarterly:null, yearly:null, firstMonth:null,
+    models:['GPT-4.1','GPT-Image-2','o3','o4-mini'], req5h:null, reqMonth:null, reqWeek:null, benefits:[],
+    note:'⚠️第三方渠道·质保半个月', link:'https://pay.ldxp.cn/shop/mirage' },
+  { platform:'ChatGPT', name:'Plus', monthly:26.6, quarterly:null, yearly:null, firstMonth:null,
+    models:['GPT-4.1','GPT-Image-2','o3','o4-mini'], req5h:null, reqMonth:null, reqWeek:null, benefits:[],
+    note:'⚠️第三方渠道·无质保', link:'https://pay.ldxp.cn/shop/mirage' },
 ];
 // ===== Platform Ratings =====
 const RATINGS = [
@@ -304,5 +312,9 @@ const RATINGS = [
   {
     name: 'Ollama', score: 3,
     reasons: ['支持GLM5.1', '可用模型40,000+', '请求速度中等偏上', '具体请求数未公开！']
+  },
+  {
+    name: 'ChatGPT', score: 5, isAd: true,
+    reasons: ['28.8元质保半月Team会员', '速度快，智商高，价格低，用量高', '自带最强生图模型GPT-Image-2']
   }
 ];

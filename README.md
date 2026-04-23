@@ -6,7 +6,7 @@
 
 ---
 
-| Coding 数据更新于 2026.04.23 · Token 数据更新于 2026.04.22 · Video 数据更新于 2026.04.23 · Image 数据更新于 2026.04.23 · Audio 数据更新于 2026.04.22
+| Coding 数据更新于 2026.04.23 · Token 数据更新于 2026.04.23 · Video 数据更新于 2026.04.23 · Image 数据更新于 2026.04.23 · Audio 数据更新于 2026.04.22
 
 ---
 
@@ -35,7 +35,7 @@ https://ai.hsnb.fun/aiplanhub
 
 ---
 
-## Coding 平台（19 家）
+## Coding 平台（20 家）
 
 | 平台 | 代表模型 | 方案数 | 月付起 | 评分 |
 |------|----------|--------|--------|------|
@@ -57,6 +57,7 @@ https://ai.hsnb.fun/aiplanhub
 | 字节·方舟 | Doubao-Seed-2.0-pro | 2 | ¥40 | ★★ |
 | Alaya Code | MiniMax-M2.5 / GLM-5.1 | 3 | ¥39 | ★★ |
 | Ollama | GLM-5.1 / Qwen3.5 / MiniMax-M2.7 | 3 | $0 | ★★★ |
+| ChatGPT | GPT-4.1 / GPT-Image-2 | 2 | ¥26.6 | ★★★★★ |
 
 ### 入门级（人民币月付 ≤ ¥50）
 
@@ -78,6 +79,8 @@ https://ai.hsnb.fun/aiplanhub
 | 智谱AI | Lite | ¥49 | — | 1,200 | [开通](https://www.bigmodel.cn/glm-coding?ic=DGRQECTZFB) |
 | Kimi | Andante | ¥49 | ¥39 | — | [开通](https://www.kimi.com/code/zh) |
 | 阶跃星辰 | Flash Mini | ¥49 | — | 1,500 | [开通](https://platform.stepfun.com/docs/zh/step-plan/overview) |
+| ChatGPT | Plus | ¥26.6 | — | — | [开通](https://pay.ldxp.cn/shop/mirage) |
+| ChatGPT | Team | ¥28.8 | — | — | [开通](https://pay.ldxp.cn/shop/mirage) |
 | Alaya Code | Lite | ¥39 | — | — | [开通](https://codingplan.alayanew.com/docs/billing) |
 
 ### 进阶级（人民币月付 ¥51-¥199）
@@ -125,7 +128,7 @@ https://ai.hsnb.fun/aiplanhub
 
 ---
 
-## Token 平台（5 家）
+## Token 平台（6 家）
 
 > 每家的 Credits / Token 计算方式不同，具体可用额度请进入官网查询
 
@@ -136,6 +139,7 @@ https://ai.hsnb.fun/aiplanhub
 | 阿里·Token Plan | Qwen3.6-Plus | 4 | ¥198 | ★★ |
 | 小米·MiMo | MiMo-V2-Pro | 4 | ¥39 | ★ |
 | OpenCode Go | Qwen3.6-Plus | 1 | $10 | ★★ |
+| ChatGPT | GPT-4.1 / GPT-Image-2 | 1 | ¥10 | ★★★★★ |
 
 ### Token 入门（人民币月付 ≤ ¥100）
 
@@ -145,6 +149,7 @@ https://ai.hsnb.fun/aiplanhub
 | 小米·MiMo | Lite | ¥39 | ¥34.32 | 6,000 Credits/月 | [开通](https://platform.xiaomimimo.com/#/token-plan) |
 | 优云 | Lite | ¥49.9 | — | ⚠️已售罄·700 积分/日 | [开通](https://passport.compshare.cn/register?referral_code=Kkl0Vgy0pCsFOzeMtfGBdI) |
 | OpenCode Go | Go | $10 | $5 | $12/5h $30/周 $60/月 | [开通](https://opencode.ai/zh/go) |
+| ChatGPT | Token | ¥10 | — | 100 刀 | [开通](https://pay.ldxp.cn/shop/mirage) |
 | 腾讯·Token | Standard | ¥99 | — | 1亿 Tokens/月 | [开通](https://curl.qcloud.com/1Uogyigq) |
 | 小米·MiMo | Standard | ¥99 | ¥87.12 | 20,000 Credits/月 | [开通](https://platform.xiaomimimo.com/#/token-plan) |
 

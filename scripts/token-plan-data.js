@@ -87,6 +87,12 @@ const TOKEN_PLANS = [
     models:['MiniMax-M2.1','MiniMax-M2.5','DeepSeek-V3.2','Kimi-K2.5'],
     creditsMonth:null, creditsDaily:7000, creditsUnit:' 积分', benefits:['允许 API 调用','支持 Codex CLI/CherryStudio'],
     note:'已售罄·新套餐即将上线·允许客户端/API 场景', link:'https://passport.compshare.cn/register?referral_code=Kkl0Vgy0pCsFOzeMtfGBdI' },
+
+  // ChatGPT Token - 第三方渠道售卖
+  { platform:'ChatGPT', name:'Token', monthly:10, quarterly:null, yearly:null, firstMonth:null,
+    models:['GPT-4.1','GPT-Image-2','o3','o4-mini'],
+    creditsMonth:100, creditsUnit:' 刀', benefits:[],
+    note:'⚠️第三方渠道·Token计费', link:'https://pay.ldxp.cn/shop/mirage' },
 ];
 
 // ===== Token Plan Ratings =====
@@ -110,5 +116,9 @@ const TOKEN_RATINGS=[
   {
     name: '优云', score: 1,
     reasons: ['已售罄·新套餐即将上线', '支持 MiniMax-M2.1/M2.5、DeepSeek-V3.2、Kimi-K2.5', '积分制·无用量透明计算器', '允许 API 调用']
+  },
+  {
+    name: 'ChatGPT', score: 5, isAd: true,
+    reasons: ['28.8元质保半月Team会员', '速度快，智商高，价格低，用量高', '自带最强生图模型GPT-Image-2']
   },
 ];
