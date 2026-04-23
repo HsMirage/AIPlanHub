@@ -57,7 +57,7 @@ https://ai.hsnb.fun/aiplanhub
 | 字节·方舟 | Doubao-Seed-2.0-pro | 2 | ¥40 | ★★ |
 | Alaya Code | MiniMax-M2.5 / GLM-5.1 | 3 | ¥39 | ★★ |
 | Ollama | GLM-5.1 / Qwen3.5 / MiniMax-M2.7 | 3 | $0 | ★★★ |
-| ChatGPT | GPT-4.1 / GPT-Image-2 | 2 | ¥26.6 | ★★★★★ |
+| ChatGPT | GPT-5.4 / GPT-Image-2 / GPT-5.3-Codex | 2 | ¥26.6 | ★★★★★ |
 
 ### 入门级（人民币月付 ≤ ¥50）
 
@@ -139,7 +139,7 @@ https://ai.hsnb.fun/aiplanhub
 | 阿里·Token Plan | Qwen3.6-Plus | 4 | ¥198 | ★★ |
 | 小米·MiMo | MiMo-V2-Pro | 4 | ¥39 | ★ |
 | OpenCode Go | Qwen3.6-Plus | 1 | $10 | ★★ |
-| ChatGPT | GPT-4.1 / GPT-Image-2 | 1 | ¥10 | ★★★★★ |
+| ChatGPT | GPT-5.4 / GPT-Image-2 / GPT-5.3-Codex | 1 | ¥10 | ★★★★★ |
 
 ### Token 入门（人民币月付 ≤ ¥100）
 
