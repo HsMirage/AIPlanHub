@@ -32,14 +32,24 @@
     "note": "Coding Plan活动页，含套餐价格/模型列表；额度详查 https://www.volcengine.com/docs/82379/2165245"
   },
   "阿里·百炼": {
-    "link": "https://www.aliyun.com/benefit/scene/codingplan",
+    "link": "https://help.aliyun.com/zh/model-studio/coding-plan",
     "method": "snapshot",
-    "note": "Coding Plan活动页，含套餐价格/模型列表；额度详查 https://help.aliyun.com/zh/model-studio/coding-plan"
+    "note": "Pro¥200/月·req5h6000·reqWeek45000·reqMonth90000·支持Qwen3.6-Plus/Kimi-K2.5/GLM-5/MiniMax-M2.5·每日09:30补货"
   },
   "京东云": {
     "link": "https://docs.jdcloud.com/cn/jdaip/PackageOverview",
     "method": "snapshot",
     "note": "Lite周限9000/Pro周限45000，每周一00:00重置"
+  },
+  "天翼云": {
+    "link": "https://www.ctyun.cn/document/11061839/11092415",
+    "method": "snapshot",
+    "note": "套餐概述：Lite¥49/Pro¥149/Max¥469·req5h=1200/6000/24000·以prompts计需×15换算为API calls"
+  },
+  "天翼云-常见问题": {
+    "link": "https://www.ctyun.cn/document/11061839/11092440",
+    "method": "snapshot",
+    "note": "常见问题页，含模型切换说明、Claude Code配置指引等"
   },
   "移动云": {
     "link": "https://ecloud.10086.cn/portal/act/codingplan",
