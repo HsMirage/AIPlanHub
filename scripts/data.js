@@ -228,10 +228,10 @@ const PLANS = [
 
   // ChatGPT - 第三方渠道售卖，非官方平台
   { platform:'ChatGPT', name:'Team', monthly:28.8, quarterly:null, yearly:null, firstMonth:null,
-    models:['GPT-4.1','GPT-Image-2','o3','o4-mini'], req5h:null, reqMonth:null, reqWeek:null, benefits:[],
+    models:['GPT-5.4','GPT-Image-2','GPT-5.3-Codex','GPT-5.2'], req5h:null, reqMonth:null, reqWeek:null, benefits:[],
     note:'⚠️第三方渠道·质保半个月', link:'https://pay.ldxp.cn/shop/mirage' },
   { platform:'ChatGPT', name:'Plus', monthly:26.6, quarterly:null, yearly:null, firstMonth:null,
-    models:['GPT-4.1','GPT-Image-2','o3','o4-mini'], req5h:null, reqMonth:null, reqWeek:null, benefits:[],
+    models:['GPT-5.4','GPT-Image-2','GPT-5.3-Codex','GPT-5.2'], req5h:null, reqMonth:null, reqWeek:null, benefits:[],
     note:'⚠️第三方渠道·无质保', link:'https://pay.ldxp.cn/shop/mirage' },
 ];
 // ===== Platform Ratings =====

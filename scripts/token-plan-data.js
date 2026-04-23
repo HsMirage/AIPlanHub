@@ -90,9 +90,9 @@ const TOKEN_PLANS = [
 
   // ChatGPT Token - 第三方渠道售卖
   { platform:'ChatGPT', name:'Token', monthly:10, quarterly:null, yearly:null, firstMonth:null,
-    models:['GPT-4.1','GPT-Image-2','o3','o4-mini'],
-    creditsMonth:100, creditsUnit:' 刀', benefits:[],
-    note:'⚠️第三方渠道·Token计费', link:'https://pay.ldxp.cn/shop/mirage' },
+    models:['GPT-5.4','GPT-Image-2','GPT-5.3-Codex','GPT-5.2','GLM-5.1','Kimi-K2.6'],
+    creditsMonth:100, creditsUnit:' 刀', benefits:['长期有效','站点模型任选'],
+    note:'⚠️第三方渠道·Token计费·GPT-Image-2模型8分钱一次', link:'https://pay.ldxp.cn/shop/mirage' },
 ];
 
 // ===== Token Plan Ratings =====
@@ -119,6 +119,6 @@ const TOKEN_RATINGS=[
   },
   {
     name: 'ChatGPT', score: 5, isAd: true,
-    reasons: ['28.8元质保半月Team会员', '速度快，智商高，价格低，用量高', '自带最强生图模型GPT-Image-2']
+    reasons: ['10元100刀额度，长期有效', '站点模型任选', 'GPT-Image-2模型8分钱一次']
   },
 ];
