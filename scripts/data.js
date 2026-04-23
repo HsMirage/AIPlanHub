@@ -62,9 +62,9 @@ const PLANS = [
   // 2026.04.16：页面新增「包季」按钮，季付=月付×3（Lite ¥120，Pro ¥600）
   // 2026.04.17核对：文档(2026-04-13更新)新增Doubao-Seed-2.0-Code模型；Auto智能路由模式；Kimi-K2-thinking已于3月31日下线
   { platform:'字节·方舟', name:'Lite', monthly:40, quarterly:120, yearly:null, firstMonth:null,
-    models:['Doubao-Seed-2.0-pro','Doubao-Seed-2.0-lite','Doubao-Seed-2.0-Code','Doubao-Seed-Code','DeepSeek-V3.2','Kimi-K2.6','Kimi-K2.5','GLM-5.1'], req5h:1200, reqMonth:18000, reqWeek:9000, benefits:['ArkClaw 7天试用','Auto智能选模型','联网搜索免费额度'], note:'⚠双层计费·额度消耗远快于同行·每周一00:00刷新·已支持GLM-5.1/kimi-k2.6', link:'https://volcengine.com/L/jmiEa1dptck/' },
+    models:['Doubao-Seed-2.0-pro','Doubao-Seed-2.0-lite','Doubao-Seed-2.0-Code','Doubao-Seed-Code','DeepSeek-V3.2','Kimi-K2.6','Kimi-K2.5','GLM-5.1'], req5h:1200, reqMonth:18000, reqWeek:9000, benefits:['ArkClaw 7天试用','Auto智能选模型','联网搜索免费额度'], note:'⚠双层计费·额度消耗远快于同行·每周一00:00刷新·已支持GLM-5.1/kimi-k2.6', link:'https://volcengine.com/L/tA8Mcwd5Xj8/' },
   { platform:'字节·方舟', name:'Pro', monthly:200, quarterly:600, yearly:null, firstMonth:null,
-    models:['Doubao-Seed-2.0-pro','Doubao-Seed-2.0-lite','Doubao-Seed-2.0-Code','Doubao-Seed-Code','DeepSeek-V3.2','Kimi-K2.6','Kimi-K2.5','GLM-5.1'], req5h:6000, reqMonth:90000, reqWeek:45000, benefits:['免费ArkClaw','Auto智能选模型','联网搜索免费额度'], note:'⚠双层计费·Pro三四天可用完月额度·每周一00:00刷新·已支持GLM-5.1/kimi-k2.6', link:'https://volcengine.com/L/jmiEa1dptck/' },
+    models:['Doubao-Seed-2.0-pro','Doubao-Seed-2.0-lite','Doubao-Seed-2.0-Code','Doubao-Seed-Code','DeepSeek-V3.2','Kimi-K2.6','Kimi-K2.5','GLM-5.1'], req5h:6000, reqMonth:90000, reqWeek:45000, benefits:['免费ArkClaw','Auto智能选模型','联网搜索免费额度'], note:'⚠双层计费·Pro三四天可用完月额度·每周一00:00刷新·已支持GLM-5.1/kimi-k2.6', link:'https://volcengine.com/L/tA8Mcwd5Xj8/' },
 
   // 阿里·百炼 - Lite套餐已停止新购（2026.03.20起），4月13日起停止续费与升级；当前仅显示Pro套餐
   // 2026.04.11核对：官方Coding Plan概述页显示qwen3.6-plus为Pro专属权益；控制台显示Pro暂时售罄
@@ -72,7 +72,7 @@ const PLANS = [
   // 2026.04.17核对：文档(2026-04-14更新)确认Lite 4/13起停止续费升级；首续5折活动4/1结束；Pro限量抢购·每日09:30补货
   // 2026.04.20核对：页面显示Pro仍为售罄状态，每周45000次请求限额信息未变
   { platform:'阿里·百炼', name:'Pro', monthly:200, quarterly:null, yearly:null, firstMonth:null,
-    models:['Qwen3.6-Plus','Qwen3.5-Plus','Qwen3-Coder-Next','Qwen3-Coder-Plus','Qwen3-Max-2026-01-23','GLM-5','GLM-4.7','Kimi-K2.5','MiniMax-M2.5'], req5h:6000, reqMonth:90000, reqWeek:45000, benefits:['多模型自由切换'], note:'Lite已停止新购(3.20)及续费(4.13)·Pro专属Qwen3.6-Plus·Pro限量抢购·每日09:30补货·首续5折4/1结束·每周45000次', link:'https://help.aliyun.com/zh/model-studio/coding-plan' },
+    models:['Qwen3.6-Plus','Qwen3.5-Plus','Qwen3-Coder-Next','Qwen3-Coder-Plus','Qwen3-Max-2026-01-23','GLM-5','GLM-4.7','Kimi-K2.5','MiniMax-M2.5'], req5h:6000, reqMonth:90000, reqWeek:45000, benefits:['多模型自由切换'], note:'Lite已停止新购(3.20)及续费(4.13)·Pro专属Qwen3.6-Plus·Pro限量抢购·每日09:30补货·首续5折4/1结束·每周45000次', link:'https://www.aliyun.com/minisite/goods?userCode=hun0t0sf' },
 
   // 京东云 - JoyBuilder Coding Plan，帮助文档更新于 2026.04.03；活动规则页显示首购优惠持续到 2026.06.30，每天10:30限量开放
   // 官方宣称高峰期无明显降速；社区有截断/卡顿与未到 5h 上限触发 rate_limit 的反馈
@@ -98,11 +98,11 @@ const PLANS = [
   // ⚠️ 注意：页面显示的prompts数是扣倍率前的理论值，高阶模型实际可用量更少
   // 2026.04.17核实：文档(2026-04-15更新)新增包年套餐选项（价格未公开）；限时福利GLM-5.1/5-Turbo非高峰期1x抵扣至4月底
   { platform:'天翼云', name:'GLM Lite', monthly:49, quarterly:null, yearly:null, firstMonth:null,
-    models:['GLM-5.1','GLM-5-Turbo','GLM-4.7','GLM-4.6','GLM-4.5','GLM-4.5-Air'], req5h:1200, reqMonth:24000, reqWeek:6000, benefits:['GLM 全家桶','支持 Claude Code/OpenCode/OpenClaw/Cline'], note:'暂时售罄·每日10:00补货·高阶模型高峰3x/非高峰2x抵扣·实际可用量约为标称1/2~1/3', link:'https://www.ctyun.cn/document/11061839/11092415' },
+    models:['GLM-5.1','GLM-5-Turbo','GLM-4.7','GLM-4.6','GLM-4.5','GLM-4.5-Air'], req5h:1200, reqMonth:24000, reqWeek:6000, benefits:['GLM 全家桶','支持 Claude Code/OpenCode/OpenClaw/Cline'], note:'暂时售罄·每日10:00补货·高阶模型高峰3x/非高峰2x抵扣·实际可用量约为标称1/2~1/3', link:'https://www.ctyun.cn/h5/auth/register?partnerType=cust&partnerAccountId=a5b77635116143c598a0bfb24acecf14' },
   { platform:'天翼云', name:'GLM Pro', monthly:149, quarterly:null, yearly:null, firstMonth:null,
-    models:['GLM-5.1','GLM-5','GLM-5-Turbo','GLM-4.7','GLM-4.6','GLM-4.5','GLM-4.5-Air'], req5h:6000, reqMonth:120000, reqWeek:30000, benefits:['GLM 全家桶','低峰期动态提升并发'], note:'暂时售罄·每日10:00补货·GLM-5/5.1/5-Turbo 用量消耗更快·实际可用量约为标称1/2~1/3', link:'https://www.ctyun.cn/document/11061839/11092415' },
+    models:['GLM-5.1','GLM-5','GLM-5-Turbo','GLM-4.7','GLM-4.6','GLM-4.5','GLM-4.5-Air'], req5h:6000, reqMonth:120000, reqWeek:30000, benefits:['GLM 全家桶','低峰期动态提升并发'], note:'暂时售罄·每日10:00补货·GLM-5/5.1/5-Turbo 用量消耗更快·实际可用量约为标称1/2~1/3', link:'https://www.ctyun.cn/h5/auth/register?partnerType=cust&partnerAccountId=a5b77635116143c598a0bfb24acecf14' },
   { platform:'天翼云', name:'GLM Max', monthly:469, quarterly:null, yearly:null, firstMonth:null,
-    models:['GLM-5.1','GLM-5','GLM-5-Turbo','GLM-4.7','GLM-4.6','GLM-4.5','GLM-4.5-Air'], req5h:24000, reqMonth:480000, reqWeek:120000, benefits:['GLM 全家桶','推荐 2+ 项目并发开发'], note:'暂时售罄·每日10:00补货·高阶模型倍率抵扣影响实际可用量·实际可用量约为标称1/2~1/3', link:'https://www.ctyun.cn/document/11061839/11092415' },
+    models:['GLM-5.1','GLM-5','GLM-5-Turbo','GLM-4.7','GLM-4.6','GLM-4.5','GLM-4.5-Air'], req5h:24000, reqMonth:480000, reqWeek:120000, benefits:['GLM 全家桶','推荐 2+ 项目并发开发'], note:'暂时售罄·每日10:00补货·高阶模型倍率抵扣影响实际可用量·实际可用量约为标称1/2~1/3', link:'https://www.ctyun.cn/h5/auth/register?partnerType=cust&partnerAccountId=a5b77635116143c598a0bfb24acecf14' },
 
   // 联通云 - Coding Plan 概述文档显示当前资源紧张；限流时会自动切换到负载更轻模型，套餐页为 Lite / Pro 两档
   // 仅允许 AI 编程工具使用，严禁 API 调用；当前公开文档主入口为帮助中心
@@ -117,11 +117,11 @@ const PLANS = [
   // 页面明确显示 MiniMax-M2.5 / Step-3.5-Flash / GLM-5.1 三模型通用；采用每5小时+每周双维度限制
   // 官方入口购买页使用 maas 控制台，站外活动页说明购买不可叠加代金券/优惠券
   { platform:'蓝耘元生代云', name:'入门版', monthly:49, quarterly:132.3, yearly:470.4, firstMonth:null,
-    models:['MiniMax-M2.5','Step-3.5-Flash','GLM-5.1'], req5h:1200, reqMonth:null, reqWeek:6000, benefits:['三模型通用','兼容 Claude Code/OpenCode/Cline'], note:'季付9折·年付8折·每5小时1200次·每周6000次·独立API Key·不可叠加券', link:'https://lanyun.net/maas/Codingplan.html' },
+    models:['MiniMax-M2.5','Step-3.5-Flash','GLM-5.1'], req5h:1200, reqMonth:null, reqWeek:6000, benefits:['三模型通用','兼容 Claude Code/OpenCode/Cline'], note:'季付9折·年付8折·每5小时1200次·每周6000次·独立API Key·不可叠加券', link:'https://console.lanyun.net/#/register?promoterCode=3ef0f72996' },
     { platform:'蓝耘元生代云', name:'专业版', currency:'¥', monthly:149, quarterly:402.3, yearly:1430.4, firstMonth:null,
-    models:['MiniMax-M2.5','Step-3.5-Flash','GLM-5.1'], req5h:6000, reqMonth:null, reqWeek:30000, benefits:['三模型通用','复杂开发任务支持'], note:'季付9折·年付8折·每5小时6000次·每周30000次·优先技术支持·不可叠加券', link:'https://lanyun.net/maas/Codingplan.html' },
+    models:['MiniMax-M2.5','Step-3.5-Flash','GLM-5.1'], req5h:6000, reqMonth:null, reqWeek:30000, benefits:['三模型通用','复杂开发任务支持'], note:'季付9折·年付8折·每5小时6000次·每周30000次·优先技术支持·不可叠加券', link:'https://console.lanyun.net/#/register?promoterCode=3ef0f72996' },
     { platform:'蓝耘元生代云', name:'高级版', currency:'¥', monthly:469, quarterly:1266.3, yearly:4502.4, firstMonth:null,
-    models:['MiniMax-M2.5','Step-3.5-Flash','GLM-5.1'], req5h:24000, reqMonth:null, reqWeek:120000, benefits:['三模型通用','企业级 SLA 优化'], note:'季付9折·年付8折·每5小时24000次·每周120000次·团队协作优化·不可叠加券', link:'https://lanyun.net/maas/Codingplan.html' },
+    models:['MiniMax-M2.5','Step-3.5-Flash','GLM-5.1'], req5h:24000, reqMonth:null, reqWeek:120000, benefits:['三模型通用','企业级 SLA 优化'], note:'季付9折·年付8折·每5小时24000次·每周120000次·团队协作优化·不可叠加券', link:'https://console.lanyun.net/#/register?promoterCode=3ef0f72996' },
 
   // 腾讯·Coding - Coding Plan（按请求次数），仅月付；新客首购特惠已于2026.04.19结束，恢复原价Lite¥40/Pro¥200
   // 2026.04.23核实：活动页已显示"本次活动已结束"，文档页更新于2026-04-03，数据无变化
@@ -194,9 +194,9 @@ const PLANS = [
   // 2026.04.11通过已登录Edge实测：docs.infini-ai.com官方文档明确显示每周/每月限额，已支持GLM-5.1
   // 2026.04.17核对：文档(2026-04-09更新)新增4个模型(DeepSeek-V3.2-Thinking/MiniMax-M2.1/MiniMax-M2.7/GLM-4.7)
   { platform:'无问芯穹', name:'Lite', monthly:40, quarterly:null, yearly:null, firstMonth:null,
-    models:['DeepSeek-V3.2-Thinking','DeepSeek-V3.2','MiniMax-M2.7','MiniMax-M2.1','MiniMax-M2.5','GLM-4.7','Kimi-K2.5','GLM-5.1','GLM-5'], req5h:1000, reqMonth:12000, reqWeek:6000,    benefits:['多模型聚合','月费最低'], note:'暂时售罄·次月¥40·5h滚动窗口·周配额周一重置·月配额按订阅周期', link:'https://docs.infini-ai.com/gen-studio-coding-plan/' },
+    models:['DeepSeek-V3.2-Thinking','DeepSeek-V3.2','MiniMax-M2.7','MiniMax-M2.1','MiniMax-M2.5','GLM-4.7','Kimi-K2.5','GLM-5.1','GLM-5'], req5h:1000, reqMonth:12000, reqWeek:6000,    benefits:['多模型聚合','月费最低'], note:'暂时售罄·次月¥40·5h滚动窗口·周配额周一重置·月配额按订阅周期', link:'https://cloud.infini-ai.com/login?redirect=/genstudio/invitation&invite_code=qYRvZBVl' },
   { platform:'无问芯穹', name:'Pro', monthly:200, quarterly:null, yearly:null, firstMonth:null,
-    models:['DeepSeek-V3.2-Thinking','DeepSeek-V3.2','MiniMax-M2.7','MiniMax-M2.1','MiniMax-M2.5','GLM-4.7','Kimi-K2.5','GLM-5.1','GLM-5'], req5h:5000, reqMonth:60000, reqWeek:30000,    benefits:['5倍Lite用量','专业高级场景'], note:'暂时售罄·次月¥200·5h滚动窗口·周配额周一重置·月配额按订阅周期', link:'https://docs.infini-ai.com/gen-studio-coding-plan/' },
+    models:['DeepSeek-V3.2-Thinking','DeepSeek-V3.2','MiniMax-M2.7','MiniMax-M2.1','MiniMax-M2.5','GLM-4.7','Kimi-K2.5','GLM-5.1','GLM-5'], req5h:5000, reqMonth:60000, reqWeek:30000,    benefits:['5倍Lite用量','专业高级场景'], note:'暂时售罄·次月¥200·5h滚动窗口·周配额周一重置·月配额按订阅周期', link:'https://cloud.infini-ai.com/login?redirect=/genstudio/invitation&invite_code=qYRvZBVl' },
 
   // Alaya Code - 2026.04.18 新增
   // 文档：https://codingplan.alayanew.com/docs/billing
