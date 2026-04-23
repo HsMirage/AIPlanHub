@@ -72,7 +72,7 @@ const PLANS = [
   // 2026.04.17核对：文档(2026-04-14更新)确认Lite 4/13起停止续费升级；首续5折活动4/1结束；Pro限量抢购·每日09:30补货
   // 2026.04.20核对：页面显示Pro仍为售罄状态，每周45000次请求限额信息未变
   { platform:'阿里·百炼', name:'Pro', monthly:200, quarterly:null, yearly:null, firstMonth:null,
-    models:['Qwen3.6-Plus','Qwen3.5-Plus','Qwen3-Coder-Next','Qwen3-Coder-Plus','Qwen3-Max-2026-01-23','GLM-5','GLM-4.7','Kimi-K2.5','MiniMax-M2.5'], req5h:6000, reqMonth:90000, reqWeek:45000, benefits:['多模型自由切换'], note:'Lite已停止新购(3.20)及续费(4.13)·Pro专属Qwen3.6-Plus·Pro限量抢购·每日09:30补货·首续5折4/1结束·每周45000次', link:'https://www.aliyun.com/minisite/goods?userCode=hun0t0sf' },
+    models:['Qwen3.6-Plus','Qwen3.5-Plus','Qwen3-Coder-Next','Qwen3-Coder-Plus','Qwen3-Max-2026-01-23','GLM-5','GLM-4.7','Kimi-K2.5','MiniMax-M2.5'], req5h:6000, reqMonth:90000, reqWeek:45000, benefits:['多模型自由切换'], note:'Lite已停止新购(3.20)及续费(4.13)·Pro专属Qwen3.6-Plus·Pro限量抢购·每日09:30补货·首续5折4/1结束·每周45000次', link:'https://www.aliyun.com/benefit/scene/codingplan' },
 
   // 京东云 - JoyBuilder Coding Plan，帮助文档更新于 2026.04.03；活动规则页显示首购优惠持续到 2026.06.30，每天10:30限量开放
   // 官方宣称高峰期无明显降速；社区有截断/卡顿与未到 5h 上限触发 rate_limit 的反馈
@@ -90,18 +90,19 @@ const PLANS = [
   { platform:'移动云', name:'Pro', monthly:200, quarterly:null, yearly:null, firstMonth:39.9,
     models:['MiniMax-M2.5'], req5h:6000, reqMonth:90000, reqWeek:45000, benefits:['适配 Claude Code/OpenCode/OpenClaw'], note:'首月¥39.9·仅 MiniMax-M2.5·呼和浩特/武汉可购·禁API调用', link:'https://ecloud.10086.cn/portal/act/codingplan' },
 
-  // 天翼云 - 订阅页(https://ctxirang.ctyun.cn/maas/codingPlan)与文档页(https://www.ctyun.cn/document/11061839/11092415)实测
+  // 天翼云 - 文档页(https://www.ctyun.cn/document/11061839/11092415)含完整套餐数据；用量以prompts计，需×15换算为API calls
+  // 2026.04.23核实：文档更新于2026-04-15，数据无变化；套餐暂售罄，每日10:00补货
   // 3档套餐均暂时售罄，每日10:00补货；文档给的是prompt档位，按1prompt≈15次调用折算为请求数
   // 2026.04.11实测：订阅页确认Lite¥49/Pro¥149/Max¥469；reqWeek=6000/30000/120000（估算值，页面不直接显示）
   // 付费倍率：高阶模型（GLM-5/5.1/5-Turbo）高峰3x/非高峰2x抵扣，即实际可用量约为标称值的1/2~1/3
   // ⚠️ 注意：页面显示的prompts数是扣倍率前的理论值，高阶模型实际可用量更少
   // 2026.04.17核实：文档(2026-04-15更新)新增包年套餐选项（价格未公开）；限时福利GLM-5.1/5-Turbo非高峰期1x抵扣至4月底
   { platform:'天翼云', name:'GLM Lite', monthly:49, quarterly:null, yearly:null, firstMonth:null,
-    models:['GLM-5.1','GLM-5-Turbo','GLM-4.7','GLM-4.6','GLM-4.5','GLM-4.5-Air'], req5h:1200, reqMonth:24000, reqWeek:6000, benefits:['GLM 全家桶','支持 Claude Code/OpenCode/OpenClaw/Cline'], note:'暂时售罄·每日10:00补货·高阶模型高峰3x/非高峰2x抵扣·实际可用量约为标称1/2~1/3', link:'https://ctxirang.ctyun.cn/maas/codingPlan' },
+    models:['GLM-5.1','GLM-5-Turbo','GLM-4.7','GLM-4.6','GLM-4.5','GLM-4.5-Air'], req5h:1200, reqMonth:24000, reqWeek:6000, benefits:['GLM 全家桶','支持 Claude Code/OpenCode/OpenClaw/Cline'], note:'暂时售罄·每日10:00补货·高阶模型高峰3x/非高峰2x抵扣·实际可用量约为标称1/2~1/3', link:'https://www.ctyun.cn/document/11061839/11092415' },
   { platform:'天翼云', name:'GLM Pro', monthly:149, quarterly:null, yearly:null, firstMonth:null,
-    models:['GLM-5.1','GLM-5','GLM-5-Turbo','GLM-4.7','GLM-4.6','GLM-4.5','GLM-4.5-Air'], req5h:6000, reqMonth:120000, reqWeek:30000, benefits:['GLM 全家桶','低峰期动态提升并发'], note:'暂时售罄·每日10:00补货·GLM-5/5.1/5-Turbo 用量消耗更快·实际可用量约为标称1/2~1/3', link:'https://ctxirang.ctyun.cn/maas/codingPlan' },
+    models:['GLM-5.1','GLM-5','GLM-5-Turbo','GLM-4.7','GLM-4.6','GLM-4.5','GLM-4.5-Air'], req5h:6000, reqMonth:120000, reqWeek:30000, benefits:['GLM 全家桶','低峰期动态提升并发'], note:'暂时售罄·每日10:00补货·GLM-5/5.1/5-Turbo 用量消耗更快·实际可用量约为标称1/2~1/3', link:'https://www.ctyun.cn/document/11061839/11092415' },
   { platform:'天翼云', name:'GLM Max', monthly:469, quarterly:null, yearly:null, firstMonth:null,
-    models:['GLM-5.1','GLM-5','GLM-5-Turbo','GLM-4.7','GLM-4.6','GLM-4.5','GLM-4.5-Air'], req5h:24000, reqMonth:480000, reqWeek:120000, benefits:['GLM 全家桶','推荐 2+ 项目并发开发'], note:'暂时售罄·每日10:00补货·高阶模型倍率抵扣影响实际可用量·实际可用量约为标称1/2~1/3', link:'https://ctxirang.ctyun.cn/maas/codingPlan' },
+    models:['GLM-5.1','GLM-5','GLM-5-Turbo','GLM-4.7','GLM-4.6','GLM-4.5','GLM-4.5-Air'], req5h:24000, reqMonth:480000, reqWeek:120000, benefits:['GLM 全家桶','推荐 2+ 项目并发开发'], note:'暂时售罄·每日10:00补货·高阶模型倍率抵扣影响实际可用量·实际可用量约为标称1/2~1/3', link:'https://www.ctyun.cn/document/11061839/11092415' },
 
   // 联通云 - Coding Plan 概述文档显示当前资源紧张；限流时会自动切换到负载更轻模型，套餐页为 Lite / Pro 两档
   // 仅允许 AI 编程工具使用，严禁 API 调用；当前公开文档主入口为帮助中心
