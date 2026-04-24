@@ -284,7 +284,7 @@ const RATINGS = [
   },
   {
     name: '联通云', score: 3,
-    reasons: ['支持GLM-5.1', '6 模型覆盖·支持动态模型路由', '当前资源紧张GLM-5.1很慢+429限流', '测试发现GLM-5.1调用工具有问题，等待修复', '没有异常扣费情况，挺耐用']
+    reasons: ['支持DeepSeek-V4-Flash', '6 模型覆盖·支持动态模型路由', '支持GLM-5.1', '当前资源紧张GLM-5.1很慢+429限流', '测试发现GLM-5.1调用工具有问题，等待修复', '没有异常扣费情况，挺耐用']
   },
   {
     name: '蓝耘元生代云', score: 3,
@@ -328,7 +328,7 @@ const RATINGS = [
   },
   {
     name: '优云智算', score: 3,
-    reasons: ['10款主流编程模型（DeepSeek/Kimi/GLM/MiniMax/Qwen）', '不同模型倍率1x~3x抵扣·额度较少', '支持 DeepSeek-V4-Pro/V4-Flash 和 Qwen3.6-Plus', 'Pro ¥199含 OpenClaw Agent 权益']
+    reasons: ['支持 DeepSeek-V4-Pro/V4-Flash', '10款主流编程模型（DeepSeek/Kimi/GLM/MiniMax/Qwen）', '不同模型倍率1x~3x抵扣·额度较少', 'Pro ¥199含 OpenClaw Agent 权益']
   },
   {
     name: 'ChatGPT', score: 5, isAd: true,
