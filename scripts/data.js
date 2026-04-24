@@ -226,6 +226,18 @@ const PLANS = [
     models:['GLM-5.1','Qwen3.5','Qwen3-Coder-Next','MiniMax-M2.7','Kimi-K2.6','Kimi-K2.5','DeepSeek-V3','Llama4','Qwen3-Next','Nemotron-3-Super','Devstral-Small-2','Gemma4'], req5h:null, reqMonth:null, reqWeek:null, benefits:['5x Pro额度','10并发模型','适合高强度开发'],
     note:'⚠️具体请求数不公开·以下模型名为Ollama自有格式', link:'https://ollama.com/pricing' },
 
+  // 优云智算 - Coding Plan (2026.04.24 新增)
+  // 文档：https://www.compshare.cn/docs/modelverse/package_plan/package
+  // 2档套餐：Lite ¥49/月、Pro ¥199/月；按调用次数计费，不同模型有倍率抵扣
+  // 模型倍率：MiniMax-M2.5/M2.7/DeepSeek-V3.2/DeepSeek-V4-Flash = 1x; Kimi-K2.5/GLM-5 = 2x; GLM-5-Turbo/Kimi-K2.6/GLM-5.1/DeepSeek-V4-Pro/Qwen3.6-Plus = 3x
+  // 5h滚动窗口（准点刷新），周/月总额度约束；Lite RPM 30 / 并发3，Pro RPM 50 / 并发5
+  { platform:'优云智算', name:'Lite', monthly:49, quarterly:null, yearly:null, firstMonth:null,
+    models:['MiniMax-M2.7','MiniMax-M2.5','DeepSeek-V3.2','DeepSeek-V4-Flash','GLM-5','Kimi-K2.5','GLM-5-Turbo','Kimi-K2.6','GLM-5.1','DeepSeek-V4-Pro','Qwen3.6-Plus'], req5h:600, reqMonth:9000, reqWeek:4500, benefits:['10款主流编程模型','兼容 Claude Code/Codex'],
+    note:'不同模型倍率1x~3x抵扣·5h窗口准点刷新·RPM 30·并发3', link:'https://passport.compshare.cn/register?referral_code=Kkl0Vgy0pCsFOzeMtfGBdI' },
+  { platform:'优云智算', name:'Pro', monthly:199, quarterly:null, yearly:null, firstMonth:null,
+    models:['MiniMax-M2.7','MiniMax-M2.5','DeepSeek-V3.2','DeepSeek-V4-Flash','GLM-5','Kimi-K2.5','GLM-5-Turbo','Kimi-K2.6','GLM-5.1','DeepSeek-V4-Pro','Qwen3.6-Plus'], req5h:3000, reqMonth:45000, reqWeek:22500, benefits:['10款主流编程模型','OpenClaw Agent 附加权益'],
+    note:'不同模型倍率1x~3x抵扣·5h窗口准点刷新·RPM 50·并发5·支持升级差价折算', link:'https://passport.compshare.cn/register?referral_code=Kkl0Vgy0pCsFOzeMtfGBdI' },
+
   // ChatGPT - 第三方渠道售卖，非官方平台
   { platform:'ChatGPT', name:'Team', monthly:28.8, quarterly:null, yearly:null, firstMonth:null,
     models:['GPT-5.4','GPT-Image-2','GPT-5.3-Codex','GPT-5.2'], req5h:null, reqMonth:null, reqWeek:null, benefits:[],
@@ -312,6 +324,10 @@ const RATINGS = [
   {
     name: 'Ollama', score: 3,
     reasons: ['支持GLM5.1', '可用模型40,000+', '请求速度中等偏上', '具体请求数未公开！']
+  },
+  {
+    name: '优云智算', score: 4,
+    reasons: ['10款主流编程模型（DeepSeek/Kimi/GLM/MiniMax/Qwen）', '不同模型倍率1x~3x透明', '支持 DeepSeek-V4-Pro/V4-Flash 和 Qwen3.6-Plus', 'Pro ¥199含 OpenClaw Agent 权益']
   },
   {
     name: 'ChatGPT', score: 5, isAd: true,

@@ -15,6 +15,7 @@ const PLATFORM_LATEST_MODELS = {
   '阶跃星辰': ['Step-3.5-Flash-2603', 'Step-3.5-Flash'],
   '快手 StreamLake': ['KAT-Coder-Pro V2'],
   'ChatGPT': ['GPT-4.1'],
+  '优云智算': ['DeepSeek-V4-Pro', 'DeepSeek-V4-Flash', 'Qwen3.6-Plus'],
 };
 
 function getCommonModelPriority(model) {
@@ -28,6 +29,8 @@ function getCommonModelPriority(model) {
   if (model === 'Kimi-K2.6') return [8, 0];
   if (model === 'Kimi-K2.5') return [8, 1];
   if (model === 'DeepSeek-V3.2') return [9, 0];
+  if (model === 'DeepSeek-V4-Pro') return [9, -1];
+  if (model === 'DeepSeek-V4-Flash') return [9, -2];
   if (model === 'Qwen3-Coder-Next-FP8') return [10, 0];
   if (['Qwen3.6-Plus', 'Qwen3.6plus', 'Qwen3.5-Plus'].includes(model)) return [11, 0];
   if (model === 'MiniMax-M2.7') return [12, 0];
@@ -84,7 +87,7 @@ function renderRatings() {
   const ratings = [...RATINGS].sort((a, b) => b.score - a.score);
   row.innerHTML = ratings.map(r => {
     const stars = '★'.repeat(r.score) + '☆'.repeat(5 - r.score);
-    const adBadge = r.isAd ? `<span style="position:absolute;bottom:8px;right:8px;font-size:11px;color:rgba(148,163,184,0.7);background:rgba(15,23,42,0.3);padding:2px 6px;border-radius:4px;pointer-events:none;">广告</span>` : '';
+    const adBadge = r.isAd ? `<span style="position:absolute;bottom:4px;right:6px;font-size:9px;color:rgba(148,163,184,0.35);background:transparent;padding:0 2px;border-radius:2px;pointer-events:none;">广告</span>` : '';
     return `<div class="rating-card ${r.score === 5 ? 'top' : ''}" onclick="filterByRatingCard('filter-platform','${r.name}','#page-coding .table-section')" style="cursor:pointer;position:relative;" title="点击筛选 ${r.name}">
       ${adBadge}
       <div class="rc-header">
