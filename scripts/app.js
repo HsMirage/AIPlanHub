@@ -16,6 +16,7 @@ const PLATFORM_LATEST_MODELS = {
   '快手 StreamLake': ['KAT-Coder-Pro V2'],
   'ChatGPT': ['GPT-4.1'],
   '优云智算': ['DeepSeek-V4-Pro', 'DeepSeek-V4-Flash', 'Qwen3.6-Plus'],
+  '联通云': ['DeepSeek-V4-Flash', 'GLM-5.1'],
 };
 
 function getCommonModelPriority(model) {

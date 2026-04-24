@@ -108,10 +108,11 @@ const PLANS = [
   // 仅允许 AI 编程工具使用，严禁 API 调用；当前公开文档主入口为帮助中心
   // 2026.04.11通过已登录Edge实测：support.cucloud.cn文档明确显示每周限额，reqWeek=9000/45000，已支持GLM-5.1
   // 2026.04.17核实：文档更新(2026-04-16)，新增广州一区/武汉四区可用；武汉四区支持GLM-5/Kimi-K2.5；DeepSeek-V3.1已从模型列表移除
+  // 2026.04.24核实：文档更新(2026-04-24)，贵阳基地二区新增 DeepSeek-V4-Flash
   { platform:'联通云', name:'Lite', monthly:40, quarterly:null, yearly:null, firstMonth:null,
-    models:['MiniMax-M2.5','GLM-5.1','GLM-5','Kimi-K2.5','Qwen3.5-397B-A17B','Qwen3-235B-A22B'], req5h:1200, reqMonth:18000, reqWeek:9000, benefits:['多模型动态路由','兼容 Claude Code/OpenCode/OpenClaw/CoPaw'], note:'资源紧张·贵阳/济南/广州/武汉可用·禁API调用·武汉四区支持GLM-5/kimi-k2.5', link:'https://support.cucloud.cn/document/127/591/2357.html?id=2357&arcid=7015' },
+    models:['MiniMax-M2.5','GLM-5.1','GLM-5','Kimi-K2.5','Qwen3.5-397B-A17B','Qwen3-235B-A22B','DeepSeek-V4-Flash'], req5h:1200, reqMonth:18000, reqWeek:9000, benefits:['多模型动态路由','兼容 Claude Code/OpenCode/OpenClaw/CoPaw'], note:'资源紧张·贵阳/济南/广州/武汉可用·禁API调用·新增DeepSeek-V4-Flash', link:'https://support.cucloud.cn/document/127/591/2357.html?id=2357&arcid=7015' },
   { platform:'联通云', name:'Pro', monthly:200, quarterly:null, yearly:null, firstMonth:null,
-    models:['MiniMax-M2.5','GLM-5.1','GLM-5','Kimi-K2.5','Qwen3.5-397B-A17B','Qwen3-235B-A22B'], req5h:6000, reqMonth:90000, reqWeek:45000, benefits:['多模型动态路由','兼容 Claude Code/OpenCode/OpenClaw/CoPaw'], note:'资源紧张·限流时自动切模型·禁API调用·武汉四区支持GLM-5/kimi-k2.5', link:'https://support.cucloud.cn/document/127/591/2357.html?id=2357&arcid=7015' },
+    models:['MiniMax-M2.5','GLM-5.1','GLM-5','Kimi-K2.5','Qwen3.5-397B-A17B','Qwen3-235B-A22B','DeepSeek-V4-Flash'], req5h:6000, reqMonth:90000, reqWeek:45000, benefits:['多模型动态路由','兼容 Claude Code/OpenCode/OpenClaw/CoPaw'], note:'资源紧张·限流时自动切模型·禁API调用·新增DeepSeek-V4-Flash', link:'https://support.cucloud.cn/document/127/591/2357.html?id=2357&arcid=7015' },
 
   // 蓝耘元生代云 - 2026.04.15 核对官方 Coding Plan 活动页；三模型混合套餐，季付9折、年付8折
   // 页面明确显示 MiniMax-M2.5 / Step-3.5-Flash / GLM-5.1 三模型通用；采用每5小时+每周双维度限制
