@@ -131,13 +131,12 @@ https://ai.hsnb.fun/aiplanhub
 
 ---
 
-## Token 平台（6 家）
+## Token 平台（5 家）
 
 > 每家的 Credits / Token 计算方式不同，具体可用额度请进入官网查询
 
 | 平台 | 代表模型 | 方案数 | 月付起 | 评分 |
 |------|----------|--------|--------|------|
-| 优云 | MiniMax-M2.1 / M2.5 / DeepSeek-V3.2 / Kimi-K2.5 | 3 | ¥49.9 | ★ |
 | 腾讯·Token | HY-2.0 / HY-2.0-Think | 4 | ¥39 | ★ |
 | 阿里·Token Plan | Qwen3.6-Plus | 4 | ¥198 | ★★ |
 | 小米·MiMo | MiMo-V2-Pro | 4 | ¥39 | ★ |
@@ -150,7 +149,6 @@ https://ai.hsnb.fun/aiplanhub
 |------|------|------|--------|---------------------|------|
 | 腾讯·Token | Lite | ¥39 | — | 3,500万 Tokens/月 | [开通](https://curl.qcloud.com/1Uogyigq) |
 | 小米·MiMo | Lite | ¥39 | ¥34.32 | 6,000 Credits/月 | [开通](https://platform.xiaomimimo.com/#/token-plan) |
-| 优云 | Lite | ¥49.9 | — | ⚠️已售罄·700 积分/日 | [开通](https://passport.compshare.cn/register?referral_code=Kkl0Vgy0pCsFOzeMtfGBdI) |
 | OpenCode Go | Go | $10 | $5 | $12/5h $30/周 $60/月 | [开通](https://opencode.ai/zh/go) |
 | ChatGPT | Token | ¥10 | — | 100 刀 | [开通](https://pay.ldxp.cn/shop/mirage) |
 | 腾讯·Token | Standard | ¥99 | — | 1亿 Tokens/月 | [开通](https://curl.qcloud.com/1Uogyigq) |
@@ -160,9 +158,7 @@ https://ai.hsnb.fun/aiplanhub
 
 | 平台 | 方案 | 月付 | 首月价 | Credits/Token 额度 | 开通 |
 |------|------|------|--------|---------------------|------|
-| 优云 | Plus | ¥199 | — | ⚠️已售罄·2,800 积分/日 | [开通](https://passport.compshare.cn/register?referral_code=Kkl0Vgy0pCsFOzeMtfGBdI) |
 | 小米·MiMo | Pro | ¥329 | ¥289.52 | 70,000 Credits/月 | [开通](https://platform.xiaomimimo.com/#/token-plan) |
-| 优云 | Pro | ¥499 | — | ⚠️已售罄·7,000 积分/日 | [开通](https://passport.compshare.cn/register?referral_code=Kkl0Vgy0pCsFOzeMtfGBdI) |
 
 ### Token 高阶级（人民币月付 ≥ ¥500）
 

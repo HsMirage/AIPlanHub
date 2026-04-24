@@ -16,6 +16,11 @@
     "method": "snapshot",
     "note": "Moderato/Allegretto/Allegro页面标注'每周额度'，具体数字不公开"
   },
+  "智谱AI": {
+    "link": "https://docs.bigmodel.cn/cn/coding-plan/overview",
+    "method": "snapshot",
+    "note": "套餐概览页含每5h/每周限额表格；订阅页 https://www.bigmodel.cn/glm-coding"
+  },
   "MiniMax": {
     "link": "https://platform.minimaxi.com/user-center/payment/token-plan",
     "method": "formula",
@@ -67,14 +72,14 @@
     "note": "入门版/专业版/高级版三档；季付9折年付8折；每5小时/每周双维度限制"
   },
   "联通云": {
-    "link": "https://support.cucloud.cn/document/127/591/2357.html",
+    "link": "https://support.cucloud.cn/document/127/591/2357.html?id=2357&arcid=7015",
     "method": "snapshot",
-    "note": "Lite周限9000/Pro周限45000"
+    "note": "Coding Plan概述页，含每5h/每周/每月限额"
   },
   "腾讯·Coding": {
-    "link": "https://cloud.tencent.com/act/pro/codingplan",
+    "link": "https://cloud.tencent.com/document/product/1823/130092",
     "method": "snapshot",
-    "note": "Lite周限9000/Pro周限45000"
+    "note": "Coding Plan官方文档，含套餐详情和周限额"
   },
   "腾讯·Token": {
     "link": "https://cloud.tencent.com/document/product/1772/129449",
@@ -96,10 +101,10 @@
     "method": "snapshot",
     "note": "Flash Mini¥49/Plus¥99/Pro¥199/Max¥699，周限额400/1600/6000/20000次prompt"
   },
-  "优云": {
+  "优云智算": {
     "link": "https://www.compshare.cn/coding-plan",
     "method": "direct",
-    "note": "积分制，无请求数概念，每日额度制"
+    "note": "Coding Plan，按调用次数计费，不同模型倍率1x~3x"
   },
   "小米·MiMo": {
     "link": "https://platform.xiaomimimo.com/#/token-plan",

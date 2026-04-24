@@ -92,21 +92,6 @@ const TOKEN_PLANS = [
     creditsBudget:'$12/5h $30/周 $60/月', benefits:['首月$5','OpenCode 原生接入'],
     note:'Beta·Token Plan·实际请求数随模型成本变化·可切换为超额使用 Zen 余额', link:'https://opencode.ai/zh/go' },
 
-  // 优云 - 积分制，非请求数，无req5h/reqMonth/reqWeek概念；已售罄，新套餐即将上线
-  // 支持：MiniMax-M2.1/M2.5、DeepSeek-V3.2、Kimi-K2.5；另有一次性按量包
-  { platform:'优云', name:'Lite', monthly:49.9, quarterly:null, yearly:null, firstMonth:null,
-    models:['MiniMax-M2.1','MiniMax-M2.5','DeepSeek-V3.2','Kimi-K2.5'],
-    creditsMonth:null, creditsDaily:700, creditsUnit:' 积分', benefits:['允许 API 调用','支持 Codex CLI/CherryStudio'],
-    note:'已售罄·新套餐即将上线·另有¥6.9/19.9/199一次性按量包', link:'https://passport.compshare.cn/register?referral_code=Kkl0Vgy0pCsFOzeMtfGBdI' },
-  { platform:'优云', name:'Plus', monthly:199, quarterly:null, yearly:null, firstMonth:null,
-    models:['MiniMax-M2.1','MiniMax-M2.5','DeepSeek-V3.2','Kimi-K2.5'],
-    creditsMonth:null, creditsDaily:2800, creditsUnit:' 积分', benefits:['允许 API 调用','支持 Codex CLI/CherryStudio'],
-    note:'已售罄·新套餐即将上线·限时赠 OpenClaw 云端服务', link:'https://passport.compshare.cn/register?referral_code=Kkl0Vgy0pCsFOzeMtfGBdI' },
-  { platform:'优云', name:'Pro', monthly:499, quarterly:null, yearly:null, firstMonth:null,
-    models:['MiniMax-M2.1','MiniMax-M2.5','DeepSeek-V3.2','Kimi-K2.5'],
-    creditsMonth:null, creditsDaily:7000, creditsUnit:' 积分', benefits:['允许 API 调用','支持 Codex CLI/CherryStudio'],
-    note:'已售罄·新套餐即将上线·允许客户端/API 场景', link:'https://passport.compshare.cn/register?referral_code=Kkl0Vgy0pCsFOzeMtfGBdI' },
-
   // ChatGPT Token - 第三方渠道售卖
   { platform:'ChatGPT', name:'Token', monthly:10, quarterly:null, yearly:null, firstMonth:null,
     models:['GPT-5.4','GPT-Image-2','GPT-5.3-Codex','GPT-5.2','GLM-5.1','Kimi-K2.6'],
@@ -131,10 +116,6 @@ const TOKEN_RATINGS=[
   {
     name: '阿里·Token Plan', score: 2,
     reasons: ['Credits统一计量·文本+图像双模态', '¥198起按坐席订阅·可扩展', '支持Qwen3.6-Plus/GLM-5/MiniMax-M2.5/DeepSeek-V3.2', '不支持退款']
-  },
-  {
-    name: '优云', score: 1,
-    reasons: ['已售罄·新套餐即将上线', '支持 MiniMax-M2.1/M2.5、DeepSeek-V3.2、Kimi-K2.5', '积分制·无用量透明计算器', '允许 API 调用']
   },
   {
     name: 'ChatGPT', score: 5, isAd: true,

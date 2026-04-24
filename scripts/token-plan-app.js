@@ -7,7 +7,6 @@ const TP_PLATFORM_LATEST_MODELS = {
   '腾讯·Token': ['HY-2.0', 'HY-2.0-Think'],
   '小米·MiMo': ['MiMo-V2-Pro'],
   '阿里·Token Plan': ['Qwen3.6-Plus'],
-  '优云': ['GLM-5.1', 'Qwen3.6-Plus'],
   'ChatGPT': ['GPT-5.4', 'GPT-Image-2'],
 };
 
@@ -105,7 +104,7 @@ function renderTpRatings() {
   const ratings = [...TOKEN_RATINGS].sort((a, b) => b.score - a.score);
   row.innerHTML = ratings.map(r => {
     const stars = '★'.repeat(r.score) + '☆'.repeat(5 - r.score);
-    const adBadge = r.isAd ? `<span style="position:absolute;bottom:8px;right:8px;font-size:11px;color:rgba(148,163,184,0.7);background:rgba(15,23,42,0.3);padding:2px 6px;border-radius:4px;pointer-events:none;">广告</span>` : '';
+    const adBadge = r.isAd ? `<span style="position:absolute;bottom:4px;right:6px;font-size:9px;color:rgba(148,163,184,0.35);background:transparent;padding:0 2px;border-radius:2px;pointer-events:none;">广告</span>` : '';
     return `<div class="rating-card ${r.score === 5 ? 'top' : ''}" onclick="tpFilterByRatingCard('${r.name}')" style="cursor:pointer;position:relative;" title="点击筛选 ${r.name}">
       ${adBadge}
       <div class="rc-header">
@@ -202,11 +201,6 @@ function tpRenderCreditsCol(p) {
   // OpenCode Go 有滚动预算
   if (p.creditsBudget) {
     return `<span class="credits-tag">${p.creditsBudget}</span>`;
-  }
-  // 优云有日积分
-  if (p.creditsDaily) {
-    const unit = p.creditsUnit || ' Credits';
-    return `<span class="credits-tag">${tpFmtCredits(p.creditsDaily)}${unit}/日</span>`;
   }
   // 有月Credits
   if (p.creditsMonth) {
