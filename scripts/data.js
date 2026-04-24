@@ -326,8 +326,8 @@ const RATINGS = [
     reasons: ['支持GLM5.1', '可用模型40,000+', '请求速度中等偏上', '具体请求数未公开！']
   },
   {
-    name: '优云智算', score: 4,
-    reasons: ['10款主流编程模型（DeepSeek/Kimi/GLM/MiniMax/Qwen）', '不同模型倍率1x~3x透明', '支持 DeepSeek-V4-Pro/V4-Flash 和 Qwen3.6-Plus', 'Pro ¥199含 OpenClaw Agent 权益']
+    name: '优云智算', score: 3,
+    reasons: ['10款主流编程模型（DeepSeek/Kimi/GLM/MiniMax/Qwen）', '不同模型倍率1x~3x抵扣·额度较少', '支持 DeepSeek-V4-Pro/V4-Flash 和 Qwen3.6-Plus', 'Pro ¥199含 OpenClaw Agent 权益']
   },
   {
     name: 'ChatGPT', score: 5, isAd: true,
