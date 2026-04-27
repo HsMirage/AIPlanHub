@@ -140,7 +140,7 @@ https://ai.hsnb.fun/aiplanhub
 | 腾讯·Token | HY-2.0 / HY-2.0-Think | 4 | ¥39 | ★ |
 | 阿里·Token Plan | Qwen3.6-Plus | 4 | ¥198 | ★★ |
 | 小米·MiMo | MiMo-V2-Pro | 4 | ¥39 | ★ |
-| OpenCode Go | Qwen3.6-Plus | 1 | $10 | ★★ |
+| OpenCode Go | Qwen3.6-Plus | 1 | $10 | ★★★★ |
 | ChatGPT | GPT-5.4 / GPT-Image-2 / GPT-5.3-Codex | 1 | ¥10 | ★★★★★ |
 
 ### Token 入门（人民币月付 ≤ ¥100）
