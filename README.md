@@ -6,7 +6,7 @@
 
 ---
 
-| Coding 数据更新于 2026.04.26 · Token 数据更新于 2026.04.23 · Video 数据更新于 2026.04.24 · Image 数据更新于 2026.04.23 · Audio 数据更新于 2026.04.25
+| Coding 数据更新于 2026.04.28 · Token 数据更新于 2026.04.23 · Video 数据更新于 2026.04.24 · Image 数据更新于 2026.04.23 · Audio 数据更新于 2026.04.25
 
 ---
 
@@ -49,6 +49,7 @@ https://ai.hsnb.fun/aiplanhub
 | 联通云 | GLM-5.1 | 2 | ¥40 | ★★ |
 | 腾讯·Coding | HY-2.0 | 2 | ¥40 | ★★★ |
 | 移动云 | MiniMax-M2.5 | 2 | ¥40 | ★★ |
+| 国家超算互联网 | MiniMax-M2.5 / Qwen3-235B-A22B | 2 | ¥20 | ★★★★ |
 | 百度·千帆 | GLM-5 | 2 | ¥40 | ★★★★ |
 | 讯飞星辰 | Spark X2 | 3 | ¥19 | ★★★★ |
 | 阶跃星辰 | Step-3.5-Flash-2603 | 4 | ¥49 | ★★★★ |
@@ -65,6 +66,7 @@ https://ai.hsnb.fun/aiplanhub
 | 平台 | 方案 | 月付 | 首月价 | 5h请求数 | 开通 |
 |------|------|------|--------|----------|------|
 | 讯飞星辰 | 无忧版 | ¥19 | ¥3.9 | — | [开通](https://maas.xfyun.cn/packageSubscription?inviteCode=MAAS-7573AB85) |
+| 国家超算互联网 | Lite | ¥20 | — | 1,200 | [开通](https://www.scnet.cn/ac/openapi/doc/2.0/moduleapi/codingplan/subscriptionnotice.html) |
 | Ollama | Free | $0 | — | — | [开通](https://ollama.com/pricing) |
 | 快手 StreamLake | Mini | ¥29 | — | 600 | [开通](https://www.streamlake.com/marketing/coding-plan) |
 | 讯飞星辰 | 专业版 | ¥39 | — | 1,200 | [开通](https://maas.xfyun.cn/packageSubscription?inviteCode=MAAS-7573AB85) |
@@ -91,6 +93,7 @@ https://ai.hsnb.fun/aiplanhub
 |------|------|------|--------|----------|------|
 | 快手 StreamLake | Starter | ¥70 | — | 1,500 | [开通](https://www.streamlake.com/marketing/coding-plan) |
 | Kimi | Moderato | ¥99 | ¥79 | — | [开通](https://www.kimi.com/code/zh) |
+| 国家超算互联网 | Pro | ¥100 | — | 6,000 | [开通](https://www.scnet.cn/ac/openapi/doc/2.0/moduleapi/codingplan/subscriptionnotice.html) |
 | 阶跃星辰 | Flash Plus | ¥99 | — | 6,000 | [开通](https://platform.stepfun.com/docs/zh/step-plan/overview) |
 | 快手 StreamLake | Pro | ¥140 | — | 4,500 | [开通](https://www.streamlake.com/marketing/coding-plan) |
 | 天翼云 | GLM Pro | ¥149 | — | 6,000 | [开通](https://ctxirang.ctyun.cn/maas/codingPlan) |
