@@ -48,7 +48,7 @@ https://ai.hsnb.fun/aiplanhub
 | 京东云 | Qwen3-Coder | 2 | ¥40 | ★★★★ |
 | 联通云 | DeepSeek-V4-Pro | 2 | ¥40 | ★★ |
 | 腾讯·Coding | HY-2.0 | 2 | ¥40 | ★★★ |
-| 移动云 | MiniMax-M2.5 | 2 | ¥40 | ★★ |
+| 移动云 | GLM-5.1 / MiniMax-M2.5 | 2 | ¥40 | ★★ |
 | 国家超算互联网 | MiniMax-M2.5 / Qwen3-235B-A22B | 2 | ¥20 | ★★ |
 | 百度·千帆 | GLM-5 | 2 | ¥40 | ★★★★ |
 | 讯飞星辰 | Spark X2 | 3 | ¥19 | ★★★★ |
@@ -234,7 +234,7 @@ https://ai.hsnb.fun/aiplanhub
 - **天翼云** — 高阶 GLM 模型在高峰期按 3 倍、非高峰期按 2 倍抵扣额度，实际可用量会明显低于表面档位；当前页面长期显示售罄/补货
 - **京东云** — 仅限 AI 编程工具交互式使用，禁止 API 调用；社区有"容易截断、有点卡"和"未到 5h 上限仍触发 rate_limit"的反馈
 - **联通云** — 当前资源紧张GLM-5.1很慢+429限流；没有异常扣费情况，挺耐用；支持GLM-5.1，且禁止 API 调用
-- **移动云** — 仅支持 MiniMax-M2.5，且目前只开放华北-呼和浩特与湖北-武汉资源池订购；Coding Plan 同样禁止 API 调用
+- **移动云** — 已支持 MiniMax-M2.5 与 GLM-5.1；GLM-5.1 按 4x 抵扣，额度消耗更快；目前支持华北-呼和浩特、湖北-武汉、华南-广州8资源池订购（部分省节点限本省账号）；Coding Plan 同样禁止 API 调用
 - **小米·MiMo (Token)** — Credit ≠ Token（Pro 2x / Omni 1x），性价比远低于同行
 - **腾讯·Token (Token)** — 仅限 AI 工具使用，禁止 API 调用（违者封禁）；暂不支持多模态
 - **阿里·Token Plan (Token)** — 按坐席订阅，不支持退款
@@ -247,7 +247,6 @@ https://ai.hsnb.fun/aiplanhub
 - 5h 请求数基于「1 prompt ≈ 15 次调用」估算
 - Token量列：展示月额度或日额度；单位 M = 百万 Tokens
 - Token 平台：每家的 Credits 计算方式不同，具体可用 Token 额度请进入官网查询
-- 优云为积分制，实际可用 Token 受模型倍率影响；页面另提供一次性按量包
 - Midjourney / Suno / Udio / Ace Studio / z.ai 价格按 $1 ≈ ¥7.0 估算，实际以美元结算
 - 小米·MiMo Credit 倍率：MiMo-V2-Omni 256k→1x, MiMo-V2-Pro 256k→2x, MiMo-V2-Pro 256k~1M→4x, MiMo-V2-TTS→0x（限时免费）
 - 腾讯·Token Plan 仅限 AI 工具（Claude Code/Cursor/OpenClaw 等）使用，禁止 API 调用
