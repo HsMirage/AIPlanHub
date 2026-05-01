@@ -1,5 +1,6 @@
 # Ignore everything
 *
 
-# Allow only README.md
+# Allow only README.md and .gitignore
 !README.md
+!.gitignore
