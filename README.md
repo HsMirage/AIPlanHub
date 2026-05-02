@@ -54,7 +54,7 @@ https://ai.hsnb.fun/aiplanhub
 | 讯飞星辰 | Spark X2 | 3 | ¥19 | ★★★★ |
 | 阶跃星辰 | Step-3.5-Flash-2603 | 4 | ¥49 | ★★★★ |
 | 快手 StreamLake | KAT-Coder-Pro V2 | 4 | ¥29 | ★★★ |
-| 无问芯穹 | GLM-5.1 / DeepSeek-V3.2-Thinking / MiniMax-M2.7 | 2 | ¥40 | ★★★ |
+| 无问芯穹 | GLM-5.1 / DeepSeek-V3.2-Thinking / MiniMax-M2.7 | 2 | ¥40 | ★★★★ |
 | 字节·方舟 | Doubao-Seed-2.0-pro | 2 | ¥40 | ★★ |
 | Alaya Code | MiniMax-M2.5 / GLM-5.1 | 3 | ¥39 | ★★ |
 | Ollama | GLM-5.1 / DeepSeek-V4-Flash / MiniMax-M2.7 | 3 | $0 | ★★★ |
