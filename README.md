@@ -43,7 +43,7 @@ https://ai.hsnb.fun/aiplanhub
 | z.ai | GLM-5.1（国际版） | 3 | $18 | ★★ |
 | Kimi | Kimi-K2.6 | 4 | ¥49 | ★★★ |
 | 阿里·百炼 | Qwen3.6-Plus | 1 | ¥200 | ★★★★ |
-| 天翼云 | GLM-5.1 | 3 | ¥49 | ★★★★★ |
+| 天翼云 | GLM-5.1 | 3 | ¥49 | ★★★★ |
 | 蓝耘元生代云 | GLM-5.1 | 3 | ¥49 | ★★★ |
 | 京东云 | Qwen3-Coder | 2 | ¥40 | ★★★★ |
 | 联通云 | DeepSeek-V4-Pro | 2 | ¥40 | ★★ |
@@ -85,7 +85,7 @@ https://ai.hsnb.fun/aiplanhub
 | 阶跃星辰 | Flash Mini | ¥49 | — | 1,500 | [开通](https://platform.stepfun.com/docs/zh/step-plan/overview) |
 | ChatGPT | Plus | ¥26.6 | — | — | [开通](https://pay.ldxp.cn/shop/mirage) |
 | ChatGPT | Team | ¥28.8 | — | — | [开通](https://pay.ldxp.cn/shop/mirage) |
-| Alaya Code | Lite | ¥39 | — | — | [开通](https://codingplan.alayanew.com/docs/billing) |
+| Alaya Code | Lite | ¥39 | — | 120 | [开通](https://codingplan.alayanew.com/docs/billing) |
 
 ### 进阶级（人民币月付 ¥51-¥199）
 
@@ -102,6 +102,7 @@ https://ai.hsnb.fun/aiplanhub
 | 讯飞星辰 | 高效版 | ¥199 | — | 6,000 | [开通](https://maas.xfyun.cn/packageSubscription?inviteCode=MAAS-7573AB85) |
 | 优云智算 | Pro | ¥199 | — | 3,000 | [开通](https://passport.compshare.cn/register?referral_code=Kkl0Vgy0pCsFOzeMtfGBdI) |
 | 阶跃星辰 | Flash Pro | ¥199 | — | 22,500 | [开通](https://platform.stepfun.com/docs/zh/step-plan/overview) |
+| Alaya Code | Plus | ¥199 | — | 600 | [开通](https://codingplan.alayanew.com/docs/billing) |
 | Kimi | Allegretto | ¥199 | ¥159 | — | [开通](https://www.kimi.com/code/zh) |
 
 ### 高阶级（人民币月付 ≥ ¥200）
@@ -121,6 +122,7 @@ https://ai.hsnb.fun/aiplanhub
 | 蓝耘元生代云 | 高级版 | ¥469 | — | 24,000 | [开通](https://console.lanyun.net/#/register?promoterCode=3ef0f72996) |
 | 智谱AI | Max | ¥469 | — | 24,000 | [开通](https://www.bigmodel.cn/glm-coding?ic=DGRQECTZFB) |
 | 阶跃星辰 | Flash Max | ¥699 | — | 75,000 | [开通](https://platform.stepfun.com/docs/zh/step-plan/overview) |
+| Alaya Code | Max | ¥699 | — | 2,400 | [开通](https://codingplan.alayanew.com/docs/billing) |
 | Kimi | Allegro | ¥699 | ¥559 | — | [开通](https://www.kimi.com/code/zh) |
 
 ### 海外 / 美元计费
@@ -196,7 +198,7 @@ https://ai.hsnb.fun/aiplanhub
 |------|--------|--------|----------|------|
 | 即梦 | 2 | ¥69 | Seedance 2.0 | ★★★★★ |
 | Midjourney | 4 | ¥70($10) | MJ V7 | ★★★★★ |
-| Liblib AI | 5 | ¥399/年 | WebUI/ComfyUI/Kling | ★★★★★ |
+| Liblib AI | 5 | ¥429/年 | WebUI/ComfyUI/Kling | ★★★★★ |
 | 通义万相 | 3 | ¥72 | 万相 2.6 | ★★★★ |
 | 堆友 | 1 | ¥399/年 | 国风/设计 | ★★★ |
 
@@ -217,9 +219,9 @@ https://ai.hsnb.fun/aiplanhub
 
 **推荐**
 
-- **智谱AI** — 独家 GLM-5.1 模型，免费 MCP 调用额度，20+ 编程工具支持，季付/年付有折扣
-- **天翼云** — 支持GLM-5.1，GLM 全家桶覆盖最完整，GLM-5-Turbo 实时测速表现靠前
-- **阿里·百炼** — 独家 Qwen3.6-Plus，Pro 固定 ¥200/月，每周 45,000 次请求
+- **智谱AI** — 首发 GLM-5.1 模型，免费 MCP 调用额度，20+ 编程工具支持，季付/年付有折扣
+- **天翼云** — 支持GLM-5.1，GLM 全家桶覆盖最完整，GLM-5-Turbo 实时测速表现靠前；网友说是量化版
+- **阿里·百炼** — Pro专属 Qwen3.6-Plus，Pro 固定 ¥200/月，每周 45,000 次请求
 - **京东云** — DeepSeek-V3.2 / GLM-5 / Qwen3-Coder 7 模型覆盖，标准 Lite/Pro 定价，第三方测速中上游
 - **无问芯穹** — 多模型聚合平台（DeepSeek/Kimi/GLM/MiniMax），Lite 首月 ¥19.9，支持GLM-5.1
 - **优云 (Token)** — ⚠️已售罄，新套餐即将上线；支持 MiniMax-M2.1/M2.5、DeepSeek-V3.2、Kimi-K2.5，积分制，允许 API 调用
@@ -233,7 +235,7 @@ https://ai.hsnb.fun/aiplanhub
 - **字节·方舟** — ⚠ 双层计费：名义按调用次数，实际 Token 消耗大会被按 2-3 次甚至更多次扣费，计费不透明，无用量明细（蓝点网/V2EX/微博多源证实）
 - **天翼云** — 高阶 GLM 模型在高峰期按 3 倍、非高峰期按 2 倍抵扣额度，实际可用量会明显低于表面档位；当前页面长期显示售罄/补货
 - **京东云** — 仅限 AI 编程工具交互式使用，禁止 API 调用；社区有"容易截断、有点卡"和"未到 5h 上限仍触发 rate_limit"的反馈
-- **联通云** — 当前资源紧张GLM-5.1很慢+429限流；没有异常扣费情况，挺耐用；支持GLM-5.1，且禁止 API 调用
+- **联通云** — 当前资源紧张GLM-5.1很慢+429限流；支持DeepSeek-V4全系列（官网没写pro，但是coding plan能调用）；测试发现多数模型调用工具有问题，并且默认关闭思考模式；没有异常扣费情况，挺耐用；禁止 API 调用
 - **移动云** — 已支持 MiniMax-M2.5 与 GLM-5.1；GLM-5.1 按 4x 抵扣，额度消耗更快；目前支持华北-呼和浩特、湖北-武汉、华南-广州8资源池订购（部分省节点限本省账号）；Coding Plan 同样禁止 API 调用
 - **小米·MiMo (Token)** — Credit ≠ Token（Pro 2x / Omni 1x），性价比远低于同行
 - **腾讯·Token (Token)** — 仅限 AI 工具使用，禁止 API 调用（违者封禁）；暂不支持多模态
