@@ -6,7 +6,7 @@
 
 ---
 
-| Coding 数据更新于 2026.04.30 · Token 数据更新于 2026.05.07 · Video 数据更新于 2026.04.24 · Image 数据更新于 2026.05.08 · Audio 数据更新于 2026.04.29
+| Coding 数据更新于 2026.04.30 · Token 数据更新于 2026.05.07 · Video 数据更新于 2026.04.24 · Image 数据更新于 2026.05.10 · Audio 数据更新于 2026.04.29
 
 ---
 
@@ -50,7 +50,7 @@ https://ai.hsnb.fun/aiplanhub
 | 腾讯·Coding | HY-2.0 | 2 | ¥40 | ★★★ |
 | 移动云 | GLM-5.1 / MiniMax-M2.5 | 2 | ¥40 | ★★ |
 | 国家超算互联网 | MiniMax-M2.5 / Qwen3-235B-A22B | 2 | ¥20 | ★★ |
-| 百度·千帆 | GLM-5 | 2 | ¥40 | ★★★★ |
+| 百度·千帆 | GLM-5 / GLM-5.1 / DeepSeek-V4-Flash | 2 | ¥40 | ★★★ |
 | 讯飞星辰 | Spark X2 | 3 | ¥19 | ★★★★ |
 | 阶跃星辰 | Step-3.5-Flash-2603 | 4 | ¥49 | ★★★★ |
 | 快手 StreamLake | KAT-Coder-Pro V2 | 4 | ¥29 | ★★★ |
