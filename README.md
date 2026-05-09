@@ -6,7 +6,7 @@
 
 ---
 
-| Coding 数据更新于 2026.04.30 · Token 数据更新于 2026.05.07 · Video 数据更新于 2026.04.24 · Image 数据更新于 2026.05.10 · Audio 数据更新于 2026.04.29
+| Coding 数据更新于 2026.04.30 · Token 数据更新于 2026.05.10 · Video 数据更新于 2026.04.24 · Image 数据更新于 2026.05.10 · Audio 数据更新于 2026.04.29
 
 ---
 
@@ -143,7 +143,7 @@ https://ai.hsnb.fun/aiplanhub
 | 平台 | 代表模型 | 方案数 | 月付起 | 评分 |
 |------|----------|--------|--------|------|
 | 腾讯·Token | HY-2.0 / HY-2.0-Think | 4 | ¥39 | ★ |
-| 阿里·Token Plan | Qwen3.6-Plus | 4 | ¥198 | ★★ |
+| 阿里·Token Plan | GLM-5.1 / Kimi-K2.6 | 4 | ¥198 | ★★ |
 | 小米·MiMo | MiMo-V2-Pro | 4 | ¥39 | ★ |
 | OpenCode Go | Qwen3.6-Plus | 1 | $10 | ★★★★ |
 | ChatGPT | GPT-5.4 / GPT-Image-2 / GPT-5.3-Codex | 1 | ¥10 | ★★★★★ |
