@@ -58,7 +58,7 @@ https://ai.hsnb.fun/aiplanhub
 | 字节·方舟 | Doubao-Seed-2.0-pro | 2 | ¥40 | ★★ |
 | Alaya Code | MiniMax-M2.5 / GLM-5.1 | 3 | ¥39 | ★★ |
 | Ollama | GLM-5.1 / DeepSeek-V4-Flash / MiniMax-M2.7 | 3 | $0 | ★★★ |
-| 优云智算 | DeepSeek-V4-Pro / DeepSeek-V4-Flash / Qwen3.6-Plus | 2 | ¥49 | ★★★ |
+| 优云智算 | DeepSeek-V4-Pro / DeepSeek-V4-Flash / Qwen3.6-Plus / MiniMax-M2.7 / Kimi-K2.6 | 6 | ¥49 | ★★★★ |
 | ChatGPT | GPT-5.4 / GPT-Image-2 / GPT-5.3-Codex | 2 | ¥26.6 | ★★★★★ |
 
 ### 入门级（人民币月付 ≤ ¥50）
@@ -80,7 +80,7 @@ https://ai.hsnb.fun/aiplanhub
 | 天翼云 | GLM Lite | ¥49 | — | 1,200 | [开通](https://ctxirang.ctyun.cn/maas/codingPlan) |
 | 蓝耘元生代云 | 入门版 | ¥49 | — | 1,200 | [开通](https://console.lanyun.net/#/register?promoterCode=3ef0f72996) |
 | 智谱AI | Lite | ¥49 | — | 1,200 | [开通](https://www.bigmodel.cn/glm-coding?ic=DGRQECTZFB) |
-| 优云智算 | Lite | ¥49 | — | 600 | [开通](https://passport.compshare.cn/register?referral_code=Kkl0Vgy0pCsFOzeMtfGBdI) |
+| 优云智算 | Mini | ¥49 | — | 200 | [开通](https://passport.compshare.cn/register?referral_code=Kkl0Vgy0pCsFOzeMtfGBdI) |
 | Kimi | Andante | ¥49 | ¥39 | — | [开通](https://www.kimi.com/code/zh) |
 | 阶跃星辰 | Flash Mini | ¥49 | — | 1,500 | [开通](https://platform.stepfun.com/docs/zh/step-plan/overview) |
 | ChatGPT | Plus | ¥26.6 | — | — | [开通](https://pay.ldxp.cn/shop/mirage) |
@@ -100,7 +100,7 @@ https://ai.hsnb.fun/aiplanhub
 | 蓝耘元生代云 | 专业版 | ¥149 | — | 6,000 | [开通](https://console.lanyun.net/#/register?promoterCode=3ef0f72996) |
 | 智谱AI | Pro | ¥149 | — | 6,000 | [开通](https://www.bigmodel.cn/glm-coding?ic=DGRQECTZFB) |
 | 讯飞星辰 | 高效版 | ¥199 | — | 6,000 | [开通](https://maas.xfyun.cn/packageSubscription?inviteCode=MAAS-7573AB85) |
-| 优云智算 | Pro | ¥199 | — | 3,000 | [开通](https://passport.compshare.cn/register?referral_code=Kkl0Vgy0pCsFOzeMtfGBdI) |
+| 优云智算 | Basic | ¥199 | — | 800 | [开通](https://passport.compshare.cn/register?referral_code=Kkl0Vgy0pCsFOzeMtfGBdI) |
 | 阶跃星辰 | Flash Pro | ¥199 | — | 22,500 | [开通](https://platform.stepfun.com/docs/zh/step-plan/overview) |
 | Alaya Code | Plus | ¥199 | — | 600 | [开通](https://codingplan.alayanew.com/docs/billing) |
 | Kimi | Allegretto | ¥199 | ¥159 | — | [开通](https://www.kimi.com/code/zh) |
