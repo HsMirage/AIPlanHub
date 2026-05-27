@@ -144,7 +144,7 @@ https://ai.hsnb.fun/aiplanhub
 |------|----------|--------|--------|------|
 | 腾讯·Token | HY-2.0 / HY-2.0-Think | 4 | ¥39 | ★ |
 | 阿里·Token Plan | Qwen3.7-Max / DeepSeek-V4-Pro / GLM-5.1 / Kimi-K2.6 | 4 | ¥198 | ★★ |
-| 天翼云·Token | GLM-5-Pro / DeepSeek-V3.2-Pro | 6 | ¥29 | ★★ |
+| 天翼云·Token | GLM-5 / DeepSeek-V3.2 | 6 | ¥29 | ★★ |
 | 小米·MiMo | MiMo-V2-Pro | 4 | ¥39 | ★ |
 | OpenCode Go | Qwen3.6-Plus | 1 | $10 | ★★★★ |
 | ChatGPT | GPT-5.4 / GPT-Image-2 / GPT-5.3-Codex | 1 | ¥10 | ★★★★★ |
