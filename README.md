@@ -6,7 +6,7 @@
 
 ---
 
-| Coding 数据更新于 2026.05.27 · Token 数据更新于 2026.05.27 · Video 数据更新于 2026.05.19 · Image 数据更新于 2026.05.19 · Audio 数据更新于 2026.05.18
+| Coding 数据更新于 2026.05.27 · Token 数据更新于 2026.05.27（新增天翼云） · Video 数据更新于 2026.05.19 · Image 数据更新于 2026.05.19 · Audio 数据更新于 2026.05.18
 
 ---
 
@@ -136,7 +136,7 @@ https://ai.hsnb.fun/aiplanhub
 
 ---
 
-## Token 平台（5 家）
+## Token 平台（6 家）
 
 > 每家的 Credits / Token 计算方式不同，具体可用额度请进入官网查询
 
@@ -144,6 +144,7 @@ https://ai.hsnb.fun/aiplanhub
 |------|----------|--------|--------|------|
 | 腾讯·Token | HY-2.0 / HY-2.0-Think | 4 | ¥39 | ★ |
 | 阿里·Token Plan | Qwen3.7-Max / DeepSeek-V4-Pro / GLM-5.1 / Kimi-K2.6 | 4 | ¥198 | ★★ |
+| 天翼云·Token | GLM-5-Pro / DeepSeek-V3.2-Pro | 6 | ¥29 | ★★ |
 | 小米·MiMo | MiMo-V2-Pro | 4 | ¥39 | ★ |
 | OpenCode Go | Qwen3.6-Plus | 1 | $10 | ★★★★ |
 | ChatGPT | GPT-5.4 / GPT-Image-2 / GPT-5.3-Codex | 1 | ¥10 | ★★★★★ |
@@ -153,17 +154,21 @@ https://ai.hsnb.fun/aiplanhub
 | 平台 | 方案 | 月付 | 首月价 | Credits/Token 额度 | 开通 |
 |------|------|------|--------|---------------------|------|
 | 腾讯·Token | Lite | ¥39 | — | 3,500万 Tokens/月 | [开通](https://curl.qcloud.com/1Uogyigq) |
+| 天翼云·Token | 2500万 | ¥29 | — | 2,500万 Tokens/月 | [开通](https://www.ctyun.cn/act/AI/zhuanxiang) |
 | 小米·MiMo | Lite | ¥39 | ¥34.32 | 6,000 Credits/月 | [开通](https://platform.xiaomimimo.com/#/token-plan) |
 | OpenCode Go | Go | $10 | $5 | $12/5h $30/周 $60/月 | [开通](https://opencode.ai/zh/go) |
 | ChatGPT | Token | ¥10 | — | 100 刀 | [开通](https://pay.ldxp.cn/shop/mirage) |
 | 腾讯·Token | Standard | ¥99 | — | 1亿 Tokens/月 | [开通](https://curl.qcloud.com/1Uogyigq) |
+| 天翼云·Token | 8000万 | ¥89 | — | 8,000万 Tokens/月 | [开通](https://www.ctyun.cn/act/AI/zhuanxiang) |
 | 小米·MiMo | Standard | ¥99 | ¥87.12 | 20,000 Credits/月 | [开通](https://platform.xiaomimimo.com/#/token-plan) |
 
 ### Token 进阶级（人民币月付 ¥101-¥500）
 
 | 平台 | 方案 | 月付 | 首月价 | Credits/Token 额度 | 开通 |
 |------|------|------|--------|---------------------|------|
+| 天翼云·Token | 1.8亿 | ¥199 | — | 1.8亿 Tokens/月 | [开通](https://www.ctyun.cn/act/AI/zhuanxiang) |
 | 小米·MiMo | Pro | ¥329 | ¥289.52 | 70,000 Credits/月 | [开通](https://platform.xiaomimimo.com/#/token-plan) |
+| 天翼云·Token | 3.8亿 | ¥399 | — | 3.8亿 Tokens/月 | [开通](https://www.ctyun.cn/act/AI/zhuanxiang) |
 
 ### Token 高阶级（人民币月付 ≥ ¥500）
 
@@ -172,8 +177,10 @@ https://ai.hsnb.fun/aiplanhub
 | 阿里·Token Plan | 标准坐席 | ¥198 | — | 25,000 Credits/月 | [开通](https://common-buy.aliyun.com/token-plan) |
 | 腾讯·Token | Pro | ¥299 | — | 3.2亿 Tokens/月 | [开通](https://curl.qcloud.com/1Uogyigq) |
 | 小米·MiMo | Max | ¥659 | ¥579.92 | 160,000 Credits/月 | [开通](https://platform.xiaomimimo.com/#/token-plan) |
+| 天翼云·Token | 6.8亿 | ¥699 | — | 6.8亿 Tokens/月 | [开通](https://www.ctyun.cn/act/AI/zhuanxiang) |
 | 腾讯·Token | Max | ¥599 | — | 6.5亿 Tokens/月 | [开通](https://curl.qcloud.com/1Uogyigq) |
 | 阿里·Token Plan | 高级坐席 | ¥698 | — | 100,000 Credits/月 | [开通](https://common-buy.aliyun.com/token-plan) |
+| 天翼云·Token | 10亿 | ¥999 | — | 10亿 Tokens/月 | [开通](https://www.ctyun.cn/act/AI/zhuanxiang) |
 | 阿里·Token Plan | 尊享坐席 | ¥1,398 | — | 250,000 Credits/月 | [开通](https://common-buy.aliyun.com/token-plan) |
 
 ---
