@@ -6,7 +6,7 @@
 
 ---
 
-| Coding 数据更新于 2026.05.30 · Token 数据更新于 2026.05.29（MiMo月付价修正·V2下线） · Video 数据更新于 2026.05.19 · Image 数据更新于 2026.05.19 · Audio 数据更新于 2026.05.18
+| Coding 数据更新于 2026.05.30 · Token 数据更新于 2026.05.31（天翼云10亿档下架） · Video 数据更新于 2026.05.19 · Image 数据更新于 2026.05.19 · Audio 数据更新于 2026.05.18
 
 ---
 
@@ -144,7 +144,7 @@ https://ai.hsnb.fun/aiplanhub
 |------|----------|--------|--------|------|
 | 腾讯·Token | HY-2.0 / HY-2.0-Think | 4 | ¥39 | ★ |
 | 阿里·Token Plan | Qwen3.7-Max / DeepSeek-V4-Pro / GLM-5.1 / Kimi-K2.6 | 4 | ¥198 | ★★ |
-| 天翼云·Token | GLM-5 / DeepSeek-V3.2 | 6 | ¥29 | ★★ |
+| 天翼云·Token | GLM-5 / DeepSeek-V3.2 | 5 | ¥29 | ★★ |
 | 小米·MiMo | MiMo-V2-Pro | 4 | ¥39 | ★ |
 | OpenCode Go | Qwen3.6-Plus | 1 | $10 | ★★★★ |
 | ChatGPT | GPT-5.4 / GPT-Image-2 / GPT-5.3-Codex | 1 | ¥10 | ★★★★★ |
@@ -180,7 +180,6 @@ https://ai.hsnb.fun/aiplanhub
 | 天翼云·Token | 6.8亿 | ¥699 | — | 6.8亿 Tokens/月 | [开通](https://www.ctyun.cn/act/AI/zhuanxiang) |
 | 腾讯·Token | Max | ¥599 | — | 6.5亿 Tokens/月 | [开通](https://curl.qcloud.com/1Uogyigq) |
 | 阿里·Token Plan | 高级坐席 | ¥698 | — | 100,000 Credits/月 | [开通](https://common-buy.aliyun.com/token-plan) |
-| 天翼云·Token | 10亿 | ¥999 | — | 10亿 Tokens/月 | [开通](https://www.ctyun.cn/act/AI/zhuanxiang) |
 | 阿里·Token Plan | 尊享坐席 | ¥1,398 | — | 250,000 Credits/月 | [开通](https://common-buy.aliyun.com/token-plan) |
 
 ---
