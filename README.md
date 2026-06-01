@@ -6,7 +6,7 @@
 
 ---
 
-| Coding 数据更新于 2026.06.01 · Token 数据更新于 2026.06.01（MiniMax 升级 M3 体系） · Video 数据更新于 2026.05.19 · Image 数据更新于 2026.05.19 · Audio 数据更新于 2026.04.29
+| Coding 数据更新于 2026.06.01 · Token 数据更新于 2026.06.02（ChatGPT Token 兑换码更新为 ¥28.8 且暂时售罄） · Video 数据更新于 2026.05.19 · Image 数据更新于 2026.05.19 · Audio 数据更新于 2026.04.29
 
 ---
 
@@ -140,18 +140,19 @@ https://ai.hsnb.fun/aiplanhub
 
 ---
 
-## Token 平台（6 家）
+## Token 平台（7 家）
 
 > 每家的 Credits / Token 计算方式不同，具体可用额度请进入官网查询
 
 | 平台 | 代表模型 | 方案数 | 月付起 | 评分 |
 |------|----------|--------|--------|------|
-| 腾讯·Token | HY-2.0 / HY-2.0-Think | 4 | ¥39 | ★ |
+| 腾讯·Token | Auto / GLM-5.1 / Kimi-K2.5 / Hy3 preview | 8 | ¥28 | ★ |
 | 阿里·Token Plan | Qwen3.7-Max / DeepSeek-V4-Pro / GLM-5.1 / Kimi-K2.6 | 4 | ¥198 | ★★ |
 | 天翼云·Token | GLM-5 / DeepSeek-V3.2 | 5 | ¥29 | ★★ |
-| 小米·MiMo | MiMo-V2-Pro | 4 | ¥39 | ★ |
-| OpenCode Go | Qwen3.6-Plus | 1 | $10 | ★★★★ |
-| ChatGPT | GPT-5.4 / GPT-Image-2 / GPT-5.3-Codex | 1 | ¥10 | ★★★★★ |
+| 方舟 Agent Plan | DeepSeek-V4-Pro / GLM-5.1 / Kimi-K2.6 | 4 | ¥40 | ★★★ |
+| 小米·MiMo | MiMo-V2.5-Pro / MiMo-V2.5 | 4 | ¥39 | ★★ |
+| OpenCode Go | DeepSeek-V4-Pro / GLM-5.1 / Kimi-K2.6 / MiniMax-M3 | 1 | $10 | ★★★★ |
+| ChatGPT | GPT-5.4 / GPT-Image-2 / GPT-5.3-Codex | 1 | ¥28.8 | ★★★★★ |
 
 ### Token 入门（人民币月付 ≤ ¥100）
 
@@ -159,19 +160,21 @@ https://ai.hsnb.fun/aiplanhub
 |------|------|------|--------|---------------------|------|
 | 腾讯·Token | Lite | ¥39 | — | 3,500万 Tokens/月 | [开通](https://curl.qcloud.com/1Uogyigq) |
 | 天翼云·Token | 2500万 | ¥29 | — | 2,500万 Tokens/月 | [开通](https://www.ctyun.cn/act/AI/zhuanxiang) |
-| 小米·MiMo | Lite | ¥39 | ¥34.32 | 6,000 Credits/月 | [开通](https://platform.xiaomimimo.com/#/token-plan) |
+| 小米·MiMo | Lite | ¥39 | ¥34.32 | 4.1B Credits/月 | [开通](https://platform.xiaomimimo.com/#/token-plan) |
+| 方舟 Agent Plan | Small | ¥40 | — | 20,000 AFP/月 | [开通](https://www.volcengine.com/docs/82379/2366394?lang=zh) |
 | OpenCode Go | Go | $10 | $5 | $12/5h $30/周 $60/月 | [开通](https://opencode.ai/zh/go) |
-| ChatGPT | Token | ¥10 | — | 100 刀 | [开通](https://pay.ldxp.cn/shop/mirage) |
+| ChatGPT | Token | ¥28.8 | — | 100 刀·暂时售罄 | [开通](https://pay.ldxp.cn/shop/mirage) |
 | 腾讯·Token | Standard | ¥99 | — | 1亿 Tokens/月 | [开通](https://curl.qcloud.com/1Uogyigq) |
 | 天翼云·Token | 8000万 | ¥89 | — | 8,000万 Tokens/月 | [开通](https://www.ctyun.cn/act/AI/zhuanxiang) |
-| 小米·MiMo | Standard | ¥99 | ¥87.12 | 20,000 Credits/月 | [开通](https://platform.xiaomimimo.com/#/token-plan) |
+| 小米·MiMo | Standard | ¥99 | ¥87.12 | 11B Credits/月 | [开通](https://platform.xiaomimimo.com/#/token-plan) |
 
 ### Token 进阶级（人民币月付 ¥101-¥500）
 
 | 平台 | 方案 | 月付 | 首月价 | Credits/Token 额度 | 开通 |
 |------|------|------|--------|---------------------|------|
 | 天翼云·Token | 1.8亿 | ¥199 | — | 1.8亿 Tokens/月 | [开通](https://www.ctyun.cn/act/AI/zhuanxiang) |
-| 小米·MiMo | Pro | ¥329 | ¥289.52 | 70,000 Credits/月 | [开通](https://platform.xiaomimimo.com/#/token-plan) |
+| 方舟 Agent Plan | Medium | ¥200 | — | 100,000 AFP/月 | [开通](https://www.volcengine.com/docs/82379/2366394?lang=zh) |
+| 小米·MiMo | Pro | ¥329 | ¥289.52 | 38B Credits/月 | [开通](https://platform.xiaomimimo.com/#/token-plan) |
 | 天翼云·Token | 3.8亿 | ¥399 | — | 3.8亿 Tokens/月 | [开通](https://www.ctyun.cn/act/AI/zhuanxiang) |
 
 ### Token 高阶级（人民币月付 ≥ ¥500）
@@ -180,11 +183,13 @@ https://ai.hsnb.fun/aiplanhub
 |------|------|------|--------|---------------------|------|
 | 阿里·Token Plan | 标准坐席 | ¥198 | — | 25,000 Credits/月 | [开通](https://common-buy.aliyun.com/token-plan) |
 | 腾讯·Token | Pro | ¥299 | — | 3.2亿 Tokens/月 | [开通](https://curl.qcloud.com/1Uogyigq) |
-| 小米·MiMo | Max | ¥659 | ¥579.92 | 160,000 Credits/月 | [开通](https://platform.xiaomimimo.com/#/token-plan) |
+| 方舟 Agent Plan | Large | ¥500 | — | 250,000 AFP/月 | [开通](https://www.volcengine.com/docs/82379/2366394?lang=zh) |
+| 小米·MiMo | Max | ¥659 | ¥579.92 | 82B Credits/月 | [开通](https://platform.xiaomimimo.com/#/token-plan) |
 | 天翼云·Token | 6.8亿 | ¥699 | — | 6.8亿 Tokens/月 | [开通](https://www.ctyun.cn/act/AI/zhuanxiang) |
 | 腾讯·Token | Max | ¥599 | — | 6.5亿 Tokens/月 | [开通](https://curl.qcloud.com/1Uogyigq) |
 | 阿里·Token Plan | 高级坐席 | ¥698 | — | 100,000 Credits/月 | [开通](https://common-buy.aliyun.com/token-plan) |
 | 阿里·Token Plan | 尊享坐席 | ¥1,398 | — | 250,000 Credits/月 | [开通](https://common-buy.aliyun.com/token-plan) |
+| 方舟 Agent Plan | Max | ¥1,000 | — | 500,000 AFP/月 | [开通](https://www.volcengine.com/docs/82379/2366394?lang=zh) |
 
 ---
 
@@ -248,7 +253,8 @@ https://ai.hsnb.fun/aiplanhub
 - **京东云** — 仅限 AI 编程工具交互式使用，禁止 API 调用；社区有"容易截断、有点卡"和"未到 5h 上限仍触发 rate_limit"的反馈
 - **联通云** — 当前资源紧张GLM-5.1很慢+429限流；支持DeepSeek-V4全系列（官网没写pro，但是coding plan能调用）；测试发现多数模型调用工具有问题，并且默认关闭思考模式；没有异常扣费情况，挺耐用；禁止 API 调用
 - **移动云** — 已支持 MiniMax-M2.5 与 GLM-5.1；GLM-5.1 按 4x 抵扣，额度消耗更快；目前支持华北-呼和浩特、湖北-武汉、华南-广州8资源池订购（部分省节点限本省账号）；Coding Plan 同样禁止 API 调用
-- **小米·MiMo (Token)** — Credit ≠ Token（Pro 2x / Omni 1x），性价比远低于同行
+- **小米·MiMo (Token)** — Credit ≠ Token（V2.5-Pro 输入/输出按 300/600 Credits 抵扣），属于 Token Plan，不进入 Coding 请求数表
+- **方舟 Agent Plan (Token)** — AFP 积分制，覆盖文本/向量/图像/视频与联网搜索 Harness，兼容编程和 Agent 工具，因性质更通用归入 Token/Credits 页面
 - **腾讯·Token (Token)** — 仅限 AI 工具使用，禁止 API 调用（违者封禁）；暂不支持多模态
 - **阿里·Token Plan (Token)** — 按坐席订阅，不支持退款
 
