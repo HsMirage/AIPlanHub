@@ -84,7 +84,7 @@ https://ai.hsnb.fun/aiplanhub
 | 优云智算 | Mini | ¥49 | — | 200 | [开通](https://passport.compshare.cn/register?referral_code=Kkl0Vgy0pCsFOzeMtfGBdI) |
 | Kimi | Andante | ¥49 | ¥39 | — | [开通](https://www.kimi.com/code/zh) |
 | 阶跃星辰 | Flash Mini | ¥49 | — | 1,500 | [开通](https://platform.stepfun.com/docs/zh/step-plan/overview) |
-| MiniMax | Plus | ¥49 | — | — | [开通](https://platform.minimaxi.com/subscribe/token-plan) |
+| MiniMax | Plus | ¥49 | — | 1,500 | [开通](https://platform.minimaxi.com/subscribe/token-plan) |
 | ChatGPT | Plus | ¥26.6 | — | — | [开通](https://pay.ldxp.cn/shop/mirage) |
 | ChatGPT | Team | ¥28.8 | — | — | [开通](https://pay.ldxp.cn/shop/mirage) |
 | Alaya Code | Lite | ¥39 | — | 120 | [开通](https://codingplan.alayanew.com/docs/billing) |
@@ -105,7 +105,7 @@ https://ai.hsnb.fun/aiplanhub
 | 优云智算 | Basic | ¥199 | — | 800 | [开通](https://passport.compshare.cn/register?referral_code=Kkl0Vgy0pCsFOzeMtfGBdI) |
 | 阶跃星辰 | Flash Pro | ¥199 | — | 22,500 | [开通](https://platform.stepfun.com/docs/zh/step-plan/overview) |
 | Alaya Code | Plus | ¥199 | — | 600 | [开通](https://codingplan.alayanew.com/docs/billing) |
-| MiniMax | Max | ¥119 | — | — | [开通](https://platform.minimaxi.com/subscribe/token-plan) |
+| MiniMax | Max | ¥119 | — | 4,500 | [开通](https://platform.minimaxi.com/subscribe/token-plan) |
 | Kimi | Allegretto | ¥199 | ¥159 | — | [开通](https://www.kimi.com/code/zh) |
 
 ### 高阶级（人民币月付 ≥ ¥200）
@@ -122,7 +122,7 @@ https://ai.hsnb.fun/aiplanhub
 | 字节·方舟 | Pro | ¥200 | — | 6,000 | [开通](https://volcengine.com/L/jmiEa1dptck/) |
 | 快手 StreamLake | Max | ¥350 | — | 15,000 | [开通](https://www.streamlake.com/marketing/coding-plan) |
 | 天翼云 | GLM Max | ¥469 | — | 24,000 | [开通](https://ctxirang.ctyun.cn/maas/codingPlan) |
-| MiniMax | Ultra | ¥469 | — | — | [开通](https://platform.minimaxi.com/subscribe/token-plan) |
+| MiniMax | Ultra | ¥469 | — | 15,000 | [开通](https://platform.minimaxi.com/subscribe/token-plan) |
 | 蓝耘元生代云 | 高级版 | ¥469 | — | 24,000 | [开通](https://console.lanyun.net/#/register?promoterCode=3ef0f72996) |
 | 智谱AI | Max | ¥469 | — | 24,000 | [开通](https://www.bigmodel.cn/glm-coding?ic=DGRQECTZFB) |
 | 阶跃星辰 | Flash Max | ¥699 | — | 75,000 | [开通](https://platform.stepfun.com/docs/zh/step-plan/overview) |
@@ -229,7 +229,7 @@ https://ai.hsnb.fun/aiplanhub
 
 **推荐**
 
-- **MiniMax** — 2026.06.01 全面升级 M3 体系，Starter/极速版下架，Plus ¥49/Max ¥119/Ultra ¥469 三档，月 6~55 亿 token，定价最低无需抢购
+- **MiniMax** — 2026.06.01 全面升级 M3 体系，Starter/极速版下架，Plus ¥49/Max ¥119/Ultra ¥469 三档（年付立省2月），M2.7 参考 1500/4500/15000 次/5h，月 6~55 亿 token
 - **智谱AI** — 首发 GLM-5.1 模型，免费 MCP 调用额度，20+ 编程工具支持，季付/年付有折扣
 - **天翼云** — 支持GLM-5.1，GLM 全家桶覆盖最完整，GLM-5-Turbo 实时测速表现靠前；网友说是量化版
 - **阿里·百炼** — Pro专属 Qwen3.6-Plus，Pro 固定 ¥200/月，每周 45,000 次请求
