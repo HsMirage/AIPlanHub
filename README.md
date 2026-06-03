@@ -6,7 +6,7 @@
 
 ---
 
-| Coding 数据更新于 2026.06.04（讯飞星辰 v2.1 新增 15 款模型·OpenCode Go 新增 Qwen3.7-Plus） · Token 数据更新于 2026.06.03（腾讯·Token HY/Hunyuan 系列下线延期至 06-22·小米·MiMo 补充 ASR 模型） · Video 数据更新于 2026.05.19 · Image 数据更新于 2026.05.19 · Audio 数据更新于 2026.04.29
+| Coding 数据更新于 2026.06.04（讯飞星辰 v2.1 新增 15 款模型·OpenCode Go 新增 Qwen3.7-Plus） · Token 数据更新于 2026.06.03（腾讯·Token HY/Hunyuan 系列下线延期至 06-22·小米·MiMo 补充 ASR 模型） · Video 数据更新于 2026.06.04 · Image 数据更新于 2026.05.19 · Audio 数据更新于 2026.04.29
 
 ---
 
@@ -197,9 +197,9 @@ https://ai.hsnb.fun/aiplanhub
 
 | 平台 | 方案数 | 月付起 | 核心模型 | 评分 |
 |------|--------|--------|----------|------|
-| 快手可灵 | 5 | ¥0 | Kling 3.0 | ★★★★★ |
+| 快手可灵 | 5 | ¥0 | Kling 3.0 Omni | ★★★★★ |
 | Vidu | 4 | ¥0 | Vidu | ★★★★ |
-| 海螺AI | 5 | ¥55/月(年付) | Hailuo 2.3·Seedance 2.0 | ★★★★ |
+| 海螺AI | 4 | ¥55/月(年付) | Hailuo 2.3·Seedance 2.0 | ★★★★ |
 | pai.video | 4 | ¥0 | PixVerse | ★★★★ |
 | 即梦 | 4 | ¥0 | Seedance 2.0 | ★★★★ |
 | 通义万相 | 3 | ¥0 | 万相 2.6 | ★★★★ |
