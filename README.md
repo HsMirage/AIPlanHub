@@ -6,7 +6,7 @@
 
 ---
 
-| Coding 数据更新于 2026.06.04（讯飞星辰 v2.1 新增 15 款模型·OpenCode Go 新增 Qwen3.7-Plus） · Token 数据更新于 2026.06.03（腾讯·Token HY/Hunyuan 系列下线延期至 06-22·小米·MiMo 补充 ASR 模型） · Video 数据更新于 2026.06.04 · Image 数据更新于 2026.05.19 · Audio 数据更新于 2026.04.29
+| Coding 数据更新于 2026.06.04（讯飞星辰 v2.1 新增 15 款模型·OpenCode Go 新增 Qwen3.7-Plus） · Token 数据更新于 2026.06.04（OpenCode Go 新增 Qwen3.7-Plus·方舟 Agent Plan deepseek-v3.2 即将下线及视觉日额度） · Video 数据更新于 2026.06.04 · Image 数据更新于 2026.05.19 · Audio 数据更新于 2026.04.29
 
 ---
 
