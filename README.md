@@ -6,7 +6,7 @@
 
 ---
 
-| Coding 数据更新于 2026.06.04（讯飞星辰 v2.1 新增 15 款模型·OpenCode Go 新增 Qwen3.7-Plus） · Token 数据更新于 2026.06.04（OpenCode Go 新增 Qwen3.7-Plus·方舟 Agent Plan deepseek-v3.2 即将下线及视觉日额度） · Video 数据更新于 2026.06.04 · Image 数据更新于 2026.06.05（即梦高级会员新增视频权益·图片4.0 2K截止延长至11.06；Liblib AI全套餐新增商用授权） · Audio 数据更新于 2026.06.06（Suno 上传时长更新）
+| Coding 数据更新于 2026.06.04（讯飞星辰 v2.1 新增 15 款模型·OpenCode Go 新增 Qwen3.7-Plus） · Token 数据更新于 2026.06.04（OpenCode Go 新增 Qwen3.7-Plus·方舟 Agent Plan deepseek-v3.2 即将下线及视觉日额度） · Video 数据更新于 2026.06.06（可灵年付限时6折·pai.video新增至尊版·即梦基础会员新增补帧/对口型） · Image 数据更新于 2026.06.05（即梦高级会员新增视频权益·图片4.0 2K截止延长至11.06；Liblib AI全套餐新增商用授权） · Audio 数据更新于 2026.06.06（Suno 上传时长更新）
 
 ---
 
@@ -200,7 +200,7 @@ https://ai.hsnb.fun/aiplanhub
 | 快手可灵 | 5 | ¥0 | Kling 3.0 Omni | ★★★★★ |
 | Vidu | 4 | ¥0 | Vidu | ★★★★ |
 | 海螺AI | 4 | ¥55/月(年付) | Hailuo 2.3·Seedance 2.0 | ★★★★ |
-| pai.video | 4 | ¥0 | PixVerse | ★★★★ |
+| pai.video | 5 | ¥0 | PixVerse | ★★★★ |
 | 即梦 | 4 | ¥0 | Seedance 2.0 | ★★★★ |
 | 通义万相 | 3 | ¥0 | 万相 2.6 | ★★★★ |
 | 腾讯混元 | 4 | — | 混元视频(API) | ★★★ |
