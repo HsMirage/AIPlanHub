@@ -6,7 +6,7 @@
 
 ---
 
-| Coding 数据更新于 2026.06.04（讯飞星辰 v2.1 新增 15 款模型·OpenCode Go 新增 Qwen3.7-Plus） · Token 数据更新于 2026.06.04（OpenCode Go 新增 Qwen3.7-Plus·方舟 Agent Plan deepseek-v3.2 即将下线及视觉日额度） · Video 数据更新于 2026.06.06（可灵年付限时6折·pai.video新增至尊版·即梦基础会员新增补帧/对口型） · Image 数据更新于 2026.06.06（即梦高级会员新增视频权益·图片4.0 2K截止10.20·4K截止11.06） · Audio 数据更新于 2026.06.06（Suno 上传时长更新）
+| Coding 数据更新于 2026.06.04（讯飞星辰 v2.1 新增 15 款模型·OpenCode Go 新增 Qwen3.7-Plus） · Token 数据更新于 2026.06.04（OpenCode Go 新增 Qwen3.7-Plus·方舟 Agent Plan deepseek-v3.2 即将下线及视觉日额度） · Video 数据更新于 2026.06.06（可灵年付限时6折·pai.video新增至尊版·即梦基础会员新增补帧/对口型） · Image 数据更新于 2026.06.06（即梦高级会员新增视频权益·图片4.0 2K截止10.20·4K截止11.06） · Audio 数据更新于 2026.06.08（Suno 价格下调：Pro $8/月·Premier $24/月）
 
 ---
 
