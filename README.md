@@ -39,7 +39,7 @@ https://ai.hsnb.fun/aiplanhub
 
 | 平台 | 代表模型 | 方案数 | 月付起 | 评分 |
 |------|----------|--------|--------|------|
-| 智谱AI | GLM-5.1 / GLM-5-Turbo / GLM-4.7 | 3 | ¥49 | ★★★★ |
+| 智谱AI | GLM-5.2 / GLM-5-Turbo / GLM-4.7 | 3 | ¥49 | ★★★★ |
 | z.ai | GLM-5.1（国际版） | 3 | $18 | ★★ |
 | Kimi | Kimi-K2.6 | 4 | ¥49 | ★★★ |
 | MiniMax | MiniMax-M3 / M2.7 | 3 | ¥49 | ★★ |
@@ -234,7 +234,7 @@ https://ai.hsnb.fun/aiplanhub
 **推荐**
 
 - **MiniMax** — 2026.06.01 全面升级 M3 体系，Starter/极速版下架，Plus ¥49/Max ¥119/Ultra ¥469 三档（年付立省2月），M2.7 参考 1500/4500/15000 次/5h，月 6~55 亿 token
-- **智谱AI** — 首发 GLM-5.1 模型，免费 MCP 调用额度，20+ 编程工具支持，季付/年付有折扣
+- **智谱AI** — 升级 GLM-5.2（取代5.1），免费 MCP 调用额度（100~4000次/月），20+ 编程工具支持，季付9折年付8折，限时福利非高峰1x至9月底
 - **天翼云** — ⚠️已从GLM Coding Plan转型编程Token Plan，仅支持GLM-5和DeepSeek-V3.2，Token额度制¥29~¥699/月，不支持退订，选择较少
 - **阿里·百炼** — Pro专属 Qwen3.6-Plus，Pro 固定 ¥200/月，每周 45,000 次请求
 - **京东云** — DeepSeek-V3.2 / GLM-5 / Qwen3-Coder 7 模型覆盖，标准 Lite/Pro 定价，第三方测速中上游
