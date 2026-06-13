@@ -75,7 +75,7 @@ https://ai.hsnb.fun/aiplanhub
 | 联通云 | Lite | ¥40 | — | 1,200 | [开通](https://support.cucloud.cn/document/127/591/2357.html?id=2357&arcid=7015) |
 | 腾讯·Coding | Lite | ¥40 | ¥7.9 | 1,200 | [开通](https://console.cloud.tencent.cn/tokenhub/codingplan?regionId=1) |
 | 移动云 | Lite | ¥40 | ¥7.9 | 1,200 | [开通](https://ecloud.10086.cn/portal/act/codingplan) |
-| 字节·方舟 | Lite | ¥40 | — | 1,200 | [开通](https://volcengine.com/L/jmiEa1dptck/) |
+| 字节·方舟 | Lite | ¥40 | ¥9.9 | 1,200 | [开通](https://volcengine.com/L/jmiEa1dptck/) |
 | 天翼云 | 2500万 | ¥29 | — | — | [开通](https://www.ctyun.cn/products/maas) |
 | 蓝耘元生代云 | 入门版 | ¥49 | — | 1,200 | [开通](https://console.lanyun.net/#/register?promoterCode=3ef0f72996) |
 | 智谱AI | Lite | ¥49 | — | 1,200 | [开通](https://www.bigmodel.cn/glm-coding?ic=DGRQECTZFB) |
