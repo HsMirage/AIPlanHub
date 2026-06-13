@@ -6,7 +6,7 @@
 
 ---
 
-| Coding 数据更新于 2026.06.04（讯飞星辰 v2.1 新增 15 款模型·OpenCode Go 新增 Qwen3.7-Plus） · Token 数据更新于 2026.06.13（OpenCode Go 移除 Kimi-K2.5/MiniMax-M2.5·新增 Kimi-K2.7-Code·方舟新增语音模型） · Video 数据更新于 2026.06.06（可灵年付限时6折·pai.video新增至尊版·即梦基础会员新增补帧/对口型） · Image 数据更新于 2026.06.11（Liblib AI 至尊版新增66k积分滑杆选项·618大促限时直降活动中） · Audio 数据更新于 2026.06.11（Suno 5月13日降价已结束·Pro/Premier价格回调至$10/$30）
+| Coding 数据更新于 2026.06.13（新增 TaoToken·讯飞星辰 v2.1 新增 15 款模型·OpenCode Go 新增 Qwen3.7-Plus） · Token 数据更新于 2026.06.13（OpenCode Go 移除 Kimi-K2.5/MiniMax-M2.5·新增 Kimi-K2.7-Code·方舟新增语音模型） · Video 数据更新于 2026.06.06（可灵年付限时6折·pai.video新增至尊版·即梦基础会员新增补帧/对口型） · Image 数据更新于 2026.06.11（Liblib AI 至尊版新增66k积分滑杆选项·618大促限时直降活动中） · Audio 数据更新于 2026.06.11（Suno 5月13日降价已结束·Pro/Premier价格回调至$10/$30）
 
 ---
 
@@ -35,7 +35,7 @@ https://ai.hsnb.fun/aiplanhub
 
 ---
 
-## Coding 平台（21 家）
+## Coding 平台（22 家）
 
 | 平台 | 代表模型 | 方案数 | 月付起 | 评分 |
 |------|----------|--------|--------|------|
@@ -49,6 +49,7 @@ https://ai.hsnb.fun/aiplanhub
 | 京东云 | Qwen3-Coder | 2 | ¥40 | ★★★★ |
 | 联通云 | DeepSeek-V4-Pro / Kimi-K2.6 / Qwen3.6-27B | 2 | ¥40 | ★★ |
 | 腾讯·Coding | HY-2.0 | 2 | ¥40 | ★★★ |
+| TaoToken | GLM-5.1 | 3 | ¥39 | ★★ |
 | 移动云 | GLM-5.1 / MiniMax-M2.5 | 2 | ¥40 | ★★ |
 | 国家超算互联网 | MiniMax-M2.5 / Qwen3-235B-A22B | 2 | ¥20 | ★★ |
 | 百度·千帆 | GLM-5 / GLM-5.1 / DeepSeek-V4-Flash | 2 | ¥40 | ★★★ |
@@ -66,6 +67,7 @@ https://ai.hsnb.fun/aiplanhub
 | 平台 | 方案 | 月付 | 首月价 | 5h请求数 | 开通 |
 |------|------|------|--------|----------|------|
 | 讯飞星辰 | 无忧版 | ¥19 | ¥3.9 | — | [开通](https://maas.xfyun.cn/packageSubscription?inviteCode=MAAS-7573AB85) |
+| TaoToken | Lite | ¥39 | — | — | [开通](https://taotoken.net/?u=inv_iyn75yglujwdy9ij&utm_source=tt_invite) |
 | 国家超算互联网 | Lite | ¥20 | — | 1,200 | [开通](https://www.scnet.cn/ac/openapi/doc/2.0/moduleapi/codingplan/subscriptionnotice.html) |
 | Ollama | Free | $0 | — | — | [开通](https://ollama.com/pricing) |
 | 快手 StreamLake | Mini | ¥29 | — | 600 | [开通](https://www.streamlake.com/marketing/coding-plan) |
@@ -92,6 +94,7 @@ https://ai.hsnb.fun/aiplanhub
 | 平台 | 方案 | 月付 | 首月价 | 5h请求数 | 开通 |
 |------|------|------|--------|----------|------|
 | 快手 StreamLake | Starter | ¥70 | — | 1,500 | [开通](https://www.streamlake.com/marketing/coding-plan) |
+| TaoToken | Pro | ¥199 | — | — | [开通](https://taotoken.net/?u=inv_iyn75yglujwdy9ij&utm_source=tt_invite) |
 | Kimi | Moderato | ¥99 | ¥79 | — | [开通](https://www.kimi.com/code/zh) |
 | 国家超算互联网 | Pro | ¥100 | — | 6,000 | [开通](https://www.scnet.cn/ac/openapi/doc/2.0/moduleapi/codingplan/subscriptionnotice.html) |
 | 阶跃星辰 | Flash Plus | ¥99 | — | 6,000 | [开通](https://platform.stepfun.com/docs/zh/step-plan/overview) |
@@ -112,6 +115,7 @@ https://ai.hsnb.fun/aiplanhub
 | 平台 | 方案 | 月付 | 首月价 | 5h请求数 | 开通 |
 |------|------|------|--------|----------|------|
 | 阿里·百炼 | Pro | ¥200 | — | 6,000 | [开通](https://www.aliyun.com/minisite/goods?userCode=hun0t0sf) |
+| TaoToken | Max | ¥388 | — | — | [开通](https://taotoken.net/?u=inv_iyn75yglujwdy9ij&utm_source=tt_invite) |
 | 百度·千帆 | Pro | ¥200 | — | 6,000 | [开通](https://cloud.baidu.com/campaign/ambassador-product/index.html?ambassadorId=b00e3bb5d042440fbfaccf545e8e52f0#knowledge-model) |
 | 京东云 | Pro | ¥200 | ¥99.9 | 6,000 | [开通](https://3.cn/2-L8H4QY) |
 | 联通云 | Pro | ¥200 | — | 6,000 | [开通](https://support.cucloud.cn/document/127/591/2357.html?id=2357&arcid=7015) |
