@@ -35,7 +35,7 @@ https://ai.hsnb.fun/aiplanhub
 
 ---
 
-## Coding 平台（22 家）
+## Coding 平台（21 家）
 
 | 平台 | 代表模型 | 方案数 | 月付起 | 评分 |
 |------|----------|--------|--------|------|
@@ -53,9 +53,8 @@ https://ai.hsnb.fun/aiplanhub
 | 国家超算互联网 | MiniMax-M2.5 / Qwen3-235B-A22B | 2 | ¥20 | ★★ |
 | 百度·千帆 | GLM-5 / GLM-5.1 / DeepSeek-V4-Flash | 2 | ¥40 | ★★★ |
 | 讯飞星辰 | Spark X2 | 3 | ¥19 | ★★★★ |
-| 阶跃星辰 | Step-3.5-Flash-2603 | 4 | ¥49 | ★★★★ |
+| 阶跃星辰 | Step-3.5-Flash-2603 | 4 | ¥49 | ★★★ |
 | 快手 StreamLake | KAT-Coder-Pro V2 | 4 | ¥29 | ★★★ |
-| 无问芯穹⚠️ | GLM-5.1 / DeepSeek-V3.2-Thinking / MiniMax-M2.7 | 2 | ¥40 | ★★★★ |
 | 字节·方舟 | Doubao-Seed-2.0-pro/DeepSeek-V4-Pro | 2 | ¥40 | ★★ |
 | Alaya Code | MiniMax-M2.5 / GLM-5.1 | 3 | ¥39 | ★★ |
 | Ollama | GLM-5.1 / DeepSeek-V4-Flash / MiniMax-M2.7 | 3 | $0 | ★★★ |
@@ -75,7 +74,6 @@ https://ai.hsnb.fun/aiplanhub
 | 京东云 | Lite | ¥40 | ¥19.9 | 1,200 | [开通](https://3.cn/2-L8H4QY) |
 | 联通云 | Lite | ¥40 | — | 1,200 | [开通](https://support.cucloud.cn/document/127/591/2357.html?id=2357&arcid=7015) |
 | 腾讯·Coding | Lite | ¥40 | ¥7.9 | 1,200 | [开通](https://console.cloud.tencent.cn/tokenhub/codingplan?regionId=1) |
-| 无问芯穹⚠️ | Lite | ¥40 | ¥19.9 | 1,000 | [开通](https://cloud.infini-ai.com/login?redirect=/genstudio/invitation&invite_code=qYRvZBVl) |
 | 移动云 | Lite | ¥40 | ¥7.9 | 1,200 | [开通](https://ecloud.10086.cn/portal/act/codingplan) |
 | 字节·方舟 | Lite | ¥40 | — | 1,200 | [开通](https://volcengine.com/L/jmiEa1dptck/) |
 | 天翼云 | 2500万 | ¥29 | — | — | [开通](https://www.ctyun.cn/products/maas) |
@@ -118,7 +116,6 @@ https://ai.hsnb.fun/aiplanhub
 | 京东云 | Pro | ¥200 | ¥99.9 | 6,000 | [开通](https://3.cn/2-L8H4QY) |
 | 联通云 | Pro | ¥200 | — | 6,000 | [开通](https://support.cucloud.cn/document/127/591/2357.html?id=2357&arcid=7015) |
 | 腾讯·Coding | Pro | ¥200 | ¥39.9 | 6,000 | [开通](https://console.cloud.tencent.cn/tokenhub/codingplan?regionId=1) |
-| 无问芯穹⚠️ | Pro | ¥200 | ¥99.9 | 5,000 | [开通](https://cloud.infini-ai.com/login?redirect=/genstudio/invitation&invite_code=qYRvZBVl) |
 | 移动云 | Pro | ¥200 | ¥39.9 | 6,000 | [开通](https://ecloud.10086.cn/portal/act/codingplan) |
 | 字节·方舟 | Pro | ¥200 | — | 6,000 | [开通](https://volcengine.com/L/jmiEa1dptck/) |
 | 快手 StreamLake | Max | ¥350 | — | 15,000 | [开通](https://www.streamlake.com/marketing/coding-plan) |
@@ -241,7 +238,6 @@ https://ai.hsnb.fun/aiplanhub
 - **天翼云** — ⚠️已从GLM Coding Plan转型编程Token Plan，仅支持GLM-5和DeepSeek-V3.2，Token额度制¥29~¥699/月，不支持退订，选择较少
 - **阿里·百炼** — Pro专属 Qwen3.6-Plus，Pro 固定 ¥200/月，每周 45,000 次请求
 - **京东云** — DeepSeek-V3.2 / GLM-5 / Qwen3-Coder 7 模型覆盖，标准 Lite/Pro 定价，第三方测速中上游
-- **无问芯穹⚠️** — ⚠️2026年6月26日起停止个人用户服务·须在6月26日前完成退款；多模型聚合平台（DeepSeek/Kimi/GLM/MiniMax），Lite 首月 ¥19.9，支持GLM-5.1
 - **优云 (Token)** — ⚠️已售罄，新套餐即将上线；支持 MiniMax-M2.1/M2.5、DeepSeek-V3.2、Kimi-K2.5，积分制，允许 API 调用
 - **腾讯·Token (Token)** — ⚠️按Token计费但无公开用量计算器，用户无法自测透明度，仅限AI工具使用
 
