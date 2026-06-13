@@ -117,7 +117,7 @@ https://ai.hsnb.fun/aiplanhub
 | 联通云 | Pro | ¥200 | — | 6,000 | [开通](https://support.cucloud.cn/document/127/591/2357.html?id=2357&arcid=7015) |
 | 腾讯·Coding | Pro | ¥200 | ¥39.9 | 6,000 | [开通](https://console.cloud.tencent.cn/tokenhub/codingplan?regionId=1) |
 | 移动云 | Pro | ¥200 | ¥39.9 | 6,000 | [开通](https://ecloud.10086.cn/portal/act/codingplan) |
-| 字节·方舟 | Pro | ¥200 | — | 6,000 | [开通](https://volcengine.com/L/jmiEa1dptck/) |
+| 字节·方舟 | Pro | ¥200 | ¥49.9 | 6,000 | [开通](https://volcengine.com/L/jmiEa1dptck/) |
 | 快手 StreamLake | Max | ¥350 | — | 15,000 | [开通](https://www.streamlake.com/marketing/coding-plan) |
 | 天翼云 | 3.8亿 | ¥399 | — | — | [开通](https://www.ctyun.cn/products/maas) |
 | 天翼云 | 6.8亿 | ¥699 | — | — | [开通](https://www.ctyun.cn/products/maas) |
