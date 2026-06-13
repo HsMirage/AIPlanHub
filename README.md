@@ -44,7 +44,7 @@ https://ai.hsnb.fun/aiplanhub
 | Kimi | Kimi-K2.6 | 4 | ¥49 | ★★★ |
 | MiniMax | MiniMax-M3 / M2.7 | 3 | ¥49 | ★★ |
 | 阿里·百炼 | Qwen3.6-Plus | 1 | ¥200 | ★★★★ |
-| 天翼云 | GLM-5.1 | 3 | ¥49 | ★★★★ |
+| 天翼云 | GLM-5 / DeepSeek-V3.2 | 5 | ¥29 | ★ |
 | 蓝耘元生代云 | GLM-5.1 | 3 | ¥49 | ★★★ |
 | 京东云 | Qwen3-Coder | 2 | ¥40 | ★★★★ |
 | 联通云 | DeepSeek-V4-Pro / Kimi-K2.6 / Qwen3.6-27B | 2 | ¥40 | ★★ |
@@ -78,7 +78,7 @@ https://ai.hsnb.fun/aiplanhub
 | 无问芯穹⚠️ | Lite | ¥40 | ¥19.9 | 1,000 | [开通](https://cloud.infini-ai.com/login?redirect=/genstudio/invitation&invite_code=qYRvZBVl) |
 | 移动云 | Lite | ¥40 | ¥7.9 | 1,200 | [开通](https://ecloud.10086.cn/portal/act/codingplan) |
 | 字节·方舟 | Lite | ¥40 | — | 1,200 | [开通](https://volcengine.com/L/jmiEa1dptck/) |
-| 天翼云 | GLM Lite | ¥49 | — | 1,200 | [开通](https://ctxirang.ctyun.cn/maas/codingPlan) |
+| 天翼云 | 2500万 | ¥29 | — | — | [开通](https://www.ctyun.cn/products/maas) |
 | 蓝耘元生代云 | 入门版 | ¥49 | — | 1,200 | [开通](https://console.lanyun.net/#/register?promoterCode=3ef0f72996) |
 | 智谱AI | Lite | ¥49 | — | 1,200 | [开通](https://www.bigmodel.cn/glm-coding?ic=DGRQECTZFB) |
 | 优云智算 | Mini | ¥49 | — | 200 | [开通](https://passport.compshare.cn/register?referral_code=Kkl0Vgy0pCsFOzeMtfGBdI) |
@@ -98,7 +98,8 @@ https://ai.hsnb.fun/aiplanhub
 | 国家超算互联网 | Pro | ¥100 | — | 6,000 | [开通](https://www.scnet.cn/ac/openapi/doc/2.0/moduleapi/codingplan/subscriptionnotice.html) |
 | 阶跃星辰 | Flash Plus | ¥99 | — | 6,000 | [开通](https://platform.stepfun.com/docs/zh/step-plan/overview) |
 | 快手 StreamLake | Pro | ¥140 | — | 4,500 | [开通](https://www.streamlake.com/marketing/coding-plan) |
-| 天翼云 | GLM Pro | ¥149 | — | 6,000 | [开通](https://ctxirang.ctyun.cn/maas/codingPlan) |
+| 天翼云 | 8000万 | ¥89 | — | — | [开通](https://www.ctyun.cn/products/maas) |
+| 天翼云 | 1.8亿 | ¥199 | — | — | [开通](https://www.ctyun.cn/products/maas) |
 | 蓝耘元生代云 | 专业版 | ¥149 | — | 6,000 | [开通](https://console.lanyun.net/#/register?promoterCode=3ef0f72996) |
 | 智谱AI | Pro | ¥149 | — | 6,000 | [开通](https://www.bigmodel.cn/glm-coding?ic=DGRQECTZFB) |
 | 讯飞星辰 | 高效版 | ¥199 | — | 6,000 | [开通](https://maas.xfyun.cn/packageSubscription?inviteCode=MAAS-7573AB85) |
@@ -121,7 +122,8 @@ https://ai.hsnb.fun/aiplanhub
 | 移动云 | Pro | ¥200 | ¥39.9 | 6,000 | [开通](https://ecloud.10086.cn/portal/act/codingplan) |
 | 字节·方舟 | Pro | ¥200 | — | 6,000 | [开通](https://volcengine.com/L/jmiEa1dptck/) |
 | 快手 StreamLake | Max | ¥350 | — | 15,000 | [开通](https://www.streamlake.com/marketing/coding-plan) |
-| 天翼云 | GLM Max | ¥469 | — | 24,000 | [开通](https://ctxirang.ctyun.cn/maas/codingPlan) |
+| 天翼云 | 3.8亿 | ¥399 | — | — | [开通](https://www.ctyun.cn/products/maas) |
+| 天翼云 | 6.8亿 | ¥699 | — | — | [开通](https://www.ctyun.cn/products/maas) |
 | MiniMax | Ultra | ¥469 | — | 15,000 | [开通](https://platform.minimaxi.com/subscribe/token-plan) |
 | 蓝耘元生代云 | 高级版 | ¥469 | — | 24,000 | [开通](https://console.lanyun.net/#/register?promoterCode=3ef0f72996) |
 | 智谱AI | Max | ¥469 | — | 24,000 | [开通](https://www.bigmodel.cn/glm-coding?ic=DGRQECTZFB) |
@@ -236,7 +238,7 @@ https://ai.hsnb.fun/aiplanhub
 
 - **MiniMax** — 2026.06.01 全面升级 M3 体系，Starter/极速版下架，Plus ¥49/Max ¥119/Ultra ¥469 三档（年付立省2月），M2.7 参考 1500/4500/15000 次/5h，月 6~55 亿 token
 - **智谱AI** — 首发 GLM-5.1 模型，免费 MCP 调用额度，20+ 编程工具支持，季付/年付有折扣
-- **天翼云** — 支持GLM-5.1，GLM 全家桶覆盖最完整，GLM-5-Turbo 实时测速表现靠前；网友说是量化版
+- **天翼云** — ⚠️已从GLM Coding Plan转型编程Token Plan，仅支持GLM-5和DeepSeek-V3.2，Token额度制¥29~¥699/月，不支持退订，选择较少
 - **阿里·百炼** — Pro专属 Qwen3.6-Plus，Pro 固定 ¥200/月，每周 45,000 次请求
 - **京东云** — DeepSeek-V3.2 / GLM-5 / Qwen3-Coder 7 模型覆盖，标准 Lite/Pro 定价，第三方测速中上游
 - **无问芯穹⚠️** — ⚠️2026年6月26日起停止个人用户服务·须在6月26日前完成退款；多模型聚合平台（DeepSeek/Kimi/GLM/MiniMax），Lite 首月 ¥19.9，支持GLM-5.1
