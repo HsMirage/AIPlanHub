@@ -6,7 +6,7 @@
 
 ---
 
-| Coding 数据更新于 2026.06.13（新增 TaoToken·讯飞星辰 v2.1 新增 15 款模型·OpenCode Go 新增 Qwen3.7-Plus） · Token 数据更新于 2026.06.13（OpenCode Go 移除 Kimi-K2.5/MiniMax-M2.5·新增 Kimi-K2.7-Code·方舟新增语音模型） · Video 数据更新于 2026.06.14（海螺AI大师会员贝壳10000→10500·至臻会员已恢复上架） · Image 数据更新于 2026.06.11（Liblib AI 至尊版新增66k积分滑杆选项·618大促限时直降活动中） · Audio 数据更新于 2026.06.11（Suno 5月13日降价已结束·Pro/Premier价格回调至$10/$30）
+| Coding 数据更新于 2026.06.15（Ollama Nemotron-3-Nano 移除·现20款云模型） · Token 数据更新于 2026.06.13（OpenCode Go 移除 Kimi-K2.5/MiniMax-M2.5·新增 Kimi-K2.7-Code·方舟新增语音模型） · Video 数据更新于 2026.06.14（海螺AI大师会员贝壳10000→10500·至臻会员已恢复上架） · Image 数据更新于 2026.06.11（Liblib AI 至尊版新增66k积分滑杆选项·618大促限时直降活动中） · Audio 数据更新于 2026.06.11（Suno 5月13日降价已结束·Pro/Premier价格回调至$10/$30）
 
 ---
 
