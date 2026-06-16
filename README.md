@@ -6,7 +6,7 @@
 
 ---
 
-| Coding 数据更新于 2026.06.15（Ollama Nemotron-3-Nano 移除·现20款云模型） · Token 数据更新于 2026.06.13（OpenCode Go 移除 Kimi-K2.5/MiniMax-M2.5·新增 Kimi-K2.7-Code·方舟新增语音模型） · Video 数据更新于 2026.06.14（海螺AI大师会员贝壳10000→10500·至臻会员已恢复上架） · Image 数据更新于 2026.06.11（Liblib AI 至尊版新增66k积分滑杆选项·618大促限时直降活动中） · Audio 数据更新于 2026.06.11（Suno 5月13日降价已结束·Pro/Premier价格回调至$10/$30）
+| Coding 数据更新于 2026.06.15（Ollama Nemotron-3-Nano 移除·现20款云模型） · Token 数据更新于 2026.06.13（OpenCode Go 移除 Kimi-K2.5/MiniMax-M2.5·新增 Kimi-K2.7-Code·方舟新增语音模型） · Video 数据更新于 2026.06.17（即梦全新定价·新增标准/超级会员·高级会员升级·海螺AI至臻二次下架） · Image 数据更新于 2026.06.17（即梦全新定价·新增标准/超级会员·高级会员升级） · Audio 数据更新于 2026.06.11（Suno 5月13日降价已结束·Pro/Premier价格回调至$10/$30）
 
 ---
 
@@ -204,7 +204,7 @@ https://ai.hsnb.fun/aiplanhub
 | Vidu | 4 | ¥0 | Vidu | ★★★★ |
 | 海螺AI | 5 | ¥55/月(年付) | Hailuo 2.3·Seedance 2.0 | ★★★★ |
 | pai.video | 5 | ¥0 | PixVerse | ★★★★ |
-| 即梦 | 4 | ¥0 | Seedance 2.0 | ★★★★ |
+| 即梦 | 5 | ¥0 | Seedance 2.0·2.0 Mini | ★★★★ |
 | 通义万相 | 3 | ¥0 | 万相 2.6 | ★★★★ |
 | 腾讯混元 | 4 | — | 混元视频(API) | ★★★ |
 
@@ -214,7 +214,7 @@ https://ai.hsnb.fun/aiplanhub
 
 | 平台 | 方案数 | 月付起 | 核心模型 | 评分 |
 |------|--------|--------|----------|------|
-| 即梦 | 2 | ¥69 | Seedance 2.0 | ★★★★★ |
+| 即梦 | 4 | ¥69 | Seedance 2.0 | ★★★★★ |
 | Midjourney | 4 | ¥70($10) | MJ V7 | ★★★★★ |
 | Liblib AI | 6 | ¥429/年 | WebUI/ComfyUI/Kling | ★★★★★ |
 | 通义万相 | 3 | ¥72 | 万相 2.6 | ★★★★ |
