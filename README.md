@@ -6,7 +6,7 @@
 
 ---
 
-| Coding 数据更新于 2026.06.17（GLM-5.2新增·限时活动更新） · Token 数据更新于 2026.06.13（OpenCode Go 移除 Kimi-K2.5/MiniMax-M2.5·新增 Kimi-K2.7-Code·方舟新增语音模型） · Video 数据更新于 2026.06.17（即梦全新定价·新增标准/超级会员·高级会员升级·海螺AI至臻二次下架） · Image 数据更新于 2026.06.17（即梦全新定价·新增标准/超级会员·高级会员升级） · Audio 数据更新于 2026.06.11（Suno 5月13日降价已结束·Pro/Premier价格回调至$10/$30）
+| Coding 数据更新于 2026.06.18（讯飞星辰新增按季订购·OpenCode Go新增GLM-5.2） · Token 数据更新于 2026.06.13（OpenCode Go 移除 Kimi-K2.5/MiniMax-M2.5·新增 Kimi-K2.7-Code·方舟新增语音模型） · Video 数据更新于 2026.06.17（即梦全新定价·新增标准/超级会员·高级会员升级·海螺AI至臻二次下架） · Image 数据更新于 2026.06.17（即梦全新定价·新增标准/超级会员·高级会员升级） · Audio 数据更新于 2026.06.11（Suno 5月13日降价已结束·Pro/Premier价格回调至$10/$30）
 
 ---
 
@@ -154,7 +154,7 @@ https://ai.hsnb.fun/aiplanhub
 | 天翼云·Token | GLM-5 / DeepSeek-V3.2 | 5 | ¥29 | ★★ |
 | 方舟 Agent Plan | DeepSeek-V4-Pro / GLM-5.1 / Kimi-K2.6 | 4 | ¥40 | ★★ |
 | 小米·MiMo | MiMo-V2.5-Pro / MiMo-V2.5 | 4 | ¥39 | ★★ |
-| OpenCode Go | DeepSeek-V4-Pro / GLM-5.1 / Kimi-K2.6 / MiniMax-M3 | 1 | $10 | ★★★★ |
+| OpenCode Go | DeepSeek-V4-Pro / GLM-5.2 / Kimi-K2.6 / MiniMax-M3 | 1 | $10 | ★★★★ |
 | ChatGPT | GPT-5.4 / GPT-Image-2 / GPT-5.3-Codex | 1 | ¥28.8 | ★★★★★ |
 
 ### Token 入门（人民币月付 ≤ ¥100）
