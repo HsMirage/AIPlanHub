@@ -6,7 +6,7 @@
 
 ---
 
-| Coding 数据更新于 2026.06.18（新增 OpenStarry·星序版¥9.9/周·星衍版¥49.9/月·星途版¥119/月） · Token 数据更新于 2026.06.13（OpenCode Go 移除 Kimi-K2.5/MiniMax-M2.5·新增 Kimi-K2.7-Code·方舟新增语音模型） · Video 数据更新于 2026.06.17（即梦全新定价·新增标准/超级会员·高级会员升级·海螺AI至臻二次下架） · Image 数据更新于 2026.06.17（即梦全新定价·新增标准/超级会员·高级会员升级） · Audio 数据更新于 2026.06.11（Suno 5月13日降价已结束·Pro/Premier价格回调至$10/$30）
+| Coding 数据更新于 2026.06.20（Alaya Code MiniMax-M2.5/M2.1移除·新增TokenPlan·GLM-5.2上线） · Token 数据更新于 2026.06.13（OpenCode Go 移除 Kimi-K2.5/MiniMax-M2.5·新增 Kimi-K2.7-Code·方舟新增语音模型） · Video 数据更新于 2026.06.17（即梦全新定价·新增标准/超级会员·高级会员升级·海螺AI至臻二次下架） · Image 数据更新于 2026.06.17（即梦全新定价·新增标准/超级会员·高级会员升级） · Audio 数据更新于 2026.06.11（Suno 5月13日降价已结束·Pro/Premier价格回调至$10/$30）
 
 ---
 
@@ -57,7 +57,7 @@ https://ai.hsnb.fun/aiplanhub
 | 阶跃星辰 | Step-3.5-Flash-2603 | 4 | ¥49 | ★★★ |
 | 快手 StreamLake | KAT-Coder-Pro V2 | 4 | ¥29 | ★★★ |
 | 字节·方舟 | Doubao-Seed-2.0-pro/DeepSeek-V4-Pro | 2 | ¥40 | ★★★★ |
-| Alaya Code | MiniMax-M2.5 / GLM-5.1 | 3 | ¥39 | ★★ |
+| Alaya Code | DeepSeek-V4-Pro / GLM-5.1 | 3 | ¥39 | ★★ |
 | Ollama | GLM-5.1 / DeepSeek-V4-Flash / MiniMax-M2.7 | 3 | $0 | ★★★ |
 | 优云智算 | DeepSeek-V4-Pro / DeepSeek-V4-Flash / Qwen3.6-Plus / MiniMax-M2.7 / Kimi-K2.6 | 6 | ¥49 | ★★ |
 | OpenStarry | GLM-5.2 / GLM-5.1 / DeepSeek-V4-Pro / DeepSeek-V4-Flash / MiniMax-M3 / Kimi-K2.6 | 3 | ¥9.9(周) | ★★★⚠️ |
