@@ -4,3 +4,4 @@
 # Allow only README.md and .gitignore
 !README.md
 !.gitignore
+!assets/qr-group.png
