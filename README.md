@@ -4,6 +4,14 @@
 
 <p align="center"><strong>⭐ <a href="https://github.com/HsMirage/AIPlanHub">AIPlanHub</a> — 一站式对比主流 AI 订阅方案，覆盖编程 · 视频 · 图片 · 音频多场景 ⭐</strong></p>
 
+<p align="center">
+  <a href="https://raw.githubusercontent.com/HsMirage/AIPlanHub/main/assets/qr-group.png" target="_blank">
+    <img src="https://raw.githubusercontent.com/HsMirage/AIPlanHub/main/assets/qr-group.png" width="180" alt="交流群二维码" />
+  </a>
+  <br/>
+  <sub>扫码加入AI交流群</sub>
+</p>
+
 ---
 
 | Coding 数据更新于 2026.06.20（Alaya Code MiniMax-M2.5/M2.1移除·新增TokenPlan·GLM-5.2上线） · Token 数据更新于 2026.06.13（OpenCode Go 移除 Kimi-K2.5/MiniMax-M2.5·新增 Kimi-K2.7-Code·方舟新增语音模型） · Video 数据更新于 2026.06.24（即梦标准会员首年折扣更新·Seedance 2.0 Mini促销延长至6.28） · Image 数据更新于 2026.06.24（即梦标准会员首年折扣更新·Seedance 2.0 Mini促销延长至6.28） · Audio 数据更新于 2026.06.11（Suno 5月13日降价已结束·Pro/Premier价格回调至$10/$30）
