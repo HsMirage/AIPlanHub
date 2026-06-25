@@ -94,7 +94,7 @@ https://ai.hsnb.fun/aiplanhub
 | 智谱AI | Lite | ¥49 | — | 1,200 | [开通](https://www.bigmodel.cn/glm-coding?ic=DGRQECTZFB) |
 | 优云智算 | Mini | ¥49 | — | 200 | [开通](https://passport.compshare.cn/register?referral_code=Kkl0Vgy0pCsFOzeMtfGBdI) |
 | Kimi | Andante | ¥49 | ¥39 | — | [开通](https://www.kimi.com/code/zh) |
-| 阶跃星辰 | Flash Mini | ¥49 | — | 1,500 | [开通](https://platform.stepfun.com/docs/zh/step-plan/overview) |
+| 阶跃星辰 | Flash Mini | ¥49 | — | 1,500 | [开通](https://platform.stepfun.com?invite_code=KHVQVECJ) |
 | MiniMax | Plus | ¥49 | — | 1,500 | [开通](https://platform.minimaxi.com/subscribe/token-plan) |
 | ChatGPT | Plus | ¥26.6 | — | — | [开通](https://pay.ldxp.cn/shop/mirage) |
 | ChatGPT | Team | ¥28.8 | — | — | [开通](https://pay.ldxp.cn/shop/mirage) |
@@ -108,7 +108,7 @@ https://ai.hsnb.fun/aiplanhub
 | TaoToken | Pro | ¥199 | — | — | [开通](https://taotoken.net/?u=inv_iyn75yglujwdy9ij&utm_source=tt_invite) |
 | Kimi | Moderato | ¥99 | ¥79 | — | [开通](https://www.kimi.com/code/zh) |
 | 国家超算互联网 | Pro | ¥100 | — | 6,000 | [开通](https://www.scnet.cn/ac/openapi/doc/2.0/moduleapi/codingplan/subscriptionnotice.html) |
-| 阶跃星辰 | Flash Plus | ¥99 | — | 6,000 | [开通](https://platform.stepfun.com/docs/zh/step-plan/overview) |
+| 阶跃星辰 | Flash Plus | ¥99 | — | 6,000 | [开通](https://platform.stepfun.com?invite_code=KHVQVECJ) |
 | 快手 StreamLake | Pro | ¥140 | — | 4,500 | [开通](https://www.streamlake.com/marketing/coding-plan) |
 | 天翼云 | 8000万 | ¥89 | — | — | [开通](https://www.ctyun.cn/products/maas) |
 | 天翼云 | 1.8亿 | ¥199 | — | — | [开通](https://www.ctyun.cn/products/maas) |
@@ -117,7 +117,7 @@ https://ai.hsnb.fun/aiplanhub
 | 智谱AI | Pro | ¥149 | — | 6,000 | [开通](https://www.bigmodel.cn/glm-coding?ic=DGRQECTZFB) |
 | 讯飞星辰 | 高效版 | ¥199 | — | 6,000 | [开通](https://maas.xfyun.cn/packageSubscription?inviteCode=MAAS-7573AB85) |
 | 优云智算 | Basic | ¥199 | — | 800 | [开通](https://passport.compshare.cn/register?referral_code=Kkl0Vgy0pCsFOzeMtfGBdI) |
-| 阶跃星辰 | Flash Pro | ¥199 | — | 22,500 | [开通](https://platform.stepfun.com/docs/zh/step-plan/overview) |
+| 阶跃星辰 | Flash Pro | ¥199 | — | 22,500 | [开通](https://platform.stepfun.com?invite_code=KHVQVECJ) |
 | Alaya Code | Plus | ¥199 | — | 600 | [开通](https://codingplan.alayanew.com/docs/billing) |
 | MiniMax | Max | ¥119 | — | 4,500 | [开通](https://platform.minimaxi.com/subscribe/token-plan) |
 | Kimi | Allegretto | ¥199 | ¥159 | — | [开通](https://www.kimi.com/code/zh) |
@@ -140,7 +140,7 @@ https://ai.hsnb.fun/aiplanhub
 | MiniMax | Ultra | ¥469 | — | 15,000 | [开通](https://platform.minimaxi.com/subscribe/token-plan) |
 | 蓝耘元生代云 | 高级版 | ¥469 | — | 24,000 | [开通](https://console.lanyun.net/#/register?promoterCode=3ef0f72996) |
 | 智谱AI | Max | ¥469 | — | 24,000 | [开通](https://www.bigmodel.cn/glm-coding?ic=DGRQECTZFB) |
-| 阶跃星辰 | Flash Max | ¥699 | — | 75,000 | [开通](https://platform.stepfun.com/docs/zh/step-plan/overview) |
+| 阶跃星辰 | Flash Max | ¥699 | — | 75,000 | [开通](https://platform.stepfun.com?invite_code=KHVQVECJ) |
 | Alaya Code | Max | ¥699 | — | 2,400 | [开通](https://codingplan.alayanew.com/docs/billing) |
 | Kimi | Allegro | ¥699 | ¥559 | — | [开通](https://www.kimi.com/code/zh) |
 
