@@ -79,7 +79,7 @@ https://ai.hsnb.fun/aiplanhub
 | TaoToken | Lite | ¥39 | — | — | [开通](https://taotoken.net/?u=inv_iyn75yglujwdy9ij&utm_source=tt_invite) |
 | 国家超算互联网 | Lite | ¥20 | — | 1,200 | [开通](https://www.scnet.cn/ac/openapi/doc/2.0/moduleapi/codingplan/subscriptionnotice.html) |
 | Ollama | Free | $0 | — | — | [开通](https://ollama.com/pricing) |
-| 快手 StreamLake | Mini | ¥29 | — | 600 | [开通](https://www.streamlake.com/marketing/coding-plan) |
+| 快手 StreamLake | Mini | ¥29 | — | 40 | [开通](https://www.streamlake.com/marketing/coding-plan) |
 | 讯飞星辰 | 专业版 | ¥39 | — | 1,200 | [开通](https://maas.xfyun.cn/packageSubscription?inviteCode=MAAS-7573AB85) |
 | 百度·千帆 | Lite | ¥40 | — | 1,200 | [开通](https://cloud.baidu.com/campaign/ambassador-product/index.html?ambassadorId=b00e3bb5d042440fbfaccf545e8e52f0#knowledge-model) |
 | 京东云 | Lite | ¥40 | ¥19.9 | 1,200 | [开通](https://3.cn/2-L8H4QY) |
@@ -104,12 +104,12 @@ https://ai.hsnb.fun/aiplanhub
 
 | 平台 | 方案 | 月付 | 首月价 | 5h请求数 | 开通 |
 |------|------|------|--------|----------|------|
-| 快手 StreamLake | Starter | ¥70 | — | 1,500 | [开通](https://www.streamlake.com/marketing/coding-plan) |
+| 快手 StreamLake | Starter | ¥70 | — | 100 | [开通](https://www.streamlake.com/marketing/coding-plan) |
 | TaoToken | Pro | ¥199 | — | — | [开通](https://taotoken.net/?u=inv_iyn75yglujwdy9ij&utm_source=tt_invite) |
 | Kimi | Moderato | ¥99 | ¥79 | — | [开通](https://www.kimi.com/code/zh) |
 | 国家超算互联网 | Pro | ¥100 | — | 6,000 | [开通](https://www.scnet.cn/ac/openapi/doc/2.0/moduleapi/codingplan/subscriptionnotice.html) |
 | 阶跃星辰 | Flash Plus | ¥99 | — | 6,000 | [开通](https://platform.stepfun.com?invite_code=KHVQVECJ) |
-| 快手 StreamLake | Pro | ¥140 | — | 4,500 | [开通](https://www.streamlake.com/marketing/coding-plan) |
+| 快手 StreamLake | Pro | ¥140 | — | 300 | [开通](https://www.streamlake.com/marketing/coding-plan) |
 | 天翼云 | 8000万 | ¥89 | — | — | [开通](https://www.ctyun.cn/products/maas) |
 | 天翼云 | 1.8亿 | ¥199 | — | — | [开通](https://www.ctyun.cn/products/maas) |
 | OpenStarry | 星途版 | ¥119 | — | 3,000 | [开通](https://api.openstarry.com/auth?mode=register&aff=X31B) |
@@ -134,7 +134,7 @@ https://ai.hsnb.fun/aiplanhub
 | 腾讯·Coding | Pro | ¥200 | ¥39.9 | 6,000 | [开通](https://console.cloud.tencent.cn/tokenhub/codingplan?regionId=1) |
 | 移动云 | Pro | ¥200 | ¥39.9 | 6,000 | [开通](https://ecloud.10086.cn/portal/act/codingplan) |
 | 字节·方舟 | Pro | ¥200 | ¥49.9 | 6,000 | [开通](https://volcengine.com/L/jmiEa1dptck/) |
-| 快手 StreamLake | Max | ¥350 | — | 15,000 | [开通](https://www.streamlake.com/marketing/coding-plan) |
+| 快手 StreamLake | Max | ¥350 | — | 1,000 | [开通](https://www.streamlake.com/marketing/coding-plan) |
 | 天翼云 | 3.8亿 | ¥399 | — | — | [开通](https://www.ctyun.cn/products/maas) |
 | 天翼云 | 6.8亿 | ¥699 | — | — | [开通](https://www.ctyun.cn/products/maas) |
 | MiniMax | Ultra | ¥469 | — | 15,000 | [开通](https://platform.minimaxi.com/subscribe/token-plan) |
