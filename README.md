@@ -14,7 +14,7 @@
 
 ---
 
-| Coding 数据更新于 2026.06.25（新增 OpenStarry·字节方舟新增Kimi-K2.7-Code） · Token 数据更新于 2026.06.13（OpenCode Go 移除 Kimi-K2.5/MiniMax-M2.5·新增 Kimi-K2.7-Code·方舟新增语音模型） · Video 数据更新于 2026.06.24（即梦标准会员首年折扣更新·Seedance 2.0 Mini促销延长至6.28） · Image 数据更新于 2026.06.24（即梦标准会员首年折扣更新·Seedance 2.0 Mini促销延长至6.28） · Audio 数据更新于 2026.06.11（Suno 5月13日降价已结束·Pro/Premier价格回调至$10/$30）
+| Coding 数据更新于 2026.06.25（新增 OpenStarry·字节方舟新增Kimi-K2.7-Code） · Token 数据更新于 2026.06.13（OpenCode Go 移除 Kimi-K2.5/MiniMax-M2.5·新增 Kimi-K2.7-Code·方舟新增语音模型） · Video 数据更新于 2026.06.27（快手可灵新增连续包季77折·海螺AI Seedance折扣更新） · Image 数据更新于 2026.06.27（Liblib AI 新增月付定价） · Audio 数据更新于 2026.06.11（Suno 5月13日降价已结束·Pro/Premier价格回调至$10/$30）
 
 ---
 
