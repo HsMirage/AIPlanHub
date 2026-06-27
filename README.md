@@ -14,7 +14,7 @@
 
 ---
 
-| Coding 数据更新于 2026.06.25（新增 OpenStarry·字节方舟新增Kimi-K2.7-Code） · Token 数据更新于 2026.06.13（OpenCode Go 移除 Kimi-K2.5/MiniMax-M2.5·新增 Kimi-K2.7-Code·方舟新增语音模型） · Video 数据更新于 2026.06.27（快手可灵新增连续包季77折·海螺AI Seedance折扣更新） · Image 数据更新于 2026.06.27（Liblib AI 新增月付定价） · Audio 数据更新于 2026.06.11（Suno 5月13日降价已结束·Pro/Premier价格回调至$10/$30）
+| Coding 数据更新于 2026.06.27（新增 Meituan CatPaw·Video/Image 日期同步） · Token 数据更新于 2026.06.13（OpenCode Go 移除 Kimi-K2.5/MiniMax-M2.5·新增 Kimi-K2.7-Code·方舟新增语音模型） · Video 数据更新于 2026.06.27（快手可灵新增连续包季77折·海螺AI Seedance折扣更新） · Image 数据更新于 2026.06.27（Liblib AI 新增月付定价） · Audio 数据更新于 2026.06.11（Suno 5月13日降价已结束·Pro/Premier价格回调至$10/$30）
 
 ---
 
@@ -43,7 +43,7 @@ https://ai.hsnb.fun/aiplanhub
 
 ---
 
-## Coding 平台（23 家）
+## Coding 平台（24 家）
 
 | 平台 | 代表模型 | 方案数 | 月付起 | 评分 |
 |------|----------|--------|--------|------|
@@ -67,9 +67,10 @@ https://ai.hsnb.fun/aiplanhub
 | 字节·方舟 | Doubao-Seed-2.0-pro/DeepSeek-V4-Pro | 2 | ¥40 | ★★★★ |
 | Alaya Code | DeepSeek-V4-Pro / GLM-5.1 | 3 | ¥39 | ★★ |
 | Ollama | GLM-5.1 / DeepSeek-V4-Flash / MiniMax-M2.7 | 3 | $0 | ★★★ |
-| 优云智算 | DeepSeek-V4-Pro / DeepSeek-V4-Flash / Qwen3.6-Plus / MiniMax-M2.7 / Kimi-K2.6 | 6 | ¥49 | ★★ |
-| OpenStarry | GLM-5.2 / GLM-5.1 / DeepSeek-V4-Pro / DeepSeek-V4-Flash / MiniMax-M3 / Kimi-K2.6 | 3 | ¥9.9(周) | ★★★⚠️ |
-| ChatGPT | GPT-5.4 / GPT-Image-2 / GPT-5.3-Codex | 2 | ¥26.6 | ★★★★★ |
+|| 优云智算 | DeepSeek-V4-Pro / DeepSeek-V4-Flash / Qwen3.6-Plus / MiniMax-M2.7 / Kimi-K2.6 | 6 | ¥49 | ★★ |
+|| OpenStarry | GLM-5.2 / GLM-5.1 / DeepSeek-V4-Pro / DeepSeek-V4-Flash / MiniMax-M3 / Kimi-K2.6 | 3 | ¥9.9(周) | ★★★⚠️ |
+|| ChatGPT | GPT-5.4 / GPT-Image-2 / GPT-5.3-Codex | 2 | ¥26.6 | ★★★★★ |
+|| Meituan CatPaw | — | 1 | 免费 | ★★★★ |
 
 ### 入门级（人民币月付 ≤ ¥50）
 
@@ -93,10 +94,11 @@ https://ai.hsnb.fun/aiplanhub
 | 蓝耘元生代云 | 入门版 | ¥49 | — | 1,200 | [开通](https://console.lanyun.net/#/register?promoterCode=3ef0f72996) |
 | 智谱AI | Lite | ¥49 | — | 1,200 | [开通](https://www.bigmodel.cn/glm-coding?ic=DGRQECTZFB) |
 | 优云智算 | Mini | ¥49 | — | 200 | [开通](https://passport.compshare.cn/register?referral_code=Kkl0Vgy0pCsFOzeMtfGBdI) |
-| Kimi | Andante | ¥49 | ¥39 | — | [开通](https://www.kimi.com/code/zh) |
-| 阶跃星辰 | Flash Mini | ¥49 | — | 1,500 | [开通](https://platform.stepfun.com?invite_code=KHVQVECJ) |
-| MiniMax | Plus | ¥49 | — | 1,500 | [开通](https://platform.minimaxi.com/subscribe/token-plan) |
-| ChatGPT | Plus | ¥26.6 | — | — | [开通](https://pay.ldxp.cn/shop/mirage) |
+|| Kimi | Andante | ¥49 | ¥39 | — | [开通](https://www.kimi.com/code/zh) |
+|| 阶跃星辰 | Flash Mini | ¥49 | — | 1,500 | [开通](https://platform.stepfun.com?invite_code=KHVQVECJ) |
+|| Meituan CatPaw | 免费版 | 免费 | — | — | [下载](https://catpaw.meituan.com/) |
+|| MiniMax | Plus | ¥49 | — | 1,500 | [开通](https://platform.minimaxi.com/subscribe/token-plan) |
+|| ChatGPT | Plus | ¥26.6
 | ChatGPT | Team | ¥28.8 | — | — | [开通](https://pay.ldxp.cn/shop/mirage) |
 | Alaya Code | Lite | ¥39 | — | 120 | [开通](https://codingplan.alayanew.com/docs/billing) |
 
