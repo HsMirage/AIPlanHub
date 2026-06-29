@@ -14,7 +14,7 @@
 
 ---
 
-| Coding 数据更新于 2026.06.27（新增 Meituan CatPaw·Video/Image 日期同步） · Token 数据更新于 2026.06.13（OpenCode Go 移除 Kimi-K2.5/MiniMax-M2.5·新增 Kimi-K2.7-Code·方舟新增语音模型） · Video 数据更新于 2026.06.29（即梦首季/首年折扣调整·Seedance 2.0 Mini限时折扣已结束） · Image 数据更新于 2026.06.27（Liblib AI 新增月付定价） · Audio 数据更新于 2026.06.11（Suno 5月13日降价已结束·Pro/Premier价格回调至$10/$30）
+| Coding 数据更新于 2026.06.29（讯飞星辰高效版新增GLM-5.2·各套餐模型按档位分层） · Token 数据更新于 2026.06.13（OpenCode Go 移除 Kimi-K2.5/MiniMax-M2.5·新增 Kimi-K2.7-Code·方舟新增语音模型） · Video 数据更新于 2026.06.29（即梦首季/首年折扣调整·Seedance 2.0 Mini限时折扣已结束） · Image 数据更新于 2026.06.27（Liblib AI 新增月付定价） · Audio 数据更新于 2026.06.11（Suno 5月13日降价已结束·Pro/Premier价格回调至$10/$30）
 
 ---
 
@@ -61,7 +61,7 @@ https://ai.hsnb.fun/aiplanhub
 | 移动云 | GLM-5.1 / MiniMax-M2.5 | 2 | ¥40 | ★★ |
 | 国家超算互联网 | MiniMax-M2.5 / Qwen3-235B-A22B | 2 | ¥20 | ★★ |
 | 百度·千帆 | GLM-5 / GLM-5.1 / DeepSeek-V4-Flash | 2 | ¥40 | ★★★ |
-| 讯飞星辰 | Spark X2 | 3 | ¥19 | ★★★★ |
+| 讯飞星辰 | GLM-5.2 / Spark X2 | 3 | ¥19 | ★★★★ |
 | 阶跃星辰 | Step-3.5-Flash-2603 | 4 | ¥49 | ★★★ |
 | 快手 StreamLake | KAT-Coder-Pro V2 | 4 | ¥29 | ★★★ |
 | 字节·方舟 | Doubao-Seed-2.0-pro/DeepSeek-V4-Pro | 2 | ¥40 | ★★★★ |
