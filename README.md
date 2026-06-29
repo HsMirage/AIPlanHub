@@ -168,7 +168,7 @@ https://ai.hsnb.fun/aiplanhub
 | 天翼云·Token | GLM-5 / DeepSeek-V3.2 | 5 | ¥29 | ★★ |
 | 方舟 Agent Plan | DeepSeek-V4-Pro / GLM-5.1 / Kimi-K2.6 | 4 | ¥40 | ★★ |
 | 小米·MiMo | MiMo-V2.5-Pro / MiMo-V2.5 | 4 | ¥39 | ★★ |
-| OpenCode Go | DeepSeek-V4-Pro / GLM-5.2 / Kimi-K2.6 / MiniMax-M3 | 1 | $10 | ★★★★ |
+| OpenCode Go | GLM-5.2 / DeepSeek-V4-Pro / Kimi-K2.6 / MiniMax-M3 | 1 | $10 | ★★★★ |
 | ChatGPT | GPT-5.4 / GPT-Image-2 / GPT-5.3-Codex | 1 | ¥28.8 | ★★★★★ |
 
 ### Token 入门（人民币月付 ≤ ¥100）
