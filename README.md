@@ -14,7 +14,7 @@
 
 ---
 
-| Coding 数据更新于 2026.06.29（讯飞星辰高效版新增GLM-5.2·各套餐模型按档位分层） · Token 数据更新于 2026.06.30（小米·MiMo V2系列正式下线·已自动转发至V2.5） · Video 数据更新于 2026.06.29（即梦首季/首年折扣调整·Seedance 2.0 Mini限时折扣已结束） · Image 数据更新于 2026.06.27（Liblib AI 新增月付定价） · Audio 数据更新于 2026.06.11（Suno 5月13日降价已结束·Pro/Premier价格回调至$10/$30）
+| Coding 数据更新于 2026.06.29（新增 AtomCode CodingPlan·讯飞星辰高效版新增GLM-5.2·各套餐模型按档位分层） · Token 数据更新于 2026.06.30（小米·MiMo V2系列正式下线·已自动转发至V2.5） · Video 数据更新于 2026.06.29（即梦首季/首年折扣调整·Seedance 2.0 Mini限时折扣已结束） · Image 数据更新于 2026.06.27（Liblib AI 新增月付定价） · Audio 数据更新于 2026.06.11（Suno 5月13日降价已结束·Pro/Premier价格回调至$10/$30）
 
 ---
 
@@ -43,7 +43,7 @@ https://ai.hsnb.fun/aiplanhub
 
 ---
 
-## Coding 平台（24 家）
+## Coding 平台（25 家）
 
 | 平台 | 代表模型 | 方案数 | 月付起 | 评分 |
 |------|----------|--------|--------|------|
@@ -71,6 +71,7 @@ https://ai.hsnb.fun/aiplanhub
 || OpenStarry | GLM-5.2 / GLM-5.1 / DeepSeek-V4-Pro / DeepSeek-V4-Flash / MiniMax-M3 / Kimi-K2.6 | 3 | ¥9.9(周) | ★⚠️ |
 || ChatGPT | GPT-5.4 / GPT-Image-2 / GPT-5.3-Codex | 2 | ¥26.6 | ★★★★★ |
 || Meituan CatPaw | — | 1 | 免费 | ★★★★ |
+|| AtomCode | GLM-5.2 / DeepSeek-V4-Flash | 3 | 免费 | ★★★ |
 
 ### 入门级（人民币月付 ≤ ¥50）
 
