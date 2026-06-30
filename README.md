@@ -14,7 +14,7 @@
 
 ---
 
-| Coding 数据更新于 2026.06.29（新增 AtomCode CodingPlan·讯飞星辰高效版新增GLM-5.2·各套餐模型按档位分层） · Token 数据更新于 2026.06.30（小米·MiMo V2系列正式下线·已自动转发至V2.5） · Video 数据更新于 2026.06.29（即梦首季/首年折扣调整·Seedance 2.0 Mini限时折扣已结束） · Image 数据更新于 2026.06.27（Liblib AI 新增月付定价） · Audio 数据更新于 2026.06.11（Suno 5月13日降价已结束·Pro/Premier价格回调至$10/$30）
+| Coding 数据更新于 2026.07.01（Alaya Code 全面转型为 Alaya Token TokenPlan·Ollama 新增 GLM-5.2·无问芯穹停服确认） · Token 数据更新于 2026.06.30（小米·MiMo V2系列正式下线·已自动转发至V2.5） · Video 数据更新于 2026.06.29（即梦首季/首年折扣调整·Seedance 2.0 Mini限时折扣已结束） · Image 数据更新于 2026.06.27（Liblib AI 新增月付定价） · Audio 数据更新于 2026.06.11（Suno 5月13日降价已结束·Pro/Premier价格回调至$10/$30）
 
 ---
 
