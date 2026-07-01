@@ -70,7 +70,7 @@ https://ai.hsnb.fun/aiplanhub
 || 优云智算 | DeepSeek-V4-Pro / DeepSeek-V4-Flash / Qwen3.6-Plus / MiniMax-M2.7 / Kimi-K2.6 | 6 | ¥49 | ★★ |
 || OpenStarry | GLM-5.2 / GLM-5.1 / DeepSeek-V4-Pro / DeepSeek-V4-Flash / MiniMax-M3 / Kimi-K2.6 | 3 | ¥9.9(周) | ★⚠️ |
 || ChatGPT | GPT-5.4 / GPT-Image-2 / GPT-5.3-Codex | 2 | ¥26.6 | ★★★★★ |
-|| Charm Hyper | DeepSeek-V4-Flash / DeepSeek-V4-Pro / GLM-5.2 | 2 | $0 | ★★★★ |
+|| Charm Hyper | DeepSeek-V4-Flash / DeepSeek-V4-Pro / GLM-5.2 | 5 | $0 | ★★★★ |
 || Meituan CatPaw | — | 1 | 免费 | ★★★★ |
 || AtomCode | GLM-5.2 / DeepSeek-V4-Flash | 3 | 免费 | ★★★ |
 
@@ -118,6 +118,9 @@ https://ai.hsnb.fun/aiplanhub
 | 天翼云 | 8000万 | ¥89 | — | — | [开通](https://www.ctyun.cn/products/maas) |
 | 天翼云 | 1.8亿 | ¥199 | — | — | [开通](https://www.ctyun.cn/products/maas) |
 | Charm Hyper | Subscription | $20 | — | — | [开通](https://hyper.charm.land/) |
+| Charm Hyper | Bundle $5 | $5(一次) | — | — | [开通](https://hyper.charm.land/) |
+| Charm Hyper | Bundle $10 | $10(一次) | — | — | [开通](https://hyper.charm.land/) |
+| Charm Hyper | Bundle $20 | $20(一次) | — | — | [开通](https://hyper.charm.land/) |
 | OpenStarry | 星途版 | ¥119 | — | 3,000 | [开通](https://api.openstarry.com/auth?mode=register&aff=X31B) |
 | 蓝耘元生代云 | 专业版 | ¥149 | — | 6,000 | [开通](https://console.lanyun.net/#/register?promoterCode=3ef0f72996) |
 | 智谱AI | Pro | ¥149 | — | 6,000 | [开通](https://www.bigmodel.cn/glm-coding?ic=DGRQECTZFB) |
