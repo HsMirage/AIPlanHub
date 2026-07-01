@@ -14,7 +14,7 @@
 
 ---
 
-| Coding 数据更新于 2026.07.01（Alaya Code 全面转型为 Alaya Token TokenPlan·Ollama 新增 GLM-5.2·无问芯穹停服确认） · Token 数据更新于 2026.06.30（小米·MiMo V2系列正式下线·已自动转发至V2.5） · Video 数据更新于 2026.06.29（即梦首季/首年折扣调整·Seedance 2.0 Mini限时折扣已结束） · Image 数据更新于 2026.06.27（Liblib AI 新增月付定价） · Audio 数据更新于 2026.06.11（Suno 5月13日降价已结束·Pro/Premier价格回调至$10/$30）
+| Coding 数据更新于 2026.07.01（Charm Hyper 新增·★★★★） · Token 数据更新于 2026.06.30（小米·MiMo V2系列正式下线·已自动转发至V2.5） · Video 数据更新于 2026.06.29（即梦首季/首年折扣调整·Seedance 2.0 Mini限时折扣已结束） · Image 数据更新于 2026.06.27（Liblib AI 新增月付定价） · Audio 数据更新于 2026.06.11（Suno 5月13日降价已结束·Pro/Premier价格回调至$10/$30）
 
 ---
 
@@ -43,7 +43,7 @@ https://ai.hsnb.fun/aiplanhub
 
 ---
 
-## Coding 平台（25 家）
+## Coding 平台（26 家）
 
 | 平台 | 代表模型 | 方案数 | 月付起 | 评分 |
 |------|----------|--------|--------|------|
@@ -70,6 +70,7 @@ https://ai.hsnb.fun/aiplanhub
 || 优云智算 | DeepSeek-V4-Pro / DeepSeek-V4-Flash / Qwen3.6-Plus / MiniMax-M2.7 / Kimi-K2.6 | 6 | ¥49 | ★★ |
 || OpenStarry | GLM-5.2 / GLM-5.1 / DeepSeek-V4-Pro / DeepSeek-V4-Flash / MiniMax-M3 / Kimi-K2.6 | 3 | ¥9.9(周) | ★⚠️ |
 || ChatGPT | GPT-5.4 / GPT-Image-2 / GPT-5.3-Codex | 2 | ¥26.6 | ★★★★★ |
+|| Charm Hyper | DeepSeek-V4-Flash / DeepSeek-V4-Pro / GLM-5.2 | 2 | $0 | ★★★★ |
 || Meituan CatPaw | — | 1 | 免费 | ★★★★ |
 || AtomCode | GLM-5.2 / DeepSeek-V4-Flash | 3 | 免费 | ★★★ |
 
@@ -98,6 +99,7 @@ https://ai.hsnb.fun/aiplanhub
 || Kimi | Andante | ¥49 | ¥39 | — | [开通](https://www.kimi.com/code/zh) |
 || 阶跃星辰 | Flash Mini | ¥49 | — | 1,500 | [开通](https://platform.stepfun.com?invite_code=KHVQVECJ) |
 || Meituan CatPaw | 免费版 | 免费 | — | — | [下载](https://catpaw.meituan.com/) |
+|| Charm Hyper | Free | $0 | — | — | [开通](https://hyper.charm.land/) |
 || MiniMax | Plus | ¥49 | — | 1,500 | [开通](https://platform.minimaxi.com/subscribe/token-plan) |
 || ChatGPT | Plus | ¥26.6
 | ChatGPT | Team | ¥28.8 | — | — | [开通](https://pay.ldxp.cn/shop/mirage) |
@@ -115,6 +117,7 @@ https://ai.hsnb.fun/aiplanhub
 | 快手 StreamLake | Pro | ¥140 | — | 300 Prompts | [开通](https://www.streamlake.com/marketing/coding-plan) |
 | 天翼云 | 8000万 | ¥89 | — | — | [开通](https://www.ctyun.cn/products/maas) |
 | 天翼云 | 1.8亿 | ¥199 | — | — | [开通](https://www.ctyun.cn/products/maas) |
+| Charm Hyper | Subscription | $20 | — | — | [开通](https://hyper.charm.land/) |
 | OpenStarry | 星途版 | ¥119 | — | 3,000 | [开通](https://api.openstarry.com/auth?mode=register&aff=X31B) |
 | 蓝耘元生代云 | 专业版 | ¥149 | — | 6,000 | [开通](https://console.lanyun.net/#/register?promoterCode=3ef0f72996) |
 | 智谱AI | Pro | ¥149 | — | 6,000 | [开通](https://www.bigmodel.cn/glm-coding?ic=DGRQECTZFB) |
