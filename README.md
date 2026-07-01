@@ -14,7 +14,7 @@
 
 ---
 
-| Coding 数据更新于 2026.07.03（AtomCode Lite 限量升至800人/日） · Token 数据更新于 2026.07.01（天翼云·Token ★★→★·Alaya Code 新增·★·TaoToken 新增·★★） · Video 数据更新于 2026.06.29（即梦首季/首年折扣调整·Seedance 2.0 Mini限时折扣已结束） · Image 数据更新于 2026.06.27（Liblib AI 新增月付定价） · Audio 数据更新于 2026.06.11（Suno 5月13日降价已结束·Pro/Premier价格回调至$10/$30）
+| Coding 数据更新于 2026.07.03（AtomCode Lite 限量升至800人/日） · Token 数据更新于 2026.07.01（天翼云·Token ★★→★·Alaya Code 新增·★·TaoToken 新增·★★） · Video 数据更新于 2026.06.29（即梦首季/首年折扣调整·Seedance 2.0 Mini限时折扣已结束） · Image 数据更新于 2026.07.02（Liblib AI Happy Horse 1.0→1.1·Seedance赠送调整·堆友获取失败） · Audio 数据更新于 2026.06.11（Suno 5月13日降价已结束·Pro/Premier价格回调至$10/$30）
 
 ---
 
