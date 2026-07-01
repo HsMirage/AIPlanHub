@@ -57,7 +57,7 @@ https://ai.hsnb.fun/aiplanhub
 | 京东云 | Qwen3-Coder | 2 | ¥40 | ★★★★ |
 | 联通云 | DeepSeek-V4-Pro / Kimi-K2.6 / Qwen3.6-27B | 2 | ¥40 | ★★ |
 | 腾讯·Coding | HY-2.0 | 2 | ¥40 | ★★★ |
-| TaoToken | GLM-5.1 | 3 | ¥39 | ★★ |
+| TaoToken | GLM-5.2 | 3 | ¥39 | ★★ |
 | 移动云 | GLM-5.1 / MiniMax-M2.5 | 2 | ¥40 | ★★ |
 | 国家超算互联网 | MiniMax-M2.5 / Qwen3-235B-A22B | 2 | ¥20 | ★★ |
 | 百度·千帆 | GLM-5 / GLM-5.1 / DeepSeek-V4-Flash | 2 | ¥40 | ★★★ |
