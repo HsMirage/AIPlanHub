@@ -14,7 +14,7 @@
 
 ---
 
-| Coding 数据更新于 2026.07.03（AtomCode Lite 每日限量800→1000人·TaoToken 全档位售罄活动结束·新增上汤SenseNova） · Token 数据更新于 2026.07.01（天翼云·Token ★★→★·Alaya Code 新增·★·TaoToken 新增·★★） · Video 数据更新于 2026.06.29（即梦首季/首年折扣调整·Seedance 2.0 Mini限时折扣已结束） · Image 数据更新于 2026.07.02（Liblib AI Happy Horse 1.0→1.1·Seedance赠送调整·堆友获取失败） · Audio 数据更新于 2026.06.11（Suno 5月13日降价已结束·Pro/Premier价格回调至$10/$30）
+| Coding 数据更新于 2026.07.03（AtomCode Lite 每日限量800→1000人·TaoToken 全档位售罄活动结束·新增上汤SenseNova） · Token 数据更新于 2026.07.01（天翼云·Token ★★→★·Alaya Code 新增·★·TaoToken 新增·★★） · Video 数据更新于 2026.06.29（即梦首季/首年折扣调整·Seedance 2.0 Mini限时折扣已结束） · Image 数据更新于 2026.07.02（Liblib AI Happy Horse 1.0→1.1·Seedance赠送调整·堆友获取失败） · Audio 数据更新于 2026.06.11（Suno 5月13日降价已结束·Pro/Premier价格回调至$10/$30） · 中转站 新增 2026.07.04（幻境MirageAI）
 
 ---
 
@@ -249,6 +249,14 @@ https://ai.hsnb.fun/aiplanhub
 | Udio | 3 | ¥0 | Udio | ★★★★ |
 | Ace Studio | 2 | —/年付 | AI歌声合成 | ★★★ |
 | 海螺AI | 5 | ¥0 | Music 2.6 / Speech 2.8 | ★★★ |
+
+---
+
+## 中转站（1 家）
+
+| 平台 | 代表模型 | 计费方式 | 特点 | 评分 |
+|------|----------|----------|------|------|
+| 幻境MirageAI | gpt-5.4 / deepseek-v4-pro / gemini-2.5-flash / agnes-2.0-flash 等 37 款 | 按量计费·充值制 | 半公益中转·New API 统一协议·pay.ldxp.cn 充值 | ★★★★ |
 
 ---
 
