@@ -14,7 +14,7 @@
 
 ---
 
-| Coding 数据更新于 2026.07.02（优云智算 新增GLM-5.2·★★·UCloud优刻得旗下·天翼云 Coding Plan 已移除·迁至Token Plan） · Token 数据更新于 2026.07.01（天翼云·Token ★★→★·Alaya Code 新增·★·TaoToken 新增·★★） · Video 数据更新于 2026.06.29（即梦首季/首年折扣调整·Seedance 2.0 Mini限时折扣已结束） · Image 数据更新于 2026.07.02（Liblib AI Happy Horse 1.0→1.1·Seedance赠送调整·堆友获取失败） · Audio 数据更新于 2026.06.11（Suno 5月13日降价已结束·Pro/Premier价格回调至$10/$30）
+| Coding 数据更新于 2026.07.03（AtomCode Lite 每日限量800→1000人·TaoToken 全档位售罄活动结束·新增日日新） · Token 数据更新于 2026.07.01（天翼云·Token ★★→★·Alaya Code 新增·★·TaoToken 新增·★★） · Video 数据更新于 2026.06.29（即梦首季/首年折扣调整·Seedance 2.0 Mini限时折扣已结束） · Image 数据更新于 2026.07.02（Liblib AI Happy Horse 1.0→1.1·Seedance赠送调整·堆友获取失败） · Audio 数据更新于 2026.06.11（Suno 5月13日降价已结束·Pro/Premier价格回调至$10/$30）
 
 ---
 
@@ -43,7 +43,7 @@ https://ai.hsnb.fun/aiplanhub
 
 ---
 
-## Coding 平台（25 家）
+## Coding 平台（26 家）
 
 | 平台 | 代表模型 | 方案数 | 月付起 | 评分 |
 |------|----------|--------|--------|------|
@@ -70,7 +70,8 @@ https://ai.hsnb.fun/aiplanhub
 || ChatGPT | GPT-5.4 / GPT-Image-2 / GPT-5.3-Codex | 2 | ¥26.6 | ★★★★★ |
 || Charm Hyper | DeepSeek-V4-Flash / DeepSeek-V4-Pro / GLM-5.2 | 5 | $0 | ★★★★ |
 || Meituan CatPaw | — | 1 | 免费 | ★★★★ |
-|| AtomCode | GLM-5.2 / DeepSeek-V4-Flash | 3 | 免费 | ★★★ |
+||| AtomCode | GLM-5.2 / DeepSeek-V4-Flash | 3 | 免费 | ★★★ |
+| 日日新 | SenseNova 6.7 Flash-Lite / SenseNova U1 Fast | 1 | 免费 | ★★★★★ |
 
 ### 入门级（人民币月付 ≤ ¥50）
 
@@ -98,8 +99,9 @@ https://ai.hsnb.fun/aiplanhub
 ||| Meituan CatPaw | 免费版 | 免费 | — | — | [下载](https://catpaw.meituan.com/) |
 || Charm Hyper | Free | $0 | — | — | [开通](https://hyper.charm.land/) |
 || MiniMax | Plus | ¥49 | — | 1,500 | [开通](https://platform.minimaxi.com/subscribe/token-plan) |
-|| ChatGPT | Plus | ¥26.6
-| ChatGPT | Team | ¥28.8 | — | — | [开通](https://pay.ldxp.cn/shop/mirage) |
+||| ChatGPT | Plus | ¥26.6
+|| ChatGPT | Team | ¥28.8 | — | — | [开通](https://pay.ldxp.cn/shop/mirage) |
+||| 日日新 | Free · 公测 | 免费 | — | 1,500 | [开通](https://www.sensenova.cn/token-plan) |
 
 ### 进阶级（人民币月付 ¥51-¥199）
 
