@@ -226,7 +226,7 @@ https://ai.hsnb.fun/aiplanhub
 | pai.video | 5 | ¥0 | PixVerse | ★★★★ |
 | 即梦 | 5 | ¥0 | Seedance 2.0·2.0 Mini | ★★★★ |
 | 通义万相 | 3 | ¥0 | 万相 2.6 | ★★★★ |
-| RunningHub | 6 | ¥29 | 云端ComfyUI | ★★★ |
+| RunningHub | 10 | ¥29 | 云端ComfyUI | ★★★ |
 | 腾讯混元 | 4 | — | 混元视频(API) | ★★★ |
 
 ---
@@ -239,7 +239,7 @@ https://ai.hsnb.fun/aiplanhub
 | Midjourney | 4 | ¥70($10) | MJ V7 | ★★★★★ |
 | Liblib AI | 6 | ¥429/年 | WebUI/ComfyUI/Kling | ★★★★★ |
 | 通义万相 | 3 | ¥72 | 万相 2.6 | ★★★★ |
-| RunningHub | 6 | ¥29 | 云端ComfyUI | ★★★ |
+| RunningHub | 10 | ¥29 | 云端ComfyUI | ★★★ |
 | 堆友 | 1 | ¥399/年 | 国风/设计 | ★★★ |
 
 ---
