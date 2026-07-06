@@ -53,7 +53,7 @@ https://ai.hsnb.fun/aiplanhub
 | Kimi | Kimi-K2.6 | 4 | ¥49 | ★★★ |
 | MiniMax | MiniMax-M3 / M2.7 | 3 | ¥49 | ★★ |
 | 阿里·百炼 | Qwen3.6-Plus | 1 | ¥200 | ★★★ |
-|| 蓝耘元生代云 | GLM-5.1 | 3 | ¥49 | ★★★ |
+| 蓝耘元生代云 | GLM-5.1 | 3 | ¥49 | ★★★ |
 | 京东云 | Qwen3-Coder | 2 | ¥40 | ★★★★ |
 | 联通云 | DeepSeek-V4-Pro / Kimi-K2.6 / Qwen3.6-27B | 2 | ¥40 | ★★ |
 | 腾讯·Coding | HY-2.0 | 2 | ¥40 | ★★★ |
@@ -64,14 +64,14 @@ https://ai.hsnb.fun/aiplanhub
 | 讯飞星辰 | GLM-5.2 / Spark X2 | 3 | ¥19 | ★★★★ |
 | 阶跃星辰 | Step-3.5-Flash-2603 | 4 | ¥49 | ★★★ |
 | 快手 StreamLake | KAT-Coder-Pro V2 | 4 | ¥29 | ★★★ |
-|| 字节·方舟 | Doubao-Seed-2.0-pro/DeepSeek-V4-Pro | 2 | ¥40 | ★★★★ |
-|| Ollama | GLM-5.1 / DeepSeek-V4-Flash / MiniMax-M2.7 | 3 | $0 | ★★★ |
-||| 优云智算 | GLM-5.2 / DeepSeek-V4-Pro / DeepSeek-V4-Flash / Qwen3.6-Plus / MiniMax-M2.7 / Kimi-K2.6 | 6 | ¥49 | ★★ |
-|| OpenStarry | GLM-5.2 / GLM-5.1 / DeepSeek-V4-Pro / DeepSeek-V4-Flash / MiniMax-M3 / Kimi-K2.6 | 3 | ¥9.9(周) | ★⚠️ |
-|| ChatGPT | GPT-5.4 / GPT-Image-2 / GPT-5.3-Codex | 2 | ¥26.6 | ★★★★★ |
-|| Charm Hyper | DeepSeek-V4-Flash / DeepSeek-V4-Pro / GLM-5.2 | 5 | $0 | ★★★★ |
-|| Meituan CatPaw | — | 1 | 免费 | ★★★★ |
-||| AtomCode | GLM-5.2 / DeepSeek-V4-Flash | 3 | 免费 | ★★★ |
+| 字节·方舟 | Doubao-Seed-2.0-pro/DeepSeek-V4-Pro | 2 | ¥40 | ★★★★ |
+| Ollama | GLM-5.1 / DeepSeek-V4-Flash / MiniMax-M2.7 | 3 | $0 | ★★★ |
+| 优云智算 | GLM-5.2 / DeepSeek-V4-Pro / DeepSeek-V4-Flash / Qwen3.6-Plus / MiniMax-M2.7 / Kimi-K2.6 | 6 | ¥49 | ★★ |
+| OpenStarry | GLM-5.2 / GLM-5.1 / DeepSeek-V4-Pro / DeepSeek-V4-Flash / MiniMax-M3 / Kimi-K2.6 | 3 | ¥9.9(周) | ★⚠️ |
+| ChatGPT | GPT-5.4 / GPT-Image-2 / GPT-5.3-Codex | 2 | ¥26.6 | ★★★★★ |
+| Charm Hyper | DeepSeek-V4-Flash / DeepSeek-V4-Pro / GLM-5.2 | 5 | $0 | ★★★★ |
+| Meituan CatPaw | — | 1 | 免费 | ★★★★ |
+| AtomCode | GLM-5.2 / DeepSeek-V4-Flash | 3 | 免费 | ★★★ |
 | 商汤SenseNova | SenseNova 6.7 Flash-Lite / SenseNova U1 Fast | 1 | 免费 | ★★★★★ |
 
 ### 入门级（人民币月付 ≤ ¥50）
@@ -90,19 +90,19 @@ https://ai.hsnb.fun/aiplanhub
 | 腾讯·Coding | Lite | ¥40 | ¥7.9 | 1,200 | [开通](https://console.cloud.tencent.cn/tokenhub/codingplan?regionId=1) |
 | 移动云 | Lite | ¥40 | ¥7.9 | 1,200 | [开通](https://ecloud.10086.cn/portal/act/codingplan) |
 | 字节·方舟 | Lite | ¥40 | ¥9.9 | 1,200 | [开通](https://volcengine.com/L/jmiEa1dptck/) |
-|| OpenStarry | 星序版(周) | ¥9.9 | 赠200次 | 无限 | [开通](https://api.openstarry.com/auth?mode=register&aff=X31B) |
+| OpenStarry | 星序版(周) | ¥9.9 | 赠200次 | 无限 | [开通](https://api.openstarry.com/auth?mode=register&aff=X31B) |
 | OpenStarry | 星衍版 | ¥49.9 | — | 1,200 | [开通](https://api.openstarry.com/auth?mode=register&aff=X31B) |
 | 蓝耘元生代云 | 入门版 | ¥49 | — | 1,200 | [开通](https://console.lanyun.net/#/register?promoterCode=3ef0f72996) |
 | 智谱AI | Lite | ¥49 | — | 1,200 | [开通](https://www.bigmodel.cn/glm-coding?ic=DGRQECTZFB) |
 | 优云智算 | Mini | ¥49 | — | 200 | [开通](https://passport.compshare.cn/register?referral_code=Kkl0Vgy0pCsFOzeMtfGBdI) |
-|| Kimi | Andante | ¥49 | ¥39 | — | [开通](https://www.kimi.com/code/zh) |
-|| 阶跃星辰 | Flash Mini | ¥49 | — | 1,500 | [开通](https://platform.stepfun.com?invite_code=KHVQVECJ) |
-||| Meituan CatPaw | 免费版 | 免费 | — | — | [下载](https://catpaw.meituan.com/) |
-|| Charm Hyper | Free | $0 | — | — | [开通](https://hyper.charm.land/) |
-|| MiniMax | Plus | ¥49 | — | 1,500 | [开通](https://platform.minimaxi.com/subscribe/token-plan) |
-||| ChatGPT | Plus | ¥26.6
-|| ChatGPT | Team | ¥28.8 | — | — | [开通](https://pay.ldxp.cn/shop/mirage) |
-||| 商汤SenseNova | Free · 公测 | 免费 | — | 1,500 | [开通](https://www.sensenova.cn/token-plan) |
+| Kimi | Andante | ¥49 | ¥39 | — | [开通](https://www.kimi.com/code/zh) |
+| 阶跃星辰 | Flash Mini | ¥49 | — | 1,500 | [开通](https://platform.stepfun.com?invite_code=KHVQVECJ) |
+| Meituan CatPaw | 免费版 | 免费 | — | — | [下载](https://catpaw.meituan.com/) |
+| Charm Hyper | Free | $0 | — | — | [开通](https://hyper.charm.land/) |
+| MiniMax | Plus | ¥49 | — | 1,500 | [开通](https://platform.minimaxi.com/subscribe/token-plan) |
+| ChatGPT | Plus | ¥26.6 | — | — | [开通](https://pay.ldxp.cn/shop/mirage) |
+| ChatGPT | Team | ¥28.8 | — | — | [开通](https://pay.ldxp.cn/shop/mirage) |
+| 商汤SenseNova | Free · 公测 | 免费 | — | 1,500 | [开通](https://www.sensenova.cn/token-plan) |
 
 ### 进阶级（人民币月付 ¥51-¥199）
 
@@ -267,7 +267,7 @@ https://ai.hsnb.fun/aiplanhub
 
 - **MiniMax** — 2026.06.01 全面升级 M3 体系，Starter/极速版下架，Plus ¥49/Max ¥119/Ultra ¥469 三档（年付立省2月），M2.7 参考 1500/4500/15000 次/5h，月 6~55 亿 token
 - **智谱AI** — 升级 GLM-5.2（取代5.1），免费 MCP 调用额度（100~4000次/月），20+ 编程工具支持，季付9折年付8折，限时福利非高峰1x至9月底
-|- **阿里·百炼** — Pro专属 Qwen3.6-Plus，Pro 固定 ¥200/月，每周 45,000 次请求
+- **阿里·百炼** — Pro专属 Qwen3.6-Plus，Pro 固定 ¥200/月，每周 45,000 次请求
 - **京东云** — DeepSeek-V3.2 / GLM-5 / Qwen3-Coder 7 模型覆盖，标准 Lite/Pro 定价，第三方测速中上游
 - **优云 (Token)** — ⚠️已售罄，新套餐即将上线；支持 MiniMax-M2.1/M2.5、DeepSeek-V3.2、Kimi-K2.5，积分制，允许 API 调用
 - **腾讯·Token (Token)** — ⚠️按Token计费但无公开用量计算器，用户无法自测透明度，仅限AI工具使用
