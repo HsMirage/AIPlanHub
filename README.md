@@ -14,7 +14,7 @@
 
 ---
 
-| Coding 数据更新于 2026.07.06（智谱AI/z.ai移除GLM-4.5-Air·OpenStarry配额下调） · Token 数据更新于 2026.07.06（经核对无变化） · Video 数据更新于 2026.07.06（经核对无变化） · Image 数据更新于 2026.07.06（经核对无变化） · Audio 数据更新于 2026.07.05（经核对无变化） · 中转站 数据更新于 2026.07.05（经核对无变化）
+| Coding 数据更新于 2026.07.06（智谱AI/z.ai移除GLM-4.5-Air·OpenStarry配额下调） · Token 数据更新于 2026.07.06（经核对无变化） · Video 数据更新于 2026.07.06（经核对无变化） · Image 数据更新于 2026.07.06（经核对无变化） · Audio 数据更新于 2026.07.05（经核对无变化） · 中转站 数据更新于 2026.07.05（经核对无变化） · 价格对比 新增于 2026.07.06
 
 ---
 
@@ -25,6 +25,7 @@
   <a href="https://ai.hsnb.fun/aiplanhub/#video"><img src="https://img.shields.io/badge/Video-%E8%A7%86%E9%A2%91-FF3D71?style=for-the-badge" alt="Video" /></a>
   <a href="https://ai.hsnb.fun/aiplanhub/#image"><img src="https://img.shields.io/badge/Image-%E5%9B%BE%E7%89%87-A855F7?style=for-the-badge" alt="Image" /></a>
   <a href="https://ai.hsnb.fun/aiplanhub/#audio"><img src="https://img.shields.io/badge/Audio-%E9%9F%B3%E9%A2%91-22C55E?style=for-the-badge" alt="Audio" /></a>
+  <a href="https://ai.hsnb.fun/aiplanhub/#compare"><img src="https://img.shields.io/badge/%E4%BB%B7%E6%A0%BC%E5%AF%B9%E6%AF%94-Token%E6%95%88%E7%8E%87-00F5A0?style=for-the-badge" alt="价格对比" /></a>
 </p>
 
 ---
