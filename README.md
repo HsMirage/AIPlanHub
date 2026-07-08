@@ -14,7 +14,7 @@
 
 ---
 
-| Coding 数据更新于 2026.07.08（经核对无变化） · Token 数据更新于 2026.07.08（腾讯·Token 模型列表更新） · Video 数据更新于 2026.07.08（经核对无变化·Vidu CDN拦截/pai.video登录墙获取失败） · Image 数据更新于 2026.07.08（经核对无变化） · Audio 数据更新于 2026.07.08（经核对无变化） · 中转站 数据更新于 2026.07.05（经核对无变化） · 价格对比 新增于 2026.07.06|
+| Coding 数据更新于 2026.07.09（OpenStarry套餐重构·新增星痕版·星衍版→星创版） · Token 数据更新于 2026.07.08（腾讯·Token 模型列表更新） · Video 数据更新于 2026.07.08（经核对无变化·Vidu CDN拦截/pai.video登录墙获取失败） · Image 数据更新于 2026.07.08（经核对无变化） · Audio 数据更新于 2026.07.08（经核对无变化） · 中转站 数据更新于 2026.07.05（经核对无变化） · 价格对比 新增于 2026.07.06|
 
 ---
 
@@ -67,7 +67,7 @@ https://ai.hsnb.fun/aiplanhub
 | 字节·方舟 | Doubao-Seed-2.0-pro/DeepSeek-V4-Pro | 2 | ¥40 | ★★★★ |
 | Ollama | GLM-5.1 / DeepSeek-V4-Flash / MiniMax-M2.7 | 3 | $0 | ★★★ |
 | 优云智算 | GLM-5.2 / DeepSeek-V4-Pro / DeepSeek-V4-Flash / Qwen3.6-Plus / MiniMax-M2.7 / Kimi-K2.6 | 6 | ¥49 | ★★ |
-| OpenStarry | GLM-5.2 / GLM-5.1 / DeepSeek-V4-Pro / DeepSeek-V4-Flash / MiniMax-M3 / Kimi-K2.6 | 3 | ¥9.9(周) | ★⚠️ |
+|| OpenStarry | GLM-5.2 / DeepSeek-V4-Pro / MiniMax-M3 / Kimi-K2.7-Code / Qwen3.7-Max | 4(含免费) | ¥0(免费) | ★⚠️ |
 | ChatGPT | GPT-5.4 / GPT-Image-2 / GPT-5.3-Codex | 2 | ¥26.6 | ★★★★★ |
 | Charm Hyper | DeepSeek-V4-Flash / DeepSeek-V4-Pro / GLM-5.2 | 5 | $0 | ★★★★ |
 | Meituan CatPaw | — | 1 | 免费 | ★★★★ |
@@ -90,8 +90,9 @@ https://ai.hsnb.fun/aiplanhub
 | 腾讯·Coding | Lite | ¥40 | ¥7.9 | 1,200 | [开通](https://console.cloud.tencent.cn/tokenhub/codingplan?regionId=1) |
 | 移动云 | Lite | ¥40 | ¥7.9 | 1,200 | [开通](https://ecloud.10086.cn/portal/act/codingplan) |
 | 字节·方舟 | Lite | ¥40 | ¥9.9 | 1,200 | [开通](https://volcengine.com/L/jmiEa1dptck/) |
-| OpenStarry | 星序版(周) | ¥9.9 | 赠200次 | 无限 | [开通](https://api.openstarry.com/auth?mode=register&aff=X31B) |
-| OpenStarry | 星衍版 | ¥49.9 | — | 1,200 | [开通](https://api.openstarry.com/auth?mode=register&aff=X31B) |
+| OpenStarry | 星痕版(免费) | 免费 | 赠200次 | 不限 | [开通](https://api.openstarry.com/auth?mode=register&aff=X31B) |
+| OpenStarry | 星序版(周) | ¥9.9 | 赠200次 | 不限 | [开通](https://api.openstarry.com/auth?mode=register&aff=X31B) |
+| OpenStarry | 星创版 | ¥49.9 | — | 1,000 | [开通](https://api.openstarry.com/auth?mode=register&aff=X31B) |
 | 蓝耘元生代云 | 入门版 | ¥49 | — | 1,200 | [开通](https://console.lanyun.net/#/register?promoterCode=3ef0f72996) |
 | 智谱AI | Lite | ¥49 | — | 1,200 | [开通](https://www.bigmodel.cn/glm-coding?ic=DGRQECTZFB) |
 | 优云智算 | Mini | ¥49 | — | 200 | [开通](https://passport.compshare.cn/register?referral_code=Kkl0Vgy0pCsFOzeMtfGBdI) |
@@ -118,7 +119,7 @@ https://ai.hsnb.fun/aiplanhub
 | Charm Hyper | Bundle $5 | $5(一次) | — | — | [开通](https://hyper.charm.land/) |
 | Charm Hyper | Bundle $10 | $10(一次) | — | — | [开通](https://hyper.charm.land/) |
 | Charm Hyper | Bundle $20 | $20(一次) | — | — | [开通](https://hyper.charm.land/) |
-| OpenStarry | 星途版 | ¥119 | — | 3,000 | [开通](https://api.openstarry.com/auth?mode=register&aff=X31B) |
+| OpenStarry | 星途版 | ¥119 | — | 2,500 | [开通](https://api.openstarry.com/auth?mode=register&aff=X31B) |
 | 蓝耘元生代云 | 专业版 | ¥149 | — | 6,000 | [开通](https://console.lanyun.net/#/register?promoterCode=3ef0f72996) |
 | 智谱AI | Pro | ¥149 | — | 6,000 | [开通](https://www.bigmodel.cn/glm-coding?ic=DGRQECTZFB) |
 | 讯飞星辰 | 高效版 | ¥199 | — | 6,000 | [开通](https://maas.xfyun.cn/packageSubscription?inviteCode=MAAS-7573AB85) |
