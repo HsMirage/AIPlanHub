@@ -14,7 +14,7 @@
 
 ---
 
-| Coding 数据更新于 2026.07.09（OpenStarry套餐重构·新增星痕版·星衍版→星创版） · Token 数据更新于 2026.07.09（经核对无变化） · Video 数据更新于 2026.07.09（经核对无变化·Vidu CDN拦截/pai.video登录墙获取失败） · Image 数据更新于 2026.07.09（经核对无变化） · Audio 数据更新于 2026.07.09（经核对无变化） · 中转站 数据更新于 2026.07.05（经核对无变化） · 价格对比 新增于 2026.07.06|
+| Coding 数据更新于 2026.07.11（字节·方舟5款模型正式移除→已下架） · Token 数据更新于 2026.07.09（经核对无变化） · Video 数据更新于 2026.07.09（经核对无变化·Vidu CDN拦截/pai.video登录墙获取失败） · Image 数据更新于 2026.07.09（经核对无变化） · Audio 数据更新于 2026.07.09（经核对无变化） · 中转站 数据更新于 2026.07.05（经核对无变化） · 价格对比 新增于 2026.07.06|
 
 ---
 
@@ -64,7 +64,7 @@ https://ai.hsnb.fun/aiplanhub
 | 讯飞星辰 | GLM-5.2 / Spark X2 | 3 | ¥19 | ★★★★ |
 | 阶跃星辰 | Step-3.5-Flash-2603 | 4 | ¥49 | ★★★ |
 | 快手 StreamLake | KAT-Coder-Pro V2 | 4 | ¥29 | ★★★ |
-| 字节·方舟 | Doubao-Seed-2.0-pro/DeepSeek-V4-Pro | 2 | ¥40 | ★★★★ |
+| 字节·方舟 | GLM-5.2/Doubao-Seed-2.0-pro | 2 | ¥40 | ★★★★ |
 | Ollama | GLM-5.1 / DeepSeek-V4-Flash / MiniMax-M2.7 | 3 | $0 | ★★★ |
 | 优云智算 | GLM-5.2 / DeepSeek-V4-Pro / DeepSeek-V4-Flash / Qwen3.6-Plus / MiniMax-M2.7 / Kimi-K2.6 | 6 | ¥49 | ★★ |
 || OpenStarry | GLM-5.2 / DeepSeek-V4-Pro / MiniMax-M3 / Kimi-K2.7-Code / Qwen3.7-Max | 4(含免费) | ¥0(免费) | ★⚠️ |
