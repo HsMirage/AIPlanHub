@@ -14,7 +14,7 @@
 
 ---
 
-||||| Coding 数据更新于 2026.07.15(字节·方舟非GLM-5.2促销已于7.15结束·其余无变化) · Token 数据更新于 2026.07.15(经核对无变化·TaoToken服务升级中暂不可购买) · Video 数据更新于 2026.07.15(经核对无变化·快手可灵/通义万相/腾讯混元/RunningHub/即梦数据一致·Vidu CDN拦截持续·海螺AI/pai.video登录墙) · Image 数据更新于 2026.07.15(经核对无变化·Midjourney/Liblib AI/通义万相/RunningHub/堆友均无变化·堆友需登录) · Audio 数据更新于 2026.07.15(经核对无变化·海螺AI登录墙获取失败) · 中转站 数据更新于 2026.07.05(经核对无变化) · 价格对比 新增于 2026.07.06|
+|||||| Coding 数据更新于 2026.07.16(MiniMax 积分购买调整·百度·千帆 MiniMax-M2.5即将下线·经核对其他平台无变化) · Token 数据更新于 2026.07.15(经核对无变化·TaoToken服务升级中暂不可购买) · Video 数据更新于 2026.07.15(经核对无变化·快手可灵/通义万相/腾讯混元/RunningHub/即梦数据一致·Vidu CDN拦截持续·海螺AI/pai.video登录墙) · Image 数据更新于 2026.07.15(经核对无变化·Midjourney/Liblib AI/通义万相/RunningHub/堆友均无变化·堆友需登录) · Audio 数据更新于 2026.07.15(经核对无变化·海螺AI登录墙获取失败) · 中转站 数据更新于 2026.07.05(经核对无变化) · 价格对比 新增于 2026.07.06|
 
 ---
 
@@ -96,7 +96,7 @@ https://ai.hsnb.fun/aiplanhub
 | 蓝耘元生代云 | 入门版 | ¥49 | — | 1,200 | [开通](https://console.lanyun.net/#/register?promoterCode=3ef0f72996) |
 | 智谱AI | Lite | ¥49 | — | 1,200 | [开通](https://www.bigmodel.cn/glm-coding?ic=DGRQECTZFB) |
 | 优云智算 | Mini | ¥49 | — | 200 | [开通](https://passport.compshare.cn/register?referral_code=Kkl0Vgy0pCsFOzeMtfGBdI) |
-| Kimi | Andante | ¥49 | ¥39 | — | [开通](https://www.kimi.com/code/zh) |
+| Kimi | Andante | ¥49 | ¥39 | — | [开通](https://kimi-bot.com/activities/zh-cn/viral-referral/share?scenario=invite&from=share_poster&invitation_code=ANRBYG) |
 | 阶跃星辰 | Flash Mini | ¥49 | — | 1,500 | [开通](https://platform.stepfun.com?invite_code=KHVQVECJ) |
 | Meituan CatPaw | 免费版 | 免费 | — | — | [下载](https://catpaw.meituan.com/) |
 | Charm Hyper | Free | $0 | — | — | [开通](https://hyper.charm.land/) |
@@ -111,7 +111,7 @@ https://ai.hsnb.fun/aiplanhub
 |------|------|------|--------|----------|------|
 | 快手 StreamLake | Starter | ¥70 | — | 100 Prompts | [开通](https://www.streamlake.com/marketing/coding-plan) |
 | TaoToken | Pro | ¥199 | — | — | [开通](https://taotoken.net/?u=inv_iyn75yglujwdy9ij&utm_source=tt_invite) |
-| Kimi | Moderato | ¥99 | ¥79 | — | [开通](https://www.kimi.com/code/zh) |
+| Kimi | Moderato | ¥99 | ¥79 | — | [开通](https://kimi-bot.com/activities/zh-cn/viral-referral/share?scenario=invite&from=share_poster&invitation_code=ANRBYG) |
 | 国家超算互联网 | Pro | ¥100 | — | 6,000 | [开通](https://www.scnet.cn/ac/openapi/doc/2.0/moduleapi/codingplan/subscriptionnotice.html) |
 | 阶跃星辰 | Flash Plus | ¥99 | — | 6,000 | [开通](https://platform.stepfun.com?invite_code=KHVQVECJ) |
 | 快手 StreamLake | Pro | ¥140 | — | 300 Prompts | [开通](https://www.streamlake.com/marketing/coding-plan) |
@@ -126,7 +126,7 @@ https://ai.hsnb.fun/aiplanhub
 | 优云智算 | Basic | ¥199 | — | 800 | [开通](https://passport.compshare.cn/register?referral_code=Kkl0Vgy0pCsFOzeMtfGBdI) |
 | 阶跃星辰 | Flash Pro | ¥199 | — | 22,500 | [开通](https://platform.stepfun.com?invite_code=KHVQVECJ) |
 | MiniMax | Max | ¥119 | — | 4,500 | [开通](https://platform.minimaxi.com/subscribe/token-plan) |
-| Kimi | Allegretto | ¥199 | ¥159 | — | [开通](https://www.kimi.com/code/zh) |
+| Kimi | Allegretto | ¥199 | ¥159 | — | [开通](https://kimi-bot.com/activities/zh-cn/viral-referral/share?scenario=invite&from=share_poster&invitation_code=ANRBYG) |
 
 ### 高阶级（人民币月付 ≥ ¥200）
 
@@ -145,7 +145,7 @@ https://ai.hsnb.fun/aiplanhub
 | 蓝耘元生代云 | 高级版 | ¥469 | — | 24,000 | [开通](https://console.lanyun.net/#/register?promoterCode=3ef0f72996) |
 | 智谱AI | Max | ¥469 | — | 24,000 | [开通](https://www.bigmodel.cn/glm-coding?ic=DGRQECTZFB) |
 | 阶跃星辰 | Flash Max | ¥699 | — | 75,000 | [开通](https://platform.stepfun.com?invite_code=KHVQVECJ) |
-| Kimi | Allegro | ¥699 | ¥559 | — | [开通](https://www.kimi.com/code/zh) |
+| Kimi | Allegro | ¥699 | ¥559 | — | [开通](https://kimi-bot.com/activities/zh-cn/viral-referral/share?scenario=invite&from=share_poster&invitation_code=ANRBYG) |
 
 ### 海外 / 美元计费
 
