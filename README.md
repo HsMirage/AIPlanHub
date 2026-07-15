@@ -14,7 +14,7 @@
 
 ---
 
-|||||| Coding 数据更新于 2026.07.16(MiniMax 积分购买调整·百度·千帆 MiniMax-M2.5即将下线·经核对其他平台无变化) · Token 数据更新于 2026.07.15(经核对无变化·TaoToken服务升级中暂不可购买) · Video 数据更新于 2026.07.16(经核对无变化·快手可灵/通义万相/腾讯混元/RunningHub/即梦数据一致·Vidu CDN拦截持续第48天·海螺AI/pai.video登录墙) · Image 数据更新于 2026.07.16(经核对无变化·Midjourney/Liblib AI/通义万相/RunningHub/堆友均无变化·堆友需登录) · Audio 数据更新于 2026.07.16(经核对无变化·海螺AI登录墙获取失败) · 中转站 数据更新于 2026.07.05(经核对无变化) · 价格对比 新增于 2026.07.06|
+||||||| Coding 数据更新于 2026.07.16(MiniMax 积分购买调整·百度·千帆 MiniMax-M2.5即将下线·经核对其他平台无变化) · Token 数据更新于 2026.07.16(Alaya Code 套餐更名·经核对其他平台无变化·TaoToken服务升级中暂不可购买) · Video 数据更新于 2026.07.16(经核对无变化·快手可灵/通义万相/腾讯混元/RunningHub/即梦数据一致·Vidu CDN拦截持续第48天·海螺AI/pai.video登录墙) · Image 数据更新于 2026.07.16(经核对无变化·Midjourney/Liblib AI/通义万相/RunningHub/堆友均无变化·堆友需登录) · Audio 数据更新于 2026.07.16(经核对无变化·海螺AI登录墙获取失败) · 中转站 数据更新于 2026.07.05(经核对无变化) · 价格对比 新增于 2026.07.06|
 
 ---
 
@@ -180,7 +180,7 @@ https://ai.hsnb.fun/aiplanhub
 |------|------|------|--------|---------------------|------|
 | 腾讯·Token | Lite | ¥39 | — | 3,500万 Tokens/月 | [开通](https://curl.qcloud.com/1Uogyigq) |
 | 天翼云·Token | 2500万 | ¥29 | — | 2,500万 Tokens/月 | [开通](https://www.ctyun.cn/act/AI/zhuanxiang) |
-| Alaya Code | TokenPlan-Lite | ¥199 | — | 3,270万 Tokens/月 | [开通](https://codingplan.alayanew.com/docs/billing) |
+| Alaya Code | 入门版 | ¥199 | — | 3,270万 Tokens/月 | [开通](https://codingplan.alayanew.com/docs/billing) |
 | 小米·MiMo | Lite | ¥39 | ¥34.32 | 4.1B Credits/月 | [开通](https://platform.xiaomimimo.com/#/token-plan) |
 | 方舟 Agent Plan | Small | ¥40 | — | 20,000 AFP/月 | [开通](https://www.volcengine.com/docs/82379/2366394?lang=zh) |
 | OpenCode Go | Go | $10 | $5 | $12/5h $30/周 $60/月 | [开通](https://opencode.ai/go?ref=P8NRDS9W2V) |
