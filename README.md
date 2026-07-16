@@ -61,7 +61,7 @@ https://ai.hsnb.fun/aiplanhub
 | 移动云 | GLM-5.1 / MiniMax-M2.5 | 2 | ¥40 | ★★ |
 | 国家超算互联网 | MiniMax-M2.5 / Qwen3-235B-A22B | 2 | ¥20 | ★★ |
 | 百度·千帆 | GLM-5 / GLM-5.1 / DeepSeek-V4-Flash | 2 | ¥40 | ★★★ |
-| 讯飞星辰 | GLM-5.2 / Spark X2 | 3 | ¥19 | ★★★★ |
+|| 讯飞星辰 | GLM-5.2 / Spark X2 | 3 | ¥19 | ★★★½☆ |
 | 阶跃星辰 | Step-3.5-Flash-2603 | 4 | ¥49 | ★★★ |
 | 快手 StreamLake | KAT-Coder-Pro V2 | 4 | ¥29 | ★★★ |
 | 字节·方舟 | GLM-5.2/Doubao-Seed-2.0-pro | 2 | ¥40 | ★★★★ |
