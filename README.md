@@ -14,7 +14,7 @@
 
 ---
 
-|||||||||| Coding 数据更新于 2026.07.17(Kimi K3已上线·Moderato及以上可用·K2.5将于8.31下线·经核对其他平台无变化) · Token 数据更新于 2026.07.17(TaoToken 服务升级完成已恢复购买·经核对其他平台无变化) · Video 数据更新于 2026.07.17(经核对无变化·快手可灵/通义万相/腾讯混元/RunningHub/即梦数据一致·Vidu CDN拦截持续第49天·海螺AI/pai.video登录墙) · Image 数据更新于 2026.07.17(Liblib 至尊版¥2499→¥2599·RunningHub团队四档降¥100·其余平台无变化) · Audio 数据更新于 2026.07.17(Ace Studio订阅权益更新·Suno/Udio无变化·海螺AI登录墙获取失败) · 中转站 数据更新于 2026.07.05(经核对无变化) · 价格对比 新增于 2026.07.06|
+> Coding 数据更新于 2026.07.18（Kimi K3已上线·Moderato及以上可用·K2.5将于8.31下线·AtomCode模型列表已核对·经核对其他平台无变化） · Token 数据更新于 2026.07.17（TaoToken 服务升级完成已恢复购买·经核对其他平台无变化） · Video 数据更新于 2026.07.17（经核对无变化·快手可灵/通义万相/腾讯混元/RunningHub/即梦数据一致·Vidu CDN拦截持续第49天·海螺AI/pai.video登录墙） · Image 数据更新于 2026.07.17（Liblib 至尊版¥2499→¥2599·RunningHub团队四档降¥100·其余平台无变化） · Audio 数据更新于 2026.07.17（Ace Studio订阅权益更新·Suno/Udio无变化·海螺AI登录墙获取失败） · 中转站 数据更新于 2026.07.05（经核对无变化） · 价格对比 新增于 2026.07.06
 
 ---
 
@@ -50,7 +50,7 @@ https://ai.hsnb.fun/aiplanhub
 |------|----------|--------|--------|------|
 | 智谱AI | GLM-5.2 / GLM-5-Turbo / GLM-4.7 | 3 | ¥49 | ★★★★ |
 | z.ai | GLM-5.1（国际版） | 3 | $18 | ★★ |
-| Kimi | Kimi-K2.6 | 4 | ¥49 | ★★★ |
+| Kimi | Kimi-K3 / Kimi-K2.7-Code | 4 | ¥39 | ★★★ |
 | MiniMax | MiniMax-M3 / M2.7 | 3 | ¥49 | ★★ |
 | 阿里·百炼 | Qwen3.6-Plus | 1 | ¥200 | ★★★ |
 | 蓝耘元生代云 | GLM-5.1 | 3 | ¥49 | ★★★ |
@@ -61,13 +61,13 @@ https://ai.hsnb.fun/aiplanhub
 | 移动云 | GLM-5.1 / MiniMax-M2.5 | 2 | ¥40 | ★★ |
 | 国家超算互联网 | MiniMax-M2.5 / Qwen3-235B-A22B | 2 | ¥20 | ★★ |
 | 百度·千帆 | GLM-5 / GLM-5.1 / DeepSeek-V4-Flash | 2 | ¥40 | ★★★ |
-|| 讯飞星辰 | GLM-5.2 / Spark X2 | 3 | ¥19 | ★★★½☆ |
+| 讯飞星辰 | GLM-5.2 / Spark X2 | 2 | ¥39 | ★★★½☆ |
 | 阶跃星辰 | Step-3.5-Flash-2603 | 4 | ¥49 | ★★★ |
 | 快手 StreamLake | KAT-Coder-Pro V2 | 4 | ¥29 | ★★★ |
 | 字节·方舟 | GLM-5.2/Doubao-Seed-2.0-pro | 2 | ¥40 | ★★★★ |
 | Ollama | GLM-5.1 / DeepSeek-V4-Flash / MiniMax-M2.7 | 3 | $0 | ★★★ |
 | 优云智算 | GLM-5.2 / DeepSeek-V4-Pro / DeepSeek-V4-Flash / Qwen3.6-Plus / MiniMax-M2.7 / Kimi-K2.6 | 6 | ¥49 | ★★ |
-|| OpenStarry | GLM-5.2 / DeepSeek-V4-Pro / MiniMax-M3 / Kimi-K2.7-Code / Qwen3.7-Max | 4(含免费) | ¥0(免费) | ★⚠️ |
+| OpenStarry | GLM-5.2 / DeepSeek-V4-Pro / MiniMax-M3 / Kimi-K2.7-Code / Qwen3.7-Max | 4(含免费) | ¥0(免费) | ★ |
 | ChatGPT | GPT-5.4 / GPT-Image-2 / GPT-5.3-Codex | 2 | ¥26.6 | ★★★★★ |
 | Charm Hyper | DeepSeek-V4-Flash / DeepSeek-V4-Pro / GLM-5.2 | 5 | $0 | ★★★★ |
 | Meituan CatPaw | — | 1 | 免费 | ★★★★ |
