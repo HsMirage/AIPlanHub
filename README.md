@@ -14,7 +14,7 @@
 
 ---
 
-> Coding 数据更新于 2026.07.18（Kimi K3已上线·Moderato及以上可用·K2.5将于8.31下线·AtomCode模型列表已核对·经核对其他平台无变化） · Token 数据更新于 2026.07.17（TaoToken 服务升级完成已恢复购买·经核对其他平台无变化） · Video 数据更新于 2026.07.18（快手可灵会员页权益更新·腾讯混元迁移TokenHub·RunningHub部分API将于7.30迁移·Vidu CDN拦截持续第50天·海螺AI/pai.video登录墙） · Image 数据更新于 2026.07.17（Liblib 至尊版¥2499→¥2599·RunningHub团队四档降¥100·其余平台无变化） · Audio 数据更新于 2026.07.17（Ace Studio订阅权益更新·Suno/Udio无变化·海螺AI登录墙获取失败） · 中转站 数据更新于 2026.07.05（经核对无变化） · 价格对比 新增于 2026.07.06
+> Coding 数据更新于 2026.07.19（OpenCode Go新增Grok 4.5/Kimi K3·经核对其他平台无变化） · Token 数据更新于 2026.07.18（OpenCode Go新增Grok 4.5/Kimi K3·MiMo V2系列下线公告复核·经核对其他平台无变化） · Video 数据更新于 2026.07.18（快手可灵会员页权益更新·腾讯混元迁移TokenHub·RunningHub部分API将于7.30迁移·Vidu CDN拦截持续第50天·海螺AI/pai.video登录墙） · Image 数据更新于 2026.07.17（Liblib 至尊版¥2499→¥2599·RunningHub团队四档降¥100·其余平台无变化） · Audio 数据更新于 2026.07.17（Ace Studio订阅权益更新·Suno/Udio无变化·海螺AI登录墙获取失败） · 中转站 数据更新于 2026.07.05（经核对无变化） · 价格对比 新增于 2026.07.06
 
 ---
 
@@ -151,7 +151,7 @@ https://ai.hsnb.fun/aiplanhub
 
 | 平台 | 方案 | 月付 | 首月价 | 5h请求数 | 开通 |
 |------|------|------|--------|----------|------|
-| OpenCode Go | Go | $10 | $5 | — | [幻境MirageAI的小店 - 云猫寄售](https://catfk.com/shop/mirage) |
+| OpenCode Go | Go（Grok-4.5 / Kimi-K3 / GLM-5.2 等15款） | $10 | $5 | $12/5h $30/周 $60/月 | [幻境MirageAI的小店 - 云猫寄售](https://catfk.com/shop/mirage) |
 | z.ai | Lite | $18 | — | 1,200 | [开通](https://z.ai/subscribe?ic=V6PINPKB9I) |
 | z.ai | Pro | $72 | — | 6,000 | [开通](https://z.ai/subscribe?ic=V6PINPKB9I) |
 | z.ai | Max | $160 | — | 24,000 | [开通](https://z.ai/subscribe?ic=V6PINPKB9I) |
