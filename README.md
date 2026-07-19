@@ -165,7 +165,7 @@ https://ai.hsnb.fun/aiplanhub
 | 平台 | 代表模型 | 方案数 | 月付起 | 评分 |
 |------|----------|--------|--------|------|
 | 腾讯·Token | Auto / DeepSeek-V4-Flash/Pro / GLM-5.1 / Kimi-K2.5 / Hy3 preview | 8 | ¥28 | ★ |
-| 阿里·Token Plan | Qwen3.7-Max / DeepSeek-V4-Pro / GLM-5.1 / Kimi-K2.6 / Kimi-K2.7-Code | 4 | ¥198 | ★★ |
+| 阿里·Token Plan | qwen3.8-max-preview / Qwen3.7-Max / DeepSeek-V4-Pro / GLM-5.2 / Kimi-K2.6 | 7 | ¥39 | ★★ |
 | 天翼云·Token | GLM-5 / DeepSeek-V3.2 | 5 | ¥29 | ★ |
 | Alaya Code | GLM-5.2 / GLM-5.1 / DeepSeek-V4-Flash | 3 | ¥199 | ★ |
 | TaoToken | DeepSeek-V4-Pro / GLM-5.2 / Claude-Sonnet-4-6 / GPT-5.4 | 3 | ¥59 | ★★ |
@@ -205,13 +205,13 @@ https://ai.hsnb.fun/aiplanhub
 
 | 平台 | 方案 | 月付 | 首月价 | Credits/Token 额度 | 开通 |
 |------|------|------|--------|---------------------|------|
-| 阿里·Token Plan | 标准坐席 | ¥198 | — | 25,000 Credits/月 | [开通](https://common-buy.aliyun.com/token-plan) |
+| 阿里·Token Plan | 标准坐席 | ¥150 | — | 25,000 Credits/月·原价¥198·限时10倍加量 | [开通](https://common-buy.aliyun.com/token-plan) |
 | 腾讯·Token | Pro | ¥299 | — | 3.2亿 Tokens/月 | [开通](https://curl.qcloud.com/1Uogyigq) |
 | 方舟 Agent Plan | Large | ¥500 | — | 250,000 AFP/月 | [开通](https://www.volcengine.com/docs/82379/2366394?lang=zh) |
 | 小米·MiMo | Max | ¥659 | ¥579.92 | 82B Credits/月 | [开通](https://platform.xiaomimimo.com/#/token-plan) |
 | 天翼云·Token | 6.8亿 | ¥699 | — | 6.8亿 Tokens/月 | [开通](https://www.ctyun.cn/act/AI/zhuanxiang) |
 | 腾讯·Token | Max | ¥599 | — | 6.5亿 Tokens/月 | [开通](https://curl.qcloud.com/1Uogyigq) |
-| 阿里·Token Plan | 高级坐席 | ¥698 | — | 100,000 Credits/月 | [开通](https://common-buy.aliyun.com/token-plan) |
+| 阿里·Token Plan | 高级坐席 | ¥550 | — | 100,000 Credits/月·原价¥698·限时10倍加量 | [开通](https://common-buy.aliyun.com/token-plan) |
 | 阿里·Token Plan | 尊享坐席 | ¥1,398 | — | 250,000 Credits/月 | [开通](https://common-buy.aliyun.com/token-plan) |
 | 方舟 Agent Plan | Max | ¥1,000 | — | 500,000 AFP/月 | [开通](https://www.volcengine.com/docs/82379/2366394?lang=zh) |
 
