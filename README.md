@@ -14,7 +14,7 @@
 
 ---
 
-> Coding 数据更新于 2026.07.20（经核对无变化） · Token 数据更新于 2026.07.20（经核对无变化） · Video 数据更新于 2026.07.20（经核对：快手可灵、RunningHub、腾讯混元、通义万相无变化·Vidu仍为SPA/CDN空壳·海螺AI重定向登录墙·pai.video登录墙·即梦本轮未获取成功） · Image 数据更新于 2026.07.20（Liblib/RunningHub价格与额度无变化·Liblib新增Seedream 5.0 Pro限时8折·RunningHub部分模型API将于7月30日迁移至AI站·堆友官方会员弹窗仍需登录） · Audio 数据更新于 2026.07.20（经核对无变化·海螺AI登录墙获取失败） · 中转站 数据更新于 2026.07.05（经核对无变化） · 价格对比 新增于 2026.07.06
+> Coding 数据更新于 2026.07.22（OpenStarry星途版新增Kimi-K3·TaoToken 7.22 11:00重新限时抢购） · Token 数据更新于 2026.07.20（经核对无变化） · Video 数据更新于 2026.07.20（经核对：快手可灵、RunningHub、腾讯混元、通义万相无变化·Vidu仍为SPA/CDN空壳·海螺AI重定向登录墙·pai.video登录墙·即梦本轮未获取成功） · Image 数据更新于 2026.07.20（Liblib/RunningHub价格与额度无变化·Liblib新增Seedream 5.0 Pro限时8折·RunningHub部分模型API将于7月30日迁移至AI站·堆友官方会员弹窗仍需登录） · Audio 数据更新于 2026.07.20（经核对无变化·海螺AI登录墙获取失败） · 中转站 数据更新于 2026.07.05（经核对无变化） · 价格对比 新增于 2026.07.06
 
 ---
 
@@ -67,7 +67,7 @@ https://ai.hsnb.fun/aiplanhub
 | 字节·方舟 | GLM-5.2/Doubao-Seed-2.0-pro | 2 | ¥40 | ★★★★ |
 | Ollama | GLM-5.1 / DeepSeek-V4-Flash / MiniMax-M2.7 | 3 | $0 | ★★★ |
 | 优云智算 | GLM-5.2 / DeepSeek-V4-Pro / DeepSeek-V4-Flash / Qwen3.6-Plus / MiniMax-M2.7 / Kimi-K2.6 | 6 | ¥49 | ★★ |
-| OpenStarry | GLM-5.2 / DeepSeek-V4-Pro / MiniMax-M3 / Kimi-K2.7-Code / Qwen3.7-Max | 4(含免费) | ¥0(免费) | ★ |
+| OpenStarry | GLM-5.2 / Kimi-K3 / DeepSeek-V4-Pro / MiniMax-M3 / Kimi-K2.7-Code / Qwen3.7-Max | 4(含免费) | ¥0(免费) | ★ |
 | ChatGPT | GPT-5.4 / GPT-Image-2 / GPT-5.3-Codex | 2 | ¥26.6 | ★★★★★ |
 | Charm Hyper | DeepSeek-V4-Flash / DeepSeek-V4-Pro / GLM-5.2 | 5 | $0 | ★★★★ |
 | Meituan CatPaw | — | 1 | 免费 | ★★★★ |
