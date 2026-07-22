@@ -61,7 +61,7 @@ https://ai.hsnb.fun/aiplanhub
 | 移动云 | GLM-5.1 / MiniMax-M2.5 | 2 | ¥40 | ★★ |
 | 国家超算互联网 | MiniMax-M2.5 / Qwen3-235B-A22B | 2 | ¥20 | ★★ |
 | 百度·千帆 | GLM-5 / GLM-5.1 / DeepSeek-V4-Flash | 2 | ¥40 | ★★★ |
-| 讯飞星辰 | GLM-5.2 / Spark X2 | 2 | ¥39 | ★★★½☆ |
+| 讯飞星辰 | GLM-5.2 / Spark X2 Agent / Kimi-K2.7-Code | 2 | ¥199 | ★★★½☆ |
 | 阶跃星辰 | Step-3.5-Flash-2603 | 4 | ¥49 | ★★★ |
 | 快手 StreamLake | KAT-Coder-Pro V2 | 4 | ¥29 | ★★★ |
 | 字节·方舟 | GLM-5.2/Doubao-Seed-2.0-pro | 2 | ¥40 | ★★★★ |
@@ -78,12 +78,12 @@ https://ai.hsnb.fun/aiplanhub
 
 | 平台 | 方案 | 月付 | 首月价 | 5h请求数 | 开通 |
 |------|------|------|--------|----------|------|
-| 讯飞星辰 | 无忧版 | ¥19 | ¥3.9 | — | [开通](https://maas.xfyun.cn/packageSubscription?inviteCode=MAAS-7573AB85) |
 | TaoToken | Lite | ¥39 | — | — | [开通](https://taotoken.net/?u=inv_iyn75yglujwdy9ij&utm_source=tt_invite) |
 | 国家超算互联网 | Lite | ¥20 | — | 1,200 | [开通](https://www.scnet.cn/ac/openapi/doc/2.0/moduleapi/codingplan/subscriptionnotice.html) |
 | Ollama | Free | $0 | — | — | [开通](https://ollama.com/pricing) |
 | 快手 StreamLake | Mini | ¥29 | — | 40 Prompts | [开通](https://www.streamlake.com/marketing/coding-plan) |
-| 讯飞星辰 | 专业版 | ¥39 | — | 1,200 | [开通](https://maas.xfyun.cn/packageSubscription?inviteCode=MAAS-7573AB85) |
+| 讯飞星辰 | 高效版 | ¥199 | — | 6,000 | [开通](https://maas.xfyun.cn/packageSubscription?inviteCode=MAAS-7573AB85) |
+| 讯飞星辰 | 速通版 | ¥999（首购¥699） | — | 30,000速通次数/月 | [开通](https://maas.xfyun.cn/packageSubscription?inviteCode=MAAS-7573AB85) |
 | 百度·千帆 | Lite | ¥40 | — | 1,200 | [开通](https://cloud.baidu.com/campaign/ambassador-product/index.html?ambassadorId=b00e3bb5d042440fbfaccf545e8e52f0#knowledge-model) |
 | 京东云 | Lite | ¥40 | ¥19.9 | 1,200 | [开通](https://3.cn/2-L8H4QY) |
 | 联通云 | Lite | ¥40 | — | 1,200 | [开通](https://support.cucloud.cn/document/127/591/2357.html?id=2357&arcid=7015) |
