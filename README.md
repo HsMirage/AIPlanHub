@@ -165,7 +165,7 @@ https://ai.hsnb.fun/aiplanhub
 | 平台 | 代表模型 | 方案数 | 月付起 | 评分 |
 |------|----------|--------|--------|------|
 | 腾讯·Token | Auto / DeepSeek-V4-Flash/Pro / GLM-5.1 / Kimi-K2.5 / Hy3 preview | 8 | ¥28 | ★ |
-| 阿里·Token Plan | qwen3.8-max-preview / Qwen3.7-Max / DeepSeek-V4-Pro / GLM-5.2 / Kimi-K2.6 | 7 | ¥39 | ★★ |
+| 阿里·Token Plan | qwen3.8-max-preview / Qwen3.7-Max / DeepSeek-V4-Pro / GLM-5.2 / Kimi-K2.6 | 7 | ¥39 | ★★★ |
 | 天翼云·Token | GLM-5 / DeepSeek-V3.2 | 5 | ¥29 | ★ |
 | Alaya Code | GLM-5.2 / GLM-5.1 / DeepSeek-V4-Flash | 3 | ¥199 | ★ |
 | TaoToken | DeepSeek-V4-Pro / GLM-5.2 / Claude-Sonnet-4-6 / GPT-5.4 | 3 | ¥59 | ★★ |
