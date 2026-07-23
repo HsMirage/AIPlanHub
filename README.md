@@ -14,7 +14,7 @@
 
 ---
 
-> Coding 数据更新于 2026.07.23（经核对无确认变更；讯飞星辰订阅页需登录·天翼云/Infini旧文档返回404） · Token 数据更新于 2026.07.22（经核对无变化·腾讯下线提示/MiMo V2下线/TaoToken可订阅状态已复核） · Video 数据更新于 2026.07.23（经核对：腾讯混元、通义万相无变化·Vidu仍为SPA/CDN错误壳·RunningHub创作会员权益无变化·其余登录态平台未获取完整） · Image 数据更新于 2026.07.22（Midjourney/Liblib/通义万相无变化·RunningHub团队会员名称与价格更新·堆友官方会员弹窗仍需登录） · Audio 数据更新于 2026.07.22（经核对无变化·Suno/Udio/Ace Studio无变化·海螺AI登录墙获取失败） · 中转站 数据更新于 2026.07.05（经核对无变化） · 价格对比 新增于 2026.07.06
+> Coding 数据更新于 2026.07.23（经核对无确认变更；讯飞星辰订阅页需登录·天翼云/Infini旧文档返回404） · Token 数据更新于 2026.07.23（腾讯 Hy3 模型列表、MiMo V2 下线状态经核对更新·其余价格/额度/套餐无变化） · Video 数据更新于 2026.07.23（经核对：腾讯混元、通义万相无变化·Vidu仍为SPA/CDN错误壳·RunningHub创作会员权益无变化·其余登录态平台未获取完整） · Image 数据更新于 2026.07.22（Midjourney/Liblib/通义万相无变化·RunningHub团队会员名称与价格更新·堆友官方会员弹窗仍需登录） · Audio 数据更新于 2026.07.22（经核对无变化·Suno/Udio/Ace Studio无变化·海螺AI登录墙获取失败） · 中转站 数据更新于 2026.07.05（经核对无变化） · 价格对比 新增于 2026.07.06
 
 ---
 
@@ -164,7 +164,7 @@ https://ai.hsnb.fun/aiplanhub
 
 | 平台 | 代表模型 | 方案数 | 月付起 | 评分 |
 |------|----------|--------|--------|------|
-| 腾讯·Token | Auto / DeepSeek-V4-Flash/Pro / GLM-5.1 / Kimi-K2.5 / Hy3 preview | 8 | ¥28 | ★ |
+| 腾讯·Token | Auto / DeepSeek-V4-Flash/Pro / GLM-5.1 / Kimi-K2.5 / Hy3 / Hy3 preview | 8 | ¥28 | ★ |
 | 阿里·Token Plan | qwen3.8-max-preview / Qwen3.7-Max / DeepSeek-V4-Pro / GLM-5.2 / Kimi-K2.6 | 7 | ¥39 | ★★★ |
 | 天翼云·Token | GLM-5 / DeepSeek-V3.2 | 5 | ¥29 | ★ |
 | Alaya Code | GLM-5.2 / GLM-5.1 / DeepSeek-V4-Flash | 3 | ¥199 | ★ |
