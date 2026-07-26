@@ -14,7 +14,7 @@
 
 ---
 
-> Coding 数据更新于 2026.07.27（经核对无变化：25家入口逐一访问·OpenStarry限额/TaoToken购买状态/OpenCode Go模型保持·字节方舟/AtomCode经AnySearch辅助核对·讯飞星辰需登录·天翼云/Infini旧文档返回404） · Token 数据更新于 2026.07.26（腾讯/阿里/小米/OpenCode Go/Alaya价格额度经核对无变化；天翼云旧GLM Coding Plan已售罄后续不再售卖；TaoToken服务升级完成并恢复可购买） · Video 数据更新于 2026.07.26（经核对：快手可灵、RunningHub创作会员、腾讯混元、通义万相证据完整且无变化·Vidu仍为SPA定价壳并经AnySearch辅助·海螺AI重定向创作页且AnySearch无有效当前订阅证据·pai.video登录墙且AnySearch无有效当前订阅证据·即梦未登录创作壳且AnySearch无足够当前会员证据·RunningHub团队会员入口已确认但独立价格字段仍未加载） · Image 数据更新于 2026.07.26（经核对无变化：Midjourney官方页被Cloudflare拦截，AnySearch确认四档价格与权益无变化·Liblib/通义万相官方页面逐项核对无变化·RunningHub创作会员权益无变化且团队会员入口仍返回创作会员表，AnySearch未获得足够团队价格证据·堆友官方会员弹窗需登录，AnySearch确认标准/专业价格无变化） · Audio 数据更新于 2026.07.27（经核对无变化·Suno/Udio/Ace Studio官方定价页证据完整·海螺AI重定向首页且AnySearch无法确认） · 中转站 数据更新于 2026.07.05（经核对无变化） · 价格对比 新增于 2026.07.06
+> Coding 数据更新于 2026.07.27（经核对无变化：25家入口逐一访问·OpenStarry限额/TaoToken购买状态/OpenCode Go模型保持·字节方舟/AtomCode经AnySearch辅助核对·讯飞星辰需登录·天翼云/Infini旧文档返回404） · Token 数据更新于 2026.07.26（腾讯/阿里/小米/OpenCode Go/Alaya价格额度经核对无变化；天翼云旧GLM Coding Plan已售罄后续不再售卖；TaoToken服务升级完成并恢复可购买） · Video 数据更新于 2026.07.27（经核对无变化：快手可灵、RunningHub创作会员、腾讯混元、通义万相证据完整且无变化·Vidu仍为SPA定价壳并经AnySearch辅助·海螺AI重定向创作页且AnySearch无有效当前订阅证据·pai.video登录墙且AnySearch无有效当前订阅证据·即梦未登录创作壳且AnySearch无足够当前会员证据·RunningHub团队会员入口已确认但独立价格字段仍未加载） · Image 数据更新于 2026.07.26（经核对无变化：Midjourney官方页被Cloudflare拦截，AnySearch确认四档价格与权益无变化·Liblib/通义万相官方页面逐项核对无变化·RunningHub创作会员权益无变化且团队会员入口仍返回创作会员表，AnySearch未获得足够团队价格证据·堆友官方会员弹窗需登录，AnySearch确认标准/专业价格无变化） · Audio 数据更新于 2026.07.27（经核对无变化·Suno/Udio/Ace Studio官方定价页证据完整·海螺AI重定向首页且AnySearch无法确认） · 中转站 数据更新于 2026.07.05（经核对无变化） · 价格对比 新增于 2026.07.06
 
 ---
 
