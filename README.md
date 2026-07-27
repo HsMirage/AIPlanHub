@@ -48,32 +48,32 @@ https://ai.hsnb.fun/aiplanhub
 
 | 平台 | 代表模型 | 方案数 | 月付起 | 评分 |
 |------|----------|--------|--------|------|
+| ChatGPT | GPT-5.4 / GPT-Image-2 / GPT-5.3-Codex | 2 | ¥26.6 | ★★★★★ |
+| 商汤SenseNova | SenseNova 6.7 Flash-Lite / SenseNova U1 Fast | 1 | 免费 | ★★★★★ |
 | 智谱AI | GLM-5.2 / GLM-5-Turbo / GLM-4.7 | 3 | ¥49 | ★★★★ |
-| z.ai | GLM-5.1（国际版） | 3 | $18 | ★★ |
+| 京东云 | Qwen3-Coder | 2 | ¥40 | ★★★★ |
+| 稳明光语纪 | GLM-5.2 / DeepSeek-V4-Flash | 5 | ¥29.9 | ★★★★ |
+| 字节·方舟 | GLM-5.2 / Doubao-Seed-2.1-turbo / Kimi-K2.7 | 2 | ¥40 | ★★★★ |
+| Charm Hyper | DeepSeek-V4-Flash / DeepSeek-V4-Pro / GLM-5.2 | 5 | $0 | ★★★★ |
+| Meituan CatPaw | — | 1 | 免费 | ★★★★ |
 | Kimi | Kimi-K3 / Kimi-K2.7-Code | 4 | ¥39 | ★★★ |
-| MiniMax | MiniMax-M3 / M2.7 | 3 | ¥49 | ★★ |
 | 阿里·百炼 | Qwen3.6-Plus | 1 | ¥200 | ★★★ |
 | 蓝耘元生代云 | GLM-5.1 | 3 | ¥49 | ★★★ |
-| 京东云 | Qwen3-Coder | 2 | ¥40 | ★★★★ |
-| 联通云 | DeepSeek-V4-Pro / Kimi-K2.6 / Qwen3.6-27B | 2 | ¥40 | ★★ |
 | 腾讯·Coding | GLM-5 / Kimi-K2.5 / MiniMax-M2.5 | 2 | ¥40 | ★★★ |
-| TaoToken | GLM-5.2 | 3 | ¥39 | ★★ |
-| 稳明光语纪 | GLM-5.2 / DeepSeek-V4-Flash | 5 | ¥29.9 | ★★★★ |
-| 移动云 | MiniMax-M2.5 | 2 | ¥40 | ★★ |
-| 国家超算互联网 | MiniMax-M2.5 / Qwen3-235B-A22B | 2 | ¥20 | ★★ |
 | 百度·千帆 | GLM / DeepSeek / Kimi | 4 | ¥4.9 | ★★★ |
 | 讯飞星辰 | GLM-5.2 / Spark X2 Agent / Kimi-K2.7-Code | 2 | ¥199 | ★★★ |
 | 阶跃星辰 | Step-3.5-Flash-2603 | 4 | ¥49 | ★★★ |
 | 快手 StreamLake | KAT-Coder-Pro V2.5 | 4 | ¥29 | ★★★ |
-| 字节·方舟 | GLM-5.2 / Doubao-Seed-2.1-turbo / Kimi-K2.7 | 2 | ¥40 | ★★★★ |
 | Ollama | GLM-5.1 / DeepSeek-V4-Flash / MiniMax-M2.7 | 3 | $0 | ★★★ |
+| AtomCode | GLM-5.2 / DeepSeek-V4-Flash | 3 | 免费 | ★★★ |
+| z.ai | GLM-5.1（国际版） | 3 | $18 | ★★ |
+| MiniMax | MiniMax-M3 / M2.7 | 3 | ¥49 | ★★ |
+| 联通云 | DeepSeek-V4-Pro / Kimi-K2.6 / Qwen3.6-27B | 2 | ¥40 | ★★ |
+| TaoToken | GLM-5.2 | 3 | ¥39 | ★★ |
+| 移动云 | MiniMax-M2.5 | 2 | ¥40 | ★★ |
+| 国家超算互联网 | MiniMax-M2.5 / Qwen3-235B-A22B | 2 | ¥20 | ★★ |
 | 优云智算 | GLM-5.2 / DeepSeek-V4-Pro / DeepSeek-V4-Flash / Qwen3.6-Plus / MiniMax-M2.7 / Kimi-K2.6 | 6 | ¥49 | ★★ |
 | OpenStarry | GLM-5.2 / Kimi-K3 / DeepSeek-V4-Pro / MiniMax-M3 / Kimi-K2.7-Code / Qwen3.7-Max | 4(含免费) | ¥0(免费) | ★ |
-| ChatGPT | GPT-5.4 / GPT-Image-2 / GPT-5.3-Codex | 2 | ¥26.6 | ★★★★★ |
-| Charm Hyper | DeepSeek-V4-Flash / DeepSeek-V4-Pro / GLM-5.2 | 5 | $0 | ★★★★ |
-| Meituan CatPaw | — | 1 | 免费 | ★★★★ |
-| AtomCode | GLM-5.2 / DeepSeek-V4-Flash | 3 | 免费 | ★★★ |
-| 商汤SenseNova | SenseNova 6.7 Flash-Lite / SenseNova U1 Fast | 1 | 免费 | ★★★★★ |
 
 ### 入门级（人民币月付 ≤ ¥50）
 
@@ -172,15 +172,15 @@ https://ai.hsnb.fun/aiplanhub
 
 | 平台 | 代表模型 | 方案数 | 月付起 | 评分 |
 |------|----------|--------|--------|------|
-| 腾讯·Token | Auto / DeepSeek-V4-Flash/Pro / GLM-5.1 / Kimi-K2.5 / Hy3 / Hy3 preview | 8 | ¥28 | ★ |
+| ChatGPT | GPT-5.4 / GPT-Image-2 / GPT-5.3-Codex | 1 | ¥28.8 | ★★★★★ |
+| OpenCode Go | GLM-5.2 / DeepSeek-V4-Pro / Kimi-K2.6 / MiniMax-M3 | 1 | $10 | ★★★★ |
 | 阿里·Token Plan | qwen3.8-max-preview / Qwen3.7-Max / DeepSeek-V4-Pro / GLM-5.2 / Kimi-K2.6 | 7 | ¥39 | ★★★ |
-| 天翼云·Token | GLM-5 / DeepSeek-V3.2 | 5 | ¥29 | ★ |
-| Alaya Code | GLM-5.2 / GLM-5.1 / DeepSeek-V4-Flash | 3 | ¥199 | ★ |
 | TaoToken | DeepSeek-V4-Pro / Kimi-K3 / GLM-5.2 | 3 | ¥59 | ★★ |
 | 方舟 Agent Plan | DeepSeek-V4-Pro / GLM-5.1 / Kimi-K2.6 | 4 | ¥40 | ★★ |
+| 腾讯·Token | Auto / DeepSeek-V4-Flash/Pro / GLM-5.1 / Kimi-K2.5 / Hy3 / Hy3 preview | 8 | ¥28 | ★ |
+| 天翼云·Token | GLM-5 / DeepSeek-V3.2 | 5 | ¥29 | ★ |
+| Alaya Code | GLM-5.2 / GLM-5.1 / DeepSeek-V4-Flash | 3 | ¥199 | ★ |
 | 小米·MiMo | MiMo-V2.5-Pro / MiMo-V2.5 | 4 | ¥39 | ★ |
-| OpenCode Go | GLM-5.2 / DeepSeek-V4-Pro / Kimi-K2.6 / MiniMax-M3 | 1 | $10 | ★★★★ |
-| ChatGPT | GPT-5.4 / GPT-Image-2 / GPT-5.3-Codex | 1 | ¥28.8 | ★★★★★ |
 
 ### Token 入门（人民币月付 ≤ ¥100）
 
