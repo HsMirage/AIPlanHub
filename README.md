@@ -14,7 +14,7 @@
 
 ---
 
-> Coding 数据更新于 2026.07.27（讯飞星辰评分恢复3星；方舟官方页确认支持 Doubao-Seed-2.1-turbo/Kimi-K2.7，GLM-5.2等热门模型限时加量4倍；Pro价格动态加载失败，待人工确认） · Token 数据更新于 2026.07.27（腾讯/阿里/小米/MiMo/OpenCode Go/天翼云/Alaya/TaoToken逐一访问，经核对价格、额度、模型与套餐状态无变化；腾讯Kimi-K2.5/MiniMax-M2.5仍在文档中并保留即将下线标注；天翼云旧GLM Coding Plan已售罄后续不再售卖） · Video 数据更新于 2026.07.27（经核对无变化：快手可灵、RunningHub创作会员、腾讯混元、通义万相证据完整且无变化·Vidu仍为SPA定价壳并经AnySearch辅助·海螺AI重定向创作页且AnySearch无有效当前订阅证据·pai.video登录墙且AnySearch无有效当前订阅证据·即梦未登录创作壳且AnySearch无足够当前会员证据·RunningHub团队会员入口已确认但独立价格字段仍未加载） · Image 数据更新于 2026.07.27（经核对无变化：Midjourney官方页被Cloudflare拦截，AnySearch从官方文档确认四档价格与权益无变化·Liblib/通义万相官方页面逐项核对无变化·RunningHub创作会员权益无变化且团队会员入口仍返回创作会员表，AnySearch未获得足够团队价格证据·堆友官方会员弹窗需登录，AnySearch未获得完整当前个人会员证据） · Audio 数据更新于 2026.07.27（经核对无变化·Suno/Udio/Ace Studio官方定价页证据完整·海螺AI重定向首页且AnySearch无法确认） · 中转站 数据更新于 2026.07.05（经核对无变化） · 价格对比 新增于 2026.07.06
+> Coding 数据更新于 2026.07.27（方舟确认 Doubao-Seed-2.1-turbo/Kimi-K2.7；腾讯 Coding 移除已下线 HY/Hunyuan 模型；百度千帆切换为 Token Plan 四档¥4.9/19.9/99.9/299.9；移动云补充郑州可订购区域） · Token 数据更新于 2026.07.27（腾讯/阿里/小米/MiMo/OpenCode Go/天翼云/Alaya/TaoToken逐一访问，经核对价格、额度、模型与套餐状态无变化） · Video 数据更新于 2026.07.27（RunningHub团队优享/进阶更新为¥629/¥919，部分CN API将于7月30日迁移至AI站；通义万相价格与权益已复核；Vidu/海螺AI/pai.video/即梦当前页面无法完整确认） · Image 数据更新于 2026.07.27（通义万相标准/高级月标价更新为¥72/¥288；RunningHub团队优享/进阶更新为¥629/¥919；Liblib滑杆额度保留默认值并标注） · Audio 数据更新于 2026.07.27（Suno月付$10/$30、年付折算$8/$24，付费模型范围补充v4/v4.5/v4.5+/v5/v5.5） · 中转站 数据更新于 2026.07.05（经核对无变化） · 价格对比 新增于 2026.07.06
 
 ---
 
@@ -56,12 +56,12 @@ https://ai.hsnb.fun/aiplanhub
 | 蓝耘元生代云 | GLM-5.1 | 3 | ¥49 | ★★★ |
 | 京东云 | Qwen3-Coder | 2 | ¥40 | ★★★★ |
 | 联通云 | DeepSeek-V4-Pro / Kimi-K2.6 / Qwen3.6-27B | 2 | ¥40 | ★★ |
-| 腾讯·Coding | HY-2.0 | 2 | ¥40 | ★★★ |
+| 腾讯·Coding | GLM-5 / Kimi-K2.5 / MiniMax-M2.5 | 2 | ¥40 | ★★★ |
 | TaoToken | GLM-5.2 | 3 | ¥39 | ★★ |
 | 稳明光语纪 | GLM-5.2 / DeepSeek-V4-Flash | 5 | ¥29.9 | ★★★★ |
 | 移动云 | GLM-5.1 / MiniMax-M2.5 | 2 | ¥40 | ★★ |
 | 国家超算互联网 | MiniMax-M2.5 / Qwen3-235B-A22B | 2 | ¥20 | ★★ |
-| 百度·千帆 | GLM-5 / GLM-5.1 / DeepSeek-V4-Flash | 2 | ¥40 | ★★★ |
+| 百度·千帆 | GLM / DeepSeek / Kimi | 4 | ¥4.9 | ★★★ |
 | 讯飞星辰 | GLM-5.2 / Spark X2 Agent / Kimi-K2.7-Code | 2 | ¥199 | ★★★ |
 | 阶跃星辰 | Step-3.5-Flash-2603 | 4 | ¥49 | ★★★ |
 | 快手 StreamLake | KAT-Coder-Pro V2 | 4 | ¥29 | ★★★ |
@@ -85,7 +85,8 @@ https://ai.hsnb.fun/aiplanhub
 | 快手 StreamLake | Mini | ¥29 | — | 40 Prompts | [开通](https://www.streamlake.com/marketing/coding-plan) |
 | 讯飞星辰 | 高效版 | ¥199 | — | 6,000 | [开通](https://maas.xfyun.cn/packageSubscription?inviteCode=MAAS-7573AB85) |
 | 讯飞星辰 | 速通版 | ¥999（首购¥699） | — | 30,000速通次数/月 | [开通](https://maas.xfyun.cn/packageSubscription?inviteCode=MAAS-7573AB85) |
-| 百度·千帆 | Lite | ¥40 | — | 1,200 | [开通](https://cloud.baidu.com/campaign/ambassador-product/index.html?ambassadorId=b00e3bb5d042440fbfaccf545e8e52f0#knowledge-model) |
+| 百度·千帆 | Mini | ¥4.9 | — | 1000万 Tokens/月 | [开通](https://cloud.baidu.com/product/codingplan.html) |
+| 百度·千帆 | Lite | ¥19.9 | — | 4200万 Tokens/月 | [开通](https://cloud.baidu.com/product/codingplan.html) |
 | 京东云 | Lite | ¥40 | ¥19.9 | 1,200 | [开通](https://3.cn/2-L8H4QY) |
 | 联通云 | Lite | ¥40 | — | 1,200 | [开通](https://support.cucloud.cn/document/127/591/2357.html?id=2357&arcid=7015) |
 | 腾讯·Coding | Lite | ¥40 | ¥7.9 | 1,200 | [开通](https://console.cloud.tencent.cn/tokenhub/codingplan?regionId=1) |
@@ -139,7 +140,8 @@ https://ai.hsnb.fun/aiplanhub
 |------|------|------|--------|----------|------|
 | 阿里·百炼 | Pro | ¥200 | — | 6,000 | [开通](https://www.aliyun.com/minisite/goods?userCode=hun0t0sf) |
 | TaoToken | Max | ¥388 | — | — | [开通](https://taotoken.net/?u=inv_iyn75yglujwdy9ij&utm_source=tt_invite) |
-| 百度·千帆 | Pro | ¥200 | — | 6,000 | [开通](https://cloud.baidu.com/campaign/ambassador-product/index.html?ambassadorId=b00e3bb5d042440fbfaccf545e8e52f0#knowledge-model) |
+| 百度·千帆 | Pro | ¥99.9 | — | 2.3亿 Tokens/月 | [开通](https://cloud.baidu.com/product/codingplan.html) |
+| 百度·千帆 | Max | ¥299.9 | — | 7亿 Tokens/月 | [开通](https://cloud.baidu.com/product/codingplan.html) |
 | 京东云 | Pro | ¥200 | ¥99.9 | 6,000 | [开通](https://3.cn/2-L8H4QY) |
 | 联通云 | Pro | ¥200 | — | 6,000 | [开通](https://support.cucloud.cn/document/127/591/2357.html?id=2357&arcid=7015) |
 | 腾讯·Coding | Pro | ¥200 | ¥39.9 | 6,000 | [开通](https://console.cloud.tencent.cn/tokenhub/codingplan?regionId=1) |
