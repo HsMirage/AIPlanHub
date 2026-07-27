@@ -14,7 +14,7 @@
 
 ---
 
-> Coding 数据更新于 2026.07.27（新增稳明光语纪·5档套餐·GLM-5.2 FP8/400K上下文） · Token 数据更新于 2026.07.27（腾讯/阿里/小米/MiMo/OpenCode Go/天翼云/Alaya/TaoToken逐一访问，经核对价格、额度、模型与套餐状态无变化；腾讯Kimi-K2.5/MiniMax-M2.5仍在文档中并保留即将下线标注；天翼云旧GLM Coding Plan已售罄后续不再售卖） · Video 数据更新于 2026.07.27（经核对无变化：快手可灵、RunningHub创作会员、腾讯混元、通义万相证据完整且无变化·Vidu仍为SPA定价壳并经AnySearch辅助·海螺AI重定向创作页且AnySearch无有效当前订阅证据·pai.video登录墙且AnySearch无有效当前订阅证据·即梦未登录创作壳且AnySearch无足够当前会员证据·RunningHub团队会员入口已确认但独立价格字段仍未加载） · Image 数据更新于 2026.07.27（经核对无变化：Midjourney官方页被Cloudflare拦截，AnySearch从官方文档确认四档价格与权益无变化·Liblib/通义万相官方页面逐项核对无变化·RunningHub创作会员权益无变化且团队会员入口仍返回创作会员表，AnySearch未获得足够团队价格证据·堆友官方会员弹窗需登录，AnySearch未获得完整当前个人会员证据） · Audio 数据更新于 2026.07.27（经核对无变化·Suno/Udio/Ace Studio官方定价页证据完整·海螺AI重定向首页且AnySearch无法确认） · 中转站 数据更新于 2026.07.05（经核对无变化） · 价格对比 新增于 2026.07.06
+> Coding 数据更新于 2026.07.27（稳明光语纪评分卡移除广告角标·更新社区反馈） · Token 数据更新于 2026.07.27（腾讯/阿里/小米/MiMo/OpenCode Go/天翼云/Alaya/TaoToken逐一访问，经核对价格、额度、模型与套餐状态无变化；腾讯Kimi-K2.5/MiniMax-M2.5仍在文档中并保留即将下线标注；天翼云旧GLM Coding Plan已售罄后续不再售卖） · Video 数据更新于 2026.07.27（经核对无变化：快手可灵、RunningHub创作会员、腾讯混元、通义万相证据完整且无变化·Vidu仍为SPA定价壳并经AnySearch辅助·海螺AI重定向创作页且AnySearch无有效当前订阅证据·pai.video登录墙且AnySearch无有效当前订阅证据·即梦未登录创作壳且AnySearch无足够当前会员证据·RunningHub团队会员入口已确认但独立价格字段仍未加载） · Image 数据更新于 2026.07.27（经核对无变化：Midjourney官方页被Cloudflare拦截，AnySearch从官方文档确认四档价格与权益无变化·Liblib/通义万相官方页面逐项核对无变化·RunningHub创作会员权益无变化且团队会员入口仍返回创作会员表，AnySearch未获得足够团队价格证据·堆友官方会员弹窗需登录，AnySearch未获得完整当前个人会员证据） · Audio 数据更新于 2026.07.27（经核对无变化·Suno/Udio/Ace Studio官方定价页证据完整·海螺AI重定向首页且AnySearch无法确认） · 中转站 数据更新于 2026.07.05（经核对无变化） · 价格对比 新增于 2026.07.06
 
 ---
 
