@@ -59,7 +59,7 @@ https://ai.hsnb.fun/aiplanhub
 | 腾讯·Coding | GLM-5 / Kimi-K2.5 / MiniMax-M2.5 | 2 | ¥40 | ★★★ |
 | TaoToken | GLM-5.2 | 3 | ¥39 | ★★ |
 | 稳明光语纪 | GLM-5.2 / DeepSeek-V4-Flash | 5 | ¥29.9 | ★★★★ |
-| 移动云 | GLM-5.1 / MiniMax-M2.5 | 2 | ¥40 | ★★ |
+| 移动云 | MiniMax-M2.5 | 2 | ¥40 | ★★ |
 | 国家超算互联网 | MiniMax-M2.5 / Qwen3-235B-A22B | 2 | ¥20 | ★★ |
 | 百度·千帆 | GLM / DeepSeek / Kimi | 4 | ¥4.9 | ★★★ |
 | 讯飞星辰 | GLM-5.2 / Spark X2 Agent / Kimi-K2.7-Code | 2 | ¥199 | ★★★ |
