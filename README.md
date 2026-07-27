@@ -64,7 +64,7 @@ https://ai.hsnb.fun/aiplanhub
 | 百度·千帆 | GLM / DeepSeek / Kimi | 4 | ¥4.9 | ★★★ |
 | 讯飞星辰 | GLM-5.2 / Spark X2 Agent / Kimi-K2.7-Code | 2 | ¥199 | ★★★ |
 | 阶跃星辰 | Step-3.5-Flash-2603 | 4 | ¥49 | ★★★ |
-| 快手 StreamLake | KAT-Coder-Pro V2 | 4 | ¥29 | ★★★ |
+| 快手 StreamLake | KAT-Coder-Pro V2.5 | 4 | ¥29 | ★★★ |
 | 字节·方舟 | GLM-5.2 / Doubao-Seed-2.1-turbo / Kimi-K2.7 | 2 | ¥40 | ★★★★ |
 | Ollama | GLM-5.1 / DeepSeek-V4-Flash / MiniMax-M2.7 | 3 | $0 | ★★★ |
 | 优云智算 | GLM-5.2 / DeepSeek-V4-Pro / DeepSeek-V4-Flash / Qwen3.6-Plus / MiniMax-M2.7 / Kimi-K2.6 | 6 | ¥49 | ★★ |
