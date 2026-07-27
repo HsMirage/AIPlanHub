@@ -14,7 +14,7 @@
 
 ---
 
-> Coding 数据更新于 2026.07.27（TaoToken Coding Plan移除小众平台提示·新增社区调用速度反馈） · Token 数据更新于 2026.07.27（腾讯/阿里/小米/MiMo/OpenCode Go/天翼云/Alaya/TaoToken逐一访问，经核对价格、额度、模型与套餐状态无变化；腾讯Kimi-K2.5/MiniMax-M2.5仍在文档中并保留即将下线标注；天翼云旧GLM Coding Plan已售罄后续不再售卖） · Video 数据更新于 2026.07.27（经核对无变化：快手可灵、RunningHub创作会员、腾讯混元、通义万相证据完整且无变化·Vidu仍为SPA定价壳并经AnySearch辅助·海螺AI重定向创作页且AnySearch无有效当前订阅证据·pai.video登录墙且AnySearch无有效当前订阅证据·即梦未登录创作壳且AnySearch无足够当前会员证据·RunningHub团队会员入口已确认但独立价格字段仍未加载） · Image 数据更新于 2026.07.27（经核对无变化：Midjourney官方页被Cloudflare拦截，AnySearch从官方文档确认四档价格与权益无变化·Liblib/通义万相官方页面逐项核对无变化·RunningHub创作会员权益无变化且团队会员入口仍返回创作会员表，AnySearch未获得足够团队价格证据·堆友官方会员弹窗需登录，AnySearch未获得完整当前个人会员证据） · Audio 数据更新于 2026.07.27（经核对无变化·Suno/Udio/Ace Studio官方定价页证据完整·海螺AI重定向首页且AnySearch无法确认） · 中转站 数据更新于 2026.07.05（经核对无变化） · 价格对比 新增于 2026.07.06
+> Coding 数据更新于 2026.07.27（新增稳明光语纪·5档套餐·GLM-5.2 FP8/400K上下文） · Token 数据更新于 2026.07.27（腾讯/阿里/小米/MiMo/OpenCode Go/天翼云/Alaya/TaoToken逐一访问，经核对价格、额度、模型与套餐状态无变化；腾讯Kimi-K2.5/MiniMax-M2.5仍在文档中并保留即将下线标注；天翼云旧GLM Coding Plan已售罄后续不再售卖） · Video 数据更新于 2026.07.27（经核对无变化：快手可灵、RunningHub创作会员、腾讯混元、通义万相证据完整且无变化·Vidu仍为SPA定价壳并经AnySearch辅助·海螺AI重定向创作页且AnySearch无有效当前订阅证据·pai.video登录墙且AnySearch无有效当前订阅证据·即梦未登录创作壳且AnySearch无足够当前会员证据·RunningHub团队会员入口已确认但独立价格字段仍未加载） · Image 数据更新于 2026.07.27（经核对无变化：Midjourney官方页被Cloudflare拦截，AnySearch从官方文档确认四档价格与权益无变化·Liblib/通义万相官方页面逐项核对无变化·RunningHub创作会员权益无变化且团队会员入口仍返回创作会员表，AnySearch未获得足够团队价格证据·堆友官方会员弹窗需登录，AnySearch未获得完整当前个人会员证据） · Audio 数据更新于 2026.07.27（经核对无变化·Suno/Udio/Ace Studio官方定价页证据完整·海螺AI重定向首页且AnySearch无法确认） · 中转站 数据更新于 2026.07.05（经核对无变化） · 价格对比 新增于 2026.07.06
 
 ---
 
@@ -44,7 +44,7 @@ https://ai.hsnb.fun/aiplanhub
 
 ---
 
-## Coding 平台（26 家）
+## Coding 平台（27 家）
 
 | 平台 | 代表模型 | 方案数 | 月付起 | 评分 |
 |------|----------|--------|--------|------|
@@ -58,6 +58,7 @@ https://ai.hsnb.fun/aiplanhub
 | 联通云 | DeepSeek-V4-Pro / Kimi-K2.6 / Qwen3.6-27B | 2 | ¥40 | ★★ |
 | 腾讯·Coding | HY-2.0 | 2 | ¥40 | ★★★ |
 | TaoToken | GLM-5.2 | 3 | ¥39 | ★★ |
+| 稳明光语纪 | GLM-5.2 / DeepSeek-V4-Flash | 5 | ¥29.9 | ★★★★ |
 | 移动云 | GLM-5.1 / MiniMax-M2.5 | 2 | ¥40 | ★★ |
 | 国家超算互联网 | MiniMax-M2.5 / Qwen3-235B-A22B | 2 | ¥20 | ★★ |
 | 百度·千帆 | GLM-5 / GLM-5.1 / DeepSeek-V4-Flash | 2 | ¥40 | ★★★ |
@@ -104,6 +105,8 @@ https://ai.hsnb.fun/aiplanhub
 | ChatGPT | Plus | ¥26.6 | — | — | [开通](https://pay.ldxp.cn/shop/mirage) |
 | ChatGPT | Team | ¥28.8 | — | — | [开通](https://pay.ldxp.cn/shop/mirage) |
 | 商汤SenseNova | Free · 公测 | 免费 | — | 1,500 | [开通](https://www.sensenova.cn/token-plan) |
+| 稳明光语纪 | Lite | ¥45 | — | — | [开通](https://wenming7.cn/sales?ref=DCRTY9PM) |
+| 稳明光语纪 | 新用户活动套餐 | ¥29.9 | — | — | [开通](https://wenming7.cn/sales?ref=DCRTY9PM) |
 
 ### 进阶级（人民币月付 ¥51-¥199）
 
@@ -127,6 +130,8 @@ https://ai.hsnb.fun/aiplanhub
 | 阶跃星辰 | Flash Pro | ¥199 | — | 22,500 | [开通](https://platform.stepfun.com?invite_code=KHVQVECJ) |
 | MiniMax | Max | ¥119 | — | 4,500 | [开通](https://platform.minimaxi.com/subscribe/token-plan) |
 | Kimi | Allegretto | ¥199 | ¥159 | — | [开通](https://kimi-bot.com/activities/zh-cn/viral-referral/share?scenario=invite&from=share_poster&invitation_code=ANRBYG) |
+| 稳明光语纪 | Pro | ¥125 | — | — | [开通](https://wenming7.cn/sales?ref=DCRTY9PM) |
+| 稳明光语纪 | Plus | ¥249 | — | — | [开通](https://wenming7.cn/sales?ref=DCRTY9PM) |
 
 ### 高阶级（人民币月付 ≥ ¥200）
 
@@ -142,6 +147,7 @@ https://ai.hsnb.fun/aiplanhub
 | 字节·方舟 | Pro | ¥200 | ¥49.9 | 6,000 | [开通](https://volcengine.com/L/jmiEa1dptck/) |
 | 快手 StreamLake | Max | ¥350 | — | 1,000 Prompts | [开通](https://www.streamlake.com/marketing/coding-plan) |
 | MiniMax | Ultra | ¥469 | — | 15,000 | [开通](https://platform.minimaxi.com/subscribe/token-plan) |
+| 稳明光语纪 | Max | ¥429 | — | — | [开通](https://wenming7.cn/sales?ref=DCRTY9PM) |
 | 蓝耘元生代云 | 高级版 | ¥469 | — | 24,000 | [开通](https://console.lanyun.net/#/register?promoterCode=3ef0f72996) |
 | 智谱AI | Max | ¥469 | — | 24,000 | [开通](https://www.bigmodel.cn/glm-coding?ic=DGRQECTZFB) |
 | 阶跃星辰 | Flash Max | ¥699 | — | 75,000 | [开通](https://platform.stepfun.com?invite_code=KHVQVECJ) |
