@@ -2,7 +2,7 @@
 
 ---
 
-<p align="center"><strong>⭐ <a href="https://github.com/HsMirage/AIPlanHub">AIPlanHub</a> — 一站式对比主流 AI 订阅方案，覆盖编程 · 视频 · 图片 · 音频多场景 ⭐</strong></p>
+<p align="center"><strong>⭐ <a href="https://github.com/HsMirage/AIPlanHub">AIPlanHub</a> — 一站式对比主流 AI 订阅方案，覆盖编程 · 视频 · 图片 · 音频 · API 多场景 ⭐</strong></p>
 
 <p align="center">
   <a href="https://raw.githubusercontent.com/HsMirage/AIPlanHub/main/assets/qr-group.png" target="_blank">
@@ -14,7 +14,7 @@
 
 ---
 
-> Coding 数据更新于 2026.07.30（经核对无变化；26个监控条目已复查，部分登录墙/SPA/404页面已按规则记录） · Token 数据更新于 2026.07.30（7个监控条目逐一访问；腾讯4个旧HY模型已正式下线，Kimi-K2.5/MiniMax-M2.5仍保留即将下线标注；其余套餐价格、额度、模型无新增变化） · Video 数据更新于 2026.07.30（经核对无变化；快手可灵、腾讯混元、通义万相证据完整；RunningHub团队会员价格被登录弹窗遮挡；Vidu/海螺AI/pai.video/即梦当前页面无法完整确认，已执行AnySearch） · Image 数据更新于 2026.07.30（经核对无变化：Midjourney官方页Cloudflare拦截，AnySearch仅确认四档美元价格；通义万相/RunningHub创作会员/Liblib积分滑杆无变化，RunningHub团队会员需登录确认；Liblib仍有Seedance 2.5即将上线及会员限时折扣/限时抢购；堆友登录墙且AnySearch未确认价格） · Audio 数据更新于 2026.07.30（经核对无变化；Suno/Udio/Ace Studio官方定价页证据完整；海螺AI订阅页重定向至创作首页且AnySearch无法确认） · 中转站 数据更新于 2026.07.05（经核对无变化） · 价格对比 新增于 2026.07.06
+> Coding 数据更新于 2026.07.31（京东云Coding Plan已于2026.07.29停止新购、续费及升级；已购套餐有效期内可用；新增已下架套餐归档页；智谱AI与z.ai评分同步降为1星） · Token 数据更新于 2026.07.31（7个监控条目逐一访问；腾讯4个旧HY模型已正式下线，Kimi-K2.5/MiniMax-M2.5仍保留即将下线标注；其余套餐价格、额度、模型无新增变化） · Video 数据更新于 2026.07.31（经核对无变化；快手可灵、腾讯混元、通义万相证据完整；RunningHub团队会员价格被登录弹窗遮挡；Vidu/海螺AI/pai.video/即梦当前页面无法完整确认，已执行AnySearch） · Image 数据更新于 2026.07.31（经核对无变化：Midjourney官方页Cloudflare拦截，AnySearch仅确认四档美元价格；通义万相/RunningHub创作会员/Liblib积分滑杆无变化，RunningHub团队会员需登录确认；Liblib仍有Seedance 2.5即将上线及会员限时折扣/限时抢购；堆友登录墙且AnySearch未确认价格） · Audio 数据更新于 2026.07.31（经核对无变化；Suno/Udio/Ace Studio官方定价页证据完整；海螺AI订阅页重定向至创作首页且AnySearch无法确认） · 中转站 数据更新于 2026.07.05（经核对无变化） · 价格对比 新增于 2026.07.06
 
 ---
 
@@ -50,8 +50,8 @@ https://ai.hsnb.fun/aiplanhub
 |------|----------|--------|--------|------|
 | ChatGPT | GPT-5.4 / GPT-Image-2 / GPT-5.3-Codex | 2 | ¥26.6 | ★★★★★ |
 | 商汤SenseNova | SenseNova 6.7 Flash-Lite / SenseNova U1 Fast | 1 | 免费 | ★★★★★ |
-| 智谱AI | GLM-5.2 / GLM-5-Turbo / GLM-4.7 | 3 | ¥49 | ★★★★ |
-| 京东云 | Qwen3-Coder | 2 | ¥40 | ★★★★ |
+| 智谱AI | GLM-5.2 / GLM-5-Turbo / GLM-4.7 | 3 | ¥49 | ★ |
+
 | 稳明光语纪 | GLM-5.2 / DeepSeek-V4-Flash | 5 | ¥29.9 | ★★★★ |
 | 字节·方舟 | GLM-5.2 / Doubao-Seed-2.1-turbo / Kimi-K2.7 | 2 | ¥40 | ★★★★ |
 | Charm Hyper | DeepSeek-V4-Flash / DeepSeek-V4-Pro / GLM-5.2 | 5 | $0 | ★★★★ |
@@ -66,7 +66,7 @@ https://ai.hsnb.fun/aiplanhub
 | 快手 StreamLake | KAT-Coder-Pro V2.5 | 4 | ¥29 | ★★★ |
 | Ollama | GLM-5.1 / DeepSeek-V4-Flash / MiniMax-M2.7 | 3 | $0 | ★★★ |
 | AtomCode | GLM-5.2 / DeepSeek-V4-Flash | 3 | 免费 | ★★★ |
-| z.ai | GLM-5.1（国际版） | 3 | $18 | ★★ |
+| z.ai | GLM-5.1（国际版） | 3 | $18 | ★ |
 | MiniMax | MiniMax-M3 / M2.7 | 3 | ¥49 | ★★ |
 | 联通云 | DeepSeek-V4-Pro / Kimi-K2.6 / Qwen3.6-27B | 2 | ¥40 | ★★ |
 | TaoToken | GLM-5.2 | 3 | ¥39 | ★★ |
@@ -87,7 +87,7 @@ https://ai.hsnb.fun/aiplanhub
 | 讯飞星辰 | 速通版 | ¥999（首购¥699） | — | 30,000速通次数/月 | [开通](https://maas.xfyun.cn/packageSubscription?inviteCode=MAAS-7573AB85) |
 | 百度·千帆 | Mini | ¥4.9 | — | 1000万 Tokens/月 | [开通](https://cloud.baidu.com/product/codingplan.html) |
 | 百度·千帆 | Lite | ¥19.9 | — | 4200万 Tokens/月 | [开通](https://cloud.baidu.com/product/codingplan.html) |
-| 京东云 | Lite | ¥40 | ¥19.9 | 1,200 | [开通](https://3.cn/2-L8H4QY) |
+
 | 联通云 | Lite | ¥40 | — | 1,200 | [开通](https://support.cucloud.cn/document/127/591/2357.html?id=2357&arcid=7015) |
 | 腾讯·Coding | Lite | ¥40 | ¥7.9 | 1,200 | [开通](https://console.cloud.tencent.cn/tokenhub/codingplan?regionId=1) |
 | 移动云 | Lite | ¥40 | ¥7.9 | 1,200 | [开通](https://ecloud.10086.cn/portal/act/codingplan) |
@@ -142,7 +142,7 @@ https://ai.hsnb.fun/aiplanhub
 | TaoToken | Max | ¥388 | — | — | [开通](https://taotoken.net/?u=inv_iyn75yglujwdy9ij&utm_source=tt_invite) |
 | 百度·千帆 | Pro | ¥99.9 | — | 2.3亿 Tokens/月 | [开通](https://cloud.baidu.com/product/codingplan.html) |
 | 百度·千帆 | Max | ¥299.9 | — | 7亿 Tokens/月 | [开通](https://cloud.baidu.com/product/codingplan.html) |
-| 京东云 | Pro | ¥200 | ¥99.9 | 6,000 | [开通](https://3.cn/2-L8H4QY) |
+
 | 联通云 | Pro | ¥200 | — | 6,000 | [开通](https://support.cucloud.cn/document/127/591/2357.html?id=2357&arcid=7015) |
 | 腾讯·Coding | Pro | ¥200 | ¥39.9 | 6,000 | [开通](https://console.cloud.tencent.cn/tokenhub/codingplan?regionId=1) |
 | 移动云 | Pro | ¥200 | ¥39.9 | 6,000 | [开通](https://ecloud.10086.cn/portal/act/codingplan) |
@@ -277,9 +277,9 @@ https://ai.hsnb.fun/aiplanhub
 **推荐**
 
 - **MiniMax** — 2026.06.01 全面升级 M3 体系，Starter/极速版下架，Plus ¥49/Max ¥119/Ultra ¥469 三档（年付立省2月），M2.7 参考 1500/4500/15000 次/5h，月 6~55 亿 token
-- **智谱AI** — 升级 GLM-5.2（取代5.1），免费 MCP 调用额度（100~4000次/月），20+ 编程工具支持，季付9折年付8折，限时福利非高峰1x至9月底
+- **智谱AI** — 新版积分制价格大幅上调：Lite ¥118 / Pro ¥538 / Max ¥1078；MCP 与模型共享额度，OpenClaw 采用次级调度，当前性价比很差，降为 1 星
 - **阿里·百炼** — Pro专属 Qwen3.6-Plus，Pro 固定 ¥200/月，每周 45,000 次请求
-- **京东云** — DeepSeek-V3.2 / GLM-5 / Qwen3-Coder 7 模型覆盖，标准 Lite/Pro 定价，第三方测速中上游
+
 - **优云 (Token)** — ⚠️已售罄，新套餐即将上线；支持 MiniMax-M2.1/M2.5、DeepSeek-V3.2、Kimi-K2.5，积分制，允许 API 调用
 - **腾讯·Token (Token)** — ⚠️按Token计费但无公开用量计算器，用户无法自测透明度，仅限AI工具使用
 
@@ -290,7 +290,7 @@ https://ai.hsnb.fun/aiplanhub
 - **Kimi** — 网友反馈额度消耗较快
 - **字节·方舟** — ⚠ 双层计费：名义按调用次数，实际 Token 消耗大会被按 2-3 次甚至更多次扣费，计费不透明，无用量明细（蓝点网/V2EX/微博多源证实）
 - **天翼云** — 高阶 GLM 模型在高峰期按 3 倍、非高峰期按 2 倍抵扣额度，实际可用量会明显低于表面档位；当前页面长期显示售罄/补货
-- **京东云** — 仅限 AI 编程工具交互式使用，禁止 API 调用；社区有"容易截断、有点卡"和"未到 5h 上限仍触发 rate_limit"的反馈
+- **京东云** — Coding Plan 已于 2026.07.29 停止新购、续费及升级；已购套餐在有效期内可正常使用，历史套餐请见站内“已下架”页面
 - **联通云** — 当前资源紧张GLM-5.1很慢+429限流；支持DeepSeek-V4全系列（官网没写pro，但是coding plan能调用）；测试发现多数模型调用工具有问题，并且默认关闭思考模式；没有异常扣费情况，挺耐用；禁止 API 调用
 - **移动云** — 已支持 MiniMax-M2.5 与 GLM-5.1；GLM-5.1 按 4x 抵扣，额度消耗更快；目前支持华北-呼和浩特、湖北-武汉、华南-广州8资源池订购（部分省节点限本省账号）；Coding Plan 同样禁止 API 调用
 - **小米·MiMo (Token)** — Credit ≠ Token（V2.5-Pro 输入/输出按 300/600 Credits 抵扣），属于 Token Plan，不进入 Coding 请求数表
