@@ -14,7 +14,7 @@
 
 ---
 
-> Coding 数据更新于 2026.07.31（京东云Coding Plan已于2026.07.29停止新购、续费及升级；已购套餐有效期内可用；新增已下架套餐归档页；智谱AI与z.ai评分同步降为1星） · Token 数据更新于 2026.07.31（7个监控条目逐一访问；腾讯4个旧HY模型已正式下线，Kimi-K2.5/MiniMax-M2.5仍保留即将下线标注；其余套餐价格、额度、模型无新增变化） · Video 数据更新于 2026.07.31（经核对无变化；快手可灵、腾讯混元、通义万相证据完整；RunningHub团队会员价格被登录弹窗遮挡；Vidu/海螺AI/pai.video/即梦当前页面无法完整确认，已执行AnySearch） · Image 数据更新于 2026.07.31（经核对无变化：Midjourney官方页Cloudflare拦截，AnySearch仅确认四档美元价格；通义万相/RunningHub创作会员/Liblib积分滑杆无变化，RunningHub团队会员需登录确认；Liblib仍有Seedance 2.5即将上线及会员限时折扣/限时抢购；堆友登录墙且AnySearch未确认价格） · Audio 数据更新于 2026.07.31（经核对无变化；Suno/Udio/Ace Studio官方定价页证据完整；海螺AI订阅页重定向至创作首页且AnySearch无法确认） · 中转站 数据更新于 2026.07.05（经核对无变化） · 价格对比 新增于 2026.07.06
+> Coding 数据更新于 2026.07.31（京东云Coding Plan已于2026.07.29停止新购、续费及升级；已购套餐有效期内可用；新增已下架套餐归档页；智谱AI与z.ai评分同步降为1星） · Token 数据更新于 2026.07.31（7个监控条目逐一访问，经核对无变化；腾讯4个旧HY模型已正式下线，Kimi-K2.5/MiniMax-M2.5仍保留即将下线标注；其余套餐价格、额度、模型无新增变化） · Video 数据更新于 2026.07.31（经核对无变化；快手可灵、腾讯混元、通义万相证据完整；RunningHub团队会员价格被登录弹窗遮挡；Vidu/海螺AI/pai.video/即梦当前页面无法完整确认，已执行AnySearch） · Image 数据更新于 2026.07.31（经核对无变化：Midjourney官方页Cloudflare拦截，AnySearch仅确认四档美元价格；通义万相/RunningHub创作会员/Liblib积分滑杆无变化，RunningHub团队会员需登录确认；Liblib仍有Seedance 2.5即将上线及会员限时折扣/限时抢购；堆友登录墙且AnySearch未确认价格） · Audio 数据更新于 2026.07.31（经核对无变化；Suno/Udio/Ace Studio官方定价页证据完整；海螺AI订阅页重定向至创作首页且AnySearch无法确认） · 中转站 数据更新于 2026.07.05（经核对无变化） · 价格对比 新增于 2026.07.06
 
 ---
 
