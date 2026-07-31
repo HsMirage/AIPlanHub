@@ -14,7 +14,7 @@
 
 ---
 
-> Coding 数据更新于 2026.07.31（京东云Coding Plan已于2026.07.29停止新购、续费及升级；已购套餐有效期内可用；新增已下架套餐归档页；智谱AI与z.ai评分同步降为1星） · Token 数据更新于 2026.07.31（7个监控条目逐一访问，经核对无变化；腾讯4个旧HY模型已正式下线，Kimi-K2.5/MiniMax-M2.5仍保留即将下线标注；其余套餐价格、额度、模型无新增变化） · Video 数据更新于 2026.07.31（经核对无变化；快手可灵、腾讯混元、通义万相证据完整；RunningHub团队会员价格被登录弹窗遮挡；Vidu/海螺AI/pai.video/即梦当前页面无法完整确认，已执行AnySearch） · Image 数据更新于 2026.07.31（经核对无变化：Midjourney官方页Cloudflare拦截，AnySearch仅确认四档美元价格；通义万相/RunningHub创作会员/Liblib积分滑杆无变化，RunningHub团队会员需登录确认；Liblib仍有Seedance 2.5即将上线及会员限时折扣/限时抢购；堆友登录墙且AnySearch未确认价格） · Audio 数据更新于 2026.07.31（经核对无变化；Suno/Udio/Ace Studio官方定价页证据完整；海螺AI订阅页重定向至创作首页且AnySearch无法确认） · 中转站 数据更新于 2026.07.05（经核对无变化） · 价格对比 新增于 2026.07.06
+> Coding 数据更新于 2026.07.31（京东云Coding Plan已于2026.07.29停止新购、续费及升级；已购套餐有效期内可用；新增已下架套餐归档页；智谱AI与z.ai评分同步降为1星） · Token 数据更新于 2026.07.31（7个监控条目逐一访问，经核对无变化；腾讯4个旧HY模型已正式下线，Kimi-K2.5/MiniMax-M2.5仍保留即将下线标注；其余套餐价格、额度、模型无新增变化） · Video 数据更新于 2026.07.31（经核对无变化；快手可灵、腾讯混元、通义万相证据完整；RunningHub团队会员价格被登录弹窗遮挡；Vidu/海螺AI/pai.video/即梦当前页面无法完整确认，已执行AnySearch） · Image 数据更新于 2026.07.31（经核对无变化：Midjourney官方页Cloudflare拦截，AnySearch仅确认四档美元价格；通义万相/RunningHub创作会员/Liblib积分滑杆无变化，RunningHub团队会员需登录确认；Liblib仍有Seedance 2.5即将上线及会员限时折扣/限时抢购；堆友登录墙且AnySearch未确认价格） · Audio 数据更新于 2026.08.01（经核对无变化；Suno/Udio/Ace Studio官方定价页证据完整；海螺AI订阅页重定向至创作首页且AnySearch无法确认） · 中转站 数据更新于 2026.07.05（经核对无变化） · 价格对比 新增于 2026.07.06
 
 ---
 
@@ -54,7 +54,7 @@ https://ai.hsnb.fun/aiplanhub
 
 | 稳明光语纪 | GLM-5.2 / DeepSeek-V4-Flash | 5 | ¥29.9 | ★★★★ |
 | 字节·方舟 | GLM-5.2 / Doubao-Seed-2.1-turbo / Kimi-K2.7 | 2 | ¥40 | ★★★★ |
-| Charm Hyper | DeepSeek-V4-Flash / DeepSeek-V4-Pro / GLM-5.2 | 5 | $0 | ★★★★ |
+| Charm Hyper | DeepSeek-V4-Flash / DeepSeek-V4-Pro / GLM-5.2 | 5 | $0 | ★★★½ |
 | Meituan CatPaw | — | 1 | 免费 | ★★★★ |
 | Kimi | Kimi-K3 / Kimi-K2.7-Code | 4 | ¥39 | ★★★ |
 | 阿里·百炼 | Qwen3.6-Plus | 1 | ¥200 | ★★★ |
@@ -159,7 +159,7 @@ https://ai.hsnb.fun/aiplanhub
 
 | 平台 | 方案 | 月付 | 首月价 | 5h请求数 | 开通 |
 |------|------|------|--------|----------|------|
-| OpenCode Go | Go（Grok-4.5 / GLM-5.2 / Kimi-K3 / Hy3 等16款） | $10 | $5 | $12/5h $30/周 $60/月 | [幻境MirageAI的小店 - 云猫寄售](https://catfk.com/shop/mirage) |
+| OpenCode Go | Go（Grok-4.5 / GLM-5.2 / Kimi-K3 / Hy3 等16款） | $10 | $5 | $12/5h $30/周 $60/月 | [Go \| OpenCode](https://opencode.ai/go?ref=V156X2ZH2S) |
 | z.ai | Lite | $18 | — | 1,200 | [开通](https://z.ai/subscribe?ic=V6PINPKB9I) |
 | z.ai | Pro | $72 | — | 6,000 | [开通](https://z.ai/subscribe?ic=V6PINPKB9I) |
 | z.ai | Max | $160 | — | 24,000 | [开通](https://z.ai/subscribe?ic=V6PINPKB9I) |
@@ -191,7 +191,7 @@ https://ai.hsnb.fun/aiplanhub
 | Alaya Code | 入门版 | ¥199 | — | 3,270万 Tokens/月 | [开通](https://codingplan.alayanew.com/docs/billing) |
 | 小米·MiMo | Lite | ¥39 | ¥34.32 | 4.1B Credits/月 | [开通](https://platform.xiaomimimo.com/#/token-plan) |
 | 方舟 Agent Plan | Small | ¥40 | — | 20,000 AFP/月 | [开通](https://www.volcengine.com/docs/82379/2366394?lang=zh) |
-| OpenCode Go | Go | $10 | $5 | $12/5h $30/周 $60/月 | [幻境MirageAI的小店 - 云猫寄售](https://catfk.com/shop/mirage) |
+| OpenCode Go | Go | $10 | $5 | $12/5h $30/周 $60/月 | [Go \| OpenCode](https://opencode.ai/go?ref=V156X2ZH2S) |
 | ChatGPT | Token | ¥28.8 | — | 100 刀·暂时售罄 | [开通](https://pay.ldxp.cn/shop/mirage) |
 | 腾讯·Token | Standard | ¥99 | — | 1亿 Tokens/月 | [开通](https://curl.qcloud.com/1Uogyigq) |
 | TaoToken | Lite | ¥59 | — | 5,000 Credits/月 | [开通](https://taotoken.net/?u=inv_iyn75yglujwdy9ij&utm_source=tt_invite) |
