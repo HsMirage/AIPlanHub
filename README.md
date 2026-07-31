@@ -14,7 +14,7 @@
 
 ---
 
-> Coding 数据更新于 2026.07.31（京东云Coding Plan已于2026.07.29停止新购、续费及升级；已购套餐有效期内可用；新增已下架套餐归档页；智谱AI与z.ai评分同步降为1星） · Token 数据更新于 2026.07.31（7个监控条目逐一访问，经核对无变化；腾讯4个旧HY模型已正式下线，Kimi-K2.5/MiniMax-M2.5仍保留即将下线标注；其余套餐价格、额度、模型无新增变化） · Video 数据更新于 2026.08.01（即梦季度首购价与Seedance 2.5权益更新；RunningHub团队优享/进阶永久月价下调；快手可灵、腾讯混元、通义万相无变化；Vidu/海螺AI/pai.video部分证据不足，已执行AnySearch） · Image 数据更新于 2026.08.01（Liblib新增Seedance 2.5预售限时赠送10/20/40条；Midjourney官方页Cloudflare拦截但Zendesk API确认四档价格；通义万相无变化；RunningHub团队会员与堆友需登录确认） · Audio 数据更新于 2026.08.01（经核对无变化；Suno/Udio/Ace Studio官方定价页证据完整；海螺AI订阅页重定向至创作首页且AnySearch无法确认） · 中转站 数据更新于 2026.07.05（经核对无变化） · 价格对比 新增于 2026.07.06
+> Coding 数据更新于 2026.07.31（京东云Coding Plan已于2026.07.29停止新购、续费及升级；已购套餐有效期内可用；新增已下架套餐归档页；智谱AI与z.ai评分同步降为1星） · Token 数据更新于 2026.08.01（7个监控条目逐一访问；OpenCode Go新增GPT-5.6-Luna，模型扩至17款；腾讯Kimi-K2.5下线日期已过但文档尚未移除，MiniMax-M2.5仍标注将于8.6下线；其余套餐价格、额度、模型经核对无变化） · Video 数据更新于 2026.08.01（即梦季度首购价与Seedance 2.5权益更新；RunningHub团队优享/进阶永久月价下调；快手可灵、腾讯混元、通义万相无变化；Vidu/海螺AI/pai.video部分证据不足，已执行AnySearch） · Image 数据更新于 2026.08.01（Liblib新增Seedance 2.5预售限时赠送10/20/40条；Midjourney官方页Cloudflare拦截但Zendesk API确认四档价格；通义万相无变化；RunningHub团队会员与堆友需登录确认） · Audio 数据更新于 2026.08.01（经核对无变化；Suno/Udio/Ace Studio官方定价页证据完整；海螺AI订阅页重定向至创作首页且AnySearch无法确认） · 中转站 数据更新于 2026.07.05（经核对无变化） · 价格对比 新增于 2026.07.06
 
 ---
 
@@ -159,7 +159,7 @@ https://ai.hsnb.fun/aiplanhub
 
 | 平台 | 方案 | 月付 | 首月价 | 5h请求数 | 开通 |
 |------|------|------|--------|----------|------|
-| OpenCode Go | Go（Grok-4.5 / GLM-5.2 / Kimi-K3 / Hy3 等16款） | $10 | $5 | $12/5h $30/周 $60/月 | [Go \| OpenCode](https://opencode.ai/go?ref=V156X2ZH2S) |
+| OpenCode Go | Go（Grok-4.5 / GLM-5.2 / GPT-5.6-Luna / Kimi-K3 / Hy3 等17款） | $10 | $5 | $12/5h $30/周 $60/月 | [Go \| OpenCode](https://opencode.ai/go?ref=V156X2ZH2S) |
 | z.ai | Lite | $18 | — | 1,200 | [开通](https://z.ai/subscribe?ic=V6PINPKB9I) |
 | z.ai | Pro | $72 | — | 6,000 | [开通](https://z.ai/subscribe?ic=V6PINPKB9I) |
 | z.ai | Max | $160 | — | 24,000 | [开通](https://z.ai/subscribe?ic=V6PINPKB9I) |
@@ -173,7 +173,7 @@ https://ai.hsnb.fun/aiplanhub
 | 平台 | 代表模型 | 方案数 | 月付起 | 评分 |
 |------|----------|--------|--------|------|
 | ChatGPT | GPT-5.4 / GPT-Image-2 / GPT-5.3-Codex | 1 | ¥28.8 | ★★★★★ |
-| OpenCode Go | GLM-5.2 / DeepSeek-V4-Pro / Kimi-K2.6 / MiniMax-M3 | 1 | $10 | ★★★★ |
+| OpenCode Go | GLM-5.2 / GPT-5.6-Luna / DeepSeek-V4-Pro / Kimi-K2.6 | 1 | $10 | ★★★★ |
 | 阿里·Token Plan | qwen3.8-max-preview / Qwen3.7-Max / DeepSeek-V4-Pro / GLM-5.2 / Kimi-K2.6 | 7 | ¥39 | ★★★ |
 | TaoToken | DeepSeek-V4-Pro / Kimi-K3 / GLM-5.2 | 3 | ¥59 | ★★ |
 | 方舟 Agent Plan | DeepSeek-V4-Pro / GLM-5.1 / Kimi-K2.6 | 4 | ¥40 | ★★ |
