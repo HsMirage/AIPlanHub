@@ -14,7 +14,7 @@
 
 ---
 
-> Coding 数据更新于 2026.08.02（经核对无变化；Ollama Max 暂停新注册） · Token 数据更新于 2026.08.02（7个监控条目逐一访问；价格、额度、套餐数量经核对无变化；腾讯Kimi-K2.5下线日期已过但文档尚未移除，MiniMax-M2.5仍标注将于8.6下线；天翼云旧GLM Coding Plan已售罄后续不再售卖；小米MiMo V2系列已于6.30正式下线） · Video 数据更新于 2026.08.02（经核对无变化；即梦季度首购价与Seedance 2.5权益、RunningHub团队优享/进阶永久月价保持；快手可灵、腾讯混元、通义万相无变化；Vidu/海螺AI/pai.video官方订阅证据仍不完整，已执行AnySearch） · Image 数据更新于 2026.08.02（Midjourney官方四档价格/权益、通义万相、Liblib AI、RunningHub创作会员经核对无变化；RunningHub团队会员与堆友需登录确认） · Audio 数据更新于 2026.08.02（经核对无变化；Suno/Udio/Ace Studio官方定价页证据完整；海螺AI订阅页重定向至创作首页，CDP同样未获得会员方案，AnySearch仅找到协议/泛搜索信息无法确认） · 中转站 数据更新于 2026.07.05（经核对无变化） · 价格对比 新增于 2026.07.06
+> Coding 数据更新于 2026.08.02（经核对无变化；Ollama Max 暂停新注册） · Token 数据更新于 2026.08.02（7个监控条目逐一访问；价格、额度、套餐数量经核对无变化；腾讯Kimi-K2.5下线日期已过但文档尚未移除，MiniMax-M2.5仍标注将于8.6下线；天翼云旧GLM Coding Plan已售罄后续不再售卖；小米MiMo V2系列已于6.30正式下线） · Video 数据更新于 2026.08.02（经核对无变化；即梦季度首购价与Seedance 2.5权益、RunningHub团队优享/进阶永久月价保持；快手可灵、腾讯混元、通义万相无变化；Vidu/海螺AI/pai.video官方订阅证据仍不完整，已执行AnySearch） · Image 数据更新于 2026.08.02（Midjourney官方四档价格/权益、通义万相、Liblib AI、RunningHub创作会员经核对无变化；RunningHub团队会员与堆友需登录确认） · Audio 数据更新于 2026.08.03（经核对无变化；Suno/Udio/Ace Studio官方定价页证据完整；海螺AI订阅页重定向至创作首页，CDP同样未获得会员方案，AnySearch搜索结果为第三方/国际版资料，无法确认中国区会员方案） · 中转站 数据更新于 2026.07.05（经核对无变化） · 价格对比 新增于 2026.07.06
 
 ---
 
@@ -69,7 +69,7 @@ https://ai.hsnb.fun/aiplanhub
 | z.ai | GLM-5.1（国际版） | 3 | $18 | ★ |
 | MiniMax | MiniMax-M3 / M2.7 | 3 | ¥49 | ★★ |
 | 联通云 | DeepSeek-V4-Pro / Kimi-K2.6 / Qwen3.6-27B | 2 | ¥40 | ★★ |
-| TaoToken | GLM-5.2 | 3 | ¥39 | ★★ |
+| TaoToken | GLM-5.2（200K上下文） | 3 | ¥39 | ★★ |
 | 移动云 | MiniMax-M2.5 | 2 | ¥40 | ★★ |
 | 国家超算互联网 | MiniMax-M2.5 / Qwen3-235B-A22B | 2 | ¥20 | ★★ |
 | 优云智算 | GLM-5.2 / DeepSeek-V4-Pro / DeepSeek-V4-Flash / Qwen3.6-Plus / MiniMax-M2.7 / Kimi-K2.6 | 6 | ¥49 | ★★ |
