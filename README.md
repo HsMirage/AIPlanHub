@@ -14,7 +14,7 @@
 
 ---
 
-> Coding 数据更新于 2026.08.05（27个监控条目逐一访问；Kimi月付全档下调至¥39/¥79/¥159/¥559，年付价格不变；字节·方舟活动页与AtomCode活动页为空壳，已用官方文档/AnySearch辅助核对；其余经核对无变化） · Token 数据更新于 2026.08.04（7个监控条目逐一访问；价格、额度、套餐数量经核对无变化；腾讯Kimi-K2.5下线日期已过但文档尚未移除，MiniMax-M2.5仍标注将于8.6下线；天翼云旧GLM Coding Plan已售罄后续不再售卖；小米MiMo V2系列已于6.30正式下线） · Video 数据更新于 2026.08.05（经核对无变化；可灵/RunningHub/腾讯混元/通义万相官方证据完整且字段保持；即梦仅确认Seedance 2.5活动文案未加载会员价格；Vidu/海螺AI/pai.video官方订阅证据仍不完整，已执行AnySearch） · Image 数据更新于 2026.08.05（RunningHub创作会员连续包月价格复查为¥29/49/69/119/99/169；Midjourney官方四档价格/权益、通义万相、Liblib AI无变化；堆友官方登录墙，已执行AnySearch） · Audio 数据更新于 2026.08.05（经核对无变化；Suno/Udio/Ace Studio官方定价页证据完整；海螺AI订阅页重定向至创作首页，CDP同样未获得会员方案，AnySearch仅返回第三方/过期资料，无法确认中国区会员方案） · 中转站 数据更新于 2026.07.05（经核对无变化） · 价格对比 新增于 2026.07.06
+> Coding 数据更新于 2026.08.05（27个监控条目逐一访问；Kimi月付全档下调至¥39/¥79/¥159/¥559，年付价格不变；字节·方舟活动页与AtomCode活动页为空壳，已用官方文档/AnySearch辅助核对；其余经核对无变化） · Token 数据更新于 2026.08.05（7个监控条目逐一访问；OpenCode Go官方模型列表新增Qwen3.8 Max并已同步；其余价格/额度/套餐数量经核对无变化；腾讯Kimi-K2.5下线日期已过但文档尚未移除，MiniMax-M2.5仍标注将于8.6下线；天翼云旧GLM Coding Plan已售罄后续不再售卖；小米MiMo V2系列已于6.30正式下线） · Video 数据更新于 2026.08.05（经核对无变化；可灵/RunningHub/腾讯混元/通义万相官方证据完整且字段保持；即梦仅确认Seedance 2.5活动文案未加载会员价格；Vidu/海螺AI/pai.video官方订阅证据仍不完整，已执行AnySearch） · Image 数据更新于 2026.08.05（RunningHub创作会员连续包月价格复查为¥29/49/69/119/99/169；Midjourney官方四档价格/权益、通义万相、Liblib AI无变化；堆友官方登录墙，已执行AnySearch） · Audio 数据更新于 2026.08.05（经核对无变化；Suno/Udio/Ace Studio官方定价页证据完整；海螺AI订阅页重定向至创作首页，CDP同样未获得会员方案，AnySearch仅返回第三方/过期资料，无法确认中国区会员方案） · 中转站 数据更新于 2026.07.05（经核对无变化） · 价格对比 新增于 2026.07.06
 
 ---
 
@@ -180,7 +180,7 @@ https://ai.hsnb.fun/aiplanhub
 | 平台 | 代表模型 | 方案数 | 月付起 | 评分 |
 |------|----------|--------|--------|------|
 | ChatGPT | GPT-5.4 / GPT-Image-2 / GPT-5.3-Codex | 1 | ¥28.8 | ★★★★★ |
-| OpenCode Go | GLM-5.2 / GPT-5.6-Luna / DeepSeek-V4-Pro / DeepSeek-V4-Flash-0731 / Kimi-K2.6 | 1 | $10 | ★★★★ |
+| OpenCode Go | GLM-5.2 / GPT-5.6-Luna / Qwen3.8-Max / DeepSeek-V4-Pro / Kimi-K2.6 | 1 | $10 | ★★★★ |
 | 阿里·Token Plan | qwen3.8-max-preview / Qwen3.7-Max / DeepSeek-V4-Pro / GLM-5.2 / Kimi-K2.6 | 7 | ¥39 | ★★★ |
 | TaoToken | DeepSeek-V4-Pro / Kimi-K3 / GLM-5.2 | 3 | ¥59 | ★★ |
 | 方舟 Agent Plan | DeepSeek-V4-Pro / GLM-5.1 / Kimi-K2.6 | 4 | ¥40 | ★★ |
