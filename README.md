@@ -14,7 +14,7 @@
 
 ---
 
-> Coding 数据更新于 2026.08.04（27个监控条目逐一访问；新增 xKiro，价格页与登录后模型列表已核对；其余经核对无变化） · Token 数据更新于 2026.08.04（7个监控条目逐一访问；价格、额度、套餐数量经核对无变化；腾讯Kimi-K2.5下线日期已过但文档尚未移除，MiniMax-M2.5仍标注将于8.6下线；天翼云旧GLM Coding Plan已售罄后续不再售卖；小米MiMo V2系列已于6.30正式下线） · Video 数据更新于 2026.08.04（经核对无变化；可灵/腾讯混元/通义万相官方证据完整且字段保持；即梦仅确认Seedance 2.5活动文案未加载会员价格；RunningHub团队会员未切换成功；Vidu/海螺AI/pai.video官方订阅证据仍不完整，已执行AnySearch） · Image 数据更新于 2026.08.04（RunningHub团队会员名称/价格变更：优享¥629→¥599、进阶¥919→¥899；Midjourney官方四档价格/权益、通义万相、Liblib AI无变化；堆友官方登录墙，已执行AnySearch） · Audio 数据更新于 2026.08.04（经核对无变化；Suno/Udio/Ace Studio官方定价页证据完整；海螺AI订阅页两次重定向至创作首页，CDP同样未获得会员方案，AnySearch仅返回第三方/过期资料，无法确认中国区会员方案） · 中转站 数据更新于 2026.07.05（经核对无变化） · 价格对比 新增于 2026.07.06
+> Coding 数据更新于 2026.08.04（27个监控条目逐一访问；新增 xKiro，价格页与登录后模型列表已二次核对：Free 实测 5M token/天，各档补全 5h 额度与按季/按年价；其余经核对无变化） · Token 数据更新于 2026.08.04（7个监控条目逐一访问；价格、额度、套餐数量经核对无变化；腾讯Kimi-K2.5下线日期已过但文档尚未移除，MiniMax-M2.5仍标注将于8.6下线；天翼云旧GLM Coding Plan已售罄后续不再售卖；小米MiMo V2系列已于6.30正式下线） · Video 数据更新于 2026.08.04（经核对无变化；可灵/腾讯混元/通义万相官方证据完整且字段保持；即梦仅确认Seedance 2.5活动文案未加载会员价格；RunningHub团队会员未切换成功；Vidu/海螺AI/pai.video官方订阅证据仍不完整，已执行AnySearch） · Image 数据更新于 2026.08.04（RunningHub团队会员名称/价格变更：优享¥629→¥599、进阶¥919→¥899；Midjourney官方四档价格/权益、通义万相、Liblib AI无变化；堆友官方登录墙，已执行AnySearch） · Audio 数据更新于 2026.08.04（经核对无变化；Suno/Udio/Ace Studio官方定价页证据完整；海螺AI订阅页两次重定向至创作首页，CDP同样未获得会员方案，AnySearch仅返回第三方/过期资料，无法确认中国区会员方案） · 中转站 数据更新于 2026.07.05（经核对无变化） · 价格对比 新增于 2026.07.06
 
 ---
 
@@ -104,12 +104,12 @@ https://ai.hsnb.fun/aiplanhub
 | Meituan CatPaw | 免费版 | 免费 | — | — | [下载](https://catpaw.meituan.com/) |
 | Charm Hyper | Free | $0 | — | — | [开通](https://hyper.charm.land/) |
 | MiniMax | Plus | ¥49 | — | 1,500 | [开通](https://platform.minimaxi.com/subscribe/token-plan) |
-| xKiro | Free | $0 | — | 100K token/天 | [开通](https://xkiro.com/ref/5GDYTQU) |
-| xKiro | Pro | $5 | — | $67/周使用额度 | [开通](https://xkiro.com/ref/5GDYTQU) |
-| xKiro | Pro+ | $10 | — | $132/周使用额度 | [开通](https://xkiro.com/ref/5GDYTQU) |
-| xKiro | Max | $20 | — | $264/周使用额度 | [开通](https://xkiro.com/ref/5GDYTQU) |
-| xKiro | Ultra | $100 | — | $1,320/周使用额度 | [开通](https://xkiro.com/ref/5GDYTQU) |
-| xKiro | Power | $200 | — | $2,640/周使用额度 | [开通](https://xkiro.com/ref/5GDYTQU) |
+| xKiro | Free | $0 | — | 5M token/天 | [开通](https://xkiro.com/ref/5GDYTQU) |
+| xKiro | Pro | $5 | $4 | 5h额度 $10 · 周额度 $67 | [开通](https://xkiro.com/ref/5GDYTQU) |
+| xKiro | Pro+ | $10 | $8 | 5h额度 $20 · 周额度 $132 | [开通](https://xkiro.com/ref/5GDYTQU) |
+| xKiro | Max | $20 | $16 | 5h额度 $40 · 周额度 $264 | [开通](https://xkiro.com/ref/5GDYTQU) |
+| xKiro | Ultra | $100 | $80 | 5h额度 $200 · 周额度 $1,320 | [开通](https://xkiro.com/ref/5GDYTQU) |
+| xKiro | Power | $200 | $160 | 5h额度 $400 · 周额度 $2,640 | [开通](https://xkiro.com/ref/5GDYTQU) |
 | ChatGPT | Plus | ¥26.6 | — | — | [开通](https://pay.ldxp.cn/shop/mirage) |
 | ChatGPT | Team | ¥28.8 | — | — | [开通](https://pay.ldxp.cn/shop/mirage) |
 | 商汤SenseNova | Free · 公测 | 免费 | — | 1,500 | [开通](https://www.sensenova.cn/token-plan) |
