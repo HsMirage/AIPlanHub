@@ -14,7 +14,7 @@
 
 ---
 
-> Coding 数据更新于 2026.08.04（26个监控条目逐一访问；Kimi连续包月、OpenStarry周限额状态已核对；其余经核对无变化） · Token 数据更新于 2026.08.04（7个监控条目逐一访问；价格、额度、套餐数量经核对无变化；腾讯Kimi-K2.5下线日期已过但文档尚未移除，MiniMax-M2.5仍标注将于8.6下线；天翼云旧GLM Coding Plan已售罄后续不再售卖；小米MiMo V2系列已于6.30正式下线） · Video 数据更新于 2026.08.04（经核对无变化；可灵/腾讯混元/通义万相官方证据完整且字段保持；即梦仅确认Seedance 2.5活动文案未加载会员价格；RunningHub团队会员未切换成功；Vidu/海螺AI/pai.video官方订阅证据仍不完整，已执行AnySearch） · Image 数据更新于 2026.08.04（RunningHub团队会员名称/价格变更：优享¥629→¥599、进阶¥919→¥899；Midjourney官方四档价格/权益、通义万相、Liblib AI无变化；堆友官方登录墙，已执行AnySearch） · Audio 数据更新于 2026.08.04（经核对无变化；Suno/Udio/Ace Studio官方定价页证据完整；海螺AI订阅页两次重定向至创作首页，CDP同样未获得会员方案，AnySearch仅返回第三方/过期资料，无法确认中国区会员方案） · 中转站 数据更新于 2026.07.05（经核对无变化） · 价格对比 新增于 2026.07.06
+> Coding 数据更新于 2026.08.04（27个监控条目逐一访问；新增 xKiro，价格页与登录后模型列表已核对；其余经核对无变化） · Token 数据更新于 2026.08.04（7个监控条目逐一访问；价格、额度、套餐数量经核对无变化；腾讯Kimi-K2.5下线日期已过但文档尚未移除，MiniMax-M2.5仍标注将于8.6下线；天翼云旧GLM Coding Plan已售罄后续不再售卖；小米MiMo V2系列已于6.30正式下线） · Video 数据更新于 2026.08.04（经核对无变化；可灵/腾讯混元/通义万相官方证据完整且字段保持；即梦仅确认Seedance 2.5活动文案未加载会员价格；RunningHub团队会员未切换成功；Vidu/海螺AI/pai.video官方订阅证据仍不完整，已执行AnySearch） · Image 数据更新于 2026.08.04（RunningHub团队会员名称/价格变更：优享¥629→¥599、进阶¥919→¥899；Midjourney官方四档价格/权益、通义万相、Liblib AI无变化；堆友官方登录墙，已执行AnySearch） · Audio 数据更新于 2026.08.04（经核对无变化；Suno/Udio/Ace Studio官方定价页证据完整；海螺AI订阅页两次重定向至创作首页，CDP同样未获得会员方案，AnySearch仅返回第三方/过期资料，无法确认中国区会员方案） · 中转站 数据更新于 2026.07.05（经核对无变化） · 价格对比 新增于 2026.07.06
 
 ---
 
@@ -44,15 +44,16 @@ https://ai.hsnb.fun/aiplanhub
 
 ---
 
-## Coding 平台（27 家）
+## Coding 平台（28 家）
 
 | 平台 | 代表模型 | 方案数 | 月付起 | 评分 |
 |------|----------|--------|--------|------|
 | ChatGPT | GPT-5.4 / GPT-Image-2 / GPT-5.3-Codex | 2 | ¥26.6 | ★★★★★ |
+| xKiro | Qwen3.8 Max / GLM-5.2 / MiniMax M3 / DeepSeek V4 Pro | 6 | $0 | ★★★★★ |
 | 商汤SenseNova | SenseNova 6.7 Flash-Lite / SenseNova U1 Fast | 1 | 免费 | ★★★★★ |
 | 智谱AI | GLM-5.2 / GLM-5-Turbo / GLM-4.7 | 3 | ¥49 | ★ |
 
-| 稳明光语纪 | GLM-5.2 / DeepSeek-V4-Flash | 5 | ¥29.9 | ★★★★ |
+| 稳明光语纪 | GLM-5.2 / DeepSeek-V4-Flash-0731 | 5 | ¥29.9 | ★★★★ |
 | 字节·方舟 | GLM-5.2 / Doubao-Seed-2.1-turbo / Kimi-K2.7 | 2 | ¥40 | ★★★★ |
 | Charm Hyper | DeepSeek-V4-Flash / DeepSeek-V4-Pro / GLM-5.2 | 5 | $0 | ★★★½ |
 | Meituan CatPaw | — | 1 | 免费 | ★★★★ |
@@ -103,6 +104,12 @@ https://ai.hsnb.fun/aiplanhub
 | Meituan CatPaw | 免费版 | 免费 | — | — | [下载](https://catpaw.meituan.com/) |
 | Charm Hyper | Free | $0 | — | — | [开通](https://hyper.charm.land/) |
 | MiniMax | Plus | ¥49 | — | 1,500 | [开通](https://platform.minimaxi.com/subscribe/token-plan) |
+| xKiro | Free | $0 | — | 100K token/天 | [开通](https://xkiro.com/ref/5GDYTQU) |
+| xKiro | Pro | $5 | — | $67/周使用额度 | [开通](https://xkiro.com/ref/5GDYTQU) |
+| xKiro | Pro+ | $10 | — | $132/周使用额度 | [开通](https://xkiro.com/ref/5GDYTQU) |
+| xKiro | Max | $20 | — | $264/周使用额度 | [开通](https://xkiro.com/ref/5GDYTQU) |
+| xKiro | Ultra | $100 | — | $1,320/周使用额度 | [开通](https://xkiro.com/ref/5GDYTQU) |
+| xKiro | Power | $200 | — | $2,640/周使用额度 | [开通](https://xkiro.com/ref/5GDYTQU) |
 | ChatGPT | Plus | ¥26.6 | — | — | [开通](https://pay.ldxp.cn/shop/mirage) |
 | ChatGPT | Team | ¥28.8 | — | — | [开通](https://pay.ldxp.cn/shop/mirage) |
 | 商汤SenseNova | Free · 公测 | 免费 | — | 1,500 | [开通](https://www.sensenova.cn/token-plan) |
@@ -173,7 +180,7 @@ https://ai.hsnb.fun/aiplanhub
 | 平台 | 代表模型 | 方案数 | 月付起 | 评分 |
 |------|----------|--------|--------|------|
 | ChatGPT | GPT-5.4 / GPT-Image-2 / GPT-5.3-Codex | 1 | ¥28.8 | ★★★★★ |
-| OpenCode Go | GLM-5.2 / GPT-5.6-Luna / DeepSeek-V4-Pro / Kimi-K2.6 | 1 | $10 | ★★★★ |
+| OpenCode Go | GLM-5.2 / GPT-5.6-Luna / DeepSeek-V4-Pro / DeepSeek-V4-Flash-0731 / Kimi-K2.6 | 1 | $10 | ★★★★ |
 | 阿里·Token Plan | qwen3.8-max-preview / Qwen3.7-Max / DeepSeek-V4-Pro / GLM-5.2 / Kimi-K2.6 | 7 | ¥39 | ★★★ |
 | TaoToken | DeepSeek-V4-Pro / Kimi-K3 / GLM-5.2 | 3 | ¥59 | ★★ |
 | 方舟 Agent Plan | DeepSeek-V4-Pro / GLM-5.1 / Kimi-K2.6 | 4 | ¥40 | ★★ |
