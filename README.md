@@ -14,7 +14,7 @@
 
 ---
 
-> Coding 数据更新于 2026.08.06（27个监控条目逐一访问；经核对无数据变更；Kimi当前月付¥39/¥79/¥159/¥559确认；字节·方舟活动页与AtomCode活动页为空壳，已用官方文档/AnySearch辅助核对） · Token 数据更新于 2026.08.05（7个监控条目逐一访问；OpenCode Go官方模型列表新增Qwen3.8 Max并已同步；其余价格/额度/套餐数量经核对无变化；腾讯Kimi-K2.5下线日期已过但文档尚未移除，MiniMax-M2.5仍标注将于8.6下线；天翼云旧GLM Coding Plan已售罄后续不再售卖；小米MiMo V2系列已于6.30正式下线） · Video 数据更新于 2026.08.06（经核对无变化；可灵/RunningHub/腾讯混元/通义万相官方证据完整且字段保持；即梦仅确认Seedance 2.5活动文案未加载会员价格；Vidu/海螺AI/pai.video官方订阅证据仍不完整，已执行AnySearch） · Image 数据更新于 2026.08.06（Midjourney官方四档价格/权益、通义万相、Liblib AI、RunningHub创作会员与团队会员字段经核对无变化；堆友官方登录墙，AnySearch已调用但无法确认当前会员价格；本次经核对无数据变更） · Audio 数据更新于 2026.08.06（经核对无变化；Suno官方页仍被Cloudflare Waiting Room拦截；Udio/Ace Studio官方定价页证据与本地数据一致；海螺AI订阅页重定向至创作首页，CDP同样未获得会员方案，AnySearch仅返回第三方/过期资料，无法确认中国区会员方案） · 中转站 数据更新于 2026.07.05（经核对无变化） · 价格对比 新增于 2026.07.06 · Video 本次经核对无数据变更
+> Coding 数据更新于 2026.08.06（27个监控条目逐一访问；经核对无数据变更；Kimi当前月付¥39/¥79/¥159/¥559确认；字节·方舟活动页与AtomCode活动页为空壳，已用官方文档/AnySearch辅助核对） · Token 数据更新于 2026.08.06（7个监控条目逐一访问；腾讯新增GLM-5.2并将Kimi-K2.5下线日期更新为8.31，Hy3 preview自动路由至Hy3；天翼云支持模型更新为GLM-5.1/DeepSeek-V4-Flash；阿里Token/MiMo/OpenCode Go/Alaya/TaoToken价格额度套餐数量经核对无变化；小米MiMo V2系列已于6.30正式下线） · Video 数据更新于 2026.08.06（经核对无变化；可灵/RunningHub/腾讯混元/通义万相官方证据完整且字段保持；即梦仅确认Seedance 2.5活动文案未加载会员价格；Vidu/海螺AI/pai.video官方订阅证据仍不完整，已执行AnySearch） · Image 数据更新于 2026.08.06（Midjourney官方四档价格/权益、通义万相、Liblib AI、RunningHub创作会员与团队会员字段经核对无变化；堆友官方登录墙，AnySearch已调用但无法确认当前会员价格；本次经核对无数据变更） · Audio 数据更新于 2026.08.06（经核对无变化；Suno官方页仍被Cloudflare Waiting Room拦截；Udio/Ace Studio官方定价页证据与本地数据一致；海螺AI订阅页重定向至创作首页，CDP同样未获得会员方案，AnySearch仅返回第三方/过期资料，无法确认中国区会员方案） · 中转站 数据更新于 2026.07.05（经核对无变化） · 价格对比 新增于 2026.07.06 · Video 本次经核对无数据变更
 
 ---
 
@@ -184,8 +184,8 @@ https://ai.hsnb.fun/aiplanhub
 | 阿里·Token Plan | qwen3.8-max-preview / Qwen3.7-Max / DeepSeek-V4-Pro / GLM-5.2 / Kimi-K2.6 | 7 | ¥39 | ★★★ |
 | TaoToken | DeepSeek-V4-Pro / Kimi-K3 / GLM-5.2 | 3 | ¥59 | ★★ |
 | 方舟 Agent Plan | DeepSeek-V4-Pro / GLM-5.1 / Kimi-K2.6 | 4 | ¥40 | ★★ |
-| 腾讯·Token | Auto / DeepSeek-V4-Flash/Pro / GLM-5.1 / Kimi-K2.5 / Hy3 / Hy3 preview | 8 | ¥28 | ★ |
-| 天翼云·Token | GLM-5 / DeepSeek-V3.2 | 5 | ¥29 | ★ |
+| 腾讯·Token | Auto / GLM-5.2 / DeepSeek-V4-Flash/Pro / Kimi-K2.5 / Hy3 | 8 | ¥28 | ★ |
+| 天翼云·Token | GLM-5.1 / DeepSeek-V4-Flash | 5 | ¥29 | ★ |
 | Alaya Code | GLM-5.2 / GLM-5.1 / DeepSeek-V4-Flash | 3 | ¥199 | ★ |
 | 小米·MiMo | MiMo-V2.5-Pro / MiMo-V2.5 | 4 | ¥39 | ★ |
 
