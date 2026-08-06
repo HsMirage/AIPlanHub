@@ -14,7 +14,7 @@
 
 ---
 
-> Coding 数据更新于 2026.08.06（27个监控条目逐一访问；经核对无数据变更；Kimi当前月付¥39/¥79/¥159/¥559确认；字节·方舟活动页与AtomCode活动页为空壳，已用官方文档/AnySearch辅助核对） · Token 数据更新于 2026.08.06（7个监控条目逐一访问；腾讯新增GLM-5.2并将Kimi-K2.5下线日期更新为8.31，Hy3 preview自动路由至Hy3；天翼云支持模型更新为GLM-5.1/DeepSeek-V4-Flash；阿里Token/MiMo/OpenCode Go/Alaya/TaoToken价格额度套餐数量经核对无变化；小米MiMo V2系列已于6.30正式下线） · Video 数据更新于 2026.08.06（经核对无变化；可灵/RunningHub/腾讯混元/通义万相官方证据完整且字段保持；即梦仅确认Seedance 2.5活动文案未加载会员价格；Vidu/海螺AI/pai.video官方订阅证据仍不完整，已执行AnySearch） · Image 数据更新于 2026.08.06（Midjourney官方四档价格/权益、通义万相、Liblib AI、RunningHub创作会员与团队会员字段经核对无变化；堆友官方登录墙，AnySearch已调用但无法确认当前会员价格；本次经核对无数据变更） · Audio 数据更新于 2026.08.07（经核对无数据变更；Udio官方定价页完整且字段一致；Suno官方页经AnySearch可提取但仅确认年度视图，月付未独立确认；Ace Studio官方页仅显示订阅结构，AnySearch未补足价格证据；海螺AI订阅页重定向至创作首页，CDP connected:null，AnySearch未找到中国区当前音频订阅方案） · 中转站 数据更新于 2026.07.05（经核对无变化） · 价格对比 新增于 2026.07.06 · Video 本次经核对无数据变更
+> Coding 数据更新于 2026.08.06（27个监控条目逐一访问；经核对无数据变更；Kimi当前月付¥39/¥79/¥159/¥559确认；字节·方舟活动页与AtomCode活动页为空壳，已用官方文档/AnySearch辅助核对） · Token 数据更新于 2026.08.06（7个监控条目逐一访问；腾讯新增GLM-5.2并将Kimi-K2.5下线日期更新为8.31，Hy3 preview自动路由至Hy3；天翼云支持模型更新为GLM-5.1/DeepSeek-V4-Flash；阿里Token/MiMo/OpenCode Go/Alaya/TaoToken价格额度套餐数量经核对无变化；小米MiMo V2系列已于6.30正式下线） · Video 数据更新于 2026.08.07（经核对无变化；可灵/RunningHub/腾讯混元/通义万相官方证据完整且字段保持；即梦仅确认Seedance 2.5活动文案未加载会员价格；Vidu/海螺AI/pai.video官方订阅证据仍不完整，已执行AnySearch） · Image 数据更新于 2026.08.06（Midjourney官方四档价格/权益、通义万相、Liblib AI、RunningHub创作会员与团队会员字段经核对无变化；堆友官方登录墙，AnySearch已调用但无法确认当前会员价格；本次经核对无数据变更） · Audio 数据更新于 2026.08.07（经核对无数据变更；Udio官方定价页完整且字段一致；Suno官方页经AnySearch可提取但仅确认年度视图，月付未独立确认；Ace Studio官方页仅显示订阅结构，AnySearch未补足价格证据；海螺AI订阅页重定向至创作首页，CDP connected:null，AnySearch未找到中国区当前音频订阅方案） · 中转站 数据更新于 2026.07.05（经核对无变化） · 价格对比 新增于 2026.07.06 · Video 本次经核对无数据变更
 
 ---
 
