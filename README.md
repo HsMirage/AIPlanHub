@@ -14,7 +14,7 @@
 
 ---
 
-> Coding 数据更新于 2026.08.07（27个监控条目逐一访问；TaoToken三档均已售罄且活动已结束；Ollama Max新注册暂停；OpenStarry取消周限额；其余经核对无变化） · Token 数据更新于 2026.08.07（7个监控条目逐一访问；腾讯Token的MiniMax-M2.5下线日期已过但官方文档尚未移除；小米MiMo V2系列已于6.30正式下线；阿里Token/OpenCode Go/TaoToken价格额度套餐数量经核对无变化；阿里个人版5小时限额存在官方页面口径冲突，待复核；Alaya模型分档证据不完整，未改模型字段） · Video 数据更新于 2026.08.07（经核对无变化；可灵/RunningHub/腾讯混元/通义万相官方证据完整且字段保持；即梦仅确认Seedance 2.5活动文案未加载会员价格；Vidu/海螺AI/pai.video官方订阅证据仍不完整，已执行AnySearch） · Image 数据更新于 2026.08.07（Midjourney官方页Cloudflare验证，AnySearch确认四档$10/$30/$60/$120及年付折扣；Liblib AI创作/团队会员官方页完整，连续包月与八列对比表经核对无变化；通义万相官方页完整字段仍需登录态确认，AnySearch未找到可用官方价格证据；RunningHub创作会员六档及团队会员四档官方页经核对无变化；堆友官方登录墙，AnySearch已调用但无法确认当前会员价格；本次经核对无数据变更） · Audio 数据更新于 2026.08.07（经核对无数据变更；Udio官方定价页完整且字段一致；Suno官方页经AnySearch可提取但仅确认年度视图，月付未独立确认；Ace Studio官方页仅显示订阅结构，AnySearch未补足价格证据；海螺AI订阅页重定向至创作首页，CDP connected:null，AnySearch未找到中国区当前音频订阅方案） · 中转站 数据更新于 2026.07.05（经核对无变化） · 价格对比 新增于 2026.07.06 · Video 本次经核对无数据变更
+> Coding 数据更新于 2026.08.07（字节·方舟评分4→3星：GLM-5.2加量4倍活动8.8结束、首月2.5折特惠延续至11.8；其余经核对无变化） · Token 数据更新于 2026.08.07（7个监控条目逐一访问；腾讯Token的MiniMax-M2.5下线日期已过但官方文档尚未移除；小米MiMo V2系列已于6.30正式下线；阿里Token/OpenCode Go/TaoToken价格额度套餐数量经核对无变化；阿里个人版5小时限额存在官方页面口径冲突，待复核；Alaya模型分档证据不完整，未改模型字段） · Video 数据更新于 2026.08.07（经核对无变化；可灵/RunningHub/腾讯混元/通义万相官方证据完整且字段保持；即梦仅确认Seedance 2.5活动文案未加载会员价格；Vidu/海螺AI/pai.video官方订阅证据仍不完整，已执行AnySearch） · Image 数据更新于 2026.08.07（Midjourney官方页Cloudflare验证，AnySearch确认四档$10/$30/$60/$120及年付折扣；Liblib AI创作/团队会员官方页完整，连续包月与八列对比表经核对无变化；通义万相官方页完整字段仍需登录态确认，AnySearch未找到可用官方价格证据；RunningHub创作会员六档及团队会员四档官方页经核对无变化；堆友官方登录墙，AnySearch已调用但无法确认当前会员价格；本次经核对无数据变更） · Audio 数据更新于 2026.08.08（经核对无数据变更；Udio官方定价页完整且字段一致；Suno官方页两次Hermes访问超时，AnySearch命中官方定价结果并确认套餐结构与本地一致；Ace Studio官方页重定向至acestudio.cn且仅显示订阅结构，AnySearch未补足价格证据；海螺AI订阅页重定向至创作首页，CDP connected:null，AnySearch未找到中国区当前音频订阅方案） · 中转站 数据更新于 2026.07.05（经核对无变化） · 价格对比 新增于 2026.07.06 · Video 本次经核对无数据变更
 
 ---
 
@@ -54,7 +54,7 @@ https://ai.hsnb.fun/aiplanhub
 | 智谱AI | GLM-5.2 / GLM-5-Turbo / GLM-4.7 | 3 | ¥49 | ★ |
 
 | 稳明光语纪 | GLM-5.2 / DeepSeek-V4-Flash-0731 | 5 | ¥29.9 | ★★★★ |
-| 字节·方舟 | GLM-5.2 / Doubao-Seed-2.1-turbo / Kimi-K2.7 | 2 | ¥40 | ★★★★ |
+| 字节·方舟 | GLM-5.2 / Doubao-Seed-2.1-turbo / Kimi-K2.7 | 2 | ¥40 | ★★★ |
 | Charm Hyper | DeepSeek-V4-Flash / DeepSeek-V4-Pro / GLM-5.2 | 5 | $0 | ★★★½ |
 | Meituan CatPaw | — | 1 | 免费 | ★★★★ |
 | Kimi | Kimi-K3 / Kimi-K2.7-Code | 4 | ¥39 | ★★★★ |
