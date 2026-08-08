@@ -49,7 +49,7 @@ https://ai.hsnb.fun/aiplanhub
 | 平台 | 代表模型 | 方案数 | 月付起 | 评分 |
 |------|----------|--------|--------|------|
 | ChatGPT | GPT-5.4 / GPT-Image-2 / GPT-5.3-Codex | 2 | ¥26.6 | ★★★★★ |
-| xKiro | Qwen3.8 Max / GLM-5.2 / MiniMax M3 / DeepSeek V4 Pro | 6 | $0 | ★★★★★ |
+| xKiro | Qwen3.8 Max / GLM-5.2 / MiniMax M3 / DeepSeek V4 Pro | 6 | $0 | ★★★★½ |
 | 商汤SenseNova | SenseNova 6.7 Flash-Lite / SenseNova U1 Fast | 1 | 免费 | ★★★★★ |
 | 智谱AI | GLM-5.2 / GLM-5-Turbo / GLM-4.7 | 3 | ¥49 | ★ |
 
