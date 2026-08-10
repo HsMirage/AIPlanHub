@@ -14,7 +14,7 @@
 
 ---
 
-> Coding 数据更新于 2026.08.10（27个监控条目逐一访问；xKiro官方价格页显示Free为100K token/天、50+模型/6家供应商；登录模型页未通过，完整模型数未复核；其余可访问页面未发现可复核的数据变更） · Token 数据更新于 2026.08.09（7个监控条目逐一访问；腾讯/阿里/MiMo/OpenCode Go/TaoToken价格额度套餐数量经核对无变化；腾讯官方文档仍保留MiniMax-M2.5并标注下线日期已过、Kimi-K2.5将于8.31下线；天翼云官方页面模型说明存在冲突，Alaya模型分档信息不完整，均未改模型字段） · Video 数据更新于 2026.08.11（8个平台逐一访问；可灵/腾讯混元官方证据完整且字段保持；通义万相标准/高级视频时长更新为10-30s；RunningHub创作会员价格一致·团队会员¥100券8.10到期已移除文案；即梦仅确认Seedance 2.5活动横幅未加载会员价格；Vidu/海螺AI/pai.video官方订阅证据不完整，已执行AnySearch；海螺AI尊享首购优惠迹象待CDP复查） · Image 数据更新于 2026.08.11（5个平台逐一访问；Midjourney官方API复核四档$10/$30/$60/$120及年付折扣无变化；Liblib AI六档月付/年付价格与积分无变化，活动更新为Seedance系列&MiniMax H3狂欢季（Seedance 2.5限时58折·H3限时6折·高级/豪华/至尊赠10/20/40条Seedance 2.5+H3免费畅用2/5/10天）；通义万相三档及灵感值无变化；RunningHub创作会员月付/年付无变化，团队会员新增年付档¥3699/6399/9799/11999；堆友官方页登录墙，AnySearch经阿里云市场确认专业版¥59/53/399与本地一致，标准版/团队版无法核验） · Audio 数据更新于 2026.08.11（经核对无数据变更；Udio官方定价页完整且字段一致；Suno官方页两次Hermes访问超时，CDP不可用，AnySearch多来源确认Pro $10/月·Premier $30/月·年付$96/$288与本地一致；Ace Studio官方页重定向至acestudio.cn中文站显示CNY定价，AnySearch确认USD Artist $16.58/Artist Pro $22与本地一致；海螺AI订阅页两次Hermes超时，AnySearch仅命中视频会员信息，中国区音频订阅方案无法确认） · 中转站 数据更新于 2026.07.05（经核对无变化） · 价格对比 新增于 2026.07.06 · Coding 本次已更新Kimi价格与K3准入
+> Coding 数据更新于 2026.08.10（27个监控条目逐一访问；xKiro官方价格页显示Free为100K token/天、50+模型/6家供应商；登录模型页未通过，完整模型数未复核；其余可访问页面未发现可复核的数据变更） · Token 数据更新于 2026.08.11（7个监控条目逐一访问；腾讯/OpenCode Go/天翼云/Alaya/TaoToken价格额度套餐模型经核对无变化；阿里·Token Plan个人版新增用量包¥100/20,000 Credits需有效订阅最多5个；小米·MiMo新增MiMo Claw加购¥14.90/月·¥233.80/年旗舰模型+金山办公，价格额度无变化；腾讯官方文档仍保留MiniMax-M2.5下线日期已过、Kimi-K2.5将于8.31下线；天翼云官方模型说明仍冲突以购买页为准） · Video 数据更新于 2026.08.11（8个平台逐一访问；可灵/腾讯混元官方证据完整且字段保持；通义万相标准/高级视频时长更新为10-30s；RunningHub创作会员价格一致·团队会员¥100券8.10到期已移除文案；即梦仅确认Seedance 2.5活动横幅未加载会员价格；Vidu/海螺AI/pai.video官方订阅证据不完整，已执行AnySearch；海螺AI尊享首购优惠迹象待CDP复查） · Image 数据更新于 2026.08.11（5个平台逐一访问；Midjourney官方API复核四档$10/$30/$60/$120及年付折扣无变化；Liblib AI六档月付/年付价格与积分无变化，活动更新为Seedance系列&MiniMax H3狂欢季（Seedance 2.5限时58折·H3限时6折·高级/豪华/至尊赠10/20/40条Seedance 2.5+H3免费畅用2/5/10天）；通义万相三档及灵感值无变化；RunningHub创作会员月付/年付无变化，团队会员新增年付档¥3699/6399/9799/11999；堆友官方页登录墙，AnySearch经阿里云市场确认专业版¥59/53/399与本地一致，标准版/团队版无法核验） · Audio 数据更新于 2026.08.11（经核对无数据变更；Udio官方定价页完整且字段一致；Suno官方页两次Hermes访问超时，CDP不可用，AnySearch多来源确认Pro $10/月·Premier $30/月·年付$96/$288与本地一致；Ace Studio官方页重定向至acestudio.cn中文站显示CNY定价，AnySearch确认USD Artist $16.58/Artist Pro $22与本地一致；海螺AI订阅页两次Hermes超时，AnySearch仅命中视频会员信息，中国区音频订阅方案无法确认） · 中转站 数据更新于 2026.07.05（经核对无变化） · 价格对比 新增于 2026.07.06 · Coding 本次已更新Kimi价格与K3准入
 
 ---
 
@@ -51,10 +51,10 @@ https://ai.hsnb.fun/aiplanhub
 | ChatGPT | GPT-5.4 / GPT-Image-2 / GPT-5.3-Codex | 2 | ¥26.6 | ★★★★★ |
 | xKiro | Qwen3.8 Max / GLM-5.2 / MiniMax M3 / DeepSeek V4 Pro | 6 | $0 | ★★★★½ |
 | 商汤SenseNova | SenseNova 6.7 Flash-Lite / SenseNova U1 Fast | 1 | 免费 | ★★★★★ |
-| 智谱AI | GLM-5.2 / GLM-5-Turbo / GLM-4.7 | 3 | ¥49 | ★ |
+| 智谱AI | GLM-5.2 / GLM-5-Turbo / GLM-4.7 | 3 | ¥118 | ★ |
 
 | 稳明光语纪 | GLM-5.2 / DeepSeek-V4-Flash-0731 | 5 | ¥29.9 | ★★★★ |
-| 字节·方舟 | GLM-5.2 / Doubao-Seed-2.1-turbo / Kimi-K2.7 | 2 | ¥40 | ★★★ |
+| 字节·方舟 | GLM-5.2 / Doubao-Seed-2.1-turbo / Kimi-K2.7-Code | 2 | ¥40 | ★★★ |
 | Charm Hyper | DeepSeek-V4-Flash / DeepSeek-V4-Pro / GLM-5.2 | 5 | $0 | ★★★½ |
 | Meituan CatPaw | — | 1 | 免费 | ★★★★ |
 | Kimi | Kimi-K3 / Kimi-K2.7-Code | 4 | ¥39 | ★★★★ |
@@ -66,7 +66,7 @@ https://ai.hsnb.fun/aiplanhub
 | 阶跃星辰 | Step-3.5-Flash-2603 | 4 | ¥49 | ★★★ |
 | 快手 StreamLake | KAT-Coder-Pro V2.5 | 4 | ¥29 | ★★★ |
 | Ollama | GLM-5.1 / DeepSeek-V4-Flash / MiniMax-M2.7 | 3 | $0 | ★★★ |
-| AtomCode | GLM-5.2 / DeepSeek-V4-Flash | 3 | 免费 | ★★★ |
+| AtomCode | GLM-5.2 / DeepSeek-V4-Flash / Doubao-Seed-Evolving | 3 | 免费 | ★★★ |
 | z.ai | GLM-5.1（国际版） | 3 | $18 | ★ |
 | MiniMax | MiniMax-M3 / M2.7 | 3 | ¥49 | ★★ |
 | 联通云 | DeepSeek-V4-Pro / Kimi-K2.6 / Qwen3.6-27B | 2 | ¥40 | ★★ |
@@ -97,7 +97,7 @@ https://ai.hsnb.fun/aiplanhub
 | OpenStarry | 星序版(周) | ¥9.9 | 赠200次 | 不限 | [开通](https://api.openstarry.com/auth?mode=register&aff=X31B) |
 | OpenStarry | 星创版 | ¥49.9 | — | 1,000 | [开通](https://api.openstarry.com/auth?mode=register&aff=X31B) |
 | 蓝耘元生代云 | 入门版 | ¥49 | — | 1,200 | [开通](https://console.lanyun.net/#/register?promoterCode=3ef0f72996) |
-| 智谱AI | Lite | ¥49 | — | 1,200 | [开通](https://www.bigmodel.cn/glm-coding?ic=DGRQECTZFB) |
+| 智谱AI | Lite | ¥118 | — | 2,000 | [开通](https://www.bigmodel.cn/glm-coding?ic=DGRQECTZFB) |
 | 优云智算 | Mini | ¥49 | — | 200 | [开通](https://passport.compshare.cn/register?referral_code=Kkl0Vgy0pCsFOzeMtfGBdI) |
 | Kimi | Andante | ¥49 | — | — | [开通](https://kimi-bot.com/activities/zh-cn/viral-referral/share?scenario=invite&from=share_poster&invitation_code=ANRBYG) |
 | 阶跃星辰 | Flash Mini | ¥49 | — | 1,500 | [开通](https://platform.stepfun.com?invite_code=KHVQVECJ) |
@@ -132,7 +132,7 @@ https://ai.hsnb.fun/aiplanhub
 | Charm Hyper | Bundle $20 | $20(一次) | — | — | [开通](https://hyper.charm.land/) |
 | OpenStarry | 星途版 | ¥119 | — | 2,500 | [开通](https://api.openstarry.com/auth?mode=register&aff=X31B) |
 | 蓝耘元生代云 | 专业版 | ¥149 | — | 6,000 | [开通](https://console.lanyun.net/#/register?promoterCode=3ef0f72996) |
-| 智谱AI | Pro | ¥149 | — | 6,000 | [开通](https://www.bigmodel.cn/glm-coding?ic=DGRQECTZFB) |
+| 智谱AI | Pro | ¥538 | — | 12,000 | [开通](https://www.bigmodel.cn/glm-coding?ic=DGRQECTZFB) |
 | 讯飞星辰 | 高效版 | ¥199 | — | 6,000 | [开通](https://maas.xfyun.cn/packageSubscription?inviteCode=MAAS-7573AB85) |
 | 优云智算 | Basic | ¥199 | — | 800 | [开通](https://passport.compshare.cn/register?referral_code=Kkl0Vgy0pCsFOzeMtfGBdI) |
 | 阶跃星辰 | Flash Pro | ¥199 | — | 22,500 | [开通](https://platform.stepfun.com?invite_code=KHVQVECJ) |
@@ -158,7 +158,7 @@ https://ai.hsnb.fun/aiplanhub
 | MiniMax | Ultra | ¥469 | — | 15,000 | [开通](https://platform.minimaxi.com/subscribe/token-plan) |
 | 稳明光语纪 | Max | ¥429 | — | — | [开通](https://wenming7.cn/sales?ref=DCRTY9PM) |
 | 蓝耘元生代云 | 高级版 | ¥469 | — | 24,000 | [开通](https://console.lanyun.net/#/register?promoterCode=3ef0f72996) |
-| 智谱AI | Max | ¥469 | — | 24,000 | [开通](https://www.bigmodel.cn/glm-coding?ic=DGRQECTZFB) |
+| 智谱AI | Max | ¥1078 | — | 28,000 | [开通](https://www.bigmodel.cn/glm-coding?ic=DGRQECTZFB) |
 | 阶跃星辰 | Flash Max | ¥699 | — | 75,000 | [开通](https://platform.stepfun.com?invite_code=KHVQVECJ) |
 | Kimi | Allegro | ¥699 | — | — | [开通](https://kimi-bot.com/activities/zh-cn/viral-referral/share?scenario=invite&from=share_poster&invitation_code=ANRBYG) |
 
@@ -166,10 +166,10 @@ https://ai.hsnb.fun/aiplanhub
 
 | 平台 | 方案 | 月付 | 首月价 | 5h请求数 | 开通 |
 |------|------|------|--------|----------|------|
-| OpenCode Go | Go（Grok-4.5 / GLM-5.2 / GPT-5.6-Luna / Kimi-K3 / Hy3 等17款） | $10 | $5 | $12/5h $30/周 $60/月 | [Go \| OpenCode](https://opencode.ai/go?ref=V156X2ZH2S) |
-| z.ai | Lite | $18 | — | 1,200 | [开通](https://z.ai/subscribe?ic=V6PINPKB9I) |
-| z.ai | Pro | $72 | — | 6,000 | [开通](https://z.ai/subscribe?ic=V6PINPKB9I) |
-| z.ai | Max | $160 | — | 24,000 | [开通](https://z.ai/subscribe?ic=V6PINPKB9I) |
+| OpenCode Go | Go（Grok-4.5 / GLM-5.2 / GPT-5.6-Luna / Kimi-K3 / Hy3 等18款） | $10 | $5 | $12/5h $30/周 $60/月 | [Go \| OpenCode](https://opencode.ai/go?ref=V156X2ZH2S) |
+| z.ai | Lite | $18 | — | 2,000 | [开通](https://z.ai/subscribe?ic=V6PINPKB9I) |
+| z.ai | Pro | $80 | — | 12,000 | [开通](https://z.ai/subscribe?ic=V6PINPKB9I) |
+| z.ai | Max | $168 | — | 28,000 | [开通](https://z.ai/subscribe?ic=V6PINPKB9I) |
 
 ---
 
@@ -181,7 +181,7 @@ https://ai.hsnb.fun/aiplanhub
 |------|----------|--------|--------|------|
 | ChatGPT | GPT-5.4 / GPT-Image-2 / GPT-5.3-Codex | 1 | ¥28.8 | ★★★★★ |
 | OpenCode Go | GLM-5.2 / GPT-5.6-Luna / Qwen3.8-Max / DeepSeek-V4-Pro / Kimi-K2.6 | 1 | $10 | ★★★★ |
-| 阿里·Token Plan | qwen3.8-max-preview / Qwen3.7-Max / DeepSeek-V4-Pro / GLM-5.2 / Kimi-K2.6 | 7 | ¥39 | ★★★ |
+| 阿里·Token Plan | qwen3.8-max-preview / Qwen3.7-Max / DeepSeek-V4-Pro / GLM-5.2 / Kimi-K2.6 | 8 | ¥39 | ★★★ |
 | TaoToken | DeepSeek-V4-Pro / Kimi-K3 / GLM-5.2 | 3 | ¥59 | ★★ |
 | 方舟 Agent Plan | DeepSeek-V4-Pro / GLM-5.1 / Kimi-K2.6 | 4 | ¥40 | ★★ |
 | 腾讯·Token | Auto / GLM-5.2 / DeepSeek-V4-Flash/Pro / Kimi-K2.5 / Hy3 | 8 | ¥28 | ★ |
@@ -201,6 +201,7 @@ https://ai.hsnb.fun/aiplanhub
 | OpenCode Go | Go | $10 | $5 | $12/5h $30/周 $60/月 | [Go \| OpenCode](https://opencode.ai/go?ref=V156X2ZH2S) |
 | ChatGPT | Token | ¥28.8 | — | 100 刀·暂时售罄 | [开通](https://pay.ldxp.cn/shop/mirage) |
 | 腾讯·Token | Standard | ¥99 | — | 1亿 Tokens/月 | [开通](https://curl.qcloud.com/1Uogyigq) |
+| 阿里·Token Plan | 用量包 | ¥100 | — | 20,000 Credits/个·需有效订阅·最多5个 | [开通](https://common-buy.aliyun.com/token-plan) |
 | TaoToken | Lite | ¥59 | — | 5,000 Credits/月 | [开通](https://taotoken.net/?u=inv_iyn75yglujwdy9ij&utm_source=tt_invite) |
 | TaoToken | 加油包 | ¥99 | — | 10,000 Credits/月(附加购) | [开通](https://taotoken.net/?u=inv_iyn75yglujwdy9ij&utm_source=tt_invite) |
 | 天翼云·Token | 8000万 | ¥89 | — | 8,000万 Tokens/月 | [开通](https://www.ctyun.cn/act/AI/zhuanxiang) |
