@@ -14,7 +14,7 @@
 
 ---
 
-> Coding 数据更新于 2026.08.10（27个监控条目逐一访问；xKiro官方价格页显示Free为100K token/天、50+模型/6家供应商；登录模型页未通过，完整模型数未复核；其余可访问页面未发现可复核的数据变更） · Token 数据更新于 2026.08.11（7个监控条目逐一访问；腾讯/OpenCode Go/天翼云/Alaya/TaoToken价格额度套餐模型经核对无变化；阿里·Token Plan个人版新增用量包¥100/20,000 Credits需有效订阅最多5个；小米·MiMo新增MiMo Claw加购¥14.90/月·¥233.80/年旗舰模型+金山办公，价格额度无变化；腾讯官方文档仍保留MiniMax-M2.5下线日期已过、Kimi-K2.5将于8.31下线；天翼云官方模型说明仍冲突以购买页为准） · Video 数据更新于 2026.08.12（8个平台逐一访问；可灵三视图/腾讯混元新旧接口/通义万相官方证据完整且无变化；RunningHub创作会员月付一致·团队会员新增年付档¥3699/6399/9799/11999已同步；即梦确认"团队会员全新上线"横幅但价格需登录；Vidu CDN拦截/海螺AI登录墙/pai.video登录墙，已执行AnySearch无法确认，海螺AI尊享首购优惠迹象待CDP复查） · Image 数据更新于 2026.08.12（5个平台逐一访问；Midjourney官方API复核四档$10/$30/$60/$120及年付折扣无变化；Liblib AI六档月付/年付价格与积分无变化，Seedance系列&MiniMax H3狂欢季活动持续中（倒计时5天）；通义万相三档及灵感值无变化；RunningHub创作会员六档月付/年付、团队会员四档月付/年付均无变化；堆友官方登录墙，AnySearch经阿里云市场确认专业版¥59/53/399与本地一致，标准版/团队版无法核验） · Audio 数据更新于 2026.08.12（经核对无数据变更；Udio官方定价页AnySearch官方help.udio.com确认$10/$30月付·年付$96/$288·2400/6000积分与本地一致；Suno官方页两次Hermes访问超时，CDP不可用，AnySearch捕获suno.com/pricing官方内容确认Pro $10/月·Premier $30/月·年付$96/$288与本地一致；Ace Studio官方页重定向至acestudio.cn中文站显示CNY定价（月度¥148/¥199·年度¥83.17/¥116.58月均），权益160+/40+/2500/5000点数一致；海螺AI订阅页两次Hermes超时，CDP不可用，AnySearch两次搜索仅命中视频会员信息/国际版代充/付费协议通用条款，中国区当前音频订阅方案无法确认） · 中转站 数据更新于 2026.07.05（经核对无变化） · 价格对比 新增于 2026.07.06 · Coding 本次已更新Kimi价格与K3准入
+> Coding 数据更新于 2026.08.12（26个监控条目逐一访问；腾讯·Coding MiniMax-M2.5已于8.07下线并从模型列表移除；阿里·百炼新增新客首月特惠¥39.90；OpenStarry抵扣系数更新（glm-5.2限时6折·kimi-k3限时5折至8.31，新增qwen3.8-max入抵扣表）；智谱AI/z.ai积分制、字节·方舟、OpenCode Go、TaoToken、AtomCode、xKiro价格页等经核对无变化；天翼云文档404·京东云CodingPlan停售；讯飞星辰订阅页登录墙·xKiro登录模型页未通过） · Token 数据更新于 2026.08.11（7个监控条目逐一访问；腾讯/OpenCode Go/天翼云/Alaya/TaoToken价格额度套餐模型经核对无变化；阿里·Token Plan个人版新增用量包¥100/20,000 Credits需有效订阅最多5个；小米·MiMo新增MiMo Claw加购¥14.90/月·¥233.80/年旗舰模型+金山办公，价格额度无变化；腾讯官方文档仍保留MiniMax-M2.5下线日期已过、Kimi-K2.5将于8.31下线；天翼云官方模型说明仍冲突以购买页为准） · Video 数据更新于 2026.08.12（8个平台逐一访问；可灵三视图/腾讯混元新旧接口/通义万相官方证据完整且无变化；RunningHub创作会员月付一致·团队会员新增年付档¥3699/6399/9799/11999已同步；即梦确认"团队会员全新上线"横幅但价格需登录；Vidu CDN拦截/海螺AI登录墙/pai.video登录墙，已执行AnySearch无法确认，海螺AI尊享首购优惠迹象待CDP复查） · Image 数据更新于 2026.08.12（5个平台逐一访问；Midjourney官方API复核四档$10/$30/$60/$120及年付折扣无变化；Liblib AI六档月付/年付价格与积分无变化，Seedance系列&MiniMax H3狂欢季活动持续中（倒计时5天）；通义万相三档及灵感值无变化；RunningHub创作会员六档月付/年付、团队会员四档月付/年付均无变化；堆友官方登录墙，AnySearch经阿里云市场确认专业版¥59/53/399与本地一致，标准版/团队版无法核验） · Audio 数据更新于 2026.08.12（经核对无数据变更；Udio官方定价页AnySearch官方help.udio.com确认$10/$30月付·年付$96/$288·2400/6000积分与本地一致；Suno官方页两次Hermes访问超时，CDP不可用，AnySearch捕获suno.com/pricing官方内容确认Pro $10/月·Premier $30/月·年付$96/$288与本地一致；Ace Studio官方页重定向至acestudio.cn中文站显示CNY定价（月度¥148/¥199·年度¥83.17/¥116.58月均），权益160+/40+/2500/5000点数一致；海螺AI订阅页两次Hermes超时，CDP不可用，AnySearch两次搜索仅命中视频会员信息/国际版代充/付费协议通用条款，中国区当前音频订阅方案无法确认） · 中转站 数据更新于 2026.07.05（经核对无变化） · 价格对比 新增于 2026.07.06
 
 ---
 
@@ -60,7 +60,7 @@ https://ai.hsnb.fun/aiplanhub
 | Kimi | Kimi-K3 / Kimi-K2.7-Code | 4 | ¥39 | ★★★★ |
 | 阿里·百炼 | Qwen3.6-Plus | 1 | ¥200 | ★★★ |
 | 蓝耘元生代云 | GLM-5.1 | 3 | ¥49 | ★★★ |
-| 腾讯·Coding | GLM-5 / Kimi-K2.5 / MiniMax-M2.5 | 2 | ¥40 | ★★★ |
+| 腾讯·Coding | GLM-5 / Kimi-K2.5 | 2 | ¥40 | ★★★ |
 | 百度·千帆 | GLM / DeepSeek / Kimi | 4 | ¥4.9 | ★★★ |
 | 讯飞星辰 | GLM-5.2 / Spark X2 Agent / Kimi-K2.7-Code | 2 | ¥199 | ★★★ |
 | 阶跃星辰 | Step-3.5-Flash-2603 | 4 | ¥49 | ★★★ |
@@ -145,7 +145,7 @@ https://ai.hsnb.fun/aiplanhub
 
 | 平台 | 方案 | 月付 | 首月价 | 5h请求数 | 开通 |
 |------|------|------|--------|----------|------|
-| 阿里·百炼 | Pro | ¥200 | — | 6,000 | [开通](https://www.aliyun.com/minisite/goods?userCode=hun0t0sf) |
+| 阿里·百炼 | Pro | ¥200 | ¥39.9 | 6,000 | [开通](https://www.aliyun.com/minisite/goods?userCode=hun0t0sf) |
 | TaoToken | Max | ¥388 | — | — | [开通](https://taotoken.net/?u=inv_iyn75yglujwdy9ij&utm_source=tt_invite) |
 | 百度·千帆 | Pro | ¥99.9 | — | 2.3亿 Tokens/月 | [开通](https://cloud.baidu.com/product/codingplan.html) |
 | 百度·千帆 | Max | ¥299.9 | — | 7亿 Tokens/月 | [开通](https://cloud.baidu.com/product/codingplan.html) |
@@ -286,7 +286,7 @@ https://ai.hsnb.fun/aiplanhub
 
 - **MiniMax** — 2026.06.01 全面升级 M3 体系，Starter/极速版下架，Plus ¥49/Max ¥119/Ultra ¥469 三档（年付立省2月），M2.7 参考 1500/4500/15000 次/5h，月 6~55 亿 token
 - **智谱AI** — 新版积分制价格大幅上调：Lite ¥118 / Pro ¥538 / Max ¥1078；MCP 与模型共享额度，OpenClaw 采用次级调度，当前性价比很差，降为 1 星
-- **阿里·百炼** — Pro专属 Qwen3.6-Plus，Pro 固定 ¥200/月，每周 45,000 次请求
+- **阿里·百炼** — Pro专属 Qwen3.6-Plus，Pro 固定 ¥200/月，每周 45,000 次请求；2026.08 新增新客首月特惠 ¥39.90
 
 - **优云 (Token)** — ⚠️已售罄，新套餐即将上线；支持 MiniMax-M2.1/M2.5、DeepSeek-V3.2、Kimi-K2.5，积分制，允许 API 调用
 - **腾讯·Token (Token)** — ⚠️按Token计费但无公开用量计算器，用户无法自测透明度，仅限AI工具使用
