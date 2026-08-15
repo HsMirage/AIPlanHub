@@ -14,7 +14,7 @@
 
 ---
 
-> Coding 数据更新于 2026.08.15（GLM-5.3上线：智谱AI/z.ai全套餐模型GLM-5.2→GLM-5.3（历史模型自动切换）·字节方舟接入文档8.14新增GLM-5.3支持·OpenCode Go新增GLM-5.3（18→19款）·Charm Hyper与OpenCode Go新增DeepSeek-V4-Pro-0813（16→17款/19→20款）；百度千帆Token Plan个人版模型精确化7款（文档8.11更新·ERNIE 5.1将于8.20下线·DeepSeek-V4-Flash-0731正式版入列）；TaoToken新一轮限时限量抢购进行中·Pro ¥149→¥99（原价¥298）·Lite售罄¥39/Max ¥388可购；其余平台经核对无变化；天翼云文档404（无Coding Plan恢复）·京东云CodingPlan停售保持；xKiro新增DeepSeek V4 Pro 0813/GLM-5.3（用户确认·登录墙未复核全量模型）·xKiro评分4→3.5星·OpenCode Go评分4→4.5星） · Token 数据更新于 2026.08.15（7个监控条目逐一访问·经核对无变化；腾讯·Token通用/Hy各4档价格额度与模型8款一致·Kimi-K2.5将于8.31下线；阿里个人版3档+用量包/团队版3档+共享用量包一致；MiMo 4档价格/Credits与MiMo Claw加购一致；OpenCode Go 20款模型一致（含GLM-5.3/DeepSeek-V4-Pro-0813）；天翼云5档价格一致·818 Token Plan订购专区6档仍在（不入PLANS）；Alaya 3档一致；TaoToken Lite/Pro/加油包与7款模型一致·OpenCode Go评分4→4.5星） · Video 数据更新于 2026.08.16（8个平台逐一访问；即梦变化：基础/标准包季首季优惠结束（页面仅显示续费价¥188/¥568）·高级包季首季¥1,958→¥1,959·30-180秒视频7.2折活动(7.31-8.6)结束横幅消失·Seedance 2.5积分消耗5.4折持续·团队会员730/329倒计时约8.20仍有效；RunningHub三视图全一致（连续包月29/49/69/119/99/169·年付249/429/599/1019/899/1529+团队3699/6399/9799/11999）；可灵月/年付一致·季付152/614/1538/3049为08-14核验（视图切换仍失败）·腾讯混元文档价格一致·通义万相官方定价页三档一致·海螺AI首页RSC价格一致·大师贝壳10000滞后值；Vidu CDN拦截·pai.video登录墙，均执行AnySearch无法确认国内版价格） · Image 数据更新于 2026.08.16（5个监控平台逐一访问经核对无变化：Midjourney官方文档四档$10/$30/$60/$120一致；Liblib六档月/年付与积分一致（月付39/66/199/669/1299/2599·年付429/729/2199/7399/14999/22999）；通义万相三档一致（标准¥72·高级¥288）；RunningHub三视图全一致（连续包月29/49/69/119/99/169·年付249/429/599/1019/899/1529+团队3699/6399/9799/11999）；堆友云市场官方自营店标准版¥39/36.5/299·专业版¥59/53/399一致；即梦同步Video cron变化：包季首季优惠结束·高级首季¥1,959·团队会员730/329倒计时约8.20） · Audio 数据更新于 2026.08.16（Suno/Udio/AceStudio官方定价页均成功·价格/积分/权益经核对无变化；Suno 9.3起月度下载限制Pro 20/Premier 60与本地一致；Udio积分购买100 credits $3/1000 credits $25一致；Ace Studio夏季特惠20% OFF持续；海螺AI订阅页Hermes两次重定向登录墙+CDP无登录态，AnySearch两轮搜索无法确认中国区音频订阅方案·本地数据保持不变） · 中转站 数据更新于 2026.08.15（THINK-AI已下架·仅保留幻境MirageAI·幻境充值链接更新） · 价格对比 新增于 2026.07.06
+> Coding 数据更新于 2026.08.16（OpenCode Go 官方文档模型列表20→19款：DeepSeek-V4-Pro-0813/DeepSeek-V4-Flash-0731 后缀条目移除·仅保留无后缀 DeepSeek V4 Pro/DeepSeek V4 Flash；其余25个监控条目经核对无变化：智谱AI/z.ai GLM-5.3积分额度不变·Kimi月付/年付不变·MiniMax三档不变·字节方舟接入文档GLM-5.3支持+即将下线标注不变·阿里百炼Pro ¥200/首月¥39.9不变·京东云文档正常·移动云Lite/Pro首月价不变·天翼云两文档仍404·联通云¥40/¥200+模型表不变·优云智算6档额度不变·腾讯Coding文档08.12更新不变·百度千帆重定向不变（ERNIE 5.1将于8.20下线）·讯飞订阅页CDP登录态复核19款/5款模型+价格不变·AtomCode无新信息·MiMo Token页不变·蓝耘三模型通用不变·阶跃星辰4档Credit不变·快手StreamLake 4档Prompts不变·Ollama 16款云模型+3档价格不变·OpenStarry抵扣表8.31活动不变·TaoToken抢购倒计时18时·Lite售罄/Pro ¥99/Max ¥388不变·稳明光语纪4档+新用户套餐不变·xKiro价格页6档额度不变） · Token 数据更新于 2026.08.16（Coding cron 同步：OpenCode Go 官方文档模型列表20→19款，DeepSeek-V4-Pro-0813/DeepSeek-V4-Flash-0731 后缀条目移除，仅保留无后缀 DeepSeek V4 Pro/DeepSeek V4 Flash；其余监控条目经核对无变化） · Video 数据更新于 2026.08.16（8个平台逐一访问；即梦变化：基础/标准包季首季优惠结束（页面仅显示续费价¥188/¥568）·高级包季首季¥1,958→¥1,959·30-180秒视频7.2折活动(7.31-8.6)结束横幅消失·Seedance 2.5积分消耗5.4折持续·团队会员730/329倒计时约8.20仍有效；RunningHub三视图全一致（连续包月29/49/69/119/99/169·年付249/429/599/1019/899/1529+团队3699/6399/9799/11999）；可灵月/年付一致·季付152/614/1538/3049为08-14核验（视图切换仍失败）·腾讯混元文档价格一致·通义万相官方定价页三档一致·海螺AI首页RSC价格一致·大师贝壳10000滞后值；Vidu CDN拦截·pai.video登录墙，均执行AnySearch无法确认国内版价格） · Image 数据更新于 2026.08.16（5个监控平台逐一访问经核对无变化：Midjourney官方文档四档$10/$30/$60/$120一致；Liblib六档月/年付与积分一致（月付39/66/199/669/1299/2599·年付429/729/2199/7399/14999/22999）；通义万相三档一致（标准¥72·高级¥288）；RunningHub三视图全一致（连续包月29/49/69/119/99/169·年付249/429/599/1019/899/1529+团队3699/6399/9799/11999）；堆友云市场官方自营店标准版¥39/36.5/299·专业版¥59/53/399一致；即梦同步Video cron变化：包季首季优惠结束·高级首季¥1,959·团队会员730/329倒计时约8.20） · Audio 数据更新于 2026.08.16（Suno/Udio/AceStudio官方定价页均成功·价格/积分/权益经核对无变化；Suno 9.3起月度下载限制Pro 20/Premier 60与本地一致；Udio积分购买100 credits $3/1000 credits $25一致；Ace Studio夏季特惠20% OFF持续；海螺AI订阅页Hermes两次重定向登录墙+CDP无登录态，AnySearch两轮搜索无法确认中国区音频订阅方案·本地数据保持不变） · 中转站 数据更新于 2026.08.15（THINK-AI已下架·仅保留幻境MirageAI·幻境充值链接更新） · 价格对比 新增于 2026.07.06
 
 ---
 
@@ -166,7 +166,7 @@ https://ai.hsnb.fun/aiplanhub
 
 | 平台 | 方案 | 月付 | 首月价 | 5h请求数 | 开通 |
 |------|------|------|--------|----------|------|
-| OpenCode Go | Go（Grok-4.5 / GLM-5.3 / GLM-5.2 / GPT-5.6-Luna / Kimi-K3 / Hy3 等20款） | $10 | $5 | $12/5h $30/周 $60/月 | [Go \| OpenCode](https://opencode.ai/go?ref=V156X2ZH2S) |
+| OpenCode Go | Go（Grok-4.5 / GLM-5.3 / GLM-5.2 / GPT-5.6-Luna / Kimi-K3 / Hy3 等19款） | $10 | $5 | $12/5h $30/周 $60/月 | [Go \| OpenCode](https://opencode.ai/go?ref=V156X2ZH2S) |
 | z.ai | Lite | $18 | — | 2,000 | [开通](https://z.ai/subscribe?ic=V6PINPKB9I) |
 | z.ai | Pro | $80 | — | 12,000 | [开通](https://z.ai/subscribe?ic=V6PINPKB9I) |
 | z.ai | Max | $168 | — | 28,000 | [开通](https://z.ai/subscribe?ic=V6PINPKB9I) |
@@ -180,7 +180,7 @@ https://ai.hsnb.fun/aiplanhub
 | 平台 | 代表模型 | 方案数 | 月付起 | 评分 |
 |------|----------|--------|--------|------|
 | ChatGPT | GPT-5.4 / GPT-Image-2 / GPT-5.3-Codex | 1 | ¥28.8 | ★★★★★ |
-| OpenCode Go | GLM-5.3 / GLM-5.2 / GPT-5.6-Luna / Qwen3.8-Max / DeepSeek-V4-Pro-0813 / Kimi-K2.6 | 1 | $10 | ★★★★½ |
+| OpenCode Go | GLM-5.3 / GLM-5.2 / GPT-5.6-Luna / Qwen3.8-Max / DeepSeek-V4-Pro / Kimi-K2.6 | 1 | $10 | ★★★★½ |
 | 阿里·Token Plan | qwen3.8-max-preview / Qwen3.7-Max / DeepSeek-V4-Pro / GLM-5.2 / Kimi-K2.6 | 8 | ¥39 | ★★★ |
 | TaoToken | DeepSeek-V4-Pro / Kimi-K3 / GLM-5.2 | 3 | ¥59 | ★★ |
 | 方舟 Agent Plan | DeepSeek-V4-Pro / GLM-5.1 / Kimi-K2.6 | 4 | ¥40 | ★★ |
