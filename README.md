@@ -14,7 +14,7 @@
 
 ---
 
-> Coding 数据更新于 2026.08.17（评分调整：OpenCode Go 4.5→3.5（DeepSeek-V4-Flash 额度缩水10倍·5h仅3,800次/周9,450/月18,900）·xKiro 3.5→4.0·Kimi 4→3.5（K2.5将下线·请求数不透明））｜原 2026.08.16 记录：OpenCode Go 官方文档模型列表20→19款：DeepSeek-V4-Pro-0813/DeepSeek-V4-Flash-0731 后缀条目移除·仅保留无后缀 DeepSeek V4 Pro/DeepSeek V4 Flash；其余25个监控条目经核对无变化：智谱AI/z.ai GLM-5.3积分额度不变·Kimi月付/年付不变·MiniMax三档不变·字节方舟接入文档GLM-5.3支持+即将下线标注不变·阿里百炼Pro ¥200/首月¥39.9不变·京东云文档正常·移动云Lite/Pro首月价不变·天翼云两文档仍404·联通云¥40/¥200+模型表不变·优云智算6档额度不变·腾讯Coding文档08.12更新不变·百度千帆重定向不变（ERNIE 5.1将于8.20下线）·讯飞订阅页CDP登录态复核19款/5款模型+价格不变·AtomCode无新信息·MiMo Token页不变·蓝耘三模型通用不变·阶跃星辰4档Credit不变·快手StreamLake 4档Prompts不变·Ollama 16款云模型+3档价格不变·OpenStarry抵扣表8.31活动不变·TaoToken抢购倒计时18时·Lite售罄/Pro ¥99/Max ¥388不变·稳明光语纪4档+新用户套餐不变·xKiro价格页6档额度不变） · Token 数据更新于 2026.08.17（评分调整：OpenCode Go 4.5→3.5（DeepSeek-V4-Flash 额度缩水10倍·官方文档5h仅3,800次））｜原 2026.08.16 记录：Token cron 全量核对7个条目·经核对无变化：OpenCode Go 19款模型无后缀；天翼云文档定价表支持模型显示GLM-5.1/DeepSeek-V4-Flash但购买页仍GLM-5/DeepSeek-V3.2·双源不一致待确认；腾讯/阿里/MiMo/Alaya/TaoToken价格额度模型一致） · Video 数据更新于 2026.08.16（8个平台逐一访问；即梦变化：基础/标准包季首季优惠结束（页面仅显示续费价¥188/¥568）·高级包季首季¥1,958→¥1,959·30-180秒视频7.2折活动(7.31-8.6)结束横幅消失·Seedance 2.5积分消耗5.4折持续·团队会员730/329倒计时约8.20仍有效；RunningHub三视图全一致（连续包月29/49/69/119/99/169·年付249/429/599/1019/899/1529+团队3699/6399/9799/11999）；可灵月/年付一致·季付152/614/1538/3049为08-14核验（视图切换仍失败）·腾讯混元文档价格一致·通义万相官方定价页三档一致·海螺AI首页RSC价格一致·大师贝壳10000滞后值；Vidu CDN拦截·pai.video登录墙，均执行AnySearch无法确认国内版价格） · Image 数据更新于 2026.08.16（5个监控平台逐一访问经核对无变化：Midjourney官方文档四档$10/$30/$60/$120一致；Liblib六档月/年付与积分一致（月付39/66/199/669/1299/2599·年付429/729/2199/7399/14999/22999）；通义万相三档一致（标准¥72·高级¥288）；RunningHub三视图全一致（连续包月29/49/69/119/99/169·年付249/429/599/1019/899/1529+团队3699/6399/9799/11999）；堆友云市场官方自营店标准版¥39/36.5/299·专业版¥59/53/399一致；即梦同步Video cron变化：包季首季优惠结束·高级首季¥1,959·团队会员730/329倒计时约8.20） · Audio 数据更新于 2026.08.16（Suno/Udio/AceStudio官方定价页均成功·价格/积分/权益经核对无变化；Suno 9.3起月度下载限制Pro 20/Premier 60与本地一致；Udio积分购买100 credits $3/1000 credits $25一致；Ace Studio夏季特惠20% OFF持续；海螺AI订阅页Hermes两次重定向登录墙+CDP无登录态，AnySearch两轮搜索无法确认中国区音频订阅方案·本地数据保持不变） · 中转站 数据更新于 2026.08.15（THINK-AI已下架·仅保留幻境MirageAI·幻境充值链接更新） · 价格对比 新增于 2026.07.06
+> Coding 数据更新于 2026.08.17（评分调整：OpenCode Go 4.5→3.5（DeepSeek-V4-Flash 额度缩水10倍·5h仅3,800次/周9,450/月18,900）·xKiro 3.5→4.0·Kimi 4→3.5（K2.5将下线·请求数不透明））｜原 2026.08.16 记录：OpenCode Go 官方文档模型列表20→19款：DeepSeek-V4-Pro-0813/DeepSeek-V4-Flash-0731 后缀条目移除·仅保留无后缀 DeepSeek V4 Pro/DeepSeek V4 Flash；其余25个监控条目经核对无变化：智谱AI/z.ai GLM-5.3积分额度不变·Kimi月付/年付不变·MiniMax三档不变·字节方舟接入文档GLM-5.3支持+即将下线标注不变·阿里百炼Pro ¥200/首月¥39.9不变·京东云文档正常·移动云Lite/Pro首月价不变·天翼云两文档仍404·联通云¥40/¥200+模型表不变·优云智算6档额度不变·腾讯Coding文档08.12更新不变·百度千帆重定向不变（ERNIE 5.1将于8.20下线）·讯飞订阅页CDP登录态复核19款/5款模型+价格不变·AtomCode无新信息·MiMo Token页不变·蓝耘三模型通用不变·阶跃星辰4档Credit不变·快手StreamLake 4档Prompts不变·Ollama 16款云模型+3档价格不变·OpenStarry抵扣表8.31活动不变·TaoToken抢购倒计时18时·Lite售罄/Pro ¥99/Max ¥388不变·稳明光语纪4档+新用户套餐不变·xKiro价格页6档额度不变） · Token 数据更新于 2026.08.17（新增 超算互联网·Token 三档：活动价基础¥30/标准¥110/高级¥265·60k/240k/600k Credits·13款国产模型·DeepSeek-V4-Flash最划算·禁API调用·不支持退款）·评分调整：OpenCode Go 4.5→3.5（DeepSeek-V4-Flash 额度缩水10倍·官方文档5h仅3,800次））｜原 2026.08.16 记录：Token cron 全量核对7个条目·经核对无变化：OpenCode Go 19款模型无后缀；天翼云文档定价表支持模型显示GLM-5.1/DeepSeek-V4-Flash但购买页仍GLM-5/DeepSeek-V3.2·双源不一致待确认；腾讯/阿里/MiMo/Alaya/TaoToken价格额度模型一致） · Video 数据更新于 2026.08.16（8个平台逐一访问；即梦变化：基础/标准包季首季优惠结束（页面仅显示续费价¥188/¥568）·高级包季首季¥1,958→¥1,959·30-180秒视频7.2折活动(7.31-8.6)结束横幅消失·Seedance 2.5积分消耗5.4折持续·团队会员730/329倒计时约8.20仍有效；RunningHub三视图全一致（连续包月29/49/69/119/99/169·年付249/429/599/1019/899/1529+团队3699/6399/9799/11999）；可灵月/年付一致·季付152/614/1538/3049为08-14核验（视图切换仍失败）·腾讯混元文档价格一致·通义万相官方定价页三档一致·海螺AI首页RSC价格一致·大师贝壳10000滞后值；Vidu CDN拦截·pai.video登录墙，均执行AnySearch无法确认国内版价格） · Image 数据更新于 2026.08.16（5个监控平台逐一访问经核对无变化：Midjourney官方文档四档$10/$30/$60/$120一致；Liblib六档月/年付与积分一致（月付39/66/199/669/1299/2599·年付429/729/2199/7399/14999/22999）；通义万相三档一致（标准¥72·高级¥288）；RunningHub三视图全一致（连续包月29/49/69/119/99/169·年付249/429/599/1019/899/1529+团队3699/6399/9799/11999）；堆友云市场官方自营店标准版¥39/36.5/299·专业版¥59/53/399一致；即梦同步Video cron变化：包季首季优惠结束·高级首季¥1,959·团队会员730/329倒计时约8.20） · Audio 数据更新于 2026.08.16（Suno/Udio/AceStudio官方定价页均成功·价格/积分/权益经核对无变化；Suno 9.3起月度下载限制Pro 20/Premier 60与本地一致；Udio积分购买100 credits $3/1000 credits $25一致；Ace Studio夏季特惠20% OFF持续；海螺AI订阅页Hermes两次重定向登录墙+CDP无登录态，AnySearch两轮搜索无法确认中国区音频订阅方案·本地数据保持不变） · 中转站 数据更新于 2026.08.15（THINK-AI已下架·仅保留幻境MirageAI·幻境充值链接更新） · 价格对比 新增于 2026.07.06
 
 ---
 
@@ -173,7 +173,7 @@ https://ai.hsnb.fun/aiplanhub
 
 ---
 
-## Token 平台（9 家）
+## Token 平台（10 家）
 
 > 每家的 Credits / Token 计算方式不同，具体可用额度请进入官网查询
 
@@ -182,6 +182,7 @@ https://ai.hsnb.fun/aiplanhub
 | ChatGPT | GPT-5.4 / GPT-Image-2 / GPT-5.3-Codex | 1 | ¥28.8 | ★★★★★ |
 | OpenCode Go | GLM-5.3 / GLM-5.2 / GPT-5.6-Luna / Qwen3.8-Max / DeepSeek-V4-Pro / Kimi-K2.6 | 1 | $10 | ★★★½ |
 | 阿里·Token Plan | qwen3.8-max-preview / Qwen3.7-Max / DeepSeek-V4-Pro / GLM-5.2 / Kimi-K2.6 | 8 | ¥39 | ★★★ |
+| 超算互联网·Token | GLM-5.2 / DeepSeek-V4-Flash / Kimi-K3 / MiniMax-M3 | 3 | ¥30 | ★★★ |
 | TaoToken | DeepSeek-V4-Pro / Kimi-K3 / GLM-5.2 | 3 | ¥59 | ★★ |
 | 方舟 Agent Plan | DeepSeek-V4-Pro / GLM-5.1 / Kimi-K2.6 | 4 | ¥40 | ★★ |
 | 腾讯·Token | Auto / GLM-5.2 / DeepSeek-V4-Flash/Pro / Kimi-K2.5 / Hy3 | 8 | ¥28 | ★ |
@@ -195,6 +196,7 @@ https://ai.hsnb.fun/aiplanhub
 |------|------|------|--------|---------------------|------|
 | 腾讯·Token | Lite | ¥39 | — | 3,500万 Tokens/月 | [开通](https://curl.qcloud.com/1Uogyigq) |
 | 天翼云·Token | 2500万 | ¥29 | — | 2,500万 Tokens/月 | [开通](https://www.ctyun.cn/act/AI/zhuanxiang) |
+| 超算互联网·Token | 基础版 | ¥30 | — | 60,000 Credits/月 | [开通](https://www.scnet.cn/ac/openapi/doc/2.0/moduleapi/plans/token-plan.html) |
 | Alaya Code | 入门版 | ¥199 | — | 3,270万 Tokens/月 | [开通](https://codingplan.alayanew.com/docs/billing) |
 | 小米·MiMo | Lite | ¥39 | ¥34.32 | 4.1B Credits/月 | [开通](https://platform.xiaomimimo.com/#/token-plan) |
 | 方舟 Agent Plan | Small | ¥40 | — | 20,000 AFP/月 | [开通](https://www.volcengine.com/docs/82379/2366394?lang=zh) |
@@ -212,6 +214,8 @@ https://ai.hsnb.fun/aiplanhub
 | 平台 | 方案 | 月付 | 首月价 | Credits/Token 额度 | 开通 |
 |------|------|------|--------|---------------------|------|
 | 天翼云·Token | 1.8亿 | ¥199 | — | 1.8亿 Tokens/月 | [开通](https://www.ctyun.cn/act/AI/zhuanxiang) |
+| 超算互联网·Token | 标准版 | ¥110 | — | 240,000 Credits/月 | [开通](https://www.scnet.cn/ac/openapi/doc/2.0/moduleapi/plans/token-plan.html) |
+| 超算互联网·Token | 高级版 | ¥265 | — | 600,000 Credits/月 | [开通](https://www.scnet.cn/ac/openapi/doc/2.0/moduleapi/plans/token-plan.html) |
 | TaoToken | Pro | ¥149 | — | 14,000 Credits/月 | [开通](https://taotoken.net/?u=inv_iyn75yglujwdy9ij&utm_source=tt_invite) |
 | 方舟 Agent Plan | Medium | ¥200 | — | 100,000 AFP/月 | [开通](https://www.volcengine.com/docs/82379/2366394?lang=zh) |
 | 小米·MiMo | Pro | ¥329 | ¥289.52 | 38B Credits/月 | [开通](https://platform.xiaomimimo.com/#/token-plan) |
