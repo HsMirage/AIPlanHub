@@ -166,7 +166,7 @@ https://ai.hsnb.fun/aiplanhub
 
 | 平台 | 方案 | 月付 | 首月价 | 5h请求数 | 开通 |
 |------|------|------|--------|----------|------|
-| OpenCode Go | Go（Grok-4.5 / GLM-5.3 / GLM-5.2 / GPT-5.6-Luna / Kimi-K3 / Hy3 等20款） | $10 | $5 | $12/5h $30/周 $60/月 | [Go \| OpenCode](https://opencode.ai/go?ref=V156X2ZH2S) |
+| OpenCode Go | Go（Grok-4.5 / GLM-5.3 / GLM-5.2 / GPT-5.6-Luna / Kimi-K3 / Hy3 等20款，⚠️国内 Muse Spark 1.2 不可调用） | $10 | $5 | $12/5h $30/周 $60/月 | [Go \| OpenCode](https://opencode.ai/go?ref=V156X2ZH2S) |
 | z.ai | Lite | $18 | — | 2,000 | [开通](https://z.ai/subscribe?ic=V6PINPKB9I) |
 | z.ai | Pro | $80 | — | 12,000 | [开通](https://z.ai/subscribe?ic=V6PINPKB9I) |
 | z.ai | Max | $168 | — | 28,000 | [开通](https://z.ai/subscribe?ic=V6PINPKB9I) |
@@ -180,7 +180,7 @@ https://ai.hsnb.fun/aiplanhub
 | 平台 | 代表模型 | 方案数 | 月付起 | 评分 |
 |------|----------|--------|--------|------|
 | ChatGPT | GPT-5.4 / GPT-Image-2 / GPT-5.3-Codex | 1 | ¥28.8 | ★★★★★ |
-| OpenCode Go | GLM-5.3 / GLM-5.2 / GPT-5.6-Luna / Qwen3.8-Max / DeepSeek-V4-Pro / Kimi-K2.6 | 1 | $10 | ★★★½ |
+| OpenCode Go | GLM-5.3 / GLM-5.2 / GPT-5.6-Luna / Qwen3.8-Max / DeepSeek-V4-Pro / Kimi-K2.6（Muse Spark 1.2 国内不可调用） | 1 | $10 | ★★★½ |
 | 阿里·Token Plan | qwen3.8-max-preview / Qwen3.7-Max / DeepSeek-V4-Pro / GLM-5.2 / Kimi-K2.6 | 8 | ¥39 | ★★★ |
 | 超算互联网·Token | GLM-5.2 / DeepSeek-V4-Flash / Kimi-K3 / MiniMax-M3 | 3 | ¥30 | ★★★ |
 | TaoToken | DeepSeek-V4-Pro / Kimi-K3 / GLM-5.2 | 3 | ¥59 | ★★ |
@@ -200,7 +200,7 @@ https://ai.hsnb.fun/aiplanhub
 | Alaya Code | 入门版 | ¥199 | — | 3,270万 Tokens/月 | [开通](https://codingplan.alayanew.com/docs/billing) |
 | 小米·MiMo | Lite | ¥39 | ¥34.32 | 4.1B Credits/月 | [开通](https://platform.xiaomimimo.com/#/token-plan) |
 | 方舟 Agent Plan | Small | ¥40 | — | 20,000 AFP/月 | [开通](https://www.volcengine.com/docs/82379/2366394?lang=zh) |
-| OpenCode Go | Go | $10 | $5 | $12/5h $30/周 $60/月 | [Go \| OpenCode](https://opencode.ai/go?ref=V156X2ZH2S) |
+| OpenCode Go | Go | $10 | $5 | $12/5h $30/周 $60/月·⚠️Muse Spark 1.2 国内不可调用 | [Go \| OpenCode](https://opencode.ai/go?ref=V156X2ZH2S) |
 | ChatGPT | Token | ¥28.8 | — | 100 刀·暂时售罄 | [开通](https://pay.ldxp.cn/shop/mirage) |
 | 腾讯·Token | Standard | ¥99 | — | 1亿 Tokens/月 | [开通](https://curl.qcloud.com/1Uogyigq) |
 | 阿里·Token Plan | 用量包 | ¥100 | — | 20,000 Credits/个·需有效订阅·最多5个 | [开通](https://common-buy.aliyun.com/token-plan) |
