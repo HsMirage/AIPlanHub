@@ -74,7 +74,7 @@ https://ai.hsnb.fun/aiplanhub
 | 国家超算互联网 | MiniMax-M2.5 / Qwen3-235B-A22B | 2 | ¥20 | ★★ |
 | 优云智算 | GLM-5.2 / DeepSeek-V4-Pro / DeepSeek-V4-Flash / Qwen3.6-Plus / MiniMax-M2.7 / Kimi-K2.6 | 6 | ¥49 | ★★ |
 | OpenStarry | GLM-5.2 / Kimi-K3 / DeepSeek-V4-Pro / MiniMax-M3 / Kimi-K2.7-Code / Qwen3.7-Max | 4(含免费) | ¥0(免费) | ★ |
-| CommandCode | taste-1 / Gemini 3.7 Flash / GPT-5.6 Luna / GLM-5.2 / Grok 4.5 | 5 | $1 | ★★★ |
+| CommandCode | taste-1 / Gemini 3.7 Flash / GPT-5.6 Luna / GLM-5.2 / Grok 4.5 | 5 | $1 | ★★★★ |
 
 ### 入门级（人民币月付 ≤ ¥50）
 
@@ -163,11 +163,11 @@ https://ai.hsnb.fun/aiplanhub
 | 平台 | 方案 | 月付 | 首月价 | 5h请求数 | 开通 |
 |------|------|------|--------|----------|------|
 | OpenCode Go | Go（Grok-4.5 / GLM-5.3 / GLM-5.2 / GPT-5.6-Luna / Kimi-K3 / Hy3 等20款，⚠️国内 Muse Spark 1.2 不可调用） | $10 | $5 | $12/5h $30/周 $60/月 | [Go \| OpenCode](https://opencode.ai/go?ref=V156X2ZH2S) |
-| CommandCode | GO（taste-1 / Qwen3.7 Max / MiniMax M3） | $1 | — | 约15K次/月·$10 Credit | [开通](https://commandcode.ai/pricing) |
-| CommandCode | GOAT（taste-1 / GPT-5.6 Sol / GLM-5.2 / Tencent Hy3 / DeepSeek V4 Flash 等25+） | $10 | — | 约75K次/月·$70 Credit | [开通](https://commandcode.ai/pricing) |
-| CommandCode | Pro（+GPT-5.6 Luna / Grok 4.5 / Claude Opus 4.8 付费池） | $20 | — | 约100K次/月·$80 Credit | [开通](https://commandcode.ai/pricing) |
-| CommandCode | Max 10×（Gemini 3.7 Flash / Qwen3.7 Max / MiniMax M3） | $100 | — | 约219K次/月·$150 Credit | [开通](https://commandcode.ai/pricing) |
-| CommandCode | Max 20× | $200 | — | 约437K次/月·$300 Credit | [开通](https://commandcode.ai/pricing) |
+| CommandCode | GO（taste-1 / Qwen3.7 Max / MiniMax M3·⚠️仅官方CLI无API） | $1 | — | $10/月·5h $3 · 周 $6·约15K次 | [开通](https://commandcode.ai/pricing) |
+| CommandCode | GOAT（taste-1 / GPT-5.6 Sol / GLM-5.2 / Tencent Hy3 / DeepSeek V4 Flash 等59款） | $10 | — | $70/月·5h $14 · 周 $35·约75K次 | [开通](https://commandcode.ai/pricing) |
+| CommandCode | Pro（+GPT-5.6 Luna / Grok 4.5 / Claude Opus 4.8 付费池） | $20 | — | $80/月·5h $16 · 周 $40·约100K次 | [开通](https://commandcode.ai/pricing) |
+| CommandCode | Max 10×（Gemini 3.7 Flash / Qwen3.7 Max / MiniMax M3） | $100 | — | $150/月·5h $45 · 周 $90·约219K次 | [开通](https://commandcode.ai/pricing) |
+| CommandCode | Max 20× | $200 | — | $300/月·5h $90 · 周 $180·约437K次 | [开通](https://commandcode.ai/pricing) |
 | z.ai | Lite | $18 | — | 2,000 | [开通](https://z.ai/subscribe?ic=V6PINPKB9I) |
 | z.ai | Pro | $80 | — | 12,000 | [开通](https://z.ai/subscribe?ic=V6PINPKB9I) |
 | z.ai | Max | $168 | — | 28,000 | [开通](https://z.ai/subscribe?ic=V6PINPKB9I) |
