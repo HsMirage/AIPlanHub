@@ -74,7 +74,7 @@ https://ai.hsnb.fun/aiplanhub
 | 国家超算互联网 | MiniMax-M2.5 / Qwen3-235B-A22B | 2 | ¥20 | ★★ |
 | 优云智算 | GLM-5.2 / DeepSeek-V4-Pro / DeepSeek-V4-Flash / Qwen3.6-Plus / MiniMax-M2.7 / Kimi-K2.6 | 6 | ¥49 | ★★ |
 | OpenStarry | GLM-5.2 / Kimi-K3 / DeepSeek-V4-Pro / MiniMax-M3 / Kimi-K2.7-Code / Qwen3.7-Max | 4(含免费) | ¥0(免费) | ★ |
-| CommandCode | taste-1 / Gemini 3.7 Flash / GPT-5.6 Luna / GLM-5.2 / Grok 4.5 | 5 | $1 | ★★★★ |
+| CommandCode | taste-1 / Gemini 3.7 Flash / GPT-5.6 Luna / GLM-5.2 / Grok 4.5 | 5 | $1 | ★★★½ |
 
 ### 入门级（人民币月付 ≤ ¥50）
 
