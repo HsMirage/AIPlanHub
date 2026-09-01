@@ -16,7 +16,7 @@
 
 > **更新日志**（每分类仅保留最新一条·完整历史见 git log）
 >
-- **Coding**（2026.09.01）（🔄腾讯·Coding 文档(08-31)移除 Kimi-K2.5→已下架（models 改 Auto/GLM-5）；🔄字节·方舟 文档(08-31 14:57)移除 GLM-5.2→已下架·新增 GLM-5.3-Flash（8.28-9.11 抵扣5折）；🔄Charm Hyper 模型目录 29→31 款（新增 GLM-5.3/GLM-5.3-Flash·/v1/models 两次独立一致）；🔄Kimi K2.5 全平台 8.31 正式下线（四档 models 移除）；🔄TaoToken 新一轮 9.01 抢购·Lite 售罄·Pro ¥99/Max ¥338 可购；其余 20 条目经核对无变化（智谱AI/z.ai GLM-5.3/5.3-Flash·Kimi 预约制月付49/99/199/699·MiniMax 三档年付+积分购买·阿里百炼 Pro¥200/首月39.9·移动云 7.9/39.9·联通云/腾讯Coding 文档额度一致·优云智算6档·讯飞 高效¥199/19款+速通¥999（两档加入等候名单）·阶跃4档Credit·快手29/70/140/350·Ollama Max暂停+18款云模型·OpenStarry 四档+抵扣表8.31标注延续·稳明4档+29.9·蓝耘三档·MiMo 年付88折·商汤SenseNova 5款积分制·付费档未上线·AtomCode 500人/日剩余485·xKiro 无登录态沿用08.31·CommandCode 全档一致））
+- **Coding**（2026.09.02）（🔄商汤SenseNova 文档站模型总览 5→7 款：DeepSeek V4 Pro（0813）/Kimi K3 重新上线（两次独立抓取一致）；🔎监控 URL 更新：字节·方舟旧文档 85508/1556319 已变更为「联网问答Agent」→ 正式迁移至 82379/1925114（模型表 10 款与本地一致）；Kimi coding-pricing 已 404 → 价格核对改走帮助中心 membership-pricing（四档 49/99/199/699 一致）；其余 23 条目经核对无变化（智谱AI/z.ai GLM-5.3 系列积分额度·MiniMax 三档年付+积分购买·阿里百炼 Pro¥200/首月39.9·移动云·联通云/腾讯Coding·优云智算6档·讯飞 高效¥199/19款+速通¥999（等候名单）·阶跃4档Credit·快手 29/70/140/350·Ollama Max暂停+18款云模型·OpenStarry 四档+8.31标注延续·稳明4档+29.9·蓝耘三档·MiMo 年付88折·TaoToken 抢购 Lite售罄·Pro/Max可购·AtomCode 沿用·CommandCode 全档一致·CatPaw 免费））
 - **Token**（2026.09.01）（🔄腾讯·Token 文档(2026.08.31 17:49)重大更新：Kimi-K2.5 正式下线移除（8.31 到期）；通用/Hy 各 4 档同步改「积分抵扣」计量——通用 Lite 780/Standard 1980/Pro 5980/Max 11980 积分每月（价格 39/99/299/599 不变）；Hy Lite 560/Standard 1560/Pro 1560/Max 9360 积分每月（28/78/238/468 不变·⚠️Hy Pro 与 Standard 同分疑文档笔误）；通用可用模型 8→11 款（新增 MiniMax-M3/GLM-5.3/Hy4 preview/Kimi-K2.7-Code）·两次独立抓取一致；🔄阿里·Token Plan 个人版/用量包 note 补充 deepseek-v4-flash-0731 夜间五折（官方概述模型清单）；🔄SCNet 扣减倍率表微调（GLM-5.2 0.90→0.95·GLM-5.1 1.33→1.40·GLM-5 1.08→1.11·DS-V4-Pro-0813 1.35→1.41·DS-V4-Flash-0731 0.61→0.50·Qwen3.8-Max 2.00→2.10）；其余 5 条目经核对无变化（MiMo 4档年付88折·OpenCode Go 25款·天翼云 5档4款-文档08-18·Alaya 3档·TaoToken 3档无售罄·SCNet 4档价格模型不变））
 - **Video**（2026.09.02）（🔄即梦 Seedance 2.5 720P 折算积分活动续期至 9.8（原 8.26-9.1）；其余经核对无变化：即梦五视图全一致·可灵三视图全一致·RunningHub 连续包月/单月/单年+团队年付全一致·腾讯混元双文档一致·通义万相三档一致；海螺AI/pai.video 登录墙·Vidu CDN 拦截—双源无国内订阅价证据·本地保持不变）
 - **Image**（2026.09.02）（经核对无变化）
@@ -57,7 +57,7 @@ https://ai.hsnb.fun/aiplanhub
 |------|----------|--------|--------|------|
 | ChatGPT | GPT-5.4 / GPT-Image-2 / GPT-5.3-Codex | 2 | ¥26.6 | ★★★★★ |
 | xKiro | Qwen3.8 Max / GLM-5.3 / GLM-5.3-Flash / Codex 5.3 Spark / Hy3 / Gemini 3.7 Flash / Grok 4.6 / Kimi K3 / MiniMax M3 / SenseNova 6.8 Flash-Lite | 6 | $0 | ★★★★½ |
-| 商汤SenseNova | SenseNova 6.8 Flash Lite / SenseNova U1.5 Lite / SenseNova U1 Fast / DeepSeek V4 Flash / GLM-5.2 | 1 | 免费 | ★★★★★ |
+| 商汤SenseNova | SenseNova 6.8 Flash Lite / SenseNova U1.5 Lite / SenseNova U1 Fast / DeepSeek V4 Pro / DeepSeek V4 Flash / GLM-5.2 / Kimi K3 | 1 | 免费 | ★★★★★ |
 | 智谱AI | GLM-5.3 / GLM-5.3-Flash | 3 | ¥118 | ★★½ |
 
 | 稳明光语纪 | GLM-5.2 / DeepSeek-V4-Flash-0731 | 5 | ¥29.9 | ★★★½ |
