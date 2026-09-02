@@ -16,7 +16,7 @@
 
 > **更新日志**（每分类仅保留最新一条·完整历史见 git log）
 >
-- **Coding**（2026.09.02）（🔄商汤SenseNova 文档站模型总览 5→7 款：DeepSeek V4 Pro（0813）/Kimi K3 重新上线（两次独立抓取一致）；🔎监控 URL 更新：字节·方舟旧文档 85508/1556319 已变更为「联网问答Agent」→ 正式迁移至 82379/1925114（模型表 10 款与本地一致）；Kimi coding-pricing 已 404 → 价格核对改走帮助中心 membership-pricing（四档 49/99/199/699 一致）；其余 23 条目经核对无变化（智谱AI/z.ai GLM-5.3 系列积分额度·MiniMax 三档年付+积分购买·阿里百炼 Pro¥200/首月39.9·移动云·联通云/腾讯Coding·优云智算6档·讯飞 高效¥199/19款+速通¥999（等候名单）·阶跃4档Credit·快手 29/70/140/350·Ollama Max暂停+18款云模型·OpenStarry 四档+8.31标注延续·稳明4档+29.9·蓝耘三档·MiMo 年付88折·TaoToken 抢购 Lite售罄·Pro/Max可购·AtomCode 沿用·CommandCode 全档一致·CatPaw 免费））
+- **Coding**（2026.09.02）（Charm Hyper 降为★★★½：d4f0731 最快 300T/s、日用量约 200-230M、对比之下不如 commandcode 划算·建议用 qwen3.8flash；其余经核对无变化）
 - **Token**（2026.09.02）（🔄SCNet 扣减倍率再次微调：GLM-5.2 0.95→0.85·DS-V4-Pro-0813 1.41→1.11·DS-V4-Flash-0731 0.50→0.40；倍率表新增 GLM-5.3-Flash 0.15/Qwen3.8-Flash 0.14（可用模型列表暂未列出·观察项）；其余 7 家经核对无变化）
 - **Video**（2026.09.02）（🔄即梦 Seedance 2.5 720P 折算积分活动续期至 9.8（原 8.26-9.1）；其余经核对无变化：即梦五视图全一致·可灵三视图全一致·RunningHub 连续包月/单月/单年+团队年付全一致·腾讯混元双文档一致·通义万相三档一致；海螺AI/pai.video 登录墙·Vidu CDN 拦截—双源无国内订阅价证据·本地保持不变）
 - **Image**（2026.09.02）（经核对无变化）
@@ -62,7 +62,7 @@ https://ai.hsnb.fun/aiplanhub
 
 | 稳明光语纪 | GLM-5.2 / DeepSeek-V4-Flash-0731 | 5 | ¥29.9 | ★★★½ |
 | 字节·方舟 | GLM-5.3 / GLM-5.3-Flash / Doubao-Seed-2.1-turbo / Doubao-Seed-Evolving / Kimi-K2.7-Code | 2 | ¥40 | ★★★ |
-| Charm Hyper | GLM-5.3 / GLM-5.3-Flash / Qwen3.8-Flash / Qwen3.8-Max / DeepSeek-V4-Pro-0813 / DeepSeek-V4-Flash-0731 / Kimi-K3 | 5 | $0 | ★★★★ |
+| Charm Hyper | GLM-5.3 / GLM-5.3-Flash / Qwen3.8-Flash / Qwen3.8-Max / DeepSeek-V4-Pro-0813 / DeepSeek-V4-Flash-0731 / Kimi-K3 | 5 | $0 | ★★★½ |
 | Meituan CatPaw | — | 1 | 免费 | ★★★★ |
 | Kimi | Kimi-K3 / Kimi-K2.7-Code | 4 | ¥39 | ★★½ |
 | 阿里·百炼 | Qwen3.6-Plus | 1 | ¥200 | ★★★ |
