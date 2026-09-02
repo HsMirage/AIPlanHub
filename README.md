@@ -16,7 +16,7 @@
 
 > **更新日志**（每分类仅保留最新一条·完整历史见 git log）
 >
-- **Coding**（2026.09.02）（Charm Hyper 降为★★★½：d4f0731 最快 300T/s、日用量约 200-230M、对比之下不如 commandcode 划算·建议用 qwen3.8flash；其余经核对无变化）
+- **Coding**（2026.09.03）（🔄Charm Hyper 模型目录 31→32 款新增 Kimi-K2-Thinking；🔄Ollama Team 档重定价 $25/席/月→$500/月（Early access·无限用户·$1,000 credits/月）；🔄稳明光语纪主模型 GLM-5.2→GLM-5.3；🔄AtomCode 三档支持模型新增 MiMo-V2.5/MiMo-V2.5-Pro；其余经核对无变化）
 - **Token**（2026.09.02）（🔄SCNet 扣减倍率再次微调：GLM-5.2 0.95→0.85·DS-V4-Pro-0813 1.41→1.11·DS-V4-Flash-0731 0.50→0.40；倍率表新增 GLM-5.3-Flash 0.15/Qwen3.8-Flash 0.14（可用模型列表暂未列出·观察项）；其余 7 家经核对无变化）
 - **Video**（2026.09.03）（🔄即梦 Seedance 2.5 720P 成片积分折扣活动期限修正：官方文案为 8月26日-9月7日（原记录至 9.8）·video+image 双文件同步；其余经核对无变化：即梦五视图全一致·可灵三视图全一致·RunningHub 连续包月/单月/单年+团队年付全一致·腾讯混元双文档一致·通义万相三档一致；海螺AI/pai.video 登录墙·Vidu CDN 拦截—双源无国内订阅价证据·本地保持不变）
 - **Image**（2026.09.03）（经核对无变化）
@@ -60,9 +60,9 @@ https://ai.hsnb.fun/aiplanhub
 | 商汤SenseNova | SenseNova 6.8 Flash Lite / SenseNova U1.5 Lite / SenseNova U1 Fast / DeepSeek V4 Pro / DeepSeek V4 Flash / GLM-5.2 / Kimi K3 | 1 | 免费 | ★★★★★ |
 | 智谱AI | GLM-5.3 / GLM-5.3-Flash | 3 | ¥118 | ★★½ |
 
-| 稳明光语纪 | GLM-5.2 / DeepSeek-V4-Flash-0731 | 5 | ¥29.9 | ★★★½ |
+| 稳明光语纪 | GLM-5.3 / DeepSeek-V4-Flash-0731 | 5 | ¥29.9 | ★★★½ |
 | 字节·方舟 | GLM-5.3 / GLM-5.3-Flash / Doubao-Seed-2.1-turbo / Doubao-Seed-Evolving / Kimi-K2.7-Code | 2 | ¥40 | ★★★ |
-| Charm Hyper | GLM-5.3 / GLM-5.3-Flash / Qwen3.8-Flash / Qwen3.8-Max / DeepSeek-V4-Pro-0813 / DeepSeek-V4-Flash-0731 / Kimi-K3 | 5 | $0 | ★★★½ |
+| Charm Hyper | GLM-5.3 / GLM-5.3-Flash / Qwen3.8-Flash / Qwen3.8-Max / DeepSeek-V4-Pro-0813 / DeepSeek-V4-Flash-0731 / Kimi-K3 / Kimi-K2-Thinking | 5 | $0 | ★★★½ |
 | Meituan CatPaw | — | 1 | 免费 | ★★★★ |
 | Kimi | Kimi-K3 / Kimi-K2.7-Code | 4 | ¥39 | ★★½ |
 | 阿里·百炼 | Qwen3.6-Plus | 1 | ¥200 | ★★★ |
@@ -72,7 +72,7 @@ https://ai.hsnb.fun/aiplanhub
 | 阶跃星辰 | Step-3.5-Flash-2603 | 4 | ¥49 | ★★★ |
 | 快手 StreamLake | KAT-Coder-Pro V1/V2/V2.5 | 4 | ¥29 | ★★★ |
 | Ollama | GLM-5.3 / GLM-5.2 / DeepSeek-V4-Flash / Kimi-K3 | 4 | $0 | ★★★½ |
-| AtomCode | GLM-5.2 / DeepSeek-V4-Flash / Qwen3.8-27B | 3 | 免费 | ★★★★ |
+| AtomCode | MiMo-V2.5 / MiMo-V2.5-Pro / Qwen3.8-27B / DeepSeek-V4-Flash | 3 | 免费 | ★★★★ |
 | z.ai | GLM-5.3 / GLM-5.3-Flash（国际版） | 3 | $18 | ★★½ |
 | MiniMax | MiniMax-M3 / M2.7 | 3 | ¥49 | ★★ |
 | 联通云 | DeepSeek-V4-Pro / Kimi-K2.6 / Qwen3.6-27B | 2 | ¥40 | ★★ |
@@ -90,7 +90,7 @@ https://ai.hsnb.fun/aiplanhub
 | TaoToken | Lite | ¥39 | — | — | [开通](https://taotoken.net/?u=inv_iyn75yglujwdy9ij&utm_source=tt_invite) |
 | 国家超算互联网 | Lite | ¥20 | — | 1,200 | [开通](https://www.scnet.cn/ac/openapi/doc/2.0/moduleapi/codingplan/subscriptionnotice.html) |
 | Ollama | Free | $0 | — | — | [开通](https://ollama.com/pricing) |
-| Ollama | Team | $25/席 | — | — | [开通](https://ollama.com/pricing) |
+| Ollama | Team | $500/月 | — | — | [开通](https://ollama.com/pricing) |
 | 快手 StreamLake | Mini | ¥29 | — | 40 Prompts | [开通](https://www.streamlake.com/marketing/coding-plan) |
 | 讯飞星辰 | 高效版 | ¥199 | — | 6,000 | [开通](https://maas.xfyun.cn/packageSubscription?inviteCode=MAAS-7573AB85) |
 | 讯飞星辰 | 速通版 | ¥999（首购¥699） | — | 30,000速通次数/月 | [开通](https://maas.xfyun.cn/packageSubscription?inviteCode=MAAS-7573AB85) |
