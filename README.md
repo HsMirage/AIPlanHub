@@ -16,7 +16,7 @@
 
 > **更新日志**（每分类仅保留最新一条·完整历史见 git log）
 >
-- **Coding**（2026.09.03）（🔄Charm Hyper 模型目录 31→32 款新增 Kimi-K2-Thinking；🔄Ollama Team 档重定价 $25/席/月→$500/月（Early access·无限用户·$1,000 credits/月）；🔄稳明光语纪主模型 GLM-5.2→GLM-5.3；🔄AtomCode 三档支持模型新增 MiMo-V2.5/MiMo-V2.5-Pro；✂️评分卡片精简·CommandCode/xKiro/国家超算互联网删除通用兼容话术·CommandCode 理由按价格/额度/模型重组；其余经核对无变化）
+- **Coding**（2026.09.03）（🔄Charm Hyper 模型目录 31→32 款新增 Kimi-K2-Thinking；🔄Ollama Team 档重定价 $25/席/月→$500/月（Early access·无限用户·$1,000 credits/月）；🔄稳明光语纪主模型 GLM-5.2→GLM-5.3；🔄AtomCode 三档支持模型新增 MiMo-V2.5/MiMo-V2.5-Pro；✂️评分卡片精简·CommandCode/xKiro/国家超算互联网/OpenCode Go 删除通用兼容话术与新增日期链·CommandCode 理由按价格/额度/模型重组·OpenCode Go 套餐 note 历史流水清入 git log；其余经核对无变化）
 - **Token**（2026.09.03）（🔄腾讯·Token Hy Pro 积分 1560→4760/月（2026.09.01 疑文档笔误已修正）；✂️评分卡片精简·删除方舟 Agent Plan/天翼云·Token 的通用兼容话术；其余 7 家经核对无变化）
 - **Video**（2026.09.03）（🔄即梦 Seedance 2.5 720P 成片积分折扣活动期限修正：官方文案为 8月26日-9月7日（原记录至 9.8）·video+image 双文件同步；其余经核对无变化：即梦五视图全一致·可灵三视图全一致·RunningHub 连续包月/单月/单年+团队年付全一致·腾讯混元双文档一致·通义万相三档一致；海螺AI/pai.video 登录墙·Vidu CDN 拦截—双源无国内订阅价证据·本地保持不变）
 - **Image**（2026.09.03）（经核对无变化）
