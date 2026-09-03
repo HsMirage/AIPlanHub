@@ -16,7 +16,7 @@
 
 > **更新日志**（每分类仅保留最新一条·完整历史见 git log）
 >
-- **Coding**（2026.09.03）（🔄Charm Hyper 模型目录 31→32 款新增 Kimi-K2-Thinking；🔄Ollama Team 档重定价 $25/席/月→$500/月（Early access·无限用户·$1,000 credits/月）；🔄稳明光语纪主模型 GLM-5.2→GLM-5.3；🔄AtomCode 三档支持模型新增 MiMo-V2.5/MiMo-V2.5-Pro；✂️评分卡片精简·CommandCode/xKiro/国家超算互联网/OpenCode Go 删除通用兼容话术与新增日期链·CommandCode 理由按价格/额度/模型重组·OpenCode Go 套餐 note 历史流水清入 git log；其余经核对无变化）
+- **Coding**（2026.09.04）（🔄TaoToken 产品线由 GLM-5.2 切换为 GLM-5.3-Flash：新一轮限量抢购 9.04 起·Lite ¥39 已售罄·Pro 抢购价 ¥99→¥129（原¥298）·Max ¥338（原¥799）·额度不变·单次请求上下文上限改为 500k·官方明文禁止用于 Hermes/OpenClaw 等智能体；其余 23 条经核对无变化——智谱AI/z.ai 夜间畅用活动观察项·CommandCode 限额/额度分配一致·Charm Hyper 模型目录 32 款不变·AtomCode AnySearch 确认一致·xKiro 首页宣传 105+ 模型/16 家供应商待登录复核）
 - **Token**（2026.09.03）（🔄腾讯·Token Hy Pro 积分 1560→4760/月（2026.09.01 疑文档笔误已修正）；✂️评分卡片精简·删除方舟 Agent Plan/天翼云·Token 的通用兼容话术；其余 7 家经核对无变化）
 - **Video**（2026.09.04）（经核对无变化：快手可灵月/季/年三视图、即梦包季/包年/包月/团队、RunningHub 连续包月/单月/单年+团队月年、腾讯混元计费文档、通义万相、OpenArt 全部一致；观察项：拍我AI 9.5-9.10 限时免费开放日；海螺AI/pai.video 登录墙·Vidu CDN 拦截—双源无国内订阅价证据·本地保持不变）
 - **Image**（2026.09.03）（🔄新增 OpenArt 四档（与 Video 同步·月付 $14/$34/$56/$240·年付折后 $13/$27/$44/$175 每席/月）；其余经核对无变化）
@@ -76,7 +76,7 @@ https://ai.hsnb.fun/aiplanhub
 | z.ai | GLM-5.3 / GLM-5.3-Flash（国际版） | 3 | $18 | ★★½ |
 | MiniMax | MiniMax-M3 / M2.7 | 3 | ¥49 | ★★ |
 | 联通云 | DeepSeek-V4-Pro / Kimi-K2.6 / Qwen3.6-27B | 2 | ¥40 | ★★ |
-| TaoToken | GLM-5.2（200K上下文） | 3 | ¥39 | ★★★ |
+| TaoToken | GLM-5.3-Flash（500K上下文） | 3 | ¥39 | ★★★ |
 | 移动云 | MiniMax-M2.5 | 2 | ¥40 | ★★ |
 | 国家超算互联网 | MiniMax-M2.5 / Qwen3-235B-A22B | 2 | ¥20 | ★★ |
 | 优云智算 | GLM-5.2 / DeepSeek-V4-Pro / DeepSeek-V4-Flash / Qwen3.6-Plus / MiniMax-M2.7 / Kimi-K2.6 | 6 | ¥49 | ★★ |
@@ -127,7 +127,7 @@ https://ai.hsnb.fun/aiplanhub
 | 平台 | 方案 | 月付 | 首月价 | 5h请求数 | 开通 |
 |------|------|------|--------|----------|------|
 | 快手 StreamLake | Starter | ¥70 | — | 100 Prompts | [开通](https://www.streamlake.com/marketing/coding-plan) |
-| TaoToken | Pro | ¥99 | — | — | [开通](https://taotoken.net/?u=inv_iyn75yglujwdy9ij&utm_source=tt_invite) |
+| TaoToken | Pro | ¥129 | — | — | [开通](https://taotoken.net/?u=inv_iyn75yglujwdy9ij&utm_source=tt_invite) |
 | Kimi | Moderato | ¥99 | — | — | [开通](https://kimi-bot.com/activities/zh-cn/viral-referral/share?scenario=invite&from=share_poster&invitation_code=ANRBYG) |
 | 国家超算互联网 | Pro | ¥100 | — | 6,000 | [开通](https://www.scnet.cn/ac/openapi/doc/2.0/moduleapi/codingplan/subscriptionnotice.html) |
 | 阶跃星辰 | Flash Plus | ¥99 | — | 6,000 | [开通](https://platform.stepfun.com?invite_code=KHVQVECJ) |
