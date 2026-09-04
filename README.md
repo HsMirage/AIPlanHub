@@ -16,7 +16,7 @@
 
 > **更新日志**（每分类仅保留最新一条·完整历史见 git log）
 >
-- **Coding**（2026.09.04）（🔄TaoToken 产品线由 GLM-5.2 切换为 GLM-5.3-Flash：新一轮限量抢购 9.04 起·Lite ¥39 已售罄·Pro 抢购价 ¥99→¥129（原¥298）·Max ¥338（原¥799）·额度不变·单次请求上下文上限改为 500k·官方明文禁止用于 Hermes/OpenClaw 等智能体；其余 23 条经核对无变化——智谱AI/z.ai 夜间畅用活动观察项·CommandCode 限额/额度分配一致·Charm Hyper 模型目录 32 款不变·AtomCode AnySearch 确认一致·xKiro 首页宣传 105+ 模型/16 家供应商待登录复核）
+- **Coding**（2026.09.05）（🔄阶跃星辰 Step-Image-Edit-2 将于 2026.10.10 下线·四档 note+RATINGS 已加注·价格/Credit 额度不变；其余 23 条经核对无变化——智谱AI/z.ai GLM-5.3/5.3-Flash 支持确认·字节方舟 GLM-5.3-Flash 抵扣5折活动观察项·讯飞星辰无登录态价格额度经官方文档+Tavily 确认·xKiro 首页宣传 105+/16家待登录态复核·CommandCode 官方 docs 验证 230K/370K 请求估算与三重限额·AtomCode AnySearch 确认模型列表无变化）
 - **Token**（2026.09.04）（🔄OpenCode Go 模型 25→26 款·新增 Muse Spark 1.3 Contributor（45,300/113,300/226,600 请求·$0.10/$0.20·额度$60·仅限Meta地理政策允许地区）；其余 7 家经核对无变化）
 - **Video**（2026.09.05）（经核对无变化：快手可灵月/季/年三视图、即梦包季/包年/包月/单月/团队、RunningHub 连续包月/单月/单年+团队月年、腾讯混元计费文档、通义万相、OpenArt 全部一致；观察项：拍我AI 9.5-9.10 限时免费开放日；海螺AI/pai.video 登录墙·Vidu CDN 拦截—双源佐证本地价格无变化）
 - **Image**（2026.09.05）（经核对无变化：Midjourney/Liblib AI/通义万相/RunningHub/堆友/OpenArt 六家全部一致）
