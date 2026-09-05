@@ -18,7 +18,7 @@
 >
 - **Coding**（2026.09.05）（🔄阶跃星辰 Step-Image-Edit-2 将于 2026.10.10 下线·四档 note+RATINGS 已加注·价格/Credit 额度不变；其余 23 条经核对无变化——智谱AI/z.ai GLM-5.3/5.3-Flash 支持确认·字节方舟 GLM-5.3-Flash 抵扣5折活动观察项·讯飞星辰无登录态价格额度经官方文档+Tavily 确认·xKiro 首页宣传 105+/16家待登录态复核·CommandCode 官方 docs 验证 230K/370K 请求估算与三重限额·AtomCode AnySearch 确认模型列表无变化）
 - **Token**（2026.09.05）（🔄腾讯·Token 通用可用模型 11→13 款（新增 GLM-5.3-Flash、Kimi-K3）；🔄OpenCode Go 模型 26→27 款（新增 Omen Alpha 11,600/29,000/57,900 请求·$0.20/$0.66·额度$100）；其余 6 家经核对无变化）
-- **Video**（2026.09.05）（经核对无变化：快手可灵月/季/年三视图、即梦包季/包年/包月/单月/团队、RunningHub 连续包月/单月/单年+团队月年、腾讯混元计费文档、通义万相、OpenArt 全部一致；观察项：拍我AI 9.5-9.10 限时免费开放日；海螺AI/pai.video 登录墙·Vidu CDN 拦截—双源佐证本地价格无变化）
+- **Video**（2026.09.06）（经核对无变化：快手可灵、即梦全账期+团队、RunningHub 三周期+团队、腾讯混元/通义万相/OpenArt 一致；海螺AI/pai.video 登录墙·Vidu CDN 拦截—双源佐证本地价格无变化）
 - **Image**（2026.09.05）（经核对无变化：Midjourney/Liblib AI/通义万相/RunningHub/堆友/OpenArt 六家全部一致）
 - **Audio**（2026.09.06）（Suno/Udio/Ace Studio 经核对无变化；海螺AI 登录墙·双源佐证无变化）
 - 其他：中转站 2026.08.15（THINK-AI已下架·仅保留幻境MirageAI·幻境充值链接更新）·已下架归档 2026.08.19（新增无问芯穹/天翼云/百度千帆经典CodingPlan）·价格对比 2026.07.06 新增
