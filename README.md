@@ -17,10 +17,10 @@
 > **更新日志**（每分类仅保留最新一条·完整历史见 git log）
 >
 - **Coding**（2026.09.05）（🔄阶跃星辰 Step-Image-Edit-2 将于 2026.10.10 下线·四档 note+RATINGS 已加注·价格/Credit 额度不变；其余 23 条经核对无变化——智谱AI/z.ai GLM-5.3/5.3-Flash 支持确认·字节方舟 GLM-5.3-Flash 抵扣5折活动观察项·讯飞星辰无登录态价格额度经官方文档+Tavily 确认·xKiro 首页宣传 105+/16家待登录态复核·CommandCode 官方 docs 验证 230K/370K 请求估算与三重限额·AtomCode AnySearch 确认模型列表无变化）
-- **Token**（2026.09.04）（🔄OpenCode Go 模型 25→26 款·新增 Muse Spark 1.3 Contributor（45,300/113,300/226,600 请求·$0.10/$0.20·额度$60·仅限Meta地理政策允许地区）；其余 7 家经核对无变化）
+- **Token**（2026.09.05）（🔄腾讯·Token 通用可用模型 11→13 款（新增 GLM-5.3-Flash、Kimi-K3）；🔄OpenCode Go 模型 26→27 款（新增 Omen Alpha 11,600/29,000/57,900 请求·$0.20/$0.66·额度$100）；其余 6 家经核对无变化）
 - **Video**（2026.09.05）（经核对无变化：快手可灵月/季/年三视图、即梦包季/包年/包月/单月/团队、RunningHub 连续包月/单月/单年+团队月年、腾讯混元计费文档、通义万相、OpenArt 全部一致；观察项：拍我AI 9.5-9.10 限时免费开放日；海螺AI/pai.video 登录墙·Vidu CDN 拦截—双源佐证本地价格无变化）
 - **Image**（2026.09.05）（经核对无变化：Midjourney/Liblib AI/通义万相/RunningHub/堆友/OpenArt 六家全部一致）
-- **Audio**（2026.09.05）（Ace Studio 品牌升级 2.0·会员权益新增音乐视频/视频作曲/音轨分离；Suno/Udio 经核对无变化）
+- **Audio**（2026.09.06）（Suno/Udio/Ace Studio 经核对无变化；海螺AI 登录墙·双源佐证无变化）
 - 其他：中转站 2026.08.15（THINK-AI已下架·仅保留幻境MirageAI·幻境充值链接更新）·已下架归档 2026.08.19（新增无问芯穹/天翼云/百度千帆经典CodingPlan）·价格对比 2026.07.06 新增
 
 ---
@@ -170,7 +170,7 @@ https://ai.hsnb.fun/aiplanhub
 
 | 平台 | 方案 | 月付 | 首月价 | 5h请求数 | 开通 |
 |------|------|------|--------|----------|------|
-| OpenCode Go | Go（Grok-4.6 / GLM-5.3-Flash / GLM-5.3 / GLM-5.2 / GPT-5.6-Luna / Kimi-K3 / Qwen3.8-Flash / Hy4-Preview / Hy3 等26款，⚠️国内 Muse Spark 1.2/1.3 不可调用·美元滚动额度 5h $12/周 $30/月 $60） | $10 | — | $12/5h $30/周 $60/月 | [Go \| OpenCode](https://opencode.ai/go?ref=V156X2ZH2S) |
+| OpenCode Go | Go（Grok-4.6 / GLM-5.3-Flash / GLM-5.3 / GLM-5.2 / GPT-5.6-Luna / Kimi-K3 / Qwen3.8-Flash / Hy4-Preview / Hy3 / Omen-Alpha 等27款，⚠️国内 Muse Spark 1.2/1.3 不可调用·美元滚动额度 5h $12/周 $30/月 $60） | $10 | — | $12/5h $30/周 $60/月 | [Go \| OpenCode](https://opencode.ai/go?ref=V156X2ZH2S) |
 | CommandCode | GO（38款·GLM-5.3 / Kimi-K3 / DeepSeek V4 Flash / Qwen3.8 Max·⚠️仅官方CLI无API） | $1 | — | $10/月·5h $3 · 周 $6·约15K次 | [开通](https://commandcode.ai/pricing) |
 | CommandCode | GOAT（42款·GPT-5.6 Sol / Gemini 3.7 Flash / GLM-5.2 / Tencent Hy3 / DeepSeek V4 Flash） | $10 | — | $70/月·5h $14 · 周 $35·约75K次 | [开通](https://commandcode.ai/pricing) |
 | CommandCode | Pro（55款·+Claude Sonnet 5 / GPT-5.5 / Gemini 3.5 付费池） | $20 | — | $80/月·5h $16 · 周 $40·约100K次 | [开通](https://commandcode.ai/pricing) |
