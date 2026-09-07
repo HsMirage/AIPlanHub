@@ -16,7 +16,7 @@
 
 > **更新日志**（每分类仅保留最新一条·完整历史见 git log）
 >
-- **Coding**（2026.09.07）（24 个监控条目经核对无变化）
+- **Coding**（2026.09.07）（Ollama 计费方式重大变更：GPU时间计费→按token计费·官方公开百万tokens单价表+Peak高峰2倍价·并发首次明文 Free1/Pro3/Max与Team10·套餐价格不变；其余 24 个监控条目无变化）
 - **Token**（2026.09.07）（8 个监控条目经核对无变化；09.06 误清空的 Token 表数据已完整恢复）
 - **Video**（2026.09.07）（经核对无变化：快手可灵、即梦全账期+团队、RunningHub 三周期+团队、腾讯混元/通义万相/OpenArt 一致；海螺AI/pai.video 登录墙·Vidu CDN 拦截—双源佐证无变化）
 - **Image**（2026.09.07）（经核对无变化：Midjourney/Liblib AI/通义万相/RunningHub/堆友/OpenArt 六家全部一致）
