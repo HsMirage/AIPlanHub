@@ -19,7 +19,7 @@
 - **Coding**（2026.09.07）（Ollama 计费方式重大变更：GPU时间计费→按token计费·官方公开百万tokens单价表+Peak高峰2倍价·并发首次明文 Free1/Pro3/Max与Team10·套餐价格不变；其余 24 个监控条目无变化）
 - **Token**（2026.09.08）（8 个监控条目经核对无变化）
 - **Video**（2026.09.09）（即梦 Seedance 2.5 积分折扣活动延期至 9.14；RunningHub 团队四档权益标注 Seedance 2.5；其余经核对无变化；海螺AI/pai.video 登录墙·Vidu CDN 拦截—双源佐证无变化）
-- **Image**（2026.09.07）（经核对无变化：Midjourney/Liblib AI/通义万相/RunningHub/堆友/OpenArt 六家全部一致）
+- **Image**（2026.09.09）（RunningHub 团队四档权益标注 Seedance 2.5·720P 低至 ¥1.15~1.38/s·与 Video 同步；其余五家经核对无变化）
 - **Audio**（2026.09.09）（经核对无变化：Suno/Udio/Ace Studio 一致；海螺AI 登录墙·双源佐证无变化）
 - 其他：中转站 2026.08.15（THINK-AI已下架·仅保留幻境MirageAI·幻境充值链接更新）·已下架归档 2026.08.19（新增无问芯穹/天翼云/百度千帆经典CodingPlan）·价格对比 2026.07.06 新增
 
