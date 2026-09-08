@@ -17,7 +17,7 @@
 > **更新日志**（每分类仅保留最新一条·完整历史见 git log）
 >
 - **Coding**（2026.09.07）（Ollama 计费方式重大变更：GPU时间计费→按token计费·官方公开百万tokens单价表+Peak高峰2倍价·并发首次明文 Free1/Pro3/Max与Team10·套餐价格不变；其余 24 个监控条目无变化）
-- **Token**（2026.09.08）（8 个监控条目经核对无变化）
+- **Token**（2026.09.09）（8 个监控条目经核对无变化）
 - **Video**（2026.09.09）（即梦 Seedance 2.5 积分折扣活动延期至 9.14；RunningHub 团队四档权益标注 Seedance 2.5；其余经核对无变化；海螺AI/pai.video 登录墙·Vidu CDN 拦截—双源佐证无变化）
 - **Image**（2026.09.09）（RunningHub 团队四档权益标注 Seedance 2.5·720P 低至 ¥1.15~1.38/s·与 Video 同步；其余五家经核对无变化）
 - **Audio**（2026.09.09）（经核对无变化：Suno/Udio/Ace Studio 一致；海螺AI 登录墙·双源佐证无变化）
