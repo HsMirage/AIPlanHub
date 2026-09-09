@@ -16,7 +16,7 @@
 
 > **更新日志**（每分类仅保留最新一条·完整历史见 git log）
 >
-- **Coding**（2026.09.09）（评分调整：讯飞星辰 3→2.5★、蓝耘元生代云 3→2★（模型老·用量不高·速度慢）；OpenStarry 三档复活；TaoToken Pro ¥99/Max ¥299+季付；AtomCode 新增 GLM-5.3-Flash；快手StreamLake 营销页 404 待复核）
+- **Coding**（2026.09.10）（字节·方舟模型表新增 Kimi-K3；TaoToken 升级双 Flash（GLM-5.3-Flash+DeepSeek-V4-Flash）；CommandCode 请求估算 230K→219K/370K→437K；稳明光语纪仅剩 Lite ¥45（Pro/Plus/Max/新用户套餐下架）；快手StreamLake 营销页 404）
 - **Token**（2026.09.09）（8 个监控条目经核对无变化）
 - **Video**（2026.09.10）（经核对无变化：即梦三视图/快手可灵/RunningHub/腾讯混元/通义万相一致；海螺AI/pai.video 登录墙·Vidu CDN 拦截·OpenArt 超时——双源佐证无变化）
 - **Image**（2026.09.10）（Liblib AI 促销文案更新：活动区移除 MiniMax H3 Max/Seedance 2.0 Mini/Fast VIP 折扣·Wan 3.0 系列改为 Wan 3.0 Prime，价格无变化；其余五家经核对无变化）
@@ -60,8 +60,8 @@ https://ai.hsnb.fun/aiplanhub
 | 商汤SenseNova | SenseNova 6.8 Flash Lite / SenseNova U1.5 Lite / SenseNova U1 Fast / DeepSeek V4 Pro / DeepSeek V4 Flash / GLM-5.2 / Kimi K3 | 1 | 免费 | ★★★★★ |
 | 智谱AI | GLM-5.3 / GLM-5.3-Flash | 3 | ¥118 | ★★½ |
 
-| 稳明光语纪 | GLM-5.3 / DeepSeek-V4-Flash-0731 | 5 | ¥29.9 | ★★★½ |
-| 字节·方舟 | GLM-5.3 / GLM-5.3-Flash / Doubao-Seed-2.1-turbo / Doubao-Seed-Evolving / Kimi-K2.7-Code | 2 | ¥40 | ★★★ |
+| 稳明光语纪 | GLM-5.3 / DeepSeek-V4-Flash-0731 | 1 | ¥45 | ★★★½ |
+| 字节·方舟 | GLM-5.3 / GLM-5.3-Flash / Kimi-K3 / Doubao-Seed-2.1-turbo / Doubao-Seed-Evolving / Kimi-K2.7-Code | 2 | ¥40 | ★★★ |
 | Charm Hyper | GLM-5.3 / GLM-5.3-Flash / Qwen3.8-Flash / Qwen3.8-Max / DeepSeek-V4-Pro-0813 / DeepSeek-V4-Flash-0731 / Kimi-K3 / Kimi-K2-Thinking | 5 | $0 | ★★★½ |
 | Meituan CatPaw | — | 1 | 免费 | ★★★★ |
 | Kimi | Kimi-K3 / Kimi-K2.7-Code | 4 | ¥39 | ★★½ |
@@ -91,7 +91,7 @@ https://ai.hsnb.fun/aiplanhub
 | 国家超算互联网 | Lite | ¥20 | — | 1,200 | [开通](https://www.scnet.cn/ac/openapi/doc/2.0/moduleapi/codingplan/subscriptionnotice.html) |
 | Ollama | Free | $0 | — | — | [开通](https://ollama.com/pricing) |
 | Ollama | Team | $500/月 | — | — | [开通](https://ollama.com/pricing) |
-| 快手 StreamLake | Mini | ¥29 | — | 40 Prompts | [开通](https://www.streamlake.com/marketing/coding-plan) |
+| 快手 StreamLake | Mini | ¥29 | — | 40 Prompts | [开通](https://www.streamlake.com) |
 | 讯飞星辰 | 高效版 | ¥199 | — | 6,000 | [开通](https://maas.xfyun.cn/packageSubscription?inviteCode=MAAS-7573AB85) |
 | 讯飞星辰 | 速通版 | ¥999（首购¥699） | — | 30,000速通次数/月 | [开通](https://maas.xfyun.cn/packageSubscription?inviteCode=MAAS-7573AB85) |
 
@@ -118,18 +118,17 @@ https://ai.hsnb.fun/aiplanhub
 | ChatGPT | Team | ¥28.8 | — | — | [开通](https://pay.ldxp.cn/shop/mirage) |
 | 商汤SenseNova | Free · 公测 | 免费 | — | 60,000积分/5h | [开通](https://www.sensenova.cn/token-plan) |
 | 稳明光语纪 | Lite | ¥45 | — | — | [开通](https://wenming7.cn/sales?ref=DCRTY9PM) |
-| 稳明光语纪 | 新用户活动套餐 | ¥29.9 | — | — | [开通](https://wenming7.cn/sales?ref=DCRTY9PM) |
 
 ### 进阶级（人民币月付 ¥51-¥199）
 
 | 平台 | 方案 | 月付 | 首月价 | 5h请求数 | 开通 |
 |------|------|------|--------|----------|------|
-| 快手 StreamLake | Starter | ¥70 | — | 100 Prompts | [开通](https://www.streamlake.com/marketing/coding-plan) |
+| 快手 StreamLake | Starter | ¥70 | — | 100 Prompts | [开通](https://www.streamlake.com) |
 | TaoToken | Pro | ¥99 | — | — | [开通](https://taotoken.net/?u=inv_iyn75yglujwdy9ij&utm_source=tt_invite) |
 | Kimi | Moderato | ¥99 | — | — | [开通](https://kimi-bot.com/activities/zh-cn/viral-referral/share?scenario=invite&from=share_poster&invitation_code=ANRBYG) |
 | 国家超算互联网 | Pro | ¥100 | — | 6,000 | [开通](https://www.scnet.cn/ac/openapi/doc/2.0/moduleapi/codingplan/subscriptionnotice.html) |
 | 阶跃星辰 | Flash Plus | ¥99 | — | 6,000 | [开通](https://platform.stepfun.com?invite_code=KHVQVECJ) |
-| 快手 StreamLake | Pro | ¥140 | — | 300 Prompts | [开通](https://www.streamlake.com/marketing/coding-plan) |
+| 快手 StreamLake | Pro | ¥140 | — | 300 Prompts | [开通](https://www.streamlake.com) |
 | Charm Hyper | Subscription | $20 | — | — | [开通](https://hyper.charm.land/) |
 | Charm Hyper | Bundle $5 | $5(一次) | — | — | [开通](https://hyper.charm.land/) |
 | Charm Hyper | Bundle $10 | $10(一次) | — | — | [开通](https://hyper.charm.land/) |
@@ -142,8 +141,6 @@ https://ai.hsnb.fun/aiplanhub
 | 阶跃星辰 | Flash Pro | ¥199 | — | 22,500 | [开通](https://platform.stepfun.com?invite_code=KHVQVECJ) |
 | MiniMax | Max | ¥119 | — | 4,500 | [开通](https://platform.minimaxi.com/subscribe/token-plan) |
 | Kimi | Allegretto | ¥199 | — | — | [开通](https://kimi-bot.com/activities/zh-cn/viral-referral/share?scenario=invite&from=share_poster&invitation_code=ANRBYG) |
-| 稳明光语纪 | Pro | ¥125 | — | — | [开通](https://wenming7.cn/sales?ref=DCRTY9PM) |
-| 稳明光语纪 | Plus | ¥249 | — | — | [开通](https://wenming7.cn/sales?ref=DCRTY9PM) |
 
 ### 高阶级（人民币月付 ≥ ¥200）
 
@@ -156,9 +153,8 @@ https://ai.hsnb.fun/aiplanhub
 | 腾讯·Coding | Pro | ¥200 | ¥39.9 | 6,000 | [开通](https://console.cloud.tencent.cn/tokenhub/codingplan?regionId=1) |
 | 移动云 | Pro | ¥200 | ¥39.9 | 6,000 | [开通](https://ecloud.10086.cn/portal/act/codingplan) |
 | 字节·方舟 | Pro | ¥200 | ¥49.9 | 6,000 | [开通](https://volcengine.com/L/jmiEa1dptck/) |
-| 快手 StreamLake | Max | ¥350 | — | 1,000 Prompts | [开通](https://www.streamlake.com/marketing/coding-plan) |
+| 快手 StreamLake | Max | ¥350 | — | 1,000 Prompts | [开通](https://www.streamlake.com) |
 | MiniMax | Ultra | ¥469 | — | 15,000 | [开通](https://platform.minimaxi.com/subscribe/token-plan) |
-| 稳明光语纪 | Max | ¥429 | — | — | [开通](https://wenming7.cn/sales?ref=DCRTY9PM) |
 | 蓝耘元生代云 | 高级版 | ¥469 | — | 24,000 | [开通](https://console.lanyun.net/#/register?promoterCode=3ef0f72996) |
 | 智谱AI | Max | ¥1078 | — | 28,000 | [开通](https://www.bigmodel.cn/glm-coding?ic=DGRQECTZFB) |
 | 阶跃星辰 | Flash Max | ¥699 | — | 75,000 | [开通](https://platform.stepfun.com?invite_code=KHVQVECJ) |
@@ -172,8 +168,8 @@ https://ai.hsnb.fun/aiplanhub
 | CommandCode | GO（38款·GLM-5.3 / Kimi-K3 / DeepSeek V4 Flash / Qwen3.8 Max·⚠️仅官方CLI无API） | $1 | — | $10/月·5h $3 · 周 $6·约15K次 | [开通](https://commandcode.ai/pricing) |
 | CommandCode | GOAT（42款·GPT-5.6 Sol / Gemini 3.7 Flash / GLM-5.2 / Tencent Hy3 / DeepSeek V4 Flash） | $10 | — | $70/月·5h $14 · 周 $35·约75K次 | [开通](https://commandcode.ai/pricing) |
 | CommandCode | Pro（55款·+Claude Sonnet 5 / GPT-5.5 / Gemini 3.5 付费池） | $20 | — | $80/月·5h $16 · 周 $40·约100K次 | [开通](https://commandcode.ai/pricing) |
-| CommandCode | Max 10×（60款全模型·Claude Opus/Fable/Fugu Ultra 解锁） | $100 | — | $150/月·5h $45 · 周 $90·约230K次 | [开通](https://commandcode.ai/pricing) |
-| CommandCode | Max 20×（60款全模型无限制） | $200 | — | $300/月·5h $90 · 周 $180·约370K次 | [开通](https://commandcode.ai/pricing) |
+| CommandCode | Max 10×（60款全模型·Claude Opus/Fable/Fugu Ultra 解锁） | $100 | — | $150/月·5h $45 · 周 $90·约219K次 | [开通](https://commandcode.ai/pricing) |
+| CommandCode | Max 20×（60款全模型无限制） | $200 | — | $300/月·5h $90 · 周 $180·约437K次 | [开通](https://commandcode.ai/pricing) |
 | z.ai | Lite | $18 | — | 2,000 | [开通](https://z.ai/subscribe?ic=V6PINPKB9I) |
 | z.ai | Pro | $80 | — | 12,000 | [开通](https://z.ai/subscribe?ic=V6PINPKB9I) |
 | z.ai | Max | $168 | — | 28,000 | [开通](https://z.ai/subscribe?ic=V6PINPKB9I) |
