@@ -16,7 +16,7 @@
 
 > **更新日志**（每分类仅保留最新一条·完整历史见 git log）
 >
-- **Coding**（2026.09.09）（OpenStarry Coding Plan 三档复活：体验¥5/星序¥9.9/星创¥49.9·星途版消失；TaoToken 抢购价 Pro ¥129→¥99·Max ¥338→¥299·新增季付视图；AtomCode 三档新增 GLM-5.3-Flash；快手StreamLake Coding 营销页 404 待复核；其余条目无变化）
+- **Coding**（2026.09.09）（评分调整：讯飞星辰 3→2.5★、蓝耘元生代云 3→2★（模型老·用量不高·速度慢）；OpenStarry 三档复活；TaoToken Pro ¥99/Max ¥299+季付；AtomCode 新增 GLM-5.3-Flash；快手StreamLake 营销页 404 待复核）
 - **Token**（2026.09.09）（8 个监控条目经核对无变化）
 - **Video**（2026.09.09）（即梦 Seedance 2.5 积分折扣活动延期至 9.14；RunningHub 团队四档权益标注 Seedance 2.5；其余经核对无变化；海螺AI/pai.video 登录墙·Vidu CDN 拦截—双源佐证无变化）
 - **Image**（2026.09.09）（RunningHub 团队四档权益标注 Seedance 2.5·720P 低至 ¥1.15~1.38/s·与 Video 同步；其余五家经核对无变化）
@@ -66,9 +66,9 @@ https://ai.hsnb.fun/aiplanhub
 | Meituan CatPaw | — | 1 | 免费 | ★★★★ |
 | Kimi | Kimi-K3 / Kimi-K2.7-Code | 4 | ¥39 | ★★½ |
 | 阿里·百炼 | Qwen3.6-Plus | 1 | ¥200 | ★★★ |
-| 蓝耘元生代云 | GLM-5.1 | 3 | ¥49 | ★★★ |
+| 蓝耘元生代云 | GLM-5.1 | 3 | ¥49 | ★★ |
 | 腾讯·Coding | GLM-5 / Auto | 2 | ¥40 | ★★★ |
-| 讯飞星辰 | GLM-5.2 / DeepSeek-V4-Flash-0731 / Spark X2 Agent | 2 | ¥199 | ★★★ |
+| 讯飞星辰 | GLM-5.2 / DeepSeek-V4-Flash-0731 / Spark X2 Agent | 2 | ¥199 | ★★½ |
 | 阶跃星辰 | Step-3.5-Flash-2603 | 4 | ¥49 | ★★★ |
 | 快手 StreamLake | KAT-Coder-Pro V1/V2/V2.5 | 4 | ¥29 | ★★★ |
 | Ollama | GLM-5.3 / GLM-5.2 / DeepSeek-V4-Flash / Kimi-K3 | 4 | $0 | ★★★½ |
