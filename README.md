@@ -16,7 +16,7 @@
 
 > **更新日志**（每分类仅保留最新一条·完整历史见 git log）
 >
-- **Coding**（2026.09.07）（Ollama 计费方式重大变更：GPU时间计费→按token计费·官方公开百万tokens单价表+Peak高峰2倍价·并发首次明文 Free1/Pro3/Max与Team10·套餐价格不变；其余 24 个监控条目无变化）
+- **Coding**（2026.09.09）（OpenStarry Coding Plan 三档复活：体验¥5/星序¥9.9/星创¥49.9·星途版消失；TaoToken 抢购价 Pro ¥129→¥99·Max ¥338→¥299·新增季付视图；AtomCode 三档新增 GLM-5.3-Flash；快手StreamLake Coding 营销页 404 待复核；其余条目无变化）
 - **Token**（2026.09.09）（8 个监控条目经核对无变化）
 - **Video**（2026.09.09）（即梦 Seedance 2.5 积分折扣活动延期至 9.14；RunningHub 团队四档权益标注 Seedance 2.5；其余经核对无变化；海螺AI/pai.video 登录墙·Vidu CDN 拦截—双源佐证无变化）
 - **Image**（2026.09.09）（RunningHub 团队四档权益标注 Seedance 2.5·720P 低至 ¥1.15~1.38/s·与 Video 同步；其余五家经核对无变化）
@@ -72,7 +72,7 @@ https://ai.hsnb.fun/aiplanhub
 | 阶跃星辰 | Step-3.5-Flash-2603 | 4 | ¥49 | ★★★ |
 | 快手 StreamLake | KAT-Coder-Pro V1/V2/V2.5 | 4 | ¥29 | ★★★ |
 | Ollama | GLM-5.3 / GLM-5.2 / DeepSeek-V4-Flash / Kimi-K3 | 4 | $0 | ★★★½ |
-| AtomCode | MiMo-V2.5 / MiMo-V2.5-Pro / Qwen3.8-27B / DeepSeek-V4-Flash | 3 | 免费 | ★★★★ |
+| AtomCode | MiMo-V2.5 / MiMo-V2.5-Pro / Qwen3.8-27B / GLM-5.3-Flash | 3 | 免费 | ★★★★ |
 | z.ai | GLM-5.3 / GLM-5.3-Flash（国际版） | 3 | $18 | ★★½ |
 | MiniMax | MiniMax-M3 / M2.7 | 3 | ¥49 | ★★ |
 | 联通云 | DeepSeek-V4-Pro / Kimi-K2.6 / Qwen3.6-27B | 2 | ¥40 | ★★ |
@@ -80,7 +80,7 @@ https://ai.hsnb.fun/aiplanhub
 | 移动云 | MiniMax-M2.5 | 2 | ¥40 | ★★ |
 | 国家超算互联网 | MiniMax-M2.5 / Qwen3-235B-A22B | 2 | ¥20 | ★★ |
 | 优云智算 | GLM-5.2 / DeepSeek-V4-Pro / DeepSeek-V4-Flash / Qwen3.6-Plus / MiniMax-M2.7 / Kimi-K2.6 | 6 | ¥49 | ★★ |
-| OpenStarry | GLM-5.2 / Kimi-K3 / GLM-5.3 / MiniMax-M3 / DeepSeek-V4 / Qwen3.7-Max | 自选按次 | ¥0.005/次起 | — | ★ |
+| OpenStarry | 体验套餐 ¥5/月·20次 · 星序版 ¥9.9/月·2,000次 · 星创版 ¥49.9/月·10,000次 | 月付起¥5 | 旗舰 GLM-5.2/Kimi-K3 | — | ★ |
 | CommandCode | GLM-5.3 / Gemini 3.7 Flash / GPT-5.6 Luna / Claude Sonnet 5 / Grok 4.6 | 5 | $1 | ★★★★ |
 
 ### 入门级（人民币月付 ≤ ¥50）
@@ -99,7 +99,7 @@ https://ai.hsnb.fun/aiplanhub
 | 腾讯·Coding | Lite | ¥40 | ¥7.9 | 1,200 | [开通](https://console.cloud.tencent.cn/tokenhub/codingplan?regionId=1) |
 | 移动云 | Lite | ¥40 | ¥7.9 | 1,200 | [开通](https://ecloud.10086.cn/portal/act/codingplan) |
 | 字节·方舟 | Lite | ¥40 | ¥9.9 | 1,200 | [开通](https://volcengine.com/L/jmiEa1dptck/) |
-| OpenStarry | 自选套餐(按次) | ¥0.005~¥0.02/次 | 赠200次 | 不限 | [开通](https://api.openstarry.com/?aff=X31B) |
+| OpenStarry | 体验套餐(¥5/月·20次) | ¥5 | 赠200次 | 不限 | [开通](https://api.openstarry.com/?aff=X31B) |
 | 蓝耘元生代云 | 入门版 | ¥49 | — | 1,200 | [开通](https://console.lanyun.net/#/register?promoterCode=3ef0f72996) |
 | 智谱AI | Lite | ¥118 | — | 2,000 | [开通](https://www.bigmodel.cn/glm-coding?ic=DGRQECTZFB) |
 | 优云智算 | Mini | ¥49 | — | 200 | [开通](https://passport.compshare.cn/register?referral_code=Kkl0Vgy0pCsFOzeMtfGBdI) |
@@ -125,7 +125,7 @@ https://ai.hsnb.fun/aiplanhub
 | 平台 | 方案 | 月付 | 首月价 | 5h请求数 | 开通 |
 |------|------|------|--------|----------|------|
 | 快手 StreamLake | Starter | ¥70 | — | 100 Prompts | [开通](https://www.streamlake.com/marketing/coding-plan) |
-| TaoToken | Pro | ¥129 | — | — | [开通](https://taotoken.net/?u=inv_iyn75yglujwdy9ij&utm_source=tt_invite) |
+| TaoToken | Pro | ¥99 | — | — | [开通](https://taotoken.net/?u=inv_iyn75yglujwdy9ij&utm_source=tt_invite) |
 | Kimi | Moderato | ¥99 | — | — | [开通](https://kimi-bot.com/activities/zh-cn/viral-referral/share?scenario=invite&from=share_poster&invitation_code=ANRBYG) |
 | 国家超算互联网 | Pro | ¥100 | — | 6,000 | [开通](https://www.scnet.cn/ac/openapi/doc/2.0/moduleapi/codingplan/subscriptionnotice.html) |
 | 阶跃星辰 | Flash Plus | ¥99 | — | 6,000 | [开通](https://platform.stepfun.com?invite_code=KHVQVECJ) |
@@ -134,7 +134,7 @@ https://ai.hsnb.fun/aiplanhub
 | Charm Hyper | Bundle $5 | $5(一次) | — | — | [开通](https://hyper.charm.land/) |
 | Charm Hyper | Bundle $10 | $10(一次) | — | — | [开通](https://hyper.charm.land/) |
 | Charm Hyper | Bundle $20 | $20(一次) | — | — | [开通](https://hyper.charm.land/) |
-| OpenStarry | 自选套餐(按次·可选旗舰模型) | ¥0.005~¥0.02/次 | 赠200次 | 不限 | [开通](https://api.openstarry.com/?aff=X31B) |
+| OpenStarry | 星序版(¥9.9/月·2,000次) | ¥9.9 | 赠200次 | 不限 | [开通](https://api.openstarry.com/?aff=X31B) |
 | 蓝耘元生代云 | 专业版 | ¥149 | — | 6,000 | [开通](https://console.lanyun.net/#/register?promoterCode=3ef0f72996) |
 | 智谱AI | Pro | ¥538 | — | 12,000 | [开通](https://www.bigmodel.cn/glm-coding?ic=DGRQECTZFB) |
 | 讯飞星辰 | 高效版 | ¥199 | — | 6,000 | [开通](https://maas.xfyun.cn/packageSubscription?inviteCode=MAAS-7573AB85) |
@@ -150,7 +150,7 @@ https://ai.hsnb.fun/aiplanhub
 | 平台 | 方案 | 月付 | 首月价 | 5h请求数 | 开通 |
 |------|------|------|--------|----------|------|
 | 阿里·百炼 | Pro | ¥200 | ¥39.9 | 6,000 | [开通](https://www.aliyun.com/minisite/goods?userCode=hun0t0sf) |
-| TaoToken | Max | ¥338 | — | — | [开通](https://taotoken.net/?u=inv_iyn75yglujwdy9ij&utm_source=tt_invite) |
+| TaoToken | Max | ¥299 | — | — | [开通](https://taotoken.net/?u=inv_iyn75yglujwdy9ij&utm_source=tt_invite) |
 
 | 联通云 | Pro | ¥200 | — | 6,000 | [开通](https://support.cucloud.cn/document/127/591/2357.html?id=2357&arcid=7015) |
 | 腾讯·Coding | Pro | ¥200 | ¥39.9 | 6,000 | [开通](https://console.cloud.tencent.cn/tokenhub/codingplan?regionId=1) |
