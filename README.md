@@ -17,7 +17,7 @@
 > **更新日志**（每分类仅保留最新一条·完整历史见 git log）
 >
 - **Coding**（2026.09.10）（字节·方舟模型表新增 Kimi-K3；TaoToken 升级双 Flash（GLM-5.3-Flash+DeepSeek-V4-Flash）；CommandCode 请求估算 230K→219K/370K→437K；稳明光语纪仅剩 Lite ¥45（Pro/Plus/Max/新用户套餐下架）；快手StreamLake 营销页 404）
-- **Token**（2026.09.09）（8 个监控条目经核对无变化）
+- **Token**（2026.09.10）（8 个监控条目经核对无变化）
 - **Video**（2026.09.10）（经核对无变化：即梦三视图/快手可灵/RunningHub/腾讯混元/通义万相一致；海螺AI/pai.video 登录墙·Vidu CDN 拦截·OpenArt 超时——双源佐证无变化）
 - **Image**（2026.09.10）（Liblib AI 促销文案更新：活动区移除 MiniMax H3 Max/Seedance 2.0 Mini/Fast VIP 折扣·Wan 3.0 系列改为 Wan 3.0 Prime，价格无变化；其余五家经核对无变化）
 - **Audio**（2026.09.10）（经核对无变化：Suno/Udio/Ace Studio 一致；海螺AI 登录墙·双源佐证无变化）
