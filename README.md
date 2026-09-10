@@ -16,7 +16,7 @@
 
 > **更新日志**（每分类仅保留最新一条·完整历史见 git log）
 >
-- **Coding**（2026.09.10）（评分调整：OpenCode Go 2.5→4★（新增 DeepSeek-V4.1-Flash·限时4倍用量·官方价格）、CommandCode 维持 4★（DeepSeek-V4.1-Flash 价格对齐官方·限时6倍用量）；字节·方舟模型表新增 Kimi-K3；TaoToken 升级双 Flash；稳明光语纪仅剩 Lite ¥45；快手StreamLake 营销页 404）
+- **Coding**（2026.09.10）（评分调整：OpenCode Go 2.5→4★（新增 DeepSeek-V4.1-Flash·限时72h 4倍用量·官方价格）、CommandCode 维持 4★（DeepSeek-V4.1-Flash 价格对齐官方·限时6倍用量）；字节·方舟模型表新增 Kimi-K3；TaoToken 升级双 Flash；稳明光语纪仅剩 Lite ¥45；快手StreamLake 营销页 404）
 - **Token**（2026.09.10）（8 个监控条目经核对无变化）
 - **Video**（2026.09.10）（经核对无变化：即梦三视图/快手可灵/RunningHub/腾讯混元/通义万相一致；海螺AI/pai.video 登录墙·Vidu CDN 拦截·OpenArt 超时——双源佐证无变化）
 - **Image**（2026.09.10）（Liblib AI 促销文案更新：活动区移除 MiniMax H3 Max/Seedance 2.0 Mini/Fast VIP 折扣·Wan 3.0 系列改为 Wan 3.0 Prime，价格无变化；其余五家经核对无变化）
@@ -204,7 +204,7 @@ https://ai.hsnb.fun/aiplanhub
 | Alaya Code | 入门版 | ¥199 | — | 3,270万 Tokens/月·暂时售罄 | [开通](https://codingplan.alayanew.com/docs/billing) |
 | 小米·MiMo | Lite | ¥39 | ¥34.32 | 4.1B Credits/月 | [开通](https://platform.xiaomimimo.com/#/token-plan) |
 | 方舟 Agent Plan | Small | ¥40 | — | 20,000 AFP/月 | [开通](https://www.volcengine.com/docs/82379/2366394?lang=zh) |
-| OpenCode Go | Go | $10 | — | $12/5h $30/周 $60/月·DeepSeek-V4.1-Flash 限时4倍用量·⚠️Muse Spark 1.2/1.3 国内不可调用 | [Go \| OpenCode](https://opencode.ai/go?ref=V156X2ZH2S) |
+| OpenCode Go | Go | $10 | — | $12/5h $30/周 $60/月·DeepSeek-V4.1-Flash 限时72h 4倍用量·⚠️Muse Spark 1.2/1.3 国内不可调用 | [Go \| OpenCode](https://opencode.ai/go?ref=V156X2ZH2S) |
 | ChatGPT | Token | ¥28.8 | — | 100 刀·暂时售罄 | [开通](https://pay.ldxp.cn/shop/mirage) |
 | 腾讯·Token | Standard | ¥99 | — | 1,980积分/月 | [开通](https://curl.qcloud.com/1Uogyigq) |
 | 阿里·Token Plan | 用量包 | ¥100 | — | 20,000 Credits/个·需有效订阅·最多5个 | [开通](https://common-buy.aliyun.com/token-plan) |
