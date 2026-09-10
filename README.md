@@ -16,7 +16,7 @@
 
 > **更新日志**（每分类仅保留最新一条·完整历史见 git log）
 >
-- **Coding**（2026.09.10）（评分调整：OpenCode Go 2.5→4★（新增 DeepSeek-V4.1-Flash·限时72h 4倍用量·官方价格）、CommandCode 维持 4★（DeepSeek-V4.1-Flash 价格对齐官方·限时6倍用量）；字节·方舟模型表新增 Kimi-K3；TaoToken 升级双 Flash；稳明光语纪仅剩 Lite ¥45；快手StreamLake 营销页 404）
+- **Coding**（2026.09.11）（Ollama 云模型 18→19 款新增 DeepSeek-V4.1-Flash；腾讯·Coding GLM-5 将于 2026.10.09 下线；OpenCode Go 新增 Muse Spark 1.3 Contributor；MiniMax Music 模型停止服务·移除音乐生成权益；其余经核对无变化）
 - **Token**（2026.09.10）（8 个监控条目经核对无变化）
 - **Video**（2026.09.11）（9 家监控条目经核对无变化：即梦/快手可灵/RunningHub/腾讯混元/通义万相/OpenArt 一致；海螺AI/pai.video 登录墙·Vidu 懒加载——双源佐证无变化）
 - **Image**（2026.09.11）（6 家监控条目经核对无变化）
@@ -67,11 +67,11 @@ https://ai.hsnb.fun/aiplanhub
 | Kimi | Kimi-K3 / Kimi-K2.7-Code | 4 | ¥39 | ★★½ |
 | 阿里·百炼 | Qwen3.6-Plus | 1 | ¥200 | ★★★ |
 | 蓝耘元生代云 | GLM-5.1 | 3 | ¥49 | ★★ |
-| 腾讯·Coding | GLM-5 / Auto | 2 | ¥40 | ★★★ |
+| 腾讯·Coding | GLM-5（10.9下线）/ Auto | 2 | ¥40 | ★★★ |
 | 讯飞星辰 | GLM-5.2 / DeepSeek-V4-Flash-0731 / Spark X2 Agent | 2 | ¥199 | ★★½ |
 | 阶跃星辰 | Step-3.5-Flash-2603 | 4 | ¥49 | ★★★ |
 | 快手 StreamLake | KAT-Coder-Pro V1/V2/V2.5 | 4 | ¥29 | ★★★ |
-| Ollama | GLM-5.3 / GLM-5.2 / DeepSeek-V4-Flash / Kimi-K3 | 4 | $0 | ★★★½ |
+| Ollama | GLM-5.3 / GLM-5.2 / DeepSeek-V4.1-Flash / Kimi-K3 | 4 | $0 | ★★★½ |
 | AtomCode | MiMo-V2.5 / MiMo-V2.5-Pro / Qwen3.8-27B / GLM-5.3-Flash | 3 | 免费 | ★★★★ |
 | z.ai | GLM-5.3 / GLM-5.3-Flash（国际版） | 3 | $18 | ★★½ |
 | MiniMax | MiniMax-M3 / M2.7 | 3 | ¥49 | ★★ |
@@ -184,7 +184,7 @@ https://ai.hsnb.fun/aiplanhub
 |------|----------|--------|--------|------|
 | ChatGPT | GPT-5.4 / GPT-Image-2 / GPT-5.3-Codex | 1 | ¥28.8 | ★★★★★ |
 | 百度·千帆 | ERNIE 5.1 / GLM-5.2 / Kimi-K2.6 / DeepSeek-V4全系 | 4 | ¥4.9 | ★★★ |
-| OpenCode Go | GLM-5.3-Flash / GLM-5.3 / GLM-5.2 / GPT-5.6-Luna / Qwen3.8-Max / Qwen3.8-Flash / DeepSeek-V4.1-Flash / DeepSeek-V4-Pro / DeepSeek-V4-Flash-Vision-Exp / Hy4-Preview 等27款（Muse Spark 1.2/1.3 国内不可调用） | 1 | $10 | ★★★★ |
+| OpenCode Go | GLM-5.3-Flash / GLM-5.3 / GLM-5.2 / GPT-5.6-Luna / Qwen3.8-Max / Qwen3.8-Flash / DeepSeek-V4.1-Flash / DeepSeek-V4-Pro / DeepSeek-V4-Flash-Vision-Exp / Hy4-Preview 等28款含 Muse Spark 1.3 Contributor（Muse Spark 1.2/1.3 国内不可调用） | 1 | $10 | ★★★★ |
 | 阿里·Token Plan | Qwen3.8-Max / Qwen3.8-Flash / Qwen3.7-Max / DeepSeek-V4-Pro / Wan2.7-Image / HappyHorse-1.1 等 | 8 | ¥39 | ★★★ |
 | 超算互联网·Token | GLM-5.3 / Qwen3.8-Max / DeepSeek-V4-Pro / Kimi-K3 | 4 | ¥30 | ★★★ |
 | TaoToken | DeepSeek-V4-Pro / Kimi-K3 / GLM-5.2 | 3 | ¥59 | ★★★ |
