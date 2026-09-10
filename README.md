@@ -18,7 +18,7 @@
 >
 - **Coding**（2026.09.10）（评分调整：OpenCode Go 2.5→4★（新增 DeepSeek-V4.1-Flash·限时72h 4倍用量·官方价格）、CommandCode 维持 4★（DeepSeek-V4.1-Flash 价格对齐官方·限时6倍用量）；字节·方舟模型表新增 Kimi-K3；TaoToken 升级双 Flash；稳明光语纪仅剩 Lite ¥45；快手StreamLake 营销页 404）
 - **Token**（2026.09.10）（8 个监控条目经核对无变化）
-- **Video**（2026.09.10）（经核对无变化：即梦三视图/快手可灵/RunningHub/腾讯混元/通义万相一致；海螺AI/pai.video 登录墙·Vidu CDN 拦截·OpenArt 超时——双源佐证无变化）
+- **Video**（2026.09.11）（9 家监控条目经核对无变化：即梦/快手可灵/RunningHub/腾讯混元/通义万相/OpenArt 一致；海螺AI/pai.video 登录墙·Vidu 懒加载——双源佐证无变化）
 - **Image**（2026.09.10）（Liblib AI 促销文案更新：活动区移除 MiniMax H3 Max/Seedance 2.0 Mini/Fast VIP 折扣·Wan 3.0 系列改为 Wan 3.0 Prime，价格无变化；其余五家经核对无变化）
 - **Audio**（2026.09.11）（Suno 模型更新：付费档 v6/v6-wild·免费档 v6-mini，价格不变；Udio/Ace Studio 一致；海螺AI 登录墙·双源无音频订阅证据）
 - 其他：中转站 2026.08.15（THINK-AI已下架·仅保留幻境MirageAI·幻境充值链接更新）·已下架归档 2026.08.19（新增无问芯穹/天翼云/百度千帆经典CodingPlan）·价格对比 2026.07.06 新增
