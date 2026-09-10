@@ -16,7 +16,7 @@
 
 > **更新日志**（每分类仅保留最新一条·完整历史见 git log）
 >
-- **Coding**（2026.09.10）（评分调整：OpenCode Go 2.5→4★（新增 DeepSeek-V4.1-Flash·限时4倍用量·官方价格）、CommandCode 4→3.5★（DeepSeek 系列价格为涨价前·暂时不如 OpenCode Go）；字节·方舟模型表新增 Kimi-K3；TaoToken 升级双 Flash；稳明光语纪仅剩 Lite ¥45；快手StreamLake 营销页 404）
+- **Coding**（2026.09.10）（评分调整：OpenCode Go 2.5→4★（新增 DeepSeek-V4.1-Flash·限时4倍用量·官方价格）、CommandCode 维持 4★（DeepSeek-V4.1-Flash 价格对齐官方·限时6倍用量）；字节·方舟模型表新增 Kimi-K3；TaoToken 升级双 Flash；稳明光语纪仅剩 Lite ¥45；快手StreamLake 营销页 404）
 - **Token**（2026.09.10）（8 个监控条目经核对无变化）
 - **Video**（2026.09.10）（经核对无变化：即梦三视图/快手可灵/RunningHub/腾讯混元/通义万相一致；海螺AI/pai.video 登录墙·Vidu CDN 拦截·OpenArt 超时——双源佐证无变化）
 - **Image**（2026.09.10）（Liblib AI 促销文案更新：活动区移除 MiniMax H3 Max/Seedance 2.0 Mini/Fast VIP 折扣·Wan 3.0 系列改为 Wan 3.0 Prime，价格无变化；其余五家经核对无变化）
@@ -81,7 +81,7 @@ https://ai.hsnb.fun/aiplanhub
 | 国家超算互联网 | MiniMax-M2.5 / Qwen3-235B-A22B | 2 | ¥20 | ★★ |
 | 优云智算 | GLM-5.2 / DeepSeek-V4-Pro / DeepSeek-V4-Flash / Qwen3.6-Plus / MiniMax-M2.7 / Kimi-K2.6 | 6 | ¥49 | ★★ |
 | OpenStarry | 体验套餐 ¥5/月·20次 · 星序版 ¥9.9/月·2,000次 · 星创版 ¥49.9/月·10,000次 | 月付起¥5 | 旗舰 GLM-5.2/Kimi-K3 | — | ★ |
-| CommandCode | GLM-5.3 / Gemini 3.7 Flash / GPT-5.6 Luna / Claude Sonnet 5 / Grok 4.6 | 5 | $1 | ★★★½ |
+| CommandCode | GLM-5.3 / Gemini 3.7 Flash / GPT-5.6 Luna / Claude Sonnet 5 / Grok 4.6 | 5 | $1 | ★★★★ |
 
 ### 入门级（人民币月付 ≤ ¥50）
 
