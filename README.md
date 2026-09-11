@@ -18,7 +18,7 @@
 >
 - **Coding**（2026.09.11）（评分调整：OpenCode Go 4→3★（DeepSeek-V4.1-Flash 限时72h 4倍用量·官方价格·限时活动不计入长期评分）、Ollama 评分卡片更新（DeepSeek 高峰期 20:00-次日凌晨02:00·与别家不同）；Ollama 云模型 18→19 款新增 DeepSeek-V4.1-Flash；腾讯·Coding GLM-5 将于 2026.10.09 下线；OpenCode Go 新增 Muse Spark 1.3 Contributor；MiniMax Music 模型停止服务·移除音乐生成权益；其余经核对无变化）
 - **Token**（2026.09.11）（腾讯·Token GLM-5/GLM-5.1 将于 2026.10.9 下线；OpenCode Go 移除 Omen-Alpha、新增 DeepSeek-V4.1-Flash；小米·MiMo Claw 加购调整为 ¥233.80/年；其余经核对无变化）
-- **Video**（2026.09.11）（9 家监控条目经核对无变化：即梦/快手可灵/RunningHub/腾讯混元/通义万相/OpenArt 一致；海螺AI/pai.video 登录墙·Vidu 懒加载——双源佐证无变化）
+- **Video**（2026.09.12）（经核对无变化：即梦/快手可灵/RunningHub/腾讯混元/通义万相/OpenArt 一致；海螺AI/pai.video 登录墙·Vidu 懒加载——双源佐证无变化）
 - **Image**（2026.09.11）（6 家监控条目经核对无变化）
 - **Audio**（2026.09.12）（Ace Studio 促销文案更新：节日特惠 20% OFF+100%退款保证·新人赠 30 天 AutoTune 2026，价格不变；Suno/Udio 一致；海螺AI 登录墙·双源无音频订阅证据）
 - 其他：中转站 2026.08.15（THINK-AI已下架·仅保留幻境MirageAI·幻境充值链接更新）·已下架归档 2026.08.19（新增无问芯穹/天翼云/百度千帆经典CodingPlan）·价格对比 2026.07.06 新增
