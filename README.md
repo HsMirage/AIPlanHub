@@ -16,7 +16,7 @@
 
 > **更新日志**（每分类仅保留最新一条·完整历史见 git log）
 >
-- **Coding**（2026.09.11）（Ollama 云模型 18→19 款新增 DeepSeek-V4.1-Flash；腾讯·Coding GLM-5 将于 2026.10.09 下线；OpenCode Go 新增 Muse Spark 1.3 Contributor；MiniMax Music 模型停止服务·移除音乐生成权益；其余经核对无变化）
+- **Coding**（2026.09.11）（评分调整：OpenCode Go 4→3★（DeepSeek-V4.1-Flash 限时72h 4倍用量·官方价格·限时活动不计入长期评分）；Ollama 云模型 18→19 款新增 DeepSeek-V4.1-Flash；腾讯·Coding GLM-5 将于 2026.10.09 下线；OpenCode Go 新增 Muse Spark 1.3 Contributor；MiniMax Music 模型停止服务·移除音乐生成权益；其余经核对无变化）
 - **Token**（2026.09.11）（腾讯·Token GLM-5/GLM-5.1 将于 2026.10.9 下线；OpenCode Go 移除 Omen-Alpha、新增 DeepSeek-V4.1-Flash；小米·MiMo Claw 加购调整为 ¥233.80/年；其余经核对无变化）
 - **Video**（2026.09.11）（9 家监控条目经核对无变化：即梦/快手可灵/RunningHub/腾讯混元/通义万相/OpenArt 一致；海螺AI/pai.video 登录墙·Vidu 懒加载——双源佐证无变化）
 - **Image**（2026.09.11）（6 家监控条目经核对无变化）
@@ -184,7 +184,7 @@ https://ai.hsnb.fun/aiplanhub
 |------|----------|--------|--------|------|
 | ChatGPT | GPT-5.4 / GPT-Image-2 / GPT-5.3-Codex | 1 | ¥28.8 | ★★★★★ |
 | 百度·千帆 | ERNIE 5.1 / GLM-5.2 / Kimi-K2.6 / DeepSeek-V4全系 | 4 | ¥4.9 | ★★★ |
-| OpenCode Go | GLM-5.3-Flash / GLM-5.3 / GLM-5.2 / GPT-5.6-Luna / Qwen3.8-Max / Qwen3.8-Flash / DeepSeek-V4.1-Flash / DeepSeek-V4-Pro / DeepSeek-V4-Flash-Vision-Exp / Hy4-Preview 等28款含 Muse Spark 1.3 Contributor（Muse Spark 1.2/1.3 国内不可调用） | 1 | $10 | ★★★★ |
+| OpenCode Go | GLM-5.3-Flash / GLM-5.3 / GLM-5.2 / GPT-5.6-Luna / Qwen3.8-Max / Qwen3.8-Flash / DeepSeek-V4.1-Flash / DeepSeek-V4-Pro / DeepSeek-V4-Flash-Vision-Exp / Hy4-Preview 等27款（Muse Spark 1.2/1.3 国内不可调用） | 1 | $10 | ★★★ |
 | 阿里·Token Plan | Qwen3.8-Max / Qwen3.8-Flash / Qwen3.7-Max / DeepSeek-V4-Pro / Wan2.7-Image / HappyHorse-1.1 等 | 8 | ¥39 | ★★★ |
 | 超算互联网·Token | GLM-5.3 / Qwen3.8-Max / DeepSeek-V4-Pro / Kimi-K3 | 4 | ¥30 | ★★★ |
 | TaoToken | DeepSeek-V4-Pro / Kimi-K3 / GLM-5.2 | 3 | ¥59 | ★★★ |
