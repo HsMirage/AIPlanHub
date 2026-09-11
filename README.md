@@ -16,7 +16,7 @@
 
 > **更新日志**（每分类仅保留最新一条·完整历史见 git log）
 >
-- **Coding**（2026.09.11）（评分调整：OpenCode Go 4→3★（DeepSeek-V4.1-Flash 限时72h 4倍用量·官方价格·限时活动不计入长期评分）、Ollama 评分卡片更新（DeepSeek 高峰期 20:00-次日凌晨02:00·与别家不同）；Ollama 云模型 18→19 款新增 DeepSeek-V4.1-Flash；腾讯·Coding GLM-5 将于 2026.10.09 下线；OpenCode Go 新增 Muse Spark 1.3 Contributor；MiniMax Music 模型停止服务·移除音乐生成权益；其余经核对无变化）
+- **Coding**（2026.09.12）（稳明光语纪重大反转：Pro/Plus/Max/¥29.9 新用户套餐恢复上架（09.10 曾下架）·四档 ¥45/¥125/¥249/¥429；TaoToken 本轮抢购活动已结束·三档均需订阅开售通知；Charm Hyper 模型目录 33→34 款新增 DeepSeek-V4.1-Flash；CommandCode 新限时 DEAL：deepseek-v4.1-flash 额度提升至 9.17；其余经核对无变化）
 - **Token**（2026.09.11）（腾讯·Token GLM-5/GLM-5.1 将于 2026.10.9 下线；OpenCode Go 移除 Omen-Alpha、新增 DeepSeek-V4.1-Flash；小米·MiMo Claw 加购调整为 ¥233.80/年；其余经核对无变化）
 - **Video**（2026.09.12）（经核对无变化：即梦/快手可灵/RunningHub/腾讯混元/通义万相/OpenArt 一致；海螺AI/pai.video 登录墙·Vidu 懒加载——双源佐证无变化）
 - **Image**（2026.09.12）（6 家监控条目经核对无变化）
@@ -60,7 +60,7 @@ https://ai.hsnb.fun/aiplanhub
 | 商汤SenseNova | SenseNova 6.8 Flash Lite / SenseNova U1.5 Lite / SenseNova U1 Fast / DeepSeek V4 Pro / DeepSeek V4 Flash / GLM-5.2 / Kimi K3 | 1 | 免费 | ★★★★★ |
 | 智谱AI | GLM-5.3 / GLM-5.3-Flash | 3 | ¥118 | ★★½ |
 
-| 稳明光语纪 | GLM-5.3 / DeepSeek-V4-Flash-0731 | 1 | ¥45 | ★★★½ |
+| 稳明光语纪 | GLM-5.3 / DeepSeek-V4-Flash-0731 | 4 | ¥45 | ★★★½ |
 | 字节·方舟 | GLM-5.3 / GLM-5.3-Flash / Kimi-K3 / Doubao-Seed-2.1-turbo / Doubao-Seed-Evolving / Kimi-K2.7-Code | 2 | ¥40 | ★★★ |
 | Charm Hyper | GLM-5.3 / GLM-5.3-Flash / Qwen3.8-Flash / Qwen3.8-Max / DeepSeek-V4-Pro-0813 / DeepSeek-V4-Flash-0731 / Kimi-K3 / Kimi-K2-Thinking | 5 | $0 | ★★★½ |
 | Meituan CatPaw | — | 1 | 免费 | ★★★★ |
@@ -118,6 +118,7 @@ https://ai.hsnb.fun/aiplanhub
 | ChatGPT | Team | ¥28.8 | — | — | [开通](https://pay.ldxp.cn/shop/mirage) |
 | 商汤SenseNova | Free · 公测 | 免费 | — | 60,000积分/5h | [开通](https://www.sensenova.cn/token-plan) |
 | 稳明光语纪 | Lite | ¥45 | — | — | [开通](https://wenming7.cn/sales?ref=DCRTY9PM) |
+| 稳明光语纪 | Pro | ¥125 | — | — | [开通](https://wenming7.cn/sales?ref=DCRTY9PM) |
 
 ### 进阶级（人民币月付 ¥51-¥199）
 
@@ -140,6 +141,7 @@ https://ai.hsnb.fun/aiplanhub
 | 优云智算 | Basic | ¥199 | — | 800 | [开通](https://passport.compshare.cn/register?referral_code=Kkl0Vgy0pCsFOzeMtfGBdI) |
 | 阶跃星辰 | Flash Pro | ¥199 | — | 22,500 | [开通](https://platform.stepfun.com?invite_code=KHVQVECJ) |
 | MiniMax | Max | ¥119 | — | 4,500 | [开通](https://platform.minimaxi.com/subscribe/token-plan) |
+| 稳明光语纪 | Plus | ¥249 | — | — | [开通](https://wenming7.cn/sales?ref=DCRTY9PM) |
 | Kimi | Allegretto | ¥199 | — | — | [开通](https://kimi-bot.com/activities/zh-cn/viral-referral/share?scenario=invite&from=share_poster&invitation_code=ANRBYG) |
 
 ### 高阶级（人民币月付 ≥ ¥200）
@@ -159,6 +161,7 @@ https://ai.hsnb.fun/aiplanhub
 | 智谱AI | Max | ¥1078 | — | 28,000 | [开通](https://www.bigmodel.cn/glm-coding?ic=DGRQECTZFB) |
 | 阶跃星辰 | Flash Max | ¥699 | — | 75,000 | [开通](https://platform.stepfun.com?invite_code=KHVQVECJ) |
 | Kimi | Allegro | ¥699 | — | — | [开通](https://kimi-bot.com/activities/zh-cn/viral-referral/share?scenario=invite&from=share_poster&invitation_code=ANRBYG) |
+| 稳明光语纪 | Max | ¥429 | — | — | [开通](https://wenming7.cn/sales?ref=DCRTY9PM) |
 
 ### 海外 / 美元计费
 
