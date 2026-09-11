@@ -17,7 +17,7 @@
 > **更新日志**（每分类仅保留最新一条·完整历史见 git log）
 >
 - **Coding**（2026.09.12）（稳明光语纪重大反转：Pro/Plus/Max/¥29.9 新用户套餐恢复上架（09.10 曾下架）·四档 ¥45/¥125/¥249/¥429；TaoToken 本轮抢购活动已结束·三档均需订阅开售通知；Charm Hyper 模型目录 33→34 款新增 DeepSeek-V4.1-Flash；CommandCode 新限时 DEAL：deepseek-v4.1-flash 额度提升至 9.17；其余经核对无变化）
-- **Token**（2026.09.11）（腾讯·Token GLM-5/GLM-5.1 将于 2026.10.9 下线；OpenCode Go 移除 Omen-Alpha、新增 DeepSeek-V4.1-Flash；小米·MiMo Claw 加购调整为 ¥233.80/年；其余经核对无变化）
+- **Token**（2026.09.12）（超算互联网·Token 可用模型 16→19 款：新增 GLM-5.3-Flash、DeepSeek-V4.1-Flash、Qwen3.8-Flash，四档价格/Credits 不变；其余经核对无变化）
 - **Video**（2026.09.12）（经核对无变化：即梦/快手可灵/RunningHub/腾讯混元/通义万相/OpenArt 一致；海螺AI/pai.video 登录墙·Vidu 懒加载——双源佐证无变化）
 - **Image**（2026.09.12）（6 家监控条目经核对无变化）
 - **Audio**（2026.09.12）（Ace Studio 促销文案更新：节日特惠 20% OFF+100%退款保证·新人赠 30 天 AutoTune 2026，价格不变；Suno/Udio 一致；海螺AI 登录墙·双源无音频订阅证据）
