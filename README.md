@@ -20,7 +20,7 @@
 - **Token**（2026.09.12）（超算互联网·Token 可用模型 16→19 款：新增 GLM-5.3-Flash、DeepSeek-V4.1-Flash、Qwen3.8-Flash，四档价格/Credits 不变；其余经核对无变化）
 - **Video**（2026.09.12）（经核对无变化：即梦/快手可灵/RunningHub/腾讯混元/通义万相/OpenArt 一致；海螺AI/pai.video 登录墙·Vidu 懒加载——双源佐证无变化）
 - **Image**（2026.09.12）（6 家监控条目经核对无变化）
-- **Audio**（2026.09.12）（Ace Studio 促销文案更新：节日特惠 20% OFF+100%退款保证·新人赠 30 天 AutoTune 2026，价格不变；Suno/Udio 一致；海螺AI 登录墙·双源无音频订阅证据）
+- **Audio**（2026.09.13）（Suno/Udio/Ace Studio 经核对无变化；海螺AI 登录墙·双源无音频订阅证据）
 - 其他：中转站 2026.08.15（THINK-AI已下架·仅保留幻境MirageAI·幻境充值链接更新）·已下架归档 2026.08.19（新增无问芯穹/天翼云/百度千帆经典CodingPlan）·价格对比 2026.07.06 新增
 
 ---
