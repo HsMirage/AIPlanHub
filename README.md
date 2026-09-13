@@ -17,7 +17,7 @@
 > **更新日志**（每分类仅保留最新一条·完整历史见 git log）
 >
 - **Coding**（2026.09.12）（稳明光语纪重大反转：Pro/Plus/Max/¥29.9 新用户套餐恢复上架（09.10 曾下架）·四档 ¥45/¥125/¥249/¥429；TaoToken 本轮抢购活动已结束·三档均需订阅开售通知；Charm Hyper 模型目录 33→34 款新增 DeepSeek-V4.1-Flash；CommandCode 新限时 DEAL：deepseek-v4.1-flash 额度提升至 9.17；其余经核对无变化）
-- **Token**（2026.09.13）（8 个监控平台经核对无变化）
+- **Token**（2026.09.14）（阿里·Token Plan 夜间五折收窄至 qwen3.8-max/deepseek-v4-pro-0813·deepseek-v4-flash-0731 移出活动；TaoToken 支持模型 7→10 款（新增 GLM-5.3/GLM-5.3-Flash/DeepSeek-Flash）；其余经核对无变化）
 - **Video**（2026.09.14）（9 个监控平台经核对无变化）
 - **Image**（2026.09.14）（经核对无变化）
 - **Audio**（2026.09.14）（Suno/Udio/Ace Studio 经核对无变化；海螺AI 登录墙·双源无音频订阅证据）
@@ -190,7 +190,7 @@ https://ai.hsnb.fun/aiplanhub
 | OpenCode Go | GLM-5.3-Flash / GLM-5.3 / GLM-5.2 / GPT-5.6-Luna / Qwen3.8-Max / Qwen3.8-Flash / DeepSeek-V4.1-Flash / DeepSeek-V4-Pro / DeepSeek-V4-Flash-Vision-Exp / Hy4-Preview 等27款（Muse Spark 1.2/1.3 国内不可调用） | 1 | $10 | ★★★ |
 | 阿里·Token Plan | Qwen3.8-Max / Qwen3.8-Flash / Qwen3.7-Max / DeepSeek-V4-Pro / Wan2.7-Image / HappyHorse-1.1 等 | 8 | ¥39 | ★★★ |
 | 超算互联网·Token | GLM-5.3 / Qwen3.8-Max / DeepSeek-V4-Pro / Kimi-K3 | 4 | ¥30 | ★★★ |
-| TaoToken | DeepSeek-V4-Pro / Kimi-K3 / GLM-5.2 | 3 | ¥59 | ★★★ |
+| TaoToken | DeepSeek-V4-Pro / Kimi-K3 / GLM-5.3 等 10 款 | 3 | ¥59 | ★★★ |
 | 方舟 Agent Plan | DeepSeek-V4-Pro / GLM-5.1 / Kimi-K2.6 | 4 | ¥40 | ★★ |
 | 腾讯·Token | Auto / GLM-5.3 / GLM-5.2 / DeepSeek-V4-Flash/Pro / MiniMax-M3 / Kimi-K2.7-Code / Hy3 | 8 | ¥28 | ★ |
 | 天翼云·Token | GLM-5 / DeepSeek-V3.2 / GLM-5.1 / DeepSeek-V4-Flash | 5 | ¥29 | ★ |
