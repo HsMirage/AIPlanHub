@@ -20,7 +20,7 @@
 - **Token**（2026.09.14）（阿里·Token Plan 夜间五折收窄至 qwen3.8-max/deepseek-v4-pro-0813·deepseek-v4-flash-0731 移出活动；TaoToken 支持模型 7→10 款（新增 GLM-5.3/GLM-5.3-Flash/DeepSeek-Flash）；其余经核对无变化）
 - **Video**（2026.09.14）（9 个监控平台经核对无变化）
 - **Image**（2026.09.14）（经核对无变化）
-- **Audio**（2026.09.14）（Suno/Udio/Ace Studio 经核对无变化；海螺AI 登录墙·双源无音频订阅证据）
+- **Audio**（2026.09.15）（Suno/Udio/Ace Studio 经核对无变化；海螺AI 登录墙·双源无音频订阅证据）
 - 其他：中转站 2026.08.15（THINK-AI已下架·仅保留幻境MirageAI·幻境充值链接更新）·已下架归档 2026.08.19（新增无问芯穹/天翼云/百度千帆经典CodingPlan）·价格对比 2026.07.06 新增
 
 ---
