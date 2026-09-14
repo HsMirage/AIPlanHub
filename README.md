@@ -17,7 +17,7 @@
 > **更新日志**（每分类仅保留最新一条·完整历史见 git log）
 >
 - **Coding**（2026.09.15）（OpenCode Go 模型 27→33 款·新增独家匿名模型 Omen Alpha($10订阅享$100月额度)·DS-V4.1-Flash 限时4倍活动结束·评分 3→3.5；Ollama 移除 DeepSeek-V4.1-Flash(19→18款)；OpenStarry 套餐再次重构：体验套餐/星创版消失·新增星衍版¥19.9/周·星途版¥99/月恢复；CommandCode DS-V4.1-Flash 限时DEAL提前结束；其余经核对无变化）
-- **Token**（2026.09.14）（阿里·Token Plan 夜间五折收窄至 qwen3.8-max/deepseek-v4-pro-0813·deepseek-v4-flash-0731 移出活动；TaoToken 支持模型 7→10 款（新增 GLM-5.3/GLM-5.3-Flash/DeepSeek-Flash）；其余经核对无变化）
+- **Token**（2026.09.15）（阿里·Token Plan 夜间五折扩回4款模型（qwen3.8-max/deepseek-v4-pro-0813/deepseek-v4-flash-0731/deepseek-v4.1-flash·09.14收窄反转）；OpenCode Go DS-V4.1-Flash 月额度限时4倍$60（9.20结束）；其余经核对无变化）
 - **Video**（2026.09.15）（9 个监控平台经核对无变化）
 - **Image**（2026.09.15）（经核对无变化）
 - **Audio**（2026.09.15）（Suno/Udio/Ace Studio 经核对无变化；海螺AI 登录墙·双源无音频订阅证据）
