@@ -16,7 +16,7 @@
 
 > **更新日志**（每分类仅保留最新一条·完整历史见 git log）
 >
-- **Coding**（2026.09.12）（稳明光语纪重大反转：Pro/Plus/Max/¥29.9 新用户套餐恢复上架（09.10 曾下架）·四档 ¥45/¥125/¥249/¥429；TaoToken 本轮抢购活动已结束·三档均需订阅开售通知；Charm Hyper 模型目录 33→34 款新增 DeepSeek-V4.1-Flash；CommandCode 新限时 DEAL：deepseek-v4.1-flash 额度提升至 9.17；其余经核对无变化）
+- **Coding**（2026.09.14）（xKiro 周额度全线下调：Pro $67→$35·Pro+ $132→$70·Max $264→$140·Ultra $1,320→$700·Power $2,640→$1,400·Free 5M→500K token/天·价格不变；模型 100→83 款新增 GPT-6 Astra/Gemini 3.8 Flash；评分 4.5→4；其余经核对无变化）
 - **Token**（2026.09.14）（阿里·Token Plan 夜间五折收窄至 qwen3.8-max/deepseek-v4-pro-0813·deepseek-v4-flash-0731 移出活动；TaoToken 支持模型 7→10 款（新增 GLM-5.3/GLM-5.3-Flash/DeepSeek-Flash）；其余经核对无变化）
 - **Video**（2026.09.14）（9 个监控平台经核对无变化）
 - **Image**（2026.09.14）（经核对无变化）
@@ -56,7 +56,7 @@ https://ai.hsnb.fun/aiplanhub
 | 平台 | 代表模型 | 方案数 | 月付起 | 评分 |
 |------|----------|--------|--------|------|
 | ChatGPT | GPT-5.4 / GPT-Image-2 / GPT-5.3-Codex | 2 | ¥26.6 | ★★★★★ |
-| xKiro | Qwen3.8 Max / GLM-5.3 / GLM-5.3-Flash / Codex 5.3 Spark / Hy3 / Gemini 3.7 Flash / Grok 4.6 / Kimi K3 / MiniMax M3 / SenseNova 6.8 Flash-Lite | 6 | $0 | ★★★★½ |
+| xKiro | GPT-6 Astra / GLM-5.3 / GLM-5.3-Flash / Codex 5.3 Spark / Hy4 Preview / Gemini 3.8 Flash / Grok 4.6 / Kimi K3 / MiniMax M3 / Qwen3.8 Max | 6 | $0 | ★★★★ |
 | 商汤SenseNova | SenseNova 6.8 Flash Lite / SenseNova U1.5 Lite / SenseNova U1 Fast / DeepSeek V4 Pro / DeepSeek V4 Flash / GLM-5.2 / Kimi K3 | 1 | 免费 | ★★★★★ |
 | 智谱AI | GLM-5.3 / GLM-5.3-Flash | 3 | ¥118 | ★★½ |
 
@@ -108,12 +108,12 @@ https://ai.hsnb.fun/aiplanhub
 | Meituan CatPaw | 免费版 | 免费 | — | — | [下载](https://catpaw.meituan.com/) |
 | Charm Hyper | Free | $0 | — | — | [开通](https://hyper.charm.land/) |
 | MiniMax | Plus | ¥49 | — | 1,500 | [开通](https://platform.minimaxi.com/subscribe/token-plan) |
-| xKiro | Free | $0 | — | 5M token/天 | [开通](https://xkiro.com/ref/5GDYTQU) |
-| xKiro | Pro | $5 | $4 | 5h额度 $10 · 周额度 $67 | [开通](https://xkiro.com/ref/5GDYTQU) |
-| xKiro | Pro+ | $10 | $8 | 5h额度 $20 · 周额度 $132 | [开通](https://xkiro.com/ref/5GDYTQU) |
-| xKiro | Max | $20 | $16 | 5h额度 $40 · 周额度 $264 | [开通](https://xkiro.com/ref/5GDYTQU) |
-| xKiro | Ultra | $100 | $80 | 5h额度 $200 · 周额度 $1,320 | [开通](https://xkiro.com/ref/5GDYTQU) |
-| xKiro | Power | $200 | $160 | 5h额度 $400 · 周额度 $2,640 | [开通](https://xkiro.com/ref/5GDYTQU) |
+| xKiro | Free | $0 | — | 500K token/天 | [开通](https://xkiro.com/ref/5GDYTQU) |
+| xKiro | Pro | $5 | $4 | 周额度 $35 | [开通](https://xkiro.com/ref/5GDYTQU) |
+| xKiro | Pro+ | $10 | $8 | 周额度 $70 | [开通](https://xkiro.com/ref/5GDYTQU) |
+| xKiro | Max | $20 | $16 | 周额度 $140 | [开通](https://xkiro.com/ref/5GDYTQU) |
+| xKiro | Ultra | $100 | $80 | 周额度 $700 | [开通](https://xkiro.com/ref/5GDYTQU) |
+| xKiro | Power | $200 | $160 | 周额度 $1,400 | [开通](https://xkiro.com/ref/5GDYTQU) |
 | ChatGPT | Plus | ¥26.6 | — | — | [开通](https://pay.ldxp.cn/shop/mirage) |
 | ChatGPT | Team | ¥28.8 | — | — | [开通](https://pay.ldxp.cn/shop/mirage) |
 | 商汤SenseNova | Free · 公测 | 免费 | — | 60,000积分/5h | [开通](https://www.sensenova.cn/token-plan) |
