@@ -17,7 +17,7 @@
 > **更新日志**（每分类仅保留最新一条·完整历史见 git log）
 >
 - **Coding**（2026.09.16）（Ollama DeepSeek-V4.1-Flash 重新上架云模型目录+定价表(18→19款·$0.15/$0.003/$0.60·不参与Peak 2倍价)；OpenCode Go 模型 31→37 款(新增DeepSeek-Flash/Grok-4.5/Hy3-Preview/MiniMax-M2.5/MiMo-V2-Pro/Omni)+DS-V4.1-Flash 限时4倍活动恢复至9.20；TaoToken 新一轮限量抢购进行中(Lite已售罄·Pro¥99/Max¥299抢购中)；xKiro 模型 83→93 款(新增DeepSeek V3.1/V3.2/V4系列+MiniMax M2/M2.1等·价格额度不变·公开/pricing已404)；其余经核对无变化）
-- **Token**（2026.09.15）（阿里·Token Plan 夜间五折扩回4款模型（qwen3.8-max/deepseek-v4-pro-0813/deepseek-v4-flash-0731/deepseek-v4.1-flash·09.14收窄反转）；OpenCode Go DS-V4.1-Flash 月额度限时4倍$60（9.20结束）；其余经核对无变化）
+- **Token**（2026.09.16）（8 个监控条目全量核对，经核对无变化）
 - **Video**（2026.09.16）（即梦 Seedance 2.5 积分折扣活动截止延至 9.18；其余经核对无变化）
 - **Image**（2026.09.16）（经核对无变化）
 - **Audio**（2026.09.16）（Suno/Udio/Ace Studio 经核对无变化；海螺AI 登录墙·双源无音频订阅证据）
