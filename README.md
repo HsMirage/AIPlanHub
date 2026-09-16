@@ -17,7 +17,7 @@
 > **更新日志**（每分类仅保留最新一条·完整历史见 git log）
 >
 - **Coding**（2026.09.16）（Ollama DeepSeek-V4.1-Flash 重新上架云模型目录+定价表(18→19款·$0.15/$0.003/$0.60·不参与Peak 2倍价)；OpenCode Go 模型 31→37 款(新增DeepSeek-Flash/Grok-4.5/Hy3-Preview/MiniMax-M2.5/MiMo-V2-Pro/Omni)+DS-V4.1-Flash 限时4倍活动恢复至9.20；TaoToken 新一轮限量抢购进行中(Lite已售罄·Pro¥99/Max¥299抢购中)；xKiro 模型 83→93 款(新增DeepSeek V3.1/V3.2/V4系列+MiniMax M2/M2.1等·价格额度不变·公开/pricing已404)；其余经核对无变化）
-- **Token**（2026.09.16）（8 个监控条目全量核对，经核对无变化）
+- **Token**（2026.09.17）（8 个监控条目全量核对，经核对无变化）
 - **Video**（2026.09.17）（即梦首月折扣加深：基础4.8折¥33·标准4.9折¥96·高级5.3折¥519·超级5.2折¥2,235；其余经核对无变化）
 - **Image**（2026.09.17）（Liblib 促销「Wan 3.0 Prime」改为「Wan 3 系列」限时8折；OpenArt Wonder 档无限权益改为 Flux 3 720p 无限视频至10.31；其余经核对无变化）
 - **Audio**（2026.09.17）（Suno/Udio/Ace Studio 经核对无变化；海螺AI 登录墙·双源无音频订阅证据）
