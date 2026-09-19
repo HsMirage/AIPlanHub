@@ -17,7 +17,7 @@
 > **更新日志**（每分类仅保留最新一条·完整历史见 git log）
 >
 - **Coding**（2026.09.18）（xKiro 模型 93→102 款(新增 LongCat-2.0+Qwen 系列 12 款·移除 DeepSeek V3.1/V3.2 与 Codex 5.3 Spark·API 权威源两次一致·价格额度不变)；OpenCode Go 模型 37→38 款(新增 Union Alpha 限时免费模型)+DS-V4.1-Flash 限时4倍活动至9.20；其余经核对无变化）
-- **Token**（2026.09.17）（8 个监控条目全量核对，经核对无变化）
+- **Token**（2026.09.20）（阿里·Token Plan 个人版新增 Essential 档：限时¥79/月·7天5,625 Credits·2.25x Lite 用量；其余 7 条目经核对无变化）
 - **Video**（2026.09.19）（即梦 Seedance 2.5 积分折扣活动延期至 9.22；其余经核对无变化）
 - **Image**（2026.09.19）（Liblib 新增双节特惠：年会员最高立减1000元+加赠3个月·Seedance 2.5 720P低至0.29元/秒；其余经核对无变化）
 - **Audio**（2026.09.19）（4 平台全量核对无变化；海螺AI 登录墙双源无音频订阅证据）
@@ -191,7 +191,7 @@ https://ai.hsnb.fun/aiplanhub
 | ChatGPT | GPT-5.4 / GPT-Image-2 / GPT-5.3-Codex | 1 | ¥28.8 | ★★★★★ |
 | 百度·千帆 | ERNIE 5.1 / GLM-5.2 / Kimi-K2.6 / DeepSeek-V4全系 | 4 | ¥4.9 | ★★★ |
 | OpenCode Go | Omen Alpha / Union Alpha / GLM-5.3-Flash / GLM-5.3 / GLM-5.2 / GPT-5.6-Luna / Qwen3.8-Max / Qwen3.8-Flash / DeepSeek-V4.1-Flash / DeepSeek-V4-Pro / DeepSeek-V4-Flash-Vision-Exp / Hy4-Preview 等38款（Muse Spark 1.2/1.3 国内不可调用） | 1 | $10 | ★★★½ |
-| 阿里·Token Plan | Qwen3.8-Max / Qwen3.8-Flash / Qwen3.7-Max / DeepSeek-V4-Pro / Wan2.7-Image / HappyHorse-1.1 等 | 8 | ¥39 | ★★★ |
+| 阿里·Token Plan | Qwen3.8-Max / Qwen3.8-Flash / Qwen3.7-Max / DeepSeek-V4-Pro / Wan2.7-Image / HappyHorse-1.1 等 | 9 | ¥39 | ★★★ |
 | 超算互联网·Token | GLM-5.3 / Qwen3.8-Max / DeepSeek-V4-Pro / Kimi-K3 | 4 | ¥30 | ★★★ |
 | TaoToken | DeepSeek-V4-Pro / Kimi-K3 / GLM-5.3 等 10 款 | 3 | ¥59 | ★★★ |
 | 方舟 Agent Plan | DeepSeek-V4-Pro / GLM-5.1 / Kimi-K2.6 | 4 | ¥40 | ★★ |
@@ -214,6 +214,7 @@ https://ai.hsnb.fun/aiplanhub
 | ChatGPT | Token | ¥28.8 | — | 100 刀·暂时售罄 | [开通](https://pay.ldxp.cn/shop/mirage) |
 | 腾讯·Token | Standard | ¥99 | — | 1,980积分/月 | [开通](https://curl.qcloud.com/1Uogyigq) |
 | 阿里·Token Plan | 用量包 | ¥100 | — | 20,000 Credits/个·需有效订阅·最多5个 | [开通](https://common-buy.aliyun.com/token-plan) |
+| 阿里·Token Plan | Essential | ¥79 | — | 原价¥120·限时5,625 Credits/7天·2.25x Lite | [开通](https://common-buy.aliyun.com/token-plan) |
 | TaoToken | Lite | ¥59 | — | 5,000 Credits/月 | [开通](https://taotoken.net/?u=inv_iyn75yglujwdy9ij&utm_source=tt_invite) |
 | TaoToken | 加油包 | ¥99 | — | 10,000 Credits/月(附加购) | [开通](https://taotoken.net/?u=inv_iyn75yglujwdy9ij&utm_source=tt_invite) |
 | 天翼云·Token | 8000万 | ¥89 | — | 8,000万 Tokens/月 | [开通](https://www.ctyun.cn/act/AI/zhuanxiang) |
