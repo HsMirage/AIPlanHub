@@ -19,7 +19,7 @@
 - **Coding**（2026.09.20）（新增平台 WM AI：稳明科技 wenming7.com 美元积分制 Token Plan·$6/12/24/60/120 五档+Free·27款模型·1积分=$1 双滚动窗口；阶跃星辰 Step Plan 支持模型大更新：新增 Step-5-Preview 旗舰基模 + StepAudio 3 全家桶 6 款，支持模型 9→15 款；Step-Image-Edit-2 已移出支持列表；价格/Credit 额度/加油包不变；AFF 链接更新为 invite_code_v2=RCXWKOFD；其余经核对无变化）
 - **Token**（2026.09.21）（8 个监控条目全量核对，经核对无变化）
 - **Video**（2026.09.20）（9 平台全量核对，经核对无变化；Vidu CDN拦截· pai.video/海螺AI/RunningHub 登录墙·即梦/OpenArt 获取失败均双源佐证无变化）
-- **Image**（2026.09.20）（6 平台全量核对无变化：Midjourney/Liblib/通义万相/堆友逐档核验；RunningHub 登录墙·OpenArt 网络超时，双源佐证无变化）
+- **Image**（2026.09.21）（6 平台全量核对无变化：Midjourney/Liblib/通义万相/OpenArt 逐档核验；RunningHub 登录墙·堆友官网登录墙经云市场官方自营店核验，双源佐证无变化）
 - **Audio**（2026.09.21）（Suno 模型阵容更新：免费档 v6-mini、付费档 v6/v6-wild·价格额度不变；Udio/Ace Studio 经核对无变化；海螺AI 登录墙双源无音频订阅证据）
 - 其他：中转站 2026.08.15（THINK-AI已下架·仅保留幻境MirageAI·幻境充值链接更新）·已下架归档 2026.08.19（新增无问芯穹/天翼云/百度千帆经典CodingPlan）·价格对比 2026.07.06 新增
 
