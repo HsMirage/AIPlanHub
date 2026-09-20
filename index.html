@@ -1,0 +1,802 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AIPlanHub — AI 订阅方案对比</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles/main.css?v=20260828e" />
+</head>
+<body>
+
+<header class="site-header">
+  <div class="header-inner">
+    <a href="#home" class="header-brand">
+      <span class="brand-icon">⚡</span>
+      <div>
+        <h1>AIPlanHub</h1>
+        <p class="header-sub">AI 订阅方案 · 一站对比</p>
+      </div>
+    </a>
+    <div class="header-right">
+      <nav class="header-nav">
+        <a href="#home" class="nav-link active">首页</a>
+        <a href="#coding" class="nav-link">Coding</a>
+        <a href="#token" class="nav-link">Token</a>
+        <a href="#api" class="nav-link">API</a>
+        <a href="#video" class="nav-link">Video</a>
+        <a href="#image" class="nav-link">Image</a>
+        <a href="#audio" class="nav-link">Audio</a>
+        <a href="#relay" class="nav-link">中转站</a>
+        <a href="#compare" class="nav-link">价格对比</a>
+        <a href="#archived" class="nav-link">已下架</a>
+        <a href="#homebw" class="nav-link homebw-gated" hidden style="display:none">家宽</a>
+      </nav>
+      <span class="update-chip">Last Updated 2026.09.20</span>
+      <button id="theme-toggle" class="theme-toggle" title="切换主题">
+        <svg class="icon-sun" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
+        <svg class="icon-moon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+      </button>
+      <a href="https://github.com/HsMirage/AIPlanHub" target="_blank" class="gh-btn">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.477 2 2 6.477 2 12c0 4.418 2.865 8.166 6.839 9.489.5.092.682-.217.682-.482 0-.237-.008-.866-.013-1.7-2.782.603-3.369-1.342-3.369-1.342-.454-1.155-1.11-1.463-1.11-1.463-.908-.62.069-.607.069-.607 1.003.07 1.531 1.03 1.531 1.03.892 1.529 2.341 1.087 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.11-4.555-4.943 0-1.091.39-1.984 1.029-2.683-.103-.253-.446-1.27.098-2.647 0 0 .84-.269 2.75 1.025A9.578 9.578 0 0 1 12 6.836c.85.004 1.705.114 2.504.336 1.909-1.294 2.747-1.025 2.747-1.025.546 1.377.202 2.394.1 2.647.64.699 1.028 1.592 1.028 2.683 0 3.842-2.339 4.687-4.566 4.935.359.309.678.919.678 1.852 0 1.336-.012 2.415-.012 2.741 0 .267.18.578.688.48C19.138 20.163 22 16.418 22 12c0-5.523-4.477-10-10-10z"/></svg>
+        GitHub
+      </a>
+    </div>
+  </div>
+  <!-- Mobile Top Nav（header 第二行，随 header 吸顶）-->
+<nav class="mobile-nav">
+  <a href="#home" class="nav-link active">首页</a>
+        <a href="#coding" class="nav-link">Coding</a>
+  <a href="#token" class="nav-link">Token</a>
+  <a href="#api" class="nav-link">API</a>
+  <a href="#video" class="nav-link">Video</a>
+  <a href="#image" class="nav-link">Image</a>
+  <a href="#audio" class="nav-link">Audio</a>
+  <a href="#compare" class="nav-link">对比</a>
+  <a href="#homebw" class="nav-link homebw-gated" hidden style="display:none">家宽</a>
+  <a href="#archived" class="nav-link">已下架</a>
+</nav>
+</header>
+
+<main>
+
+  <!-- ===== HOME PAGE ===== -->
+  <section id="page-home" class="page-content">
+    <div class="hero">
+      <div class="hero-inner">
+        <div class="hero-main">
+          <div class="hero-top">
+            <div class="hero-text">
+              <h2 class="hero-title">一站式对比<br/>AI 工具订阅方案</h2>
+              <p class="hero-desc">
+                覆盖编程·视频·图片·音频多场景，帮你快速找到最适合的 AI 订阅方案。<br/>
+                实时更新价格，支持多维度筛选，让每一分钱都花在刀刃上。
+              </p>
+            </div>
+            <aside class="hero-qr">
+              <div class="qr-card">
+                <img src="assets/qr-group.png" alt="交流群二维码" class="qr-card-img" />
+                <p class="qr-card-text">扫码加入AI交流群</p>
+              </div>
+            </aside>
+          </div>
+          <div class="hero-stats">
+            <div class="stat-item">
+              <span class="stat-num">27</span>
+              <span class="stat-label">Coding 平台</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-num">10</span>
+              <span class="stat-label">Token 平台</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-num">7</span>
+              <span class="stat-label">API·中转</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-num">9</span>
+              <span class="stat-label">Video 平台</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-num">7</span>
+              <span class="stat-label">Image 平台</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-num">4</span>
+              <span class="stat-label">Audio 平台</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="category-grid">
+      <a href="#coding" class="category-card cat-coding">
+        <div class="cat-body">
+          <h3>AI Coding Plan</h3>
+          <p>覆盖智谱AI、Kimi、MiniMax、xKiro、CommandCode、蓝耘元生代云、优云智算、阶跃星辰、快手 StreamLake、OpenCode Go、TaoToken、稳明光语纪、商汤SenseNova 等 27 大编程平台的订阅方案对比。</p>
+          <div class="cat-tags">
+            <span>GLM-5.1</span><span>kimi-k2.6</span><span>MiniMax-M3</span><span>DeepSeek-V3.2</span><span>xKiro</span>
+          </div>
+        </div>
+        <span class="cat-arrow">→</span>
+      </a>
+      <a href="#token" class="category-card cat-coding">
+        <div class="cat-body">
+          <h3>AI Token Plan</h3>
+          <p>覆盖腾讯·Token、阿里·Token Plan、小米·MiMo、OpenCode Go、天翼云·Token、方舟 Agent Plan、TaoToken、超算互联网·Token、百度·千帆 等 Credits/Token/AFP 计费平台对比。</p>
+          <div class="cat-tags">
+            <span>Credits</span><span>Token</span><span>积分制</span>
+          </div>
+        </div>
+        <span class="cat-arrow">→</span>
+      </a>
+      <a href="#api" class="category-card cat-api">
+        <div class="cat-body">
+          <h3>AI API 平台</h3>
+          <p>覆盖 DeepSeek、OpenRouter、硅基流动、TaoToken 等 API 调用平台，按需付费，灵活集成。</p>
+          <div class="cat-tags">
+            <span>DeepSeek</span><span>OpenRouter</span><span>硅基流动</span><span>TaoToken</span>
+          </div>
+        </div>
+        <span class="cat-arrow">→</span>
+      </a>
+      <a href="#video" class="category-card cat-video">
+        <div class="cat-body">
+          <h3>AI Video Plan</h3>
+          <p>覆盖快手可灵、即梦、通义万相、海螺AI、pai.video、Vidu、RunningHub、OpenArt 等 AI 视频生成平台对比。</p>
+          <div class="cat-tags">
+            <span>快手可灵</span><span>即梦</span><span>通义万相</span><span>海螺AI</span>
+          </div>
+        </div>
+        <span class="cat-arrow">→</span>
+      </a>
+      <a href="#image" class="category-card cat-image">
+        <div class="cat-body">
+          <h3>AI Image Plan</h3>
+          <p>覆盖 Midjourney、即梦、通义万相、Liblib AI、堆友、RunningHub、OpenArt 等 AI 图片生成平台对比。</p>
+          <div class="cat-tags">
+            <span>Midjourney</span><span>即梦</span><span>通义万相</span><span>Liblib AI</span>
+          </div>
+        </div>
+        <span class="cat-arrow">→</span>
+      </a>
+      <a href="#audio" class="category-card cat-audio">
+        <div class="cat-body">
+          <h3>AI Audio Plan</h3>
+          <p>覆盖 Suno、Udio、海螺AI、Ace Studio 等 AI 音乐/音频生成平台对比。</p>
+          <div class="cat-tags">
+            <span>Suno</span><span>Udio</span><span>海螺AI</span><span>Ace Studio</span>
+          </div>
+        </div>
+        <span class="cat-arrow">→</span>
+      </a>
+      <a href="#compare" class="category-card cat-compare">
+        <div class="cat-body">
+          <h3>价格 Token 效率对比</h3>
+          <p>统一 Token 口径，横向对比国内外 Coding Plan 的每美元可用 Token 量、实付单价、时段限额。</p>
+          <div class="cat-tags">
+            <span>Token效率</span><span>每$可用</span><span>实付单价</span><span>跨平台对比</span>
+          </div>
+        </div>
+        <span class="cat-arrow">→</span>
+      </a>
+      <a href="#relay" class="category-card cat-relay">
+        <div class="cat-body">
+          <h3>AI 中转站</h3>
+          <p>精选 AI API 中转/聚合平台，统一接入多模型，价格优于官方直连。含幻境MirageAI 等。</p>
+          <div class="cat-tags">
+            <span>API聚合</span><span>多模型</span><span>降本</span>
+          </div>
+        </div>
+        <span class="cat-arrow">→</span>
+      </a>
+      <a href="#homebw" class="category-card cat-homebw homebw-gated" hidden style="display:none">
+        <div class="cat-body">
+          <h3>家宽推荐</h3>
+          <p>登录用户专属 · 海外家宽 IP 推荐。明确禁止中国大陆使用，仅限 AI 相关场景。</p>
+          <div class="cat-tags">
+            <span>会员可见</span><span>苏菲家宽</span><span>1024PROXY</span><span>RoxyBrowser</span>
+          </div>
+        </div>
+        <span class="cat-arrow">→</span>
+      </a>
+    </div>
+
+    <div class="home-features">
+      <div class="feature-item">
+        <div>
+          <strong>实时价格对比</strong>
+          <p>多维度筛选 + 排序，快速锁定最优方案</p>
+        </div>
+      </div>
+      <div class="feature-item">
+        <div>
+          <strong>直达开通链接</strong>
+          <p>一键跳转官方注册，部分链接享额外折扣</p>
+        </div>
+      </div>
+      <div class="feature-item">
+        <div>
+          <strong>深色 / 亮色主题</strong>
+          <p>护眼设计，随时随地舒适查阅</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CODING PAGE ===== -->
+  <section id="page-coding" class="page-content">
+    <section class="section ratings-section">
+      <h2 class="section-title">平台推荐</h2>
+      <div class="ratings-row" id="ratings-row"></div>
+    </section>
+    <section class="filter-bar">
+      <div class="filter-row">
+        <div class="filter-item"><label>平台</label><select id="filter-platform"><option value="">全部</option></select></div>
+        <div class="filter-item"><label>模型</label><select id="filter-model"><option value="">全部</option></select></div>
+        <div class="filter-item"><label>月付上限</label><select id="filter-price"><option value="">不限</option><option value="50">≤ ¥50</option><option value="100">≤ ¥100</option><option value="200">≤ ¥200</option><option value="500">≤ ¥500</option></select></div>
+        <div class="filter-item"><label>季付上限</label><select id="filter-quarterly"><option value="">不限</option><option value="150">≤ ¥150</option><option value="300">≤ ¥300</option><option value="600">≤ ¥600</option></select></div>
+        <div class="filter-item"><label>年付上限</label><select id="filter-yearly"><option value="">不限</option><option value="500">≤ ¥500</option><option value="1000">≤ ¥1000</option><option value="2000">≤ ¥2000</option><option value="5000">≤ ¥5000</option></select></div>
+        <button id="reset-btn" class="reset-btn">重置</button>
+        <span id="filter-count" class="filter-count"></span>
+      </div>
+    </section>
+    <section class="section table-section">
+      <div class="table-wrap">
+        <table id="plans-table">
+          <thead><tr>
+            <th class="sticky-col" data-sort="platform">平台 <span class="sort-icon">↕</span></th><th data-sort="name">方案</th><th>开通</th>
+            <th data-sort="monthly" class="num-col">月付 <span class="sort-icon">↕</span></th><th data-sort="quarterlyAvg" class="num-col">季付均价 <span class="sort-icon">↕</span></th><th data-sort="yearlyAvg" class="num-col">年付均价 <span class="sort-icon">↕</span></th>
+            <th data-sort="req5h" class="num-col">5h额度 <span class="sort-icon">↕</span></th><th data-sort="reqWeek" class="num-col">周额度 <span class="sort-icon">↕</span></th><th data-sort="reqMonth" class="num-col">月总额度 <span class="sort-icon">↕</span></th>
+            <th>支持模型</th><th>额外权益</th><th>备注</th>
+          </tr></thead>
+          <tbody id="plans-tbody"></tbody>
+        </table>
+      </div>
+    </section>
+    <section class="section notes-section">
+<p class="section-update-date">Coding 数据更新于 2026.09.20（阶跃星辰 Step Plan 支持模型 9→15 款：新增 Step-5-Preview + StepAudio 3 全家桶 6 款；Step-Image-Edit-2 已移出支持列表；价格额度不变）</p>
+      <ul class="notes-list">
+        <li>季付均价 = 季付总价 ÷ 3；年付均价 = 年付总价 ÷ 12</li>
+        <li>5h/周/月额度按平台实际计费单位展示；xKiro为美元额度，不是请求次数</li>
+        <li>部分平台通过邀请链接开通可享额外折扣</li>
+        <li>数据仅供参考，以各平台官方公告为准</li>
+      </ul>
+    </section>
+  </section>
+
+  <!-- ===== ARCHIVED PLANS PAGE ===== -->
+  <section id="page-archived" class="page-content">
+    <section class="section page-hero-section">
+      <div class="section-kicker">ARCHIVED PLANS</div>
+      <h1 class="page-title">已下架套餐</h1>
+      <p class="page-subtitle">保存已停止新购、续费或升级的套餐资料。历史价格与额度仅供查档，不代表当前可购买状态。</p>
+    </section>
+    <section class="section table-section">
+      <div class="table-wrap">
+        <table id="archived-plans-table">
+          <thead><tr>
+            <th class="sticky-col">平台</th><th>方案</th><th>状态</th><th>下架日期</th><th>已购用户权益</th>
+            <th class="num-col">历史月付</th><th class="num-col">历史首月</th><th class="num-col">历史5h额度</th><th class="num-col">历史月额度</th>
+            <th>历史模型</th><th>官方资料</th><th>备注</th>
+          </tr></thead>
+          <tbody id="archived-plans-tbody"></tbody>
+        </table>
+      </div>
+    </section>
+    <section class="section notes-section">
+      <p class="section-update-date">已下架套餐数据更新于 2026.08.19（新增移入：无问芯穹 Infini AI Lite/Pro（2026-06-26 停个人用户服务）·天翼云 GLM Lite/Pro/Max（2026-08-19 确认下架）·百度·千帆 经典 Coding Plan Lite/Pro（2026-06-25 停止续费·7 月迁移至 Token Plan 个人版）｜2026.08.01：京东云 Lite/Pro（2026-07-29 停止新购、续费及升级））</p>
+      <ul class="notes-list">
+        <li>归档内容保留历史方案信息，不参与现售 Coding 筛选、排序和推荐。</li>
+        <li>京东云已购套餐在有效期内可正常使用，具体以官方账户和公告为准。</li>
+      </ul>
+    </section>
+  </section>
+
+  <!-- ===== TOKEN PAGE ===== -->
+  <section id="page-token" class="page-content">
+    <section class="section ratings-section">
+      <h2 class="section-title">平台推荐</h2>
+      <div class="ratings-row" id="tp-ratings-row"></div>
+    </section>
+    <section class="filter-bar">
+      <div class="filter-row">
+        <div class="filter-item"><label>平台</label><select id="tp-filter-platform"><option value="">全部</option></select></div>
+        <div class="filter-item"><label>模型</label><select id="tp-filter-model"><option value="">全部</option></select></div>
+        <div class="filter-item"><label>月付上限</label><select id="tp-filter-price"><option value="">不限</option><option value="50">≤ ¥50</option><option value="100">≤ ¥100</option><option value="200">≤ ¥200</option><option value="500">≤ ¥500</option></select></div>
+        <button id="tp-reset-btn" class="reset-btn">重置</button>
+        <span id="tp-filter-count" class="filter-count"></span>
+      </div>
+    </section>
+    <section class="section table-section">
+      <div class="table-wrap">
+        <table id="tp-plans-table">
+          <thead><tr>
+            <th class="sticky-col" data-sort="platform">平台 <span class="sort-icon">↕</span></th><th data-sort="name">方案</th><th>开通</th>
+            <th data-sort="monthly" class="num-col">月付 <span class="sort-icon">↕</span></th><th data-sort="quarterlyAvg" class="num-col">季付均价 <span class="sort-icon">↕</span></th><th data-sort="yearlyAvg" class="num-col">年付均价 <span class="sort-icon">↕</span></th>
+            <th data-sort="creditsMonth" class="num-col">Credits额度 <span class="sort-icon">↕</span></th>
+            <th>支持模型</th><th>额外权益</th><th>备注</th>
+          </tr></thead>
+          <tbody id="tp-plans-tbody"></tbody>
+        </table>
+      </div>
+    </section>
+    <section class="section notes-section">
+      <p class="section-update-date">Token 数据更新于 2026.09.20（阿里·Token Plan 个人版新增 Essential 档：限时¥79/月·7天5,625 Credits；其余 7 条目经核对无变化）</p>
+      <ul class="notes-list">
+        <li>每家的 Credits 计算方式不同，具体可用 Token 额度请进入官网查询</li>
+        <li>季付均价 = 季付总价 ÷ 3；年付均价 = 年付总价 ÷ 12</li>
+        <li>部分平台通过邀请链接开通可享额外折扣</li>
+        <li>数据仅供参考，以各平台官方公告为准</li>
+      </ul>
+    </section>
+  </section>
+
+  <!-- ===== API PAGE ===== -->
+  <section id="page-api" class="page-content">
+    <div class="api-hero">
+      <div class="api-hero-badge">API 平台导航</div>
+      <h2 class="api-hero-title">AI API 平台推荐</h2>
+      <p class="api-hero-desc">精选 API 调用平台，覆盖国内外主流大模型 API 服务商。<br/>按需付费，灵活调用，适合开发者与团队集成。</p>
+    </div>
+    <div class="api-platform-grid">
+      <a href="https://tokenrhythm.studio/i/rf_tr_cO-SmhsTXVWZInnsGnD8iT_v" target="_blank" rel="noopener" class="api-platform-card api-card-featured">
+        <div class="api-card-header">
+          
+          <div>
+            <h3>基元律动</h3>
+            <span class="api-card-url">tokenrhythm.studio</span>
+          </div>
+        </div>
+        <p class="api-card-desc">注册送68元，可用 GLM-5.2，重点强调新用户可直接薅羊毛。</p>
+        <div class="api-card-tags">
+          <span>GLM-5.2</span><span>注册送68元</span><span>新用户可用</span><span>羊毛薅起来</span>
+        </div>
+        <span class="api-card-arrow">→</span>
+      </a>
+      <a href="https://platform.deepseek.com/" target="_blank" rel="noopener" class="api-platform-card">
+        <div class="api-card-header">
+          <span class="api-card-logo"><img src="assets/deepseek.png" alt="DeepSeek" /></span>
+          <div>
+            <h3>DeepSeek</h3>
+            <span class="api-card-url">platform.deepseek.com</span>
+          </div>
+        </div>
+        <p class="api-card-desc">DeepSeek 官方 API 平台，提供 DeepSeek-V3、DeepSeek-R1 等模型的 API 调用服务，价格极具竞争力。</p>
+        <div class="api-card-tags">
+          <span>DeepSeek-V3</span><span>DeepSeek-R1</span><span>超低价格</span>
+        </div>
+        <span class="api-card-arrow">→</span>
+      </a>
+      <a href="https://openrouter.ai/" target="_blank" rel="noopener" class="api-platform-card">
+        <div class="api-card-header">
+          <span class="api-card-logo"><img src="assets/openrouter.svg" alt="OpenRouter" /></span>
+          <div>
+            <h3>OpenRouter</h3>
+            <span class="api-card-url">openrouter.ai</span>
+          </div>
+        </div>
+        <p class="api-card-desc">一站式 AI API 聚合平台，支持 Claude、GPT-4、Gemini、Llama 等数百种模型，统一接口，按量计费。</p>
+        <div class="api-card-tags">
+          <span>Claude</span><span>GPT-4o</span><span>Gemini</span><span>多模型聚合</span>
+        </div>
+        <span class="api-card-arrow">→</span>
+      </a>
+      <a href="https://cloud.siliconflow.cn/i/zqLffM3y" target="_blank" rel="noopener" class="api-platform-card">
+        <div class="api-card-header">
+          <span class="api-card-logo"><img src="assets/siliconflow.svg" alt="硅基流动" /></span>
+          <div>
+            <h3>硅基流动 SiliconFlow</h3>
+            <span class="api-card-url">cloud.siliconflow.cn</span>
+          </div>
+        </div>
+        <p class="api-card-desc">国内领先的 AI 云平台，提供 DeepSeek、Qwen、GLM 等国产模型及开源模型的 API 服务，新用户注册送16元。</p>
+        <div class="api-card-tags">
+          <span>DeepSeek</span><span>Qwen</span><span>GLM</span><span>新用户送16元</span>
+        </div>
+        <span class="api-card-arrow">→</span>
+      </a>
+      <a href="https://ai.hsnb.fun/" target="_blank" rel="noopener" class="api-platform-card api-card-featured">
+        <div class="api-card-header">
+          <span class="api-card-logo"><img src="assets/mirageai.png" alt="幻境 MirageAI" /></span>
+          <div>
+            <h3>幻境 MirageAI</h3>
+            <span class="api-card-url">ai.hsnb.fun</span>
+          </div>
+        </div>
+        <p class="api-card-desc">AI API 聚合中转站，支持 Claude、GPT、Gemini、DeepSeek、GLM 等主流模型，稳定中转，价格亲民，新用户即开即用。</p>
+        <div class="api-card-tags">
+          <span>Claude</span><span>GPT-4o</span><span>Gemini</span><span>DeepSeek</span><span>稳定中转</span>
+        </div>
+        <span class="api-card-arrow">→</span>
+      </a>
+      <a href="https://taotoken.net/?u=inv_ip2bu0qlmzt68thf&s=invite" target="_blank" rel="noopener" class="api-platform-card">
+        <div class="api-card-header">
+          <span class="api-card-logo"><img src="assets/taotoken.svg" alt="TaoToken" /></span>
+          <div>
+            <h3>TaoToken</h3>
+            <span class="api-card-url">taotoken.net</span>
+          </div>
+        </div>
+        <p class="api-card-desc">AI API Token 聚合服务平台，支持多种主流大模型 API 转发调用，灵活充值，按 Token 计费。</p>
+        <div class="api-card-tags">
+          <span>多模型</span><span>Token 计费</span><span>灵活充值</span>
+        </div>
+        <span class="api-card-arrow">→</span>
+      </a>
+    </div>
+    <section class="section notes-section">
+      <p class="section-update-date">API 平台数据更新于 2026.07.31（新增基元律动：注册送68元，可用 GLM-5.2）</p>
+      <ul class="notes-list">
+        <li>部分链接为邀请链接，通过链接注册可能获得额外额度或折扣</li>
+        <li>各平台 API 价格与模型支持情况可能随时调整，以官方公告为准</li>
+        <li>数据仅供参考，建议注册后查看最新价格表</li>
+      </ul>
+    </section>
+  </section>
+
+  <!-- ===== VIDEO PAGE ===== -->
+  <section id="page-video" class="page-content">
+    <section class="section ratings-section">
+      <h2 class="section-title">Video 平台推荐</h2>
+      <div class="ratings-row" id="video-ratings-row"></div>
+    </section>
+    <section class="filter-bar">
+      <div class="filter-row">
+        <div class="filter-item"><label>平台</label><select id="vfilter-platform"><option value="">全部</option></select></div>
+        <div class="filter-item"><label>月付上限</label><select id="vfilter-price"><option value="">不限</option><option value="0">免费</option><option value="70">≤ ¥70</option><option value="200">≤ ¥200</option><option value="500">≤ ¥500</option></select></div>
+        <button id="video-reset-btn" class="reset-btn">重置</button>
+        <span id="video-filter-count" class="filter-count"></span>
+      </div>
+    </section>
+    <section class="section table-section">
+      <div class="table-wrap">
+        <table id="video-plans-table">
+          <thead><tr>
+            <th class="sticky-col" data-sort="platform">平台 <span class="sort-icon">↕</span></th><th data-sort="name">方案</th><th>开通</th>
+            <th data-sort="monthly" class="num-col">月付 <span class="sort-icon">↕</span></th><th data-sort="yearlyAvg" class="num-col">年付均价 <span class="sort-icon">↕</span></th><th data-sort="yearly" class="num-col">年付 <span class="sort-icon">↕</span></th>
+            <th>积分/额度</th><th>视频时长</th><th>分辨率</th><th>核心功能</th><th>备注</th>
+          </tr></thead>
+          <tbody id="video-plans-tbody"></tbody>
+        </table>
+      </div>
+    </section>
+    <section class="section notes-section">
+      <p class="section-update-date">Video 数据更新于 2026.09.20（9 平台全量核对：可灵/通义万相/腾讯混元逐档核验无变化；Vidu CDN拦截·pai.video/海螺AI/RunningHub 登录墙·即梦/OpenArt 获取失败，双源佐证无变化）</p>
+      <ul class="notes-list">
+        <li>各平台积分消耗规则不同，实际可生成视频数量以官方为准</li>
+        <li>价格为参考信息，实际价格以各平台官方公告为准</li>
+        <li>数据仅供参考，以各平台官方公告为准</li>
+      </ul>
+    </section>
+  </section>
+
+  <!-- ===== IMAGE PAGE ===== -->
+  <section id="page-image" class="page-content">
+    <section class="section ratings-section">
+      <h2 class="section-title">Image 平台推荐</h2>
+      <div class="ratings-row" id="image-ratings-row"></div>
+    </section>
+    <section class="filter-bar">
+      <div class="filter-row">
+        <div class="filter-item"><label>平台</label><select id="ifilter-platform"><option value="">全部</option></select></div>
+        <div class="filter-item"><label>月付上限</label><select id="ifilter-price"><option value="">不限</option><option value="0">免费</option><option value="80">≤ ¥80</option><option value="200">≤ ¥200</option><option value="500">≤ ¥500</option></select></div>
+        <button id="image-reset-btn" class="reset-btn">重置</button>
+        <span id="image-filter-count" class="filter-count"></span>
+      </div>
+    </section>
+    <section class="section table-section">
+      <div class="table-wrap">
+        <table id="image-plans-table">
+          <thead><tr>
+            <th class="sticky-col" data-sort="platform">平台 <span class="sort-icon">↕</span></th><th data-sort="name">方案</th><th>开通</th>
+            <th data-sort="monthly" class="num-col">月付 <span class="sort-icon">↕</span></th><th data-sort="yearlyAvg" class="num-col">年付均价 <span class="sort-icon">↕</span></th><th data-sort="yearly" class="num-col">年付 <span class="sort-icon">↕</span></th>
+            <th>积分/额度</th><th>分辨率</th><th>核心功能</th><th>备注</th>
+          </tr></thead>
+          <tbody id="image-plans-tbody"></tbody>
+        </table>
+      </div>
+    </section>
+    <section class="section notes-section">
+      <p class="section-update-date">Image 数据更新于 2026.09.20（6 平台全量核对：Midjourney/Liblib/通义万相/堆友逐档核验无变化；RunningHub 登录墙·OpenArt 网络超时，双源佐证无变化）</p>
+      <ul class="notes-list">
+        <li>Midjourney、OpenArt 价格按 $1≈¥7.0 估算，实际以美元结算</li>
+        <li>各平台积分消耗规则不同，实际可生成图片数量以官方为准</li>
+        <li>数据仅供参考，以各平台官方公告为准</li>
+      </ul>
+    </section>
+  </section>
+
+  <!-- ===== AUDIO PAGE ===== -->
+  <section id="page-audio" class="page-content">
+    <section class="section ratings-section">
+      <h2 class="section-title">Audio 平台推荐</h2>
+      <div class="ratings-row" id="audio-ratings-row"></div>
+    </section>
+    <section class="filter-bar">
+      <div class="filter-row">
+        <div class="filter-item"><label>平台</label><select id="afilter-platform"><option value="">全部</option></select></div>
+        <div class="filter-item"><label>月付上限</label><select id="afilter-price"><option value="">不限</option><option value="0">免费</option><option value="60">≤ ¥60</option><option value="120">≤ ¥120</option><option value="300">≤ ¥300</option></select></div>
+        <button id="audio-reset-btn" class="reset-btn">重置</button>
+        <span id="audio-filter-count" class="filter-count"></span>
+      </div>
+    </section>
+    <section class="section table-section">
+      <div class="table-wrap">
+        <table id="audio-plans-table">
+          <thead><tr>
+            <th class="sticky-col" data-sort="platform">平台 <span class="sort-icon">↕</span></th><th data-sort="name">方案</th><th>开通</th>
+            <th data-sort="monthly" class="num-col">月付 <span class="sort-icon">↕</span></th><th data-sort="yearlyAvg" class="num-col">年付均价 <span class="sort-icon">↕</span></th><th data-sort="yearly" class="num-col">年付 <span class="sort-icon">↕</span></th>
+            <th>积分/额度</th><th>音频时长</th><th>核心功能</th><th>备注</th>
+          </tr></thead>
+          <tbody id="audio-plans-tbody"></tbody>
+        </table>
+      </div>
+    </section>
+    <section class="section notes-section">
+      <p class="section-update-date">Audio 数据更新于 2026.09.20（Suno 模型名修正：v6系→官方实际 v4.5-all(免费)/v4~v5.5(付费)·价格额度不变；Udio/Ace Studio 经核对无变化；海螺AI 登录墙双源无音频订阅证据）</p>
+      <ul class="notes-list">
+        <li>Suno/Udio/Ace Studio 价格按 $1≈¥7.2 估算，实际以美元结算</li>
+        <li>各平台积分消耗规则不同，实际可生成音频数量以官方为准</li>
+        <li>数据仅供参考，以各平台官方公告为准</li>
+      </ul>
+    </section>
+  </section>
+
+  <!-- ===== RELAY STATION PAGE ===== -->
+  <section id="page-relay" class="page-content">
+    <div class="api-hero">
+      <div class="api-hero-badge">中转站推荐</div>
+      <h2 class="api-hero-title">AI API 中转站</h2>
+      <p class="api-hero-desc">精选 AI API 中转/聚合平台，统一接入多模型，<br/>价格优于官方直连，适合个人开发者与团队降本增效。</p>
+    </div>
+    <div class="ratings-row-relay">
+      <div class="rating-card-relay">
+        <a href="https://ai.hsnb.fun" target="_blank" rel="noopener" class="rating-card-relay-link" title="幻境MirageAI 立即注册"></a>
+        <div class="rc-content">
+          <div class="rc-header">
+            <span class="rc-name">幻境MirageAI</span>
+            <span class="rc-stars">★★★★☆</span>
+          </div>
+          <ul class="rc-reasons">
+            <li>半公益中转站·37款在售模型(OpenAI/DeepSeek/Gemini/Grok/智谱/Qwen/Agnes等)</li>
+            <li>注册送体验额度·按量计费·充值 catfk.com</li>
+            <li>基于New API·统一OpenAI协议·一处接入万象皆通</li>
+          </ul>
+          <div style="margin-top:10px;display:flex;gap:8px;flex-wrap:wrap;">
+            <a href="https://ai.hsnb.fun" target="_blank" rel="noopener" class="rc-btn">进入官网</a>
+            <a href="https://catfk.com/shop/mirage/jbpskt" target="_blank" rel="noopener" class="rc-btn">充值</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <section class="section notes-section">
+      <p class="section-update-date">中转站数据更新于 2026.08.15（THINK-AI 已下架·仅保留幻境MirageAI·幻境充值链接更新为 catfk.com）</p>
+      <ul class="notes-list">
+        <li>中转站为第三方 API 聚合服务，非官方直营，请自行评估稳定性与安全性</li>
+        <li>部分链接为邀请链接，通过链接注册可能有额外优惠</li>
+        <li>数据仅供参考，以各平台官方公告为准</li>
+      </ul>
+    </section>
+  </section>
+
+  <!-- ===== PRICE COMPARE PAGE ===== -->
+  <section id="page-compare" class="page-content">
+    <div class="api-hero">
+      <div class="api-hero-badge">跨平台 Token 效率</div>
+      <h2 class="api-hero-title">统一 Token 口径 · 横向对比</h2>
+      <p class="api-hero-desc">基于统一折算公式 input:output:write:read = 0.2:0.3:3.5:96，<br/>将各平台 Coding Plan 订阅方案的额度归一化为"每月可用 M Token"与"每美元可用 M Token"。</p>
+    </div>
+
+    <p class="pc-data-date-banner" role="note">数据时间为 2026.07.05（7月5日）</p>
+
+    <p class="pc-attribution">部分数据来源及整理：@CARROT</p>
+
+    <section class="filter-bar">
+      <div class="filter-row">
+        <div class="filter-item"><label>厂商</label><select id="pc-filter-vendor"><option value="">全部厂商</option></select></div>
+        <div class="filter-item"><label>模型</label><select id="pc-filter-model"><option value="">全部模型</option></select></div>
+        <div class="filter-item"><label>月费($)</label><select id="pc-filter-monthly"><option value="">不限</option><option value="0">免费</option><option value="10">≤ $10</option><option value="20">≤ $20</option><option value="50">≤ $50</option><option value="100">≤ $100</option></select></div>
+        <div class="filter-item"><label>月可用Token(M)</label><select id="pc-filter-tokens"><option value="">不限</option><option value="100">≥ 100M</option><option value="500">≥ 500M</option><option value="1000">≥ 1,000M</option><option value="5000">≥ 5,000M</option><option value="10000">≥ 10,000M</option></select></div>
+        <span id="pc-filter-count" class="filter-count"></span>
+      </div>
+    </section>
+
+    <section class="section table-section">
+      <div class="table-wrap">
+        <table id="pc-table">
+          <thead><tr>
+            <th class="sticky-col" data-sort="vendor">厂商 <span class="pc-sort-icon">↕</span></th>
+            <th data-sort="plan">方案</th>
+            <th data-sort="model">模型</th>
+            <th data-sort="monthly" class="num-col">月费($) <span class="pc-sort-icon">↕</span></th>
+            <th data-sort="apiCost" class="num-col">API成本($/1M) <span class="pc-sort-icon">↕</span></th>
+            <th data-sort="monthlyTokens" class="num-col">月可用(M tok) <span class="pc-sort-icon">↕</span></th>
+            <th data-sort="tokensPerDollar" class="num-col">每$可用(M/$) <span class="pc-sort-icon">↕</span></th>
+            <th data-sort="effectivePrice" class="num-col">实付单价($/M) <span class="pc-sort-icon">↕</span></th>
+            <th data-sort="per5h" class="num-col">5h限额(M) <span class="pc-sort-icon">↕</span></th>
+            <th data-sort="daily" class="num-col">日均(M) <span class="pc-sort-icon">↕</span></th>
+            <th data-sort="weekly" class="num-col">周限额(M) <span class="pc-sort-icon">↕</span></th>
+            <th>备注</th>
+          </tr></thead>
+          <tbody id="pc-tbody"></tbody>
+        </table>
+      </div>
+    </section>
+
+    <section class="section notes-section">
+      <p class="section-update-date">价格对比数据更新于 2026.07.05</p>
+      <ul class="notes-list">
+        <li>统一折算比例 input:output:write:read = 0.2:0.3:3.5:96，公式A(四项加权平均)</li>
+        <li><span class="pc-best-indicator"></span> 绿色高亮 = 该类目最优值（每$可用 ≥ 200M 或 月可用 ≥ 8000M）</li>
+        <li>国内平台价格按 ¥7.2:1 折算为美元</li>
+        <li>火山方舟为 AFP 制（非标准 Token），数值为等值换算</li>
+        <li>DeepSeek 直充作为「无杠杆基准线」：任何订阅方案的每$可用量低于直充即无性价比</li>
+        <li>数据来源：社区实测 + 官方定价页；Charm Hyper / ClinePass 为社区反推值</li>
+      </ul>
+    </section>
+  </section>
+
+  <!-- ===== HOME BROADBAND PAGE (login-gated) ===== -->
+  <section id="page-homebw" class="page-content">
+    <div class="api-hero">
+      <div class="api-hero-badge homebw-badge">会员专属 · 家宽推荐</div>
+      <h2 class="api-hero-title">海外家宽 IP 推荐</h2>
+      <p class="api-hero-desc">用途限定为 AI 相关场景，不构成任何违法用途建议。</p>
+    </div>
+
+    <div class="homebw-warning" role="alert">
+      <div class="homebw-warning-title">⛔ 使用禁令（务必阅读）</div>
+      <ul class="homebw-warning-list">
+        <li><strong>禁止在中国大陆使用</strong>以下推荐的任何家宽/代理服务。</li>
+        <li><strong>仅限 AI 使用</strong>（模型调用、自动化、开发测试等 AI 相关场景）。</li>
+        <li>请遵守服务商条款与当地法律法规；违规使用后果自负。</li>
+      </ul>
+    </div>
+
+    <!-- Cards + AFF links are injected by homebw-gate.js only after auth -->
+    <div id="homebw-cards-mount" class="ratings-row-relay homebw-cards" aria-live="polite"></div>
+
+    <section class="section notes-section">
+      <p class="section-update-date">家宽推荐更新于 2026.08.14（新增 RoxyBrowser：指纹浏览器 + 内置 RoxyIP 住宅代理）</p>
+      <ul class="notes-list">
+        <li>本页默认隐藏：仅当浏览器处于 <code>ai.hsnb.fun</code> 且已登录 New API 账号时显示入口</li>
+        <li>未登录用户即使手动访问 <code>#homebw</code> 也会被拦截并引导登录</li>
+        <li>链接为推广/邀请链接；价格与库存以各平台实时页面为准</li>
+      </ul>
+    </section>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <p>各分类更新日期见页面底部 · <a href="https://github.com/HsMirage/AIPlanHub" target="_blank">GitHub</a> · 仅供参考</p>
+</footer>
+
+<!-- Back to Top -->
+<button id="back-to-top" class="back-to-top" title="回到顶部">↑</button>
+
+
+
+<script src="scripts/data.js"></script>
+<script src="scripts/archived-data.js"></script>
+<script src="scripts/video-data.js"></script>
+<script src="scripts/image-data.js"></script>
+<script src="scripts/audio-data.js"></script>
+<script src="scripts/app.js"></script>
+<script src="scripts/video-app.js"></script>
+<script src="scripts/image-app.js"></script>
+<script src="scripts/audio-app.js"></script>
+<script src="scripts/router.js"></script>
+<script>
+// 2026-08-28 Mobile Polish: 宽表格滑动提示（仅移动端注入）
+document.addEventListener('DOMContentLoaded', () => {
+  if (window.innerWidth <= 768) {
+    document.querySelectorAll('.table-wrap').forEach(w => {
+      if (w.previousElementSibling && w.previousElementSibling.classList.contains('table-scroll-hint')) return;
+      const h = document.createElement('div');
+      h.className = 'table-scroll-hint';
+      h.textContent = '← 左右滑动查看完整表格 →';
+      w.parentNode.insertBefore(h, w);
+    });
+  }
+});
+</script>
+
+<script src="scripts/token-plan-data.js?v=20260801-aff"></script>
+<script src="scripts/token-plan-app.js"></script>
+<script src="scripts/price-compare-data.js"></script>
+<script src="scripts/price-compare-app.js"></script>
+<script src="scripts/homebw-gate.js?v=20260829"></script>
+<script>
+// Fallback if homebw-gate.js failed to load (401 unauth): bounce #homebw away
+document.addEventListener('DOMContentLoaded', () => {
+  if (window.HomebwGate) return;
+  const bounce = () => {
+    if ((location.hash || '').replace('#', '') === 'homebw') {
+      history.replaceState(null, '', '#home');
+      if (window.Router) { Router.current = null; Router.navigate(); }
+    }
+  };
+  bounce();
+  window.addEventListener('hashchange', bounce);
+});
+</script>
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+  const params = new URLSearchParams(window.location.search);
+  const forcedTheme = params.get('theme');
+  const embedMode = params.get('embed') === '1';
+
+  if (embedMode) {
+    document.documentElement.classList.add('embed-mode');
+  }
+
+  if (forcedTheme === 'light') {
+    document.documentElement.setAttribute('data-theme', 'light');
+  } else if (forcedTheme === 'dark') {
+    document.documentElement.removeAttribute('data-theme');
+  } else {
+    const saved = localStorage.getItem('theme');
+    if (saved) document.documentElement.setAttribute('data-theme', saved);
+  }
+
+  const themeToggle = document.getElementById('theme-toggle');
+  if (themeToggle) {
+    themeToggle.addEventListener('click', () => {
+      const next = document.documentElement.getAttribute('data-theme') === 'light' ? 'dark' : 'light';
+      document.documentElement.setAttribute('data-theme', next === 'dark' ? '' : next);
+      if (next === 'dark') localStorage.removeItem('theme');
+      else localStorage.setItem('theme', next);
+    });
+  }
+
+  // Init coding page
+  renderRatings();
+  populateFilters();
+  renderTable(PLANS);
+  document.getElementById('filter-count').textContent = `显示 ${PLANS.length} / ${PLANS.length} 个方案`;
+  renderArchivedPlans();
+  ['filter-platform','filter-model','filter-price','filter-quarterly','filter-yearly']
+    .forEach(id => document.getElementById(id).addEventListener('change', applyFilters));
+  document.getElementById('reset-btn').addEventListener('click', resetFilters);
+  document.querySelectorAll('#page-coding thead th[data-sort]').forEach(th => {
+    th.addEventListener('click', () => {
+      const col = th.dataset.sort;
+      sortDir = sortCol === col ? sortDir * -1 : 1;
+      sortCol = col;
+      document.querySelectorAll('#page-coding thead th').forEach(t => t.classList.remove('sorted-asc','sorted-desc'));
+      th.classList.add(sortDir === 1 ? 'sorted-asc' : 'sorted-desc');
+      applyFilters();
+    });
+  });
+
+  // Init video page
+  initVideoPage();
+
+  // Init image page
+  initImagePage();
+
+  // Init audio page
+  initAudioPage();
+
+  // Init token plan page
+  initTokenPlanPage();
+
+  // Back to top
+  const btt = document.getElementById('back-to-top');
+  window.addEventListener('scroll', () => {
+    btt.classList.toggle('visible', window.scrollY > 300);
+  });
+  btt.addEventListener('click', () => {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  });
+
+  // Init router (must be last)
+  Router.init();
+});
+</script>
+</body>
+</html>

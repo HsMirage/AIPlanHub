@@ -184,18 +184,19 @@ models:['Auto','GLM-5.3','GLM-5.3-Flash','Kimi-K3','Doubao-Seed-2.1-turbo','Doub
   // 2026.05.19核对：新增 StepAudio-2.5-Realtime/StepAudio-2.5-Chat 两个实时语音对话模型
   // 2026.05.29核对：新增 Step-3.7-Flash 模型（面向Agent/Coding/多模态工作流的高效率Flash模型）
   // 2026.09.05核对：文档公告 step-image-edit-2 将于 2026.10.10 下线（Step Plan 文生图与图像编辑接口同步停止）→ 四档 note 追加即将下线标注·价格/Credit额度/其他模型不变
+  // 2026.09.20核对（源站 HTML 两次确认）：Step Plan 支持模型大更新——新增 Step-5-Preview 旗舰基模 + StepAudio 3 全家桶 6 款（realtime/chat/tts/gen/music/asr-max）；Step-Image-Edit-2 已从支持列表移除；价格/Credit额度/加油包不变。AFF 已更新为 invite_code_v2=RCXWKOFD
   { platform:'阶跃星辰', name:'Flash Mini', monthly:49, quarterly:129, yearly:456, firstMonth:null,
-    models:['Step-3.7-Flash','Step-3.5-Flash-2603','Step-3.5-Flash','StepAudio-2.5-Realtime','StepAudio-2.5-Chat','StepAudio-2.5-TTS','StepAudio-2.5-ASR','Step-Router-V1','Step-Image-Edit-2'], req5h:null, reqMonth:null, reqWeek:null,
-    benefits:['Step-3.5-Flash 系列','支持主流 Agent 工具'], note:'入门版·Credit月池400M/月(1M=¥1)·无5h/周限制·季付¥129(约8.7折)·年付¥456(约7.8折)·小油包¥49/400M·大油包¥99/1600M·支持微信/Stripe·Step-Image-Edit-2 将于2026.10.10下线', link:'https://platform.stepfun.com/?invite_code_v2=RCXWKOFD' },
+    models:['Step-5-Preview','Step-3.7-Flash','Step-3.5-Flash-2603','Step-3.5-Flash','StepAudio-3-Realtime-Preview','StepAudio-3-Chat-Preview','StepAudio-3-TTS','StepAudio-3-Gen-Preview','StepAudio-3-Music-Preview','StepAudio-3-ASR-Max','StepAudio-2.5-Realtime','StepAudio-2.5-Chat','StepAudio-2.5-TTS','StepAudio-2.5-ASR','Step-Router-V1'], req5h:null, reqMonth:null, reqWeek:null,
+    benefits:['Step-5-Preview 旗舰基模','支持主流 Agent 工具'], note:'入门版·Credit月池400M/月(1M=¥1)·无5h/周限制·季付¥129(约8.7折)·年付¥456(约7.8折)·小油包¥49/400M·大油包¥99/1600M·支持微信/Stripe·15款模型(Step-5-Preview+StepAudio3全家桶)·Step-Image-Edit-2 已移出支持列表', link:'https://platform.stepfun.com/?invite_code_v2=RCXWKOFD' },
     { platform:'阶跃星辰', name:'Flash Plus', currency:'¥', monthly:99, quarterly:269, yearly:936, firstMonth:null,
-    models:['Step-3.7-Flash','Step-3.5-Flash-2603','Step-3.5-Flash','StepAudio-2.5-Realtime','StepAudio-2.5-Chat','StepAudio-2.5-TTS','StepAudio-2.5-ASR','Step-Router-V1','Step-Image-Edit-2'], req5h:null, reqMonth:null, reqWeek:null,
-    benefits:['Step-3.5-Flash 系列','支持主流 Agent 工具'], note:'进阶版·Credit月池1600M/月(1M=¥1)·无5h/周限制·季付¥269(约9折)·年付¥936(约7.9折)·优先API速率·优先技术支持·Step-Image-Edit-2 将于2026.10.10下线', link:'https://platform.stepfun.com/?invite_code_v2=RCXWKOFD' },
+    models:['Step-5-Preview','Step-3.7-Flash','Step-3.5-Flash-2603','Step-3.5-Flash','StepAudio-3-Realtime-Preview','StepAudio-3-Chat-Preview','StepAudio-3-TTS','StepAudio-3-Gen-Preview','StepAudio-3-Music-Preview','StepAudio-3-ASR-Max','StepAudio-2.5-Realtime','StepAudio-2.5-Chat','StepAudio-2.5-TTS','StepAudio-2.5-ASR','Step-Router-V1'], req5h:null, reqMonth:null, reqWeek:null,
+    benefits:['Step-5-Preview 旗舰基模','支持主流 Agent 工具'], note:'进阶版·Credit月池1600M/月(1M=¥1)·无5h/周限制·季付¥269(约9折)·年付¥936(约7.9折)·优先API速率·优先技术支持·15款模型(Step-5-Preview+StepAudio3全家桶)·Step-Image-Edit-2 已移出支持列表', link:'https://platform.stepfun.com/?invite_code_v2=RCXWKOFD' },
   { platform:'阶跃星辰', name:'Flash Pro', currency:'¥', monthly:199, quarterly:539, yearly:1860, firstMonth:null,
-    models:['Step-3.7-Flash','Step-3.5-Flash-2603','Step-3.5-Flash','StepAudio-2.5-Realtime','StepAudio-2.5-Chat','StepAudio-2.5-TTS','StepAudio-2.5-ASR','Step-Router-V1','Step-Image-Edit-2'], req5h:null, reqMonth:null, reqWeek:null,
-    benefits:['Step-3.5-Flash 系列','支持主流 Agent 工具'], note:'专业版·Credit月池8000M/月(1M=¥1)·无5h/周限制·季付¥539(约9折)·年付¥1860(约7.8折)·适合复杂任务·Step-Image-Edit-2 将于2026.10.10下线', link:'https://platform.stepfun.com/?invite_code_v2=RCXWKOFD' },
+    models:['Step-5-Preview','Step-3.7-Flash','Step-3.5-Flash-2603','Step-3.5-Flash','StepAudio-3-Realtime-Preview','StepAudio-3-Chat-Preview','StepAudio-3-TTS','StepAudio-3-Gen-Preview','StepAudio-3-Music-Preview','StepAudio-3-ASR-Max','StepAudio-2.5-Realtime','StepAudio-2.5-Chat','StepAudio-2.5-TTS','StepAudio-2.5-ASR','Step-Router-V1'], req5h:null, reqMonth:null, reqWeek:null,
+    benefits:['Step-5-Preview 旗舰基模','支持主流 Agent 工具'], note:'专业版·Credit月池8000M/月(1M=¥1)·无5h/周限制·季付¥539(约9折)·年付¥1860(约7.8折)·适合复杂任务·15款模型(Step-5-Preview+StepAudio3全家桶)·Step-Image-Edit-2 已移出支持列表', link:'https://platform.stepfun.com/?invite_code_v2=RCXWKOFD' },
   { platform:'阶跃星辰', name:'Flash Max', currency:'¥', monthly:699, quarterly:1889, yearly:6666, firstMonth:null,
-    models:['Step-3.7-Flash','Step-3.5-Flash-2603','Step-3.5-Flash','StepAudio-2.5-Realtime','StepAudio-2.5-Chat','StepAudio-2.5-TTS','StepAudio-2.5-ASR','Step-Router-V1','Step-Image-Edit-2'], req5h:null, reqMonth:null, reqWeek:null,
-    benefits:['Step-3.5-Flash 系列','支持主流 Agent 工具'], note:'旗舰版·Credit月池40000M/月(1M=¥1)·无5h/周限制·季付¥1889(约9折)·年付¥6666(约7.9折)·适合团队协作·Step-Image-Edit-2 将于2026.10.10下线', link:'https://platform.stepfun.com/?invite_code_v2=RCXWKOFD' },
+    models:['Step-5-Preview','Step-3.7-Flash','Step-3.5-Flash-2603','Step-3.5-Flash','StepAudio-3-Realtime-Preview','StepAudio-3-Chat-Preview','StepAudio-3-TTS','StepAudio-3-Gen-Preview','StepAudio-3-Music-Preview','StepAudio-3-ASR-Max','StepAudio-2.5-Realtime','StepAudio-2.5-Chat','StepAudio-2.5-TTS','StepAudio-2.5-ASR','Step-Router-V1'], req5h:null, reqMonth:null, reqWeek:null,
+    benefits:['Step-5-Preview 旗舰基模','支持主流 Agent 工具'], note:'旗舰版·Credit月池40000M/月(1M=¥1)·无5h/周限制·季付¥1889(约9折)·年付¥6666(约7.9折)·适合团队协作·15款模型(Step-5-Preview+StepAudio3全家桶)·Step-Image-Edit-2 已移出支持列表', link:'https://platform.stepfun.com/?invite_code_v2=RCXWKOFD' },
 
   // 快手 StreamLake - 2026.07.27官方配置接口核对：KAT-Coder-Pro V2.5为当前唯一订阅模型（V1/V2 为历史型号仍可调用）
   // 2026.09.09核对：营销页 /marketing/coding-plan 返回「该页面不存在」404（两次一致）——Coding Plan 营销页入口已移除，首页 AI Coding 仍展示 KAT-Coder-Pro V2.5 与 CodeFlicker IDE；订阅数据（4档 Prompts 计费）暂无证据表明价格/额度变化，标记待人工复核（下轮用官方配置接口/文档页核对）
@@ -555,7 +556,7 @@ const RATINGS = [
   },
   {
     name: '阶跃星辰', score: 3,
-    reasons: ['2026.06.19 升级为 Credit 月池·取代旧版 Prompt 限额制', '新增季付(8.7折)/年付(7.8折)；加油包补充额度', 'Step-3.7-Flash 新上线·Agent/Coding/多模态高效模型', 'Step-3.5-Flash / 2603·极速性能默认开放', '语音模型增至 4 款(TTS/ASR/Realtime/Chat)', '¥49 起·Credit 月池 400M~40000M/月·无5h/周限制', 'Step-Image-Edit-2 将于2026.10.10下线(09.05文档公告)'],
+    reasons: ['2026.06.19 升级为 Credit 月池·取代旧版 Prompt 限额制', '新增季付(8.7折)/年付(7.8折)；加油包补充额度', '2026.09.20 新增 Step-5-Preview 旗舰基模+StepAudio 3 全家桶 6 款·支持模型达 15 款', 'Step-3.5-Flash / 2603·极速性能默认开放', '语音模型阵容大幅扩充(StepAudio3×6+2.5系×4+Router)', '¥49 起·Credit 月池 400M~40000M/月·无5h/周限制', 'Step-Image-Edit-2 已移出支持列表'],
   },
   {
     name: '快手 StreamLake', score: 3,

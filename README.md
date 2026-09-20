@@ -16,7 +16,7 @@
 
 > **更新日志**（每分类仅保留最新一条·完整历史见 git log）
 >
-- **Coding**（2026.09.18）（xKiro 模型 93→102 款(新增 LongCat-2.0+Qwen 系列 12 款·移除 DeepSeek V3.1/V3.2 与 Codex 5.3 Spark·API 权威源两次一致·价格额度不变)；OpenCode Go 模型 37→38 款(新增 Union Alpha 限时免费模型)+DS-V4.1-Flash 限时4倍活动至9.20；其余经核对无变化）
+- **Coding**（2026.09.20）（阶跃星辰 Step Plan 支持模型大更新：新增 Step-5-Preview 旗舰基模 + StepAudio 3 全家桶 6 款，支持模型 9→15 款；Step-Image-Edit-2 已移出支持列表；价格/Credit 额度/加油包不变；AFF 链接更新为 invite_code_v2=RCXWKOFD；其余经核对无变化）
 - **Token**（2026.09.20）（阿里·Token Plan 个人版新增 Essential 档：限时¥79/月·7天5,625 Credits·2.25x Lite 用量；其余 7 条目经核对无变化）
 - **Video**（2026.09.20）（9 平台全量核对，经核对无变化；Vidu CDN拦截· pai.video/海螺AI/RunningHub 登录墙·即梦/OpenArt 获取失败均双源佐证无变化）
 - **Image**（2026.09.20）（6 平台全量核对无变化：Midjourney/Liblib/通义万相/堆友逐档核验；RunningHub 登录墙·OpenArt 网络超时，双源佐证无变化）
