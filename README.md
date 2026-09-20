@@ -16,8 +16,8 @@
 
 > **更新日志**（每分类仅保留最新一条·完整历史见 git log）
 >
-- **Coding**（2026.09.20）（阶跃星辰 Step Plan 支持模型大更新：新增 Step-5-Preview 旗舰基模 + StepAudio 3 全家桶 6 款，支持模型 9→15 款；Step-Image-Edit-2 已移出支持列表；价格/Credit 额度/加油包不变；AFF 链接更新为 invite_code_v2=RCXWKOFD；其余经核对无变化）
-- **Token**（2026.09.20）（阿里·Token Plan 个人版新增 Essential 档：限时¥79/月·7天5,625 Credits·2.25x Lite 用量；其余 7 条目经核对无变化）
+- **Coding**（2026.09.20）（新增平台 WM AI：稳明科技 wenming7.com 美元积分制 Token Plan·$6/12/24/60/120 五档+Free·27款模型·1积分=$1 双滚动窗口；阶跃星辰 Step Plan 支持模型大更新：新增 Step-5-Preview 旗舰基模 + StepAudio 3 全家桶 6 款，支持模型 9→15 款；Step-Image-Edit-2 已移出支持列表；价格/Credit 额度/加油包不变；AFF 链接更新为 invite_code_v2=RCXWKOFD；其余经核对无变化）
+- **Token**（2026.09.21）（8 个监控条目全量核对，经核对无变化）
 - **Video**（2026.09.20）（9 平台全量核对，经核对无变化；Vidu CDN拦截· pai.video/海螺AI/RunningHub 登录墙·即梦/OpenArt 获取失败均双源佐证无变化）
 - **Image**（2026.09.20）（6 平台全量核对无变化：Midjourney/Liblib/通义万相/堆友逐档核验；RunningHub 登录墙·OpenArt 网络超时，双源佐证无变化）
 - **Audio**（2026.09.20）（Suno 模型名修正：v6系→官方实际 v4.5-all(免费)/v4~v5.5(付费)·价格额度不变；Udio/Ace Studio 经核对无变化；海螺AI 登录墙双源无音频订阅证据）
@@ -51,7 +51,7 @@ https://ai.hsnb.fun/aiplanhub
 
 ---
 
-## Coding 平台（27 家）
+## Coding 平台（28 家）
 
 | 平台 | 代表模型 | 方案数 | 月付起 | 评分 |
 |------|----------|--------|--------|------|
@@ -61,6 +61,7 @@ https://ai.hsnb.fun/aiplanhub
 | 智谱AI | GLM-5.3 / GLM-5.3-Flash | 3 | ¥118 | ★★½ |
 
 | 稳明光语纪 | GLM-5.3 / DeepSeek-V4-Flash-0731 | 4 | ¥45 | ★★★½ |
+| WM AI | Claude Opus 4.8 / GPT-5.6 Sol / GPT-5.6 Terra / Kimi-K3 / Qwen3.8-Max / GLM-5.3 等27款 | 6 | $0 | ★★½ |
 | 字节·方舟 | GLM-5.3 / GLM-5.3-Flash / Kimi-K3 / Doubao-Seed-2.1-turbo / Doubao-Seed-Evolving / Kimi-K2.7-Code | 2 | ¥40 | ★★★ |
 | Charm Hyper | GLM-5.3 / GLM-5.3-Flash / Qwen3.8-Flash / Qwen3.8-Max / DeepSeek-V4-Pro-0813 / DeepSeek-V4-Flash-0731 / Kimi-K3 / Kimi-K2-Thinking | 5 | $0 | ★★★½ |
 | Meituan CatPaw | — | 1 | 免费 | ★★★★ |
@@ -179,6 +180,12 @@ https://ai.hsnb.fun/aiplanhub
 | z.ai | Lite | $18 | — | 2,000 | [开通](https://z.ai/subscribe?ic=V6PINPKB9I) |
 | z.ai | Pro | $80 | — | 12,000 | [开通](https://z.ai/subscribe?ic=V6PINPKB9I) |
 | z.ai | Max | $168 | — | 28,000 | [开通](https://z.ai/subscribe?ic=V6PINPKB9I) |
+| WM AI | Free | $0 | — | 日送3M token(qwen3.8-27B) | [开通](https://wenming7.com/sales?ref=KVH95UU8) |
+| WM AI | Tier A | $6 | — | 5h $3 · 周 $21 | [开通](https://wenming7.com/sales?ref=KVH95UU8) |
+| WM AI | Tier B | $12 | — | 5h $6 · 周 $42 | [开通](https://wenming7.com/sales?ref=KVH95UU8) |
+| WM AI | Tier C | $24 | — | 5h $12 · 周 $84 | [开通](https://wenming7.com/sales?ref=KVH95UU8) |
+| WM AI | Tier D | $60 | — | 5h $30 · 周 $210 | [开通](https://wenming7.com/sales?ref=KVH95UU8) |
+| WM AI | Tier E | $120 | — | 5h $60 · 周 $420 | [开通](https://wenming7.com/sales?ref=KVH95UU8) |
 
 ---
 
