@@ -17,7 +17,7 @@
 > **更新日志**（每分类仅保留最新一条·完整历史见 git log）
 >
 - **Coding**（2026.09.20）（新增平台 WM AI：稳明科技 wenming7.com 美元积分制 Token Plan·$6/12/24/60/120 五档+Free·27款模型·1积分=$1 双滚动窗口；阶跃星辰 Step Plan 支持模型大更新：新增 Step-5-Preview 旗舰基模 + StepAudio 3 全家桶 6 款，支持模型 9→15 款；Step-Image-Edit-2 已移出支持列表；价格/Credit 额度/加油包不变；AFF 链接更新为 invite_code_v2=RCXWKOFD；其余经核对无变化）
-- **Token**（2026.09.22）（OpenCode Go 模型增至 28 款：新增 Grok 4.7；DS-V4.1-Flash 4倍额度延期至 9.27；其余 7 条目经核对无变化）
+- **Token**（2026.09.22）（OpenCode Go 模型增至 28 款：新增 Grok 4.7；阿里 Token Plan 夜间折扣调整为四折2款+五折3款；DS-V4.1-Flash 4倍额度延期至 9.27）
 - **Video**（2026.09.20）（9 平台全量核对，经核对无变化；Vidu CDN拦截· pai.video/海螺AI/RunningHub 登录墙·即梦/OpenArt 获取失败均双源佐证无变化）
 - **Image**（2026.09.21）（6 平台全量核对无变化：Midjourney/Liblib/通义万相/OpenArt 逐档核验；RunningHub 登录墙·堆友官网登录墙经云市场官方自营店核验，双源佐证无变化）
 - **Audio**（2026.09.21）（Suno 模型阵容更新：免费档 v6-mini、付费档 v6/v6-wild·价格额度不变；Udio/Ace Studio 经核对无变化；海螺AI 登录墙双源无音频订阅证据）
