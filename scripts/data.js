@@ -177,6 +177,35 @@ models:['Auto','GLM-5.3','GLM-5.3-Flash','Kimi-K3','Doubao-Seed-2.1-turbo','Doub
     models:['GLM-5.3','DeepSeek-V4-Flash-0731'], req5h:null, reqMonth:40000, reqWeek:null,
     benefits:['GLM-5.3专属','并发限制2','赠DeepSeek-V4-Flash-0731 2000次','优先响应通道'],
     note:'按次扣费·40000次GLM-5.3/月·合计42000次/月·赠DeepSeek-V4-Flash-0731 2000次·并发限制2·09.12恢复上架·另有¥29.9新用户5000万token(7天·限购一次)', link:'https://wenming7.cn/sales?ref=DCRTY9PM' },
+  // WM AI - 稳明科技集团有限公司（香港）旗下 AI 开放平台 wenming7.com，与稳明光语纪（wenming7.cn·人民币按次套餐）同集团不同产品线
+  // 官方称 Token Plan：积分制订阅，1 积分=$1 面值；5h + 7天双滚动窗口，按模型官方API价×倍率扣积分
+  // 倍率（user-guide Token Plan §03 模型分层·2026.09.20抓取）：1×=DeepSeek-V4.1-Flash/GLM-5.3；3×=DeepSeek-V4/DS-V4-Pro/MiMo-V2.5/MiMo-V2.5-Pro/MiniMax-M3/MiniMax-M2.7/MiniMax-H3/GPT-5.6-Luna/Kimi-K2.7-Code/Kimi-K2.6/GPT-Image-2；5×=Kimi-K3/Qwen3.8-Max/Qwen3.7-Max/GPT-5.6-Luna…Sol/Terra/Claude-Opus-5
+  // 模型目录 27 款（models页·2026.09.20抓取）；季付9折·年付8折；注册送$3（限时3个月活动）；日送 qwen3.8-27B tokens（仅该模型·当日有效）
+  // 2026.09.20 新增（CDP pricing+user-guide+models 三页两次一致）
+  { platform:'WM AI', name:'Free', currency:'$', monthly:0, quarterly:null, yearly:null, firstMonth:null,
+    models:['Claude Fable-5','Claude Opus 4.6','Claude Opus 4.7','Claude Opus 4.8','GPT-5.4','GPT-5.5','GPT-5.6 Luna','GPT-5.6 Sol','GPT-5.6 Terra','GPT-Image-2','GLM-5.3','GLM-5.1','DeepSeek-V4-Flash','DeepSeek-V4-Flash-0731','DeepSeek-V4-Pro','MiniMax-H3','Qwen3.8-Max','Kimi-K3','Kimi-K2.6','Kimi-K2.7-Code','Seedance 2.0','Seedance 2.5','Seedream 5.0 Lite','Seedream 5.0 Pro'],
+    req5h:null, reqMonth:null, reqWeek:null, benefits:['注册即得','日送qwen3.8-27B 3M tokens','并发2'], quotaUnit:'$',
+    note:'免费注册即得·日送qwen3.8-27B 3M tokens(当日有效·仅该模型)·其他模型按量计费无并发限制·⚠️小众平台，注意分辨', link:'https://wenming7.com/sales?ref=KVH95UU8' },
+  { platform:'WM AI', name:'Tier A', currency:'$', monthly:6, quarterly:null, yearly:null, firstMonth:null,
+    models:['Claude Fable-5','Claude Opus 4.6','Claude Opus 4.7','Claude Opus 4.8','GPT-5.4','GPT-5.5','GPT-5.6 Luna','GPT-5.6 Sol','GPT-5.6 Terra','GPT-Image-2','GLM-5.3','GLM-5.1','DeepSeek-V4-Flash','DeepSeek-V4-Flash-0731','DeepSeek-V4-Pro','MiniMax-H3','Qwen3.8-Max','Kimi-K3','Kimi-K2.6','Kimi-K2.7-Code','Seedance 2.0','Seedance 2.5','Seedream 5.0 Lite','Seedream 5.0 Pro'],
+    req5h:null, reqMonth:null, reqWeek:null, benefits:['5h窗口$3+7天窗口$21','日送5M tokens','并发2'], quota5h:3, quotaWeek:21, quotaUnit:'$',
+    note:'$6/月·积分制1积分=$1·5h窗口$3+7天窗口$21(双窗口同时扣·任一耗尽即暂停)·按官方API价×倍率扣积分·倍率1×=GLM-5.3/DS-V4.1-Flash·3×=DS-V4/V4-Pro/MiMo-V2.5(-Pro)/MiniMax-M3/M2.7/H3/GPT-5.6-Luna/K2.7-Code/K2.6/GPT-Image-2·5×=Kimi-K3/Qwen3.8-Max/Qwen3.7-Max/GPT-5.6-Sol/Terra/Claude-Opus-5·日送qwen3.8-27B 5M tokens·并发2·季付9折/年付8折·⚠️文档倍率表列有MiMo-V2.5/M2.7/M3/Qwen3.7-Max/Claude-Opus-5等目录外模型·与/models页27款矛盾·⚠️小众平台，注意分辨', link:'https://wenming7.com/sales?ref=KVH95UU8' },
+  { platform:'WM AI', name:'Tier B', currency:'$', monthly:12, quarterly:null, yearly:null, firstMonth:null,
+    models:['Claude Fable-5','Claude Opus 4.6','Claude Opus 4.7','Claude Opus 4.8','GPT-5.4','GPT-5.5','GPT-5.6 Luna','GPT-5.6 Sol','GPT-5.6 Terra','GPT-Image-2','GLM-5.3','GLM-5.1','DeepSeek-V4-Flash','DeepSeek-V4-Flash-0731','DeepSeek-V4-Pro','MiniMax-H3','Qwen3.8-Max','Kimi-K3','Kimi-K2.6','Kimi-K2.7-Code','Seedance 2.0','Seedance 2.5','Seedream 5.0 Lite','Seedream 5.0 Pro'],
+    req5h:null, reqMonth:null, reqWeek:null, benefits:['5h窗口$6+7天窗口$42','日送10M tokens','并发4'], quota5h:6, quotaWeek:42, quotaUnit:'$',
+    note:'$12/月·5h窗口$6+7天窗口$42·日送qwen3.8-27B 10M tokens·并发4·倍率同全档·⚠️小众平台，注意分辨', link:'https://wenming7.com/sales?ref=KVH95UU8' },
+  { platform:'WM AI', name:'Tier C', currency:'$', monthly:24, quarterly:null, yearly:null, firstMonth:null,
+    models:['Claude Fable-5','Claude Opus 4.6','Claude Opus 4.7','Claude Opus 4.8','GPT-5.4','GPT-5.5','GPT-5.6 Luna','GPT-5.6 Sol','GPT-5.6 Terra','GPT-Image-2','GLM-5.3','GLM-5.1','DeepSeek-V4-Flash','DeepSeek-V4-Flash-0731','DeepSeek-V4-Pro','MiniMax-H3','Qwen3.8-Max','Kimi-K3','Kimi-K2.6','Kimi-K2.7-Code','Seedance 2.0','Seedance 2.5','Seedream 5.0 Lite','Seedream 5.0 Pro'],
+    req5h:null, reqMonth:null, reqWeek:null, benefits:['5h窗口$12+7天窗口$84','日送20M tokens','并发6'], quota5h:12, quotaWeek:84, quotaUnit:'$',
+    note:'$24/月·5h窗口$12+7天窗口$84·日送qwen3.8-27B 20M tokens·并发6·⚠️小众平台，注意分辨', link:'https://wenming7.com/sales?ref=KVH95UU8' },
+  { platform:'WM AI', name:'Tier D', currency:'$', monthly:60, quarterly:null, yearly:null, firstMonth:null,
+    models:['Claude Fable-5','Claude Opus 4.6','Claude Opus 4.7','Claude Opus 4.8','GPT-5.4','GPT-5.5','GPT-5.6 Luna','GPT-5.6 Sol','GPT-5.6 Terra','GPT-Image-2','GLM-5.3','GLM-5.1','DeepSeek-V4-Flash','DeepSeek-V4-Flash-0731','DeepSeek-V4-Pro','MiniMax-H3','Qwen3.8-Max','Kimi-K3','Kimi-K2.6','Kimi-K2.7-Code','Seedance 2.0','Seedance 2.5','Seedream 5.0 Lite','Seedream 5.0 Pro'],
+    req5h:null, reqMonth:null, reqWeek:null, benefits:['5h窗口$30+7天窗口$210','日送40M tokens','并发8'], quota5h:30, quotaWeek:210, quotaUnit:'$',
+    note:'$60/月·5h窗口$30+7天窗口$210·日送qwen3.8-27B 40M tokens·并发8·⚠️小众平台，注意分辨', link:'https://wenming7.com/sales?ref=KVH95UU8' },
+  { platform:'WM AI', name:'Tier E', currency:'$', monthly:120, quarterly:null, yearly:null, firstMonth:null,
+    models:['Claude Fable-5','Claude Opus 4.6','Claude Opus 4.7','Claude Opus 4.8','GPT-5.4','GPT-5.5','GPT-5.6 Luna','GPT-5.6 Sol','GPT-5.6 Terra','GPT-Image-2','GLM-5.3','GLM-5.1','DeepSeek-V4-Flash','DeepSeek-V4-Flash-0731','DeepSeek-V4-Pro','MiniMax-H3','Qwen3.8-Max','Kimi-K3','Kimi-K2.6','Kimi-K2.7-Code','Seedance 2.0','Seedance 2.5','Seedream 5.0 Lite','Seedream 5.0 Pro'],
+    req5h:null, reqMonth:null, reqWeek:null, benefits:['5h窗口$60+7天窗口$420','日送80M tokens','并发16·支持插队'], quota5h:60, quotaWeek:420, quotaUnit:'$',
+    note:'$120/月·5h窗口$60+7天窗口$420·日送qwen3.8-27B 80M tokens·并发16·高队列优先级+插队·⚠️小众平台，注意分辨', link:'https://wenming7.com/sales?ref=KVH95UU8' },
 
 
   // 新系统以 Credit 为单位（1M Credit = ¥1），月度一次性发放，月内灵活消耗，无5h/周限制
@@ -573,6 +602,10 @@ const RATINGS = [
   {
     name: '稳明光语纪', score: 3.5,
     reasons: ['2026.09.03主模型升级 GLM-5.2→GLM-5.3(fp8)·智商可以·上下文400K·并发2·赠2000次DeepSeek-V4-Flash-0731调用', '⚠️09.12 重大反转：Pro/Plus/Max/¥29.9 新用户套餐全部恢复上架（09.10 曾下架）·四档 ¥45/¥125/¥249/¥429 价格额度未变', 'Lite ¥45/月1000次GLM-5.3·Max 40000次/月·并发2', '第三方小众Coding Plan·注意分辨']
+  },
+  {
+    name: 'WM AI', score: 2.5, isAd: true,
+    reasons: ['积分制1积分=$1·Tier A $6/月含5h窗口$3+7天窗口$21·双窗口同时扣需盯额度', '模型池27款覆盖Claude Opus 4.8/GPT-5.6全系/Kimi-K3/GLM-5.3·但旗舰按5×倍率扣·只能当限次尝鲜', '1×层仅GLM-5.3/DS-V4.1-Flash两款无加价·3×层为主力(GPT-5.6-Luna/K2.6/GPT-Image-2等11款)·倍率表与/models目录矛盾(列有MiMo-V2.5/M2.7/Qwen3.7-Max/Claude-Opus-5等目录外模型)·文档混乱', '注册送$3+邀请送Tier-A周卡（限时3个月）·日送qwen3.8-27B tokens·官网无套餐直购页单币种混乱（中文站按次计费/英文站积分制并存）', '⚠️小众平台·无任何第三方社区评价·文档模型分层与模型目录互相矛盾·香港稳明科技集团（与稳明光语纪同集团）·注意分辨']
   },
   {
     name: '优云智算', score: 2,
