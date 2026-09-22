@@ -16,7 +16,7 @@
 
 > **更新日志**（每分类仅保留最新一条·完整历史见 git log）
 >
-- **Coding**（2026.09.20）（新增平台 WM AI：稳明科技 wenming7.com 美元积分制 Token Plan·$6/12/24/60/120 五档+Free·27款模型·1积分=$1 双滚动窗口；阶跃星辰 Step Plan 支持模型大更新：新增 Step-5-Preview 旗舰基模 + StepAudio 3 全家桶 6 款，支持模型 9→15 款；Step-Image-Edit-2 已移出支持列表；价格/Credit 额度/加油包不变；AFF 链接更新为 invite_code_v2=RCXWKOFD；其余经核对无变化）
+- **Coding**（2026.09.23）（阶跃星辰支持模型 15→9 款：StepAudio 3 全家桶 6 款上架3天即全部移除；字节·方舟新增 Kimi-K2.8-Preview·9.18-9.30 可用量6折活动；CommandCode 模型目录 59→82 款+DS-V4.1-Flash 额度提升回归至9.28+Grok 4.7 40% off 至9.27；OpenCode Go 模型 38→30 款·Omen Alpha/Union Alpha 移除·MiMo-V2.6 系新上架；Charm Hyper 模型 34→23 款；xKiro 基础目录 102→85 款+:free 免费变体 27 个；小米·MiMo Token Plan 新增 V2.6 系·V2.5 将于 10.21 下线；其余经核对无变化）
 - **Token**（2026.09.22）（OpenCode Go 模型增至 28 款：新增 Grok 4.7；阿里 Token Plan 夜间折扣调整为四折2款+五折3款；DS-V4.1-Flash 4倍额度延期至 9.27）
 - **Video**（2026.09.22）（即梦：高级/超级会员年付首年5折回调至7折（¥5,199→¥7,278·¥21,840→¥30,576），新增高级团队会员 ¥730/席/月（12个月¥549/席/月）；其余平台经核对无变化）
 - **Image**（2026.09.22）（即梦与 Video 同步：年付首年5折→7折（¥5,199→¥7,278·¥21,840→¥30,576）·新增高级团队会员 ¥730/席/月（12个月¥549/席/月）；其余平台数据不变）
@@ -56,13 +56,13 @@ https://ai.hsnb.fun/aiplanhub
 | 平台 | 代表模型 | 方案数 | 月付起 | 评分 |
 |------|----------|--------|--------|------|
 | ChatGPT | GPT-5.4 / GPT-Image-2 / GPT-5.3-Codex | 2 | ¥26.6 | ★★★★★ |
-| xKiro | GPT-6 Astra / GLM-5.3 / GLM-5.3-Flash / LongCat 2.0 / Hy4 Preview / Gemini 3.8 Flash / Grok 4.6 / Kimi K3 / MiniMax M3 / Qwen3.8 Max 等102款 | 6 | $0 | ★★★★ |
+| xKiro | GPT-6 Astra / GLM-5.3 / GLM-5.3-Flash / LongCat 2.0 / Hy4 Preview / Gemini 3.8 Flash / Grok 4.6 / Kimi K3 / MiniMax M3 / Qwen3.8 Max 等85款+:free 27个 | 6 | $0 | ★★★★ |
 | 商汤SenseNova | SenseNova 6.8 Flash Lite / SenseNova U1.5 Lite / SenseNova U1 Fast / DeepSeek V4 Pro / DeepSeek V4 Flash / GLM-5.2 / Kimi K3 | 1 | 免费 | ★★★★★ |
 | 智谱AI | GLM-5.3 / GLM-5.3-Flash | 3 | ¥118 | ★★½ |
 
 | 稳明光语纪 | GLM-5.3 / DeepSeek-V4-Flash-0731 | 4 | ¥45 | ★★★½ |
 | WM AI | Claude Opus 4.8 / GPT-5.6 Sol / GPT-5.6 Terra / Kimi-K3 / Qwen3.8-Max / GLM-5.3 等27款 | 6 | $0 | ★★½ |
-| 字节·方舟 | GLM-5.3 / GLM-5.3-Flash / Kimi-K3 / Doubao-Seed-2.1-turbo / Doubao-Seed-Evolving / Kimi-K2.7-Code | 2 | ¥40 | ★★★ |
+| 字节·方舟 | GLM-5.3 / GLM-5.3-Flash / Kimi-K3 / Kimi-K2.8-Preview / Doubao-Seed-2.1-turbo / Doubao-Seed-Evolving / Kimi-K2.7-Code | 2 | ¥40 | ★★★ |
 | Charm Hyper | GLM-5.3 / GLM-5.3-Flash / Qwen3.8-Flash / Qwen3.8-Max / DeepSeek-V4-Pro-0813 / DeepSeek-V4-Flash-0731 / Kimi-K3 / Kimi-K2-Thinking | 5 | $0 | ★★★½ |
 | Meituan CatPaw | — | 1 | 免费 | ★★★★ |
 | Kimi | Kimi-K3 / Kimi-K2.7-Code | 4 | ¥39 | ★★½ |
@@ -70,7 +70,7 @@ https://ai.hsnb.fun/aiplanhub
 | 蓝耘元生代云 | GLM-5.1 | 3 | ¥49 | ★★ |
 | 腾讯·Coding | GLM-5（10.9下线）/ Auto | 2 | ¥40 | ★★★ |
 | 讯飞星辰 | GLM-5.2 / DeepSeek-V4-Flash-0731 / Spark X2 Agent | 2 | ¥199 | ★★½ |
-| 阶跃星辰 | Step-3.5-Flash-2603 | 4 | ¥49 | ★★★ |
+| 阶跃星辰 | Step-5-Preview | 4 | ¥49 | ★★★ |
 | 快手 StreamLake | KAT-Coder-Pro V1/V2/V2.5 | 4 | ¥29 | ★★★ |
 | Ollama | GLM-5.3 / GLM-5.2 / DeepSeek-V4-Flash / Kimi-K3 | 4 | $0 | ★★★½ |
 | AtomCode | MiMo-V2.5 / MiMo-V2.5-Pro / Qwen3.8-27B / GLM-5.3-Flash | 3 | 免费 | ★★★★ |
@@ -171,12 +171,12 @@ https://ai.hsnb.fun/aiplanhub
 
 | 平台 | 方案 | 月付 | 首月价 | 5h请求数 | 开通 |
 |------|------|------|--------|----------|------|
-| OpenCode Go | Omen Alpha / Union Alpha / GLM-5.3-Flash / GLM-5.3 / GLM-5.2 / GPT-5.6-Luna / Kimi-K3 / DeepSeek-V4.1-Flash / Qwen3.8-Flash / Hy4-Preview / Hy3 等38款（⚠️国内 Muse Spark 1.2/1.3 不可调用·美元滚动额度 5h $12/周 $30/月 $60·DS-V4.1-Flash 限时4倍至9.20） | $10 | — | $12/5h $30/周 $60/月 | [Go \| OpenCode](https://opencode.ai/go?ref=V156X2ZH2S) |
-| CommandCode | GO（38款·GLM-5.3 / Kimi-K3 / DeepSeek V4 Flash / Qwen3.8 Max·⚠️仅官方CLI无API） | $1 | — | $10/月·5h $3 · 周 $6·约15K次 | [开通](https://commandcode.ai/pricing) |
-| CommandCode | GOAT（42款·GPT-5.6 Sol / Gemini 3.7 Flash / GLM-5.2 / Tencent Hy3 / DeepSeek V4 Flash） | $10 | — | $70/月·5h $14 · 周 $35·约75K次 | [开通](https://commandcode.ai/pricing) |
-| CommandCode | Pro（55款·+Claude Sonnet 5 / GPT-5.5 / Gemini 3.5 付费池） | $20 | — | $80/月·5h $16 · 周 $40·约100K次 | [开通](https://commandcode.ai/pricing) |
-| CommandCode | Max 10×（60款全模型·Claude Opus/Fable/Fugu Ultra 解锁） | $100 | — | $150/月·5h $45 · 周 $90·约219K次 | [开通](https://commandcode.ai/pricing) |
-| CommandCode | Max 20×（60款全模型无限制） | $200 | — | $300/月·5h $90 · 周 $180·约437K次 | [开通](https://commandcode.ai/pricing) |
+| OpenCode Go | MiMo-V2.6-Flash / Grok-4.7 / GLM-5.3-Flash / GLM-5.3 / GLM-5.2 / GPT-5.6-Luna / Kimi-K3 / DeepSeek-V4.1-Flash / Qwen3.8-Flash / Hy4-Preview / Hy3 等30款（⚠️国内 Muse Spark 1.2/1.3 不可调用·美元滚动额度 5h $12/周 $30/月 $60·DS-V4.1-Flash 限时4倍至9.27） | $10 | — | $12/5h $30/周 $60/月 | [Go \| OpenCode](https://opencode.ai/go?ref=V156X2ZH2S) |
+| CommandCode | GO（53款·GLM-5.3 / Kimi-K3 / DeepSeek V4 Flash / Qwen3.8 Max·⚠️仅官方CLI无API） | $1 | — | $10/月·5h $3 · 周 $6·约15K次 | [开通](https://commandcode.ai/pricing) |
+| CommandCode | GOAT（57款·GPT-5.6 Sol / Gemini 3.7 Flash / GLM-5.2 / Tencent Hy3 / DeepSeek V4 Flash·DS-V4.1-Flash 额度提升$60至9.28·Grok 4.7 40% off至9.27） | $10 | — | $70/月·5h $14 · 周 $35·约75K次 | [开通](https://commandcode.ai/pricing) |
+| CommandCode | Pro（73款·+Claude Sonnet 5 / GPT-5.5 / Gemini 3.5 付费池） | $20 | — | $80/月·5h $16 · 周 $40·约100K次 | [开通](https://commandcode.ai/pricing) |
+| CommandCode | Max 10×（78款全模型·Claude Opus/Fable/Fugu Ultra 解锁） | $100 | — | $150/月·5h $45 · 周 $90·约219K次 | [开通](https://commandcode.ai/pricing) |
+| CommandCode | Max 20×（78款全模型无限制） | $200 | — | $300/月·5h $90 · 周 $180·约437K次 | [开通](https://commandcode.ai/pricing) |
 | z.ai | Lite | $18 | — | 2,000 | [开通](https://z.ai/subscribe?ic=V6PINPKB9I) |
 | z.ai | Pro | $80 | — | 12,000 | [开通](https://z.ai/subscribe?ic=V6PINPKB9I) |
 | z.ai | Max | $168 | — | 28,000 | [开通](https://z.ai/subscribe?ic=V6PINPKB9I) |
