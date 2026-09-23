@@ -17,7 +17,7 @@
 > **更新日志**（每分类仅保留最新一条·完整历史见 git log）
 >
 - **Coding**（2026.09.24）（字节·方舟模型表新增 GPT-6-Luna·$15月额度·4,230次/5h；OpenCode Go 模型 30→31 款新增 GPT-6-Luna；稳明光语纪 Pro/Plus/Max 再次下架仅剩 Lite ¥45·单源确认待人工复核；xKiro 模型目录 85→87 款新增 Grok 4.7/MiMo v2.6 系；其余经核对无变化）
-- **Token**（2026.09.23）（阿里 Token Plan 个人版取消 5h/7天窗口改为月限额：Lite 11,500/Essential 25,500/Standard 45,000/Pro 180,000 Credits·存量已重置·模型表新增 glm-5.3/qwen3.7-plus 等多项；OpenCode Go 模型 28→30 款：新增 MiMo-V2.6-Flash/Pro；其余经核对无变化）
+- **Token**（2026.09.24）（天翼云文档新增「积分版」5档 ¥29~¥699·6款模型·按Token老套餐5档停止新购仅存量可续订；OpenCode Go 模型 30→33 款：新增 GPT-6-Luna/MiniMax-M2.5/Space Bunny Free 限时免费；小米·MiMo 团队版订阅上新：3档席位制 ¥99/329/659 每席每月·与个人版同价；其余平台经核对无变化）
 - **Video**（2026.09.23）（即梦中秋礼遇：高级/超级会员年付首年7折→5折¥5,199/4.5折¥19,656（9.22-9.28限时）；其余平台经核对无变化）
 - **Image**（2026.09.23）（即梦与 Video 同步：中秋礼遇高级/超级会员年付首年再次回调 5折¥5,199/4.5折¥19,656（9.22-9.28限时）；Midjourney/Liblib/通义万相/RunningHub/堆友/OpenArt 经核对无变化）
 - **Audio**（2026.09.23）（Suno/Udio/Ace Studio 经核对无变化；海螺AI 登录墙未获取）
@@ -194,34 +194,37 @@ https://ai.hsnb.fun/aiplanhub
 |------|----------|--------|--------|------|
 | ChatGPT | GPT-5.4 / GPT-Image-2 / GPT-5.3-Codex | 1 | ¥28.8 | ★★★★★ |
 | 百度·千帆 | ERNIE 5.1 / GLM-5.2 / Kimi-K2.6 / DeepSeek-V4全系 | 4 | ¥4.9 | ★★★ |
-| OpenCode Go | GPT-6-Luna 已上架 / MiMo-V2.6-Flash / Grok-4.7 / GLM-5.3-Flash / GLM-5.3 / GLM-5.2 / GPT-5.6-Luna / Kimi-K3 / DeepSeek-V4.1-Flash / Qwen3.8-Flash / Hy4-Preview 等31款（⚠️国内 Muse Spark 1.2/1.3 不可调用） | 1 | $10 | ★★★½ |
+| OpenCode Go | GPT-6-Luna / MiMo-V2.6-Flash / Grok-4.7 / GLM-5.3-Flash / GLM-5.3 / GLM-5.2 / GPT-5.6-Luna / Kimi-K3 / DeepSeek-V4.1-Flash / Qwen3.8-Flash / Hy4-Preview 等33款（⚠️国内 Muse Spark 1.2/1.3 不可调用） | 1 | $10 | ★★★½ |
 | 阿里·Token Plan | Qwen3.8-Max / Qwen3.8-Flash / Qwen3.7-Max / Qwen3.7-Plus / DeepSeek-V4-Pro / GLM-5.3 / Wan2.7-Image / HappyHorse-1.1 等 | 9 | ¥39 | ★★★ |
 | 超算互联网·Token | GLM-5.3 / Qwen3.8-Max / DeepSeek-V4-Pro / Kimi-K3 | 4 | ¥30 | ★★★ |
 | TaoToken | DeepSeek-V4-Pro / Kimi-K3 / GLM-5.3 等 10 款 | 3 | ¥59 | ★★★ |
 | 方舟 Agent Plan | DeepSeek-V4-Pro / GLM-5.1 / Kimi-K2.6 | 4 | ¥40 | ★★ |
 | 腾讯·Token | Auto / GLM-5.3 / GLM-5.2 / DeepSeek-V4-Flash/Pro / MiniMax-M3 / Kimi-K2.7-Code / Hy3 | 8 | ¥28 | ★ |
-| 天翼云·Token | GLM-5 / DeepSeek-V3.2 / GLM-5.1 / DeepSeek-V4-Flash | 5 | ¥29 | ★ |
+| 天翼云·Token | DeepSeek-V4-Pro / GLM-5.2 / GLM-5.1 / Kimi-K2.6 / MiniMax-M3（积分版6款） | 10 | ¥29 | ★ |
 | Alaya Code | GLM-5.2 / GLM-5.1 / DeepSeek-V4-Flash | 3 | ¥199 | ★ |
-| 小米·MiMo | MiMo-V2.5-Pro / MiMo-V2.5 | 4 | ¥39 | ★ |
+| 小米·MiMo | MiMo-V2.6-Pro / MiMo-V2.6-Flash / MiMo-V2.5-Pro / MiMo-V2.5（⚠️V2.5系 2026.10.21 下线） | 7 | ¥39 | ★ |
 
 ### Token 入门（人民币月付 ≤ ¥100）
 
 | 平台 | 方案 | 月付 | 首月价 | Credits/Token 额度 | 开通 |
 |------|------|------|--------|---------------------|------|
 | 腾讯·Token | Lite | ¥39 | — | 780积分/月 | [开通](https://curl.qcloud.com/1Uogyigq) |
-| 天翼云·Token | 2500万 | ¥29 | — | 2,500万 Tokens/月 | [开通](https://www.ctyun.cn/act/AI/zhuanxiang) |
+| 天翼云·Token | 3000积分 | ¥29 | — | 3000积分/月·积分版·6款模型·约兑换1429万Token的MiniMax-M3 | [开通](https://www.ctyun.cn/act/AI/zhuanxiang) |
+| 天翼云·Token | 2500万 | ¥29 | — | 2,500万 Tokens/月·⚠️停止新购·仅存量可续订 | [开通](https://www.ctyun.cn/act/AI/zhuanxiang) |
 | 超算互联网·Token | 基础版 | ¥30 | — | 60,000 Credits/月 | [开通](https://www.scnet.cn/ac/openapi/doc/2.0/moduleapi/plans/token-plan.html) |
 | Alaya Code | 入门版 | ¥199 | — | 3,270万 Tokens/月·暂时售罄 | [开通](https://codingplan.alayanew.com/docs/billing) |
 | 小米·MiMo | Lite | ¥39 | ¥34.32 | 4.1B Credits/月 | [开通](https://platform.xiaomimimo.com/#/token-plan) |
+| 小米·MiMo | 团队Standard | ¥99 | — | 110亿 Credits/席/月·团队版·年付低至¥87/席 | [开通](https://platform.xiaomimimo.com/#/token-plan) |
 | 方舟 Agent Plan | Small | ¥40 | — | 20,000 AFP/月 | [开通](https://www.volcengine.com/docs/82379/2366394?lang=zh) |
-| OpenCode Go | Go | $10 | — | $12/5h $30/周 $60/月·31款模型含 GPT-6-Luna/MiMo-V2.6-Flash/Pro·DS-V4.1-Flash 限时4倍至9.27·⚠️Muse Spark 1.2/1.3 国内不可调用 | [Go \| OpenCode](https://opencode.ai/go?ref=V156X2ZH2S) |
+| OpenCode Go | Go | $10 | — | $12/5h $30/周 $60/月·33款模型含 GPT-6-Luna/MiniMax-M2.5/MiMo-V2.6-Flash/Pro·Space Bunny Free 限时免费·DS-V4.1-Flash 限时4倍至9.27·⚠️Muse Spark 1.2/1.3 国内不可调用 | [Go \| OpenCode](https://opencode.ai/go?ref=V156X2ZH2S) |
 | ChatGPT | Token | ¥28.8 | — | 100 刀·暂时售罄 | [开通](https://pay.ldxp.cn/shop/mirage) |
 | 腾讯·Token | Standard | ¥99 | — | 1,980积分/月 | [开通](https://curl.qcloud.com/1Uogyigq) |
 | 阿里·Token Plan | 用量包 | ¥100 | — | 20,000 Credits/个·需有效订阅·最多5个 | [开通](https://common-buy.aliyun.com/token-plan) |
 | 阿里·Token Plan | Essential | ¥79 | — | 原价¥120·限时25,500 Credits/月·2.25x Lite | [开通](https://common-buy.aliyun.com/token-plan) |
 | TaoToken | Lite | ¥59 | — | 5,000 Credits/月 | [开通](https://taotoken.net/?u=inv_iyn75yglujwdy9ij&utm_source=tt_invite) |
 | TaoToken | 加油包 | ¥99 | — | 10,000 Credits/月(附加购) | [开通](https://taotoken.net/?u=inv_iyn75yglujwdy9ij&utm_source=tt_invite) |
-| 天翼云·Token | 8000万 | ¥89 | — | 8,000万 Tokens/月 | [开通](https://www.ctyun.cn/act/AI/zhuanxiang) |
+| 天翼云·Token | 10000积分 | ¥89 | — | 10000积分/月·积分版·6款模型 | [开通](https://www.ctyun.cn/act/AI/zhuanxiang) |
+| 天翼云·Token | 8000万 | ¥89 | — | 8,000万 Tokens/月·⚠️停止新购·仅存量可续订 | [开通](https://www.ctyun.cn/act/AI/zhuanxiang) |
 | 小米·MiMo | Standard | ¥99 | ¥87.12 | 11B Credits/月 | [开通](https://platform.xiaomimimo.com/#/token-plan) |
 | 百度·千帆 | Mini | ¥4.9 | — | 1000万 Tokens/月 | [开通](https://cloud.baidu.com/product/codingplan.html) |
 | 百度·千帆 | Lite | ¥19.9 | — | 4200万 Tokens/月 | [开通](https://cloud.baidu.com/product/codingplan.html) |
@@ -231,14 +234,17 @@ https://ai.hsnb.fun/aiplanhub
 
 | 平台 | 方案 | 月付 | 首月价 | Credits/Token 额度 | 开通 |
 |------|------|------|--------|---------------------|------|
-| 天翼云·Token | 1.8亿 | ¥199 | — | 1.8亿 Tokens/月 | [开通](https://www.ctyun.cn/act/AI/zhuanxiang) |
+| 天翼云·Token | 25000积分 | ¥199 | — | 25000积分/月·积分版·6款模型 | [开通](https://www.ctyun.cn/act/AI/zhuanxiang) |
+| 天翼云·Token | 1.8亿 | ¥199 | — | 1.8亿 Tokens/月·⚠️停止新购·仅存量可续订 | [开通](https://www.ctyun.cn/act/AI/zhuanxiang) |
 | 超算互联网·Token | 标准版 | ¥110 | — | 240,000 Credits/月 | [开通](https://www.scnet.cn/ac/openapi/doc/2.0/moduleapi/plans/token-plan.html) |
 | 超算互联网·Token | 高级版 | ¥265 | — | 600,000 Credits/月 | [开通](https://www.scnet.cn/ac/openapi/doc/2.0/moduleapi/plans/token-plan.html) |
 | 超算互联网·Token | 旗舰版 | ¥764 | — | 1,800,000 Credits/月·含OpenClaw 2核4G实例 | [开通](https://www.scnet.cn/ac/openapi/doc/2.0/moduleapi/plans/token-plan.html) |
 | TaoToken | Pro | ¥149 | — | 14,000 Credits/月 | [开通](https://taotoken.net/?u=inv_iyn75yglujwdy9ij&utm_source=tt_invite) |
 | 方舟 Agent Plan | Medium | ¥200 | — | 100,000 AFP/月 | [开通](https://www.volcengine.com/docs/82379/2366394?lang=zh) |
 | 小米·MiMo | Pro | ¥329 | ¥289.52 | 38B Credits/月 | [开通](https://platform.xiaomimimo.com/#/token-plan) |
-| 天翼云·Token | 3.8亿 | ¥399 | — | 3.8亿 Tokens/月 | [开通](https://www.ctyun.cn/act/AI/zhuanxiang) |
+| 小米·MiMo | 团队Pro | ¥329 | — | 380亿 Credits/席/月·团队版·年付低至¥289/席 | [开通](https://platform.xiaomimimo.com/#/token-plan) |
+| 天翼云·Token | 50000积分 | ¥399 | — | 50000积分/月·积分版·6款模型 | [开通](https://www.ctyun.cn/act/AI/zhuanxiang) |
+| 天翼云·Token | 3.8亿 | ¥399 | — | 3.8亿 Tokens/月·⚠️停止新购·仅存量可续订 | [开通](https://www.ctyun.cn/act/AI/zhuanxiang) |
 | 百度·千帆 | Max | ¥299.9 | — | 7亿 Tokens/月 | [开通](https://cloud.baidu.com/product/codingplan.html) |
 
 ### Token 高阶级（人民币月付 ≥ ¥500）
@@ -249,7 +255,9 @@ https://ai.hsnb.fun/aiplanhub
 | 腾讯·Token | Pro | ¥299 | — | 5,980积分/月 | [开通](https://curl.qcloud.com/1Uogyigq) |
 | 方舟 Agent Plan | Large | ¥500 | — | 250,000 AFP/月 | [开通](https://www.volcengine.com/docs/82379/2366394?lang=zh) |
 | 小米·MiMo | Max | ¥659 | ¥579.92 | 82B Credits/月 | [开通](https://platform.xiaomimimo.com/#/token-plan) |
-| 天翼云·Token | 6.8亿 | ¥699 | — | 6.8亿 Tokens/月 | [开通](https://www.ctyun.cn/act/AI/zhuanxiang) |
+| 小米·MiMo | 团队Max | ¥659 | — | 820亿 Credits/席/月·团队版·年付低至¥579/席 | [开通](https://platform.xiaomimimo.com/#/token-plan) |
+| 天翼云·Token | 100000积分 | ¥699 | — | 100000积分/月·积分版·6款模型 | [开通](https://www.ctyun.cn/act/AI/zhuanxiang) |
+| 天翼云·Token | 6.8亿 | ¥699 | — | 6.8亿 Tokens/月·⚠️停止新购·仅存量可续订 | [开通](https://www.ctyun.cn/act/AI/zhuanxiang) |
 | 腾讯·Token | Max | ¥599 | — | 11,980积分/月 | [开通](https://curl.qcloud.com/1Uogyigq) |
 | 阿里·Token Plan | 高级坐席 | ¥550 | — | 100,000 Credits/月·原价¥698·限时10倍加量 | [开通](https://common-buy.aliyun.com/token-plan) |
 | 阿里·Token Plan | 尊享坐席 | ¥1,398 | — | 250,000 Credits/月 | [开通](https://common-buy.aliyun.com/token-plan) |
