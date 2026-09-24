@@ -17,7 +17,7 @@
 > **更新日志**（每分类仅保留最新一条·完整历史见 git log）
 >
 - **Coding**（2026.09.24）（字节·方舟模型表新增 GPT-6-Luna·$15月额度·4,230次/5h；OpenCode Go 模型 30→31 款新增 GPT-6-Luna；稳明光语纪 Pro/Plus/Max 再次下架仅剩 Lite ¥45·单源确认待人工复核；xKiro 模型目录 85→87 款新增 Grok 4.7/MiMo v2.6 系；其余经核对无变化）
-- **Token**（2026.09.24）（天翼云文档新增「积分版」5档 ¥29~¥699·6款模型·按Token老套餐5档停止新购仅存量可续订；OpenCode Go 模型 30→33 款：新增 GPT-6-Luna/MiniMax-M2.5/Space Bunny Free 限时免费；小米·MiMo 团队版订阅上新：3档席位制 ¥99/329/659 每席每月·与个人版同价；其余平台经核对无变化）
+- **Token**（2026.09.25）（阿里·Token Plan 个人版模型表新增 GLM-5.2/DeepSeek-V4.1-Flash/Qwen3.6-Flash；OpenCode Go MiniMax-M2.5 移出官方模型列表·即将下线；其余平台经核对无变化）
 - **Video**（2026.09.24）（经核对无变化）
 - **Image**（2026.09.24）（六平台经核对无变化）
 - **Audio**（2026.09.24）（Suno/Udio/Ace Studio 经核对无变化；海螺AI 登录墙未获取）
@@ -194,8 +194,8 @@ https://ai.hsnb.fun/aiplanhub
 |------|----------|--------|--------|------|
 | ChatGPT | GPT-5.4 / GPT-Image-2 / GPT-5.3-Codex | 1 | ¥28.8 | ★★★★★ |
 | 百度·千帆 | ERNIE 5.1 / GLM-5.2 / Kimi-K2.6 / DeepSeek-V4全系 | 4 | ¥4.9 | ★★★ |
-| OpenCode Go | GPT-6-Luna / MiMo-V2.6-Flash / Grok-4.7 / GLM-5.3-Flash / GLM-5.3 / GLM-5.2 / GPT-5.6-Luna / Kimi-K3 / DeepSeek-V4.1-Flash / Qwen3.8-Flash / Hy4-Preview 等33款（⚠️国内 Muse Spark 1.2/1.3 不可调用） | 1 | $10 | ★★★½ |
-| 阿里·Token Plan | Qwen3.8-Max / Qwen3.8-Flash / Qwen3.7-Max / Qwen3.7-Plus / DeepSeek-V4-Pro / GLM-5.3 / Wan2.7-Image / HappyHorse-1.1 等 | 9 | ¥39 | ★★★ |
+| OpenCode Go | GPT-6-Luna / MiMo-V2.6-Flash / Grok-4.7 / GLM-5.3-Flash / GLM-5.3 / GLM-5.2 / GPT-5.6-Luna / Kimi-K3 / DeepSeek-V4.1-Flash / Qwen3.8-Flash / Hy4-Preview 等33款（⚠️国内 Muse Spark 1.2/1.3 不可调用·MiniMax-M2.5 已移出模型列表·即将下线） | 1 | $10 | ★★★½ |
+| 阿里·Token Plan | Qwen3.8-Max / Qwen3.8-Flash / Qwen3.7-Max / Qwen3.7-Plus / Qwen3.6-Flash / DeepSeek-V4-Pro / GLM-5.2 / GLM-5.3 / Wan2.7-Image / HappyHorse-1.1 等（09.24 新增 GLM-5.2/Qwen3.6-Flash 等） | 9 | ¥39 | ★★★ |
 | 超算互联网·Token | GLM-5.3 / Qwen3.8-Max / DeepSeek-V4-Pro / Kimi-K3 | 4 | ¥30 | ★★★ |
 | TaoToken | DeepSeek-V4-Pro / Kimi-K3 / GLM-5.3 等 10 款 | 3 | ¥59 | ★★★ |
 | 方舟 Agent Plan | DeepSeek-V4-Pro / GLM-5.1 / Kimi-K2.6 | 4 | ¥40 | ★★ |
@@ -216,7 +216,7 @@ https://ai.hsnb.fun/aiplanhub
 | 小米·MiMo | Lite | ¥39 | ¥34.32 | 4.1B Credits/月 | [开通](https://platform.xiaomimimo.com/#/token-plan) |
 | 小米·MiMo | 团队Standard | ¥99 | — | 110亿 Credits/席/月·团队版·年付低至¥87/席 | [开通](https://platform.xiaomimimo.com/#/token-plan) |
 | 方舟 Agent Plan | Small | ¥40 | — | 20,000 AFP/月 | [开通](https://www.volcengine.com/docs/82379/2366394?lang=zh) |
-| OpenCode Go | Go | $10 | — | $12/5h $30/周 $60/月·33款模型含 GPT-6-Luna/MiniMax-M2.5/MiMo-V2.6-Flash/Pro·Space Bunny Free 限时免费·DS-V4.1-Flash 限时4倍至9.27·⚠️Muse Spark 1.2/1.3 国内不可调用 | [Go \| OpenCode](https://opencode.ai/go?ref=V156X2ZH2S) |
+| OpenCode Go | Go | $10 | — | $12/5h $30/周 $60/月·33款模型含 GPT-6-Luna/MiMo-V2.6-Flash/Pro·Space Bunny Free 限时免费·MiniMax-M2.5 已移出模型列表即将下线·DS-V4.1-Flash 限时4倍至9.27·⚠️Muse Spark 1.2/1.3 国内不可调用 | [Go \| OpenCode](https://opencode.ai/go?ref=V156X2ZH2S) |
 | ChatGPT | Token | ¥28.8 | — | 100 刀·暂时售罄 | [开通](https://pay.ldxp.cn/shop/mirage) |
 | 腾讯·Token | Standard | ¥99 | — | 1,980积分/月 | [开通](https://curl.qcloud.com/1Uogyigq) |
 | 阿里·Token Plan | 用量包 | ¥100 | — | 20,000 Credits/个·需有效订阅·最多5个 | [开通](https://common-buy.aliyun.com/token-plan) |
