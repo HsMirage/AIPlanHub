@@ -16,7 +16,7 @@
 
 > **更新日志**（每分类仅保留最新一条·完整历史见 git log）
 >
-- **Coding**（2026.09.24）（字节·方舟模型表新增 GPT-6-Luna·$15月额度·4,230次/5h；OpenCode Go 模型 30→31 款新增 GPT-6-Luna；稳明光语纪 Pro/Plus/Max 再次下架仅剩 Lite ¥45·单源确认待人工复核；xKiro 模型目录 85→87 款新增 Grok 4.7/MiMo v2.6 系；其余经核对无变化）
+- **Coding**（2026.09.26）（xKiro 模型目录 87→111 款：新增 Cohere 供应商组 16 款/Claude Opus 5.5/GPT-6 Luna 等均权威API三次一致；TaoToken 新轮 9.24-10.8 变相涨价 Pro ¥99→¥129·Max ¥299→¥338；其余经核对无变化）
 - **Token**（2026.09.25）（阿里·Token Plan 个人版模型表新增 GLM-5.2/DeepSeek-V4.1-Flash/Qwen3.6-Flash；OpenCode Go MiniMax-M2.5 移出官方模型列表·即将下线；其余平台经核对无变化）
 - **Video**（2026.09.25）（即梦高级团队12个月限时惊喜价 ¥263/席/月·每席位¥3,156/12个月；其余经核对无变化）
 - **Image**（2026.09.25）（Liblib AI 双节特惠 Seedance 2.5 720P 低至价 0.29→0.36元/秒；其余经核对无变化）
@@ -56,7 +56,7 @@ https://ai.hsnb.fun/aiplanhub
 | 平台 | 代表模型 | 方案数 | 月付起 | 评分 |
 |------|----------|--------|--------|------|
 | ChatGPT | GPT-5.4 / GPT-Image-2 / GPT-5.3-Codex | 2 | ¥26.6 | ★★★★★ |
-| xKiro | GPT-6 Astra / Grok 4.7 / MiMo v2.6 Pro / GLM-5.3 / GLM-5.3-Flash / LongCat 2.0 / Hy4 Preview / Gemini 3.8 Flash / Kimi K3 / MiniMax M3 / Qwen3.8 Max 等87款+:free 27个 | 6 | $0 | ★★★★ |
+| xKiro | GPT-6 Astra / Grok 4.7 / MiMo v2.6 Pro / GLM-5.3 / GLM-5.3-Flash / LongCat 2.0 / Hy4 Preview / Gemini 3.8 Flash / Kimi K3 / MiniMax M3 / Qwen3.8 Max 等111款+:free 28个 | 6 | $0 | ★★★★ |
 | 商汤SenseNova | SenseNova 6.8 Flash Lite / SenseNova U1.5 Lite / SenseNova U1 Fast / DeepSeek V4 Pro / DeepSeek V4 Flash / GLM-5.2 / Kimi K3 | 1 | 免费 | ★★★★★ |
 | 智谱AI | GLM-5.3 / GLM-5.3-Flash | 3 | ¥118 | ★★½ |
 
@@ -126,7 +126,7 @@ https://ai.hsnb.fun/aiplanhub
 | 平台 | 方案 | 月付 | 首月价 | 5h请求数 | 开通 |
 |------|------|------|--------|----------|------|
 | 快手 StreamLake | Starter | ¥70 | — | 100 Prompts | [开通](https://www.streamlake.com) |
-| TaoToken | Pro | ¥99 | — | — | [开通](https://taotoken.net/?u=inv_iyn75yglujwdy9ij&utm_source=tt_invite) |
+| TaoToken | Pro | ¥129 | — | — | [开通](https://taotoken.net/?u=inv_iyn75yglujwdy9ij&utm_source=tt_invite) |
 | Kimi | Moderato | ¥99 | — | — | [开通](https://kimi-bot.com/activities/zh-cn/viral-referral/share?scenario=invite&from=share_poster&invitation_code=ANRBYG) |
 | 国家超算互联网 | Pro | ¥100 | — | 6,000 | [开通](https://www.scnet.cn/ac/openapi/doc/2.0/moduleapi/codingplan/subscriptionnotice.html) |
 | 阶跃星辰 | Flash Plus | ¥99 | — | 6,000 | [开通](https://platform.stepfun.com/?invite_code_v2=RCXWKOFD) |
@@ -151,7 +151,7 @@ https://ai.hsnb.fun/aiplanhub
 | 平台 | 方案 | 月付 | 首月价 | 5h请求数 | 开通 |
 |------|------|------|--------|----------|------|
 | 阿里·百炼 | Pro | ¥200 | ¥39.9 | 6,000 | [开通](https://www.aliyun.com/minisite/goods?userCode=hun0t0sf) |
-| TaoToken | Max | ¥299 | — | — | [开通](https://taotoken.net/?u=inv_iyn75yglujwdy9ij&utm_source=tt_invite) |
+| TaoToken | Max | ¥338 | — | — | [开通](https://taotoken.net/?u=inv_iyn75yglujwdy9ij&utm_source=tt_invite) |
 
 | 联通云 | Pro | ¥200 | — | 6,000 | [开通](https://support.cucloud.cn/document/127/591/2357.html?id=2357&arcid=7015) |
 | 腾讯·Coding | Pro | ¥200 | ¥39.9 | 6,000 | [开通](https://console.cloud.tencent.cn/tokenhub/codingplan?regionId=1) |
