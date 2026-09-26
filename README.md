@@ -16,8 +16,8 @@
 
 > **更新日志**（每分类仅保留最新一条·完整历史见 git log）
 >
-- **Coding**（2026.09.26）（xKiro 模型目录 87→111 款：新增 Cohere 供应商组 16 款/Claude Opus 5.5/GPT-6 Luna 等均权威API三次一致；TaoToken 新轮 9.24-10.8 变相涨价 Pro ¥99→¥129·Max ¥299→¥338；其余经核对无变化）
-- **Token**（2026.09.26）（8 个监控条目经核对无变化）
+- **Coding**（2026.09.26）（xKiro 模型目录 87→111 款：新增 Cohere 供应商组 16 款/Claude Opus 5.5/GPT-6 Luna 等均权威API三次一致；TaoToken 新轮 9.24-10.8 变相涨价 Pro ¥99→¥129·Max ¥299→¥338；OpenCode Go 评分 3.5→4（DS-V4.1-Flash 4倍活动官方延期至9.27·Union Alpha 限时免费）；其余经核对无变化）
+- **Token**（2026.09.26）（8 个监控条目经核对无变化；OpenCode Go Token 评分 2.5→4·DS-V4.1-Flash 4倍至9.27·Union Alpha 限时免费）
 - **Video**（2026.09.26）（9 家经双源核验无变化；pai.video/海螺AI 登录墙未获取）
 - **Image**（2026.09.26）（六平台经核对无变化）
 - **Audio**（2026.09.26）（Suno/Udio/Ace Studio 经核对无变化；海螺AI 登录墙未获取）
@@ -83,6 +83,7 @@ https://ai.hsnb.fun/aiplanhub
 | 优云智算 | GLM-5.2 / DeepSeek-V4-Pro / DeepSeek-V4-Flash / Qwen3.6-Plus / MiniMax-M2.7 / Kimi-K2.6 | 6 | ¥49 | ★★ |
 | OpenStarry | 星序版 ¥9.9/周·2,000次/月 · 星衍版 ¥19.9/周·2,000次/周 · 星途版 ¥99/月·30,000次 | 周付起¥9.9 | 旗舰 GLM-5.2/Kimi-K3 | — | ★ |
 | CommandCode | GLM-5.3 / Gemini 3.7 Flash / GPT-5.6 Luna / Claude Sonnet 5 / Grok 4.6 | 5 | $1 | ★★★★ |
+| OpenCode Go | GLM-5.3 / GLM-5.2 / Kimi-K3 / DeepSeek-V4.1-Flash / Qwen3.8-Max / MiniMax-M3 / Omen Alpha / Union Alpha（限时免费）等38款 | 1 | $10 | ★★★★ |
 
 ### 入门级（人民币月付 ≤ ¥50）
 
@@ -194,7 +195,7 @@ https://ai.hsnb.fun/aiplanhub
 |------|----------|--------|--------|------|
 | ChatGPT | GPT-5.4 / GPT-Image-2 / GPT-5.3-Codex | 1 | ¥28.8 | ★★★★★ |
 | 百度·千帆 | ERNIE 5.1 / GLM-5.2 / Kimi-K2.6 / DeepSeek-V4全系 | 4 | ¥4.9 | ★★★ |
-| OpenCode Go | GPT-6-Luna / MiMo-V2.6-Flash / Grok-4.7 / GLM-5.3-Flash / GLM-5.3 / GLM-5.2 / GPT-5.6-Luna / Kimi-K3 / DeepSeek-V4.1-Flash / Qwen3.8-Flash / Hy4-Preview 等33款（⚠️国内 Muse Spark 1.2/1.3 不可调用·MiniMax-M2.5 已移出模型列表·即将下线） | 1 | $10 | ★★★½ |
+| OpenCode Go | GPT-6-Luna / MiMo-V2.6-Flash / Grok-4.7 / GLM-5.3-Flash / GLM-5.3 / GLM-5.2 / GPT-5.6-Luna / Kimi-K3 / DeepSeek-V4.1-Flash / Qwen3.8-Flash / Hy4-Preview 等33款（⚠️国内 Muse Spark 1.2/1.3 不可调用·MiniMax-M2.5 已移出模型列表·即将下线） | 1 | $10 | ★★★★ |
 | 阿里·Token Plan | Qwen3.8-Max / Qwen3.8-Flash / Qwen3.7-Max / Qwen3.7-Plus / Qwen3.6-Flash / DeepSeek-V4-Pro / GLM-5.2 / GLM-5.3 / Wan2.7-Image / HappyHorse-1.1 等（09.24 新增 GLM-5.2/Qwen3.6-Flash 等） | 9 | ¥39 | ★★★ |
 | 超算互联网·Token | GLM-5.3 / Qwen3.8-Max / DeepSeek-V4-Pro / Kimi-K3 | 4 | ¥30 | ★★★ |
 | TaoToken | DeepSeek-V4-Pro / Kimi-K3 / GLM-5.3 等 10 款 | 3 | ¥59 | ★★★ |
