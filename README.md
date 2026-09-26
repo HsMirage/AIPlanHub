@@ -18,7 +18,7 @@
 >
 - **Coding**（2026.09.26）（xKiro 模型目录 87→111 款：新增 Cohere 供应商组 16 款/Claude Opus 5.5/GPT-6 Luna 等均权威API三次一致；TaoToken 新轮 9.24-10.8 变相涨价 Pro ¥99→¥129·Max ¥299→¥338；OpenCode Go 评分 3.5→4（DS-V4.1-Flash 4倍活动官方延期至9.27·Union Alpha 限时免费）；其余经核对无变化）
 - **Token**（2026.09.26）（8 个监控条目经核对无变化；OpenCode Go Token 评分 2.5→4·DS-V4.1-Flash 4倍至9.27·Union Alpha 限时免费）
-- **Video**（2026.09.26）（9 家经双源核验无变化；pai.video/海螺AI 登录墙未获取）
+- **Video**（2026.09.27）（9 家经 CDP 核验无变化；Vidu CDN 拦截、pai.video/RunningHub 登录墙，双源佐证无变化）
 - **Image**（2026.09.26）（六平台经核对无变化）
 - **Audio**（2026.09.26）（Suno/Udio/Ace Studio 经核对无变化；海螺AI 登录墙未获取）
 - 其他：中转站 2026.08.15（THINK-AI已下架·仅保留幻境MirageAI·幻境充值链接更新）·已下架归档 2026.08.19（新增无问芯穹/天翼云/百度千帆经典CodingPlan）·价格对比 2026.07.06 新增
