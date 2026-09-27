@@ -17,7 +17,7 @@
 > **更新日志**（每分类仅保留最新一条·完整历史见 git log）
 >
 - **Coding**（2026.09.28）（字节·方舟模型表新增 DS-V4.1-Flash/Kimi-K2.8-Preview/Doubao-Seed-2.1-pro·lite/2.0-mini·2.1-turbo与2.0-lite即将下线；阶跃星辰支持模型15→9款（StepAudio-3全家桶移除）；Ollama云模型19→16款；Charm Hyper目录34→23款；xKiro目录111→128款（新增MiMo-V2.6系/Grok-4.7/Kimi-K2.8-Preview）；WM AI目录27→31款；其余经核对无变化）
-- **Token**（2026.09.26）（8 个监控条目经核对无变化；OpenCode Go Token 评分 2.5→4·DS-V4.1-Flash 月额度永久$60（4倍活动转正·26,000/65,000/130,000 次）·docs 新增 LongCat 2.5 Preview Free 限时免费 33→34 款）
+- **Token**（2026.09.28）（8 个监控条目经核对无变化）
 - **Video**（2026.09.27）（9 家经 CDP 核验无变化；Vidu CDN 拦截、pai.video/RunningHub 登录墙，双源佐证无变化）
 - **Image**（2026.09.27）（六平台经核对无变化）
 - **Audio**（2026.09.27）（Suno/Udio/Ace Studio 经核对无变化；海螺AI 登录墙未获取）
