@@ -19,7 +19,7 @@
 - **Coding**（2026.09.28）（字节·方舟模型表新增 DS-V4.1-Flash/Kimi-K2.8-Preview/Doubao-Seed-2.1-pro·lite/2.0-mini·2.1-turbo与2.0-lite即将下线；阶跃星辰支持模型15→9款（StepAudio-3全家桶移除）；Ollama云模型19→16款；Charm Hyper目录34→23款；xKiro目录111→128款（新增MiMo-V2.6系/Grok-4.7/Kimi-K2.8-Preview）；WM AI目录27→31款；其余经核对无变化）
 - **Token**（2026.09.28）（8 个监控条目经核对无变化）
 - **Video**（2026.09.28）（9 家经核对无变化）
-- **Image**（2026.09.27）（六平台经核对无变化）
+- **Image**（2026.09.28）（六平台经核对无变化）
 - **Audio**（2026.09.28）（Suno/Udio/Ace Studio 经核对无变化；海螺AI 登录墙未获取）
 - 其他：中转站 2026.08.15（THINK-AI已下架·仅保留幻境MirageAI·幻境充值链接更新）·已下架归档 2026.08.19（新增无问芯穹/天翼云/百度千帆经典CodingPlan）·价格对比 2026.07.06 新增
 
