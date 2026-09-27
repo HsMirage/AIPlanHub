@@ -16,7 +16,7 @@
 
 > **更新日志**（每分类仅保留最新一条·完整历史见 git log）
 >
-- **Coding**（2026.09.26）（xKiro 模型目录 87→111 款：新增 Cohere 供应商组 16 款/Claude Opus 5.5/GPT-6 Luna 等均权威API三次一致；TaoToken 新轮 9.24-10.8 变相涨价 Pro ¥99→¥129·Max ¥299→¥338；OpenCode Go 评分 3.5→4·模型 38→43 款（Union Alpha 下线·新增 Space Bunny Free/LongCat 2.5 Preview Free 限时免费+MiMo-V2.6系/Grok-4.7/GPT-6-Luna·DS-V4.1-Flash 月额度永久$60·4倍活动转正）；其余经核对无变化）
+- **Coding**（2026.09.28）（字节·方舟模型表新增 DS-V4.1-Flash/Kimi-K2.8-Preview/Doubao-Seed-2.1-pro·lite/2.0-mini·2.1-turbo与2.0-lite即将下线；阶跃星辰支持模型15→9款（StepAudio-3全家桶移除）；Ollama云模型19→16款；Charm Hyper目录34→23款；xKiro目录111→128款（新增MiMo-V2.6系/Grok-4.7/Kimi-K2.8-Preview）；WM AI目录27→31款；其余经核对无变化）
 - **Token**（2026.09.26）（8 个监控条目经核对无变化；OpenCode Go Token 评分 2.5→4·DS-V4.1-Flash 月额度永久$60（4倍活动转正·26,000/65,000/130,000 次）·docs 新增 LongCat 2.5 Preview Free 限时免费 33→34 款）
 - **Video**（2026.09.27）（9 家经 CDP 核验无变化；Vidu CDN 拦截、pai.video/RunningHub 登录墙，双源佐证无变化）
 - **Image**（2026.09.27）（六平台经核对无变化）
@@ -56,13 +56,13 @@ https://ai.hsnb.fun/aiplanhub
 | 平台 | 代表模型 | 方案数 | 月付起 | 评分 |
 |------|----------|--------|--------|------|
 | ChatGPT | GPT-5.4 / GPT-Image-2 / GPT-5.3-Codex | 2 | ¥26.6 | ★★★★★ |
-| xKiro | GPT-6 Astra / Grok 4.7 / MiMo v2.6 Pro / GLM-5.3 / GLM-5.3-Flash / LongCat 2.0 / Hy4 Preview / Gemini 3.8 Flash / Kimi K3 / MiniMax M3 / Qwen3.8 Max 等111款+:free 28个 | 6 | $0 | ★★★★ |
+| xKiro | GPT-6 Astra / Grok 4.7 / MiMo v2.6 Pro / MiMo v2.6 Flash / GLM-5.3 / LongCat 2.0 / Kimi K3 / Kimi K2.8 Preview / Gemini 3.8 Flash / MiniMax M3 / Qwen3.8 Max 等128款 | 6 | $0 | ★★★★ |
 | 商汤SenseNova | SenseNova 6.8 Flash Lite / SenseNova U1.5 Lite / SenseNova U1 Fast / DeepSeek V4 Pro / DeepSeek V4 Flash / GLM-5.2 / Kimi K3 | 1 | 免费 | ★★★★★ |
 | 智谱AI | GLM-5.3 / GLM-5.3-Flash | 3 | ¥118 | ★★½ |
 
 | 稳明光语纪 | GLM-5.3 / DeepSeek-V4-Flash-0731 | 1 | ¥45 | ★★½ |
-| WM AI | Claude Opus 4.8 / GPT-5.6 Sol / GPT-5.6 Terra / Kimi-K3 / Qwen3.8-Max / GLM-5.3 等27款 | 6 | $0 | ★★½ |
-| 字节·方舟 | GLM-5.3 / GLM-5.3-Flash / GPT-6-Luna / Kimi-K3 / Kimi-K2.8-Preview / Doubao-Seed-2.1-turbo / Doubao-Seed-Evolving / Kimi-K2.7-Code | 2 | ¥40 | ★★★ |
+| WM AI | Claude Opus 5 / Claude Opus 4.8 / GPT-5.6 Sol / Kimi-K3 / Qwen3.8-Max / GLM-5.3 等31款 | 6 | $0 | ★★½ |
+| 字节·方舟 | GLM-5.3 / GLM-5.3-Flash / Kimi-K3 / Kimi-K2.8-Preview / DeepSeek-V4.1-Flash / Doubao-Seed-2.1-pro / Doubao-Seed-Evolving / Kimi-K2.7-Code | 2 | ¥40 | ★★★ |
 | Charm Hyper | GLM-5.3 / GLM-5.3-Flash / Qwen3.8-Flash / Qwen3.8-Max / DeepSeek-V4-Pro-0813 / DeepSeek-V4-Flash-0731 / Kimi-K3 / Kimi-K2-Thinking | 5 | $0 | ★★★½ |
 | Meituan CatPaw | — | 1 | 免费 | ★★★★ |
 | Kimi | Kimi-K3 / Kimi-K2.7-Code | 4 | ¥39 | ★★½ |
@@ -72,7 +72,7 @@ https://ai.hsnb.fun/aiplanhub
 | 讯飞星辰 | GLM-5.2 / DeepSeek-V4-Flash-0731 / Spark X2 Agent | 2 | ¥199 | ★★½ |
 | 阶跃星辰 | Step-5-Preview | 4 | ¥49 | ★★★ |
 | 快手 StreamLake | KAT-Coder-Pro V1/V2/V2.5 | 4 | ¥29 | ★★★ |
-| Ollama | GLM-5.3 / GLM-5.2 / DeepSeek-V4-Flash / Kimi-K3 | 4 | $0 | ★★★½ |
+| Ollama | GLM-5.3 / GLM-5.2 / DeepSeek-V4-Pro / Kimi-K3 | 4 | $0 | ★★★½ |
 | AtomCode | MiMo-V2.5 / MiMo-V2.5-Pro / Qwen3.8-27B / GLM-5.3-Flash | 3 | 免费 | ★★★★ |
 | z.ai | GLM-5.3 / GLM-5.3-Flash（国际版） | 3 | $18 | ★★½ |
 | MiniMax | MiniMax-M3 / M2.7 | 3 | ¥49 | ★★ |
