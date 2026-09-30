@@ -16,8 +16,8 @@
 
 > **更新日志**（每分类仅保留最新一条·完整历史见 git log）
 >
-- **Coding**（2026.09.30）（WM AI 评分 2.5→3.5：1×倍率层 GLM-5.3 / DeepSeek-V4.1-Flash 无加价直用·推荐模型定为这两款；其余经核对无变化）
-- **Token**（2026.09.30）（8 条目经核对无变化）
+- **Coding**（2026.10.01）（MiniMax M Plan 更名 Plus/Max/Ultra→Go/Explore/Build·价格不变·首月5折至10.14；OpenStarry 套餐第4次翻转·星创¥49.9/体验¥5复活；Ollama DS-V4.1-Flash 参与Peak定价；xKiro 模型128→138款；CommandCode GO 15K→9K；其余经核对无变化）
+- **Token**（2026.10.01）（腾讯·Token 模型表新增 DeepSeek-V4.1-Flash / MiMo-V2.6-Flash（13→15款）；其余经核对无变化）
 - **Video**（2026.09.30）（可灵新增「年卡抢先体验·Kling 4.0 Flash」权益标签；即梦双节礼活动窗口订正为9.22-9.30；其余经核对无变化）
 - **Image**（2026.09.30）（Liblib 双节特惠结束·新横幅年会员低至45折·六档价格不变；OpenArt Wonder 档 Flux 3 无限视频改为可选加购；其余经核对无变化）
 - **Audio**（2026.09.30）（Suno/Udio/Ace Studio 经核对无变化；海螺AI 登录墙未获取）
@@ -56,7 +56,7 @@ https://ai.hsnb.fun/aiplanhub
 | 平台 | 代表模型 | 方案数 | 月付起 | 评分 |
 |------|----------|--------|--------|------|
 | ChatGPT | GPT-5.4 / GPT-Image-2 / GPT-5.3-Codex | 2 | ¥26.6 | ★★★★★ |
-| xKiro | GPT-6 Astra / Grok 4.7 / MiMo v2.6 Pro / MiMo v2.6 Flash / GLM-5.3 / LongCat 2.0 / Kimi K3 / Kimi K2.8 Preview / Gemini 3.8 Flash / MiniMax M3 / Qwen3.8 Max 等128款 | 6 | $0 | ★★★★ |
+| xKiro | GPT-6 Astra / GPT-6.1 Sol / Grok 4.7 / MiMo v2.6 Pro / MiMo v2.6 Flash / GLM-5.3 / LongCat 2.0 / Kimi K3 / Kimi K2.8 Preview / Gemini 3.8 Flash / MiniMax M3 / Qwen3.8 Max 等138款 | 6 | $0 | ★★★★ |
 | 商汤SenseNova | SenseNova 6.8 Flash Lite / SenseNova U1.5 Lite / SenseNova U1 Fast / DeepSeek V4 Pro / DeepSeek V4 Flash / GLM-5.2 / Kimi K3 | 1 | 免费 | ★★★★★ |
 | 智谱AI | GLM-5.3 / GLM-5.3-Flash | 3 | ¥118 | ★★½ |
 
@@ -75,13 +75,13 @@ https://ai.hsnb.fun/aiplanhub
 | Ollama | GLM-5.3 / GLM-5.2 / DeepSeek-V4-Pro / Kimi-K3 | 4 | $0 | ★★★½ |
 | AtomCode | MiMo-V2.5 / MiMo-V2.5-Pro / Qwen3.8-27B / GLM-5.3-Flash | 3 | 免费 | ★★★★ |
 | z.ai | GLM-5.3 / GLM-5.3-Flash（国际版） | 3 | $18 | ★★½ |
-| MiniMax | MiniMax-M3 / M2.7 | 3 | ¥49 | ★★ |
+| MiniMax | MiniMax-M3 / M2.7（Go/Explore/Build） | 3 | ¥49 | ★★ |
 | 联通云 | DeepSeek-V4-Pro / Kimi-K2.6 / Qwen3.6-27B | 2 | ¥40 | ★★ |
 | TaoToken | GLM-5.3-Flash（500K上下文） | 3 | ¥39 | ★★★ |
 | 移动云 | MiniMax-M2.5 | 2 | ¥40 | ★★ |
 | 国家超算互联网 | MiniMax-M2.5 / Qwen3-235B-A22B | 2 | ¥20 | ★★ |
 | 优云智算 | GLM-5.2 / DeepSeek-V4-Pro / DeepSeek-V4-Flash / Qwen3.6-Plus / MiniMax-M2.7 / Kimi-K2.6 | 6 | ¥49 | ★★ |
-| OpenStarry | 星序版 ¥9.9/周·2,000次/月 · 星衍版 ¥19.9/周·2,000次/周 · 星途版 ¥99/月·30,000次 | 周付起¥9.9 | 旗舰 GLM-5.2/Kimi-K3 | — | ★ |
+| OpenStarry | 体验套餐 ¥5/月·20次 · 星序版 ¥9.9/月·2,000次 · 星创版 ¥49.9/月·10,000次（GLM-5.2/Kimi-K3） | 月付起¥5 | 旗舰 GLM-5.2/Kimi-K3 | — | ★ |
 | CommandCode | GLM-5.3 / Gemini 3.7 Flash / GPT-5.6 Luna / Claude Sonnet 5 / Grok 4.6 | 5 | $1 | ★★★★ |
 | OpenCode Go | GLM-5.3 / GLM-5.2 / Kimi-K3 / DeepSeek-V4.1-Flash / Qwen3.8-Max / MiniMax-M3 / Space Bunny Free（限时免费）/ LongCat 2.5 Preview（限时免费）等30款 | 1 | $10 | ★★★★ |
 
@@ -200,7 +200,7 @@ https://ai.hsnb.fun/aiplanhub
 | 超算互联网·Token | GLM-5.3 / Qwen3.8-Max / DeepSeek-V4-Pro / Kimi-K3 | 4 | ¥30 | ★★★ |
 | TaoToken | DeepSeek-V4-Pro / Kimi-K3 / GLM-5.3 等 10 款 | 3 | ¥59 | ★★★ |
 | 方舟 Agent Plan | DeepSeek-V4-Pro / GLM-5.1 / Kimi-K2.6 | 4 | ¥40 | ★★ |
-| 腾讯·Token | Auto / GLM-5.3 / GLM-5.2 / DeepSeek-V4-Flash/Pro / MiniMax-M3 / Kimi-K2.7-Code / Hy3 | 8 | ¥28 | ★ |
+| 腾讯·Token | Auto / GLM-5.3 / GLM-5.2 / DeepSeek-V4.1-Flash / DeepSeek-V4-Flash/Pro / MiMo-V2.6-Flash / MiniMax-M3 / Kimi-K2.7-Code / Hy3（09.30 新增 DeepSeek-V4.1-Flash/MiMo-V2.6-Flash·15款） | 8 | ¥28 | ★ |
 | 天翼云·Token | DeepSeek-V4-Pro / GLM-5.2 / GLM-5.1 / Kimi-K2.6 / MiniMax-M3（积分版6款） | 10 | ¥29 | ★ |
 | Alaya Code | GLM-5.2 / GLM-5.1 / DeepSeek-V4-Flash | 3 | ¥199 | ★ |
 | 小米·MiMo | MiMo-V2.6-Pro / MiMo-V2.6-Flash / MiMo-V2.5-Pro / MiMo-V2.5（⚠️V2.5系 2026.10.21 下线） | 7 | ¥39 | ★ |
