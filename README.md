@@ -16,7 +16,7 @@
 
 > **更新日志**（每分类仅保留最新一条·完整历史见 git log）
 >
-- **Coding**（2026.09.28）（字节·方舟模型表新增 DS-V4.1-Flash/Kimi-K2.8-Preview/Doubao-Seed-2.1-pro·lite/2.0-mini·2.1-turbo与2.0-lite即将下线；阶跃星辰支持模型15→9款（StepAudio-3全家桶移除）；Ollama云模型19→16款；Charm Hyper目录34→23款；xKiro目录111→128款（新增MiMo-V2.6系/Grok-4.7/Kimi-K2.8-Preview）；WM AI目录27→31款；其余经核对无变化）
+- **Coding**（2026.09.30）（WM AI 评分 2.5→3.5：1×倍率层 GLM-5.3 / DeepSeek-V4.1-Flash 无加价直用·推荐模型定为这两款；其余经核对无变化）
 - **Token**（2026.09.30）（8 条目经核对无变化）
 - **Video**（2026.09.30）（可灵新增「年卡抢先体验·Kling 4.0 Flash」权益标签；即梦双节礼活动窗口订正为9.22-9.30；其余经核对无变化）
 - **Image**（2026.09.30）（Liblib 双节特惠结束·新横幅年会员低至45折·六档价格不变；OpenArt Wonder 档 Flux 3 无限视频改为可选加购；其余经核对无变化）
@@ -61,7 +61,7 @@ https://ai.hsnb.fun/aiplanhub
 | 智谱AI | GLM-5.3 / GLM-5.3-Flash | 3 | ¥118 | ★★½ |
 
 | 稳明光语纪 | GLM-5.3 / DeepSeek-V4-Flash-0731 | 1 | ¥45 | ★★½ |
-| WM AI | Claude Opus 5 / Claude Opus 4.8 / GPT-5.6 Sol / Kimi-K3 / Qwen3.8-Max / GLM-5.3 等31款 | 6 | $0 | ★★½ |
+| WM AI | GLM-5.3 / DeepSeek-V4.1-Flash（1×直用）/ Claude Opus 5 / GPT-5.6 Sol / Kimi-K3 等31款 | 6 | $0 | ★★★½ |
 | 字节·方舟 | GLM-5.3 / GLM-5.3-Flash / Kimi-K3 / Kimi-K2.8-Preview / DeepSeek-V4.1-Flash / Doubao-Seed-2.1-pro / Doubao-Seed-Evolving / Kimi-K2.7-Code | 2 | ¥40 | ★★★ |
 | Charm Hyper | GLM-5.3 / GLM-5.3-Flash / Qwen3.8-Flash / Qwen3.8-Max / DeepSeek-V4-Pro-0813 / DeepSeek-V4-Flash-0731 / Kimi-K3 / Kimi-K2-Thinking | 5 | $0 | ★★★½ |
 | Meituan CatPaw | — | 1 | 免费 | ★★★★ |
