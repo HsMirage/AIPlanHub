@@ -19,7 +19,7 @@
 - **Coding**（2026.10.01）（MiniMax M Plan 更名 Plus/Max/Ultra→Go/Explore/Build·价格不变·首月5折至10.14；OpenStarry 套餐第4次翻转·星创¥49.9/体验¥5复活；Ollama DS-V4.1-Flash 参与Peak定价；xKiro 模型128→138款；CommandCode GO 15K→9K；其余经核对无变化）
 - **Token**（2026.10.01）（腾讯·Token 模型表新增 DeepSeek-V4.1-Flash / MiMo-V2.6-Flash（13→15款）；其余经核对无变化）
 - **Video**（2026.10.01）（经核对无变化）
-- **Image**（2026.09.30）（Liblib 双节特惠结束·新横幅年会员低至45折·六档价格不变；OpenArt Wonder 档 Flux 3 无限视频改为可选加购；其余经核对无变化）
+- **Image**（2026.10.01）（经核对无变化）
 - **Audio**（2026.10.01）（Suno/Udio/Ace Studio 经核对无变化；海螺AI 登录墙未获取）
 - 其他：中转站 2026.08.15（THINK-AI已下架·仅保留幻境MirageAI·幻境充值链接更新）·已下架归档 2026.08.19（新增无问芯穹/天翼云/百度千帆经典CodingPlan）·价格对比 2026.07.06 新增
 
