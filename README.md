@@ -16,8 +16,8 @@
 
 > **更新日志**（每分类仅保留最新一条·完整历史见 git log）
 >
-- **Coding**（2026.10.01）（MiniMax M Plan 更名 Plus/Max/Ultra→Go/Explore/Build·价格不变·首月5折至10.14；OpenStarry 套餐第4次翻转·星创¥49.9/体验¥5复活；Ollama DS-V4.1-Flash 参与Peak定价；xKiro 模型128→138款；CommandCode GO 15K→9K；其余经核对无变化）
-- **Token**（2026.10.01）（腾讯·Token 模型表新增 DeepSeek-V4.1-Flash / MiMo-V2.6-Flash（13→15款）；其余经核对无变化）
+- **Coding**（2026.10.02）（MiniMax 文本模型 M3/M2.7→M3.1 Flash Preview；AtomCode 三档全部开放免费领取·额度上调·模型池缩水；商汤SenseNova 模型列表更新；xKiro 138→139款；CommandCode 五档+4免费模型·新增 Provider/Teams 档；其余经核对无变化）
+- **Token**（2026.10.02）（OpenCode Go GLM-5.3-Flash 月额度 $15→$60·请求数 4 倍上调；其余经核对无变化）
 - **Video**（2026.10.01）（经核对无变化）
 - **Image**（2026.10.01）（经核对无变化）
 - **Audio**（2026.10.01）（Suno/Udio/Ace Studio 经核对无变化；海螺AI 登录墙未获取）
@@ -56,8 +56,8 @@ https://ai.hsnb.fun/aiplanhub
 | 平台 | 代表模型 | 方案数 | 月付起 | 评分 |
 |------|----------|--------|--------|------|
 | ChatGPT | GPT-5.4 / GPT-Image-2 / GPT-5.3-Codex | 2 | ¥26.6 | ★★★★★ |
-| xKiro | GPT-6 Astra / GPT-6.1 Sol / Grok 4.7 / MiMo v2.6 Pro / MiMo v2.6 Flash / GLM-5.3 / LongCat 2.0 / Kimi K3 / Kimi K2.8 Preview / Gemini 3.8 Flash / MiniMax M3 / Qwen3.8 Max 等138款 | 6 | $0 | ★★★★ |
-| 商汤SenseNova | SenseNova 6.8 Flash Lite / SenseNova U1.5 Lite / SenseNova U1 Fast / DeepSeek V4 Pro / DeepSeek V4 Flash / GLM-5.2 / Kimi K3 | 1 | 免费 | ★★★★★ |
+| xKiro | GPT-6 Astra / GPT-6.1 Sol / Grok 4.7 / MiMo v2.6 Pro / MiMo v2.6 Flash / GLM-5.3 / LongCat 2.0 / Kimi K3 / Kimi K2.8 Preview / Gemini 3.8 Flash / MiniMax M3 / Qwen3.8 Max 等139款 | 6 | $0 | ★★★★ |
+| 商汤SenseNova | SenseNova 6.8 Flash Lite / SenseNova U1.5 Lite / SenseNova U1.5 Fast / DeepSeek V4.1 Flash / DeepSeek V4 Flash / GLM-5.2 / Kimi K3 | 1 | 免费 | ★★★★★ |
 | 智谱AI | GLM-5.3 / GLM-5.3-Flash | 3 | ¥118 | ★★½ |
 
 | 稳明光语纪 | GLM-5.3 / DeepSeek-V4-Flash-0731 | 1 | ¥45 | ★★½ |
@@ -73,9 +73,9 @@ https://ai.hsnb.fun/aiplanhub
 | 阶跃星辰 | Step-5-Preview | 4 | ¥49 | ★★★ |
 | 快手 StreamLake | KAT-Coder-Pro V1/V2/V2.5 | 4 | ¥29 | ★★★ |
 | Ollama | GLM-5.3 / GLM-5.2 / DeepSeek-V4-Pro / Kimi-K3 | 4 | $0 | ★★★½ |
-| AtomCode | MiMo-V2.5 / MiMo-V2.5-Pro / Qwen3.8-27B / GLM-5.3-Flash | 3 | 免费 | ★★★★ |
+| AtomCode | GLM-5.3-Flash / DeepSeek-V4-Flash / Qwen3.8-27B（三档免费领取·10.02模型池缩水） | 3 | 免费 | ★★★★ |
 | z.ai | GLM-5.3 / GLM-5.3-Flash（国际版） | 3 | $18 | ★★½ |
-| MiniMax | MiniMax-M3 / M2.7（Go/Explore/Build） | 3 | ¥49 | ★★ |
+| MiniMax | MiniMax-M3.1-Flash-Preview（Go/Explore/Build·10.02模型更新） | 3 | ¥49 | ★★ |
 | 联通云 | DeepSeek-V4-Pro / Kimi-K2.6 / Qwen3.6-27B | 2 | ¥40 | ★★ |
 | TaoToken | GLM-5.3-Flash（500K上下文） | 3 | ¥39 | ★★★ |
 | 移动云 | MiniMax-M2.5 | 2 | ¥40 | ★★ |
@@ -319,7 +319,7 @@ https://ai.hsnb.fun/aiplanhub
 
 **推荐**
 
-- **MiniMax** — 2026.10.01 M Plan 套餐更名 Plus/Max/Ultra→Go/Explore/Build（价格不变），限时首月5折至10.14；M2.7 参考 1500/4500/15000 次/5h，月 6~55 亿 token
+- **MiniMax** — 2026.10.01 M Plan 套餐更名 Plus/Max/Ultra→Go/Explore/Build（价格不变），限时首月5折至10.14；10.02 文本模型更新为 M3.1 Flash Preview（M3/M2.7 已不在套餐模型列表）
 - **智谱AI** — 9.3-9.20 夜间畅用活动：每晚 23:00-次日 9:00 GLM-5.3-Flash 在 ZCode 免费用、其他 Agent 额度×2；套餐价格不变
 - **阿里·百炼** — Pro专属 Qwen3.6-Plus，Pro 固定 ¥200/月，每周 45,000 次请求；2026.08 新增新客首月特惠 ¥39.90
 
