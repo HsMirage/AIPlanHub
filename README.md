@@ -19,7 +19,7 @@
 - **Coding**（2026.10.03）（OpenCode Go 新增 Go Plus $40/月档·同目录更高额度；xKiro 模型目录139→129款·API权威源；CommandCode 免费stealth模型 Pixel Canary 移除；其余经核对无变化）
 - **Token**（2026.10.03）（OpenCode Go 新增 Go Plus $40/月档·同30款模型·各模型月额度1.5~4倍；其余经核对无变化）
 - **Video**（2026.10.03）（经核对无变化·即梦双节礼至10.8逐Tab核验一致·海螺/pai/RunningHub登录墙双源佐证未变）
-- **Image**（2026.10.02）（经核对无变化；RunningHub 登录墙未获取·双源佐证无变化）
+- **Image**（2026.10.03）（经核对无变化；RunningHub/堆友/OpenArt 页面受限双源佐证无变化）
 - **Audio**（2026.10.03）（Suno/Udio/Ace Studio 经核对无变化；海螺AI 登录墙未获取）
 - 其他：中转站 2026.08.15（THINK-AI已下架·仅保留幻境MirageAI·幻境充值链接更新）·已下架归档 2026.08.19（新增无问芯穹/天翼云/百度千帆经典CodingPlan）·价格对比 2026.07.06 新增
 
