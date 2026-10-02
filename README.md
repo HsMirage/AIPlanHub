@@ -17,7 +17,7 @@
 > **更新日志**（每分类仅保留最新一条·完整历史见 git log）
 >
 - **Coding**（2026.10.03）（OpenCode Go 新增 Go Plus $40/月档·同目录更高额度；xKiro 模型目录139→129款·API权威源；CommandCode 免费stealth模型 Pixel Canary 移除；其余经核对无变化）
-- **Token**（2026.10.02）（OpenCode Go GLM-5.3-Flash 月额度 $15→$60·请求数 4 倍上调；其余经核对无变化）
+- **Token**（2026.10.03）（OpenCode Go 新增 Go Plus $40/月档·同30款模型·各模型月额度1.5~4倍；其余经核对无变化）
 - **Video**（2026.10.02）（即梦双节礼活动延至10.8·价格无变化·超级团队年卡加赠16700积分/席）
 - **Image**（2026.10.02）（经核对无变化；RunningHub 登录墙未获取·双源佐证无变化）
 - **Audio**（2026.10.02）（Suno/Udio/Ace Studio 经核对无变化；海螺AI 登录墙未获取）
