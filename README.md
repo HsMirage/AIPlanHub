@@ -17,7 +17,7 @@
 > **更新日志**（每分类仅保留最新一条·完整历史见 git log）
 >
 - **Coding**（2026.10.04）（OpenCode Go：GPT 6 Luna 月额度 $15→$60；CommandCode：GO 档 5h/周限额下调至 $2/$5·Kimi K3 限时加量至10.7；讯飞星辰：高效版移除 Kimi-K2.7-Code·两档进入等候名单；MiniMax：首月5折横幅重新渲染至10.14；WM AI：模型目录31→33款新增 Seedance 2.5；OpenStarry：自选套餐 GLM 5.3 单价¥0.015/次；其余经核对无变化）
-- **Token**（2026.10.03）（OpenCode Go 新增 Go Plus $40/月档·同30款模型·各模型月额度1.5~4倍；其余经核对无变化）
+- **Token**（2026.10.04）（经核对无变化）
 - **Video**（2026.10.03）（经核对无变化·即梦双节礼至10.8逐Tab核验一致·海螺/pai/RunningHub登录墙双源佐证未变）
 - **Image**（2026.10.03）（经核对无变化；RunningHub/堆友/OpenArt 页面受限双源佐证无变化）
 - **Audio**（2026.10.03）（Suno/Udio/Ace Studio 经核对无变化；海螺AI 登录墙未获取）
