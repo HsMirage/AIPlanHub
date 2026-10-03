@@ -16,7 +16,7 @@
 
 > **更新日志**（每分类仅保留最新一条·完整历史见 git log）
 >
-- **Coding**（2026.10.03）（OpenCode Go 新增 Go Plus $40/月档·同目录更高额度；xKiro 模型目录139→129款·API权威源；CommandCode 免费stealth模型 Pixel Canary 移除；其余经核对无变化）
+- **Coding**（2026.10.03）（WM AI 评分 3.5→4 星·移除广告标记·评分卡改为差异化标准；OpenCode Go 新增 Go Plus $40/月档·同目录更高额度；xKiro 模型目录139→129款·API权威源；CommandCode 免费stealth模型 Pixel Canary 移除；其余经核对无变化）
 - **Token**（2026.10.03）（OpenCode Go 新增 Go Plus $40/月档·同30款模型·各模型月额度1.5~4倍；其余经核对无变化）
 - **Video**（2026.10.03）（经核对无变化·即梦双节礼至10.8逐Tab核验一致·海螺/pai/RunningHub登录墙双源佐证未变）
 - **Image**（2026.10.03）（经核对无变化；RunningHub/堆友/OpenArt 页面受限双源佐证无变化）
@@ -61,7 +61,7 @@ https://ai.hsnb.fun/aiplanhub
 | 智谱AI | GLM-5.3 / GLM-5.3-Flash | 3 | ¥118 | ★★½ |
 
 | 稳明光语纪 | GLM-5.3 / DeepSeek-V4-Flash-0731 | 1 | ¥45 | ★★½ |
-| WM AI | GLM-5.3 / DeepSeek-V4.1-Flash（1×直用）/ Claude Opus 5 / GPT-5.6 Sol / Kimi-K3 等31款 | 6 | $0 | ★★★½ |
+| WM AI | GLM-5.3 / DeepSeek-V4.1-Flash（1×直用）/ Claude Opus 5 / GPT-5.6 Sol / Kimi-K3 等31款 | 6 | $0 | ★★★★ |
 | 字节·方舟 | GLM-5.3 / GLM-5.3-Flash / Kimi-K3 / Kimi-K2.8-Preview / DeepSeek-V4.1-Flash / Doubao-Seed-2.1-pro / Doubao-Seed-Evolving / Kimi-K2.7-Code | 2 | ¥40 | ★★★ |
 | Charm Hyper | GLM-5.3 / GLM-5.3-Flash / Qwen3.8-Flash / Qwen3.8-Max / DeepSeek-V4-Pro-0813 / DeepSeek-V4-Flash-0731 / Kimi-K3 / Kimi-K2-Thinking | 5 | $0 | ★★★½ |
 | Meituan CatPaw | — | 1 | 免费 | ★★★★ |
