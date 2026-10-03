@@ -19,7 +19,7 @@
 - **Coding**（2026.10.04）（OpenCode Go：GPT 6 Luna 月额度 $15→$60；CommandCode：GO 档 5h/周限额下调至 $2/$5·Kimi K3 限时加量至10.7；讯飞星辰：高效版移除 Kimi-K2.7-Code·两档进入等候名单；MiniMax：首月5折横幅重新渲染至10.14；WM AI：模型目录31→33款新增 Seedance 2.5；OpenStarry：自选套餐 GLM 5.3 单价¥0.015/次；其余经核对无变化）
 - **Token**（2026.10.04）（经核对无变化）
 - **Video**（2026.10.04）（可灵/通义万相/腾讯混元/即梦/OpenArt 经核对无变化·海螺AI 登录墙首抓见尊享¥1199待人工确认·pai/RunningHub/Vidu 未获取）
-- **Image**（2026.10.03）（经核对无变化；RunningHub/堆友/OpenArt 页面受限双源佐证无变化）
+- **Image**（2026.10.04）（OpenArt 官方页活动更新：Seedance全系最高5折+Unlimited Flux 3 Image（Pro至10.7·Wonder至10.14）；其余经核对无变化·RunningHub/堆友登录墙双源佐证）
 - **Audio**（2026.10.04）（Suno/Udio/Ace Studio 经核对无变化；海螺AI 登录墙未获取·双源无新证据）
 - 其他：中转站 2026.08.15（THINK-AI已下架·仅保留幻境MirageAI·幻境充值链接更新）·已下架归档 2026.08.19（新增无问芯穹/天翼云/百度千帆经典CodingPlan）·价格对比 2026.07.06 新增
 
