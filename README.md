@@ -16,7 +16,7 @@
 
 > **更新日志**（每分类仅保留最新一条·完整历史见 git log）
 >
-- **Coding**（2026.10.03）（WM AI 评分 3.5→4 星·移除广告标记·评分卡改为差异化标准；OpenCode Go 新增 Go Plus $40/月档·同目录更高额度；xKiro 模型目录139→129款·API权威源；CommandCode 免费stealth模型 Pixel Canary 移除；其余经核对无变化）
+- **Coding**（2026.10.03）（WM AI 评分卡按差异化标准重写·补齐独有/缺失项·分数不变；CommandCode 移除风险自负标注；OpenCode Go 新增 Go Plus $40/月档·同目录更高额度；xKiro 模型目录139→129款·API权威源；CommandCode 免费stealth模型 Pixel Canary 移除；其余经核对无变化）
 - **Token**（2026.10.03）（OpenCode Go 新增 Go Plus $40/月档·同30款模型·各模型月额度1.5~4倍；其余经核对无变化）
 - **Video**（2026.10.03）（经核对无变化·即梦双节礼至10.8逐Tab核验一致·海螺/pai/RunningHub登录墙双源佐证未变）
 - **Image**（2026.10.03）（经核对无变化；RunningHub/堆友/OpenArt 页面受限双源佐证无变化）
