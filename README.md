@@ -17,7 +17,7 @@
 > **更新日志**（每分类仅保留最新一条·完整历史见 git log）
 >
 - **Coding**（2026.10.05）（⚠️勘误：OpenCode Go GPT 6 Luna Go 档 $15 不变——10.04「$15→$60」系误读 Go/Plus 双列；GLM-5.3-Flash Go 档请求数上调至 6,320/5h；其余 28 平台经核对无变化）
-- **Token**（2026.10.04）（经核对无变化）
+- **Token**（2026.10.05）（经核对无变化）
 - **Video**（2026.10.04）（可灵/通义万相/腾讯混元/即梦/OpenArt 经核对无变化·海螺AI 登录墙首抓见尊享¥1199待人工确认·pai/RunningHub/Vidu 未获取）
 - **Image**（2026.10.04）（OpenArt 官方页活动更新：Seedance全系最高5折+Unlimited Flux 3 Image（Pro至10.7·Wonder至10.14）；其余经核对无变化·RunningHub/堆友登录墙双源佐证）
 - **Audio**（2026.10.04）（Suno/Udio/Ace Studio 经核对无变化；海螺AI 登录墙未获取·双源无新证据）
