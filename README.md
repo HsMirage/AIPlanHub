@@ -18,7 +18,7 @@
 >
 - **Coding**（2026.10.05）（⚠️勘误：OpenCode Go GPT 6 Luna Go 档 $15 不变——10.04「$15→$60」系误读 Go/Plus 双列；GLM-5.3-Flash Go 档请求数上调至 6,320/5h；其余 28 平台经核对无变化）
 - **Token**（2026.10.05）（经核对无变化）
-- **Video**（2026.10.04）（可灵/通义万相/腾讯混元/即梦/OpenArt 经核对无变化·海螺AI 登录墙首抓见尊享¥1199待人工确认·pai/RunningHub/Vidu 未获取）
+- **Video**（2026.10.05）（海螺AI 月付全面下调：基础¥105→¥65·标准¥385→¥245·大师¥799→¥578·尊享年付¥14,279→¥14,388·基础年付¥660→¥624；可灵/通义万相/腾讯混元/即梦/OpenArt 经核对无变化·pai/RunningHub/Vidu 未获取）
 - **Image**（2026.10.04）（OpenArt 官方页活动更新：Seedance全系最高5折+Unlimited Flux 3 Image（Pro至10.7·Wonder至10.14）；其余经核对无变化·RunningHub/堆友登录墙双源佐证）
 - **Audio**（2026.10.04）（Suno/Udio/Ace Studio 经核对无变化；海螺AI 登录墙未获取·双源无新证据）
 - 其他：中转站 2026.08.15（THINK-AI已下架·仅保留幻境MirageAI·幻境充值链接更新）·已下架归档 2026.08.19（新增无问芯穹/天翼云/百度千帆经典CodingPlan）·价格对比 2026.07.06 新增
@@ -274,7 +274,7 @@ https://ai.hsnb.fun/aiplanhub
 |------|--------|--------|----------|------|
 | 快手可灵 | 5 | ¥0 | Kling 4.0 Flash·3.0 Omni | ★★★★★ |
 | Vidu | 4 | ¥0 | Vidu | ★★★★ |
-| 海螺AI | 5 | ¥55/月(年付) | Hailuo 2.3·Seedance 2.0 | ★★★★ |
+| 海螺AI | 5 | ¥65/月 | Hailuo 2.3·Seedance 2.0 | ★★★★ |
 | pai.video | 5 | ¥0 | PixVerse | ★★★★ |
 | 即梦 | 9 | ¥0 | Seedance 2.0·2.0 Mini | ★★★★ |
 | 通义万相 | 3 | ¥0 | 万相 2.6 | ★★★★ |
