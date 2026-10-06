@@ -16,7 +16,7 @@
 
 > **更新日志**（每分类仅保留最新一条·完整历史见 git log）
 >
-- **Coding**（2026.10.06）（经核对无变化·TaoToken Lite 售罄后补货恢复可购·智谱夜间畅用/庆双节 50% 抵扣活动 10.7 到期）
+- **Coding**（2026.10.07）（OpenCode Go：Space Bunny 限时免费转付费档·限时免费仅剩 LongCat 2.5 Preview；xKiro：模型目录 129→130款；TaoToken：Lite ¥39 本轮再度售罄；智谱夜间畅用/庆双节活动 10.7 到期）
 - **Token**（2026.10.06）（经核对无变化）
 - **Video**（2026.10.06）（经核对无变化·Vidu/pai.video/RunningHub 双源佐证无新证据）
 - **Image**（2026.10.06）（经核对无变化·RunningHub/堆友登录墙双源佐证）
@@ -56,7 +56,7 @@ https://ai.hsnb.fun/aiplanhub
 | 平台 | 代表模型 | 方案数 | 月付起 | 评分 |
 |------|----------|--------|--------|------|
 | ChatGPT | GPT-5.4 / GPT-Image-2 / GPT-5.3-Codex | 2 | ¥26.6 | ★★★★★ |
-| xKiro | GPT-6 Astra / GPT-6.1 Sol / Grok 4.7 / MiMo v2.6 Pro / MiMo v2.6 Flash / GLM-5.3 / LongCat 2.0 / Space Bunny Alpha / MiniMax M3 / Qwen3.8 Max / Gemini 3.8 Flash 等129款 | 6 | $0 | ★★★★ |
+| xKiro | GPT-6 Astra / GPT-6.1 Sol / Grok 4.7 / MiMo v2.6 Pro / MiMo v2.6 Flash / GLM-5.3 / LongCat 2.0 / Space Bunny Alpha / MiniMax M3 / Qwen3.8 Max / Gemini 3.8 Flash 等130款 | 6 | $0 | ★★★★ |
 | 商汤SenseNova | SenseNova 6.8 Flash Lite / SenseNova U1.5 Lite / SenseNova U1.5 Fast / DeepSeek V4.1 Flash / DeepSeek V4 Flash / GLM-5.2 / Kimi K3 | 1 | 免费 | ★★★★★ |
 | 智谱AI | GLM-5.3 / GLM-5.3-Flash | 3 | ¥118 | ★★½ |
 
@@ -83,7 +83,7 @@ https://ai.hsnb.fun/aiplanhub
 | 优云智算 | GLM-5.2 / DeepSeek-V4-Pro / DeepSeek-V4-Flash / Qwen3.6-Plus / MiniMax-M2.7 / Kimi-K2.6 | 6 | ¥49 | ★★ |
 | OpenStarry | 体验套餐 ¥5/月·20次 · 星序版 ¥9.9/月·2,000次 · 星创版 ¥49.9/月·10,000次（GLM-5.2/Kimi-K3） | 月付起¥5 | 旗舰 GLM-5.2/Kimi-K3 | — | ★ |
 | CommandCode | GLM-5.3 / Gemini 3.7 Flash / GPT-5.6 Luna / Claude Sonnet 5 / Grok 4.6 | 5 | $1 | ★★★★ |
-| OpenCode Go | GLM-5.3 / GLM-5.2 / Kimi-K3 / DeepSeek-V4.1-Flash / Qwen3.8-Max / MiniMax-M3 / Space Bunny Free（限时免费）/ LongCat 2.5 Preview（限时免费）等30款 | 2 | $10 | ★★★★ |
+| OpenCode Go | GLM-5.3 / GLM-5.2 / Kimi-K3 / DeepSeek-V4.1-Flash / Qwen3.8-Max / MiniMax-M3 / LongCat 2.5 Preview（限时免费）/ Space Bunny（已转付费）等30款 | 2 | $10 | ★★★★ |
 
 ### 入门级（人民币月付 ≤ ¥50）
 
