@@ -19,7 +19,7 @@
 - **Coding**（2026.10.07）（OpenCode Go：Space Bunny 限时免费转付费档·限时免费仅剩 LongCat 2.5 Preview；xKiro：模型目录 129→130款；TaoToken：Lite ¥39 本轮再度售罄；智谱夜间畅用/庆双节活动 10.7 到期）
 - **Token**（2026.10.06）（经核对无变化）
 - **Video**（2026.10.07）（经核对无变化·可灵/即梦三视图逐项核验一致·Vidu/海螺/pai.video/RunningHub 双源佐证无新证据）
-- **Image**（2026.10.06）（经核对无变化·RunningHub/堆友登录墙双源佐证）
+- **Image**（2026.10.07）（经核对无变化·Midjourney/OpenArt/Liblib/通义万相/堆友逐档核验一致·RunningHub 登录墙双源无新证据）
 - **Audio**（2026.10.07）（Suno/Udio/Ace Studio 经核对无变化；海螺AI 登录墙未获取·双源无新证据）
 - 其他：中转站 2026.08.15（THINK-AI已下架·仅保留幻境MirageAI·幻境充值链接更新）·已下架归档 2026.08.19（新增无问芯穹/天翼云/百度千帆经典CodingPlan）·价格对比 2026.07.06 新增
 
