@@ -18,7 +18,7 @@
 >
 - **Coding**（2026.10.08）（Ollama：云模型 16→17 款·新增 Mistral-Large-4；TaoToken：Lite ¥39 本轮恢复可购（stock 30/30·本轮 10.8 截止）；其余 26 平台经核对无变化）
 - **Token**（2026.10.08）（OpenCode Go 模型 30→31 款：新增 Claude Haiku 5.5（$15 额度）·Space Bunny Free 限时免费转付费；其余 7 平台经核对无变化）
-- **Video**（2026.10.07）（经核对无变化·可灵/即梦三视图逐项核验一致·Vidu/海螺/pai.video/RunningHub 双源佐证无新证据）
+- **Video**（2026.10.08）（经核对无变化·可灵月付/即梦三Tab逐项核验一致·Vidu/海螺/pai.video/RunningHub 双源佐证无新证据）
 - **Image**（2026.10.07）（经核对无变化·Midjourney/OpenArt/Liblib/通义万相/堆友逐档核验一致·RunningHub 登录墙双源无新证据）
 - **Audio**（2026.10.07）（Suno/Udio/Ace Studio 经核对无变化；海螺AI 登录墙未获取·双源无新证据）
 - 其他：中转站 2026.08.15（THINK-AI已下架·仅保留幻境MirageAI·幻境充值链接更新）·已下架归档 2026.08.19（新增无问芯穹/天翼云/百度千帆经典CodingPlan）·价格对比 2026.07.06 新增
