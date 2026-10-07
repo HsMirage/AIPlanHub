@@ -16,7 +16,7 @@
 
 > **更新日志**（每分类仅保留最新一条·完整历史见 git log）
 >
-- **Coding**（2026.10.07）（OpenCode Go：Space Bunny 限时免费转付费档·限时免费仅剩 LongCat 2.5 Preview；xKiro：模型目录 129→130款；TaoToken：Lite ¥39 本轮再度售罄；智谱夜间畅用/庆双节活动 10.7 到期）
+- **Coding**（2026.10.08）（Ollama：云模型 16→17 款·新增 Mistral-Large-4；TaoToken：Lite ¥39 本轮恢复可购（stock 30/30·本轮 10.8 截止）；其余 26 平台经核对无变化）
 - **Token**（2026.10.06）（经核对无变化）
 - **Video**（2026.10.07）（经核对无变化·可灵/即梦三视图逐项核验一致·Vidu/海螺/pai.video/RunningHub 双源佐证无新证据）
 - **Image**（2026.10.07）（经核对无变化·Midjourney/OpenArt/Liblib/通义万相/堆友逐档核验一致·RunningHub 登录墙双源无新证据）
