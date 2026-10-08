@@ -16,7 +16,7 @@
 
 > **更新日志**（每分类仅保留最新一条·完整历史见 git log）
 >
-- **Coding**（2026.10.08）（Ollama：云模型 16→17 款·新增 Mistral-Large-4；TaoToken：Lite ¥39 本轮恢复可购（stock 30/30·本轮 10.8 截止）；其余 26 平台经核对无变化）
+- **Coding**（2026.10.09）（TaoToken：新一轮限时限量抢购 10.8-10.13 开启·价格额度不变；xKiro：/pricing 改 404·价格入口移至首页；其余 25 平台经核对无变化）
 - **Token**（2026.10.08）（OpenCode Go 模型 30→31 款：新增 Claude Haiku 5.5（$15 额度）·Space Bunny Free 限时免费转付费；其余 7 平台经核对无变化）
 - **Video**（2026.10.08）（经核对无变化·可灵月付/即梦三Tab逐项核验一致·Vidu/海螺/pai.video/RunningHub 双源佐证无新证据）
 - **Image**（2026.10.08）（经核对无变化·Midjourney/OpenArt/Liblib/通义万相/堆友逐档核验一致·RunningHub 登录墙双源无新证据）
