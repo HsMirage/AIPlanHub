@@ -17,7 +17,7 @@
 > **更新日志**（每分类仅保留最新一条·完整历史见 git log）
 >
 - **Coding**（2026.10.10）（OpenCode Go 模型目录 43→45 款：Claude Haiku 5.5 与 Step 5 Preview Free 正式入列；Charm Hyper 目录 23→21 款：移除 DeepSeek-V4/V4-Pro 基础版；腾讯 GLM-5 下线日期已过文档未移除；其余 22 平台经核对无变化）
-- **Token**（2026.10.09）（OpenCode Go 模型 31→32 款：新增 Step 5 Preview Free 限时免费·无限制；其余 7 平台经核对无变化）
+- **Token**（2026.10.10）（8 个监控条目经核对无变化）
 - **Video**（2026.10.08）（经核对无变化·可灵月付/即梦三Tab逐项核验一致·Vidu/海螺/pai.video/RunningHub 双源佐证无新证据）
 - **Image**（2026.10.09）（经核对无变化·Midjourney/OpenArt/Liblib/通义万相/堆友逐档核验一致·RunningHub 登录墙双源无新证据）
 - **Audio**（2026.10.09）（Suno/Udio/Ace Studio 经核对无变化；海螺AI 登录墙未获取·双源无新证据）
