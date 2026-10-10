@@ -16,7 +16,7 @@
 
 > **更新日志**（每分类仅保留最新一条·完整历史见 git log）
 >
-- **Coding**（2026.10.10）（OpenDesign 新增 Coding 页：开源设计 Agent 平台官方 Cloud 订阅·4档 Go/Plus/Pro/Max $10/20/100/200·Design Plan 每月最高额度 $60/100/300/600·API 可接 Codex/Claude Code/OpenCode/Hermes；平台数 28→29 家；CommandCode 评分 4★→3.5★：GOAT 近期可能存在异常扣费情况；OpenCode Go 评分 4★→3.5★：存在恶意降低缓存命中率的情况；模型目录 43→45 款：Claude Haiku 5.5 与 Step 5 Preview Free 正式入列；Charm Hyper 目录 23→21 款：移除 DeepSeek-V4/V4-Pro 基础版；腾讯 GLM-5 下线日期已过文档未移除；其余经核对无变化）
+- **Coding**（2026.10.11）（OpenDesign Design Plan 每月额度全线翻倍：总额度 $60/$100/$300/$600→$120/$180/$480/$900·价格不变；xKiro 模型目录 130→129 款：移除 SenseNova 6.7 Flash-Lite；阿里·百炼 文档模型列表 10→6 款：移除 qwen3-max/coder-next/coder-plus/GLM-4.7；其余 24 平台经核对无变化）
 - **Token**（2026.10.10）（OpenCode Go 评分 4★→3.5★：存在恶意降低缓存命中率的情况；8 个监控条目经核对无变化）
 - **Video**（2026.10.10）（Vidu Q4改版大调价：专业月付259→299·旗舰月付699→1698·年付旗舰6710→16998·积分4000→3500/8000→20000；即梦双节活动延至10.10；其余经核对无变化；海螺AI/pai.video/RunningHub 登录墙·双源佐证无新证据）
 - **Image**（2026.10.10）（Liblib 节后回归特惠：年会员最高立减300元+加赠1个月·Seedance 2.5 720P 低至0.35元/秒；OpenArt 活动横幅更新：Wonder 卡 Flux 3 720P 无限视频至10.31；其余经核对无变化；RunningHub 登录墙·双源佐证无新证据）
@@ -56,7 +56,7 @@ https://ai.hsnb.fun/aiplanhub
 | 平台 | 代表模型 | 方案数 | 月付起 | 评分 |
 |------|----------|--------|--------|------|
 | ChatGPT | GPT-5.4 / GPT-Image-2 / GPT-5.3-Codex | 2 | ¥26.6 | ★★★★★ |
-| xKiro | GPT-6 Astra / GPT-6.1 Sol / Grok 4.7 / MiMo v2.6 Pro / MiMo v2.6 Flash / GLM-5.3 / LongCat 2.0 / Space Bunny Alpha / MiniMax M3 / Qwen3.8 Max / Gemini 3.8 Flash 等130款 | 6 | $0 | ★★★★ |
+| xKiro | GPT-6 Astra / GPT-6.1 Sol / Grok 4.7 / MiMo v2.6 Pro / MiMo v2.6 Flash / GLM-5.3 / LongCat 2.0 / Space Bunny Alpha / MiniMax M3 / Qwen3.8 Max / Gemini 3.8 Flash 等129款 | 6 | $0 | ★★★★ |
 | 商汤SenseNova | SenseNova 6.8 Flash Lite / SenseNova U1.5 Lite / SenseNova U1.5 Fast / DeepSeek V4.1 Flash / DeepSeek V4 Flash / GLM-5.2 / Kimi K3 | 1 | 免费 | ★★★★★ |
 | 智谱AI | GLM-5.3 / GLM-5.3-Flash | 3 | ¥118 | ★★½ |
 
@@ -84,7 +84,7 @@ https://ai.hsnb.fun/aiplanhub
 | OpenStarry | 体验套餐 ¥5/月·20次 · 星序版 ¥9.9/月·2,000次 · 星创版 ¥49.9/月·10,000次（GLM-5.2/Kimi-K3） | 月付起¥5 | 旗舰 GLM-5.2/Kimi-K3 | — | ★ |
 | CommandCode | GLM-5.3 / Gemini 3.7 Flash / GPT-5.6 Luna / Claude Sonnet 5 / Grok 4.6 | 5 | $1 | ★★★½ |
 | OpenCode Go | GLM-5.3 / GLM-5.2 / Kimi-K3 / DeepSeek-V4.1-Flash / Step 5 Preview（10.09新增·限时免费）/ Claude Haiku 5.5 / Qwen3.8-Max / MiniMax-M3 / LongCat 2.5 Preview（限时免费）/ Space Bunny（已转付费）等32款 | 2 | $10 | ★★★½ |
-| OpenDesign | GLM-5.3-Flash-X / DeepSeek-V4.1-Flash / MiMo-V2.6-Flash / GLM-5.3-Flash / Kimi-K2.7-Code / Claude-Haiku-5.5 / GPT-6-Luna（Design Plan 12款·Design Plan 每月最高 $60/$100/$300/$600·API 可接 Codex/Claude Code/OpenCode/Hermes·7天窗口） | 4 | $10 | ★★★½ |
+| OpenDesign | GLM-5.3-Flash-X / DeepSeek-V4.1-Flash / MiMo-V2.6-Flash / GLM-5.3-Flash / Kimi-K2.7-Code / Claude-Haiku-5.5 / GPT-6-Luna（Design Plan 12款·Design Plan 每月最高 $120/$180/$480/$900·10.11额度全线翻倍·API 可接 Codex/Claude Code/OpenCode/Hermes·7天窗口） | 4 | $10 | ★★★½ |
 
 ### 入门级（人民币月付 ≤ ¥50）
 
@@ -186,10 +186,10 @@ https://ai.hsnb.fun/aiplanhub
 | WM AI | Tier C | $24 | — | 5h $12 · 周 $84 | [开通](https://wenming7.com/sales?ref=KVH95UU8) |
 | WM AI | Tier D | $60 | — | 5h $30 · 周 $210 | [开通](https://wenming7.com/sales?ref=KVH95UU8) |
 | WM AI | Tier E | $120 | — | 5h $60 · 周 $420 | [开通](https://wenming7.com/sales?ref=KVH95UU8) |
-| OpenDesign | Go（Design Plan 12款·每月最高总额度 $60·API 接 Codex/Claude Code/OpenCode/Hermes） | $10（首月$8·次月起$10） | $8 | 月额度 $60 | [开通](https://open-design.ai/zh/pricing/) |
-| OpenDesign | Plus（+Sonnet 5.5/GPT-6 Sol/Grok 4.7/Kimi K3·套餐模型 $20） | $20（首月$16） | $16 | 月额度 $100 | [开通](https://open-design.ai/zh/pricing/) |
-| OpenDesign | Pro（套餐模型 20款·6倍用量 $120） | $100（首月$70） | $70 | 月额度 $300 | [开通](https://open-design.ai/zh/pricing/) |
-| OpenDesign | Max（套餐模型 20款·15倍用量 $300·高峰优先） | $200（首月$120） | $120 | 月额度 $600 | [开通](https://open-design.ai/zh/pricing/) |
+| OpenDesign | Go（Design Plan 12款·每月最高总额度 $120·10.11翻倍·API 接 Codex/Claude Code/OpenCode/Hermes） | $10（首月$8·次月起$10） | $8 | 月额度 $120 | [开通](https://open-design.ai/zh/pricing/) |
+| OpenDesign | Plus（+Sonnet 5.5/GPT-6 Sol/Grok 4.7/Kimi K3·套餐模型 $20） | $20（首月$16） | $16 | 月额度 $180 | [开通](https://open-design.ai/zh/pricing/) |
+| OpenDesign | Pro（套餐模型 20款·6倍用量 $120·Design Plan 赠$360） | $100（首月$70） | $70 | 月额度 $480 | [开通](https://open-design.ai/zh/pricing/) |
+| OpenDesign | Max（套餐模型 20款·15倍用量 $300·Design Plan 赠$600·高峰优先） | $200（首月$120） | $120 | 月额度 $900 | [开通](https://open-design.ai/zh/pricing/) |
 
 ---
 
