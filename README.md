@@ -16,8 +16,8 @@
 
 > **更新日志**（每分类仅保留最新一条·完整历史见 git log）
 >
-- **Coding**（2026.10.10）（OpenCode Go 模型目录 43→45 款：Claude Haiku 5.5 与 Step 5 Preview Free 正式入列；Charm Hyper 目录 23→21 款：移除 DeepSeek-V4/V4-Pro 基础版；腾讯 GLM-5 下线日期已过文档未移除；其余 22 平台经核对无变化）
-- **Token**（2026.10.10）（8 个监控条目经核对无变化）
+- **Coding**（2026.10.10）（OpenCode Go 评分 4★→3.5★：存在恶意降低缓存命中率的情况；模型目录 43→45 款：Claude Haiku 5.5 与 Step 5 Preview Free 正式入列；Charm Hyper 目录 23→21 款：移除 DeepSeek-V4/V4-Pro 基础版；腾讯 GLM-5 下线日期已过文档未移除；其余 22 平台经核对无变化）
+- **Token**（2026.10.10）（OpenCode Go 评分 4★→3.5★：存在恶意降低缓存命中率的情况；8 个监控条目经核对无变化）
 - **Video**（2026.10.10）（Vidu Q4改版大调价：专业月付259→299·旗舰月付699→1698·年付旗舰6710→16998·积分4000→3500/8000→20000；即梦双节活动延至10.10；其余经核对无变化；海螺AI/pai.video/RunningHub 登录墙·双源佐证无新证据）
 - **Image**（2026.10.10）（Liblib 节后回归特惠：年会员最高立减300元+加赠1个月·Seedance 2.5 720P 低至0.35元/秒；OpenArt 活动横幅更新：Wonder 卡 Flux 3 720P 无限视频至10.31；其余经核对无变化；RunningHub 登录墙·双源佐证无新证据）
 - **Audio**（2026.10.10）（Suno/Udio/Ace Studio 经核对无变化；海螺AI 登录墙未获取·双源无新证据）
@@ -83,7 +83,7 @@ https://ai.hsnb.fun/aiplanhub
 | 优云智算 | GLM-5.2 / DeepSeek-V4-Pro / DeepSeek-V4-Flash / Qwen3.6-Plus / MiniMax-M2.7 / Kimi-K2.6 | 6 | ¥49 | ★★ |
 | OpenStarry | 体验套餐 ¥5/月·20次 · 星序版 ¥9.9/月·2,000次 · 星创版 ¥49.9/月·10,000次（GLM-5.2/Kimi-K3） | 月付起¥5 | 旗舰 GLM-5.2/Kimi-K3 | — | ★ |
 | CommandCode | GLM-5.3 / Gemini 3.7 Flash / GPT-5.6 Luna / Claude Sonnet 5 / Grok 4.6 | 5 | $1 | ★★★★ |
-| OpenCode Go | GLM-5.3 / GLM-5.2 / Kimi-K3 / DeepSeek-V4.1-Flash / Step 5 Preview（10.09新增·限时免费）/ Claude Haiku 5.5 / Qwen3.8-Max / MiniMax-M3 / LongCat 2.5 Preview（限时免费）/ Space Bunny（已转付费）等32款 | 2 | $10 | ★★★★ |
+| OpenCode Go | GLM-5.3 / GLM-5.2 / Kimi-K3 / DeepSeek-V4.1-Flash / Step 5 Preview（10.09新增·限时免费）/ Claude Haiku 5.5 / Qwen3.8-Max / MiniMax-M3 / LongCat 2.5 Preview（限时免费）/ Space Bunny（已转付费）等32款 | 2 | $10 | ★★★½ |
 
 ### 入门级（人民币月付 ≤ ¥50）
 
@@ -196,7 +196,7 @@ https://ai.hsnb.fun/aiplanhub
 |------|----------|--------|--------|------|
 | ChatGPT | GPT-5.4 / GPT-Image-2 / GPT-5.3-Codex | 1 | ¥28.8 | ★★★★★ |
 | 百度·千帆 | ERNIE 5.1 / GLM-5.2 / Kimi-K2.6 / DeepSeek-V4全系 | 4 | ¥4.9 | ★★★ |
-| OpenCode Go | GPT-6-Luna / MiMo-V2.6-Flash / Grok-4.7 / GLM-5.3-Flash / GLM-5.3 / GLM-5.2 / GPT-5.6-Luna / Kimi-K3 / DeepSeek-V4.1-Flash / Qwen3.8-Flash / Hy4-Preview 等45款·LongCat 2.5 Preview Free / Step 5 Preview Free 限时免费·Space Bunny 已转付费（⚠️国内 Muse Spark 1.2/1.3 不可调用·MiniMax-M2.5/GLM-5.1 已于9.28下架移除） | 2 | $10 | ★★★★ |
+| OpenCode Go | GPT-6-Luna / MiMo-V2.6-Flash / Grok-4.7 / GLM-5.3-Flash / GLM-5.3 / GLM-5.2 / GPT-5.6-Luna / Kimi-K3 / DeepSeek-V4.1-Flash / Qwen3.8-Flash / Hy4-Preview 等45款·LongCat 2.5 Preview Free / Step 5 Preview Free 限时免费·Space Bunny 已转付费（⚠️国内 Muse Spark 1.2/1.3 不可调用·MiniMax-M2.5/GLM-5.1 已于9.28下架移除） | 2 | $10 | ★★★½ |
 | 阿里·Token Plan | Qwen3.8-Max / Qwen3.8-Flash / Qwen3.7-Max / Qwen3.7-Plus / Qwen3.6-Flash / DeepSeek-V4-Pro / GLM-5.2 / GLM-5.3 / Wan2.7-Image / HappyHorse-1.1 等（09.24 新增 GLM-5.2/Qwen3.6-Flash 等） | 9 | ¥39 | ★★★ |
 | 超算互联网·Token | GLM-5.3 / Qwen3.8-Max / DeepSeek-V4-Pro / Kimi-K3 | 4 | ¥30 | ★★★ |
 | TaoToken | DeepSeek-V4-Pro / Kimi-K3 / GLM-5.3 等 10 款 | 3 | ¥59 | ★★★ |
