@@ -16,7 +16,7 @@
 
 > **更新日志**（每分类仅保留最新一条·完整历史见 git log）
 >
-- **Coding**（2026.10.10）（OpenCode Go 评分 4★→3.5★：存在恶意降低缓存命中率的情况；模型目录 43→45 款：Claude Haiku 5.5 与 Step 5 Preview Free 正式入列；Charm Hyper 目录 23→21 款：移除 DeepSeek-V4/V4-Pro 基础版；腾讯 GLM-5 下线日期已过文档未移除；其余 22 平台经核对无变化）
+- **Coding**（2026.10.10）（CommandCode 评分 4★→3.5★：GOAT 近期可能存在异常扣费情况；OpenCode Go 评分 4★→3.5★：存在恶意降低缓存命中率的情况；模型目录 43→45 款：Claude Haiku 5.5 与 Step 5 Preview Free 正式入列；Charm Hyper 目录 23→21 款：移除 DeepSeek-V4/V4-Pro 基础版；腾讯 GLM-5 下线日期已过文档未移除；其余 22 平台经核对无变化）
 - **Token**（2026.10.10）（OpenCode Go 评分 4★→3.5★：存在恶意降低缓存命中率的情况；8 个监控条目经核对无变化）
 - **Video**（2026.10.10）（Vidu Q4改版大调价：专业月付259→299·旗舰月付699→1698·年付旗舰6710→16998·积分4000→3500/8000→20000；即梦双节活动延至10.10；其余经核对无变化；海螺AI/pai.video/RunningHub 登录墙·双源佐证无新证据）
 - **Image**（2026.10.10）（Liblib 节后回归特惠：年会员最高立减300元+加赠1个月·Seedance 2.5 720P 低至0.35元/秒；OpenArt 活动横幅更新：Wonder 卡 Flux 3 720P 无限视频至10.31；其余经核对无变化；RunningHub 登录墙·双源佐证无新证据）
@@ -82,7 +82,7 @@ https://ai.hsnb.fun/aiplanhub
 | 国家超算互联网 | MiniMax-M2.5 / Qwen3-235B-A22B | 2 | ¥20 | ★★ |
 | 优云智算 | GLM-5.2 / DeepSeek-V4-Pro / DeepSeek-V4-Flash / Qwen3.6-Plus / MiniMax-M2.7 / Kimi-K2.6 | 6 | ¥49 | ★★ |
 | OpenStarry | 体验套餐 ¥5/月·20次 · 星序版 ¥9.9/月·2,000次 · 星创版 ¥49.9/月·10,000次（GLM-5.2/Kimi-K3） | 月付起¥5 | 旗舰 GLM-5.2/Kimi-K3 | — | ★ |
-| CommandCode | GLM-5.3 / Gemini 3.7 Flash / GPT-5.6 Luna / Claude Sonnet 5 / Grok 4.6 | 5 | $1 | ★★★★ |
+| CommandCode | GLM-5.3 / Gemini 3.7 Flash / GPT-5.6 Luna / Claude Sonnet 5 / Grok 4.6 | 5 | $1 | ★★★½ |
 | OpenCode Go | GLM-5.3 / GLM-5.2 / Kimi-K3 / DeepSeek-V4.1-Flash / Step 5 Preview（10.09新增·限时免费）/ Claude Haiku 5.5 / Qwen3.8-Max / MiniMax-M3 / LongCat 2.5 Preview（限时免费）/ Space Bunny（已转付费）等32款 | 2 | $10 | ★★★½ |
 
 ### 入门级（人民币月付 ≤ ¥50）
