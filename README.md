@@ -17,7 +17,7 @@
 > **更新日志**（每分类仅保留最新一条·完整历史见 git log）
 >
 - **Coding**（2026.10.12）（OpenCode Go 模型目录 45→38 款：移除 Grok-4.5/GLM-5/Kimi-K2.5/MiMo-V2-Pro/MiMo-V2-Omni/Qwen3.5-Plus/Hy3-Preview·DS-V4-Flash 请求数 7,600→13,000/5h·价格不变；联通云 文档模型表移除 DeepSeek-V4-Pro；TaoToken Lite ¥39 恢复可购；讯飞星辰 文档目录新增 Kimi-K2.7-Code；其余 23 平台经核对无变化）
-- **Token**（2026.10.11）（8 个监控条目经核对无变化）
+- **Token**（2026.10.12）（8 个监控条目经核对无变化·SCNet 基础版模型数标签修正 16款→19款）
 - **Video**（2026.10.11）（OpenArt Wonder 无限生成换 Flux 3 720p 至10.31·Seedance 限时折扣至10.14；即梦 10.10 已过活动价 10.11 核验仍显示；可灵/Vidu/通义万相/腾讯混元经核对无变化；海螺AI/pai.video/RunningHub 登录墙·双源佐证无新证据）
 - **Image**（2026.10.11）（Midjourney/Liblib/通义万相/OpenArt 经核对无变化；堆友价格经官方云市场核验无变化；RunningHub 登录墙·双源佐证无新证据）
 - **Audio**（2026.10.11）（Suno/Udio/Ace Studio 经核对无变化；海螺AI 登录墙未获取·双源无新证据）
