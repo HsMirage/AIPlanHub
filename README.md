@@ -20,7 +20,7 @@
 - **Token**（2026.10.12）（8 个监控条目经核对无变化·SCNet 基础版模型数标签修正 16款→19款）
 - **Video**（2026.10.12）（海螺AI 权益对比表确认 MiniMax H3/H3 Max 全档可用·各档权益补录；OpenArt Wonder Seedance 折扣修正为8折/5折档(至10.14)；可灵/Vidu/即梦/通义万相/腾讯混元经核对无变化；pai.video/RunningHub 登录墙·双源佐证无新证据）
 - **Image**（2026.10.11）（Midjourney/Liblib/通义万相/OpenArt 经核对无变化；堆友价格经官方云市场核验无变化；RunningHub 登录墙·双源佐证无新证据）
-- **Audio**（2026.10.11）（Suno/Udio/Ace Studio 经核对无变化；海螺AI 登录墙未获取·双源无新证据）
+- **Audio**（2026.10.12）（Suno/Udio/Ace Studio 经核对无变化；海螺AI 登录墙未获取·双源无新证据）
 - 其他：中转站 2026.08.15（THINK-AI已下架·仅保留幻境MirageAI·幻境充值链接更新）·已下架归档 2026.08.19（新增无问芯穹/天翼云/百度千帆经典CodingPlan）·价格对比 2026.07.06 新增
 
 ---
