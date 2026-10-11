@@ -16,7 +16,7 @@
 
 > **更新日志**（每分类仅保留最新一条·完整历史见 git log）
 >
-- **Coding**（2026.10.11）（OpenDesign Design Plan 每月额度全线翻倍：总额度 $60/$100/$300/$600→$120/$180/$480/$900·价格不变；xKiro 模型目录 130→129 款：移除 SenseNova 6.7 Flash-Lite；阿里·百炼 文档模型列表 10→6 款：移除 qwen3-max/coder-next/coder-plus/GLM-4.7；其余 24 平台经核对无变化）
+- **Coding**（2026.10.11）（OpenDesign 评分卡重写（用户拍板 3 点）：模型面随档位解锁·DS-V4.1-Flash Go 档月额度 $120 但按固定峰值价计费·个人推荐最低档 Go + DS-V4.1-Flash；OpenDesign Design Plan 每月额度全线翻倍：总额度 $60/$100/$300/$600→$120/$180/$480/$900·价格不变·DS-V4.1-Flash 额度表 72,800→145,600 次/7天·三限时活动上横幅（DS-V4.1 低至0元/GPT-6.1 Sol 用量加倍/Fable 5.1 Pro/Max）；xKiro 模型目录 130→129 款：移除 SenseNova 6.7 Flash-Lite；阿里·百炼 文档模型列表 10→6 款：移除 qwen3-max/coder-next/coder-plus/GLM-4.7；其余 24 平台经核对无变化）
 - **Token**（2026.10.11）（8 个监控条目经核对无变化）
 - **Video**（2026.10.11）（OpenArt Wonder 无限生成换 Flux 3 720p 至10.31·Seedance 限时折扣至10.14；即梦 10.10 已过活动价 10.11 核验仍显示；可灵/Vidu/通义万相/腾讯混元经核对无变化；海螺AI/pai.video/RunningHub 登录墙·双源佐证无新证据）
 - **Image**（2026.10.11）（Midjourney/Liblib/通义万相/OpenArt 经核对无变化；堆友价格经官方云市场核验无变化；RunningHub 登录墙·双源佐证无新证据）
@@ -186,10 +186,10 @@ https://ai.hsnb.fun/aiplanhub
 | WM AI | Tier C | $24 | — | 5h $12 · 周 $84 | [开通](https://wenming7.com/sales?ref=KVH95UU8) |
 | WM AI | Tier D | $60 | — | 5h $30 · 周 $210 | [开通](https://wenming7.com/sales?ref=KVH95UU8) |
 | WM AI | Tier E | $120 | — | 5h $60 · 周 $420 | [开通](https://wenming7.com/sales?ref=KVH95UU8) |
-| OpenDesign | Go（Design Plan 12款·每月最高总额度 $120·10.11翻倍·API 接 Codex/Claude Code/OpenCode/Hermes） | $10（首月$8·次月起$10） | $8 | 月额度 $120 | [开通](https://open-design.ai/zh/pricing/) |
+| OpenDesign | Go（Design Plan 12款·每月最高总额度 $120·主力 DS-V4.1-Flash 月额度 $120·固定峰值价计费·API 接 Codex/Claude Code/OpenCode/Hermes） | $10（首月$8·次月起$10） | $8 | 月额度 $120 | [开通](https://open-design.ai/zh/pricing/) |
 | OpenDesign | Plus（+Sonnet 5.5/GPT-6 Sol/Grok 4.7/Kimi K3·套餐模型 $20） | $20（首月$16） | $16 | 月额度 $180 | [开通](https://open-design.ai/zh/pricing/) |
-| OpenDesign | Pro（套餐模型 20款·6倍用量 $120·Design Plan 赠$360） | $100（首月$70） | $70 | 月额度 $480 | [开通](https://open-design.ai/zh/pricing/) |
-| OpenDesign | Max（套餐模型 20款·15倍用量 $300·Design Plan 赠$600·高峰优先） | $200（首月$120） | $120 | 月额度 $900 | [开通](https://open-design.ai/zh/pricing/) |
+| OpenDesign | Pro（套餐模型 20款·6倍用量 $120） | $100（首月$70） | $70 | 月额度 $480 | [开通](https://open-design.ai/zh/pricing/) |
+| OpenDesign | Max（套餐模型 20款·15倍用量 $300·高峰优先） | $200（首月$120） | $120 | 月额度 $900 | [开通](https://open-design.ai/zh/pricing/) |
 
 ---
 
