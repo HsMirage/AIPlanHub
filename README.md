@@ -19,7 +19,7 @@
 - **Coding**（2026.10.14）（字节·方舟模型表更新：Doubao 2.1-turbo/2.0-lite 下架移除·Kimi-K2.7-Code 标注即将下线；OpenCode Go 新增匿名免费模型 Cat Jam Free·38→39款；CommandCode DEAL：DS-V4.1-Flash boosted GOAT/Pro $100（至10.16）；MiniMax 新增 M2.5/M2.7 下线通知（10.19 路由 M3.1·11.18 下线）；TaoToken 新轮开启单月三档可抢购；其余 22 平台经核对无变化）
 - **Token**（2026.10.14）（阿里·Token Plan 个人版模型表新增 Wan3.0-Video；OpenCode Go 模型 32→33款·新增 Cat Jam Free 限时免费；Alaya Code 三档个人套餐售罄解除·恢复正常售卖；其余经核对无变化）
 - **Video**（2026.10.13）（九家经核对无变化；RunningHub vip-rights 登录墙·主站补贴横幅延至10.31）
-- **Image**（2026.10.13）（六平台经核对无变化；堆友价格经官方云市场四商品页核验无变化；RunningHub 登录墙·双源佐证无新证据）
+- **Image**（2026.10.14）（Liblib 至尊版 Seedance 2.5 有参折扣加深 5折→3.4折·低至0.19元/秒；堆友经官方云市场核验无变化；RunningHub 登录墙）
 - **Audio**（2026.10.14）（Suno/Udio/Ace Studio 官方定价页经核对无变化；海螺AI 登录墙·双源无中国区音频订阅定价变化证据）
 - 其他：中转站 2026.08.15（THINK-AI已下架·仅保留幻境MirageAI·幻境充值链接更新）·已下架归档 2026.08.19（新增无问芯穹/天翼云/百度千帆经典CodingPlan）·价格对比 2026.07.06 新增
 
