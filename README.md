@@ -16,7 +16,7 @@
 
 > **更新日志**（每分类仅保留最新一条·完整历史见 git log）
 >
-- **Coding**（2026.10.14）（字节·方舟模型表更新：Doubao 2.1-turbo/2.0-lite 下架移除·Kimi-K2.7-Code 标注即将下线；OpenCode Go 新增匿名免费模型 Cat Jam Free·38→39款；CommandCode DEAL：DS-V4.1-Flash boosted GOAT/Pro $100（至10.16）；MiniMax 新增 M2.5/M2.7 下线通知（10.19 路由 M3.1·11.18 下线）；TaoToken 新轮开启单月三档可抢购；其余 22 平台经核对无变化）
+- **Coding**（2026.10.16）（⚠️Charm Hyper 套餐线重大改版：旧 Free/Subscription/Bundle 换成 Shred 五档（$10/$20/$50/$100/$200·周刷新+5h滚动限流+并发限制）+Business 五档（团队·ZDR）+PAYG；同价 $20 档额度 250积分/日≈$375/月 → 250积分/周≈$54/月（≈1/7）；Bundle 缩水 60-80%；模型目录 21→22 款新增自研路由 Prism；评分 3.5→1星）
 - **Token**（2026.10.15）（OpenCode Go 模型 33→32款：DeepSeek-V4-Flash/Vision-Exp 移除·新增 Gemini 4 Argon Contributor 限时2x；阿里·Token Plan 个人版模型表新增 Decision-Model-Preview；其余经核对无变化）
 - **Video**（2026.10.15）（九家经核对无变化）
 - **Image**（2026.10.15）（经核对无变化）
@@ -63,7 +63,7 @@ https://ai.hsnb.fun/aiplanhub
 | 稳明光语纪 | GLM-5.3 / DeepSeek-V4-Flash-0731 | 1 | ¥45 | ★★½ |
 | WM AI | GLM-5.3 / DeepSeek-V4.1-Flash（1×直用）/ Claude Opus 5 / GPT-5.6 Sol / Kimi-K3 等33款 | 6 | $0 | ★★★★ |
 | 字节·方舟 | GLM-5.3 / GLM-5.3-Flash / Kimi-K3 / Kimi-K2.8-Preview / DeepSeek-V4.1-Flash / Doubao-Seed-2.1-pro / Doubao-Seed-2.1-lite / Doubao-Seed-Evolving / Kimi-K2.7-Code（即将下线） | 2 | ¥40 | ★★★ |
-| Charm Hyper | GLM-5.3 / GLM-5.3-Flash / Qwen3.8-Flash / Qwen3.8-Max / DeepSeek-V4-Pro-0813 / DeepSeek-V4-Flash-0731 / Kimi-K3 / Kimi-K2-Thinking（10.10 目录 23→21 款：移除 DeepSeek-V4/V4-Pro 基础版） | 5 | $0 | ★★★½ |
+| Charm Hyper | GLM-5.3 / GLM-5.3-Flash / Qwen3.8-Flash / Qwen3.8-Max / DeepSeek-V4-Pro-0813 / DeepSeek-V4-Flash-0731 / Kimi-K3 / Kimi-K2-Thinking / Prism（10.16 目录 21→22 款：新增 Charm 自研路由模型 Prism·1M 上下文） | 9 | $0 | ★ |
 | Meituan CatPaw | — | 1 | 免费 | ★★★★ |
 | Kimi | Kimi-K3 / Kimi-K2.7-Code（10.13套餐更名 Go/Plus/Pro/Max·Go 档不含 Kimi Code） | 4 | ¥39 | ★★½ |
 | 阿里·百炼 | Qwen3.6-Plus | 1 | ¥200 | ★★★ |
@@ -133,10 +133,14 @@ https://ai.hsnb.fun/aiplanhub
 | 国家超算互联网 | Pro | ¥100 | — | 6,000 | [开通](https://www.scnet.cn/ac/openapi/doc/2.0/moduleapi/codingplan/subscriptionnotice.html) |
 | 阶跃星辰 | Flash Plus | ¥99 | — | 6,000 | [开通](https://platform.stepfun.com/?invite_code_v2=RCXWKOFD) |
 | 快手 StreamLake | Pro | ¥140 | — | 300 Prompts | [开通](https://www.streamlake.com) |
-| Charm Hyper | Subscription | $20 | — | — | [开通](https://hyper.charm.land/) |
+| Charm Hyper | Shred Diet | $10 | — | — | [开通](https://hyper.charm.land/) |
+| Charm Hyper | Shred Classic | $20 | — | — | [开通](https://hyper.charm.land/) |
+| Charm Hyper | Shred Energy | $50 | — | — | [开通](https://hyper.charm.land/) |
+| Charm Hyper | Shred Nitro | $100 | — | — | [开通](https://hyper.charm.land/) |
+| Charm Hyper | Shred Animal | $200 | — | — | [开通](https://hyper.charm.land/) |
 | Charm Hyper | Bundle $5 | $5(一次) | — | — | [开通](https://hyper.charm.land/) |
-| Charm Hyper | Bundle $10 | $10(一次) | — | — | [开通](https://hyper.charm.land/) |
-| Charm Hyper | Bundle $20 | $20(一次) | — | — | [开通](https://hyper.charm.land/) |
+| Charm Hyper | Bundle $10 | $10(一次) | — | — | [开通](https://hyper.charm.land/)（改版后 200积分·旧 500） |
+| Charm Hyper | Bundle $20 | $20(一次) | — | — | [开通](https://hyper.charm.land/)（改版后 400积分·旧 2,000） |
 | OpenStarry | 星序版(¥9.9/月·2,000次/月) | ¥9.9 | 赠200次 | 不限 | [开通](https://api.openstarry.com/?aff=X31B) |
 | OpenStarry | 星创版(¥49.9/月·10,000次/月) | ¥49.9 | 赠200次 | 不限 | [开通](https://api.openstarry.com/?aff=X31B) |
 | OpenStarry | 体验套餐(¥5/月·20次/月) | ¥5 | 赠200次 | 不限 | [开通](https://api.openstarry.com/?aff=X31B) |
