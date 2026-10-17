@@ -16,7 +16,7 @@
 
 > **更新日志**（每分类仅保留最新一条·完整历史见 git log）
 >
-- **Coding**（2026.10.16）（⚠️Charm Hyper 套餐线重大改版：旧 Free/Subscription/Bundle 换成 Shred 五档（$10/$20/$50/$100/$200·周刷新+5h滚动限流+并发限制）+Business 五档（团队·ZDR）+PAYG；同价 $20 档额度 250积分/日≈$375/月 → 250积分/周≈$54/月（≈1/7）；Bundle 缩水 60-80%；模型目录 21→22 款新增自研路由 Prism；评分 3.5→1星）
+- **Coding**（2026.10.17）（WM AI 评分 4★→3.5★（用户拍板）·评分卡删除「同价位少见」宣传语；套餐价格/额度/模型目录无变化）
 - **Token**（2026.10.15）（OpenCode Go 模型 33→32款：DeepSeek-V4-Flash/Vision-Exp 移除·新增 Gemini 4 Argon Contributor 限时2x；阿里·Token Plan 个人版模型表新增 Decision-Model-Preview；其余经核对无变化）
 - **Video**（2026.10.15）（九家经核对无变化）
 - **Image**（2026.10.15）（经核对无变化）
@@ -61,7 +61,7 @@ https://ai.hsnb.fun/aiplanhub
 | 智谱AI | GLM-5.3 / GLM-5.3-Flash | 3 | ¥118 | ★★½ |
 
 | 稳明光语纪 | GLM-5.3 / DeepSeek-V4-Flash-0731 | 1 | ¥45 | ★★½ |
-| WM AI | GLM-5.3 / DeepSeek-V4.1-Flash（1×直用）/ Claude Opus 5 / GPT-5.6 Sol / Kimi-K3 等33款 | 6 | $0 | ★★★★ |
+| WM AI | GLM-5.3 / DeepSeek-V4.1-Flash（1×直用）/ Claude Opus 5 / GPT-5.6 Sol / Kimi-K3 等33款 | 6 | $0 | ★★★½ |
 | 字节·方舟 | GLM-5.3 / GLM-5.3-Flash / Kimi-K3 / Kimi-K2.8-Preview / DeepSeek-V4.1-Flash / Doubao-Seed-2.1-pro / Doubao-Seed-2.1-lite / Doubao-Seed-Evolving / Kimi-K2.7-Code（即将下线） | 2 | ¥40 | ★★★ |
 | Charm Hyper | GLM-5.3 / GLM-5.3-Flash / Qwen3.8-Flash / Qwen3.8-Max / DeepSeek-V4-Pro-0813 / DeepSeek-V4-Flash-0731 / Kimi-K3 / Kimi-K2-Thinking / Prism（10.16 目录 21→22 款：新增 Charm 自研路由模型 Prism·1M 上下文） | 9 | $0 | ★ |
 | Meituan CatPaw | — | 1 | 免费 | ★★★★ |
