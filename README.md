@@ -16,7 +16,7 @@
 
 > **更新日志**（每分类仅保留最新一条·完整历史见 git log）
 >
-- **Coding**（2026.10.17）（WM AI 评分 4★→3★（用户拍板）·问题：缓存计费存在问题·评分卡删除「缓存命中按缓存价计」并写入问题项·Tier A note 同步标注；套餐价格/额度/模型目录无变化）
+- **Coding**（2026.10.18）（xKiro 评分 4★→3★（用户拍板）·GLM 模型下降+套餐涨价，失去一定的性价比·API 权威源两次一致：目录 129→107 款，GLM 全系 17 款整体下线·智谱模型归零·价格/周额度不变）
 - **Token**（2026.10.15）（OpenCode Go 模型 33→32款：DeepSeek-V4-Flash/Vision-Exp 移除·新增 Gemini 4 Argon Contributor 限时2x；阿里·Token Plan 个人版模型表新增 Decision-Model-Preview；其余经核对无变化）
 - **Video**（2026.10.15）（九家经核对无变化）
 - **Image**（2026.10.15）（经核对无变化）
@@ -56,7 +56,7 @@ https://ai.hsnb.fun/aiplanhub
 | 平台 | 代表模型 | 方案数 | 月付起 | 评分 |
 |------|----------|--------|--------|------|
 | ChatGPT | GPT-5.4 / GPT-Image-2 / GPT-5.3-Codex | 2 | ¥26.6 | ★★★★★ |
-| xKiro | GPT-6 Astra / GPT-6.1 Sol / Grok 4.7 / MiMo v2.6 Pro / MiMo v2.6 Flash / GLM-5.3 / LongCat 2.0 / Space Bunny Alpha / MiniMax M3 / Qwen3.8 Max / Gemini 3.8 Flash 等129款 | 6 | $0 | ★★★★ |
+| xKiro | GPT-6 Astra / GPT-6.1 Sol / Grok 4.7 / MiMo v2.6 Pro / MiMo v2.6 Flash / Opus 5.5 / Sonnet 5.5 / LongCat 2.0 / MiniMax M3 / Qwen3.8 Max / Gemini 3.8 Flash / DeepSeek V4.1 Flash 等107款（10.18 GLM 全系17款下线·智谱模型归零） | 6 | $0 | ★★★ |
 | 商汤SenseNova | SenseNova 6.8 Flash Lite / SenseNova U1.5 Lite / SenseNova U1.5 Fast / DeepSeek V4.1 Flash / DeepSeek V4 Flash / GLM-5.2 / Kimi K3 | 1 | 免费 | ★★★★★ |
 | 智谱AI | GLM-5.3 / GLM-5.3-Flash | 3 | ¥118 | ★★½ |
 
