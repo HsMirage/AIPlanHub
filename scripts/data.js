@@ -642,7 +642,7 @@ const RATINGS = [
   },
   {
     name: 'MiniMax', score: 2,
-    reasons: ['没了价格优势，但是也没变厉害！', '10.1 三档更名 Go/Explore/Build·价格不动纯换皮', '10.02 文本模型缩水至 M3.1 Flash Preview 一款·付费档单模型全站独一份', 'Go ¥49/Explore ¥119/Build ¥469·年付省2月·首月5折至10.14', 'Go 不含视频·Explore/Build 含 H3·月6~55亿 token']
+    reasons: ['没了价格优势，但是也没变厉害！', '10.1 三档更名 Go/Explore/Build·价格不动纯换皮', '10.02 文本模型缩水至 M3.1 Flash Preview 一款·付费档单模型全站独一份·M2.5/M2.7 于10.19起停新用户·11.18正式下线', 'Go ¥49/Explore ¥119/Build ¥469·年付省2月·首月5折已于10.14到期(10.19核对无折扣)', 'Go 不含视频·Explore/Build 含 H3·月6~55亿 token']
   },
   {
     name: '字节·方舟', score: 3,
