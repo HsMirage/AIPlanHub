@@ -16,7 +16,7 @@
 
 > **更新日志**（每分类仅保留最新一条·完整历史见 git log）
 >
-- **Coding**（2026.10.18）（xKiro 评分 4★→3★（用户拍板）·GLM 模型下降+套餐涨价，失去一定的性价比·API 权威源两次一致：目录 129→107 款，GLM 全系 17 款整体下线·智谱模型归零·价格/周额度不变）
+- **Coding**（2026.10.18）（xKiro 评分 4★→3★（用户拍板）·GLM 模型下降+套餐涨价，失去一定的性价比·API 权威源两次一致：目录 129→107 款，GLM 全系 17 款整体下线·智谱模型归零·评分卡补 ModelTrace 指纹掺水报告（Sonnet 5.5 通道疑匹配 gpt-5.6-luna·第三方报告未亲验）·GitHub issue #2/#3/#4/#5 已回复关闭·价格/周额度不变）
 - **Token**（2026.10.15）（OpenCode Go 模型 33→32款：DeepSeek-V4-Flash/Vision-Exp 移除·新增 Gemini 4 Argon Contributor 限时2x；阿里·Token Plan 个人版模型表新增 Decision-Model-Preview；其余经核对无变化）
 - **Video**（2026.10.15）（九家经核对无变化）
 - **Image**（2026.10.15）（经核对无变化）
