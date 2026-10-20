@@ -17,7 +17,7 @@
 > **更新日志**（每分类仅保留最新一条·完整历史见 git log）
 >
 - **Coding**（2026.10.21）（用户拍板：OpenDesign 评分 4★→4.5★）
-- **Token**（2026.10.19）（OpenCode Go Gemini 4 Argon Contributor 限时2x生效：Go档月额度 $30→$60·Go Plus档 $120→$240（请求数同步翻倍）·限时至11.30；腾讯·Token MiniMax-M2.7 将于11.17下线；OpenCode Go 文档模型目录 32→29 款（Kimi-K2.6/MiniMax-M2.7/Grok-4.6 移除·urllib 直连源站+英文版双通道确认）；其余经核对无变化）
+- **Token**（2026.10.21）（腾讯·Token/阿里·Token Plan/小米·MiMo/OpenCode Go/天翼云·Token/Alaya Code/TaoToken/超算互联网·Token（SCNet） 官方页经核对无变化）
 - **Video**（2026.10.20）（即梦双11首3月加赠积分上调：高级2460→3700共得16020积分/月·超级新增41460共得96060积分/月；其余八家经核对无变化）
 - **Image**（2026.10.20）（即梦双11按账期区分核验（与 Video 共享统一会员体系）：包季加赠1个月会员+首月+2460积分共得14780积分/月·秒价高级¥0.45/超级¥0.27；包年首3月+3700积分共得16020积分/月·秒价高级¥0.43/超级¥0.19；Liblib AI 六档·Midjourney 四档·通义万相·OpenArt·堆友四档官方核验一致；RunningHub 登录墙·双源无新证据）
 - **Audio**（2026.10.21）（Suno/Udio/Ace Studio/海螺AI 官方页经核对无变化）
