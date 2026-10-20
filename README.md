@@ -16,7 +16,7 @@
 
 > **更新日志**（每分类仅保留最新一条·完整历史见 git log）
 >
-- **Coding**（2026.10.21）（智谱AI/z.ai/AtomCode/xKiro 页面有变动但价格/档位/额度/模型经核对均未变·讯飞星辰登录态套餐卡未渲染证据不足未改动）
+- **Coding**（2026.10.21）（智谱AI/z.ai/AtomCode/xKiro 官方页经核对无变化·价格档位额度模型均未变·页面差异仅为活动文案与每日名额计数）
 - **Token**（2026.10.21）（腾讯·Token/阿里·Token Plan/小米·MiMo/OpenCode Go/天翼云·Token/Alaya Code/TaoToken/超算互联网·Token（SCNet） 官方页经核对无变化）
 - **Video**（2026.10.21）（快手可灵/Vidu/海螺AI/腾讯混元/通义万相/OpenArt/即梦 官方页经核对无变化·抓取失败 pai.video/RunningHub）
 - **Image**（2026.10.21）（Midjourney/通义万相/堆友/OpenArt/Liblib AI 官方页经核对无变化·抓取失败 RunningHub）
