@@ -16,7 +16,7 @@
 
 > **更新日志**（每分类仅保留最新一条·完整历史见 git log）
 >
-- **Coding**（2026.10.21）（智谱AI/z.ai/AtomCode/xKiro 官方页经核对无变化·CommandCode 免费清单换成 Ornith 1.5 122B 限时免费、去掉 Ling 两款，价格档位额度未变）
+- **Coding**（2026.10.21）（智谱AI/z.ai/AtomCode/xKiro 官方页经核对无变化·CommandCode 免费模型去掉 Ling 3.0/3.1、新增 Ornith 1.5 122B 与 MiniMax M3.1 Flash（GOAT/Pro/Max 另加 TypeSafe Jev），五档价格额度未变·OpenCode Go 文档模型清单 29 款与本地 37 款不符、仅单源待 API 复核未改·WM AI 页面恢复渲染但每档支持模型 17 款与本地 23 款不符未改）
 - **Token**（2026.10.21）（OpenCode Go 模型目录 Space Bunny 下架·新增 MiniMax M3.1 Flash Free（限时免费·无限制）·Go/Go Plus 价格与额度不变）
 - **Video**（2026.10.21）（即梦页面内容有变但仅应用首页、无价格权益可读信息·证据不足未改动·评分复核维持4★·快手可灵/Vidu/海螺AI/腾讯混元/通义万相/OpenArt 官方页经核对无变化·pai.video/RunningHub 抓取失败无证据）
 - **Image**（2026.10.21）（Midjourney/通义万相/堆友/OpenArt/Liblib AI 官方页经核对无变化·抓取失败 RunningHub）
