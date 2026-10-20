@@ -16,7 +16,7 @@
 
 > **更新日志**（每分类仅保留最新一条·完整历史见 git log）
 >
-- **Coding**（2026.10.21）（AtomCode 评分卡名额 800→2,000/日修正·xKiro 页面文案微调但六档价格/周额度/免费额度经核对无变化·其余 25 平台指纹未变·无抓取失败）
+- **Coding**（2026.10.21）（智谱AI/z.ai/AtomCode/xKiro 页面有变动但价格/档位/额度/模型经核对均未变·讯飞星辰登录态套餐卡未渲染证据不足未改动）
 - **Token**（2026.10.21）（腾讯·Token/阿里·Token Plan/小米·MiMo/OpenCode Go/天翼云·Token/Alaya Code/TaoToken/超算互联网·Token（SCNet） 官方页经核对无变化）
 - **Video**（2026.10.21）（快手可灵/Vidu/海螺AI/腾讯混元/通义万相/OpenArt/即梦 官方页经核对无变化·抓取失败 pai.video/RunningHub）
 - **Image**（2026.10.21）（Midjourney/通义万相/堆友/OpenArt/Liblib AI 官方页经核对无变化·抓取失败 RunningHub）
