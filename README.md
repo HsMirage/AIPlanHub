@@ -16,7 +16,7 @@
 
 > **更新日志**（每分类仅保留最新一条·完整历史见 git log）
 >
-- **Coding**（2026.10.21）（智谱AI/z.ai/AtomCode/xKiro 官方页经核对无变化·价格档位额度模型均未变·页面差异仅为活动文案与每日名额计数）
+- **Coding**（2026.10.21）（智谱AI/z.ai/AtomCode/xKiro 官方页经核对无变化·CommandCode 免费清单换成 Ornith 1.5 122B 限时免费、去掉 Ling 两款，价格档位额度未变）
 - **Token**（2026.10.21）（腾讯·Token/阿里·Token Plan/小米·MiMo/OpenCode Go/天翼云·Token/Alaya Code/TaoToken/超算互联网·Token（SCNet） 官方页经核对无变化）
 - **Video**（2026.10.21）（即梦创作页仅见会员低至4.5折与40积分·无套餐价格/档位/额度新值·证据不足未改动·评分复核维持4分·快手可灵/Vidu/海螺AI/腾讯混元/通义万相/OpenArt经核对无变化·pai.video/RunningHub登录墙仅搜到线索无证据）
 - **Image**（2026.10.21）（Midjourney/通义万相/堆友/OpenArt/Liblib AI 官方页经核对无变化·抓取失败 RunningHub）
