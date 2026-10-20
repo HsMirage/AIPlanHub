@@ -16,7 +16,7 @@
 
 > **更新日志**（每分类仅保留最新一条·完整历史见 git log）
 >
-- **Coding**（2026.10.20）（用户拍板：OpenDesign 评分 3.5★→4★；OpenCode Go 移除 Space Bunny·新增 MiniMax M3.1 Flash Free·限时免费增至 3 款；Charm Hyper 模型目录 22→23 款·Gemma4-26B 更名·新增 DeepSeek-V4.1-Flash-1017；CommandCode 新增 Provider API $15 与 Teams $40 两档；OpenDesign Pro 档套餐模型 12 款全解锁·新增团队版；其余 23 平台经核对无变化）
+- **Coding**（2026.10.21）（用户拍板：OpenDesign 评分 4★→4.5★）
 - **Token**（2026.10.19）（OpenCode Go Gemini 4 Argon Contributor 限时2x生效：Go档月额度 $30→$60·Go Plus档 $120→$240（请求数同步翻倍）·限时至11.30；腾讯·Token MiniMax-M2.7 将于11.17下线；OpenCode Go 文档模型目录 32→29 款（Kimi-K2.6/MiniMax-M2.7/Grok-4.6 移除·urllib 直连源站+英文版双通道确认）；其余经核对无变化）
 - **Video**（2026.10.20）（即梦双11首3月加赠积分上调：高级2460→3700共得16020积分/月·超级新增41460共得96060积分/月；其余八家经核对无变化）
 - **Image**（2026.10.20）（即梦双11按账期区分核验（与 Video 共享统一会员体系）：包季加赠1个月会员+首月+2460积分共得14780积分/月·秒价高级¥0.45/超级¥0.27；包年首3月+3700积分共得16020积分/月·秒价高级¥0.43/超级¥0.19；Liblib AI 六档·Midjourney 四档·通义万相·OpenArt·堆友四档官方核验一致；RunningHub 登录墙·双源无新证据）
@@ -84,7 +84,7 @@ https://ai.hsnb.fun/aiplanhub
 | OpenStarry | 体验套餐 ¥5/月·20次 · 星序版 ¥9.9/月·2,000次 · 星创版 ¥49.9/月·10,000次（GLM-5.2/Kimi-K3） | 月付起¥5 | 旗舰 GLM-5.2/Kimi-K3 | — | ★ |
 | CommandCode | GLM-5.3 / Gemini 3.7 Flash / GPT-5.6 Luna / Claude Sonnet 5 / Grok 4.6 | 7 | $1 | ★★★½ |
 | OpenCode Go | GLM-5.3 / GLM-5.2 / Kimi-K3 / DeepSeek-V4.1-Flash / Gemini 4 Argon Contributor（10.19 限时2x：Go $60·Go Plus $240）/ Claude Haiku 5.5 / Qwen3.8-Max / MiniMax-M3 / Beam Free（限时免费）/ LongCat 2.5 Preview Free（限时免费）/ Step 5 Preview（10.19 转付费·4倍限时）/ Space Bunny（10.20 已下架）等29款（10.20：Space Bunny 移除·新增 MiniMax M3.1 Flash Free 限时免费；10.19：Kimi-K2.6/MiniMax-M2.7/Grok-4.6 移除·32→29款） | 2 | $10 | ★★★★ |
-| OpenDesign | GLM-5.3-Flash-X / DeepSeek-V4.1-Flash / MiMo-V2.6-Flash / GLM-5.3-Flash / Kimi-K2.7-Code / Claude-Haiku-5.5 / GPT-6-Luna（Design Plan 12款·Design Plan 每月最高 $120/$180/$480/$900·⭐10.20 Pro 档套餐模型 12 款全解锁·10.11额度全线翻倍·API 可接 Codex/Claude Code/OpenCode/Hermes·7天窗口·另有团队版 $63/$105 每席/月） | 4 | $10 | ★★★★ |
+| OpenDesign | GLM-5.3-Flash-X / DeepSeek-V4.1-Flash / MiMo-V2.6-Flash / GLM-5.3-Flash / Kimi-K2.7-Code / Claude-Haiku-5.5 / GPT-6-Luna（Design Plan 12款·Design Plan 每月最高 $120/$180/$480/$900·⭐10.20 Pro 档套餐模型 12 款全解锁·10.11额度全线翻倍·API 可接 Codex/Claude Code/OpenCode/Hermes·7天窗口·另有团队版 $63/$105 每席/月） | 4 | $10 | ★★★★½ |
 
 ### 入门级（人民币月付 ≤ ¥50）
 
