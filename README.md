@@ -16,7 +16,7 @@
 
 > **更新日志**（每分类仅保留最新一条·完整历史见 git log）
 >
-- **Coding**（2026.10.21）（TaoToken 单次请求上下文上限 500K→1M（Lite/Pro/Max 三档同步）·价格 ¥39/129/338 与季付 ¥117/297/897·5h 与每周额度·双Flash 模型未变·页面进入新一轮抢购·季付 Lite 仍售罄·其余 26 平台经核对无变化·无抓取失败）
+- **Coding**（2026.10.21）（AtomCode 评分卡名额 800→2,000/日修正·xKiro 页面文案微调但六档价格/周额度/免费额度经核对无变化·其余 25 平台指纹未变·无抓取失败）
 - **Token**（2026.10.21）（腾讯·Token/阿里·Token Plan/小米·MiMo/OpenCode Go/天翼云·Token/Alaya Code/TaoToken/超算互联网·Token（SCNet） 官方页经核对无变化）
 - **Video**（2026.10.21）（快手可灵/Vidu/海螺AI/即梦/腾讯混元/通义万相/OpenArt 官方页经核对无变化·抓取失败 pai.video/RunningHub）
 - **Image**（2026.10.21）（Liblib AI/通义万相 官方页价格档位额度经核对无变化·堆友首页无会员档位证据不足未改动·Midjourney/OpenArt 未变·RunningHub 登录墙无证据）
