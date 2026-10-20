@@ -18,7 +18,7 @@
 >
 - **Coding**（2026.10.21）（TaoToken 单次请求上下文上限 500K→1M（Lite/Pro/Max 三档同步）·价格 ¥39/129/338 与季付 ¥117/297/897·5h 与每周额度·双Flash 模型未变·页面进入新一轮抢购·季付 Lite 仍售罄·其余 26 平台经核对无变化·无抓取失败）
 - **Token**（2026.10.21）（腾讯·Token/阿里·Token Plan/小米·MiMo/OpenCode Go/天翼云·Token/Alaya Code/TaoToken/超算互联网·Token（SCNet） 官方页经核对无变化）
-- **Video**（2026.10.21）（即梦仅渲染创作首页·只见「会员低至4.5折」横幅与40积分余额·无档位价格可核·证据不足未改动·其余6平台指纹未变·pai.video/RunningHub 抓取失败无证据）
+- **Video**（2026.10.21）（快手可灵/Vidu/海螺AI/即梦/腾讯混元/通义万相/OpenArt 官方页经核对无变化·抓取失败 pai.video/RunningHub）
 - **Image**（2026.10.21）（Liblib AI/通义万相 官方页价格档位额度经核对无变化·堆友首页无会员档位证据不足未改动·Midjourney/OpenArt 未变·RunningHub 登录墙无证据）
 - **Audio**（2026.10.21）（Suno/Udio/Ace Studio/海螺AI 官方页经核对无变化）
 - 其他：中转站 2026.08.15（THINK-AI已下架·仅保留幻境MirageAI·幻境充值链接更新）·已下架归档 2026.08.19（新增无问芯穹/天翼云/百度千帆经典CodingPlan）·价格对比 2026.07.06 新增
