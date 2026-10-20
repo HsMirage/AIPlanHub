@@ -18,7 +18,7 @@
 >
 - **Coding**（2026.10.21）（AtomCode 评分卡名额 800→2,000/日修正·xKiro 页面文案微调但六档价格/周额度/免费额度经核对无变化·其余 25 平台指纹未变·无抓取失败）
 - **Token**（2026.10.21）（腾讯·Token/阿里·Token Plan/小米·MiMo/OpenCode Go/天翼云·Token/Alaya Code/TaoToken/超算互联网·Token（SCNet） 官方页经核对无变化）
-- **Video**（2026.10.21）（快手可灵/Vidu/海螺AI/即梦/腾讯混元/通义万相/OpenArt 官方页经核对无变化·抓取失败 pai.video/RunningHub）
+- **Video**（2026.10.21）（快手可灵/Vidu/海螺AI/腾讯混元/通义万相/OpenArt/即梦 官方页经核对无变化·抓取失败 pai.video/RunningHub）
 - **Image**（2026.10.21）（Liblib AI/通义万相 官方页价格档位额度经核对无变化·堆友首页无会员档位证据不足未改动·Midjourney/OpenArt 未变·RunningHub 登录墙无证据）
 - **Audio**（2026.10.21）（Suno/Udio/Ace Studio/海螺AI 官方页经核对无变化）
 - 其他：中转站 2026.08.15（THINK-AI已下架·仅保留幻境MirageAI·幻境充值链接更新）·已下架归档 2026.08.19（新增无问芯穹/天翼云/百度千帆经典CodingPlan）·价格对比 2026.07.06 新增
