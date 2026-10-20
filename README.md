@@ -18,7 +18,7 @@
 >
 - **Coding**（2026.10.21）（智谱AI/z.ai/AtomCode/xKiro 官方页经核对无变化·CommandCode 免费清单换成 Ornith 1.5 122B 限时免费、去掉 Ling 两款，价格档位额度未变）
 - **Token**（2026.10.21）（腾讯·Token/阿里·Token Plan/小米·MiMo/OpenCode Go/天翼云·Token/Alaya Code/TaoToken/超算互联网·Token（SCNet） 官方页经核对无变化）
-- **Video**（2026.10.21）（即梦创作页仅见会员低至4.5折与40积分·无套餐价格/档位/额度新值·证据不足未改动·评分复核维持4分·快手可灵/Vidu/海螺AI/腾讯混元/通义万相/OpenArt经核对无变化·pai.video/RunningHub登录墙仅搜到线索无证据）
+- **Video**（2026.10.21）（快手可灵/Vidu/海螺AI/即梦/腾讯混元/通义万相/OpenArt 官方页经核对无变化·抓取失败 pai.video/RunningHub）
 - **Image**（2026.10.21）（Midjourney/通义万相/堆友/OpenArt/Liblib AI 官方页经核对无变化·抓取失败 RunningHub）
 - **Audio**（2026.10.21）（Suno/Udio/Ace Studio/海螺AI 官方页经核对无变化）
 - 其他：中转站 2026.08.15（THINK-AI已下架·仅保留幻境MirageAI·幻境充值链接更新）·已下架归档 2026.08.19（新增无问芯穹/天翼云/百度千帆经典CodingPlan）·价格对比 2026.07.06 新增
