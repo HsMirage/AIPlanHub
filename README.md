@@ -20,7 +20,7 @@
 - **Token**（2026.10.21）（OpenCode Go 模型目录 Space Bunny 下架·新增 MiniMax M3.1 Flash Free（限时免费·无限制）·Go/Go Plus 价格与额度不变·其余7平台无变化）
 - **Video**（2026.10.21）（快手可灵/Vidu/海螺AI/即梦/腾讯混元/通义万相/OpenArt 官方页经核对无变化·抓取失败 pai.video/RunningHub）
 - **Image**（2026.10.21）（Midjourney/通义万相/堆友/OpenArt/Liblib AI 官方页经核对无变化·抓取失败 RunningHub）
-- **Audio**（2026.10.21）（Suno/Ace Studio/海螺AI/Udio 官方页经核对无变化）
+- **Audio**（2026.10.21）（Suno/Udio/Ace Studio/海螺AI 官方页经核对无变化）
 - 其他：中转站 2026.08.15（THINK-AI已下架·仅保留幻境MirageAI·幻境充值链接更新）·已下架归档 2026.08.19（新增无问芯穹/天翼云/百度千帆经典CodingPlan）·价格对比 2026.07.06 新增
 
 ---
