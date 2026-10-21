@@ -18,9 +18,9 @@
 >
 - **Coding**（2026.10.21）（智谱AI/z.ai/xKiro 官方页经核对无数据变化·OpenCode Go 文档29款与本地37款仍不符待API复核·讯飞星辰订阅页未渲染套餐卡无证据·MiMo（小米）V2.5/V2.5-Pro 已于10.21 10:00 正式下线（Token 数据归 Token 巡检））
 - **Token**（2026.10.21）（小米·MiMo 官方横幅确认 V2.5-Pro/V2.5 已于2026.10.21 10:00正式下线·模型清单8→6款·价格与Credits不变·OpenCode Go 页面内容变化但模型/价格/额度与本地一致无改动·其余6平台经核对无变化）
-- **Video**（2026.10.21）（即梦 页面文本波动（918→805字符·仅创作工作台·无价格或权益证据）未改动·评分复核维持4★·快手可灵/Vidu/海螺AI/腾讯混元/通义万相/OpenArt 官方页经核对无变化·pai.video/RunningHub 登录墙无证据）
+- **Video**（2026.10.21）（快手可灵/Vidu/腾讯混元/通义万相/OpenArt/海螺AI/即梦 官方页经核对无变化·抓取失败 pai.video/RunningHub）
 - **Image**（2026.10.21）（Midjourney/通义万相/堆友/OpenArt/Liblib AI 官方页经核对无变化·抓取失败 RunningHub）
-- **Audio**（2026.10.21）（Suno/Ace Studio/海螺AI/Udio 官方页经核对无变化）
+- **Audio**（2026.10.21）（Suno/Udio/Ace Studio/海螺AI 官方页经核对无变化）
 - 其他：中转站 2026.08.15（THINK-AI已下架·仅保留幻境MirageAI·幻境充值链接更新）·已下架归档 2026.08.19（新增无问芯穹/天翼云/百度千帆经典CodingPlan）·价格对比 2026.07.06 新增
 
 ---
