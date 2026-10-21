@@ -18,7 +18,7 @@
 >
 - **Coding**（2026.10.21）（智谱AI/z.ai/AtomCode/xKiro/CommandCode/OpenCode Go 官方页经核对无数据变化·CommandCode 免费模型仍为 Ornith 1.5 122B/MiniMax M3.1 Flash·讯飞星辰套餐卡未渲染无新证据·OpenCode Go 文档 29 款与本地 37 款不符待 API 复核）
 - **Token**（2026.10.21）（OpenCode Go 模型目录 Space Bunny 下架·新增 MiniMax M3.1 Flash Free（限时免费·无限制）·Go/Go Plus 价格与额度不变·其余7平台无变化）
-- **Video**（2026.10.21）（即梦页面内容有变但仅应用首页、无价格权益可读信息·证据不足未改动·评分复核维持4★·快手可灵/Vidu/海螺AI/腾讯混元/通义万相/OpenArt 官方页经核对无变化·pai.video/RunningHub 抓取失败无证据）
+- **Video**（2026.10.21）（快手可灵/Vidu/海螺AI/即梦/腾讯混元/通义万相/OpenArt 官方页经核对无变化·抓取失败 pai.video/RunningHub）
 - **Image**（2026.10.21）（Midjourney/通义万相/堆友/OpenArt/Liblib AI 官方页经核对无变化·抓取失败 RunningHub）
 - **Audio**（2026.10.21）（Suno/Ace Studio/海螺AI/Udio 官方页经核对无变化）
 - 其他：中转站 2026.08.15（THINK-AI已下架·仅保留幻境MirageAI·幻境充值链接更新）·已下架归档 2026.08.19（新增无问芯穹/天翼云/百度千帆经典CodingPlan）·价格对比 2026.07.06 新增
