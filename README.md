@@ -16,7 +16,7 @@
 
 > **更新日志**（每分类仅保留最新一条·完整历史见 git log）
 >
-- **Coding**（2026.10.21）（智谱AI/z.ai/AtomCode/xKiro/CommandCode/OpenCode Go 官方页经核对无数据变化·CommandCode 免费模型仍为 Ornith 1.5 122B/MiniMax M3.1 Flash·讯飞星辰套餐卡未渲染无新证据·OpenCode Go 文档 29 款与本地 37 款不符待 API 复核）
+- **Coding**（2026.10.21）（智谱AI/z.ai/AtomCode/CommandCode/OpenCode Go 官方页经核对无数据变化·讯飞星辰套餐卡未渲染无新证据·OpenCode Go 文档 29 款与本地 37 款仍不符待 API 复核）
 - **Token**（2026.10.21）（OpenCode Go 模型目录 Space Bunny 下架·新增 MiniMax M3.1 Flash Free（限时免费·无限制）·Go/Go Plus 价格与额度不变·其余7平台无变化）
 - **Video**（2026.10.21）（快手可灵/Vidu/海螺AI/即梦/腾讯混元/通义万相/OpenArt 官方页经核对无变化·抓取失败 pai.video/RunningHub）
 - **Image**（2026.10.21）（Midjourney/通义万相/堆友/OpenArt/Liblib AI 官方页经核对无变化·抓取失败 RunningHub）
