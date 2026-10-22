@@ -17,7 +17,7 @@
 > **更新日志**（每分类仅保留最新一条·完整历史见 git log）
 >
 - **Coding**（2026.10.22）（用户反馈：CommandCode 调用速度很慢——评分卡与注意事项新增速度条目（首字 10-40 秒·DS-V4.1-Flash 简单任务 45 分钟·下午时段变慢·官方已列为已知问题）·评分维持 3.5★；其余数据未动）
-- **Token**（2026.10.21）（小米·MiMo 官方横幅确认 V2.5-Pro/V2.5 已于2026.10.21 10:00正式下线·模型清单8→6款·价格与Credits不变·OpenCode Go 页面内容变化但模型/价格/额度与本地一致无改动·其余6平台经核对无变化）
+- **Token**（2026.10.22）（OpenCode Go Step 5 Preview 4倍限时结束·月额度 Go $60→$15、Go Plus $240→$60·小米·MiMo 价格/Credits/模型与本地一致无改动·其余6平台经核对无变化）
 - **Video**（2026.10.21）（快手可灵/Vidu/腾讯混元/通义万相/OpenArt/海螺AI/即梦 官方页经核对无变化·抓取失败 pai.video/RunningHub）
 - **Image**（2026.10.21）（Midjourney/通义万相/堆友/OpenArt/Liblib AI 官方页经核对无变化·抓取失败 RunningHub）
 - **Audio**（2026.10.21）（Suno/Udio/Ace Studio/海螺AI 官方页经核对无变化）
