@@ -19,7 +19,7 @@
 - **Coding**（2026.10.22）（Ollama 云模型 20→21 款（新增 MiniMax-M3.1-Flash $0.15/$0.015/$0.60）·OpenCode Go Step 5 Preview 月额度回落 Go $60→$15、Go Plus $240→$60（4 倍限时结束）·CommandCode GOAT 按模型分配刷新（DS-V4.1-Flash/GLM-5.3-Flash 各 $80）·智谱AI/z.ai/快手 StreamLake 官方页经核对无价格变化·字节·方舟价格区渲染为「价格查询中」无证据·OpenDesign 抓取不稳定保留基线·MiMo 归 Token 巡检）
 - **Token**（2026.10.22）（OpenCode Go Step 5 Preview 4倍限时结束·月额度 Go $60→$15、Go Plus $240→$60·小米·MiMo 价格/Credits/模型与本地一致无改动·其余6平台经核对无变化）
 - **Video**（2026.10.22）（OpenArt 套餐价与额度未变·仅更新促销标注：新增 Kling 4.0 生成 5 折(至11.20)、删去已过期 Flux 3 Image 无限活动·快手可灵/Vidu/腾讯混元/通义万相/即梦 官方页经核对无变化·海螺AI/pai.video/RunningHub 抓取失败(海螺/RunningHub 仅缓存全文无定价、pai.video 仅搜索摘要)）
-- **Image**（2026.10.21）（Midjourney/通义万相/堆友/OpenArt/Liblib AI 官方页经核对无变化·抓取失败 RunningHub）
+- **Image**（2026.10.22）（OpenArt 套餐价与积分未变·仅更新促销标注(Kling 4.0 五折至11.20·Wonder Flux 3 720p 无限至10.31)·补记 Extra Credit 加购 $15/5,000积分·Midjourney/通义万相/堆友/Liblib AI 官方页经核对无变化·RunningHub 登录墙·仅缓存全文无定价未改动）
 - **Audio**（2026.10.22）（Suno/Ace Studio/海螺AI/Udio 官方页经核对无变化）
 - 其他：中转站 2026.08.15（THINK-AI已下架·仅保留幻境MirageAI·幻境充值链接更新）·已下架归档 2026.08.19（新增无问芯穹/天翼云/百度千帆经典CodingPlan）·价格对比 2026.07.06 新增
 
