@@ -20,7 +20,7 @@
 - **Token**（2026.10.24）（腾讯·Token 通用四档模型 15→13 款（GLM-5/GLM-5.1 已下线移除）·OpenCode Go 模型 29→30 款新增 Kimi K3.1 Pro、MiniMax M3.1 Flash 限时免费转付费·天翼云·Token 积分版/老套餐价格额度模型均无变化·阿里·Token Plan/TaoToken/超算互联网·Token 经核对无变化·小米·MiMo/Alaya Code 抓取失败无证据）
 - **Video**（2026.10.24）（OpenArt 官方页经核对套餐价与额度无变化（$14/34/56/240 与 4,000/12,000/24,000/106,000 credits 均与本地一致，仅少渲染 3 条图片权益行）·Vidu/腾讯混元 经核对无变化·快手可灵/海螺AI/pai.video/即梦/RunningHub/通义万相 抓取失败无证据）
 - **Image**（2026.10.22）（OpenArt 套餐价与积分未变·仅更新促销标注(Kling 4.0 五折至11.20·Wonder Flux 3 720p 无限至10.31)·补记 Extra Credit 加购 $15/5,000积分·Midjourney/通义万相/堆友/Liblib AI 官方页经核对无变化·RunningHub 登录墙·仅缓存全文无定价未改动）
-- **Audio**（2026.10.23）（Suno 官方页经核对无变化·抓取失败 Udio/Ace Studio/海螺AI）
+- **Audio**（2026.10.24）（Suno 官方页经核对无变化·抓取失败 Udio/Ace Studio/海螺AI）
 - 其他：中转站 2026.08.15（THINK-AI已下架·仅保留幻境MirageAI·幻境充值链接更新）·已下架归档 2026.08.19（新增无问芯穹/天翼云/百度千帆经典CodingPlan）·价格对比 2026.07.06 新增
 
 ---
