@@ -16,7 +16,7 @@
 
 > **更新日志**（每分类仅保留最新一条·完整历史见 git log）
 >
-- **Coding**（2026.10.22）（Ollama 云模型 20→21 款（新增 MiniMax-M3.1-Flash $0.15/$0.015/$0.60）·OpenCode Go Step 5 Preview 月额度回落 Go $60→$15、Go Plus $240→$60（4 倍限时结束）·CommandCode GOAT 按模型分配刷新（DS-V4.1-Flash/GLM-5.3-Flash 各 $80）·智谱AI/z.ai/快手 StreamLake 官方页经核对无价格变化·字节·方舟价格区渲染为「价格查询中」无证据·OpenDesign 抓取不稳定保留基线·MiMo 归 Token 巡检）
+- **Coding**（2026.10.25）（OpenCode Go MiniMax M3.1 Flash 由限时免费转付费（$0.15/$0.60·月额度 Go $20/Plus $80·限免仅剩 LongCat/Beam·Gemini 4 Argon 明示 5 折至 11.30）·字节·方舟新增 Kimi-K3.1-Pro（横幅·价格额度不变）·稳明光语纪补录加量包 Plus ¥249/19500 次·Max ¥429/52000 次（四档 ¥45/125/249/429 与次数不变）·CommandCode 免费模型订正 3 款·xKiro Free 页脚 47 免费模型；智谱AI/z.ai/Kimi/快手 StreamLake/Ollama/WM AI 官方页经核对无价格档位变化·字节·方舟价格区仍「价格查询中」·MiMo 不在 Coding 数据内）
 - **Token**（2026.10.24）（腾讯·Token 通用四档模型 15→13 款（GLM-5/GLM-5.1 已下线移除）·OpenCode Go 模型 29→30 款新增 Kimi K3.1 Pro、MiniMax M3.1 Flash 限时免费转付费·天翼云·Token 积分版/老套餐价格额度模型均无变化·阿里·Token Plan/TaoToken/超算互联网·Token 经核对无变化·小米·MiMo/Alaya Code 抓取失败无证据）
 - **Video**（2026.10.24）（OpenArt 官方页经核对套餐价与额度无变化（$14/34/56/240 与 4,000/12,000/24,000/106,000 credits 均与本地一致，仅少渲染 3 条图片权益行）·Vidu/腾讯混元 经核对无变化·快手可灵/海螺AI/pai.video/即梦/RunningHub/通义万相 抓取失败无证据）
 - **Image**（2026.10.24）（OpenArt 官方页经核对四档价格与积分无变化($14/34/56/240·4,000/12,000/24,000/106,000 credits 均与本地一致)·证据仅少渲染部分图片权益/一键故事行属渲染差异未改数据·Midjourney/Liblib AI/通义万相/RunningHub/堆友 抓取失败无证据）
