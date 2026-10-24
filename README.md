@@ -19,7 +19,7 @@
 - **Coding**（2026.10.25）（OpenCode Go MiniMax M3.1 Flash 由限时免费转付费（$0.15/$0.60·月额度 Go $20/Plus $80·限免仅剩 LongCat/Beam·Gemini 4 Argon 明示 5 折至 11.30）·字节·方舟新增 Kimi-K3.1-Pro（横幅·价格额度不变）·稳明光语纪补录加量包 Plus ¥249/19500 次·Max ¥429/52000 次（四档 ¥45/125/249/429 与次数不变）·CommandCode 免费模型订正 3 款·xKiro Free 页脚 47 免费模型；智谱AI/z.ai/Kimi/快手 StreamLake/Ollama/WM AI 官方页经核对无价格档位变化·字节·方舟价格区仍「价格查询中」·MiMo 不在 Coding 数据内）
 - **Token**（2026.10.25）（OpenCode Go Gemini-4-Argon 由限时2x改标五折·月额度 Go $60→$30 Go Plus $240→$120（请求数不变）·腾讯·Token 通用四档模型更名 DeepSeek-V4.1-Flash-1017·天翼云·Token 老套餐模型补全名 DeepSeek-V4-Flash-0731（两家价格积分额度均不变）·小米·MiMo 仅见邀请返利活动·价格额度无差异未改动）
 - **Video**（2026.10.25）（快手可灵 官方页价未变·补录100灵感值单价 ¥6.97/6.20/5.83/3.52 与 Kling 4.0 分档折扣（9折/8折）·OpenArt 价与额度未变·补录加购 $15/月得5000credits·Vidu/腾讯混元/海螺AI/即梦/通义万相 无变化·pai.video 登录墙仅搜到线索无证据·RunningHub 抓取失败无证据）
-- **Image**（2026.10.24）（OpenArt 官方页经核对四档价格与积分无变化($14/34/56/240·4,000/12,000/24,000/106,000 credits 均与本地一致)·证据仅少渲染部分图片权益/一键故事行属渲染差异未改数据·Midjourney/Liblib AI/通义万相/RunningHub/堆友 抓取失败无证据）
+- **Image**（2026.10.25）（OpenArt 四档 $14/$34/$56/$240 与 4千/1.2万/2.4万/10.6万积分、并发与商用权益经官方页核对无变化，仅促销横幅文案变动·RunningHub 抓取失败仅搜到搜索摘要无证据·Midjourney/通义万相/堆友/Liblib AI 经核对无变化）
 - **Audio**（2026.10.25）（Suno/Ace Studio/海螺AI/Udio 官方页经核对无变化）
 - 其他：中转站 2026.08.15（THINK-AI已下架·仅保留幻境MirageAI·幻境充值链接更新）·已下架归档 2026.08.19（新增无问芯穹/天翼云/百度千帆经典CodingPlan）·价格对比 2026.07.06 新增
 
