@@ -16,7 +16,7 @@
 
 > **更新日志**（每分类仅保留最新一条·完整历史见 git log）
 >
-- **Coding**（2026.10.25）（OpenCode Go MiniMax M3.1 Flash 由限时免费转付费（$0.15/$0.60·月额度 Go $20/Plus $80·限免仅剩 LongCat/Beam·Gemini 4 Argon 明示 5 折至 11.30）·字节·方舟新增 Kimi-K3.1-Pro（横幅·价格额度不变）·稳明光语纪补录加量包 Plus ¥249/19500 次·Max ¥429/52000 次（四档 ¥45/125/249/429 与次数不变）·CommandCode 免费模型订正 3 款·xKiro Free 页脚 47 免费模型；智谱AI/z.ai/Kimi/快手 StreamLake/Ollama/WM AI 官方页经核对无价格档位变化·字节·方舟价格区仍「价格查询中」·MiMo 不在 Coding 数据内）
+- **Coding**（2026.10.26）（无价格档位变化·智谱AI/z.ai/Kimi/字节·方舟/阶跃星辰/快手 StreamLake/Ollama/稳明光语纪/xKiro/CommandCode/OpenDesign/OpenCode Go 官方页逐项核对价格·档位·额度·模型均与本地一致（仅补注释：Kimi Claw 每日扣0.6%+站点0.08%、OpenDesign DS-V4.1-Flash 谷价周请求数 145,600→291,200/7天·GPT-6.1 Sol Go/Plus 2×Pro/Max 10×、CommandCode GOAT Ling-3.1-Flash $100 分配、OpenCode Go Gemini 4 Argon 双列解码为 Go $30/Plus $120 至 11.30）·字节·方舟价格区仍「价格查询中」且快手仅营销页无档位数字→无出数证据未改·稳明光语纪四档¥45/125/249/429 与加量包一致·MiMo（小米）不在 Coding 数据内归 Token 巡检）
 - **Token**（2026.10.25）（OpenCode Go Gemini-4-Argon 由限时2x改标五折·月额度 Go $60→$30 Go Plus $240→$120（请求数不变）·腾讯·Token 通用四档模型更名 DeepSeek-V4.1-Flash-1017·天翼云·Token 老套餐模型补全名 DeepSeek-V4-Flash-0731（两家价格积分额度均不变）·小米·MiMo 仅见邀请返利活动·价格额度无差异未改动）
 - **Video**（2026.10.25）（快手可灵 官方页价未变·补录100灵感值单价 ¥6.97/6.20/5.83/3.52 与 Kling 4.0 分档折扣（9折/8折）·OpenArt 价与额度未变·补录加购 $15/月得5000credits·Vidu/腾讯混元/海螺AI/即梦/通义万相 无变化·pai.video 登录墙仅搜到线索无证据·RunningHub 抓取失败无证据）
 - **Image**（2026.10.25）（OpenArt 四档 $14/$34/$56/$240 与 4千/1.2万/2.4万/10.6万积分、并发与商用权益经官方页核对无变化，仅促销横幅文案变动·RunningHub 抓取失败仅搜到搜索摘要无证据·Midjourney/通义万相/堆友/Liblib AI 经核对无变化）
