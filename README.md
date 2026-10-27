@@ -16,7 +16,7 @@
 
 > **更新日志**（每分类仅保留最新一条·完整历史见 git log）
 >
-- **Coding**（2026.10.26）（无价格档位变化·智谱AI/z.ai/Kimi/字节·方舟/阶跃星辰/快手 StreamLake/Ollama/稳明光语纪/xKiro/CommandCode/OpenDesign/OpenCode Go 官方页逐项核对价格·档位·额度·模型均与本地一致（仅补注释：Kimi Claw 每日扣0.6%+站点0.08%、OpenDesign DS-V4.1-Flash 谷价周请求数 145,600→291,200/7天·GPT-6.1 Sol Go/Plus 2×Pro/Max 10×、CommandCode GOAT Ling-3.1-Flash $100 分配、OpenCode Go Gemini 4 Argon 双列解码为 Go $30/Plus $120 至 11.30）·字节·方舟价格区仍「价格查询中」且快手仅营销页无档位数字→无出数证据未改·稳明光语纪四档¥45/125/249/429 与加量包一致·MiMo（小米）不在 Coding 数据内归 Token 巡检）
+- **Coding**（2026.10.27）（OpenCode Go 删除 LongCat-2.5-Preview-Free（模型清单/计费表/请求数表三处同消失·37→36款·限时免费仅剩 Beam Free）·Ollama Free 并发 1→3（FAQ 明文 Pay as you go 与 Pro 同为 3）·智谱AI/z.ai/Kimi/优云智算/稳明光语纪/CommandCode/OpenDesign 官方页价格·档位·额度·模型逐项一致无改动·字节·方舟价格区仍「价格查询中」、阶跃星辰/快手 StreamLake 仅营销页无出数、AtomCode 三档 200/500/800 次/5h 与限量 2000 人/日一致、MiMo 归 Token 巡检·均在 Coding 侧无证据未改）
 - **Token**（2026.10.26）（OpenCode Go 模型 30→29 款（LongCat 2.5 Preview Free 从官方列表与价格/额度/请求数三表移除·限时免费仅剩 Beam Free·$10/$40 与其余 28 款额度不变·评分复核维持4★）·腾讯·Token 通用/Hy 各4档 39/99/299/599·28/78/238/468 及积分 780/1980/5980/11980·560/1560/4760/9360 与13款模型无变化·小米·MiMo 四档 39/99/329/659 及首月价·88折年付·492/1320/4560/9840亿 Credits 无变化·天翼云·Token 积分版5档 29/89/199/399/699 与老套餐5档无变化）
 - **Video**（2026.10.27）（Vidu/腾讯混元/快手可灵/海螺AI/即梦/通义万相 官方页经核对无变化·抓取失败 pai.video/RunningHub/OpenArt）
 - **Image**（2026.10.27）（通义万相/堆友/Liblib AI 官方页经核对无变化·抓取失败 Midjourney/RunningHub/OpenArt）
