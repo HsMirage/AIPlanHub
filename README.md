@@ -17,7 +17,7 @@
 > **更新日志**（每分类仅保留最新一条·完整历史见 git log）
 >
 - **Coding**（2026.10.27）（OpenCode Go 删除 LongCat-2.5-Preview-Free（模型清单/计费表/请求数表三处同消失·37→36款·限时免费仅剩 Beam Free）·Ollama Free 并发 1→3（FAQ 明文 Pay as you go 与 Pro 同为 3）·智谱AI/z.ai/Kimi/优云智算/稳明光语纪/CommandCode/OpenDesign 官方页价格·档位·额度·模型逐项一致无改动·字节·方舟价格区仍「价格查询中」、阶跃星辰/快手 StreamLake 仅营销页无出数、AtomCode 三档 200/500/800 次/5h 与限量 2000 人/日一致、MiMo 归 Token 巡检·均在 Coding 侧无证据未改）
-- **Token**（2026.10.26）（OpenCode Go 模型 30→29 款（LongCat 2.5 Preview Free 从官方列表与价格/额度/请求数三表移除·限时免费仅剩 Beam Free·$10/$40 与其余 28 款额度不变·评分复核维持4★）·腾讯·Token 通用/Hy 各4档 39/99/299/599·28/78/238/468 及积分 780/1980/5980/11980·560/1560/4760/9360 与13款模型无变化·小米·MiMo 四档 39/99/329/659 及首月价·88折年付·492/1320/4560/9840亿 Credits 无变化·天翼云·Token 积分版5档 29/89/199/399/699 与老套餐5档无变化）
+- **Token**（2026.10.27）（腾讯·Token/小米·MiMo/OpenCode Go/天翼云·Token 四家官方页逐行核对价格·积分额度·模型清单与本地一致（本轮差异仅页面目录与导航重渲染·非数据变更），数据未改动；阿里·Token Plan/Alaya Code/TaoToken/超算互联网·Token 无变化未打开）
 - **Video**（2026.10.27）（Vidu/腾讯混元/快手可灵/海螺AI/即梦/通义万相 官方页经核对无变化·抓取失败 pai.video/RunningHub/OpenArt）
 - **Image**（2026.10.27）（通义万相/堆友/Liblib AI 官方页经核对无变化·抓取失败 Midjourney/RunningHub/OpenArt）
 - **Audio**（2026.10.27）（海螺AI 官方页经核对无变化·抓取失败 Suno/Udio/Ace Studio）
