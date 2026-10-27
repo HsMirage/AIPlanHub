@@ -20,7 +20,7 @@
 - **Token**（2026.10.28）（OpenCode Go 新增 Iceman Contributor Free 限时免费模型（29→30 款·Go/Go Plus 均无限制）·腾讯·Token/小米·MiMo/天翼云·Token 官方页逐行核对价格·额度·模型与本地一致未改动）
 - **Video**（2026.10.28）（快手可灵/OpenArt 官方页价目额度与原记录一致（可灵仅倒计时文案·OpenArt 版式重复·Pro 未渲染优先支持行按上轮结论不改）·海螺AI 仅见低至¥42/月促销字样无档位表证据不足未改动·即梦 watch 复核维持★4仅微调卡片措辞·pai.video/RunningHub 登录墙无证据）
 - **Image**（2026.10.27）（OpenArt 价格/额度/并发经核对无变化（文本变动仅活动文案）·RunningHub 登录墙无证据）
-- **Audio**（2026.10.27）（Suno/Ace Studio/海螺AI/Udio 官方页经核对无变化）
+- **Audio**（2026.10.28）（Suno/Udio/Ace Studio/海螺AI 官方页经核对无变化）
 - 其他：中转站 2026.08.15（THINK-AI已下架·仅保留幻境MirageAI·幻境充值链接更新）·已下架归档 2026.08.19（新增无问芯穹/天翼云/百度千帆经典CodingPlan）·价格对比 2026.07.06 新增
 
 ---
