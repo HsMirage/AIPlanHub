@@ -16,7 +16,7 @@
 
 > **更新日志**（每分类仅保留最新一条·完整历史见 git log）
 >
-- **Coding**（2026.10.27）（OpenCode Go 删除 LongCat-2.5-Preview-Free（模型清单/计费表/请求数表三处同消失·37→36款·限时免费仅剩 Beam Free）·Ollama Free 并发 1→3（FAQ 明文 Pay as you go 与 Pro 同为 3）·智谱AI/z.ai/Kimi/优云智算/稳明光语纪/CommandCode/OpenDesign 官方页价格·档位·额度·模型逐项一致无改动·字节·方舟价格区仍「价格查询中」、阶跃星辰/快手 StreamLake 仅营销页无出数、AtomCode 三档 200/500/800 次/5h 与限量 2000 人/日一致、MiMo 归 Token 巡检·均在 Coding 侧无证据未改）
+- **Coding**（2026.10.28）（OpenCode Go 新增 Iceman Contributor Free（限时免费·本地模型 37→38）·xKiro Free 免费模型 47→45 且 Pro 档 5h 预算按页面改为 $5（原 $7 系推算）·Ollama 定价表已无 beam 行（无下架证据未删模型）·智谱AI/z.ai/Kimi/优云智算/稳明光语纪/WM AI/CommandCode/OpenDesign/阶跃星辰 官方页价格档位额度逐项一致无变化·字节·方舟价格区仍「价格查询中」无证据·快手 StreamLake 仅营销页无出数·MiMo 归 Token 巡检）
 - **Token**（2026.10.27）（腾讯·Token/小米·MiMo/OpenCode Go/天翼云·Token 四家官方页逐行核对价格·积分额度·模型清单与本地一致（本轮差异仅页面目录与导航重渲染·非数据变更），数据未改动；阿里·Token Plan/Alaya Code/TaoToken/超算互联网·Token 无变化未打开）
 - **Video**（2026.10.27）（快手可灵/OpenArt 官方页经核对无价格额度变化（可灵仅倒计时文案·OpenArt 版式重复·Pro 权益表未列优先支持未改）·pai.video/RunningHub 抓取失败无证据·即梦无变化评分维持 ★4）
 - **Image**（2026.10.27）（OpenArt 价格/额度/并发经核对无变化（文本变动仅活动文案）·RunningHub 登录墙无证据）
