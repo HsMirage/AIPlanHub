@@ -16,7 +16,7 @@
 
 > **更新日志**（每分类仅保留最新一条·完整历史见 git log）
 >
-- **Coding**（2026.10.28）（OpenCode Go 新增 Iceman Contributor Free（限时免费·本地模型 37→38）·xKiro Free 免费模型 47→45 且 Pro 档 5h 预算按页面改为 $5（原 $7 系推算）·Ollama 定价表已无 beam 行（无下架证据未删模型）·智谱AI/z.ai/Kimi/优云智算/稳明光语纪/WM AI/CommandCode/OpenDesign/阶跃星辰 官方页价格档位额度逐项一致无变化·字节·方舟价格区仍「价格查询中」无证据·快手 StreamLake 仅营销页无出数·MiMo 归 Token 巡检）
+- **Coding**（2026.10.29）（CommandCode GOAT 月额度 $70→$100、Pro $80→$110（5h/周限额官方页未出数沿用旧值待核）·xKiro 付费档可用模型数页面改 52/54（目录 107 款未变）·智谱AI/z.ai/Kimi 五档/字节·方舟/优云智算六档/阶跃星辰/快手 StreamLake/Ollama/稳明光语纪/OpenDesign/OpenCode Go 官方页价格档位额度核对一致·TaoToken 页面 3557→535 字符渲染异常，季付 Pro 显示限时 ¥267 待复查·MiMo 无 Coding 条目归 Token 巡检）
 - **Token**（2026.10.28）（OpenCode Go 新增 Iceman Contributor Free 限时免费模型（29→30 款·Go/Go Plus 均无限制）·腾讯·Token/小米·MiMo/天翼云·Token 官方页逐行核对价格·额度·模型与本地一致未改动）
 - **Video**（2026.10.28）（快手可灵/OpenArt 官方页价目额度与原记录一致（可灵仅倒计时文案·OpenArt 版式重复·Pro 未渲染优先支持行按上轮结论不改）·海螺AI 仅见低至¥42/月促销字样无档位表证据不足未改动·即梦 watch 复核维持★4仅微调卡片措辞·pai.video/RunningHub 登录墙无证据）
 - **Image**（2026.10.28）（OpenArt 官方页经核对无变化（四档 $14/$34/$56/$240 与额度、并发全一致，文本变动仅活动文案）·Midjourney/通义万相/堆友无变化·Liblib AI 虽判未变但被标不稳定待复查·RunningHub 登录墙仅搜到摘要无证据）
