@@ -19,7 +19,7 @@
 - **Coding**（2026.10.29）（CommandCode GOAT 月额度 $70→$100、Pro $80→$110（5h/周限额官方页未出数沿用旧值待核）·xKiro 付费档可用模型数页面改 52/54（目录 107 款未变）·智谱AI/z.ai/Kimi 五档/字节·方舟/优云智算六档/阶跃星辰/快手 StreamLake/Ollama/稳明光语纪/OpenDesign/OpenCode Go 官方页价格档位额度核对一致·TaoToken 页面 3557→535 字符渲染异常，季付 Pro 显示限时 ¥267 待复查·MiMo 无 Coding 条目归 Token 巡检）
 - **Token**（2026.10.29）（OpenCode Go 额度口径改为按模型月额度（Go $15–$80·Go Plus $60–$240·页面已无统一 $12/5h·$30/周·$60/月 预算行）·腾讯·Token（通用/Hy 各4档）·天翼云·Token（积分版+老套餐各5档）价格/积分/模型核对一致·小米·MiMo 个人版4档一致（团队版 Tab 本轮未渲染待复查））
 - **Video**（2026.10.29）（快手可灵/OpenArt 官方页价目额度与原记录一致（可灵仅倒计时文案变·OpenArt 仅版式重复）·即梦只渲染生成页无档位价目·watch 复核维持★4·pai.video/RunningHub 登录墙无证据）
-- **Image**（2026.10.28）（OpenArt 官方页经核对无变化（四档 $14/$34/$56/$240 与额度、并发全一致，文本变动仅活动文案）·Midjourney/通义万相/堆友无变化·Liblib AI 虽判未变但被标不稳定待复查·RunningHub 登录墙仅搜到摘要无证据）
+- **Image**（2026.10.29）（Midjourney/OpenArt 官方页经核对无变化（四档价格与额度均与数据一致·文本变动仅活动文案）·RunningHub 抓取失败无证据（兜底页为无关内容））
 - **Audio**（2026.10.29）（Suno/Udio/Ace Studio/海螺AI 官方页经核对无变化）
 - 其他：中转站 2026.08.15（THINK-AI已下架·仅保留幻境MirageAI·幻境充值链接更新）·已下架归档 2026.08.19（新增无问芯穹/天翼云/百度千帆经典CodingPlan）·价格对比 2026.07.06 新增
 
