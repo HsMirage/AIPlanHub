@@ -16,7 +16,7 @@
 
 > **更新日志**（每分类仅保留最新一条·完整历史见 git log）
 >
-- **Coding**（2026.10.29）（CommandCode GOAT 月额度 $70→$100、Pro $80→$110（5h/周限额官方页未出数沿用旧值待核）·xKiro 付费档可用模型数页面改 52/54（目录 107 款未变）·智谱AI/z.ai/Kimi 五档/字节·方舟/优云智算六档/阶跃星辰/快手 StreamLake/Ollama/稳明光语纪/OpenDesign/OpenCode Go 官方页价格档位额度核对一致·TaoToken 页面 3557→535 字符渲染异常，季付 Pro 显示限时 ¥267 待复查·MiMo 无 Coding 条目归 Token 巡检）
+- **Coding**（2026.10.30）（OpenCode Go 新增 Go Teams 档 $20/人/月（按席位·每成员享 Go 限额·各模型月额度比 Go 高 $5）·智谱AI/z.ai/Kimi/字节·方舟/优云智算/阶跃星辰/快手 StreamLake/Ollama/稳明光语纪/xKiro/CommandCode/OpenDesign 官方页经核对无变化·TaoToken 页面 3557→535 字符渲染异常（季付 Pro 显示限时 ¥267）待复查）
 - **Token**（2026.10.29）（OpenCode Go 额度口径改为按模型月额度（Go $15–$80·Go Plus $60–$240·页面已无统一 $12/5h·$30/周·$60/月 预算行）·腾讯·Token（通用/Hy 各4档）·天翼云·Token（积分版+老套餐各5档）价格/积分/模型核对一致·小米·MiMo 个人版4档一致（团队版 Tab 本轮未渲染待复查））
 - **Video**（2026.10.29）（快手可灵/OpenArt 官方页价目额度与原记录一致（可灵仅倒计时文案变·OpenArt 仅版式重复）·即梦只渲染生成页无档位价目·watch 复核维持★4·pai.video/RunningHub 登录墙无证据）
 - **Image**（2026.10.29）（Midjourney/OpenArt 官方页经核对无变化（四档价格与额度均与数据一致·文本变动仅活动文案）·RunningHub 抓取失败无证据（兜底页为无关内容））
