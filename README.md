@@ -17,7 +17,7 @@
 > **更新日志**（每分类仅保留最新一条·完整历史见 git log）
 >
 - **Coding**（2026.10.30）（OpenCode Go 新增 Go Teams 档 $20/人/月（按席位·每成员享 Go 限额·各模型月额度比 Go 高 $5）·智谱AI/z.ai/Kimi/字节·方舟/优云智算/阶跃星辰/快手 StreamLake/Ollama/稳明光语纪/xKiro/CommandCode/OpenDesign 官方页经核对无变化·TaoToken 页面 3557→535 字符渲染异常（季付 Pro 显示限时 ¥267）待复查）
-- **Token**（2026.10.30）（OpenCode Go 新增 Go Teams 档 $20/人/月（按席位·每成员独享额度·各模型月额度比 Go 高 $5）·Go $10/Go Plus $40 与 30 款模型目录不变·腾讯·Token 通用/Hy 各4档价格积分（39/99/299/599·780/1980/5980/11980；28/78/238/468·560/1560/4760/9360）与模型清单一致·小米·MiMo 个人版4档 ¥39/99/329/659+年付88折+492/1320/4560/9840亿 Credits 一致（团队版 Tab 未渲染待复查）·天翼云·Token 积分版5档+老套餐5档价格/积分/模型一致）
+- **Token**（2026.10.31）（OpenCode Go DeepSeek V4.1 Flash 月额度 $80→$100（Plus $160→$200·Teams $85→$105·请求数同比 25%）·腾讯·Token/小米·MiMo/天翼云·Token 官方页经核对无变化（MiMo 团队版 Tab 未渲染待复查））
 - **Video**（2026.10.30）（快手可灵黄金/铂金/钻石/黑金四档分辨率补 1080P/4K（价目与灵感值不变）·即梦页面仍是生成页无档位价目未改动·watch 复核维持★4·OpenArt 价目额度与本地记录一致未改动·pai.video/RunningHub 登录墙仅搜到线索无证据）
 - **Image**（2026.10.30）（OpenArt 四档价格与额度经核对无变化·仅补记 Plus/Pro/Wonder 的 OpenArt MCP 10% 折扣权益（Starter 无折扣）·评分理由同步改准维持★2·RunningHub 登录墙仅搜到无关线索无证据）
 - **Audio**（2026.10.30）（Suno/Udio/Ace Studio/海螺AI 官方页经核对无变化）
