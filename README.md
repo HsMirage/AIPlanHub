@@ -20,7 +20,7 @@
 - **Token**（2026.10.31）（OpenCode Go DeepSeek V4.1 Flash 月额度 $80→$100（Plus $160→$200·Teams $85→$105·请求数同比 25%）·腾讯·Token/小米·MiMo/天翼云·Token 官方页经核对无变化（MiMo 团队版 Tab 未渲染待复查））
 - **Video**（2026.10.31）（快手可灵/即梦/OpenArt 官方页逐行核对价目档位额度与本地记录一致无实质变化·即梦 watch 复核维持★4·pai.video/RunningHub 登录墙仅搜到线索无证据）
 - **Image**（2026.10.30）（OpenArt 四档价格与额度经核对无变化·仅补记 Plus/Pro/Wonder 的 OpenArt MCP 10% 折扣权益（Starter 无折扣）·评分理由同步改准维持★2·RunningHub 登录墙仅搜到无关线索无证据）
-- **Audio**（2026.10.30）（Suno/Udio/Ace Studio/海螺AI 官方页经核对无变化）
+- **Audio**（2026.10.31）（Suno/Ace Studio/海螺AI/Udio 官方页经核对无变化）
 - 其他：中转站 2026.08.15（THINK-AI已下架·仅保留幻境MirageAI·幻境充值链接更新）·已下架归档 2026.08.19（新增无问芯穹/天翼云/百度千帆经典CodingPlan）·价格对比 2026.07.06 新增
 
 ---
