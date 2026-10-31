@@ -16,7 +16,7 @@
 
 > **更新日志**（每分类仅保留最新一条·完整历史见 git log）
 >
-- **Coding**（2026.10.30）（OpenCode Go 新增 Go Teams 档 $20/人/月（按席位·每成员享 Go 限额·各模型月额度比 Go 高 $5）·智谱AI/z.ai/Kimi/字节·方舟/优云智算/阶跃星辰/快手 StreamLake/Ollama/稳明光语纪/xKiro/CommandCode/OpenDesign 官方页经核对无变化·TaoToken 页面 3557→535 字符渲染异常（季付 Pro 显示限时 ¥267）待复查）
+- **Coding**（2026.11.01）（Ollama 云模型清单 21→23 款（新增 MiMo-V2.6-Flash/Pro）·CommandCode 免费行新增 Ling 3.1 Flash 1019（限时至 11.3）·稳明光语纪四档加量包次数补全（Lite 1300/Pro 6500/Plus 19500/Max 52000 次）·xKiro 页面口径 103 模型/免费 45 个已记 note·智谱AI/z.ai/Kimi/优云智算/阶跃星辰/快手/字节·方舟/WM AI/OpenDesign/OpenCode Go 官方页经核对无价格改动·MiniMax 页面仅导航壳（549 字符）渲染异常未改·MiMo（小米）本地无该平台条目未新增）
 - **Token**（2026.10.31）（OpenCode Go DeepSeek V4.1 Flash 月额度 $80→$100（Plus $160→$200·Teams $85→$105·请求数同比 25%）·腾讯·Token/小米·MiMo/天翼云·Token 官方页经核对无变化（MiMo 团队版 Tab 未渲染待复查））
 - **Video**（2026.10.31）（快手可灵/即梦/OpenArt 官方页逐行核对价目档位额度与本地记录一致无实质变化·即梦 watch 复核维持★4·pai.video/RunningHub 登录墙仅搜到线索无证据）
 - **Image**（2026.10.31）（OpenArt 四档价格与积分额度经核对与数据一致未改动（Starter $14/4,000·Plus $34/12,000·Pro $56/24,000·Wonder $240/106,000）·Midjourney/通义万相/堆友/Liblib AI 指纹无变化未改动·RunningHub 登录墙仅搜到无关线索无证据）
