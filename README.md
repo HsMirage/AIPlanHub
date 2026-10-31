@@ -20,7 +20,7 @@
 - **Token**（2026.11.01）（腾讯·Token/小米·MiMo/天翼云·Token/OpenCode Go 页有变动但价格·额度·模型逐行核对一致未改档位（天翼云文档更新至10-29版·OpenCode Go 补记 Go Teams 默认开启超额用余额·小米团队版 Tab 仍未渲染待复查）·阿里·Token Plan/Alaya Code/TaoToken/超算互联网 无变化·无抓取失败）
 - **Video**（2026.11.01）（快手可灵/OpenArt 官方页价格档位灵感值额度逐项核对与本地记录一致无实质变化·即梦仅页面横幅与技能文案变化 watch 复核维持★4（Image 同步需下一轮核对）·pai.video/RunningHub 抓取失败仅登录墙无证据）
 - **Image**（2026.10.31）（OpenArt 四档价格与积分额度经核对与数据一致未改动（Starter $14/4,000·Plus $34/12,000·Pro $56/24,000·Wonder $240/106,000）·Midjourney/通义万相/堆友/Liblib AI 指纹无变化未改动·RunningHub 登录墙仅搜到无关线索无证据）
-- **Audio**（2026.10.31）（Suno/Ace Studio/海螺AI/Udio 官方页经核对无变化）
+- **Audio**（2026.11.01）（Suno/Udio/Ace Studio/海螺AI 官方页经核对无变化）
 - 其他：中转站 2026.08.15（THINK-AI已下架·仅保留幻境MirageAI·幻境充值链接更新）·已下架归档 2026.08.19（新增无问芯穹/天翼云/百度千帆经典CodingPlan）·价格对比 2026.07.06 新增
 
 ---
