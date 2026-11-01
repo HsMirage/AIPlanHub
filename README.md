@@ -19,7 +19,7 @@
 - **Coding**（2026.11.02）（CommandCode GOAT 按模型分配 $80→$100（Ling 3.1 Flash/DS-V4.1-Flash/GLM-5.3-Flash 各 $100·免费 4 款）·智谱AI/z.ai/Kimi/字节·方舟/优云智算/阶跃星辰/快手/Ollama/稳明光语纪/WM AI/xKiro/OpenCode Go/OpenDesign 官方页经核对无变化·MiniMax 仅 550 字符导航壳无证据·讯飞星辰登录态未渲染套餐卡·MiMo（小米）本地无条目待下轮新增）
 - **Token**（2026.11.02）（腾讯·Token/小米·MiMo/OpenCode Go/天翼云·Token 官方页价格·积分·额度·模型逐行核对与本地一致未改动（小米团队版 Tab 未渲染待复查·OpenCode Go 仅 Go Teams 请求数表新渲染·天翼云文档仍为10-29版）·阿里·Token Plan/Alaya Code/TaoToken/超算互联网·Token 经核对无变化）
 - **Video**（2026.11.02）（快手可灵/OpenArt 官方页价格档位灵感值额度逐项核对与本地记录一致无变化·Vidu等5家指纹未变未打开·pai.video/RunningHub 抓取失败仅登录墙无证据）
-- **Image**（2026.11.01）（OpenArt 官方页四档价格与积分(Starter $14/4,000·Plus $34/12,000·Pro $56/24,000·Wonder $240/106,000)及 Extra Credit $15/5,000 经核对与数据一致无变化·Flux 3 无限视频活动页仍写至10.31已过期待复查·Liblib AI 两次渲染不一致未改动·RunningHub 登录墙无证据）
+- **Image**（2026.11.02）（OpenArt 四档月付按页面现价折算 ¥98→¥91/¥238→¥189/¥392→¥308/¥1680→¥1225·年付与积分不变·RunningHub 抓取失败无证据）
 - **Audio**（2026.11.02）（Udio 官方定价页经核对无实质变化（三档 $0/$10-96/$30-288、2400/6000积分均与数据一致，指纹变动为文案微调）·Suno/Ace Studio 未变·海螺AI 登录墙·兜底抓到无关页面无证据）
 - 其他：中转站 2026.08.15（THINK-AI已下架·仅保留幻境MirageAI·幻境充值链接更新）·已下架归档 2026.08.19（新增无问芯穹/天翼云/百度千帆经典CodingPlan）·价格对比 2026.07.06 新增
 
