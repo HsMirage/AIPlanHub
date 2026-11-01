@@ -16,7 +16,7 @@
 
 > **更新日志**（每分类仅保留最新一条·完整历史见 git log）
 >
-- **Coding**（2026.11.01）（Ollama 云模型清单 21→23 款（新增 MiMo-V2.6-Flash/Pro）·CommandCode 免费行新增 Ling 3.1 Flash 1019（限时至 11.3）·稳明光语纪四档加量包次数补全（Lite 1300/Pro 6500/Plus 19500/Max 52000 次）·xKiro 页面口径 103 模型/免费 45 个已记 note·智谱AI/z.ai/Kimi/优云智算/阶跃星辰/快手/字节·方舟/WM AI/OpenDesign/OpenCode Go 官方页经核对无价格改动·MiniMax 页面仅导航壳（549 字符）渲染异常未改·MiMo（小米）本地无该平台条目未新增）
+- **Coding**（2026.11.02）（CommandCode GOAT 按模型分配 $80→$100（Ling 3.1 Flash/DS-V4.1-Flash/GLM-5.3-Flash 各 $100·免费 4 款）·智谱AI/z.ai/Kimi/字节·方舟/优云智算/阶跃星辰/快手/Ollama/稳明光语纪/WM AI/xKiro/OpenCode Go/OpenDesign 官方页经核对无变化·MiniMax 仅 550 字符导航壳无证据·讯飞星辰登录态未渲染套餐卡·MiMo（小米）本地无条目待下轮新增）
 - **Token**（2026.11.01）（腾讯·Token/小米·MiMo/天翼云·Token/OpenCode Go 页有变动但价格·额度·模型逐行核对一致未改档位（天翼云文档更新至10-29版·OpenCode Go 补记 Go Teams 默认开启超额用余额·小米团队版 Tab 仍未渲染待复查）·阿里·Token Plan/Alaya Code/TaoToken/超算互联网 无变化·无抓取失败）
 - **Video**（2026.11.01）（快手可灵/OpenArt 官方页价格档位灵感值额度逐项核对与本地记录一致无实质变化·即梦仅页面横幅与技能文案变化 watch 复核维持★4（Image 同步需下一轮核对）·pai.video/RunningHub 抓取失败仅登录墙无证据）
 - **Image**（2026.11.01）（OpenArt 官方页四档价格与积分(Starter $14/4,000·Plus $34/12,000·Pro $56/24,000·Wonder $240/106,000)及 Extra Credit $15/5,000 经核对与数据一致无变化·Flux 3 无限视频活动页仍写至10.31已过期待复查·Liblib AI 两次渲染不一致未改动·RunningHub 登录墙无证据）
