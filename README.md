@@ -16,7 +16,7 @@
 
 > **更新日志**（每分类仅保留最新一条·完整历史见 git log）
 >
-- **Coding**（2026.11.02）（CommandCode GOAT 按模型分配 $80→$100（Ling 3.1 Flash/DS-V4.1-Flash/GLM-5.3-Flash 各 $100·免费 4 款）·智谱AI/z.ai/Kimi/字节·方舟/优云智算/阶跃星辰/快手/Ollama/稳明光语纪/WM AI/xKiro/OpenCode Go/OpenDesign 官方页经核对无变化·MiniMax 仅 550 字符导航壳无证据·讯飞星辰登录态未渲染套餐卡·MiMo（小米）本地无条目待下轮新增）
+- **Coding**（2026.11.03）（MiniMax 官方模型名去 Preview（MiniMax-M3.1-Flash-Preview→MiniMax-M3.1-Flash·三档 ¥49/119/469 未变）·其余平台经核对无变化（智谱AI/z.ai/Kimi/字节·方舟/阿里·百炼/优云智算/阶跃星辰/快手/Ollama/xKiro/CommandCode/OpenCode Go/OpenDesign）·稳明光语纪 Plus/Max 未渲染待复查·字节·方舟与 WM AI 页面未出价格无证据·MiMo 属 Token 分类不重复录入）
 - **Token**（2026.11.02）（腾讯·Token/小米·MiMo/OpenCode Go/天翼云·Token 官方页价格·积分·额度·模型逐行核对与本地一致未改动（小米团队版 Tab 未渲染待复查·OpenCode Go 仅 Go Teams 请求数表新渲染·天翼云文档仍为10-29版）·阿里·Token Plan/Alaya Code/TaoToken/超算互联网·Token 经核对无变化）
 - **Video**（2026.11.02）（快手可灵/OpenArt 官方页价格档位灵感值额度逐项核对与本地记录一致无变化·Vidu等5家指纹未变未打开·pai.video/RunningHub 抓取失败仅登录墙无证据）
 - **Image**（2026.11.02）（OpenArt 四档月付按页面现价折算 ¥98→¥91/¥238→¥189/¥392→¥308/¥1680→¥1225·年付与积分不变·RunningHub 抓取失败无证据）
