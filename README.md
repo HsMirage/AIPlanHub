@@ -19,7 +19,7 @@
 - **Coding**（2026.11.04）（Charm Hyper 模型 23→24 新增 Muse-Spark-Open·OpenDesign Design Plan 12→13 新增 MiniMax-M3.1-Flash·CommandCode 免费模型 4→3（Ling 3.1 Flash 限时免费到期转 GOAT 付费额度）·智谱AI/z.ai/Kimi/MiniMax/阿里·百炼/优云智算/阶跃星辰/Ollama/OpenCode Go 官方页经核对无变化·字节·方舟价格区仍「价格查询中」无证据·快手 StreamLake 仅营销页无档位数字·MiMo 属 Token 分类）
 - **Token**（2026.11.04）（腾讯·Token/阿里·Token Plan/OpenCode Go/天翼云·Token 官方页价格·积分·额度·模型与本地数据逐行一致未改动（差异仅页脚与渲染噪声·天翼云文档仍10-29版·腾讯仍10-22版·OpenCode Go仅 Go Teams 请求数表新渲染）·小米·MiMo 两次渲染不一致未核对·无抓取失败）
 - **Video**（2026.11.04）（OpenArt 删除已过期 Flux 3 无限活动说明改为页面 Unlimited Creation·快手可灵四档价格与灵感值核对无变化·Vidu 定价区未渲染仅剩 FAQ 无证据待复查·即梦抓取为创作页无会员价未改动评分复核维持★4·pai.video/RunningHub 抓取失败无证据）
-- **Image**（2026.11.03）（OpenArt 四档现价/credits/并发/商用经核对与数据一致·仅 Wonder 的 Flux 3 720p 无限视频活动(至10.31)已随页面撤下且未见 Flux 3 加购入口待复查·Midjourney/通义万相/堆友/Liblib AI 指纹无变化未改动·RunningHub 登录墙仅搜到无关线索无证据）
+- **Image**（2026.11.04）（OpenArt 官方页四档价格/额度/并发/商用与现有数据一致无改动（Flux 3 无限活动已撤下，note 已记待复查）·月付口径 $14→$13 折后与 video-data.js 的 ¥98 不一致，待人工统一·RunningHub 登录墙仅搜到无关线索无证据·Midjourney/通义万相/堆友/Liblib AI 指纹无变化）
 - **Audio**（2026.11.04）（Suno 官方页经核对无实质变化（仅"抢先/优先体验"文案与标点差异，$0/$10-96/$30-288、2500/10000点数、20/60首下载、v6-mini与v6/v6-wild均一致）·Udio/Ace Studio 官方页未变·海螺AI 订阅页抓取失败（渲染出语音首页，兜底页未提及该平台无证据））
 - 其他：中转站 2026.08.15（THINK-AI已下架·仅保留幻境MirageAI·幻境充值链接更新）·已下架归档 2026.08.19（新增无问芯穹/天翼云/百度千帆经典CodingPlan）·价格对比 2026.07.06 新增
 
