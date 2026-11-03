@@ -16,7 +16,7 @@
 
 > **更新日志**（每分类仅保留最新一条·完整历史见 git log）
 >
-- **Coding**（2026.11.03）（MiniMax 官方模型名去 Preview（MiniMax-M3.1-Flash-Preview→MiniMax-M3.1-Flash·三档 ¥49/119/469 未变）·其余平台经核对无变化（智谱AI/z.ai/Kimi/字节·方舟/阿里·百炼/优云智算/阶跃星辰/快手/Ollama/xKiro/CommandCode/OpenCode Go/OpenDesign）·稳明光语纪 Plus/Max 未渲染待复查·字节·方舟与 WM AI 页面未出价格无证据·MiMo 属 Token 分类不重复录入）
+- **Coding**（2026.11.04）（Charm Hyper 模型 23→24 新增 Muse-Spark-Open·OpenDesign Design Plan 12→13 新增 MiniMax-M3.1-Flash·CommandCode 免费模型 4→3（Ling 3.1 Flash 限时免费到期转 GOAT 付费额度）·智谱AI/z.ai/Kimi/MiniMax/阿里·百炼/优云智算/阶跃星辰/Ollama/OpenCode Go 官方页经核对无变化·字节·方舟价格区仍「价格查询中」无证据·快手 StreamLake 仅营销页无档位数字·MiMo 属 Token 分类）
 - **Token**（2026.11.03）（腾讯·Token/阿里·Token Plan/小米·MiMo/OpenCode Go/天翼云·Token 官方页价格·积分·额度·模型逐行核对与本地一致未改动（腾讯文档仍10-22版·天翼云仍10-29版·小米团队版Tab未渲染待复查·OpenCode Go 第三方10-19实测称 DS-V4.1-Flash 月额度$80 而官方页为$100 以官方为准）·无抓取失败）
 - **Video**（2026.11.03）（快手可灵价格档位灵感值经官方页逐项核对无变化·OpenArt 四档价与 credits 一致仅补记 Plus 及以上 OpenArt MCP 生成 10% 折扣·即梦抓取为创作页无会员价评分复核维持 ★4·Vidu 定价区未渲染待复查·pai.video/RunningHub 抓取失败无证据）
 - **Image**（2026.11.03）（OpenArt 四档现价/credits/并发/商用经核对与数据一致·仅 Wonder 的 Flux 3 720p 无限视频活动(至10.31)已随页面撤下且未见 Flux 3 加购入口待复查·Midjourney/通义万相/堆友/Liblib AI 指纹无变化未改动·RunningHub 登录墙仅搜到无关线索无证据）
