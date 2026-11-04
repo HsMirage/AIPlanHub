@@ -16,7 +16,7 @@
 
 > **更新日志**（每分类仅保留最新一条·完整历史见 git log）
 >
-- **Coding**（2026.11.04）（Charm Hyper 模型 23→24 新增 Muse-Spark-Open·OpenDesign Design Plan 12→13 新增 MiniMax-M3.1-Flash·CommandCode 免费模型 4→3（Ling 3.1 Flash 限时免费到期转 GOAT 付费额度）·智谱AI/z.ai/Kimi/MiniMax/阿里·百炼/优云智算/阶跃星辰/Ollama/OpenCode Go 官方页经核对无变化·字节·方舟价格区仍「价格查询中」无证据·快手 StreamLake 仅营销页无档位数字·MiMo 属 Token 分类）
+- **Coding**（2026.11.05）（Charm Hyper 新增 Prism-Core（模型 24→25 款·价格/积分不变）·OpenDesign 团队版席位档下线+Max 并发 30→50（价格/额度不变）·CommandCode 免费模型 3→4 款新增 Crouton Alpha（五档价格不变）·Ollama Mistral-Large-4 单价 $0.68/$2.09→$0.70/$2.10（套餐价不变）·智谱AI/z.ai/Kimi/MiniMax/阿里·百炼/优云智算/阶跃星辰/快手 StreamLake/xKiro/OpenCode Go 官方页经核对无变化·字节·方舟价格区仍「价格查询中」无证据·稳明光语纪页面改为生图/生视频四档¥29.9/69.9/159/399·原¥45/125/249/429 未出现无下架证据待复查·MiMo 属 Token 分类未纳入）
 - **Token**（2026.11.04）（腾讯·Token/阿里·Token Plan/OpenCode Go/天翼云·Token 官方页价格·积分·额度·模型与本地数据逐行一致未改动（差异仅页脚与渲染噪声·天翼云文档仍10-29版·腾讯仍10-22版·OpenCode Go仅 Go Teams 请求数表新渲染）·小米·MiMo 两次渲染不一致未核对·无抓取失败）
 - **Video**（2026.11.04）（OpenArt 删除已过期 Flux 3 无限活动说明改为页面 Unlimited Creation·快手可灵四档价格与灵感值核对无变化·Vidu 定价区未渲染仅剩 FAQ 无证据待复查·即梦抓取为创作页无会员价未改动评分复核维持★4·pai.video/RunningHub 抓取失败无证据）
 - **Image**（2026.11.04）（OpenArt 官方页四档价格/额度/并发/商用与现有数据一致无改动（Flux 3 无限活动已撤下，note 已记待复查）·月付口径 $14→$13 折后与 video-data.js 的 ¥98 不一致，待人工统一·RunningHub 登录墙仅搜到无关线索无证据·Midjourney/通义万相/堆友/Liblib AI 指纹无变化）
