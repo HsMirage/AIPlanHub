@@ -17,7 +17,7 @@
 > **更新日志**（每分类仅保留最新一条·完整历史见 git log）
 >
 - **Coding**（2026.11.06）（Ollama 新增 Kimi-K3.1-Pro 云模型 23→24 款（$2.00/$0.20/$10.00）·Charm Hyper 新增 Kimi-K3.1-Pro 模型 25→26 款（套餐价格/积分不变）·OpenCode Go 新增 Hy4 目录 38→39 款（月额度 Go $60/Plus $240/Teams $65）·智谱AI z.ai Kimi MiniMax 字节·方舟 阿里·百炼 移动云 优云智算 阶跃星辰 快手 StreamLake xKiro CommandCode OpenDesign 官方页经核对无价格变化·稳明光语纪 页面仅见生图四档 ¥29.9/69.9/159/399，原 Coding 四档未出现但无下架证据保留待复查·TaoToken 页面渲染不全待复查·MiMo 属 Token 分类未纳入）
-- **Token**（2026.11.05）（腾讯·Token 通用/Hy 可用模型各新增 Hy4（通用13→14款·Hy 2→3款，价格39/99/299/599·28/78/238/468与积分780/1980/5980/11980·560/1560/4760/9360不变）·阿里·Token Plan 夜间五折由3款扩至4款（含DeepSeek-V4.1-Flash-1017）且模型表已收录该ID、Decision-Model-Preview限免·四档39/79/139/499与月限额11,500/25,500/45,000/180,000不变·小米·MiMo 价格/首月价/年付88折/Credits一致，补记无周限额·无5小时限额·TTS限免，团队版Tab本轮未渲染待复查·OpenCode Go 30款模型与Go $10/Plus $40/Teams $20三档月额度请求数一致，补记Beam Free中国大陆港澳不可用·天翼云·Token 积分版5档与老套餐5档价格积分模型一致·Alaya Code/TaoToken/超算互联网·Token 官方页未变未改动）
+- **Token**（2026.11.06）（阿里·Token Plan 个人版新增新用户限时价 Lite ¥19.5/Essential ¥39.5（至11.30·标准价39/79不变）·OpenCode Go 模型30→31 新增 Hy4（月额度$60/$240/$65·$10/$40/每席$20不变）·腾讯·Token/小米·MiMo/天翼云·Token/TaoToken 官方页经核对无变化（TaoToken 仅多双11充值活动，不入档位））
 - **Video**（2026.11.05）（快手可灵四档价格/灵感值/新客试用价经核对无变化（仅 note 口径由「↓40%」改为页面原文「新客3折试用」）·OpenArt 四档月付/年付价与额度、Extra Credit $15 均一致无变化·Vidu 定价区仍未渲染（仅 Loading pricing plans 与 FAQ）无证据未改动·即梦仍为创作页无会员价，证据不足未改动，watch 评分复核维持★4·pai.video/RunningHub 抓取失败无证据）
 - **Image**（2026.11.05）（OpenArt 四档月付改标价 ¥91→¥98·¥189→¥238·¥308→¥392·¥1,225→¥1,680（$13/$27/$44/$175 实为年付折算价，年付与额度并发商用权益不变，评分维持★2）·Midjourney 四档 $10/$30/$60/$120 与 Fast GPU 3.3/15/30/60h 经核对无变化·RunningHub 登录墙无证据）
 - **Audio**（2026.11.05）（Ace Studio/Suno/Udio 官方页经核对无变化·抓取失败 海螺AI）
