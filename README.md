@@ -16,7 +16,7 @@
 
 > **更新日志**（每分类仅保留最新一条·完整历史见 git log）
 >
-- **Coding**（2026.11.06）（Ollama 新增 Kimi-K3.1-Pro 云模型 23→24 款（$2.00/$0.20/$10.00）·Charm Hyper 新增 Kimi-K3.1-Pro 模型 25→26 款（套餐价格/积分不变）·OpenCode Go 新增 Hy4 目录 38→39 款（月额度 Go $60/Plus $240/Teams $65）·智谱AI z.ai Kimi MiniMax 字节·方舟 阿里·百炼 移动云 优云智算 阶跃星辰 快手 StreamLake xKiro CommandCode OpenDesign 官方页经核对无价格变化·稳明光语纪 页面仅见生图四档 ¥29.9/69.9/159/399，原 Coding 四档未出现但无下架证据保留待复查·TaoToken 页面渲染不全待复查·MiMo 属 Token 分类未纳入）
+- **Coding**（2026.11.07）（Ollama Beam 补标价 $0.125/$0.015/$0.40·Charm Hyper 新增 Prism-Flash（模型 26→27 款·套餐价格/积分不变）·OpenCode Go 新增 Crouton Alpha Free（models 39→40 款·价格 $10/$40/$20 不变）·CommandCode 免费模型 4→3 款（Laguna S 2.1 本轮页面未列·models 暂保留）·智谱AI 积分 2000/12000/28000 与 10000/60000/140000·z.ai GLM-5.3/5.3-Flash 与三档价·字节·方舟（价格区仍「价格查询中」）·阿里·百炼 Pro ¥200/6000~90000/6 款·优云智算六档 ¥49-999 与 300~6000 次/5h·阶跃星辰 9 款·快手 StreamLake（纯营销页无价格）官方页经核对无变化·TaoToken 页面渲染异常（字符数 -82%）不删档待复查·Kimi MiniMax 移动云 讯飞星辰 Meituan CatPaw AtomCode 稳明光语纪 MiMo xKiro WM AI OpenDesign 抓取失败无证据）
 - **Token**（2026.11.06）（阿里·Token Plan 个人版新增新用户限时价 Lite ¥19.5/Essential ¥39.5（至11.30·标准价39/79不变）·OpenCode Go 模型30→31 新增 Hy4（月额度$60/$240/$65·$10/$40/每席$20不变）·腾讯·Token/小米·MiMo/天翼云·Token/TaoToken 官方页经核对无变化（TaoToken 仅多双11充值活动，不入档位））
 - **Video**（2026.11.06）（快手可灵顶档黑金更名黑钻 ¥1,149→¥4,049/月(首月¥3,219)·灵感值26000→57000·100灵感值¥3.52→¥5.65·OpenArt 四档月付/年付/额度与加购$15均一致无变化仅补记GPT Image 2.6七折·Vidu 定价区仅"Loading pricing plans"无数字证据不足未改动·pai.video与RunningHub登录墙仅搜到线索无证据）
 - **Image**（2026.11.06）（Midjourney 四档 $10/$30/$60/$120 与 Fast GPU 3.3/15/30/60h 无变化·依证据给 Basic/Standard 补商用授权并注明年营收超百万美元的公司须购 Pro/Mega·OpenArt 四档 $14/$34/$56/$240 与积分无变化·补记 GPT Image 2.6 生成 7 折(Pro/Wonder)·通义万相/堆友/Liblib AI 未变·RunningHub 登录墙无证据）
