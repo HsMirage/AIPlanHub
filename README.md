@@ -20,7 +20,7 @@
 - **Token**（2026.11.07）（OpenCode Go 新增限时免费档 Crouton-Alpha-Free（31→32款·Go/Plus/Teams 均无限制·欧盟中国大陆含港澳不可用）·腾讯·Token/阿里·Token Plan/天翼云·Token/TaoToken 官方页经核对无变化·小米·MiMo/Alaya Code 抓取失败无证据）
 - **Video**（2026.11.07）（Vidu 定价页只渲染 Loading pricing plans 无任何数字·证据不足未改动·OpenArt 四档 $14/$34/$56/$240、积分/并发/商用授权/$15 加购 5,000 积分均与数据一致无改动·快手可灵/海螺AI/pai.video/即梦/RunningHub/通义万相抓取失败无证据（即梦★4 评分本轮无法复核待下轮））
 - **Image**（2026.11.06）（Midjourney 四档 $10/$30/$60/$120 与 Fast GPU 3.3/15/30/60h 无变化·依证据给 Basic/Standard 补商用授权并注明年营收超百万美元的公司须购 Pro/Mega·OpenArt 四档 $14/$34/$56/$240 与积分无变化·补记 GPT Image 2.6 生成 7 折(Pro/Wonder)·通义万相/堆友/Liblib AI 未变·RunningHub 登录墙无证据）
-- **Audio**（2026.11.06）（Suno 官方定价页核对价格$0/$10/$96·$30/$288 与积分2,500/10,000·下载20/60首均不变，仅补记无月度下载/不可加购/积分不结转与 Premier 上传上限30分钟·Ace Studio/Udio 经核对无变化·海螺AI 抓取仅到语音合成页无订阅证据未改动）
+- **Audio**（2026.11.07）（Suno 官方页经核对无变化·抓取失败 Udio/Ace Studio/海螺AI）
 - 其他：中转站 2026.08.15（THINK-AI已下架·仅保留幻境MirageAI·幻境充值链接更新）·已下架归档 2026.08.19（新增无问芯穹/天翼云/百度千帆经典CodingPlan）·价格对比 2026.07.06 新增
 
 ---
