@@ -17,7 +17,7 @@
 > **更新日志**（每分类仅保留最新一条·完整历史见 git log）
 >
 - **Coding**（2026.11.07）（Ollama Beam 补标价 $0.125/$0.015/$0.40·Charm Hyper 新增 Prism-Flash（模型 26→27 款·套餐价格/积分不变）·OpenCode Go 新增 Crouton Alpha Free（models 39→40 款·价格 $10/$40/$20 不变）·CommandCode 免费模型 4→3 款（Laguna S 2.1 本轮页面未列·models 暂保留）·智谱AI 积分 2000/12000/28000 与 10000/60000/140000·z.ai GLM-5.3/5.3-Flash 与三档价·字节·方舟（价格区仍「价格查询中」）·阿里·百炼 Pro ¥200/6000~90000/6 款·优云智算六档 ¥49-999 与 300~6000 次/5h·阶跃星辰 9 款·快手 StreamLake（纯营销页无价格）官方页经核对无变化·TaoToken 页面渲染异常（字符数 -82%）不删档待复查·Kimi MiniMax 移动云 讯飞星辰 Meituan CatPaw AtomCode 稳明光语纪 MiMo xKiro WM AI OpenDesign 抓取失败无证据）
-- **Token**（2026.11.06）（阿里·Token Plan 个人版新增新用户限时价 Lite ¥19.5/Essential ¥39.5（至11.30·标准价39/79不变）·OpenCode Go 模型30→31 新增 Hy4（月额度$60/$240/$65·$10/$40/每席$20不变）·腾讯·Token/小米·MiMo/天翼云·Token/TaoToken 官方页经核对无变化（TaoToken 仅多双11充值活动，不入档位））
+- **Token**（2026.11.07）（OpenCode Go 新增限时免费档 Crouton-Alpha-Free（31→32款·Go/Plus/Teams 均无限制·欧盟中国大陆含港澳不可用）·腾讯·Token/阿里·Token Plan/天翼云·Token/TaoToken 官方页经核对无变化·小米·MiMo/Alaya Code 抓取失败无证据）
 - **Video**（2026.11.06）（快手可灵顶档黑金更名黑钻 ¥1,149→¥4,049/月(首月¥3,219)·灵感值26000→57000·100灵感值¥3.52→¥5.65·OpenArt 四档月付/年付/额度与加购$15均一致无变化仅补记GPT Image 2.6七折·Vidu 定价区仅"Loading pricing plans"无数字证据不足未改动·pai.video与RunningHub登录墙仅搜到线索无证据）
 - **Image**（2026.11.06）（Midjourney 四档 $10/$30/$60/$120 与 Fast GPU 3.3/15/30/60h 无变化·依证据给 Basic/Standard 补商用授权并注明年营收超百万美元的公司须购 Pro/Mega·OpenArt 四档 $14/$34/$56/$240 与积分无变化·补记 GPT Image 2.6 生成 7 折(Pro/Wonder)·通义万相/堆友/Liblib AI 未变·RunningHub 登录墙无证据）
 - **Audio**（2026.11.06）（Suno 官方定价页核对价格$0/$10/$96·$30/$288 与积分2,500/10,000·下载20/60首均不变，仅补记无月度下载/不可加购/积分不结转与 Premier 上传上限30分钟·Ace Studio/Udio 经核对无变化·海螺AI 抓取仅到语音合成页无订阅证据未改动）
