@@ -16,7 +16,7 @@
 
 > **更新日志**（每分类仅保留最新一条·完整历史见 git log）
 >
-- **Coding**（2026.11.07）（Ollama Beam 补标价 $0.125/$0.015/$0.40·Charm Hyper 新增 Prism-Flash（模型 26→27 款·套餐价格/积分不变）·OpenCode Go 新增 Crouton Alpha Free（models 39→40 款·价格 $10/$40/$20 不变）·CommandCode 免费模型 4→3 款（Laguna S 2.1 本轮页面未列·models 暂保留）·智谱AI 积分 2000/12000/28000 与 10000/60000/140000·z.ai GLM-5.3/5.3-Flash 与三档价·字节·方舟（价格区仍「价格查询中」）·阿里·百炼 Pro ¥200/6000~90000/6 款·优云智算六档 ¥49-999 与 300~6000 次/5h·阶跃星辰 9 款·快手 StreamLake（纯营销页无价格）官方页经核对无变化·TaoToken 页面渲染异常（字符数 -82%）不删档待复查·Kimi MiniMax 移动云 讯飞星辰 Meituan CatPaw AtomCode 稳明光语纪 MiMo xKiro WM AI OpenDesign 抓取失败无证据）
+- **Coding**（2026.11.08）（MiniMax 仅年付原价标注修正 Explore ¥1,490→¥1,428（¥49/119/469 与年付 ¥490/1,190/4,690 未变·对比表补核定 定时任务15·20·50/网站部署50·100·200/项目50·100·200）·Kimi 五档 ¥49/99/199/699/1,399 与年付 ¥468/948/1,908/6,708/13,428 经核对无变化（K3.1 Pro 新增但本页未写套餐归属·models 暂不加）·Ollama 24 款云模型与 Free/Pro $20/Max $100/Team $500 无变化·阶跃星辰本页无价格数字未改·稳明光语纪 3.2KB 仅渲染生图四档与 ¥29.9 新客档、LLM 四档未渲染待复查）
 - **Token**（2026.11.07）（OpenCode Go 新增限时免费档 Crouton-Alpha-Free（31→32款·Go/Plus/Teams 均无限制·欧盟中国大陆含港澳不可用）·腾讯·Token/阿里·Token Plan/天翼云·Token/TaoToken 官方页经核对无变化·小米·MiMo/Alaya Code 抓取失败无证据）
 - **Video**（2026.11.07）（Vidu 定价页只渲染 Loading pricing plans 无任何数字·证据不足未改动·OpenArt 四档 $14/$34/$56/$240、积分/并发/商用授权/$15 加购 5,000 积分均与数据一致无改动·快手可灵/海螺AI/pai.video/即梦/RunningHub/通义万相抓取失败无证据（即梦★4 评分本轮无法复核待下轮））
 - **Image**（2026.11.07）（OpenArt 官方页价格/额度/权益核对无变化·Midjourney/RunningHub 抓取失败无证据·Liblib/通义万相/堆友 仅第三方缓存页且与本地冲突未改）
