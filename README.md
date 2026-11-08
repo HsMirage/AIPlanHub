@@ -17,7 +17,7 @@
 > **更新日志**（每分类仅保留最新一条·完整历史见 git log）
 >
 - **Coding**（2026.11.09）（OpenDesign 每月最高总额度 Go $120→$220·Plus $180→$310（Pro $480/Max $900 不变）·新增 DeepSeek-V4.1-Flash-Eco（Design Plan 266,933次/7天·仅 Go/Plus 可用）；OpenCode Go 三档价格 $10/$40/$20 不变·DS-V4.1-Flash 月额度 $80→$100（请求数 216,670/月）；智谱AI/z.ai/阶跃星辰/Ollama 官方页经核对无变化；Kimi/MiniMax/移动云/讯飞星辰/Meituan CatPaw/AtomCode/稳明光语纪/MiMo/xKiro/WM AI 抓取失败无证据）
-- **Token**（2026.11.08）（腾讯·Token/阿里·Token Plan/小米·MiMo/OpenCode Go/天翼云·Token/TaoToken 逐项核对价格·档位·额度·模型清单与本地一致无改动·Alaya Code与超算互联网指纹未变未复核·小米团队版栏未渲染待复查）
+- **Token**（2026.11.09）（OpenCode Go 官方页经核对无变化（$10/$40/每席$20·32款模型·月额度与请求数逐行一致，变动仅导航栏与隐私表文字）·小米·MiMo 抓取失败、兜底页未提及无证据·Alaya Code 抓取失败、兜底页未提及无证据·diff 未变的腾讯·Token/阿里·Token Plan/天翼云·Token/TaoToken/超算互联网未动）
 - **Video**（2026.11.08）（快手可灵/OpenArt 官方页经核对无变化·可灵评分卡仅修正年付折扣表述·Vidu 定价页只渲染加载占位无数字证据不足未改动·pai.video/RunningHub 抓取失败无证据）
 - **Image**（2026.11.08）（Liblib AI 新增 Kling 4.0 分档折扣（有参 8 折/6 折·无参 8.5 折；标准版卡片未渲染待复查）·Midjourney/OpenArt 官方页价格额度经核对无变化·RunningHub 登录墙无证据）
 - **Audio**（2026.11.08）（Udio/Ace Studio/Suno 官方页经核对无变化·抓取失败 海螺AI）
