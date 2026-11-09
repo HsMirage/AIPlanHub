@@ -17,7 +17,7 @@
 > **更新日志**（每分类仅保留最新一条·完整历史见 git log）
 >
 - **Coding**（2026.11.10）（OpenDesign 首月 Pro $70→$80·Max $120→$160（年付 $720→$840·$1,176→$1,680）·CommandCode 免费 Laguna S 2.1 已退役从全档 models 移除·OpenCode Go LongCat 2.5 Free 回归限时免费补回 models·智谱AI/z.ai/优云智算/阶跃星辰/Ollama 官方页经核对无变化·Kimi/MiniMax/移动云/讯飞星辰/Meituan CatPaw/AtomCode/稳明光语纪/MiMo/xKiro/WM AI 抓取失败仅第三方兜底无证据）
-- **Token**（2026.11.09）（OpenCode Go 官方页经核对无变化（$10/$40/每席$20·32款模型·月额度与请求数逐行一致，变动仅导航栏与隐私表文字）·小米·MiMo 抓取失败、兜底页未提及无证据·Alaya Code 抓取失败、兜底页未提及无证据·diff 未变的腾讯·Token/阿里·Token Plan/天翼云·Token/TaoToken/超算互联网未动）
+- **Token**（2026.11.10）（阿里·Token Plan 四档额度上调（Lite 11,500→20,000·Essential 25,500→45,000·Standard 45,000→80,000·Pro 180,000→200,000 Credits）且 Pro ¥499→¥312·OpenCode Go 模型 32→33 款（LongCat 2.5 Free 重回官方目录·$10/$40/每席$20 不变）·小米·MiMo 与 Alaya Code 抓取失败无证据·腾讯·Token/天翼云·Token/TaoToken/超算互联网·Token 官方页经核对无变化）
 - **Video**（2026.11.09）（Vidu/腾讯混元/OpenArt 官方页经核对无变化·抓取失败 快手可灵/海螺AI/pai.video/即梦/RunningHub/通义万相）
 - **Image**（2026.11.09）（OpenArt 官方页经核对无变化·抓取失败 Midjourney/Liblib AI/通义万相/RunningHub/堆友）
 - **Audio**（2026.11.09）（Suno 官方页经核对无变化·抓取失败 Udio/Ace Studio/海螺AI）
