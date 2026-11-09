@@ -20,7 +20,7 @@
 - **Token**（2026.11.10）（阿里·Token Plan 四档额度上调（Lite 11,500→20,000·Essential 25,500→45,000·Standard 45,000→80,000·Pro 180,000→200,000 Credits）且 Pro ¥499→¥312·OpenCode Go 模型 32→33 款（LongCat 2.5 Free 重回官方目录·$10/$40/每席$20 不变）·小米·MiMo 与 Alaya Code 抓取失败无证据·腾讯·Token/天翼云·Token/TaoToken/超算互联网·Token 官方页经核对无变化）
 - **Video**（2026.11.10）（OpenArt 证据新增 Recraft V4.1/V4.1 Flash 生成 7 折、去掉已过期的 Kling/GPT Image 折扣截止日·Pro 档「优先支持」删除(页面只给 Wonder)·四档 $14/$34/$56/$240 未变·评分维持★2·Vidu/腾讯混元 官方页无变化·快手可灵/海螺AI/pai.video/即梦/RunningHub/通义万相 抓取失败无证据(即梦 watch 因无官方证据未复核)）
 - **Image**（2026.11.09）（OpenArt 官方页经核对无变化·抓取失败 Midjourney/Liblib AI/通义万相/RunningHub/堆友）
-- **Audio**（2026.11.09）（Suno 官方页经核对无变化·抓取失败 Udio/Ace Studio/海螺AI）
+- **Audio**（2026.11.10）（Suno 官方页经核对价格/积分/下载/模型均无变化，仅补记 Premier 的 Suno Studio 支持自定义插件设计·Udio/Ace Studio/海螺AI 抓取失败无证据未改动）
 - 其他：中转站 2026.08.15（THINK-AI已下架·仅保留幻境MirageAI·幻境充值链接更新）·已下架归档 2026.08.19（新增无问芯穹/天翼云/百度千帆经典CodingPlan）·价格对比 2026.07.06 新增
 
 ---
