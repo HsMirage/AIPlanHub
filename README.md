@@ -20,7 +20,7 @@
 - **Token**（2026.11.11）（OpenCode Go 模型 33→32 款（Crouton Alpha Free 已从官方模型/价格/额度/请求数四表移除·Go $10/Plus $40/每席 $20 与其余 32 款额度请求数逐行一致）·腾讯/天翼云/TaoToken/超算互联网/阿里 官方页经核对无变化·小米·MiMo 抓取失败（兜底全文与本地一致未改动）·Alaya Code 兜底页未提该平台无证据）
 - **Video**（2026.11.11）（OpenArt 四档 $14/$34/$56/$240 与 credits 均未变·Pro/Wonder 新增 Seedream 5.5 生成 5 折(50% OFF)·评分维持★2·Vidu/腾讯混元 官方页无变化·快手可灵/海螺AI/pai.video/即梦/RunningHub/通义万相 抓取失败无证据(即梦 watch 无官方页可复核，评分暂不动)）
 - **Image**（2026.11.10）（OpenArt 四档 $14/$34/$56/$240 与积分未变·Pro/Wonder 新增 Recraft V4.1 及 V4.1 Flash 生成 7 折并撤下折扣截止日·备注补按席位计价·Midjourney 仅搜到摘要无证据·Liblib AI/通义万相/RunningHub/堆友 抓取失败·即梦本轮无证据未复核）
-- **Audio**（2026.11.10）（Suno 官方页经核对价格/积分/下载/模型均无变化，仅补记 Premier 的 Suno Studio 支持自定义插件设计·Udio/Ace Studio/海螺AI 抓取失败无证据未改动）
+- **Audio**（2026.11.11）（Suno 官方页经核对无变化·抓取失败 Udio/Ace Studio/海螺AI）
 - 其他：中转站 2026.08.15（THINK-AI已下架·仅保留幻境MirageAI·幻境充值链接更新）·已下架归档 2026.08.19（新增无问芯穹/天翼云/百度千帆经典CodingPlan）·价格对比 2026.07.06 新增
 
 ---
