@@ -16,7 +16,7 @@
 
 > **更新日志**（每分类仅保留最新一条·完整历史见 git log）
 >
-- **Coding**（2026.11.10）（OpenDesign 首月 Pro $70→$80·Max $120→$160（年付 $720→$840·$1,176→$1,680）·CommandCode 免费 Laguna S 2.1 已退役从全档 models 移除·OpenCode Go LongCat 2.5 Free 回归限时免费补回 models·智谱AI/z.ai/优云智算/阶跃星辰/Ollama 官方页经核对无变化·Kimi/MiniMax/移动云/讯飞星辰/Meituan CatPaw/AtomCode/稳明光语纪/MiMo/xKiro/WM AI 抓取失败仅第三方兜底无证据）
+- **Coding**（2026.11.11）（OpenDesign 旗舰模型 16→18 款（Plus 档解锁 Opus 5.5/Seedream/Nano Banana/GPT Image）·Charm Hyper Prism 价 $3.27/$16.33→$2.20/$11.00·智谱AI/z.ai/阶跃星辰/快手StreamLake/Ollama/OpenCode Go 官方页经核对无变化·MiniMax 页面仅 0.7KB 渲染异常待复查·Kimi/移动云/讯飞星辰/Meituan CatPaw/AtomCode/稳明光语纪/MiMo/xKiro/WM AI 抓取失败无证据）
 - **Token**（2026.11.10）（阿里·Token Plan 四档额度上调（Lite 11,500→20,000·Essential 25,500→45,000·Standard 45,000→80,000·Pro 180,000→200,000 Credits）且 Pro ¥499→¥312·OpenCode Go 模型 32→33 款（LongCat 2.5 Free 重回官方目录·$10/$40/每席$20 不变）·小米·MiMo 与 Alaya Code 抓取失败无证据·腾讯·Token/天翼云·Token/TaoToken/超算互联网·Token 官方页经核对无变化）
 - **Video**（2026.11.10）（OpenArt 证据新增 Recraft V4.1/V4.1 Flash 生成 7 折、去掉已过期的 Kling/GPT Image 折扣截止日·Pro 档「优先支持」删除(页面只给 Wonder)·四档 $14/$34/$56/$240 未变·评分维持★2·Vidu/腾讯混元 官方页无变化·快手可灵/海螺AI/pai.video/即梦/RunningHub/通义万相 抓取失败无证据(即梦 watch 因无官方证据未复核)）
 - **Image**（2026.11.10）（OpenArt 四档 $14/$34/$56/$240 与积分未变·Pro/Wonder 新增 Recraft V4.1 及 V4.1 Flash 生成 7 折并撤下折扣截止日·备注补按席位计价·Midjourney 仅搜到摘要无证据·Liblib AI/通义万相/RunningHub/堆友 抓取失败·即梦本轮无证据未复核）
