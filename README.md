@@ -17,7 +17,7 @@
 > **更新日志**（每分类仅保留最新一条·完整历史见 git log）
 >
 - **Coding**（2026.11.12）（OpenDesign Plus 旗舰可用名单回缩：Claude Opus 5.5 重标暂不支持（18 款中 4 款不可用·价格与额度未变）·智谱AI/阶跃星辰/Ollama 官方页核对无价格额度模型变化·Kimi/移动云/讯飞星辰/Meituan CatPaw/AtomCode/稳明光语纪/MiMo/xKiro/WM AI 抓取失败仅有第三方全文、无官方页证据未改）
-- **Token**（2026.11.11）（OpenCode Go 模型 33→32 款（Crouton Alpha Free 已从官方模型/价格/额度/请求数四表移除·Go $10/Plus $40/每席 $20 与其余 32 款额度请求数逐行一致）·腾讯/天翼云/TaoToken/超算互联网/阿里 官方页经核对无变化·小米·MiMo 抓取失败（兜底全文与本地一致未改动）·Alaya Code 兜底页未提该平台无证据）
+- **Token**（2026.11.12）（阿里·Token Plan 新增 Qwen4-Max-Preview 限时预览模型（预览期 Credits 2折·11.11-11.25·结束后下线），四档 39/79/139/312 与月限额 20k/45k/80k/200k 不变·小米·MiMo/Alaya Code 抓取失败无证据）
 - **Video**（2026.11.11）（OpenArt 四档 $14/$34/$56/$240 与 credits 均未变·Pro/Wonder 新增 Seedream 5.5 生成 5 折(50% OFF)·评分维持★2·Vidu/腾讯混元 官方页无变化·快手可灵/海螺AI/pai.video/即梦/RunningHub/通义万相 抓取失败无证据(即梦 watch 无官方页可复核，评分暂不动)）
 - **Image**（2026.11.11）（OpenArt Pro/Wonder 折扣清单新增 Seedream 5.5 生成 5 折(四档 $14/$34/$56/$240 与积分未变)·Midjourney/Liblib AI/RunningHub/堆友 抓取失败无证据·通义万相仅搜到第三方 API 计费页、会员价无证据·即梦本轮无证据未复核）
 - **Audio**（2026.11.11）（Suno 官方页经核对无变化·抓取失败 Udio/Ace Studio/海螺AI）
