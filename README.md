@@ -16,7 +16,7 @@
 
 > **更新日志**（每分类仅保留最新一条·完整历史见 git log）
 >
-- **Coding**（2026.11.11）（OpenDesign 旗舰模型 16→18 款（Plus 档解锁 Opus 5.5/Seedream/Nano Banana/GPT Image）·Charm Hyper Prism 价 $3.27/$16.33→$2.20/$11.00·智谱AI/z.ai/阶跃星辰/快手StreamLake/Ollama/OpenCode Go 官方页经核对无变化·MiniMax 页面仅 0.7KB 渲染异常待复查·Kimi/移动云/讯飞星辰/Meituan CatPaw/AtomCode/稳明光语纪/MiMo/xKiro/WM AI 抓取失败无证据）
+- **Coding**（2026.11.11）（CommandCode GO/GOAT 两档 models 补入官方分配表明列的 DeepSeek V4.1 Flash（app.js 同步）·智谱AI/z.ai/移动云/阶跃星辰/OpenCode Go 官方页经核对价格额度模型均无变化·讯飞星辰订阅页空表未渲染无证据未改）
 - **Token**（2026.11.11）（OpenCode Go 模型 33→32 款（Crouton Alpha Free 已从官方模型/价格/额度/请求数四表移除·Go $10/Plus $40/每席 $20 与其余 32 款额度请求数逐行一致）·腾讯/天翼云/TaoToken/超算互联网/阿里 官方页经核对无变化·小米·MiMo 抓取失败（兜底全文与本地一致未改动）·Alaya Code 兜底页未提该平台无证据）
 - **Video**（2026.11.11）（OpenArt 四档 $14/$34/$56/$240 与 credits 均未变·Pro/Wonder 新增 Seedream 5.5 生成 5 折(50% OFF)·评分维持★2·Vidu/腾讯混元 官方页无变化·快手可灵/海螺AI/pai.video/即梦/RunningHub/通义万相 抓取失败无证据(即梦 watch 无官方页可复核，评分暂不动)）
 - **Image**（2026.11.11）（OpenArt Pro/Wonder 折扣清单新增 Seedream 5.5 生成 5 折(四档 $14/$34/$56/$240 与积分未变)·Midjourney/Liblib AI/RunningHub/堆友 抓取失败无证据·通义万相仅搜到第三方 API 计费页、会员价无证据·即梦本轮无证据未复核）
