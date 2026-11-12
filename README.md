@@ -18,7 +18,7 @@
 >
 - **Coding**（2026.11.13）（CommandCode 免费模型更名 Inkling Small→Inkling 2 Small·OpenCode Go 模型更名 Gemini 4 Argon Contributor→Gemini 4 Argon（均同价同权益·已同步 app.js）·智谱AI、z.ai、优云智算、阶跃星辰、Ollama、OpenDesign 官方页经核对无变化（价格/积分/额度/模型清单逐行一致）·Kimi、移动云、讯飞星辰、Meituan CatPaw、AtomCode、稳明光语纪、MiMo（小米）、xKiro、WM AI 抓取失败且兜底仅第三方缓存页，无官方证据未改动）
 - **Token**（2026.11.13）（阿里·Token Plan/OpenCode Go 官方页经核对无变化（前者仅正文补一句 auto 模型参数限制，四档 39/79/139/312·月限额 20k/45k/80k/200k 与用量包 ¥100/20k 一致；后者仅站内导航文案变动，$10/$40/每席$20、32 款模型与三表额度请求数逐行一致）·小米·MiMo/Alaya Code 抓取失败无新证据）
-- **Video**（2026.11.12）（OpenArt 四档 $14/$34/$56/$240 与 credits、并发、角色数经核对未变（页面只多了加购与 FAQ 文案，已补记 $15/月加购 5000 credits、无限生成仅限指定模型且 Pro/Wonder 均可用）评分维持★2·Vidu 定价表未渲染（Loading pricing plans）无价格证据待复查·腾讯混元无变化·快手可灵/海螺AI/pai.video/即梦/RunningHub/通义万相 抓取失败无证据）
+- **Video**（2026.11.13）（OpenArt 经核对四档$14/$34/$56/$240 与 credits·并发·角色数均未变，仅补记折扣只对首期有效·Vidu/腾讯混元无变化·快手可灵/海螺AI/pai.video/即梦/RunningHub/通义万相 抓取失败无证据）
 - **Image**（2026.11.12）（OpenArt 官方页四档 $14/$34/$56/$240、4k/12k/24k/106k 积分与权益经核对未变，仅评分理由补记「无限创作只限指定模型、高活跃账号会被降速排队」·Midjourney/Liblib AI/通义万相/RunningHub/堆友 抓取失败无证据）
 - **Audio**（2026.11.12）（Suno 官方页经核对无变化·抓取失败 Udio/Ace Studio/海螺AI）
 - 其他：中转站 2026.08.15（THINK-AI已下架·仅保留幻境MirageAI·幻境充值链接更新）·已下架归档 2026.08.19（新增无问芯穹/天翼云/百度千帆经典CodingPlan）·价格对比 2026.07.06 新增
