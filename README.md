@@ -16,7 +16,7 @@
 
 > **更新日志**（每分类仅保留最新一条·完整历史见 git log）
 >
-- **Coding**（2026.11.12）（OpenDesign Plus 旗舰可用名单回缩：Claude Opus 5.5 重标暂不支持（18 款中 4 款不可用·价格与额度未变）·智谱AI/阶跃星辰/Ollama 官方页核对无价格额度模型变化·Kimi/移动云/讯飞星辰/Meituan CatPaw/AtomCode/稳明光语纪/MiMo/xKiro/WM AI 抓取失败仅有第三方全文、无官方页证据未改）
+- **Coding**（2026.11.13）（CommandCode 免费模型更名 Inkling Small→Inkling 2 Small·OpenCode Go 模型更名 Gemini 4 Argon Contributor→Gemini 4 Argon（均同价同权益·已同步 app.js）·智谱AI、z.ai、优云智算、阶跃星辰、Ollama、OpenDesign 官方页经核对无变化（价格/积分/额度/模型清单逐行一致）·Kimi、移动云、讯飞星辰、Meituan CatPaw、AtomCode、稳明光语纪、MiMo（小米）、xKiro、WM AI 抓取失败且兜底仅第三方缓存页，无官方证据未改动）
 - **Token**（2026.11.12）（阿里·Token Plan 新增 Qwen4-Max-Preview 限时预览模型（预览期 Credits 2折·11.11-11.25·结束后下线），四档 39/79/139/312 与月限额 20k/45k/80k/200k 不变·小米·MiMo/Alaya Code 抓取失败无证据）
 - **Video**（2026.11.12）（OpenArt 四档 $14/$34/$56/$240 与 credits、并发、角色数经核对未变（页面只多了加购与 FAQ 文案，已补记 $15/月加购 5000 credits、无限生成仅限指定模型且 Pro/Wonder 均可用）评分维持★2·Vidu 定价表未渲染（Loading pricing plans）无价格证据待复查·腾讯混元无变化·快手可灵/海螺AI/pai.video/即梦/RunningHub/通义万相 抓取失败无证据）
 - **Image**（2026.11.12）（OpenArt 官方页四档 $14/$34/$56/$240、4k/12k/24k/106k 积分与权益经核对未变，仅评分理由补记「无限创作只限指定模型、高活跃账号会被降速排队」·Midjourney/Liblib AI/通义万相/RunningHub/堆友 抓取失败无证据）
