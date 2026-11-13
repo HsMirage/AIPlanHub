@@ -16,7 +16,7 @@
 
 > **更新日志**（每分类仅保留最新一条·完整历史见 git log）
 >
-- **Coding**（2026.11.13）（CommandCode 免费模型更名 Inkling Small→Inkling 2 Small·OpenCode Go 模型更名 Gemini 4 Argon Contributor→Gemini 4 Argon（均同价同权益·已同步 app.js）·智谱AI、z.ai、优云智算、阶跃星辰、Ollama、OpenDesign 官方页经核对无变化（价格/积分/额度/模型清单逐行一致）·Kimi、移动云、讯飞星辰、Meituan CatPaw、AtomCode、稳明光语纪、MiMo（小米）、xKiro、WM AI 抓取失败且兜底仅第三方缓存页，无官方证据未改动）
+- **Coding**（2026.11.14）（Ollama 云模型 24→25 款（新增 Inkling-2-Small $0.30/$0.03/$1.00·套餐价 $0/$20/$100/$500 不变）·Charm Hyper 目录 27→28 款（新增 DeepSeek-V4.1-Flash-1017-Basic $0.20/$0.60·Shred/Business 价格积分不变）·智谱AI/z.ai/阿里·百炼/优云智算/阶跃星辰/CommandCode/OpenDesign 官方页经核对无变化·Kimi/移动云/讯飞星辰/Meituan CatPaw/AtomCode/稳明光语纪/MiMo（小米）/xKiro/WM AI 抓取失败仅搜到线索无证据）
 - **Token**（2026.11.13）（阿里·Token Plan/OpenCode Go 官方页经核对无变化（前者仅正文补一句 auto 模型参数限制，四档 39/79/139/312·月限额 20k/45k/80k/200k 与用量包 ¥100/20k 一致；后者仅站内导航文案变动，$10/$40/每席$20、32 款模型与三表额度请求数逐行一致）·小米·MiMo/Alaya Code 抓取失败无新证据）
 - **Video**（2026.11.13）（OpenArt 经核对四档$14/$34/$56/$240 与 credits·并发·角色数均未变，仅补记折扣只对首期有效·Vidu/腾讯混元无变化·快手可灵/海螺AI/pai.video/即梦/RunningHub/通义万相 抓取失败无证据）
 - **Image**（2026.11.13）（OpenArt 四档 $14/$34/$56/$240 与积分·权益经核对无变化·仅 Pro 档 note 补记 FAQ 无限生成仅限指定模型(不与权益列表标注冲突)·Midjourney/Liblib AI/通义万相/RunningHub/堆友 抓取失败无证据）
