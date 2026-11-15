@@ -20,7 +20,7 @@
 - **Token**（2026.11.16）（腾讯·Token/阿里·Token Plan/小米·MiMo/OpenCode Go/天翼云·Token/Alaya Code/TaoToken/超算互联网·Token（SCNet） 官方页经核对无变化）
 - **Video**（2026.11.16）（快手可灵/Vidu/腾讯混元/通义万相/OpenArt/海螺AI/即梦 官方页经核对无变化·抓取失败 pai.video/RunningHub）
 - **Image**（2026.11.15）（Midjourney/通义万相/堆友/OpenArt/Liblib AI 官方页经核对无变化·抓取失败 RunningHub）
-- **Audio**（2026.11.15）（Ace Studio 指纹微变但关键数字经核对一致（$16.58/$22·2500/5000点数/月·160+/40+ 均未变，数据未改动）·Suno/Udio 指纹无变化·海螺AI 登录墙仅搜到线索无证据）
+- **Audio**（2026.11.16）（Suno/Udio/Ace Studio 官方页经核对无变化·抓取失败 海螺AI）
 - 其他：中转站 2026.08.15（THINK-AI已下架·仅保留幻境MirageAI·幻境充值链接更新）·已下架归档 2026.08.19（新增无问芯穹/天翼云/百度千帆经典CodingPlan）·价格对比 2026.07.06 新增
 
 ---
