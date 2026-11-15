@@ -16,7 +16,7 @@
 
 > **更新日志**（每分类仅保留最新一条·完整历史见 git log）
 >
-- **Coding**（2026.11.15）（Charm Hyper 模型更名 DeepSeek-V4.1-Flash-1017-Basic→Economy（价格积分不变）·Meituan CatPaw 免费横幅 LongCat-2.0→LongCat-2.5·xKiro 六档 $0/5/10/20/100/200 与周额度不变仅页面口径改 26 个免费模型·智谱AI/z.ai/Kimi/阶跃星辰 价格积分模型经核对无变化·Ollama $0/$20/$100/$500 与并发不变·讯飞星辰登录态空表无证据未改）
+- **Coding**（2026.11.16）（智谱AI/z.ai/阶跃星辰 官方文档字符数与上轮一致，价格积分模型经核对无变化·Ollama $0/$20/$100/$500 与 credits/并发不变，云模型表 23 行无新增·WM AI 五档 $6/12/24/60/120 与日送/并发逐档一致（页面标支持模型17 vs 本地23款差异延续）·稳明光语纪 LLM 四档本轮仍未渲染（无下架公告·未删档）待复查）
 - **Token**（2026.11.15）（腾讯·Token/阿里·Token Plan/小米·MiMo/OpenCode Go/天翼云·Token/Alaya Code/TaoToken/超算互联网·Token（SCNet） 官方页经核对无变化）
 - **Video**（2026.11.15）（快手可灵五档月付/灵感值/单价经核对全部无变化·仅订正档位注释折扣口径为包年7折·包季7.7折·包月8.8折（原写5折/6折）·pai.video/RunningHub 抓取失败无证据）
 - **Image**（2026.11.15）（Midjourney/通义万相/堆友/OpenArt/Liblib AI 官方页经核对无变化·抓取失败 RunningHub）
