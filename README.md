@@ -20,7 +20,7 @@
 - **Token**（2026.11.17）（腾讯·Token 通用/Hy 各档新增 Hy4 flash（通用14→15款·Hy 3→4款）并标注 Hy4 preview 2026.12.7 下线·阿里·Token Plan 模型表新增 Qwen4-Max 正价（39/79/139/312 与月限额 2万/4.5万/8万/20万不变）·OpenCode Go 模型 32→34 新增 Qwen4-Max 与 Hy4 flash Free（$10/$40/每席$20不变）·TaoToken 价格/额度/模型经核对无变化（仅充值横幅换成邀请返佣）·小米·MiMo/天翼云·Alaya/SCNet 未变更未改）
 - **Video**（2026.11.17）（OpenArt 黑五促销记入 note：年付 25/30/35/40% off 仅首期生效、列表价不变（$14/34/56/240）·即梦 watch 复核维持 ★4（创作页只渲染「会员低至4.5折」横幅与 Seedream 5.5/Seedance 2.5 Flash 入口，档位价格未加载故未改·变更需 Image 同步下一轮核对）·海螺AI 仅见「低至¥42/月」横幅且上轮已存在、五档价格未渲染故未改动·pai.video/RunningHub 抓取失败无证据）
 - **Image**（2026.11.16）（Midjourney/通义万相/堆友/OpenArt/Liblib AI 官方页经核对无变化·抓取失败 RunningHub）
-- **Audio**（2026.11.16）（Suno/Udio/Ace Studio 官方页经核对无变化·抓取失败 海螺AI）
+- **Audio**（2026.11.17）（Suno/Udio/Ace Studio 官方页经核对无变化·抓取失败 海螺AI）
 - 其他：中转站 2026.08.15（THINK-AI已下架·仅保留幻境MirageAI·幻境充值链接更新）·已下架归档 2026.08.19（新增无问芯穹/天翼云/百度千帆经典CodingPlan）·价格对比 2026.07.06 新增
 
 ---
