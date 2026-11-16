@@ -17,7 +17,7 @@
 > **更新日志**（每分类仅保留最新一条·完整历史见 git log）
 >
 - **Coding**（2026.11.17）（OpenCode Go 新增 Qwen4-Max（Go $15/Plus $60/Teams $20 月额度）与 Hy4 flash Free（限时免费）·Charm Hyper 新增 Qwen4-Max（20款）·Ollama/优云智算 逐档核对无变化·WM AI 支持模型标注 17→20 但价格额度未变）
-- **Token**（2026.11.16）（腾讯·Token/阿里·Token Plan/小米·MiMo/OpenCode Go/天翼云·Token/Alaya Code/TaoToken/超算互联网·Token（SCNet） 官方页经核对无变化）
+- **Token**（2026.11.17）（腾讯·Token 通用/Hy 各档新增 Hy4 flash（通用14→15款·Hy 3→4款）并标注 Hy4 preview 2026.12.7 下线·阿里·Token Plan 模型表新增 Qwen4-Max 正价（39/79/139/312 与月限额 2万/4.5万/8万/20万不变）·OpenCode Go 模型 32→34 新增 Qwen4-Max 与 Hy4 flash Free（$10/$40/每席$20不变）·TaoToken 价格/额度/模型经核对无变化（仅充值横幅换成邀请返佣）·小米·MiMo/天翼云·Alaya/SCNet 未变更未改）
 - **Video**（2026.11.16）（快手可灵/Vidu/腾讯混元/通义万相/OpenArt/海螺AI/即梦 官方页经核对无变化·抓取失败 pai.video/RunningHub）
 - **Image**（2026.11.16）（Midjourney/通义万相/堆友/OpenArt/Liblib AI 官方页经核对无变化·抓取失败 RunningHub）
 - **Audio**（2026.11.16）（Suno/Udio/Ace Studio 官方页经核对无变化·抓取失败 海螺AI）
