@@ -16,7 +16,7 @@
 
 > **更新日志**（每分类仅保留最新一条·完整历史见 git log）
 >
-- **Coding**（2026.11.16）（智谱AI/z.ai/阶跃星辰 官方文档字符数与上轮一致，价格积分模型经核对无变化·Ollama $0/$20/$100/$500 与 credits/并发不变，云模型表 23 行无新增·WM AI 五档 $6/12/24/60/120 与日送/并发逐档一致（页面标支持模型17 vs 本地23款差异延续）·稳明光语纪 LLM 四档本轮仍未渲染（无下架公告·未删档）待复查）
+- **Coding**（2026.11.17）（OpenCode Go 新增 Qwen4-Max（Go $15/Plus $60/Teams $20 月额度）与 Hy4 flash Free（限时免费）·Charm Hyper 新增 Qwen4-Max（20款）·Ollama/优云智算 逐档核对无变化·WM AI 支持模型标注 17→20 但价格额度未变）
 - **Token**（2026.11.16）（腾讯·Token/阿里·Token Plan/小米·MiMo/OpenCode Go/天翼云·Token/Alaya Code/TaoToken/超算互联网·Token（SCNet） 官方页经核对无变化）
 - **Video**（2026.11.16）（快手可灵/Vidu/腾讯混元/通义万相/OpenArt/海螺AI/即梦 官方页经核对无变化·抓取失败 pai.video/RunningHub）
 - **Image**（2026.11.16）（Midjourney/通义万相/堆友/OpenArt/Liblib AI 官方页经核对无变化·抓取失败 RunningHub）
@@ -118,8 +118,8 @@ https://ai.hsnb.fun/aiplanhub
 | xKiro | Max | $20 | $16 | 周额度 $140 | [开通](https://xkiro.com/ref/5GDYTQU) |
 | xKiro | Ultra | $100 | $80 | 周额度 $700 | [开通](https://xkiro.com/ref/5GDYTQU) |
 | xKiro | Power | $200 | $160 | 周额度 $1,400 | [开通](https://xkiro.com/ref/5GDYTQU) |
-| ChatGPT | Plus | ¥26.6 | — | — | [开通](https://pay.ldxp.cn/shop/mirage) |
-| ChatGPT | Team | ¥28.8 | — | — | [开通](https://pay.ldxp.cn/shop/mirage) |
+| ChatGPT | Plus | ¥26.6 | — | — | [开通](https://pay.ldxp.cn/shop/mirageai) |
+| ChatGPT | Team | ¥28.8 | — | — | [开通](https://pay.ldxp.cn/shop/mirageai) |
 | 商汤SenseNova | Free · 公测 | 免费 | — | 60,000积分/5h | [开通](https://www.sensenova.cn/token-plan) |
 | 稳明光语纪 | Lite | ¥45 | — | — | [开通](https://wenming7.cn/sales?ref=DCRTY9PM) |
 
@@ -231,7 +231,7 @@ https://ai.hsnb.fun/aiplanhub
 | 方舟 Agent Plan | Small | ¥40 | — | 20,000 AFP/月 | [开通](https://www.volcengine.com/docs/82379/2366394?lang=zh) |
 | OpenCode Go | Go | $10 | — | $12/5h $30/周 $60/月·29款模型含 GPT-6-Luna/MiMo-V2.6-Flash/Gemini 4 Argon（10.19：Gemini 4 Argon 限时2x——Go档月额度 $60·请求数 440/1,080/2,120·Step 5 Preview 4倍限时 $60·模型 32→29款：Kimi-K2.6/MiniMax-M2.7/Grok-4.6 移除）·LongCat 2.5 Preview Free + Beam Free + MiniMax M3.1 Flash Free 三款限时免费·Step 5 Preview 已转付费·Space Bunny 10.20 已下架·DS-V4.1-Flash 月额度 $80·⚠️Muse Spark 1.2/1.3 国内不可调用 | [Go \| OpenCode](https://opencode.ai/go?ref=V156X2ZH2S) |
 | OpenCode Go | Go Plus | $40 | — | 10.03新增·同29款模型目录（⭐10.20：Space Bunny 移除·新增 MiniMax M3.1 Flash Free 限时免费）各模型月额度更高（Kimi K3 $60·DS-V4.1-Flash $160·GLM-5.3-Flash $180·MiniMax M3 $180）·10.19：Gemini 4 Argon 限时2x——Go Plus 档 $240·请求数 1,760/4,320/8,480·Step 5 Preview $240 | [Go Plus \| OpenCode](https://opencode.ai/go?ref=V156X2ZH2S) |
-| ChatGPT | Token | ¥28.8 | — | 100 刀·暂时售罄 | [开通](https://pay.ldxp.cn/shop/mirage) |
+| ChatGPT | Token | ¥28.8 | — | 100 刀·暂时售罄 | [开通](https://pay.ldxp.cn/shop/mirageai) |
 | 腾讯·Token | Standard | ¥99 | — | 1,980积分/月 | [开通](https://curl.qcloud.com/1Uogyigq) |
 | 阿里·Token Plan | 用量包 | ¥100 | — | 20,000 Credits/个·需有效订阅·最多5个 | [开通](https://common-buy.aliyun.com/token-plan) |
 | 阿里·Token Plan | Essential | ¥79 | — | 原价¥120·限时25,500 Credits/月·2.25x Lite | [开通](https://common-buy.aliyun.com/token-plan) |
