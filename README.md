@@ -17,7 +17,7 @@
 > **更新日志**（每分类仅保留最新一条·完整历史见 git log）
 >
 - **Coding**（2026.11.18）（OpenDesign 每月最高额度 Pro $480→$780·Max $900→$1,410（Coding Plan 赠额上调·价格未变）·CommandCode 免费模型新增 Flint·智谱AI/z.ai/阶跃星辰/Ollama 官方页经核对无变化·OpenCode Go 页面体积减半疑渲染异常未改动待复查）
-- **Token**（2026.11.17）（腾讯·Token 通用/Hy 各档新增 Hy4 flash（通用14→15款·Hy 3→4款）并标注 Hy4 preview 2026.12.7 下线·阿里·Token Plan 模型表新增 Qwen4-Max 正价（39/79/139/312 与月限额 2万/4.5万/8万/20万不变）·OpenCode Go 模型 32→34 新增 Qwen4-Max 与 Hy4 flash Free（$10/$40/每席$20不变）·TaoToken 价格/额度/模型经核对无变化（仅充值横幅换成邀请返佣）·小米·MiMo/天翼云·Alaya/SCNet 未变更未改）
+- **Token**（2026.11.18）（OpenCode Go 改版后模型价/额度/请求数三表移出正文·字数腰斩按渲染异常处理未删套餐·三档 $10/$40/每席$20 与 Gemini 4 Argon 五折至11.30 一致·天翼云·Token 官方页 11-16 版积分版与老套餐价格/额度/模型逐行一致无改动）
 - **Video**（2026.11.17）（OpenArt 黑五促销记入 note：年付 25/30/35/40% off 仅首期生效、列表价不变（$14/34/56/240）·即梦 watch 复核维持 ★4（创作页只渲染「会员低至4.5折」横幅与 Seedream 5.5/Seedance 2.5 Flash 入口，档位价格未加载故未改·变更需 Image 同步下一轮核对）·海螺AI 仅见「低至¥42/月」横幅且上轮已存在、五档价格未渲染故未改动·pai.video/RunningHub 抓取失败无证据）
 - **Image**（2026.11.17）（Liblib AI 六档价格/积分/存储在官方页均未变·补 SD 2.5 Flash(有参)分档折扣 入门/标准/进阶8折·高级/豪华6折·至尊5折 及高级¥0.35豪华¥0.18每秒出片价·OpenArt 四档月付$14/$34/$56/$240 与积分/并发未变·新增黑五年付折扣(Starter25%/Plus30%/Pro35%/Wonder40%·至11.30)·RunningHub 抓取失败无证据未改动·Midjourney/通义万相/堆友 官方页经核对无变化）
 - **Audio**（2026.11.17）（Suno/Udio/Ace Studio 官方页经核对无变化·抓取失败 海螺AI）
