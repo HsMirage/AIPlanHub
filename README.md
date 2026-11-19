@@ -19,7 +19,7 @@
 - **Coding**（2026.11.20）（AtomCode 三档模型扩容（Lite/Pro 新增 Lumen-Alpha·Lumen-Alpha-Flash·MiniMax-M3.1-Flash 各至5款并移除 DeepSeek-V4-Flash）·智谱AI·z.ai·阶跃星辰·CommandCode·OpenDesign·xKiro 官方页经核对无变化·讯飞星辰订阅页登录态未渲染套餐卡无证据·移动云抓取失败无证据）
 - **Token**（2026.11.20）（小米·MiMo Pro/Max 新增 UltraSpeed 限时提速权益（四档价格/首购/88折/Credits 492·1320·4560·9840亿经核对无变化，页面为美元年付视图折算同构·团队版Tab仅见横幅无价格表待复查）·其余7平台经核对无变化）
 - **Video**（2026.11.20）（Vidu/即梦/腾讯混元/通义万相/OpenArt/海螺AI 官方页经核对无变化·抓取失败 快手可灵/pai.video/RunningHub）
-- **Image**（2026.11.19）（OpenArt 四档 $14/$34/$56/$240 与积分/并发/商用授权经官方页核对未变(仅限时模型折扣清单调整)·Midjourney/通义万相/堆友/Liblib AI 指纹未变·RunningHub 抓取失败仅缓存首页全文无会员价证据未改动）
+- **Image**（2026.11.20）（通义万相/堆友/OpenArt/Midjourney/Liblib AI 官方页经核对无变化·抓取失败 RunningHub）
 - **Audio**（2026.11.20）（Suno/Ace Studio/Udio 官方页经核对无变化·抓取失败 海螺AI）
 - 其他：中转站 2026.08.15（THINK-AI已下架·仅保留幻境MirageAI·幻境充值链接更新）·已下架归档 2026.08.19（新增无问芯穹/天翼云/百度千帆经典CodingPlan）·价格对比 2026.07.06 新增
 
