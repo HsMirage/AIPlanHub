@@ -16,7 +16,7 @@
 
 > **更新日志**（每分类仅保留最新一条·完整历史见 git log）
 >
-- **Coding**（2026.11.20）（AtomCode 三档模型扩容（Lite/Pro 新增 Lumen-Alpha·Lumen-Alpha-Flash·MiniMax-M3.1-Flash 各至5款并移除 DeepSeek-V4-Flash）·智谱AI·z.ai·阶跃星辰·CommandCode·OpenDesign·xKiro 官方页经核对无变化·讯飞星辰订阅页登录态未渲染套餐卡无证据·移动云抓取失败无证据）
+- **Coding**（2026.11.21）（OpenDesign 旗舰池 18→20 款（Go 仍全不支持·Plus 卡 4 款）·智谱AI/z.ai/字节·方舟/阶跃星辰/Ollama/AtomCode/CommandCode 官方页经核对无变化（方舟价格区仍「价格查询中」无证据））
 - **Token**（2026.11.20）（小米·MiMo Pro/Max 新增 UltraSpeed 限时提速权益（四档价格/首购/88折/Credits 492·1320·4560·9840亿经核对无变化，页面为美元年付视图折算同构·团队版Tab仅见横幅无价格表待复查）·其余7平台经核对无变化）
 - **Video**（2026.11.20）（Vidu/即梦/腾讯混元/通义万相/OpenArt/海螺AI 官方页经核对无变化·抓取失败 快手可灵/pai.video/RunningHub）
 - **Image**（2026.11.20）（通义万相/堆友/OpenArt/Midjourney/Liblib AI 官方页经核对无变化·抓取失败 RunningHub）
