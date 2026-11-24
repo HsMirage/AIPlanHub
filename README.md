@@ -16,7 +16,7 @@
 
 > **更新日志**（每分类仅保留最新一条·完整历史见 git log）
 >
-- **Coding**（2026.11.24）（智谱AI/z.ai 三档模型补 GLM-5.4（抵扣 4.6/1.1/16·同步 app.js）·xKiro 目录 73 款新增 GPT-6.2 Astra/Sol、Gemini 4 Argon/Carbon，用量上限改目录价口径 Pro 5h$22.5/7天$45/月$75（原 5h$5/周$35）·MiniMax 页面仅导航无套餐数字待复查·阶跃星辰/AtomCode/CommandCode 经核对无变化）
+- **Coding**（2026.11.25）（AtomCode Lite体验版额度 200→300次/5h（页面「最多约300次调用/5小时·夜间翻倍」）·智谱AI 三档 note 补记 11.24-12.24 GLM-5.3-Flash 抵扣限时5折（基础系数 2.3/0.56/8 未变）·z.ai/腾讯·Coding/阶跃星辰/Ollama/xKiro/OpenCode Go 官方页经核对无变化（Ollama 三款旧模型仍无下架明文保留·OpenCode Go 新增 HungerG Free 脚注但保留期表无该模型行未入 models））
 - **Token**（2026.11.24）（小米·MiMo 四档 ¥39/99/329/659、首月34/87/289/579、88折、Credits 492/1320/4560/9840亿与Claw加购¥233.80/年经核对一致，仅新增团队版NEW横幅无价格表未改动·腾讯·Token/阿里·Token Plan/OpenCode Go/天翼云·Token/Alaya Code/TaoToken/超算互联网·Token 指纹未变）
 - **Video**（2026.11.24）（即梦各档价格/积分仍未渲染、仅促销横幅变化，无据不改，watch 项复核维持★4·OpenArt 价格数字与上轮完全一致仅文案重排·pai.video 与 RunningHub 抓取失败，兜底仅缓存页全文无官方档位价，未改动）
 - **Image**（2026.11.24）（Liblib AI/OpenArt 官方页价格·积分·并发·次年续费经核对无变化（仅限时折扣清单与横幅文案变动，未改套餐字段）·Liblib 各档促销折扣位与本地折扣条款分叉待复查·RunningHub 登录墙抓取失败仅搜索兜底无证据）
