@@ -16,7 +16,7 @@
 
 > **更新日志**（每分类仅保留最新一条·完整历史见 git log）
 >
-- **Coding**（2026.11.25）（AtomCode Lite体验版额度 200→300次/5h（页面「最多约300次调用/5小时·夜间翻倍」）·智谱AI 三档 note 补记 11.24-12.24 GLM-5.3-Flash 抵扣限时5折（基础系数 2.3/0.56/8 未变）·z.ai/腾讯·Coding/阶跃星辰/Ollama/xKiro/OpenCode Go 官方页经核对无变化（Ollama 三款旧模型仍无下架明文保留·OpenCode Go 新增 HungerG Free 脚注但保留期表无该模型行未入 models））
+- **Coding**（2026.11.26）（xKiro 删 Pro+ $10 档·新增 Custom $250 起（月额度自选 $250-$1,000）·CommandCode Provider API $15→MOAT $10/月（年付 $60·额度支付享折扣）·智谱AI/z.ai/优云智算/阶跃星辰/快手 StreamLake/Ollama/AtomCode/WM AI 官方页经核对无变化·讯飞星辰登录态空表无证据·稳明光语纪仅渲染生图档待复查）
 - **Token**（2026.11.25）（阿里·Token Plan qwen4-max-preview 预览截止 11.25 24:00 更正为 10:00、四档 39/79/139/312 与月限额 20,000/45,000/80,000/200,000 无变化·腾讯·Token 四档 39/99/299/599 与 780/1980/5980/11980 积分、Hy 28/78/238/468 与 560/1560/4760/9360 积分无变化·OpenCode Go $10/$40/每席$20 与 Gemini 4 Argon 五折至 11.30 无变化，新增 Decision/Embedding 价表只记录不入档位·天翼云·Token 积分版5档与老套餐5档无变化）
 - **Video**（2026.11.25）（Vidu 页面渲染异常待复查（仅「Loading pricing plans」·证据字符数腰斩，未删档）·海螺AI 订阅页未渲染档位价、仅「低至¥42/月」横幅，证据不足未改动·腾讯混元 官方计费页资源包/后付费/并发价格与本地一致·OpenArt 四档 $14/$34/$56/$240 与本地折算一致·即梦本轮无变化、watch 项无需复核·pai.video 与 RunningHub 抓取失败无证据）
 - **Image**（2026.11.25）（OpenArt 四档 $14/$34/$56/$240·黑五年付 25/30/35/40% off·积分 4,000/12,000/24,000/106,000·并发 8/16/32/32·一致角色 13/40/80/353 经核对全部未变，仅限时模型折扣清单换为 Kling 4.0/Wan 3.0/Seedance 2.0 系列（Seedream 5.5 已不在页面，只改 note 未动价格）·RunningHub 登录墙抓取失败，兜底仅首页缓存无档位价，未改动）
@@ -114,10 +114,10 @@ https://ai.hsnb.fun/aiplanhub
 | MiniMax | Go | ¥49（首月5折已10.14到期） | — | 1,500 | [开通](https://platform.minimaxi.com/subscribe/token-plan) |
 | xKiro | Free | $0 | — | 500K token/天 | [开通](https://xkiro.com/ref/5GDYTQU) |
 | xKiro | Pro | $5 | $4 | 周额度 $35 | [开通](https://xkiro.com/ref/5GDYTQU) |
-| xKiro | Pro+ | $10 | $8 | 周额度 $70 | [开通](https://xkiro.com/ref/5GDYTQU) |
 | xKiro | Max | $20 | $16 | 周额度 $140 | [开通](https://xkiro.com/ref/5GDYTQU) |
 | xKiro | Ultra | $100 | $80 | 周额度 $700 | [开通](https://xkiro.com/ref/5GDYTQU) |
 | xKiro | Power | $200 | $160 | 周额度 $1,400 | [开通](https://xkiro.com/ref/5GDYTQU) |
+| xKiro | Custom | $250 起 | — | 月额度自选 $250-$1,000 | [开通](https://xkiro.com/ref/5GDYTQU) |
 | ChatGPT | Plus | ¥26.6 | — | — | [开通](https://pay.ldxp.cn/shop/mirageai) |
 | ChatGPT | Team | ¥28.8 | — | — | [开通](https://pay.ldxp.cn/shop/mirageai) |
 | 商汤SenseNova | Free · 公测 | 免费 | — | 60,000积分/5h | [开通](https://www.sensenova.cn/token-plan) |
@@ -181,7 +181,7 @@ https://ai.hsnb.fun/aiplanhub
 | CommandCode | Pro（73款·+Claude Sonnet 5 / GPT-5.5 / Gemini 3.5 付费池） | $20 | — | $80/月·5h $16 · 周 $40·约100K次 | [开通](https://commandcode.ai/pricing) |
 | CommandCode | Max 10×（78款全模型·Claude Opus/Fable/Fugu Ultra 解锁） | $100 | — | $150/月·5h $45 · 周 $90·约219K次 | [开通](https://commandcode.ai/pricing) |
 | CommandCode | Max 20×（78款全模型无限制） | $200 | — | $300/月·5h $90 · 周 $180·约437K次 | [开通](https://commandcode.ai/pricing) |
-| CommandCode | Provider API（⭐10.20新增·按量付费零加价·OpenAI/Anthropic 兼容端点） | $15 | — | 按量付费·充值额度可结转永不过期 | [开通](https://commandcode.ai/pricing) |
+| CommandCode | MOAT（按量付费·额度支付享折扣·GLM-5.3-Flash 70% off） | $10 | 年付 $60 | 无用量窗口·额度可结转 | [开通](https://commandcode.ai/pricing) |
 | CommandCode | Teams（⭐10.20新增·团队共享额度池） | $40 | — | 约35K次/月·taste-1+开源+高级模型 | [开通](https://commandcode.ai/pricing) |
 | z.ai | Lite | $18 | — | 2,000 | [开通](https://z.ai/subscribe?ic=V6PINPKB9I) |
 | z.ai | Pro | $80 | — | 12,000 | [开通](https://z.ai/subscribe?ic=V6PINPKB9I) |
@@ -346,7 +346,7 @@ https://ai.hsnb.fun/aiplanhub
 - **Kimi** — 网友反馈额度消耗较快
 - **字节·方舟** — ⚠ 双层计费：名义按调用次数，实际 Token 消耗大会被按 2-3 次甚至更多次扣费，计费不透明，无用量明细（蓝点网/V2EX/微博多源证实）
 - **天翼云** — ⚠️Coding Plan 已于 2026.08.19 下架（历史套餐见站内“已下架”页面）；原高阶 GLM 模型在高峰期按 3 倍、非高峰期按 2 倍抵扣额度，实际可用量会明显低于表面档位
-- **CommandCode** — ⚠️部分人反馈调用速度很慢（首字 10-40 秒·DS-V4.1-Flash 简单任务拖到 45 分钟·下午时段变慢，也有人跑到 200-300 tok/s，看走哪条通道；官方 troubleshooting 已把 Slow responses 列为已知问题）；⚠️海外多模型聚合平台（美元 Credits 制），新上线、无国内节点说明；官方已明确三重限额：月 $10/$70/$80/$150/$300 + 5h $3/$14/$16/$45/$90 + 周 $6/$35/$40/$90/$180（额度按 Credit 价值计·非请求次数）；官方模型目录 60 款（GO 38/GOAT 42/Pro 55/Max 60 全量）；超出可 top-up（零 markup 不过期）；⭐10.20 新增 Provider API $15（按量付费）与 Teams $40（约35K次/月·共享额度池）两档；⚠️小众平台，注意分辨
+- **CommandCode** — ⚠️部分人反馈调用速度很慢（首字 10-40 秒·DS-V4.1-Flash 简单任务拖到 45 分钟·下午时段变慢，也有人跑到 200-300 tok/s，看走哪条通道；官方 troubleshooting 已把 Slow responses 列为已知问题）；⚠️海外多模型聚合平台（美元 Credits 制），新上线、无国内节点说明；官方已明确三重限额：月 $10/$70/$80/$150/$300 + 5h $3/$14/$16/$45/$90 + 周 $6/$35/$40/$90/$180（额度按 Credit 价值计·非请求次数）；官方模型目录 60 款（GO 38/GOAT 42/Pro 55/Max 60 全量）；超出可 top-up（零 markup 不过期）；⭐MOAT $10/月（年付 $60·按量付费额度享折扣，原 Provider API $15 已改）与 Teams $40（约35K次/月·共享额度池）两档；⚠️小众平台，注意分辨
 - **京东云** — Coding Plan 已于 2026.07.29 停止新购、续费及升级；已购套餐在有效期内可正常使用，历史套餐请见站内“已下架”页面
 - **无问芯穹（Infini AI）** — ⚠️Coding Plan 已于 2026-06-26 停止个人用户服务并全档停售（多模型聚合平台），历史套餐请见站内“已下架”页面
 - **百度·千帆（经典 Coding Plan）** — 请求数计费版已于 2026-06-25 停止续费、7 月迁移至 Token Plan 个人版；现售 Token 档见 Token 页，历史套餐见站内“已下架”页面
