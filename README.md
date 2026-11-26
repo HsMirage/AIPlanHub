@@ -16,7 +16,7 @@
 
 > **更新日志**（每分类仅保留最新一条·完整历史见 git log）
 >
-- **Coding**（2026.11.26）（xKiro 删 Pro+ $10 档·新增 Custom $250 起（月额度自选 $250-$1,000）·CommandCode Provider API $15→MOAT $10/月（年付 $60·额度支付享折扣）·智谱AI/z.ai/优云智算/阶跃星辰/快手 StreamLake/Ollama/AtomCode/WM AI 官方页经核对无变化·讯飞星辰登录态空表无证据·稳明光语纪仅渲染生图档待复查）
+- **Coding**（2026.11.27）（xKiro GLM-5.4 回归套餐·新增 Claude Fable 5.2（目录口径 62 款/免费 18 款）·OpenDesign 四档更名 Go/Go Plus/Go Pro/Go Max（同价同权益·旗舰池按页面改 18 款）·智谱AI/z.ai/阿里·百炼/优云智算/阶跃星辰/Ollama/AtomCode/OpenCode Go/Charm Hyper 官方页经核对无变化（OpenCode Go 的 HungerG Free 只有脚注未入 models·Charm 目录 19 款无下架公告不删模型））
 - **Token**（2026.11.26）（腾讯·Token 通用可用模型 15→18 款（新增 GLM-5.4/Kimi-K3.1-Pro/MiniMax-M3.1-Flash，四档 39/99/299/599 与积分 780/1980/5980/11980、Hy 28/78/238/468 均不变）·阿里·Token Plan Qwen4-Max-Preview 预览下线（四档 39/79/139/312 与月限额 20,000/45,000/80,000/200,000 不变）·OpenCode Go $10/$40/每席$20 与模型清单无数据变化（仅客户端兼容文案更新））
 - **Video**（2026.11.26）（快手可灵 官方页价格指纹与上轮完全一致未改动（新客试用¥5.99/11.99/17.99、续费首月¥46/186/466/3219、月付¥58/234/586/4049、灵感值660/3000/8000/57000、单价6.97/6.20/5.83/5.65 全对得上，仅权益对比表文案重排）·即梦 创作页仍只有「会员低至4.5折·积分超市低至1.2折」与 Seedream 5.5/动效工作室入口，各档价格积分未加载，watch 项复核维持★4（无档位数据可据以调分）·Vidu/腾讯混元/通义万相/OpenArt/海螺AI 指纹未变未改动·pai.video 与 RunningHub 抓取失败无证据（兜底仅第三方缓存页与付费协议，无官方档位价））
 - **Image**（2026.11.26）（通义万相/堆友/OpenArt/Midjourney/Liblib AI 官方页经核对无变化·抓取失败 RunningHub）
@@ -84,7 +84,7 @@ https://ai.hsnb.fun/aiplanhub
 | OpenStarry | 体验套餐 ¥5/月·20次 · 星序版 ¥9.9/月·2,000次 · 星创版 ¥49.9/月·10,000次（GLM-5.2/Kimi-K3） | 月付起¥5 | 旗舰 GLM-5.2/Kimi-K3 | — | ★ |
 | CommandCode | GLM-5.3 / Gemini 3.7 Flash / GPT-5.6 Luna / Claude Sonnet 5 / Grok 4.6 | 7 | $1 | ★★★½ |
 | OpenCode Go | GLM-5.3 / GLM-5.2 / Kimi-K3 / DeepSeek-V4.1-Flash / Gemini 4 Argon Contributor（10.19 限时2x：Go $60·Go Plus $240）/ Claude Haiku 5.5 / Qwen3.8-Max / MiniMax-M3 / Beam Free（限时免费）/ LongCat 2.5 Preview Free（限时免费）/ Step 5 Preview（10.19 转付费·4倍限时）/ Space Bunny（10.20 已下架）等29款（10.20：Space Bunny 移除·新增 MiniMax M3.1 Flash Free 限时免费；10.19：Kimi-K2.6/MiniMax-M2.7/Grok-4.6 移除·32→29款） | 2 | $10 | ★★★★ |
-| OpenDesign | GLM-5.3-Flash-X / DeepSeek-V4.1-Flash / MiMo-V2.6-Flash / GLM-5.3-Flash / Kimi-K2.7-Code / Claude-Haiku-5.5 / GPT-6-Luna（Design Plan 12款·Design Plan 每月最高 $120/$180/$480/$900·⭐10.20 Pro 档套餐模型 12 款全解锁·10.11额度全线翻倍·API 可接 Codex/Claude Code/OpenCode/Hermes·7天窗口·另有团队版 $63/$105 每席/月） | 4 | $10 | ★★★★½ |
+| OpenDesign | GLM-5.3-Flash-X / DeepSeek-V4.1-Flash / MiMo-V2.6-Flash / GLM-5.3-Flash / Kimi-K2.7-Code / Claude-Haiku-5.5 / GPT-6-Luna（四档 Go/Go Plus/Go Pro/Go Max·每月最高总额度 $220/$310/$780/$1,410·旗舰池 18 款 Go 全不支持·Go Pro/Max 全解锁·不限成员数不收席位费·API 可接 Codex/Claude Code/OpenCode/Hermes·7天窗口） | 4 | $10 | ★★★★★ |
 
 ### 入门级（人民币月付 ≤ ¥50）
 
@@ -192,10 +192,10 @@ https://ai.hsnb.fun/aiplanhub
 | WM AI | Tier C | $24 | — | 5h $12 · 周 $84 | [开通](https://wenming7.com/sales?ref=KVH95UU8) |
 | WM AI | Tier D | $60 | — | 5h $30 · 周 $210 | [开通](https://wenming7.com/sales?ref=KVH95UU8) |
 | WM AI | Tier E | $120 | — | 5h $60 · 周 $420 | [开通](https://wenming7.com/sales?ref=KVH95UU8) |
-| OpenDesign | Go（Design Plan 12款·每月最高总额度 $120·主力 DS-V4.1-Flash 月额度 $120·固定峰值价计费·API 接 Codex/Claude Code/OpenCode/Hermes） | $10（首月$8·次月起$10） | $8 | 月额度 $120 | [开通](https://open-design.ai/zh/pricing/) |
-| OpenDesign | Plus（+Sonnet 5.5/GPT-6 Sol/Grok 4.7/Kimi K3·套餐模型 $20） | $20（首月$16） | $16 | 月额度 $180 | [开通](https://open-design.ai/zh/pricing/) |
-| OpenDesign | Pro（套餐模型 20款全解锁·6倍用量 $120） | $100（首月$70） | $70 | 月额度 $480 | [开通](https://open-design.ai/zh/pricing/) |
-| OpenDesign | Max（套餐模型 20款·15倍用量 $300·高峰优先） | $200（首月$120） | $120 | 月额度 $900 | [开通](https://open-design.ai/zh/pricing/) |
+| OpenDesign | Go（Coding Plan 13款·每月最高总额度 $220·旗舰池 18 款全不支持·API 接 Codex/Claude Code/OpenCode/Hermes） | $10（首月$8·次月起$10） | $8 | 月额度 $220 | [开通](https://open-design.ai/zh/pricing/) |
+| OpenDesign | Go Plus（+Sonnet 5.5/GPT-6 Sol/Grok 4.7/Kimi K3·套餐模型 $20） | $20（首月$16） | $16 | 月额度 $310 | [开通](https://open-design.ai/zh/pricing/) |
+| OpenDesign | Go Pro（旗舰池 18款全解锁·6倍用量·30并发） | $100（首月$80） | $80 | 月额度 $780 | [开通](https://open-design.ai/zh/pricing/) |
+| OpenDesign | Go Max（18款·15倍用量·50并发·高峰优先） | $200（首月$160） | $160 | 月额度 $1,410 | [开通](https://open-design.ai/zh/pricing/) |
 
 ---
 
