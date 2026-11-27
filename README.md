@@ -20,7 +20,7 @@
 - **Token**（2026.11.28）（腾讯·Token/阿里·Token Plan/OpenCode Go/天翼云·Token/Alaya Code/TaoToken/超算互联网·Token（SCNet）/小米·MiMo 官方页经核对无变化）
 - **Video**（2026.11.28）（快手可灵/Vidu/腾讯混元/通义万相/OpenArt/海螺AI/即梦 官方页经核对无变化·抓取失败 pai.video/RunningHub）
 - **Image**（2026.11.27）（Midjourney 四档 $10/$30/$60/$120·年付 $96/$288/$576/$1,152·Fast GPU 3.3/15/30/60h 与本地逐项一致，本轮仅页面框架文字变动，不改数据·RunningHub 登录墙无证据（兜底仅第三方成本实测验，不作档位依据）·通义万相/堆友/OpenArt/Liblib AI 未变化·即梦本轮无证据未动）
-- **Audio**（2026.11.27）（Suno/Ace Studio/Udio 官方页经核对无变化·抓取失败 海螺AI）
+- **Audio**（2026.11.28）（Suno/Ace Studio/Udio 官方页经核对无变化·抓取失败 海螺AI）
 - 其他：中转站 2026.08.15（THINK-AI已下架·仅保留幻境MirageAI·幻境充值链接更新）·已下架归档 2026.08.19（新增无问芯穹/天翼云/百度千帆经典CodingPlan）·价格对比 2026.07.06 新增
 
 ---
