@@ -19,7 +19,7 @@
 - **Coding**（2026.11.28）（字节·方舟 官方横幅新增 GLM-5.4 → Lite/Pro models 补 GLM-5.4（价格区仍「价格查询中」未改价）·CommandCode GOAT 卡明列「$100 可用于 Ling 3.1 Flash」而 models 缺该款 → 补入·xKiro 目录口径 60→82 款、免费 26→38 款（六档价格与 Custom $250 起、$75/$300/$1,500 月用量未变·2★ 用户拍板不动·理由按新口径更新）·智谱AI/z.ai/移动云/阶跃星辰/Ollama/AtomCode/OpenDesign 官方页经核对无变化）
 - **Token**（2026.11.28）（腾讯·Token/阿里·Token Plan/OpenCode Go/天翼云·Token/Alaya Code/TaoToken/超算互联网·Token（SCNet）/小米·MiMo 官方页经核对无变化）
 - **Video**（2026.11.28）（快手可灵/Vidu/腾讯混元/通义万相/OpenArt/海螺AI/即梦 官方页经核对无变化·抓取失败 pai.video/RunningHub）
-- **Image**（2026.11.27）（Midjourney 四档 $10/$30/$60/$120·年付 $96/$288/$576/$1,152·Fast GPU 3.3/15/30/60h 与本地逐项一致，本轮仅页面框架文字变动，不改数据·RunningHub 登录墙无证据（兜底仅第三方成本实测验，不作档位依据）·通义万相/堆友/OpenArt/Liblib AI 未变化·即梦本轮无证据未动）
+- **Image**（2026.11.28）（堆友证据仅为首页导航与模板文案·无价位额度信息未改动·RunningHub 登录墙无证据·Midjourney/通义万相/OpenArt/Liblib AI 官方页经核对无变化）
 - **Audio**（2026.11.28）（Suno/Ace Studio/Udio 官方页经核对无变化·抓取失败 海螺AI）
 - 其他：中转站 2026.08.15（THINK-AI已下架·仅保留幻境MirageAI·幻境充值链接更新）·已下架归档 2026.08.19（新增无问芯穹/天翼云/百度千帆经典CodingPlan）·价格对比 2026.07.06 新增
 
